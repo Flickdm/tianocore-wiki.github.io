@@ -14,132 +14,91 @@ specification update is then submitted to the appropriate working group as an
 Engineering Change Request (ECR), and voted on. For the UEFI Forum, this is a
 change in workflow, not a change in process.
 
-ECRs are tracked in a UEFI Forum Mantis instance, access restricted to UEFI
-Forum Members. TianoCore enables this new process by providing areas on
-[TianoCore Bugzilla](https://bugzilla.tianocore.org) to track both specification
-updates and reference implementations and new repositories under
-[TianoCore GitHub](https://github.com/tianocore) dedicated to hold "code first".
+## UEFI Forum Tracking
 
-## TianoCore Bugzilla
+ECRs are tracked in a [UEFI Forum Mantis](https://mantis.uefi.org/) instance,
+with access restricted to UEFI Forum Members.
 
-[TianoCore Bugzilla](bugzilla.tianocore.org) has product categories for:
+## TianoCore Tracking
 
-- ACPI Specification
-- UEFI Shell Specification
-- UEFI Platform Initialization Distribution Packaging Specification
-- UEFI Platform Initialization Specification Specification
-- UEFI Specification
+TianoCore enables this process by using [GitHub issues](https://github.com/features/issues)
+to track specification updates, reference implementations, and any other
+associated changes, such as links to content within the [TianoCore GitHub](https://github.com/tianocore)
+organization, related to the "code first" change.
 
-Each product category has separate components for:
-
-- Specification
-- Reference implementation
-
-## TianoCore GitHub
-
-Reference implementations targeting the EDK II open source project are held
-in branches in the [edk2-staging](https://github.com/tianocore/edk2-staging)
-repository.
-
-Additional repositories for implementing reference features in additional open
-source projects can be added in the future, as required.
-
-Specification text changes are held within the affected source repository,
-using the GitHub flavor of markdown, in a file (or split across several files)
-with .md suffix.  Multiple files are required if changes impact multiple
-specifications or if the specification is large and is easier to maintain
-if the changes are split across multiple files.
-
-- NOTE: This one may break down where we have a specification change affecting
-  multiple specifications, but at that point we can track it with multiple
-  TianoCore Bugzilla entries.
-
-### Specification Text Template
-
-The following is a template of specification text changes using the GitHub
-flavor of markdown.  The title and complete description of the specification
-changes must be provided in the specification text along with the name and
-version of the specification the change applies.  The `Status` of the
-specification change always starts in the `Draft` state and is updated based
-on feedback from the industry standard forums.  The contents of the specification
-text are required to use the
-[Creative Commons Attribution 4.0 International](https://spdx.org/licenses/CC-BY-4.0.html)
-license using a `SPDX-License-Identifier` statement.
-
-```txt
-# Title: [Must be Filled In]
-
-# Status: [Status]
-
-[Status] must be one of the following:
-* Draft
-* Submitted to industry standard forum
-* Accepted by industry standard forum
-* Accepted by industry standard forum with modifications
-* Rejected by industry standard forum
-
-# Document: [Title and Version]
-
-Here are some examples of [Title and Version]:
-* UEFI Specification Version 2.8
-* ACPI Specification Version 6.3
-* UEFI Shell Specification Version 2.2
-* UEFI Platform Initialization Specification Version 1.7
-* UEFI Platform Initialization Distribution Packaging Specification Version 1.1
-
-# License
-
-SPDX-License-Identifier: CC-BY-4.0
-
-# Submitter: [TianoCore Community](https://www.tianocore.org)
-
-# Summary of the change
-
-Required Section
-
-# Benefits of the change
-
-Required Section
-
-# Impact of the change
-
-Required Section
-
-# Detailed description of the change [normative updates]
-
-Required Section
-
-# Special Instructions
-
-Optional Section
-```
+Code first implementation targeting the EDK II open source project are initially
+held in draft pull requests within a TianoCore GitHub repository.
 
 ## Intended workflow
 
-The entity initiating a specification change enters a Bugzilla in the appropriate
-area of [TianoCore Bugzilla](bugzilla.tianocore.org). This entry contains the
-outline of the change, and the full initial draft text is attached.
+1. Create a new GitHub issue in the primary TianoCore repository for the change using the "Code First" form.
+   - Note: The primary repository will most frequently be [edk2](https://github.com/tianocore/edk2).
+   - Note: Ensure all specifications impacted by the change are selected in the form.
+     - Note: A specification draft change must be included in a markdown file in the "code first dev branch". A file
+       must be present for each specification if more than one specification is impacted by the change. Base the file
+       content on the template in the Code First GitHub issue submission form.
+2. Make the changes in a new branch with the prefix `GI####-<BranchName>` that
+   meets the content requirements for the code first process described in this document.
+    - Note: `####` in `GI####` is the GitHub issue number from *step 1*.
+    - Note: `<BranchName>` is a brief description of the change.
+    - Note: Code content must follow the coding style and naming conventions in
+      the [Source Code](#source-code) section of this document.
+    - Note: Code first pull requests may have PR checks performed to verify that these requirements are met.
+3. Push the "code first dev branch" to either:
+    1. A fork of the primary repository (e.g. `username/edk2`)
+    2. A branch in [edk2-staging](https://github.com/tianocore/edk2-staging).
 
-If multiple specification updates are interdependent, especially if between
-different specifications, then multiple Bugzilla entries should be created.
-These Bugzilla entries *must* be linked together with dependencies.
+       Consider this branch a collaboration point for yourself and others that may contribute to the change.
+        - If you use a fork of the primary repository, ensure that the fork is public. You may grant permisssions to
+          your fork branch as needed for others to collaborate there.
+        - If you use an `edk2-staging` branch, you might need to reach out to an edk2-staging maintainer so they can
+          grant permissions to the users that need to push changes there.
+          - If you do not have write permission, in the "Anything else?" box of the GitHub issue in *step 1*, notify the
+            admins with `@tianocore/tianocore-admins` and list the GitHub usernames for all collaborators that need
+            permission to the `edk2-staging` branch.
+4. Create a draft pull request into the default branch on the repository from the "code first dev branch" (*step 3*).
+   - Check the "Code First" box in the PR template so the `type:code-first` label is applied to the PR.
+5. Add a comment in the PR with a link to the GitHub issue created in *step 1*.
+   - It is also recommended to link the pull request to the issue following the methods described in
+     [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
+6. Continue to develop the change in the "code first dev branch" until it is ready for review. Changes pushed to the
+   branch will automatically update the PR.
+7. After all dependent specification changes have been approved and publicly published, the PR with code changes is
+   eligible for review. Mark the PR as ready for review when code changes are final (so it is taken out of draft
+   status).
+8. Reviewers will review the PR and provide feedback.
+9. Make changes based on feedback and continue to iterate until the change is ready to be merged.
+10. A maintainer will merge the PR after the change is approved.
 
-After the Bugzillas have been created, new branches should be created in the
-relevant repositories for each Bugzilla.  The branch names must use the following
-format where `####` is the Bugzilla ID and \<Brief Description\> is an optional
-description of the change.
+If the change impacts repsoitories other than edk2, such as integration changes in
+[edk2-platforms](https://github.com/tianocore/edk2-platforms), those changes should
+be kept in a branch on a fork of the repository and the PR process described above
+should be followed in that repository as well.
 
-`BZ####-<Brief Description>`
+Any other relevant branches, issues, discussions, or forks should be linked to the issue in *step 1*.
 
-If multiple Bugzilla entries must coexist on a single branch, one of them is
-designated the *top-level*, with dependencies properly tracked. That Bugzilla
-is be the one naming the branch.
+When the change is ready for review, the PR should be marked as ready for review (taken out of draft status).
+
+### Edk2-Staging Branch and the Draft Pull Request
+
+Something to be aware of is that two parts of the code first process are constant to simplify finding and contributing
+to code first changes.
+
+1. Regardless of the decision made in *step 3*, a `GI####-<BranchName>` branch will always exist in `edk2-staging`.
+2. A draft PR linked to the GitHub issue in *step 1* will always exist in the primary repository.
+
+If the contributor opts to use a fork of the primary repository in *step 3*, an automated process will sync updates to
+the `GI####-<BranchName>` branch in `edk2-staging` any time the draft PR is updated. Thus, even if you do not have
+write permission to `edk2-staging` your branch will still be created there and kept up to date on your behalf. Be aware
+that in this case, the "code first dev branch" is still the branch on the fork as that is the PR branch.
 
 ## Source Code
 
+> Note: This section is currently required as defined. It is being reviewed and the process may change in the future.
+
 In order to ensure draft code does not accidentally leak into production use,
 and to signify when the changeover from draft to final happens, *all* new or
-modified[1] identifiers must be prefixed with the relevant BZ#### identifiers.
+modified[1] identifiers must be prefixed with the relevant `GI####` identifiers.
 
 - [1] Modified in a non-backwards-compatible way. If, for example, a statically
       sized array is grown - this does not need to be prefixed. But a tag in a
@@ -147,7 +106,7 @@ modified[1] identifiers must be prefixed with the relevant BZ#### identifiers.
 
 ### File names
 
-New public header files require the prefix (i.e. `Bz1234MyNewProtocol.h`).
+New public header files require the prefix (i.e. `Gi1234MyNewProtocol.h`).
 Private header files do not need the prefix.
 
 ### Contents
@@ -157,8 +116,8 @@ Examples:
 
 | Released in spec | Draft version in tree | Comment |
 | ---              | ---                   | ---     |
-| `FunctionName`   | `Bz1234FunctionName`  |         |
-| `HEADER_MACRO`   | `BZ1234_HEADER_MACRO` |         |
+| `FunctionName`   | `Gi1234FunctionName`  |         |
+| `HEADER_MACRO`   | `GI1234_HEADER_MACRO` |         |
 
 For data structures or enums, any new or non-backwards-compatible structs or
 fields require a prefix. As above, growing an existing array in an existing
@@ -166,21 +125,21 @@ struct requires no prefix.
 
 | Released in spec      | Draft version in tree | Comment               |
 | ---                   | ---                   | ---                   |
-| `typedef SOME_STRUCT` | `BZ1234_SOME_STRUCT`  | Typedef only [2]      |
-| `StructField`         | `Bz1234StructField`   | In existing struct[3] |
-| `typedef SOME_ENUM`   | `BZ1234_SOME_ENUM`    | Typedef only [2]      |
-| `EnumValue`           | `Bz1234EnumValue`     | In existing enum[3]   |
+| `typedef SOME_STRUCT` | `GI1234_SOME_STRUCT`  | Typedef only [2]      |
+| `StructField`         | `Gi1234StructField`   | In existing struct[3] |
+| `typedef SOME_ENUM`   | `GI1234_SOME_ENUM`    | Typedef only [2]      |
+| `EnumValue`           | `Gi1234EnumValue`     | In existing enum[3]   |
 
 - [2] If the struct or enum definition is separate from the typedef in the public
       header, the definition does not need the prefix.
 - [3] Individual fields in newly added struct or enum do not need prefix, the
       struct or enum already carried the prefix.
 
-Variable prefixes indicating global scope ('g' or 'm') go before the BZ prefix.
+Variable prefixes indicating global scope (`g` or `m`) go before the `GI` prefix.
 
 | Released in spec | Draft version in tree | Comment |
 | ---              | ---                   | ---     |
-| `gSomeGuid`      | `gBz1234SomeGuid`     |         |
+| `gSomeGuid`      | `gGi1234SomeGuid`     |         |
 
-Local identifiers, including module-global ones (m-prefixed) do not require a
-BZ prefix.
+Local identifiers, including module-global ones (`m`-prefixed) do not require a
+`GI` prefix.
