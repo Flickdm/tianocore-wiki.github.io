@@ -20,12 +20,17 @@ At a high-level, getting started with code development in the EDK II repo consis
 3. Development and Test - Performed on every code contribution.
 4. Code Review and CI - Performed on every code contribution.
 
+By default, you may not be able to leave comments on a PR or your GitHub account might not be found
+to be added as a reviewer to a PR. If you would like to have those capabilities, send an email to
+the [edk2 developer mailing list](mailto:devel@edk2.groups.io?subject=Add%20to%20edk-ii-collaborators)
+that includes your GitHub username to request access to `EDK II Collaborators`.
+
 ## Tool Setup, Workspace Setup, and Development and Test
 
 Refer to the [Build Instructions](Build-Instructions "wikilink") documentation. After following those
 instructions, you should have a workspace setup and understand how to build and test the code.
 
-This remainder of this page focuses source management details and how to prepare for code review.
+The remainder of this page focuses on source management details and how to prepare for code review.
 
 ## Contributor Process
 
