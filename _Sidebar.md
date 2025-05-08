@@ -15,3 +15,4 @@
 [[Community Support]]<br/>
 [[Community Virtual Meetings]]<br/>
 [[GHSA GitHub Security Advisories Proceess]]<br/>
+[[Infosec-GHSA-Process-Proposal]]<br/>
