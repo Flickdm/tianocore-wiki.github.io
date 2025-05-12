@@ -40,10 +40,10 @@ A Security Advisory begins when a **reporter** reports a vulnerability.
 
 A `Reporter` will hit the `Security` tab on [Edk2](https://github.com/tianocore/edk2/security) to begin.
 
-![Report a Vulnerability](images\report_a_vulnerability.png)
+![Report a Vulnerability](https://github.com/tianocore/tianocore.github.io/blob/master/images/infosec_ghsa_report_a_vulnerability.png)
 
 Now the `Reporter` can begin submitting vulnerability details.
-![Vulnerability Details](images\submit_vulnerability_details.png)
+![Vulnerability Details](https://github.com/tianocore/tianocore.github.io/blob/master/images/infosec_ghsa_submit_vulnerability_details.png)
 
 At this point the `Reporter` is waiting for response from the EDK2 Info Sec group.
 
@@ -71,7 +71,7 @@ During this stage, the `Remediation Coordinator` will inform the `Reporter` that
 
 The `Remediation Coordinator` should then create a new GHSA and a temporary fork for the Advisory. Each Advisory will have exactly one fork that may contain multiple branches, forked from EDK2.
 
-![create temporary fork](images\create_temporary_fork.png)
+![create temporary fork](https://github.com/tianocore/tianocore.github.io/blob/master/images/infosec_ghsa_create_temporary_fork.png)
 
 The `Remediation Developer` will perform their work and create a patch as soon as possible. If they have questions
 they should contact the `Remediation Reviewers` ASAP.
@@ -84,7 +84,7 @@ Ideally this should be completed within 90 days. Leaving another 90 days at mini
 
 When the `Remediation Developer` is ready for a review, they will create a review on the private fork targeting the primary branch.
 
-![review](images\targetable_branch.jpg)
+![review](https://github.com/tianocore/tianocore.github.io/blob/master/images/infosec_ghsa_targetable_branch.jpg)
 
 The pipelines are not expected to work. To reduce the work that will need to take place in the public, the `Remediation Developer` should run as many CI checks locally as they can (formatting, etc).
 
@@ -108,7 +108,7 @@ Next, the `Remediation Developer` should target the new branch. Then the Remedia
 
 The `Security Advisory Writer` or `Remediation Coordination` or `Maintainer` may merge the new branch. Then `Remediation Coordinator` may then publish the GHSA and credit the appropriate parties.
 
-![publish advisory](images\publish_advisory.png)
+![publish advisory](https://github.com/tianocore/tianocore.github.io/blob/master/images/infosec_ghsa_publish_advisory.png)
 
 ### Stage: Merge
 
