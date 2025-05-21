@@ -10,7 +10,7 @@ The memory profile feature was introduced to help a developer analyze the hardwa
 6. User can configure when to enable recording.
 7. User can know RVA<->Symbol (Function, Source, Line).
 
-This wiki page only focuses on how to enable memory leak detection with memory profile feature. The part I and II of white paper "A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDKII"(https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDK_II.pdf) can be referred if you really want to know the inside working mechanism of memory profile feature.
+This wiki page only focuses on how to enable memory leak detection with memory profile feature. The part I and II of white paper "A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDKII"(https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDK_II.pdf) can be referred if you really want to know the inside working mechanism of memory profile feature.
 
 # PCDs, libraries and tools
 ### PCDs
