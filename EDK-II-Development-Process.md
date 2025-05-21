@@ -243,10 +243,10 @@ The generic rules from the main process applies, with the following additions:
    external requirements beyond what is already present in those repositories.
 2. Platforms/drivers must document any build steps/options beyond the basic steps described in the top-level
    Readme.md. They must also document the toolchains that are known working.
-   2.1. Helper scripts to streamline building are fine, but since those tend to come with their own stack of
-        dependencies, they must not be _required_ for a basic build test.
-   2.2. Pointing to a docker image is fine, as long as the toolchain versions in that docker image are
-        also explicitly called out.
+   - Helper scripts to streamline building are fine, but since those tend to come with their own stack of
+     dependencies, they must not be _required_ for a basic build test.
+   - Pointing to a docker image is fine, as long as the toolchain versions in that docker image are
+     also explicitly called out.
 3. Platforms/drivers must be buildable with current toolchain versions (i.e. no "build is only supported on
    Ubuntu 14.04 LTS").
 
