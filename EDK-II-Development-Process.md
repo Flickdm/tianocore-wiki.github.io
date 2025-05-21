@@ -233,6 +233,23 @@ All conversations must be resolved for a PR to be completed. This is the process
    conversations.
 3. A conversation cannot be resolved until the PR author and commenter have reached an agreed upon resolution.
 
+## Maintainer Process for the edk2-platforms Repository
+
+The generic rules from the main process applies, with the following additions:
+
+1. Maintainers are responsible for keeping their platform/driver ports buildable against an
+   unmodified current version of edk2 and (if so required) edk2-non-osi. Unless given explicit permission
+   by the repository owners (as was done for opensbi), platforms/drivers are not permitted additional
+   external requirements beyond what is already present in those repositories.
+2. Platforms/drivers must document any build steps/options beyond the basic steps described in the top-level
+   Readme.md. They must also document the toolchains that are known working.
+   2.1. Helper scripts to streamline building are fine, but since those tend to come with their own stack of
+        dependencies, they must not be _required_ for a basic build test.
+   2.2. Pointing to a docker image is fine, as long as the toolchain versions in that docker image are
+        also explicitly called out.
+3. Platforms/drivers must be buildable with current toolchain versions (i.e. no "build is only supported on
+   Ubuntu 14.04 LTS").
+
 ## Maintainer Process for the EDK II BaseTools Project
 
 [EDK II BaseTools project](https://github.com/tianocore/edk2-basetools) is a Tianocore-maintained project consisting
