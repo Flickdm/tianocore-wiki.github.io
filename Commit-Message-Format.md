@@ -49,6 +49,32 @@ change.
 Signed-off-by: Contributor Name <contributor@email.server>
 ```
 
+Some commits span multiple packages. When the number of packages changed is fewer than 4, the expected commit message
+form is:
+
+```txt
+Package,Package<,Package>/Module: Short one line description of change
+
+Several lines of
+description for the
+change.
+
+Signed-off-by: Contributor Name <contributor@email.server>
+```
+
+where each package is comma separated. If the number of packages is 4 or greater, the expected commit message form
+is:
+
+```txt
+Global: Short one line description of change
+
+Several lines of
+description for the
+change.
+
+Signed-off-by: Contributor Name <contributor@email.server>
+```
+
 > After moving to the pull request contribution process, the `Cc`, `Reviewed-by`, `Acked-by`, and `Tested-by` tags are
 > no longer required in commit messages.
 
