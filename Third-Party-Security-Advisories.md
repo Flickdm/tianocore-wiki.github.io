@@ -1,3 +1,18 @@
+# [CVE-2025-9232- OpenSSL](https://www.cve.org/CVERecord?id=CVE-2025-9232)
+## Published: 9/30/2025
+## Recommendation:
+Not a problem for EDK2. The OpenSSL HTTP implementation is not used by EDK2. EDK2 has its own HTTP implementation in NetworkPkg.
+
+# [CVE-2025-9231- OpenSSL](https://www.cve.org/CVERecord?id=CVE-2025-9231)
+## Published: 9/30/2025
+## Recommendation:
+Not a problem for EDK2. SM2 is not used by EDK2 CryptoPkg.
+
+# [CVE-2025-9230- OpenSSL](https://www.cve.org/CVERecord?id=CVE-2025-9230)
+## Published: 9/30/2025
+## Recommendation:
+Not a problem for EDK2. CMS is not used by EDK2 CryptoPkg.
+
 # [CVE-2024-12797- OpenSSL](https://www.cve.org/CVERecord?id=CVE-2024-12797)
 ## Published: 2/11/2025
 ## Recommendation:
