@@ -1,8 +1,8 @@
 # ArmPkg Debugging
 
-### Backgound
+## Backgound
 
-#### EFI binary format
+### EFI binary format
 
 EFI binary files are not ELF formated files. It means most ARM debugger
 tools will not understand this format. But an EFI binary file is
@@ -27,14 +27,14 @@ branch instruction at the base of the firwmare (location of the Reset
 Entry into the Vector Table) will jump to the first 'SEC' module of the
 UEFI Firmware Image.
 
-#### Hardware Debugger & Printed Debug Command lines
+### Hardware Debugger & Printed Debug Command lines
 
 The hardware debugger cannot read the command lines printed into the
 serial console. These command lines are only there to help the firmware
 engineer to load the symbols for the corresponding modules into his/her
 debugger tool.
 
-### Debugging code when the 'Debug Command lines' are printed into the serial console
+## Debugging code when the 'Debug Command lines' are printed into the serial console
 
 1\. Stop your target (eg: with a hardware debugger)
 

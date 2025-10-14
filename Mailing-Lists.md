@@ -1,6 +1,6 @@
 # Mailing Lists
 
-### Current Lists
+## Current Lists
 
 We currently have the below mailing lists for questions, these are also
 listed on Groups.io:
@@ -11,7 +11,7 @@ Request for comments: [https://edk2.groups.io/g/rfc](https://edk2.groups.io/g/rf
 General discussion topics / questions:
 [https://edk2.groups.io/g/discuss](https://edk2.groups.io/g/discuss)
 
-### Archived lists
+## Archived lists
 
 Please note that with the exception of \*edk2-bugs\*, the lists below
 are all archives. Please see the information above for the current

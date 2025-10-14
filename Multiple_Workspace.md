@@ -1,6 +1,6 @@
 # Multiple Workspace
 
-### Introduction
+## Introduction
 
 An update to the EDKII build tools now allows the setting of multiple
 paths that will be searched when attempting to resolve the location of
@@ -24,7 +24,7 @@ PACKAGES_PATH environment variables.
 The use of the PACKAGES_PATH environment variable is optional and if it
 is not defined the build will function like it has in the past.
 
-### Environment Variables
+## Environment Variables
 
 - WORKSPACE
   - Location of the Build directory

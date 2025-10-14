@@ -1,6 +1,6 @@
 # EmbeddedPkg Ebl
 
-### How to delete an environement variable
+## How to delete an environement variable
 
 The EBL command 'set' can be used to set an ASCII string value to a UEFI
 environment variable (eg: 'set myvariable myvalue'). But this command

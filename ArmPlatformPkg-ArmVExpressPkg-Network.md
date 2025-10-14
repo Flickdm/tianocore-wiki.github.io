@@ -1,6 +1,6 @@
 # ArmPlatformPkg ArmVExpressPkg Network
 
-### Install a DHCP and TFTP servers on your machine
+## Install a DHCP and TFTP servers on your machine
 
 To ease my development I have installed a second dedicated ethernet card
 on my host machine (... do not forget the crossover cable if directly
@@ -16,7 +16,7 @@ as the reference documentation to install these network services. They
 are only there for information. Please look at your OS/Linux
 distribution documentation for a proper settings.
 
-#### Install the DHCP server
+### Install the DHCP server
 
     sudo apt-get install dhcp3-server
 
@@ -47,7 +47,7 @@ editing /etc/default/dhcp3-server so that INTERFACES is assigned "eth1":
 
     INTERFACES="eth1"
 
-#### Install the TFTP server
+### Install the TFTP server
 
 Get the server package
 
@@ -94,7 +94,7 @@ the command \`cat /etc/passwd \| grep ftp\` returns any entry):
     sudo groupadd -r tftp
     sudo useradd -r -d /var/lib/tftpboot -g tftp -s /sbin/nologin tftp
 
-#### Configure the Ethernet card
+## Configure the Ethernet card
 
 We also need to configure the eth1 device to have a static ip address.
 There are a few ways to do this, either via a script or through the
@@ -131,7 +131,7 @@ Let's test of TFTP service. From your terminal:
 Now you should see the file you put in /var/lib/tftpboot in the
 directory you ran tftp from.
 
-#### Debugging the Ethernet Driver
+## Debugging the Ethernet Driver
 
 To debugging the network stack add the bit DEBUG_NET (ie: 0x00004000) to
 gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel to enable the network

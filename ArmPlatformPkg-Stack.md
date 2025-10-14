@@ -1,6 +1,6 @@
 # ArmPlatformPkg Stack
 
-### Stack Topology in ArmPlatformPkg
+## Stack Topology in ArmPlatformPkg
 
 On MP Core system, the primary core is the core which is responsible for
 leading the execution in a software stack. In most cases, the primary
@@ -45,7 +45,7 @@ Stack Size: gArmPlatformTokenSpaceGuid.PcdCPUCoreSecMonStackSize
 In case of UniCore system, only the primary stack size and stack base
 need to be defined.
 
-### Global Variable region
+## Global Variable region
 
 To make easier to port EDK2 to a new ARM platform, global variables
 needed during the XIP phase have been defined into common region of the

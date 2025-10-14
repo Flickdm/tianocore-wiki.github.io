@@ -4,7 +4,7 @@ User can use the Perf macros in edk2/MdePkg/Include/Library/PerformanceLib.h to 
 The performance information are collected in FPDT record format directly by performance libraries and then saved in ACPI Firmware Performance Data Table(FPDT).<BR>
 Thus the performance data can be dumped both in UEFI Shell and OS by tools to parse FPDT in ACPI table.
 
-# Performance Enable
+## Performance Enable
 
  **(1) Make sure the Library instances are used correctly in different phase.**
 
@@ -23,7 +23,7 @@ Thus the performance data can be dumped both in UEFI Shell and OS by tools to pa
 **Notes:**
 If you want to filter some performance data, please check the configuration of PcdPerformanceLibraryPropertyMask in below PCD part for more information.
 
-# Performance Dump Tool
+## Performance Dump Tool
 
 * **UEFI Shell tool: DP**<BR>
    **(1) Use DP command:**<BR>
@@ -36,22 +36,22 @@ If you want to filter some performance data, please check the configuration of P
 
     DP command and application read the installed FPDT ACPI table itself to get the performance data.
 
-# Performance modules
+## Performance modules
 
-## Performance library instances
+### Performance library instances
 
-### 1. edk2/MdeModulePkg/Library/PeiPerformanceLib
+#### 1. edk2/MdeModulePkg/Library/PeiPerformanceLib
 
    This library instance provides infrastructure for PEIMs(including PeiCore) to log performance data.<BR>
    It will create FPDT record to save the performance data and pass the FPDT records to DxeCorePerformanceLib through
    Guided Hob.
 
-### 2. edk2/MdeModulePkg/Library/SmmPerformanceLib
+#### 2. edk2/MdeModulePkg/Library/SmmPerformanceLib
 
    This library instance provides infrastructure for SMM drivers to log performance data.<BR>
    It consumes SMM PerformanceMeasurement Protocol published by SmmCorePerformanceLib to log performance data.
 
-### 3. edk2/MdeModulePkg/Library/SmmCorePerformanceLib
+#### 3. edk2/MdeModulePkg/Library/SmmCorePerformanceLib
 
    This library instance is used by SmmCore. It will:
 
@@ -59,12 +59,12 @@ If you want to filter some performance data, please check the configuration of P
 * Publish SMM PerformanceMeasurement protocol consumed by SmmPerformanceLib to log the performance data in SMM.
 * Report the performance data in SMM phase (FPDT records) to the FirmwarePerformanceDataTableSmm driver.
 
-### 4. edk2/MdeModulePkg/Library/DxePerformanceLib
+#### 4. edk2/MdeModulePkg/Library/DxePerformanceLib
 
    This library instance provides infrastructure for DXE drivers to log performance.<BR>
    It consumes PerformanceMeasurement Protocol published by DxeCorePerformanceLib to log performance data.
 
-### 5. edk2/MdeModulePkg/Library/DxeCorePerformanceLib
+#### 5. edk2/MdeModulePkg/Library/DxeCorePerformanceLib
 
    This library instance is used by DxeCore. It will:<BR>
 
@@ -151,7 +151,7 @@ FirmwarePerformanceDataTableDxe listens to the status code of EFI_SW_BS_PC_EXIT_
    And it will install FPDT to ACPI table.<BR>
    **This module is used in normal boot.**
 
-# PCD
+## PCD
 
 ### PcdPerformanceLibraryPropertyMask
 

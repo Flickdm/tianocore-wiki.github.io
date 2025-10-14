@@ -1,6 +1,6 @@
 # USB Stack
 
-### If I have a USB dongle, what drivers do I need?
+## If I have a USB dongle, what drivers do I need?
 
 Below are specific paths to the drivers from the open source packages.
 You can also put in both EHCI and UHCI, and they will work together to

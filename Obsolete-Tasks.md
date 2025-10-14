@@ -8,11 +8,9 @@ various reasons are no longer relevant and are largely historical. We do
 not plan to accept any GSoC proposals for these projects. Please let us
 know on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel)
 if you plan to work on one of these tasks anyway (to prevent duplicated
-effort).
+effort).#
 
-# Obsolete Tasks
-
-### Build a C compiler for EBC
+## Build a C compiler for EBC
 
 **:red_circle: Low priority because EBC is no longer required by the
 UEFI spec. :red_circle:**
@@ -27,7 +25,7 @@ Build a C compiler that is able to generate EBC (EFI Byte Code).
 More information:
 [Tasks-Build-a-C-compiler-for-EBC](Tasks-Build-a-C-compiler-for-EBC)
 
-### Compatibility Support Module
+## Compatibility Support Module
 
 **:red_circle: Low priority because TianoCore does not promote legacy
 boot architectures. :red_circle:**
@@ -47,7 +45,7 @@ usable (GPL license). [http://www.coreboot.org/SeaBIOS](http://www.coreboot.org/
   SeaBIOS can be built as a CSM, but a BSD licensed alternative is still
   not available.
 
-### Intel Galileo Platform Improvements
+## Intel Galileo Platform Improvements
 
 **:red_circle: Low priority because Galileo is no longer manufactured.
 :red_circle:**
@@ -65,7 +63,7 @@ based on open source platform in EDK II.
 
 Mentor: [https://github.com/mdkinney](https://github.com/mdkinney)
 
-### Coverity Static Analysis Tools
+## Coverity Static Analysis Tools
 
 **:red_circle: Low priority for now because one-off Coverity scans have
 been done and those bugs still need to be fixed. :red_circle:**
@@ -83,6 +81,6 @@ Enable Coverity Scan for all EDK II projects.
 Mentor: [https://github.com/mdkinney](https://github.com/mdkinney),
 [https://github.com/shijunjing](https://github.com/shijunjing)
 
-# See Also
+## See Also
 
 - [How To Contribute](How_To_Contribute)

@@ -1,6 +1,6 @@
 # ArmPlatformPkg Bds
 
-### Specify the default Console I/O devices
+## Specify the default Console I/O devices
 
 The UEFI Boot Manager expects all the console peripherals to be defined
 by the UEFI environment variables ConInDev and ConOutDev. At the time of

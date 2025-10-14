@@ -1,7 +1,6 @@
 # Getting Started Writing Simple Application
 
-<span style="font-size: 15.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">**How
-to Write a Simple EDK II UEFI Application** </span>
+## How to Write a Simple EDK II UEFI Application
 
 ### 1) Create a Work Space Directory
 
@@ -20,14 +19,13 @@ OR
     Download release (or Latest
     [UDK](UDK) release).
 
-=== 3) Run the ***edksetup**'' === Run***edksetup --nt32**'' script from
-the command line prompt at the Work Space directory
+### 3) Run the **edksetup**
+
+Run ***edksetup --nt32**'' script from the command line prompt at the Work Space directory
 
 1. Windows Comand Prompt:
-    <span style="font-family: Courier">**C:\edk2\> edksetup --nt32**
-    </span>
-2. Linux like: <span style="font-family: Courier">**bash\$ .
-    edksetup.sh BaseTools**</span>
+    <span style="font-family: Courier">**C:\edk2\> edksetup --nt32**</span>
+2. Linux like: <span style="font-family: Courier">**bash\$ .edksetup.sh BaseTools**</span>
 
 ### 4) Edit the file conf/target.txt
 
@@ -68,7 +66,7 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 
 ### 6) Build your UEFI Application
 
-#### Build X64 UEFI Application
+## Build X64 UEFI Application
 
 1. Update an existing platform .DSC file with your project .inf file.
     The following list some examples.
@@ -85,7 +83,7 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 3. Final Output .efi file will be in the directory
     ***WorkSpace*/Build/DuetPkg/DEBUG\_\$(*TOOL_CHAIN_TAG*)/X64**
 
-#### Build IA32 UEFI Application
+## Build IA32 UEFI Application
 
 1. Since this is the default as per the target.txt Update the
     Nt32Pkg/Nt32Pkg.dsc file.

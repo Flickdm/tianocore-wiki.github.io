@@ -1,6 +1,6 @@
 # ArmPkg Toolchain
 
-### List of ARM toolchains
+## List of ARM toolchains
 
 | Toolchain Name | Host OS | Description |
 |----|----|----|
@@ -17,7 +17,7 @@ ARM Toolchain supported in EDK2 BaseTools
 built from a MS Windows. Pre-built BaseTools binaries are provided by
 EDK2 repository.
 
-### Add Support for ARMGCC
+## Add Support for ARMGCC
 
 1\. Get the arm-none-eabi Toolchain from Code Sourcery:
 
@@ -26,7 +26,7 @@ EDK2 repository.
 
 2\. Add the arm-none-eabi toolchain to your path
 
-### Add Support for ARMLINUXGCC
+## Add Support for ARMLINUXGCC
 
 1\. On a Ubuntu based-distribution, add the Linaro toolchain:
 
