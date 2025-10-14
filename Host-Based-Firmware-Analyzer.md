@@ -2,7 +2,7 @@
 
 Host-based Firmware Analyzer (HBFA) enables advanced testing of UEFI drivers and UEFI Platform Initialization (PI) drivers in the developer’s OS environment. This test system was contributed to TianoCore edk2-staging branch by Intel in April 2019.
 
-https://github.com/tianocore/edk2-staging/tree/HBFA 
+https://github.com/tianocore/edk2-staging/tree/HBFA
 
 # Background
 

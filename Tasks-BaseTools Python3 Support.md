@@ -21,7 +21,6 @@ Not started.
 * [ ] Trim
 * [ ] UPT
 
-
 # Task Overview
 
 * Difficulty: Complex

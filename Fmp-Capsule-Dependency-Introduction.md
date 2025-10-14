@@ -24,7 +24,6 @@ The parameter `Image` of `FmpDeviceSetImage` and `FmpDeviceGetImage` function is
 2. `FmpDeviceGetImage` is responsible for retrieving the dependency from the storage where `FmpDeviceSetImage` saves dependency and combining it with the Fmp Payload Image into one buffer which is returned to the caller. This dependency will be populated into `EFI_FIRMWARE_IMAGE_DESCRIPTOR` and used for Dependency Evaluation Check 2.
 3. `FmpDeviceGetAttributes` must set the bit `IMAGE_ATTRIBUTE_DEPENDENCY` to indicate the Fmp device has dependency expression associcated with the Fmp image and supports Fmp Capsule Dependency feature.
 
-
 ## Enable Fmp Capsule Dependency
 ### How to enable capsule dependency feature for an Fmp Device:
 Please refer to the following sample code which uses EFI variable as the storage of Fmp dependency op-codes. Notice: The EFI variable must be locked before EndOfDxe.
@@ -80,7 +79,7 @@ FmpDeviceSetImage (
     //
     FmpDepexSize = ImageSize - FmpPayloadImageSize;
     Status = SaveFmpDependencyToStorage ((EFI_FIRMWARE_IMAGE_DEP *)Image, FmpDepexSize);
-  } 
+  }
 
   //
   // Continue to set image...

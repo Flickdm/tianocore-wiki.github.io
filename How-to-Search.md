@@ -1,7 +1,7 @@
-# How to Search the TianoCore wiki pages 
-Most of the documentation, white papers and "How to"s are incorporated into the TianoCore wiki pages.  
+# How to Search the TianoCore wiki pages
+Most of the documentation, white papers and "How to"s are incorporated into the TianoCore wiki pages.
 * **Search for a string or topic inside all wiki pages**:
-  * To search for a topic, use the github Search at the top of your web browser.  
+  * To search for a topic, use the github Search at the top of your web browser.
   * Enter your string in the `Search    ` box then hit "Enter"
   * Github defaults to the current repository and shows how many instances it finds in the
      * `  Code | Commits | Issues | Wikis  `
@@ -13,6 +13,3 @@ Most of the documentation, white papers and "How to"s are incorporated into the 
   * Example:  Type "Nt32"  in the grey box  `find a page   `  the result will be:
      * NT32
      * Nt32Pkg
-     
-
-

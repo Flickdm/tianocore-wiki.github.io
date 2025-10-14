@@ -2,7 +2,7 @@
 
 PXE is a standardized client-server solution that boots an agent via network, allowing management tasks in the absence of a running OS. EDK II has PXE Boot specification compliant implementation for UEFI. This feature is commonly referred to as "PXE boot".
 
-This page describes the operation of PXE. There are separate pages describing how to [[Enable UEFI PXE Boot in EDK II]] and [[Configuring PXE Boot Servers for UEFI]].
+This page describes the operation of PXE. There are separate pages describing how to [Enable UEFI PXE Boot in EDK II](Enable-UEFI-PXE-Boot-in-EDK-II.md) and [Configuring PXE Boot Servers for UEFI](Configuring-PXE-Boot-Servers-for-UEFI.md).
 
 ## History & Related Specifications
 

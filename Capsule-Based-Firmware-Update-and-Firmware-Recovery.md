@@ -30,7 +30,7 @@ The EDK II implementation of capsule-based firmware update and firmware recovery
 The [UEFI Specification](http://www.uefi.org) and the [PI Specification](http://www.uefi.org) provide details on the services, tables, and variables associated with the use of capsules for firmware update and recovery.
 
 * [UEFI] `UpdateCapsule()` and `QueryCapsuleCapabilities()` Runtime Services
-* [UEFI] `_OsIndicationsSupported_` and `_OsIndications_` UEFI Variables 
+* [UEFI] `_OsIndicationsSupported_` and `_OsIndications_` UEFI Variables
   + Support for `EFI_OS_INDICATIONS_FILE_CAPSULE_DELIVERY_SUPPORTED` is **not** implemented.
 * [UEFI] _CapsuleNNNN_ Capsule Report Variables
 * [UEFI] Firmware Management Protocol (FMP)

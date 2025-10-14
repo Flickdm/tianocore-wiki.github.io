@@ -1,7 +1,7 @@
 Change **TOOL_CHAIN_TAG** in the file Conf\Target.txt for Windows Visual Studio Versions according to the following Matrix
 
 |Visual Studio |	V. Version |	WinXP / Win7 /IA32 |	Win7 / Win8x / Win10 x64 |
-| ----------------- | ------------------ | -------------- | -------------- | 
+| ----------------- | ------------------ | -------------- | -------------- |
 |VS2005	|8	|VS2005	|VS2005x86|
 |VS2008	|9	|VS2008	|VS2008x86|
 |VS2010	|10	|VS2010	|VS2010x86|

@@ -8,7 +8,7 @@ If you are running Ubuntu 16.04 then you are ready to build.
 
 ### Ubuntu 16.04 Prebuilt Container
 
-We have already built an Ubuntu 16.04 container specifically for the workshops at OSFC 2018. Follow the instructions to install the [[Container for OSFC Workshops]]. You **do not** have to follow the OVMF Walkthrough in the instructions. Once installed, you will need to add gcc-multilib to that image. The password is `password`:
+We have already built an Ubuntu 16.04 container specifically for the workshops at OSFC 2018. Follow the instructions to install the [Container for OSFC Workshops](Container-for-OSFC-Workshops.md). You **do not** have to follow the OVMF Walkthrough in the instructions. Once installed, you will need to add gcc-multilib to that image. The password is `password`:
 
 ```bash
 su root
@@ -19,10 +19,10 @@ apt install gcc-multilib
 
 If you are comfortable running your own docker build, follow these instructions to install Docker, based on your distribution. You can then run ```docker pull``` to get ```ubuntu:16.04```.
 
-* [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)  
-* [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)  
-* [OpenSUSE](https://en.opensuse.org/SDB:Docker)  
-* [Arch Linux](https://wiki.archlinux.org/index.php/Docker)  
+* [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)
+* [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+* [OpenSUSE](https://en.opensuse.org/SDB:Docker)
+* [Arch Linux](https://wiki.archlinux.org/index.php/Docker)
 * [Install From Binary](https://docs.docker.com/install/linux/docker-ce/binaries/)
 
 Once Docker is installed, follow the [post-install steps](https://docs.docker.com/install/linux/linux-postinstall/).

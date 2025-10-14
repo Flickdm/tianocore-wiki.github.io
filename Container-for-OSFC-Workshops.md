@@ -2,29 +2,28 @@
 
 <b>NOTE:</b> This Wiki page is only for archival purposes. The container is no longer available to download.
 
-This document describes how to install the container used for the following workshops at [[OSFC 2018]]:
+This document describes how to install the container used for the following workshops at [OSFC 2018](OSFC-2018.md):
 
 * [~~Building Open Source UEFI Firmware with EDK II~~](https://osfc.io/talks/building-open-source-unified-extensible-firmware-interface-uefi-firmware-with-efi-development-kit-ii-edk-ii) - No longer available
 * [~~Debugging UEFI Firmware under Linux~~](https://osfc.io/talks/debugging-unified-extensible-firmware-interface-uefi-firmware-under-linux) - No longer available
 
 Alternative [Tianocore Training](https://github.com/tianocore-training/Tianocore_Training_Contents/wiki) see presentation on "EDK II Build Lab - Emulation/OVMF".
 
-
 These containers are intended to simplify installation of tools and code across a variety of Linux distributions. If possible, please test the container installation prior to arriving at OSFC.
 
 ## Install the Container
 
-~~You can download the container~~ (no longer available) 
+~~You can download the container~~ (no longer available)
 
 After downloading the container, install Docker if you have not done that already.
 
 ### Install Docker
 
-Follow these instructions, based on distribution:  
-* [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)  
-* [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)  
-* [OpenSUSE](https://en.opensuse.org/SDB:Docker)  
-* [Arch Linux](https://wiki.archlinux.org/index.php/Docker)  
+Follow these instructions, based on distribution:
+* [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)
+* [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+* [OpenSUSE](https://en.opensuse.org/SDB:Docker)
+* [Arch Linux](https://wiki.archlinux.org/index.php/Docker)
 * [Install From Binary](https://docs.docker.com/install/linux/docker-ce/binaries/)
 
 Once Docker is installed, follow the [post-install steps](https://docs.docker.com/install/linux/linux-postinstall/).
@@ -130,9 +129,9 @@ make: Leaving directory '/home/dockeruser/workspace/edk2/BaseTools'
 Now edit `Conf/target.txt` with the following values:
 
 ```
-ACTIVE_PLATFORM       = OvmfPkg/OvmfPkgX64.dsc  
-TARGET_ARCH           = X64  
-TOOL_CHAIN_TAG        = GCC5  
+ACTIVE_PLATFORM       = OvmfPkg/OvmfPkgX64.dsc
+TARGET_ARCH           = X64
+TOOL_CHAIN_TAG        = GCC5
 ```
 
 The `build` command can now be executed without command line parameters:
@@ -159,4 +158,4 @@ For more information or examples on building EDK II and writing applications, pl
 
 ### Support Questions
 
-Email [[Mailing-Lists]]
+Email [Mailing-Lists](Mailing-Lists.md)

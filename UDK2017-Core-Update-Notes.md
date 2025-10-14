@@ -1,4 +1,4 @@
-# UDK2017 Core Update Notes 
+# UDK2017 Core Update Notes
 1.  UserPhysicalPresent() behavior is changed in SecurityPkg\Library\PlatformSecureLibNull. <BR>
     It will return the value of new PCD PcdUserPhysicalPresence instead of TRUE.<BR>
     PcdUserPhysicalPresence's default value is FALSE.<BR>
@@ -12,11 +12,11 @@
     3) PcdPs2MouseExtendedVerification
 3.  CpuMpPei.inf is updated to consume MpInitLib and CpuExceptionHandlerLib.<BR>
     Please add the following library instances in platform DSC file, as below:<BR>
-``` 
+```
     [LibraryClasses.common.PEIM]
       MpInitLib|UefiCpuPkg/Library/MpInitLib/PeiMpInitLib.inf
       CpuExceptionHandlerLib|UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib.inf
-``` 
+```
 4.  Add Tpm12DeviceLib instance for TcgDxe.inf in platform DSC file, as below: <BR>
 ```
     [LibraryClasses.common.DXE_DRIVER]
@@ -133,7 +133,7 @@
  `     Tpm2DeviceLib|SecurityPkg/Library/Tpm2DeviceLibTcg2/Tpm2DeviceLibTcg2.inf`
 
 **********
-**Note:** This page describes the Core package differences based on UEFI Development Kit ([[UDK]]) UDK2015 Release.
-For a detailed list of Changes and updates  See  [[UDK2017]]  Release wiki page
+**Note:** This page describes the Core package differences based on UEFI Development Kit ([UDK](UDK.md)) UDK2015 Release.
+For a detailed list of Changes and updates  See  [UDK2017](UDK2017.md)  Release wiki page
 
 **********

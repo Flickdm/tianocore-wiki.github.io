@@ -4,10 +4,10 @@ Note: new platforms are being developed in the [edk2-platforms](https://github.c
 
 ### Virtual/Simulated Platforms
 
-* [[OVMF]] - UEFI firmware support for the [QEMU](https://www.qemu.org/) open source machine emulator and virtualizer.
-* [[Nt32Pkg]] - enabling UEFI application development in a Microsoft* Windows environment.
-* [[EmulatorPkg]] - enable UEFI emulation within an OS environment.
-* [[ArmVirtPkg]] - UEFI emulation for ARM processors.
+* [OVMF](OVMF.md) - UEFI firmware support for the [QEMU](https://www.qemu.org/) open source machine emulator and virtualizer.
+* [Nt32Pkg](Nt32Pkg.md) - enabling UEFI application development in a Microsoft* Windows environment.
+* [EmulatorPkg](EmulatorPkg.md) - enable UEFI emulation within an OS environment.
+* [ArmVirtPkg](ArmVirtPkg.md) - UEFI emulation for ARM processors.
 
 ### Intel® Processor Platforms
 
@@ -15,17 +15,17 @@ Recent Intel platform EDK II implementations follow a software architecture inte
 
 #### EDK II Minimum Platforms
 
-* [[Kaby Lake MinPlatform]] - EDK II platform firmware on 7th Generation Intel® Core™ Processors and chipsets (formerly [Kaby Lake](https://ark.intel.com/products/codename/82879/Kaby-Lake) platforms).
-* [[Whiskey Lake MinPlatform]] - EDK II platform firmware on 8th Generation Intel® Core™ Processors and chipsets (formerly [Whiskey Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/135883/whiskey-lake.html) platforms).
+* [Kaby Lake MinPlatform](Kaby-Lake-MinPlatform.md) - EDK II platform firmware on 7th Generation Intel® Core™ Processors and chipsets (formerly [Kaby Lake](https://ark.intel.com/products/codename/82879/Kaby-Lake) platforms).
+* [Whiskey Lake MinPlatform](Whiskey-Lake-MinPlatform.md) - EDK II platform firmware on 8th Generation Intel® Core™ Processors and chipsets (formerly [Whiskey Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/135883/whiskey-lake.html) platforms).
 
 #### Other Platforms
 
 * [[Intel Atom® Processor E3900 Series|IntelAtomProcessorE3900]] - Designed for platforms using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake). Includes the Leaf Hill CRB, Up Squared, and MinnowBoard 3 Module.
 * [[Intel® Galileo Gen 2|Galileo]] - Arduino* certified,  Intel® Quark™ processor, built on fully open-source hardware
 * [[MinnowBoard Max/Turbot|MinnowBoardMax]] - Open hardware platform with open source UEFI firmware, based on the Intel® Atom™ E3800 Series processor.
-* [[MinnowBoard]] - Intel® Atom™ E640 processor w/ IA32 UEFI firmware (deprecated)
+* [MinnowBoard](MinnowBoard.md) - Intel® Atom™ E640 processor w/ IA32 UEFI firmware (deprecated)
 
 ### ARM Processor Platforms
 
 * [[Beagle Board|Beagle Board Wiki]] -  low-power open-source hardware single-board computer produced by Texas Instruments.
-* [[Omap35xxPkg]] provides UEFI support For Texas Instruments OMAP35xx based platforms.
+* [Omap35xxPkg](Omap35xxPkg.md) provides UEFI support For Texas Instruments OMAP35xx based platforms.

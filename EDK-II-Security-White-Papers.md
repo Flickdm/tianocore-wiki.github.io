@@ -8,7 +8,6 @@ A list of White Papers and information for EDK II Security from multiple sources
 * SideChannel: [Intel Software Developer Zone -firmware speculative execution](https://software.intel.com/security-software-guidance/insights/host-firmware-speculative-execution-side-channel-mitigation)
 * MDS: [Intel Software Developer Zone - microarchitectural data sampling](https://software.intel.com/security-software-guidance/insights/deep-dive-intel-analysis-microarchitectural-data-sampling)
 
-
 **General:**
 * [Book - building secure firmware](https://www.amazon.com/Building-Secure-Firmware-Armoring-Foundation/dp/1484261054) (October 2020)
 * [uefi.org - An Introduction to Platform Security](http://www.uefi.org/sites/default/files/resources/Intel_An%20Introduction%20to%20Platform%20.pdf) (Spring 2018)
@@ -16,7 +15,7 @@ A list of White Papers and information for EDK II Security from multiple sources
 
 **EDK II Code:**
 * [A Tour Beyond BIOS - Security Design Guide in_EDK_II.pdf](https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_Security_Design_Guide_in_EDK_II.pdf) (Sept 2016)
-* [EDK II Secure Coding Guide ](https://tianocore-docs.github.io/EDK_II_Secure_Coding_Guide/draft/) (June 2019) 
+* [EDK II Secure Coding Guide ](https://tianocore-docs.github.io/EDK_II_Secure_Coding_Guide/draft/) (June 2019)
 * [EDK II Secure Code Review Guide ](https://tianocore-docs.github.io/EDK_II_Secure_Code_Review_Guide/draft/) (June 2019)
 * [OCP - Secure Firmware Development Best Practices](https://github.com/opencomputeproject/Security/blob/master/SecureFirmwareDevelopmentBestPractices.md) (May 2020)
 * [Universal Scalable Firmware - Security](https://universalscalablefirmware.github.io/documentation/5_security.html) (October 2021)

@@ -1,4 +1,4 @@
-# [[UDK2018]] Core Update Notes
+# [UDK2018](UDK2018.md) Core Update Notes
 1. The GCC tool chain adds `--whole-archive` link option to detect the duplicated function or variable name. If the source code has this issue, the code will need to be fixed first, or the platform can set a link option to disable this checker in the platform's DSC file as shown below:
 ```
 [BuildOptions]
@@ -87,7 +87,7 @@ The platform will also need to connect the trusted storage and console to enable
 </pre>
 
 **********
-**Note:** This page describes the Core package differences based on UEFI Development Kit ([[UDK]]) [[UDK2017]] Release.
-For a detailed list of Changes and updates See [[UDK2018]] Release wiki page
+**Note:** This page describes the Core package differences based on UEFI Development Kit ([UDK](UDK.md)) [UDK2017](UDK2017.md) Release.
+For a detailed list of Changes and updates See [UDK2018](UDK2018.md) Release wiki page
 
 **********

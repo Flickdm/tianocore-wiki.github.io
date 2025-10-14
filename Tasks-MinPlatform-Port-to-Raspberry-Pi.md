@@ -3,7 +3,7 @@ Build a MinPlatform board port for the Raspberry Pi.
 * Project Size: Large
 * Difficulty: Medium
 * Language: C
-* Mentor: 
+* Mentor:
 * Suggested by: [@nate-desimone](https://github.com/nate-desimone)
 
 # Background
@@ -26,4 +26,4 @@ Building: As the existing Raspberry Pi UEFI firmware is built using a GCC AARCH6
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
 # See Also
-[[Tasks]]
+[Tasks](Tasks.md)

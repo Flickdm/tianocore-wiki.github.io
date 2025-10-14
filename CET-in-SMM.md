@@ -66,4 +66,3 @@ NOTE: If a platform wants to enable CET, it MUST enable memory protection such a
   FXSAVE_STATE - 000000007FE3E780
   !!!! Find image based on IP(0x%x) c:\edk\Build\PlatformPkg\DEBUG_VS2015x86\X64\TestPkg\StackCookieTest\StackCookieTestSmm\DEBUG\StackCookieTestSmm.pdb (ImageBase=000000007FDCF000, EntryPoint=000000007FDD0310) !!!!
   ```
-

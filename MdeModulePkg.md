@@ -1,0 +1,4 @@
+This package provides the modules that conform to UEFI/PI Industry
+standards. It also provides the defintions(including
+PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances, which
+are used for those modules.

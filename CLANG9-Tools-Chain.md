@@ -3,22 +3,22 @@
 CLANGPDB tool chain is added to directly generate PE/COFF image (EFI image).
 This tool chain uses LLVM clang C compiler and lld linker, generates PE/COFF
 image and PDB compatible debug symbol format. Now, it supports IA32/X64 Archs.
-It must use LLVM 9 or above release. LLVM 9 is ready on 
+It must use LLVM 9 or above release. LLVM 9 is ready on
 http://releases.llvm.org/download.html#9.0.0.
 
-CLANGPDB is the cross OS tool chain. It can work on Windows/Linux/Mac. 
-For the same source code, with the same version LLVM tool chain, 
-CLANGPDB can generate the same binary image. So, the developer can 
-choose the different development environment and work on the same 
-code base. Besides, EDKII project build also requires third party 
-tools: nasm and iasl. They both keep the same version. If so, the same 
+CLANGPDB is the cross OS tool chain. It can work on Windows/Linux/Mac.
+For the same source code, with the same version LLVM tool chain,
+CLANGPDB can generate the same binary image. So, the developer can
+choose the different development environment and work on the same
+code base. Besides, EDKII project build also requires third party
+tools: nasm and iasl. They both keep the same version. If so, the same
 binary image can be generated on this different OS.
 
-LLVM tool chain provides the compiler and linker. To build EDK2 project, 
-some other tools are still required. On Windows OS, nmake and Visual Studio 
-are required to call Makefile and compile BaseTools C tools. 
-On Linux/Mac, binutils and gcc are required to make and compile BaseTools 
-C tools. Because VS or GCC are mainly used to compile BaseTools and provide 
+LLVM tool chain provides the compiler and linker. To build EDK2 project,
+some other tools are still required. On Windows OS, nmake and Visual Studio
+are required to call Makefile and compile BaseTools C tools.
+On Linux/Mac, binutils and gcc are required to make and compile BaseTools
+C tools. Because VS or GCC are mainly used to compile BaseTools and provide
 nmake/make tool, they can keep on the stable version without update.
 
 To build source code, CLANGPDB tool chain (-t CLANGPDB) can be specified
@@ -54,10 +54,10 @@ The "Cross OS/Host Reproducible Build" make the firmware binary to be real OS in
 which has several significant benefits for firmware:
 * Cut the validation/testing effort for different OS built bianry.
 * Easily to support customer and reproduce their build or runtime failures
-* Harden identical build results for firmware in different OS and make the binary 
+* Harden identical build results for firmware in different OS and make the binary
   security to be OS independent.
 
-To support "cross OS binary reproducible" feature, besides the above same version LLVM 9, 
+To support "cross OS binary reproducible" feature, besides the above same version LLVM 9,
 please make sure to use the same version iasl compiler between different OS. E.g.
 
 Linux:

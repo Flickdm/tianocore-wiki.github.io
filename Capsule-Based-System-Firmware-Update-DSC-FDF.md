@@ -2,7 +2,7 @@ Back to [Capsule Based System Firmware Update](Capsule-Based-System-Firmware-Upd
 
 Platform DSC `[Defines]` Section
 =================================
-Add the following `CAPSULE_ENABLE` define to the `[Defines]` section with a default 
+Add the following `CAPSULE_ENABLE` define to the `[Defines]` section with a default
 value of `FALSE`.  The capsule-based system firmware update feature can be enabled by
 passing in `-D CAPSULE_ENABLE` flag on to the EDK II build command.
 
@@ -10,8 +10,8 @@ passing in `-D CAPSULE_ENABLE` flag on to the EDK II build command.
   #
   # Used to enable/disable capsule update features.  The default is FALSE for disabled.
   # Add -D CAPSULE_ENABLE to the build command line to enable capsule update features.
-  # The build process generates a capsule update image along with the UEFI application 
-  # CapsuleApp.efi.  These 2 files must be transferred to storage media to in order for 
+  # The build process generates a capsule update image along with the UEFI application
+  # CapsuleApp.efi.  These 2 files must be transferred to storage media to in order for
   # a user to boot to UEFI Shell and use CapsuleApp.efi to submit the signed capsule.
   # Once the system is rebooted, the signed capsule is authenticated and the firmware is
   # update with the new system firmware version.
@@ -21,11 +21,11 @@ passing in `-D CAPSULE_ENABLE` flag on to the EDK II build command.
 
 Platform DSC `[LibraryClasses]` Sections
 ========================================
-Make sure the following library mappings are in the `[LibraryClasses]` section.  The path to 
+Make sure the following library mappings are in the `[LibraryClasses]` section.  The path to
 the `PlatformFlashAccessLib` must be updated to match the path to the implementation provided
 in the previous step.  These library mappings are required to support building the modules that
 provide the Firmware Management Protocol for the system firmware, the UEFI application to test
-capsule-based firmware update, along with the modules that authenticate a signed system firmware 
+capsule-based firmware update, along with the modules that authenticate a signed system firmware
 update capsule
 
 ```
@@ -44,7 +44,7 @@ update capsule
   PlatformFlashAccessLib|<Your Platform Package>/Feature/Capsule/Library/PlatformFlashAccessLib/PlatformFlashAccessLibDxe.inf
 ```
 
-Make sure the following library mappings are in the `[LibraryClasses.common.DXE_RUNTIME_DRIVER]` 
+Make sure the following library mappings are in the `[LibraryClasses.common.DXE_RUNTIME_DRIVER]`
 
 ```
 [LibraryClasses.common.DXE_RUNTIME_DRIVER]
@@ -55,10 +55,10 @@ Make sure the following library mappings are in the `[LibraryClasses.common.DXE_
 
 Platform DSC `[Pcds]` Sections
 ==============================
-* Add the PCD `PcdEdkiiSystemFirmwareImageDescriptor` to the `[PcdsDynamicExDefault]` 
-section with a value of `{0x0}` and a maximum size large enough to hold the 
+* Add the PCD `PcdEdkiiSystemFirmwareImageDescriptor` to the `[PcdsDynamicExDefault]`
+section with a value of `{0x0}` and a maximum size large enough to hold the
 `EDKII_SYSTEM_FIRMWARE_IMAGE_DESCRIPTOR` structure and its associated Unicode strings
-that are implemented in the `.aslc` file described 
+that are implemented in the `.aslc` file described
 [here](Capsule-Based-System-Firmware-Update-Implementation#system-firmware-descriptor-peim).
 
 * Add the PCD `PcdSystemFmpCapsuleImageTypeIdGuid` to the same `[PcdsDynamicExDefault]`
@@ -69,20 +69,20 @@ The PCD value is an array of 16-bytes.
 
 * Add the PCD `PcdEdkiiSystemFirmwareFileGuid` to the same `[PcdsDynamicExDefault]`
 section.  This PCD is set to a GUID value that is an array of 16-bytes.  The GUID
-value may be set to the same GUID value in the `FileGuid` statement from the System Firmware 
+value may be set to the same GUID value in the `FileGuid` statement from the System Firmware
 Update Configuration INI file described
 [here](Capsule-Based-System-Firmware-Update-Implementation#system-firmware-update-configuration-ini-file).
 In the simplest configuration, this PCD is set in the DSC file to the `FileGuid` value from the
-INI file.  
+INI file.
 
-**NOTE:** The INI file syntax does support more complex capsule-base system firmware update 
+**NOTE:** The INI file syntax does support more complex capsule-base system firmware update
 scenarios where the capsule may contain multiple FFS files with update content to support
-multiple platforms or boards.  For this use case, a platform module must detect the current 
+multiple platforms or boards.  For this use case, a platform module must detect the current
 platform or board and set the appropriate `PcdEdkiiSystemFirmwareFileGuid` value.
 
-The example below uses a `PcdEdkiiSystemFirmwareImageDescriptor` size of 0x100 bytes, a 
-single GUID value for `PcdSystemFmpCapsuleImageTypeIdGuid`, and a GUID value for 
-`PcdEdkiiSystemFirmwareFileGuid` that matches `FileGuid` statement in the INI file. 
+The example below uses a `PcdEdkiiSystemFirmwareImageDescriptor` size of 0x100 bytes, a
+single GUID value for `PcdSystemFmpCapsuleImageTypeIdGuid`, and a GUID value for
+`PcdEdkiiSystemFirmwareFileGuid` that matches `FileGuid` statement in the INI file.
 
 ```
 [PcdsDynamicExDefault.common.DEFAULT]
@@ -96,7 +96,7 @@ single GUID value for `PcdSystemFmpCapsuleImageTypeIdGuid`, and a GUID value for
 Platform DSC `[Components]` Sections
 ====================================
 Add the platform specific System Firmware Descriptor PEIM implemented in an earlier step to
-the `[Components]` section with the rest of the PEIMs.  **NOTE:** The example below uses a 
+the `[Components]` section with the rest of the PEIMs.  **NOTE:** The example below uses a
 PEI CPU architecture of IA32.  Replace IA32 with PEI CPU Architecture for your platform.
 
 ```
@@ -109,8 +109,8 @@ PEI CPU architecture of IA32.  Replace IA32 with PEI CPU Architecture for your p
 
 Update BdsDxe.inf `<LibraryClasses>` section to use the PKCS7 based FMP Authentication Library
 from the `SecurityPkg`.  If `CAPSULE_ENABLE` is `FALSE`, then use the Null FMP Authentication Library.
-If `CAPSULE_ENABLE` is `TRUE`, then add the EsrtDxe module, the SystemFirmwareUpdateDxe module, 
-and the UEFI Application CapsuleApp to the `[Components]` section.  **NOTE:** The example below uses a 
+If `CAPSULE_ENABLE` is `TRUE`, then add the EsrtDxe module, the SystemFirmwareUpdateDxe module,
+and the UEFI Application CapsuleApp to the `[Components]` section.  **NOTE:** The example below uses a
 DXE CPU architecture of X64.  Replace X64 with DXE CPU Architecture for your platform.
 
 ```
@@ -145,7 +145,7 @@ DXE CPU architecture of X64.  Replace X64 with DXE CPU Architecture for your pla
 
 Platform FDF PEI `[FV]` Section
 ===============================
-Add the SystemFirmwareDescriptor PEIM implemented in a earlier step to the FV that 
+Add the SystemFirmwareDescriptor PEIM implemented in a earlier step to the FV that
 contains other PEIMs so it is dispatched on every boot.
 
 ```
@@ -175,7 +175,7 @@ FILE FREEFORM = PCD(gEfiSignedCapsulePkgTokenSpaceGuid.PcdEdkiiPkcs7TestPublicKe
 Platform FDF `[FV]` Section
 ===========================
 Add the following `[FV]` sections to the platform FDF file to build the FVs that
-contains FFS files with the update payloads.  These FVs are added to an FMP payload 
+contains FFS files with the update payloads.  These FVs are added to an FMP payload
 that is wrapped into a capsule that is signed using a PKCS7 certificate.
 
 * The `FILE RAW` statement with the `# PcdEdkiiSystemFirmwareFileGuid` comment must
@@ -283,7 +283,7 @@ FMP_PAYLOAD = FmpPayloadSystemFirmwarePkcs7
 
 Platform FDF `[Rule]` Section
 =============================
-Add the following `[Rule]` required to add the platform specific SystemFirmwareDescriptor 
+Add the following `[Rule]` required to add the platform specific SystemFirmwareDescriptor
 PEIM to the PEI FV.
 
 ```

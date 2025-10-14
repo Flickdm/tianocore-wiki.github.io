@@ -203,7 +203,6 @@ cat /sys/module/kvm_intel/parameters/nested
 
 * Build OVMF:
 
-
   ```
   cd $EDK2_SOURCE
   source edksetup.sh

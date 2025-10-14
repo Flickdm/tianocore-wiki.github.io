@@ -2,16 +2,15 @@ The Minimum Platform Architecture (MPA) creates guidelines for how to design, en
 
 #### MinPlatformPkg
 The main MinPlatform Package ([MinPlatformPkg](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg)) provides a consistent boot flow and well-defined interfaces to support board functions.
-- How to download and build https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Readme.md 
-
+- How to download and build https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Readme.md
 
 #### EDK II Minimum Platforms
 
-* [[Kaby Lake MinPlatform]] - EDK II platform firmware on 7th Generation Intel® Core™ Processors and chipsets (formerly [Kaby Lake](https://ark.intel.com/products/codename/82879/Kaby-Lake) platforms).
+* [Kaby Lake MinPlatform](Kaby-Lake-MinPlatform.md) - EDK II platform firmware on 7th Generation Intel® Core™ Processors and chipsets (formerly [Kaby Lake](https://ark.intel.com/products/codename/82879/Kaby-Lake) platforms).
 * [[Project Olympus (Purley MinPlatform)|Purley MinPlatform]] - EDK II platform firmware for the Open Compute Project (OCP) [Intel XSP Motherboard](http://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards).
 
     Note: Purley board support is no longer available in the codebase.
-* [[Whiskey Lake MinPlatform]] - EDK II platform firmware on 8th Generation Intel® Core™ Processors and chipsets (formerly [Whiskey Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/135883/whiskey-lake.html) platforms).
+* [Whiskey Lake MinPlatform](Whiskey-Lake-MinPlatform.md) - EDK II platform firmware on 8th Generation Intel® Core™ Processors and chipsets (formerly [Whiskey Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/135883/whiskey-lake.html) platforms).
 
 #### Resources
 - [Open Source Firmware Conference (OSFC)](https://osfc.io/) Presentation on [Minimum Platform Architecture (Sept 2019)](https://software.intel.com/sites/default/files/Open%20Source%20UEFI%20Firmware%20for%20Intel%20Platforms.pdf)

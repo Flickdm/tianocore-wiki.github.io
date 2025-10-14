@@ -152,6 +152,6 @@ OVMF](How-to-build-OVMF "wikilink") wiki page.
 ### How do I enable source level debugging with OVMF?
 
 Please refer to:
-  1. [[EDK II Source Level Debug]]
-  2. [[How to debug OVMF with QEMU using GDB]]
-  3. [[How to debug OVMF with QEMU using WinDbg]]
+  1. [EDK II Source Level Debug](EDK-II-Source-Level-Debug.md)
+  2. [How to debug OVMF with QEMU using GDB](How-to-debug-OVMF-with-QEMU-using-GDB.md)
+  3. [How to debug OVMF with QEMU using WinDbg](How-to-debug-OVMF-with-QEMU-using-WinDbg.md)

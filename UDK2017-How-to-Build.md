@@ -1,4 +1,4 @@
-# How to Build [[UDK2017]]
+# How to Build [UDK2017](UDK2017.md)
 
 > Note: New build instructions are available. It is recommended to start with the new instructions if learning how to
 > build edk2 for the first time and not specifically targeting UDK2017. This page is retained for reference.
@@ -67,7 +67,6 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
         `build -t VS2015x86`
     4)  Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the C:\MyWorkspace\Build\MdeModule\DEBUG_VS2015x86\IA32 directory
 
-
 ---
 
 ##                         HOW TO BUILD (LINUX-LIKE SYSTEM)
@@ -94,7 +93,6 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
         and install it following the instruction on the website.
      4) Install the C Compiler- Ubuntu 16.04 LTS  you can use GNU C compiler (v5.4.0)
         At Ubuntu, you can type `"sudo apt-get install gcc-5"` under terminal prompt to install it.
-
 
 2.  Create the full Source Code directory for the UDK2017 release
     1)  Create a working space directory in the build machine, for example, ~/src/MyWorkspace
@@ -125,5 +123,4 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
 
 If you have questions please email the [[edk2-devel]] mail list.
 
-See also [[Getting Started with EDK II]]
-
+See also [Getting Started with EDK II](Getting-Started-with-EDK-II.md)

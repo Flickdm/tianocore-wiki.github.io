@@ -1,4 +1,4 @@
-Building [[OVMF]] is fairly easy once you have installed a few pre-requisites. Please note, however, that building OVMF is not required if you are only interested in [running OVMF](How-to-run-OVMF "wikilink"), since we have provided pre-built binaries of OVMF.
+Building [OVMF](OVMF.md) is fairly easy once you have installed a few pre-requisites. Please note, however, that building OVMF is not required if you are only interested in [running OVMF](How-to-run-OVMF "wikilink"), since we have provided pre-built binaries of OVMF.
 
 Build Pre-requisites
 --------------------

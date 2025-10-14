@@ -14,7 +14,7 @@ The EDK II project repository is available at
 Prebuilt Windows tools are available at
 <https://github.com/tianocore/edk2-BaseTools-win32>.
 
-Please note that FatPkg is now included in the EDKII project repository, as of April 2016. 
+Please note that FatPkg is now included in the EDKII project repository, as of April 2016.
 Previously the FatPkg was in an independent repository which can be found at
 <https://github.com/tianocore/edk2-FatPkg>.
 
@@ -150,7 +150,7 @@ repositories must be updated individually.
 **Development Process for the EDK II Project**
 ----------------------------------------------
 
-The process is documented on the [[EDK II Development Process]] page.
+The process is documented on the [EDK II Development Process](EDK-II-Development-Process.md) page.
 
 **See Also**
 ------------

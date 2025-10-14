@@ -41,7 +41,7 @@ is:
 2) Any file that has been changed to BSD+Patent, but should remain
    with the current license.
 3) Any file that that has not changed to BSD+Patent, but should be
-   changed to BSD+Patent. 
+   changed to BSD+Patent.
 
 Feedback and Reviewed-by emails should identify the patch the feedback
 applies using the patch summary listed below.  The goal is to complete
@@ -99,17 +99,17 @@ and the Reviewed-by status.
 | [edk2: Replace BSD License with BSD+Patent License](https://github.com/mdkinney/edk2/commit/bc617332858610c65cbb26f0c2be72038f7c6a0e)                       | Andrew Fish <afish@apple.com><br>Laszlo Ersek <lersek@redhat.com><br>Leif Lindholm <leif.lindholm@linaro.org>                      | DONE |
 | [edk2: Change License.txt from 2-Clause BSD to BSD+Patent](https://github.com/mdkinney/edk2/commit/8ee83c5dcd798caf0b2e9e0bfb33601de5c6ab79)                | Andrew Fish <afish@apple.com><br>Laszlo Ersek <lersek@redhat.com><br>Leif Lindholm <leif.lindholm@linaro.org>                      | DONE |
 | [edk2: Add License-History.txt](https://github.com/mdkinney/edk2/commit/17a33094a9a2fd0f5db89c89e60a58a2f195dbdf)                                           | Andrew Fish <afish@apple.com><br>Laszlo Ersek <lersek@redhat.com><br>Leif Lindholm <leif.lindholm@linaro.org>                      | DONE |
- 
+
 # RFC V3
- 
- This RFC follows up on the proposal from Mark Doran to change the 
+
+ This RFC follows up on the proposal from Mark Doran to change the
 EDK II Project to a BSD+Patent License.
 
 	https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html
 
 The review period for this license change is 30 days.  If there is no
 unresolved feedback on April 9, 2019, then commits of the license change
-patches will begin on April 9, 2019.  
+patches will begin on April 9, 2019.
 
   ** Please provide feedback on the proposal by Monday April 8, 2019. **
 
@@ -123,7 +123,7 @@ manager or any of the EDK II stewards.
 
 The goal is to convert all of the files in the edk2 repository that are
 currently covered by the 2-Clause BSD License and the TianoCore
-Contribution Agreement to a BSD+Patent License.  
+Contribution Agreement to a BSD+Patent License.
 
 I will be following up with pointers to public GitHub branches that
 contain the set of changes to the edk2 repository for review.
@@ -142,7 +142,7 @@ branches in the edk2 repository.
 
    https://opensource.org/licenses/BSDplusPatent
 
-   ```   
+   ```
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are met:
 
@@ -192,8 +192,8 @@ branches in the edk2 repository.
    POSSIBILITY OF SUCH DAMAGE.
    ```
 
-3) Change all files currently covered by a 2-Clause BSD License and the 
-   TianoCore Contribution Agreement to a BSD+Patent License using the 
+3) Change all files currently covered by a 2-Clause BSD License and the
+   TianoCore Contribution Agreement to a BSD+Patent License using the
    following SPDX-License-Identifier statement:
 
        SPDX-License-Identifier: BSD-2-Clause-Patent
@@ -262,7 +262,7 @@ branches in the edk2 repository.
 5) Remove the Contributions.txt file from the root of the edk2 repository
    that contains the TianoCore Contribution Agreement.
 
-6) Update all documentation to state that content submitted under the 
+6) Update all documentation to state that content submitted under the
    BSD+Patent License no longer requires the Tianocore Contribution
    Agreement which means the following line is not required in commit
    messages for changes to files that are covered by a BSD+Patent License.
@@ -277,7 +277,7 @@ Once the conversion of the edk2 repository is complete, work will begin
 on the other repositories in the TianoCore project.
 
 # License-History.txt
- 
+
  ```
                                License-History.txt
                               ===================

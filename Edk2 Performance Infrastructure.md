@@ -1,4 +1,4 @@
-# Performance Infrastructure 
+# Performance Infrastructure
 User can use the Perf macros in edk2/MdePkg/Include/Library/PerformanceLib.h to log the performance information.<BR>
 The performance information are collected in FPDT record format directly by performance libraries and then saved in ACPI Firmware Performance Data Table(FPDT).<BR>
 Thus the performance data can be dumped both in UEFI Shell and OS by tools to parse FPDT in ACPI table.
@@ -19,7 +19,7 @@ Thus the performance data can be dumped both in UEFI Shell and OS by tools to pa
        you can add ShellPkg/DynamicCommand/DpDynamicCommand/DpDynamicCommand.inf on your platform**
 
 **Notes:**
-If you want to filter some performance data, please check the configuration of PcdPerformanceLibraryPropertyMask in below PCD part for more information. 
+If you want to filter some performance data, please check the configuration of PcdPerformanceLibraryPropertyMask in below PCD part for more information.
 
 # Performance Dump Tool
 * **UEFI Shell tool: DP**<BR>
@@ -32,12 +32,12 @@ If you want to filter some performance data, please check the configuration of P
        then you can use DP Application to dump performance data.
 
     DP command and application read the installed FPDT ACPI table itself to get the performance data.
-# Performance modules 
+# Performance modules
 
 ## Performance library instances
 ### 1. edk2/MdeModulePkg/Library/PeiPerformanceLib
    This library instance provides infrastructure for PEIMs(including PeiCore) to log performance data.<BR>
-   It will create FPDT record to save the performance data and pass the FPDT records to DxeCorePerformanceLib through 
+   It will create FPDT record to save the performance data and pass the FPDT records to DxeCorePerformanceLib through
    Guided Hob.
 
 ### 2. edk2/MdeModulePkg/Library/SmmPerformanceLib
@@ -105,8 +105,8 @@ If you want to filter some performance data, please check the configuration of P
    * Firmware Basic Boot Performance Record:<BR>
      BasicBootPerformanceRecord.**ResetEnd**<BR>
      Platform SEC library caches the time stamp of ResetEnd through SecPerformancePpi.<BR>
-     And SecCore passes the SecPerformancePpi to PeiCore as notification type and add SecPerformancePpiCallback function to get SEC performance data and build Guided HOB to convey the performance data to DXE phase.<BR> 
-     So in PEI phase, SecPerformancePpiCallback is called, and then ResetEnd data can be got in DXE phase through Guided HOB.  
+     And SecCore passes the SecPerformancePpi to PeiCore as notification type and add SecPerformancePpiCallback function to get SEC performance data and build Guided HOB to convey the performance data to DXE phase.<BR>
+     So in PEI phase, SecPerformancePpiCallback is called, and then ResetEnd data can be got in DXE phase through Guided HOB.
      Currently FirmwarePerformanceDataTableDxe gets ResetEnd data from the Guided HOB.
 
      BasicBootPerformanceRecord.**OsLoaderLoadImageStart**<BR>

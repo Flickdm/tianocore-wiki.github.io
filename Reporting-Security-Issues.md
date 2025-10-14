@@ -1,7 +1,7 @@
 # How to report a Security Issue
 
 **NOTE**
-The latest tracking and update of security issues for EDKII can be found at (https://github.com/tianocore/tianocore.github.io/wiki/GHSA-GitHub-Security-Advisories-Proceess). 
+The latest tracking and update of security issues for EDKII can be found at (https://github.com/tianocore/tianocore.github.io/wiki/GHSA-GitHub-Security-Advisories-Proceess).
 
 At present the repository tracked by Tianocore Infosec includes the main EDKII repository (https://github.com/tianocore/edk2). For issues found in repos like (https://github.com/tianocore/edk2-platforms) recommend reaching out to the respective component who is named in the subdirectory - you can find a list of relevant companies in this domain at (https://uefi.org/security), for example.
 
@@ -24,13 +24,10 @@ Now that Tianocore is a CNA https://cve.mitre.org/cve/cna.html, namely https://w
 The Tianocore Infosec team uses the following flow to evaluate items
 ![](https://github.com/jwang36/tianocore.github.io/raw/master/security/flowchart.svg?sanitize=true)
 
-
 # Security Advisories
 
-List of current EDK II Security Advisories can be found at this Gitbook : 
+List of current EDK II Security Advisories can be found at this Gitbook :
 **[Security Advisory Log](https://tianocore-docs.github.io/SecurityAdvisory/draft/)**
 
 List of all Third Party EDK II Security Advisories can be found at this Gitbook :
 **[Third Party Security Advisory Log]( https://github.com/tianocore/tianocore.github.io/wiki/Third-Party-Security-Advisories)**
-
-

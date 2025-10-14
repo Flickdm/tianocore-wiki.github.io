@@ -60,11 +60,10 @@ Definition of `PcdDebugPrintErrorLevel` bitmask field (according to  DebugLib.h)
     #define DEBUG_BLKIO     0x00001000  // BlkIo Driver
     #define DEBUG_NET       0x00004000  // SNP / Network Io Driver
     #define DEBUG_UNDI      0x00010000  // UNDI Driver
-    #define DEBUG_LOADFILE  0x00020000  // Load File 
+    #define DEBUG_LOADFILE  0x00020000  // Load File
     #define DEBUG_EVENT     0x00080000  // Event messages
     #define DEBUG_GCD       0x00100000  // Global Coherency Database changes
     #define DEBUG_CACHE     0x00200000  // Memory range cache-ability changes
     #define DEBUG_VERBOSE   0x00400000  // Detailed debug messages that may
                                         // significantly impact boot performance
     #define DEBUG_ERROR     0x80000000  // Error
-

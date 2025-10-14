@@ -1,27 +1,27 @@
 Back to [Capsule Based System Firmware Update](Capsule-Based-System-Firmware-Update)
 
 The following steps can be used to verify that the capsule-based system firmware update
-feature has been integrated into a platform correctly.  These steps use generated keys 
+feature has been integrated into a platform correctly.  These steps use generated keys
 for a specific platform.  One key generation method is described
 [here](Capsule-Based-System-Firmware-Update-Generate-Keys).
 
-The steps provided in this section are focused on verifying the use of generated keys.  A 
-more complete set of verification steps for the test signing key are provided 
-[here](Capsule-Based-System-Firmware-Update-Verify-Test-Keys).  These steps use the 
-`CapsuleApp.efi` utility to display and verify fields in the FMP, ESRT, and Capsule 
+The steps provided in this section are focused on verifying the use of generated keys.  A
+more complete set of verification steps for the test signing key are provided
+[here](Capsule-Based-System-Firmware-Update-Verify-Test-Keys).  These steps use the
+`CapsuleApp.efi` utility to display and verify fields in the FMP, ESRT, and Capsule
 structures.
 
-**NOTE:** Each step in this sequence depends on all the previous steps.  If any step in 
-this sequence does not match expectations, then debug and resolve the integration issue 
+**NOTE:** Each step in this sequence depends on all the previous steps.  If any step in
+this sequence does not match expectations, then debug and resolve the integration issue
 before proceeding to the next step.
 
 Add Generated Private Keys to `tools_def.txt`
 =============================================
-* Update `Conf/tools_def.txt` to use generated private keys.  The bottom of tools_def.txt has a 
+* Update `Conf/tools_def.txt` to use generated private keys.  The bottom of tools_def.txt has a
 section  labeled **Pkcs7Sign tool definitions**.  The default settings for this section does not include
 a `*_*_*_PKCS7SIGN_FLAGS` statement.  This means the test signing keys are used by default.  In order
-for the build to sign system firmware update capsules using generated private keys, the 
-`--signer-private-cert`, `--other-public-cert`, and `--trusted-public-cert` flags must be provided.  
+for the build to sign system firmware update capsules using generated private keys, the
+`--signer-private-cert`, `--other-public-cert`, and `--trusted-public-cert` flags must be provided.
 The example below adds these three flags and uses the environment variables called `KEYS_PATH` and
 `KEYS_BASE_NAME` to specify the path and base name of generated private keys.  This follows the key
 file naming used [here](Capsule-Based-System-Firmware-Update-Generate-Keys#x509-certificate-chain-files).
@@ -36,19 +36,19 @@ file naming used [here](Capsule-Based-System-Firmware-Update-Generate-Keys#x509-
 ```
 
 **NOTE:** This is one of many possible methods to sign images.  This example is a simple method that
-helps verify that the test keys can be replaced with generated keys.  Each product owner must decide 
+helps verify that the test keys can be replaced with generated keys.  Each product owner must decide
 on the signing method and signing tools that provide proper protection of their private keys.
 
 Add Generated Public Key to Platform DSC
 =========================================
 * Update Platform DSC file to set the PCD `gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer`
-to the generated public key.  The example below adds the generated public key to the 
+to the generated public key.  The example below adds the generated public key to the
 `[PcdsDynamicExVpd]` section.  `<MaxSize>` must be set to a value that is at least as big as
-the number of bytes in the generated `<public key>`.  `<public key>` is the list of bytes 
+the number of bytes in the generated `<public key>`.  `<public key>` is the list of bytes
 from the binary `.cer` file that is described
 [here](Capsule-Based-System-Firmware-Update-Generate-Keys#x509-certificate-chain-files).
-A hex dump utility may be used to convert the binary file to the list of hex values.  The 
-example below shows the PCD setting for the test signing public key from the file 
+A hex dump utility may be used to convert the binary file to the list of hex values.  The
+example below shows the PCD setting for the test signing public key from the file
 `BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer`
 
 ```
@@ -64,7 +64,7 @@ example below shows the PCD setting for the test signing public key from the fil
 ```
 
 * A helper tool in `BaseTools/Scripts/BinToPcd.py` is availble to simplify setting large PCDs
-such as `gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer`.  This helper tool can be used to 
+such as `gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer`.  This helper tool can be used to
 convert a binary file to the list of hex values.
 
 ```
@@ -72,14 +72,14 @@ BinToPcd.py -i BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer
 ```
 
 `BinToPcd.py` also supports the generation of an entire PCD statement.  The following example
-generates a PCD statement for a VPD section and sets the size of the PCD to the size of the 
+generates a PCD statement for a VPD section and sets the size of the PCD to the size of the
 test signing public key input file `BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer`
 
 ```
 BinToPcd.py -p gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer -t VPD -i BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer
 ```
 
-`BinToPcd.py` also supports the generation of an output file that can be included from a 
+`BinToPcd.py` also supports the generation of an output file that can be included from a
 platform DSC file using a `!include` statement.  This allows a pubic key value to be updated
 without updating to the platform DSC file.  Instead, the `BinToPcd.py` helper tool is run with
 a new public key input file.  The example below shows the generation of the output file
@@ -123,16 +123,16 @@ QuarkPlatformPkg/Keys/GalileoGen2Sub.pub.pem
 QuarkPlatformPkg/Keys/GelileiGen2Cert.pem
 ```
 
-* Build firmware image setting the `-D CAPSULE_ENABLE` flag.   
+* Build firmware image setting the `-D CAPSULE_ENABLE` flag.
 
 `build -a IA32 -t VS2015x86 -p QuarkPlatformPkg/Quark.dsc -D CAPSULE_ENABLE`
 
 * Update target with new firmware image
 
-* Boot target to Boot Manager.  The front page should **not** show a 
-` WARNING: Test key detected.` message.  If logging is enabled, then this same 
+* Boot target to Boot Manager.  The front page should **not** show a
+` WARNING: Test key detected.` message.  If logging is enabled, then this same
 message should not be present in the log.  If this message is still displayed,
-then the firmware is still using the public test signing key. 
+then the firmware is still using the public test signing key.
 
 Build System Firmware Update Capsule
 ====================================

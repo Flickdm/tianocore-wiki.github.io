@@ -26,7 +26,7 @@ to the same new GUID value used for `IMAGE_TYPE_ID_GUID`.
 a capsule that uses the old ESRT GUID value, the update will fail.  Capsules must also be updated
 with the new GUID value.
 
-* Change `[FmpPayload]` section `IMAGE_TYPE_ID` field in Platform FDF file to the same new GUID 
+* Change `[FmpPayload]` section `IMAGE_TYPE_ID` field in Platform FDF file to the same new GUID
 value used for `IMAGE_TYPE_ID_GUID` in the `SystemFirmwareDescriptor.aslc` file.
 * Build capsule image.
 * `CapsuleApp.efi <CapsuleImage>` for newly generated capsules works.

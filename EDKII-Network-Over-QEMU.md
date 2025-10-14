@@ -24,7 +24,7 @@ The example below specifies the network backend and virtual network device. The 
 qemu-system-x86_64 \
 -netdev tap,id=hostnet0,ifname=tap0,script=no,downscript=no \
 -netdev tap,id=hostnet1,ifname=tap1,script=no,downscript=no \
--netdev tap,id=hostnet2,ifname=tap2,script=no,downscript=no \    
+-netdev tap,id=hostnet2,ifname=tap2,script=no,downscript=no \
 -device e1000,netdev=hostnet0 \
 -device virtio-net-pci,netdev=hostnet1 \
 -device i82557b,netdev=hostnet2
@@ -47,7 +47,7 @@ sudo brctl addif br0 eno1           /// Bridge eno1 (physical network) to br0.
 sudo ifconfig eno1 up
 sudo dhclient br0
 
-sudo tunctl -t tap0 -u <username>   /// Create new interface named as tap0 for user.  
+sudo tunctl -t tap0 -u <username>   /// Create new interface named as tap0 for user.
 sudo brctl addif br0 tap0           /// Bridge tap0 to br0.
 sudo ifconfig tap0 up
 ...
@@ -90,10 +90,9 @@ The table below lists the stack modules:
 ###### NOTES
 To run an *i82557b* native test, the UndiRuntimeDxe module must be included in the OVMF DSC/FDF files:
 ```
-OptionRomPkg/UndiRuntimeDxe/UndiRuntimeDxe.inf   
+OptionRomPkg/UndiRuntimeDxe/UndiRuntimeDxe.inf
 ```
 During *i82557b* native verification, you may encounter issues. For information on known issues, please refer to https://github.com/tianocore/edk2/issues/9587.
-
 
 ## EDKII Network Scalability
 The topology described above creates multiple OVMF guests to create a virtual cluster in one host. Another option creates multiple virtual network devices in one OVMF guest for verifying network scalability. The topology is shown as follows:
@@ -153,7 +152,7 @@ qemu-system-x86_64 \
 \
 ...
 ```
-The command above use Q35 for a larger IO space. In this PCI hierarchy, a DMI-PCI bridge is plugged into the root bridge, then PCI-PCI bridges are attached to the DMI-PCI bridge. The PCI-PCI bridges are used to attach all required PCI devices, so each PCI device has its own slot.         
+The command above use Q35 for a larger IO space. In this PCI hierarchy, a DMI-PCI bridge is plugged into the root bridge, then PCI-PCI bridges are attached to the DMI-PCI bridge. The PCI-PCI bridges are used to attach all required PCI devices, so each PCI device has its own slot.
 
 ## References
 1. EDKII Network Getting Started Guide:

@@ -1,10 +1,10 @@
-[[EDK II Platforms]] | [Intel® Processor Platforms](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Platforms#intel-processor-platforms)
+[EDK II Platforms](EDK-II-Platforms.md) | [Intel® Processor Platforms](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Platforms#intel-processor-platforms)
 
 ***
 
 # Migration to [[devel-IntelAtomProcessorE3900|IntelAtomProcessorE3900]]
 
-Note to developers: Release 0.70 updates the codebase to use [[UDK2018]], and moves to a new branch of edk2-platforms on github ([[devel-IntelAtomProcessorE3900|IntelAtomProcessorE3900]]). Releases prior to 0.69, based on the devel-MinnowBoard3-UDK2017 & devel-MinnowBoard3 branches, are described below for historical purposes.
+Note to developers: Release 0.70 updates the codebase to use [UDK2018](UDK2018.md), and moves to a new branch of edk2-platforms on github ([[devel-IntelAtomProcessorE3900|IntelAtomProcessorE3900]]). Releases prior to 0.69, based on the devel-MinnowBoard3-UDK2017 & devel-MinnowBoard3 branches, are described below for historical purposes.
 
 # MinnowBoard 3 in edk2-platforms
 
@@ -25,6 +25,6 @@ MinnowBoard 3 was a follow-on to the [[MinnowBoard Max|MinnowBoardMax]] & Minnow
 
 ## Leaf Hill CRB
 
-Leaf Hill refers to an Intel Customer Reference Board (CRB) using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake). 
+Leaf Hill refers to an Intel Customer Reference Board (CRB) using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake).
 
 Release 0.69 adds a separate release notes file with instructions for downloading the Leaf Hill CRB source tree and compiling an IFWI image (which slightly differs from MinnowBoard 3).

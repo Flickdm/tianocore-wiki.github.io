@@ -1,0 +1,200 @@
+This is just a brief overview of the C
+<a href="Code_Style" class="wikilink" title="Code Style">Code Style</a>
+used for our projects. The EDK II Project requires the use of
+<a href="uncrustify" class="wikilink"
+title="https://github.com/uncrustify/uncrustify"><span>https://github.com/uncrustify/uncrustify</span></a>
+to automatically format C code to match the EDK II C Coding Standard.
+Details on how to install and run uncrustify for EDK II can be found at
+<a href="EDK_II_Code_Formatting" class="wikilink"
+title="EDK II Code Formatting">EDK II Code Formatting</a>.
+
+The official C Coding Standards specification can be found at:
+
+- EDK II C Coding Standards 2.2
+  [HTML](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/)
+  \|
+  [.PDF](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/edk2-CCodingStandardsSpecification-release-2.20.pdf)
+
+\_\_TOC\_\_
+
+## Overview
+
+- CamelCase used for variables, functions and file names
+- UPPERCASE used for types and macros
+- Use UEFI types rather than C types
+  - int=\>INTN; unsigned int=\>UINTN; void=\>VOID; etc...
+- Limit line length to 80 characters
+- 2 spaces of indentation
+- Never use tab characters.
+  - Set editor to insert spaces rather than a tab character.
+- if, for, while, etc. always use { }, even when there is only one
+  statement
+  - The opening brace ({) should always appear at the end of the line
+    previous line.
+- The opening brace ({) for a function should always appear separately
+  on the a new line.
+
+## Example of Properly Formatted Code
+
+C File Example:
+
+`#include "FooFileName.h"`
+
+`/**`
+`  Brief and Detailed Descriptions.`
+
+`  @param[in]      Arg1 Description of Arg1.`
+`  @param[in]      Arg2 Description of Arg2, which is optional.`
+`  @param[out]     Arg3 Description of Arg3.`
+`  @param[in, out] Arg4 Description of Arg4.`
+
+`  @retval EFI_SUCCESS   Description of what EFI_SUCCESS means.`
+`  @retval !EFI_SUCCESS  Failure.`
+
+`**/`
+`EFI_STATUS`
+`EFIAPI`
+`FooName (`
+`  IN     UINTN  Arg1,`
+`  IN     UINTN  Arg2 OPTIONAL,`
+`     OUT UINTN  *Arg3,`
+`  IN OUT UINTN  *Arg4`
+`  )`
+`{`
+`  UINTN Local;`
+`  UINTN AnotherLocal;`
+
+`  ...`
+
+`  for (Local = 0; Local < 5; Local++) {`
+`    if (Local == 2) {`
+`      Print (L"Local: %d (yes! 2)\n", Local);`
+`    } else {`
+`      Print (L"Local: %d\n", Local);`
+`    }`
+`  }`
+
+`  ...`
+`}`
+
+H File Example:
+
+`#ifndef _FOO_FILE_NAME_H_`
+`#define _FOO_FILE_NAME_H_`
+
+`#define FOO_MACRO(a, b) ((a) * (b))`
+
+`#define FOO_CONSTANT  0xcafe`
+
+`/**`
+`  Brief and Detailed Descriptions.`
+
+`  @param[in]      Arg1 Description of Arg1.`
+`  @param[in]      Arg2 Description of Arg2, which is optional.`
+`  @param[out]     Arg3 Description of Arg3.`
+`  @param[in, out] Arg4 Description of Arg4.`
+
+`  @retval EFI_SUCCESS   Description of what EFI_SUCCESS means.`
+`  @retval !EFI_SUCCESS  Failure.`
+
+`**/`
+`EFI_STATUS`
+`EFIAPI`
+`FooName (`
+`  IN     UINTN  Arg1,`
+`  IN     UINTN  Arg2 OPTIONAL,`
+`     OUT UINTN  *Arg3,`
+`  IN OUT UINTN  *Arg4`
+`  );`
+
+`...`
+
+`#endif`
+
+## Examples
+
+### CamelCase
+
+Used for variables, functions and file names
+
+<font style="color: green">Correct</font>:
+
+`#include "FooFileName.h"`
+`...`
+`VOID SuperFunction (`
+`...`
+`  UINTN ALocalVariable;`
+`  UINTN UefiVersion;`
+
+<font style="color: red">Incorrect</font>:
+
+`#include "foo-file_name.h"`
+`...`
+`VOID superFunction (`
+`...`
+`  UINTN a_local_variable;`
+`  UINTN UEFIVersion;`
+
+### UPPERCASE
+
+Used for types and macros
+
+<font style="color: green">Correct</font>:
+
+`#define FOO_MACRO(a, b) ((a) * (b))`
+`typedef struct _STRUCT_NAME STRUCT_NAME;`
+`struct _STRUCT_NAME {`
+`  ...`
+`};`
+
+<font style="color: red">Incorrect</font>:
+
+`#define FooMacro(a, b) ((a) * (b))`
+`#define Foo_Macro(a, b) ((a) * (b))`
+`typedef struct _Struct_Name StructName;`
+
+### Use UEFI types
+
+Don't use C types directly
+
+<font style="color: green">Correct</font>:
+
+`  INTN   ALocalVariable;`
+`  UINTN  UefiVersion;`
+`  VOID   *Ptr;`
+
+<font style="color: red">Incorrect</font>:
+
+`  int           ALocalVariable;`
+`  unsigned int  UefiVersion;`
+`  void          *Ptr;`
+
+### 2 spaces of indentation
+
+<font style="color: green">Correct</font>:
+
+`  if (TRUE) {`
+`    Print (L"Hello, world!\n");`
+`  }`
+
+<font style="color: red">Incorrect</font>:
+
+`  if (TRUE) {`
+`      Print (L"Hello, world!\n");`
+`  }`
+
+### Always use { }
+
+If, for, while, etc. always use { }, even when there is only one
+statement
+
+<font style="color: green">Correct</font>:
+
+`  if (TRUE) {`
+`    Print (L"Hello, world!\n");`
+`  }`
+
+<font style="color: red">Incorrect</font>:
+
+`  if (TRUE)`
+`    Print (L"Hello, world!\n");`

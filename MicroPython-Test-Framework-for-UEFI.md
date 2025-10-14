@@ -6,7 +6,7 @@ The MicroPython Test Framework for UEFI (`MpyTestFrameworkPkg`) is designed for 
 
 https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework/MpyTestFrameworkPkg
 
-The framework leverages [MicroPython](https://micropython.org) for a lightweight and minimalist implementation. A port of the [[MicroPython]] Interpreter for UEFI is available in edk2-staging: (`MicroPythonPkg`).
+The framework leverages [MicroPython](https://micropython.org) for a lightweight and minimalist implementation. A port of the [MicroPython](MicroPython.md) Interpreter for UEFI is available in edk2-staging: (`MicroPythonPkg`).
 
 https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework/MicroPythonPkg
 
@@ -18,7 +18,7 @@ Commits are based on latest UDK2018, and include three packages:
 
  * MicroPythonPkg: MicroPython Interpreter for UEFI
  * MpyTestFrameworkPkg: MicroPython Test Framework for UEFI
- * MpyTestCasePkg: One placeholder to contain the future platform test cases repo. 
+ * MpyTestCasePkg: One placeholder to contain the future platform test cases repo.
 
 See README.md files in Package folders for more information.
 
@@ -28,7 +28,7 @@ The following git commands sync with the latest branch:
 $ git clone https://github.com/tianocore/edk2-staging
 $ cd edk2-staging
 $ git checkout MicroPythonTestFramework
-$ git submodule update --init –recursive               
+$ git submodule update --init –recursive
 ```
 
 _Note: The last command will sync all submodule sources_

@@ -1,11 +1,11 @@
-The documents in this page are the latest draft revisions using the 
+The documents in this page are the latest draft revisions using the
 [Gitbook Markdown](https://github.com/GitbookIO/gitbook/blob/master/docs/syntax/markdown.md)
 source format and published using the [Gitbook Action](https://github.com/marketplace/actions/gitbook-action).
 The source content for these documents are in GIT repositories in the
 [Tianocore-docs](https://github.com/tianocore-docs) organization hosted by [GitHub](https://github.com).
 Document feedback, issues, and feature requests can be entered as a GitHub Issues in the document GitHub repository.
 
-* **_EDK II Build Specification_** \[ 
+* **_EDK II Build Specification_** \[
 [HTML   ](https://tianocore-docs.github.io/edk2-BuildSpecification/draft/),
 [PDF    ](https://tianocore-docs.github.io/edk2-BuildSpecification/draft/edk2-BuildSpecification-draft.pdf),
 [MOBI   ](https://tianocore-docs.github.io/edk2-BuildSpecification/draft/edk2-BuildSpecification-draft.mobi),
@@ -22,11 +22,11 @@ firmware images and Unified Extensible Firmware Image (UEFI) applications.
 [MOBI   ](https://tianocore-docs.github.io/edk2-DecSpecification/draft/edk2-DecSpecification-draft.mobi),
 [EPUB   ](https://tianocore-docs.github.io/edk2-DecSpecification/draft/edk2-DecSpecification-draft.epub),
 [GitHub ](https://github.com/tianocore-docs/edk2-DecSpecification)
-\] This document describes the EDK II Declaration (DEC) file format. This format 
+\] This document describes the EDK II Declaration (DEC) file format. This format
 was designed to support building packaging and distribution of EDK II modules,
 as well as for building platforms and modules using the EDK II build infrastructure.
 EDK II declaration files may be created during installation of a distribution that
-follows the UEFI Platform Initialization Distribution Package Specification. They 
+follows the UEFI Platform Initialization Distribution Package Specification. They
 may also be created manually.  The EDK II Build Infrastructure supports generation
 of UEFI 2.5 and PI 1.4 (Unified EFI, Inc.) compliant binary images.
 
@@ -36,7 +36,7 @@ of UEFI 2.5 and PI 1.4 (Unified EFI, Inc.) compliant binary images.
 [MOBI   ](https://tianocore-docs.github.io/edk2-InfSpecification/draft/edk2-InfSpecification-draft.mobi),
 [EPUB   ](https://tianocore-docs.github.io/edk2-InfSpecification/draft/edk2-InfSpecification-draft.epub),
 [GitHub ](https://github.com/tianocore-docs/edk2-InfSpecification)
-\] This document describes the EDK II build information (INF) file format. This format 
+\] This document describes the EDK II build information (INF) file format. This format
 supports the new build requirements of build EDK components and EDK II modules within
 the EDK II build infrastructure. The EDK II Build Infrastructure supports creation of
 binary images that comply with Unified EFI (UEFI) 2.5 and UEFI Platform Infrastructure
@@ -114,7 +114,7 @@ used in data fields, feature flag expressions and conditional directive statemen
 [MOBI   ](https://tianocore-docs.github.io/edk2-PcdSpecification/draft/edk2-PcdSpecification-draft.mobi),
 [EPUB   ](https://tianocore-docs.github.io/edk2-PcdSpecification/draft/edk2-PcdSpecification-draft.epub),
 [GitHub ](https://github.com/tianocore-docs/edk2-PcdSpecification)
-\] This document discusses the mechanisms and configuration entries required to make it 
+\] This document discusses the mechanisms and configuration entries required to make it
 easy to write portable silicon modules and to port the Framework from platform to platform.
 
 * **_EDK II C Coding Standards Specification_** \[
@@ -181,7 +181,6 @@ project as a development environment.
 [GitHub ](https://github.com/tianocore-docs/edk2-ModuleWriteGuide)
 \] This document is designed to aid in the development of EDK II  Modules using the EDK II open source
 project as a development environment.
-
 
 ---
 

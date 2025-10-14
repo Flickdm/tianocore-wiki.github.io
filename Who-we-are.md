@@ -1,12 +1,10 @@
 ![](images/TianoCoreLogo.png)
 
-
 # TianoCore Open Source Community
 
 Rev 1.0  **Draft for Review**
 
 ## Overview
-
 
 TianoCore is a community supporting open
 source implementation of the Unified Extensible Firmware Interface
@@ -32,7 +30,6 @@ Inc, and Red Hat, Inc., representing diverse areas to maintain a healthy
 ecosystem.
 
 ## Members of the TianoCore Community
-
 
 ## Contributor
 ------------
@@ -125,7 +122,6 @@ The role of a maintainer is to:
 4.  Try to let each patch sit on the list for at least 24h before
     merging it, so that other community members can comment on the
     patch.
-
 
 
 **Adding a Maintainer**
@@ -257,7 +253,6 @@ A TianoCore Admin manages the access rights to TianoCore Community.
 - The TianoCore admin is responsible for monitoring role changes in the community such as managing access rights while adding/removing maintainers.
 - Responsible for Approval and removal of access to TianoCore resources such as GitHub, Bugzilla, groups.io etc..
 
-
 ## Release Manager
 --------------------
 ### Definition
@@ -266,7 +261,6 @@ A Release Manager manages the TianoCore releases to the Community.
 ### Role
 
 The Release Manager is responsible for driving the quarterly Stable Tags. The Release Manager will plan the features, schedule the release date, create the Stable Tag with the release notes and announce to the EDK II community on the release milestones: Soft feature freeze, hard feature freeze and the final release of the Stable Tag.
-
 
 
 

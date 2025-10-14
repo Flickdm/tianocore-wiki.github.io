@@ -3,7 +3,7 @@ Build a MinPlatform Board Port for Qemu.
 * Project Size: Large
 * Difficulty: Medium
 * Language: C
-* Mentor: 
+* Mentor:
 * Suggested by: [@nate-desimone](https://github.com/nate-desimone)
 
 # Background
@@ -36,4 +36,4 @@ Building: This project can be completed on any edk2 supported OS or toolchain. I
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
 # See Also
-[[Tasks]]
+[Tasks](Tasks.md)

@@ -3,12 +3,12 @@ Optimize cursor motion sequences; support Linux/UNIX standard (xterm/konsole/gno
 * Status: Complete :heavy_check_mark:
 * Difficulty: Medium
 * Language: C
-* Mentor: 
+* Mentor:
 * Suggested by: bjjohnson, [@nate-desimone](https://github.com/nate-desimone)
 
 # Status
 * Completed :heavy_check_mark:.
-* Work done by Caden Kline ([@Pokemod97](https://github.com/Pokemod97)) as a [[GSoC2021]] Student.
+* Work done by Caden Kline ([@Pokemod97](https://github.com/Pokemod97)) as a [GSoC2021](GSoC2021.md) Student.
 * Available at: [https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3](https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3)
 
 # Background
@@ -31,9 +31,7 @@ Historically, the BIOS setup menu would be rendered using the IBM PC VGA text mo
 > iSCSI Configuration
 > Network Device List
 
-
    Press ESC to exit.
-
 
 ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
 ³                                                                              ³
@@ -55,9 +53,7 @@ Instead of like this:
 > iSCSI Configuration
 > Network Device List
 
-
    Press ESC to exit.
-
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                                                                              │
@@ -81,7 +77,6 @@ The terminal driver has fully supported both the legacy CP437 encoding and the U
 
    Commit Changes and Exit
    Discard Changes and Exit
-
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                         F9=Reset to Defaults      F10=Save                   │
@@ -156,4 +151,4 @@ Building: This project should support all edk2 supported OSes and toolchains.
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
 # See Also
-[[Tasks]]
+[Tasks](Tasks.md)

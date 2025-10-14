@@ -5,7 +5,7 @@
   * [UEFI PI 1.4a](http://www.uefi.org/sites/default/files/resources/PI_1_4_ErrataA.zip)
   * [UEFI Shell 2.2](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_2_2.pdf)
   * [SMBIOS 3.1.0  3.1.1](https://www.dmtf.org/standards/smbios)
-  * [Intel® 64 and IA-32 Architectures Software Developer Manuals](https://software.intel.com/en-us/articles/intel-sdm) for model specific register (MSR) definitions 
+  * [Intel® 64 and IA-32 Architectures Software Developer Manuals](https://software.intel.com/en-us/articles/intel-sdm) for model specific register (MSR) definitions
 * Storage Technologies
   * [NVMe](http://www.nvmexpress.org/)
   * RAM Disk ([UEFI 2.6](http://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf), Section 12.17, RAM Disk Protocol)
@@ -34,6 +34,6 @@
 * New packages: IntelFsp2Pkg, IntelFsp2WrapperPkg, IntelSiliconPkg, SignedCapsulePkg
 
 **********
-**Note:** This page describes the  package notes and the differences based on previous UEFI Development Kit ([[UDK]]) UDK2015 Release.
-* For a detailed list of Changes and updates,  See wiki page [[UDK2017]] Release 
+**Note:** This page describes the  package notes and the differences based on previous UEFI Development Kit ([UDK](UDK.md)) UDK2015 Release.
+* For a detailed list of Changes and updates,  See wiki page [UDK2017](UDK2017.md) Release
 **********

@@ -5,7 +5,7 @@ The link after the directory name is the GitHub issue link tracking the removal 
 IntelFrameworkModulePkg
 	+---Bus
 	|   +---Isa                <a href="https://github.com/tianocore/edk2/issues/7625">[7625]</a>
-	|   \---Pci 
+	|   \---Pci
 	|       +---IdeBusDxe      <a href="https://github.com/tianocore/edk2/issues/7639">[7639]</a>
 	|       \---VgaMiniPortDxe <a href="https://github.com/tianocore/edk2/issues/7626">[7626]</a>
 	+---Csm

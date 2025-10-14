@@ -11,7 +11,7 @@
   * Allocate CVE # - Infosec Team allocates CVE# to reference issue
   * Add private fork - Infosec Team creates private fork for patch work to be completed
 * Proposed Patch created or exists
-  * Developer pushes branch to private fork (DevName-FixDesc-version) 
+  * Developer pushes branch to private fork (DevName-FixDesc-version)
   * Developer submits Pull Request to private fork
   * Developer Leaves comment using the @ mentions to alert Maintainers & Reviewers
   * All discussion takes place within the GHSA.
@@ -27,7 +27,7 @@
   * Exception process is possible based on external factors
 * Embargo Period Ends
 * GHSA PR (Pull Request) Created - GHSA Info is publicly visible at this point
-  * Merged to Main branch within 1 day – under normal circumstances 
+  * Merged to Main branch within 1 day – under normal circumstances
      - This means maintainer (and/or from infosec participant or community manager or steward) will sign-off via pull request (and avoid patch email review)
      - To ensure no clerical/formatting overhead recommend running local CI linting tools while in embargo prior to making public
   * Publish GHSA

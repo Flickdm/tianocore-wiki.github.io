@@ -6,7 +6,7 @@ New to git? The git site has some great documentation:
 
 ## EDK II git workflows
 
-See [[EDK II Development Process]]
+See [EDK II Development Process](EDK-II-Development-Process.md)
 
 ## Some Potentially Dangerous Commands
 

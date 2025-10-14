@@ -13,7 +13,7 @@ The link to the release notes for what is new in NASM 2.15.05 is at: http://www.
 
 NASM 2.15.05 is the recommended minimum version.
 
-## Nasm Prefix 
+## Nasm Prefix
 Nasm environment variable is used for the EDK II Build
 If assembly code is used by the modules and the NASM assembler is used, the system environment variable, NASM_PREFIX must be set as shown below and must include the trailing backslash character:
 <pre>

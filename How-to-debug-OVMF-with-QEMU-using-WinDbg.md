@@ -91,7 +91,6 @@ If you'd like to disable optimizations, you can specify a NOOPT build target. Fo
 
 `build -p OvmfPkg/OvmfPkgX64.dsc -a X64 -t VS2019 -b NOOPT -D SOURCE_DEBUG_ENABLE=TRUE -D DEBUG_ON_SERIAL_PORT`
 
-
 ### Launching the Debug Session
 You can launch QEMU and quickly run the "Start WinDbg with Intel UDK Debugger Tool" shortcut in the Start menu. However,
 the timing can be sensitive during initialization and you might get a connection timeout. It is recommended to launch

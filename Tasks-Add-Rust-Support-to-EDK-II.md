@@ -3,7 +3,7 @@ Add support for the Rust programming language to EDK II
 * Project Size: Large
 * Difficulty: Hard
 * Language: Rust, C, Assembly
-* Mentor: 
+* Mentor:
 * Suggested by: [@nate-desimone](https://github.com/nate-desimone)
 
 # Details
@@ -29,4 +29,4 @@ Building: This project should ideally support all edk2 supported OSes and toolch
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
 # See Also
-[[Tasks]]
+[Tasks](Tasks.md)

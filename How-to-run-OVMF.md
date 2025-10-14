@@ -1,4 +1,4 @@
-How to run [[OVMF]] with QEMU or KVM.
+How to run [OVMF](OVMF.md) with QEMU or KVM.
 
 Pre-requisites
 --------------
@@ -9,7 +9,7 @@ To install on Debian/Ubuntu: <code>sudo apt-get install qemu</code>
 
 ### Get a build of OVMF.fd
 
-You can [build OVMF](How-to-build-OVMF "wikilink") based on the latest version of [[EDK II]].
+You can [build OVMF](How-to-build-OVMF "wikilink") based on the latest version of [EDK II](EDK-II.md).
 
 Pre-built images are available at https://www.kraxel.org/repos/
   * These images are automatically built and track the latest OVMF code in the EDK II tree.
@@ -76,7 +76,7 @@ qemu-system-x86_64 -pflash bios.bin -hda fat:hda-contents -net none
 </pre>
 
 Optional: QEMU with Read/Write Fat file system using a host directory
----------------- 
+----------------
 (Beware that QEMU makes the virtual FAT table once and host could get out of sync and QEMU might get confused)
 
 <pre>

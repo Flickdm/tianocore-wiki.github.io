@@ -1,15 +1,14 @@
-[[EDK II Platforms]] | [Intel® Processor Platforms](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Platforms#intel-processor-platforms)
+[EDK II Platforms](EDK-II-Platforms.md) | [Intel® Processor Platforms](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Platforms#intel-processor-platforms)
 
 ***
 
-## MinnowBoard Max/Turbot 
+## MinnowBoard Max/Turbot
 
 <img src="https://minnowboard.org/wp-content/uploads/2017/10/MBTurbot-dual-core-Top-0001-171002-1.png" width="20%" height="20%" >
 
-
 MinnowBoard Max & Turbot are low cost, commercially available, reference platforms for hardware, software and firmware developers who wish to work within an open environment. Design specifications and materials have been provided to the open community, encouraging platform experimentation and derivative designs.
 
-The project is based on Intel® Atom™ processors. Technical details, schematics, and information on expansion boards (Lures) can be found at http://minnowboard.org 
+The project is based on Intel® Atom™ processors. Technical details, schematics, and information on expansion boards (Lures) can be found at http://minnowboard.org
 
 A list of currently supported boards and prices can be found at: https://minnowboard.org under the "[Boards](https://minnowboard.org/compare-boards)" tab
 
@@ -27,4 +26,4 @@ Documentation, binary images, and source build instructions are at https://softw
    * https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017
 
 ### UEFI Firmware - Development
-The EDK II development firmware for the MinnowBoard Max / Turbot is now available.  Please see the [Valleyview2 Readme](https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Vlv2TbltDevicePkg/Readme.md) for instructions to download and build a firmware image. This development firmware is ECP free and can cowork with the latest updates from EDK II. 
+The EDK II development firmware for the MinnowBoard Max / Turbot is now available.  Please see the [Valleyview2 Readme](https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Vlv2TbltDevicePkg/Readme.md) for instructions to download and build a firmware image. This development firmware is ECP free and can cowork with the latest updates from EDK II.

@@ -1,4 +1,4 @@
-[[EDK II Platforms]] | [Intel® Processor Platforms](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Platforms#intel-processor-platforms)
+[EDK II Platforms](EDK-II-Platforms.md) | [Intel® Processor Platforms](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Platforms#intel-processor-platforms)
 
 ***
 
@@ -7,7 +7,7 @@
 This project is open source UEFI firmware, based on the TianoCore EDK II codebase, for the following platforms based on the Intel Atom® Processor E3900 Series processor (formerly Apollo Lake).
 
 * Leaf Hill Customer Reference Board (CRB)
-* Up Squared by UP-BOARD (commercially available maker board, see "Supported Platforms" below) 
+* Up Squared by UP-BOARD (commercially available maker board, see "Supported Platforms" below)
 * MinnowBoard 3 Module (Pre-production Board, ship date TBD)
 
 Developers can download pre-built UEFI firmware images, utilities, binary object modules, and project release notes. The open source firmware project is available from the TianoCore GitHub:
@@ -22,13 +22,13 @@ Please report any firmware issues in [GitHub Issues](https://github.com/tianocor
 * Product: EDK2 Platforms
 * Component: Minnowboard 3
 
-See [[Reporting Issues]] for more information. 
+See [Reporting Issues](Reporting-Issues.md) for more information.
 
 ## Supported Platforms
 
 ### Leaf Hill CRB
 
-Leaf Hill refers to an Intel Customer Reference Board (CRB) using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake). 
+Leaf Hill refers to an Intel Customer Reference Board (CRB) using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake).
 
 ### Up Squared by UP-BOARD
 
@@ -46,8 +46,8 @@ MinnowBoard 3 Module is the follow-on to the [[MinnowBoard Max|MinnowBoardMax]] 
 
 MinnowBoard is an open source hardware enabler, encouraging platform experimentation and derivative designs. The project supports [Open Source Hardware Association](http://www.oshwa.org/) principles by making designs publicly available for the community so “anyone can study, modify, distribute, make, and sell the design or hardware based on that design.”
 
-MinnowBoard 3 Module is based on the Intel Atom® processor E3900 Series platform, utilizing the Intel® Firmware Support Package (Intel® FSP) and open source UEFI from the TianoCore EDK II project. 
+MinnowBoard 3 Module is based on the Intel Atom® processor E3900 Series platform, utilizing the Intel® Firmware Support Package (Intel® FSP) and open source UEFI from the TianoCore EDK II project.
 
 ## Note: Previous Codebase for MinnowBoard 3
 
-Intel Atom® Processor E3900 Series Processor Platforms were originally supported by the [[MinnowBoard 3]] codebase. At release 0.70, this codebase was updated to use [[UDK2018]] and moved to a new branch with broader platform support.
+Intel Atom® Processor E3900 Series Processor Platforms were originally supported by the [MinnowBoard 3](MinnowBoard-3.md) codebase. At release 0.70, this codebase was updated to use [UDK2018](UDK2018.md) and moved to a new branch with broader platform support.

@@ -1,6 +1,6 @@
 Security
 ========
-Obsolete Please use : [[Reporting Security Issues]]
+Obsolete Please use : [Reporting Security Issues](Reporting-Security-Issues.md)
 ----
 
 ![image](http://www.tianocore.org/images/SecurityPix.JPG)

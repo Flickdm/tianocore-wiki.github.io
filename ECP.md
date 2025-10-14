@@ -1,0 +1,67 @@
+# EFI Compatibility Package (ECP)
+
+## What is ECP?
+
+The EFI Compatibility Package (ECP) bridges EDK I code into EDK II
+projects. It is considered deprecated on modern platforms, and we do not
+recommend continuing to use ECP in current projects.
+
+## ECP FAQ
+
+### Why does the EFI Compatibility package (ECP) have its starting point at EDK 1.01 since EDK 1.01 only supports UEFI 2.0 of the Spec.? Doesn’t that indicate that backwards compatibility was not considered?
+
+The purpose of the ECP is to provide backwards compatibility for EDK I
+style source modules that assume UEFI 2.0/Framework 0.9. The ECP uses a
+number of techniques that allow these EDK I source modules to execute
+correctly when run on top of the UDK 2010 UEFI 2.3/PI 1.2 core. This
+preserves customers existing investments in EDK I modules by allowing
+them to be used “as is” in UDK 2010 based firmware. This also allows
+customers to plan when/if their exiting modules will be ported to UDK
+2010 without the use of ECP.
+
+### Is there any Documentation on porting EDK to EDK II without ECP?
+
+There is a plan to have a tool MPT module porting tool in Q1 2011 with
+documentation. This would convert an 1117 driver to pure EDK II driver.
+This plan has still in progress as of Q1 2012.
+
+### What are the constraints when using ECP?
+
+If a platform is ported from EDK to EDK II the One exception is the SEC
+phase.
+
+### Where can I find further information about ECP?
+
+There is currently not any Documented ECP guide but the help (.chm and
+.html) files for the package are on tianocore.org: Latest release will
+be on <a href="UDK2010" class="wikilink" title="UDK2010">UDK2010</a>
+under the Documents Section of the latest release for the
+<a href="EdkCompatibilityPkg" class="wikilink"
+title="EdkCompatibilityPkg">EdkCompatibilityPkg</a>
+
+### What are Native and ECP? And what is different about the EDK II libraries?
+
+1.  ) Native means we do not use the ECP EDK compatibility package.
+    There are no EDK style drivers / modules.
+2.  ) EDK II libraries are a richer set of libraries. Instances can be
+    mapped to same library name. EDK II defines a lib class in the .h
+    file which defines the APIs of the library and there can be many
+    instances or implementations that have that same library class name.
+    For example, a different implementation for a lib can be in PEI
+    while another implementation is in DXE. The goal is to have a
+    consistent set of libraries that the code commonly uses and allow to
+    have different implantations of the libraries for the different
+    phases to easily migrate and port source code. This should help in
+    the porting effort for example writing a PEIM and moving it to the
+    DXE phase.
+
+### With EDK II and ECP does that mean the ECP has its own library?
+
+Yes, ECP has set of libraries that are understood by EDK I to build in
+EDK II. If however, there are libraries developed beyond EDK I they will
+need to be ported to EDK II.
+
+### With regard to HII protocols what is the level to use with the ECP?
+
+To use ECP the code and VFR code must be UEFI 2.0/Framework 0.9. This
+means using the HII from Framework 0.9.

@@ -27,7 +27,7 @@ To meet above requirements, the OBB hash value must be calculated in following w
 >       FV1_Digest + FV2_Digest + FV3_Digest -> OBB Hash
 >
 
-There's only one hash value allowed as OBB hash for one boot mode. As long as the FVs information is passed in the same order as in OBB hash calculating, [FvReportPei](https://github.com/tianocore/edk2/tree/master/SecurityPkg/FvReportPei) is able to get the separate hash value for each FV as well as final OBB hash value, without repeated calculations. 
+There's only one hash value allowed as OBB hash for one boot mode. As long as the FVs information is passed in the same order as in OBB hash calculating, [FvReportPei](https://github.com/tianocore/edk2/tree/master/SecurityPkg/FvReportPei) is able to get the separate hash value for each FV as well as final OBB hash value, without repeated calculations.
 
 OBB hash value and algorithm information must be stored in a way being able to be verified by Root-of-Trust such as BPM (Boot Policy Manifest) in Intel® Boot Guard. How to do it is a platform choice and varies per different hardware security technologies. Nevertheless, to avoid TOCTOU vulnerability, the OBB hash information (hash value, FV_INFO) as well as all OBB data itself must be stored and accessed in a more secure place, like memory, once they're verified. Both platform code and [FvReportPei](https://github.com/tianocore/edk2/tree/master/SecurityPkg/FvReportPei) must make sure of it.
 

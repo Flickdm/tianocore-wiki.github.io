@@ -12,5 +12,4 @@ Source: https://github.com/tianocore/edk2-libc/tree/master/AppPkg
 Before March 2019
 Source: https://github.com/tianocore/edk2/tree/master/AppPkg
 
-
-See also: [[EDKII-EADK]]
+See also: [EDKII-EADK](EDKII-EADK.md)

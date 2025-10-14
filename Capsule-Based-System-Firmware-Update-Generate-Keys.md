@@ -12,7 +12,7 @@ The OpenSSL configuration and OpenSSL commands on this page were verified using 
 
 > NOTE: The steps below are based on Microsoft Windows. Linux packages for OpenSSL will typically setup the environment correctly.
 
-``` 
+```
 set OPENSSL_HOME=c:\OpenSSL-Win32\bin
 set OPENSSL_CONF=%OPENSSL_HOME%\openssl.cfg
 ```
@@ -38,7 +38,7 @@ The following steps demonstrate how to generate a three layer certificate chain 
 
 Private key files are password protected using the `-aes256` flag.  The sequence of commands provided in this demonstration will prompt for a password multiple times.
 
-The `openssl req -new` command prompts the user for several pieces of information.  A unique value for `Common Name` **must** be provided for each of the three certificates generated or the process can not be completed. 
+The `openssl req -new` command prompts the user for several pieces of information.  A unique value for `Common Name` **must** be provided for each of the three certificates generated or the process can not be completed.
 
 ## Generate the Root Pair
 

@@ -1,6 +1,6 @@
 # Introduction
 
-The SMI handler profile feature was introduced to help a developer analyzes which SMI handlers are exposed in an given boot. 
+The SMI handler profile feature was introduced to help a developer analyzes which SMI handlers are exposed in an given boot.
 
 The SMI handler includes:
 
@@ -35,7 +35,7 @@ After SMI handler profile feature is enabled by configuring PCDs above, SmmChild
   SmiHandlerProfileLib|MdeModulePkg/Library/SmmSmiHandlerProfileLib/SmmSmiHandlerProfileLib.inf
   ```
 
-If SMI handler profile feature is disabled, the SmmChildDispatcher driver can link NULL instance. 
+If SMI handler profile feature is disabled, the SmmChildDispatcher driver can link NULL instance.
 
   ```
   SmiHandlerProfileLib|MdePkg/Library/SmiHandlerProfileLibNull/SmiHandlerProfileLibNull.inf
@@ -69,16 +69,16 @@ diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCor
   @@ -2,7 +2,7 @@
    This driver is responsible for the registration of child drivers
    and the abstraction of the QNC SMI sources.
- 
+
   -Copyright (c) 2013-2016 Intel Corporation.
   +Copyright (c) 2013-2017 Intel Corporation.
- 
+
    This program and the accompanying materials
    are licensed and made available under the terms and conditions of the BSD License
   @@ -23,6 +23,8 @@ WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
    #include "QNCSmm.h"
    #include "QNCSmmHelpers.h"
- 
+
   +#include <Library/SmiHandlerProfileLib.h>
   +
    //
@@ -89,7 +89,7 @@ diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCor
      QNC_SMM_QUALIFIED_PROTOCOL  *Qualified;
      INTN                        Index;
   +  UINTN                       ContextSize;
- 
+
      //
      // Check for invalid parameter
   @@ -363,6 +366,7 @@ Returns:
@@ -97,11 +97,11 @@ diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCor
      //
      Record->Signature = DATABASE_RECORD_SIGNATURE;
   +  ContextSize = 0;
- 
+
      switch (Qualified->Type) {
      //
   @@ -383,6 +387,7 @@ Returns:
- 
+
        InsertTailList (&mPrivateData.CallbackDataBase, &Record->Link);
        CopyMem (&Record->SrcDesc, &SX_SOURCE_DESC, sizeof (Record->SrcDesc));
   +    ContextSize = sizeof(Record->ChildContext.Sx);
@@ -117,7 +117,7 @@ diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCor
        // use default clear source function
        //
   @@ -434,6 +440,7 @@ Returns:
- 
+
        InsertTailList (&mPrivateData.CallbackDataBase, &Record->Link);
        CopyMem (&Record->SrcDesc, &GPI_SOURCE_DESC, sizeof (Record->SrcDesc));
   +    ContextSize = sizeof(Record->ChildContext.Gpi);
@@ -130,7 +130,7 @@ diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCor
        Record->ClearSource = QNCSmmQNCnClearSource;
   +    ContextSize = sizeof(Record->ChildContext.QNCn);
        break;
- 
+
      case PeriodicTimerType:
   @@ -462,6 +470,7 @@ Returns:
        InsertTailList (&mPrivateData.CallbackDataBase, &Record->Link);
@@ -138,16 +138,16 @@ diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCor
        Record->ClearSource = QNCSmmPeriodicTimerClearSource;
   +    ContextSize = sizeof(Record->ChildContext.PeriodicTimer);
        break;
- 
+
      default:
   @@ -488,6 +497,8 @@ Returns:
      //
      *DispatchHandle = (EFI_HANDLE) (&Record->Link);
- 
+
   +  SmiHandlerProfileRegisterHandler (Qualified->Guid, DispatchFunction, (UINTN)RETURN_ADDRESS (0), RegisterContext, ContextSize);
   +
      return EFI_SUCCESS;
- 
+
    Error:
   @@ -522,6 +533,8 @@ Returns:
      DATABASE_RECORD *RecordToDelete;
@@ -155,7 +155,7 @@ diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCor
      LIST_ENTRY      *LinkInDb;
   +  QNC_SMM_QUALIFIED_PROTOCOL  *Qualified;
   +  UINTN                       ContextSize;
- 
+
      if (DispatchHandle == NULL) {
        return EFI_INVALID_PARAMETER;
   @@ -552,7 +565,31 @@ Returns:
@@ -188,9 +188,9 @@ diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCor
   +    break;
   +  }
   +  SmiHandlerProfileUnregisterHandler (Qualified->Guid, RecordToDelete->Callback, RecordToDelete->CallbackContext, ContextSize);
- 
+
      FreePool (RecordToDelete);
- 
+
   diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmDispatcher.inf b/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmDispatcher.inf
   index ed94825..23b806a 100644
   --- a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmDispatcher.inf
@@ -209,7 +209,7 @@ diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCor
      S3IoLib
      QNCAccessLib
   +  SmiHandlerProfileLib
- 
+
    [Protocols]
      gEfiSmmCpuProtocolGuid                        # PROTOCOL ALWAYS_CONSUMED
   ```
@@ -312,7 +312,7 @@ NOTE: Please make sure SmmCommunicationBufferDxe driver is include in both dsc a
 						  <RVA>0x16CA</RVA>
 					  </Caller>
 				  </SmiHandler>
-				  ......  
+				  ......
 			  </SmiEntry>
 			  <SmiEntry HandlerType="456D2859-A84B-4E47-A2EE-3276D886997D">
 				  <SmiHandler SxPhase="SxEntry" SxType="SxS3">
@@ -324,7 +324,7 @@ NOTE: Please make sure SmmCommunicationBufferDxe driver is include in both dsc a
 						  <RVA>0x1718</RVA>
 					  </Caller>
 				  </SmiHandler>
-				  ......  
+				  ......
 			  </SmiEntry>
 		  </SmiHandlerCategory>
 	  </SmiHandlerDatabase>
@@ -467,7 +467,7 @@ NOTE: Please make sure SmmCommunicationBufferDxe driver is include in both dsc a
 						  </Symbol>
 					  </Caller>
 				  </SmiHandler>
-				  ......  
+				  ......
 			  </SmiEntry>
 			  <SmiEntry HandlerType="gEfiSmmSxDispatch2ProtocolGuid">
 				  <SmiHandler SxPhase="SxEntry" SxType="SxS3">
@@ -489,10 +489,9 @@ NOTE: Please make sure SmmCommunicationBufferDxe driver is include in both dsc a
 						  </Symbol>
 					  </Caller>
 				  </SmiHandler>
-				  ......  
+				  ......
 			  </SmiEntry>
 		  </SmiHandlerCategory>
 	  </SmiHandlerDatabase>
   </SmiHandlerProfile>
   ```
-

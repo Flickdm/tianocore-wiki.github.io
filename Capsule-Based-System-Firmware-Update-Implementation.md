@@ -41,8 +41,8 @@ It is recommended that the System Firmware Descriptor PEIM implementation be pla
 
 The System Firmware Descriptor information is implemented in the file `SystemFirmwareDescriptor.aslc`.
 The version and string information must be updated for the system firmware update requirements.
-The `IMAGE_TYPE_ID_GUID` define must be set to a new GUID value(using C structure syntax) for the 
-platform.  This GUID value must be one of the GUID values the platform supports for Capsule Base 
+The `IMAGE_TYPE_ID_GUID` define must be set to a new GUID value(using C structure syntax) for the
+platform.  This GUID value must be one of the GUID values the platform supports for Capsule Base
 System Firmware Updates.  The PCD called `gEfiMdeModulePkgTokenSpaceGuid.PcdSystemFmpCapsuleImageTypeIdGuid`
 is set to an array of one or more of `IMAGE_TYPE_ID_GUID` values (using byte array syntax) in the
 Platform DSC file described [here](Capsule-Based-System-Firmware-Update-DSC-FDF#platform-dsc-pcds-sections).
@@ -78,8 +78,8 @@ Update0 = MyPlatformFvMain
 For each `UpdateX` statement, there must be section with the assigned name.  In this example
 the unique component name is `MyPlatformFvMain`.  The component section provides the type
 of firmware, address type, FFS file GUID from the capsule image to use, the address range of
-FFS file to read, and the address range of the system's non-volatile storage device to update 
-using `PlatformFlashAccessLib` implemented above.  The example below shows the 
+FFS file to read, and the address range of the system's non-volatile storage device to update
+using `PlatformFlashAccessLib` implemented above.  The example below shows the
 `[MyPlatformFvMain]` section from the `[Head]` example above.
 
 ```
@@ -99,11 +99,11 @@ FileGuid     = 26961C31-66DC-48A5-891C-25438BDE1430  # PcdEdkiiSystemFirmwareFil
 * **`ImageOffset`**: Image offset of data in FileGuid FFS file in hexidecimal (e.g. `0x00400000`)
 * **`FileGuid`**: Register format GUID of FFS File GUID in FmpPayload (e.g. `26961C31-66DC-48A5-891C-25438BDE1430`)
 
-**NOTE:** A `[Name?]` section may have different `FileGuid`.  Only the ones whose `FileGuid` matches 
+**NOTE:** A `[Name?]` section may have different `FileGuid`.  Only the ones whose `FileGuid` matches
 `PcdEdkiiSystemFirmwareFileGuid` are used.  Non-matching ones are ignored.
 
 Complete examples of System Firmware Update Configuration INI Files can be found the paths
-listed below.  These examples build capsules that may be used for both system firmware 
+listed below.  These examples build capsules that may be used for both system firmware
 update and system firmware recovery.
 
 * `QuarkPlatformPkg/Feature/Capsule/SystemFirmwareUpdateConfig/SystemFirmwareUpdateConfig.ini`
