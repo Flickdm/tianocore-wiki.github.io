@@ -1,6 +1,8 @@
+# Previous Udk2010 Releases
+
 Current <a href="UDK" class="wikilink" title="UDK">UDK</a> Releases
 
-### **UDK2010 Releases**
+### UDK2010 Releases
 
 <div class="t_projects">
 
@@ -376,7 +378,7 @@ Package
 
 </div>
 
-### **Previous UDK2010 Releases**
+### Previous UDK2010 Releases
 
 <div class="t_projects">
 

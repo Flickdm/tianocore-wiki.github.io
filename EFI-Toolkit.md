@@ -1,5 +1,6 @@
-**The
-<a href="EDKII-EADK" class="wikilink" title="EDKII-EADK">EDKII-EADK</a>
+# EFI Toolkit
+
+The <a href="EDKII-EADK" class="wikilink" title="EDKII-EADK">EDKII-EADK</a>
 is replacing the EFI Toolkit. It is recommended that you use this EDK II
 Project instead of the EFI Toolkit since it is no longer supported.**
 

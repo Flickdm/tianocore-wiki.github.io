@@ -1,3 +1,5 @@
+# Common Instructions
+
 \_\_NOTOC\_\_
 
 # Common EDK II Build Instructions for Linux
@@ -110,7 +112,7 @@ application:
 
     bash$ ls Build/MdeModule/DEBUG_*/*/HelloWorld.efi
 
-### Build <a href="OVMF" class="wikilink" title="OVMF">OVMF</a>
+### Build OVMF
 
 Once your build environment is set up you might be interested in
 <a href="How_to_build_OVMF" class="wikilink"

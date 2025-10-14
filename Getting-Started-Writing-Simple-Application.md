@@ -1,3 +1,5 @@
+# Getting Started Writing Simple Application
+
 <span style="font-size: 15.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">**How
 to Write a Simple EDK II UEFI Application** </span>
 
@@ -28,7 +30,7 @@ the command line prompt at the Work Space directory
 2.  Linux like: <span style="font-family: Courier">**bash\$ .
     edksetup.sh BaseTools**</span>
 
-### 4) Edit the file **conf/target.txt**
+### 4) Edit the file conf/target.txt
 
 Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 

@@ -1,3 +1,5 @@
+# Pre-EFI Initialization (PEI)
+
 Frequently asked questions about PEI
 
 ### Can SEC & PEI be built independently into separate binaries?

@@ -1,3 +1,5 @@
+# PerformancePkg
+
 The Performance Package provides documentation and tools to enable you
 to add performance measurement capabilities to your code, generate
 performance data, interpret it, and use the data to improve the

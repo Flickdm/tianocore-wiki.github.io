@@ -1,3 +1,5 @@
+# ArmPkg Sct
+
 ## Debugging UEFI Self Certification Test (SCT)
 
 1\. Build UEFI for your targeted ARM RTSM (RealTime System Model). See

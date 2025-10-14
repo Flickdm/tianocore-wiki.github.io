@@ -1,3 +1,5 @@
+# GUID FAQ
+
 Frequently asked questions about GUIDs
 
 ### How are GUIDs generated?

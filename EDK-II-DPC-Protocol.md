@@ -1,4 +1,4 @@
-# **Deferred Procedure Call Protocol**
+# Deferred Procedure Call Protocol
 
 This document introduces the Deferred Procedure Call (DPC) protocol, including the protocol interface, design intension and code analysis in edk2 network drivers. There is also some discussion about the assumptions, limitations and rules that user must know before consuming the DPC protocol.
 

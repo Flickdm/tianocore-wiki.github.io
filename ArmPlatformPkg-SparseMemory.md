@@ -1,3 +1,5 @@
+# ArmPlatformPkg SparseMemory
+
 UEFI (and Tianocore) supports non-contiguous system memory regions.
 
 ### Adding support

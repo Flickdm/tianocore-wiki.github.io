@@ -1,3 +1,5 @@
+# UEFI Capsule on Disk Introducation
+
 ## Introduction
 Firmware update, which aims to fixing system security vulnerabilities, supporting new devices as well as adding new features, is a common activity in modern computer service. UEFI also provides standard methodology to deliver update image to firmware Root of Trust for Update (RTU). The entire design follows NIST 800-193 which gives generic principles and mechanisms for firmware update.   Design uses data object named Capsule to carry firmware update information including update image, update driver and signature.
 A typical firmware RTU only services in boot time.  Therefore, delivering capsule to RTU requires system reset to give control back. UEFI spec describes 2 different ways in order to carry Capsule back to RTU – Capsule-in-RAM and Capsule-on-Disk. The following content covers detailed analysis towards these 2 features.

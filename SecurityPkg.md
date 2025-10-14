@@ -1,3 +1,5 @@
+# SecurityPkg
+
 There are 4 security related features in SecurityPkg including
 <a href="SecurityPkg#TPM" class="wikilink" title="TPM">TPM</a>,
 <a href="SecurityPkg#UID" class="wikilink"
@@ -61,7 +63,7 @@ storage data. If the EFI_VARIABLE_AUTHENTICATED_WRITE_ACCESS is set,
 both the identity of operator and integrity of data will be
 authenticated before write the variable into storage.
 
-## **Signing Tools**
+## Signing Tools
 
 This section lists signing tools and resources for UEFI Secure Boot on
 Linux. It is far from an exhaustive list but hopefully will be a helpful
@@ -72,7 +74,7 @@ edk2-devel@lists.01.org</a> To join the email list goto:
 <a href="edk2-devel" class="wikilink" title="edk2-devel">edk2-devel</a>
 (NOTE: Do NOT send any personal information to the edk2-devel list.)
 
-### **Linux tools for signing UEFI images**
+### Linux tools for signing UEFI images
 
 <table  width="100%" style="border-collapse: collapse" bordercolor="#0000011">
 
@@ -138,7 +140,7 @@ pesign </span>
 
 </table>
 
-### **Linux Secure Boot Resources**
+### Linux Secure Boot Resources
 
 - - UEFI Secure Boot support in several Linux distros,
   - creating keys and certificates,
@@ -385,9 +387,9 @@ using MS UEFI CA to sign images
 
 </table>
 
-## **Signing - Secure Boot Results**
+## Signing - Secure Boot Results
 
-#### **a Linux Loaders and Kernels**
+#### a Linux Loaders and Kernels
 
 - EFI_STUB Kernel - has been signed with the Microsoft\* SignTool and
   successfully secure booted. Fixes are available in <tip:x86/efi>
@@ -410,7 +412,7 @@ using MS UEFI CA to sign images
 The .reloc section fix on x86-64 was merged into the efi-linux library’s
 sourceforge repository and a new version was released (3.0q).
 
-#### **UEFI Applications Built with UDK Linux Tool Chains**
+#### UEFI Applications Built with UDK Linux Tool Chains
 
 - UDK GCC44 & GCC46 UDK Tool Chain
 

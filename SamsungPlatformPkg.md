@@ -1,3 +1,5 @@
+# SamsungPlatformPkg
+
 The Samsung Origen (http://www.origenboard.org/) is one of the low-cost
 ARM development boards. The platform is powered by a dual Cortex A9 and
 supports a large range of devices on boards (2x SD card, LCD & HDMI

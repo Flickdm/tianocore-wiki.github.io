@@ -1,3 +1,5 @@
+# Legalese
+
 If you would like to make code contributions to our community, please refer to our [Code Contributions](Code-Contributions.md) and [[Member Types]] pages.
 
 ## Licenses for TianoCore Contributions

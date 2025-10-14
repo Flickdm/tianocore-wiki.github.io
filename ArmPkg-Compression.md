@@ -1,3 +1,5 @@
+# ArmPkg Compression
+
 ## Introduction
 
 To reduce the size of the firmware and also to speed up the boot process

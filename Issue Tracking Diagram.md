@@ -1,3 +1,5 @@
+# Issue Tracking Diagram
+
 ## The EFI and Framework Open Source Defect Resolution Process
 
 **Phase 1: Submit and Validate** - ([zoom

@@ -1,3 +1,5 @@
+# EDK II FAQ
+
 **EDK II FAQ**
 
 <a href="Differences_between_EDK_and_EDK_II" class="wikilink"

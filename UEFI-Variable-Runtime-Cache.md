@@ -1,3 +1,5 @@
+# UEFI Variable Runtime Cache
+
 The UEFI Variable Runtime Cache feature was introduced to reduce the total number of SMIs triggered and therefore total
 system time in SMM when SMM UEFI variables are enabled.
 

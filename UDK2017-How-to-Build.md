@@ -9,7 +9,7 @@ Table of Contents
 1) [HOW TO BUILD (WINDOWS SYSTEM)](#how-to-build-windows-system)
 2) [ HOW TO BUILD (LINUX-LIKE SYSTEM)](#how-to-build-linux-like-system)
 
-##                          HOW TO BUILD (WINDOWS SYSTEM)
+## HOW TO BUILD (WINDOWS SYSTEM)
 
 The steps below are verified on Microsoft Windows 10 Enterprise*:
 
@@ -69,7 +69,7 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
 
 ---
 
-##                         HOW TO BUILD (LINUX-LIKE SYSTEM)
+## HOW TO BUILD (LINUX-LIKE SYSTEM)
 The below steps are verified on Ubuntu 16.04 LTS Desktop*:
 
 1.  Setup Build Environment

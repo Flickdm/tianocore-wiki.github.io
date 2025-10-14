@@ -1,3 +1,5 @@
+# Capsule Based System Firmware Update Verify Test Keys
+
 Back to [Capsule Based System Firmware Update](Capsule-Based-System-Firmware-Update)
 
 The following steps can be used to verify that the capsule-based system firmware update
@@ -79,7 +81,7 @@ should match the System Firmware Descriptor PEIM .aslc file described
 In this example, the `ImageTypeId` GUID value is `553B20F9-9154-46CE-8142-80E2AD96CD92`, the
 `Version` value is `0x3` and the `VersionName` string is `"0x00000003"`.
 ```
-############
+###### ######
 # FMP DATA #
 ############
 FMP (0) ImageInfo:

@@ -1,4 +1,4 @@
-# **Using the EDK II Network Stack with QEMU**
+# Using the EDK II Network Stack with QEMU
 
 ## Overview
 In order to validate the [EDK II Network Stack](https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide) via [QEMU](https://wiki.qemu.org/), you should review information on how to run the [OVMF](https://github.com/tianocore/tianocore.github.io/wiki/ovmf) platform. OVMF can execute the EDK II network stack in a virtual platform. Please refer to the [QEMU Networking](https://wiki.qemu.org/Documentation/Networking) documentation for additional information.

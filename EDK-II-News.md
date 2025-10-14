@@ -1,3 +1,5 @@
+# EDK II News
+
 **NEW on this project is the MdePkg version 1.01 and Core Stable version
 0.90 release.
 ([here](http://sourceforge.net/projects/edk2/files/Releases/EDK%20II%20Core%20(v%200.90)/))**

@@ -14,7 +14,7 @@ GitHub
   (https://help.github.com/articles/set-up-git)
 - To download and install a Git GUI interface (http://git-scm.com/)
 
-## **GitHub EDK II Project Repositories**
+## GitHub EDK II Project Repositories
 
 - The EDK II BaseTools are part of the EDK II project repository.
 - The EDK II project repository is available at
@@ -65,7 +65,7 @@ more information.
 - BuildTools [User
   Manuals](https://github.com/tianocore/buildtools-BaseTools/tree/master/UserManuals)
 
-# **How to Setup the EDK II Tree**
+# How to Setup the EDK II Tree
 
 See <a href="Getting_Started_with_EDK_II" class="wikilink"
 title="Getting Started with EDK II">Getting Started with EDK II</a>

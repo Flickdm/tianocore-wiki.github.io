@@ -1,5 +1,5 @@
-Security
-========
+# Security Advisory
+
 Obsolete Please use : [Reporting Security Issues](Reporting-Security-Issues.md)
 ----
 

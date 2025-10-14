@@ -1,3 +1,5 @@
+# Inclusive Language Guidelines
+
 ## Overview
 
 To promote a more inclusive and open ecosystem, TianoCore is dedicated to removing archaic terminology that holds negative connotation.

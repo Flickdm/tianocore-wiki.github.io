@@ -1,3 +1,5 @@
+# Start Using UEFI
+
 <a href="UEFI" class="wikilink" title="UEFI">UEFI</a> usage and support
 is rapidly growing in computing today. Our goal is to enable product
 manufacturers to create products that are shipped both supporting and

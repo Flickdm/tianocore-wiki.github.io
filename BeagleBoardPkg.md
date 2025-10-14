@@ -1,3 +1,5 @@
+# Beagleboardpkg
+
 The [Beagle Board](http://beagleboard.org/) is a low cost highly capable
 single board computer. The Beagle Board is based on an OMAP3530 SoC
 featuring an ARM® CortexTM-A8 processor. Please go

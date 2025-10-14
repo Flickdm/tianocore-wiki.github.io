@@ -1,3 +1,5 @@
+# Commit Partitioning
+
 Since we have many people involved in our projects, communication is
 very important. One often overlooked form of communication is the source
 control commits.

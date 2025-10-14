@@ -1,3 +1,5 @@
+# Platform Configuration Database (PCD)
+
 Questions asked about PCDs
 
 ### Where are PCDs specified?

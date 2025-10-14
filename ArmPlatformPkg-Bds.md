@@ -1,3 +1,5 @@
+# ArmPlatformPkg Bds
+
 ### Specify the default Console I/O devices
 
 The UEFI Boot Manager expects all the console peripherals to be defined

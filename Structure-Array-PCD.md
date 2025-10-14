@@ -1,3 +1,5 @@
+# Structure Array Pcd
+
 ## PCD can be declared as C Array in DEC file
 * When PCD is declared in DEC file, VOID* will be replaced by C Array.
 * C Array can be basic data type array, such as UINT8[10]

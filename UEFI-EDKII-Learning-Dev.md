@@ -8,7 +8,7 @@ Before you begin a course, review the course objectives and intended audience to
 <br>
 How to download: Download each lesson’s '''Zip file**'''  into your local directory.  Then unzip each one and run each of  the .htm files locally.  Double click on the index.html file for each lesson to open with your default browser.
 
-## <b>Courses</b>
+## Courses
 Intended Audience:Firmware/Software Engineers <br>
 Course Goal:Initialize the boot process by following the UEFI specifications
 <table width="100%">

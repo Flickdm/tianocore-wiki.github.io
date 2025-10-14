@@ -1,3 +1,5 @@
+# How To Contribute
+
 Our community enables
 <a href="UEFI" class="wikilink" title="UEFI">UEFI</a> firmware and tools
 through various open source projects. Most of our efforts are currently

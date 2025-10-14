@@ -1,3 +1,5 @@
+# Testing SMM with QEMU, KVM, and libvirt
+
 This article describes an example setup for testing the edk2 SMM driver stack
 as it is built into OVMF, on QEMU/KVM, managed by libvirt. The setup uses
 hardware virtualization (KVM) and requires a Linux host machine.

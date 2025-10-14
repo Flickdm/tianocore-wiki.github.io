@@ -1,3 +1,5 @@
+# Nate's Recommended Vscode Extensions And Settings
+
 Visual Studio Code is currently my preferred text editor for working on EDK II code. However, making it a good environment for EDK II development work requires several extensions to be installed. My recommendations are below:
 
 # Recommended Extensions

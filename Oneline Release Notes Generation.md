@@ -1,3 +1,5 @@
+# Oneline Release Notes Generation
+
 One benefit of our [Commit Message Format](Commit-Message-Format.md) is to allow easy creation of brief (single-line) release notes
 
 # Brief (oneline) Release Notes

@@ -1,3 +1,5 @@
+# UEFI PI FAQ
+
 More information: <a href="UEFI-and-PI-Wiki" class="wikilink"
 title="UEFI-and-PI-Wiki">UEFI-and-PI-Wiki</a> \|
 <a href="PI_Boot_Flow" class="wikilink" title="PI Boot Flow">PI Boot
@@ -310,7 +312,7 @@ sp2
 
 FV contained inside one or more flash devices.
 
-### What is the difference between EFI_DISK_IO_PROTOCOL and EFI_BLOCK_IO_PROTOCOL?
+### What is the difference between EFIDISKIOPROTOCOL and EFIBLOCKIOPROTOCOL?
 
 The EFI_BLOCK_IO_PROTOCOL abstracts mass storage devices to allow code
 running in the UEFI boot services environment to access them without

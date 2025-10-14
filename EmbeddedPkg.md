@@ -1,10 +1,12 @@
+# EmbeddedPkg
+
 EmbeddedPkg provides protocol implementation for memory mapped
 controllers and EBL. EBL (EDK Boot Loader) - a simpler EFI shell - is
 aslo part of this package.
 
 ### EmbeddedPkg Protocols
 
-#### EMBEDDED_EXTERNAL_DEVICE
+#### EMBEDDEDEXTERNALDEVICE
 
 > The only module today that implements this protocol is the OMAP3 PMIC.
 > A reason to use this driver could be for instance you write a driver
@@ -22,7 +24,7 @@ aslo part of this package.
 <u>Source:</u> <i>edk2-devel mailing-list - Olivier Martin - Fri
 03/08/2012 09:54</i>
 
-#### EMBEDDED_DEVICE_PROTOCOL
+#### EMBEDDEDDEVICEPROTOCOL
 
 > One ‘limitation’ of most embedded system in comparison to PC system is
 > most of their controllers are located at a different location in the

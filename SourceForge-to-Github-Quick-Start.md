@@ -1,3 +1,5 @@
+# SourceForge To Github Quick Start
+
 GitHub Help
 ===========
 
@@ -30,7 +32,7 @@ Multiple Workspace feature can be found at the following location.
 
 -   [Multiple\_Workspace](Multiple_Workspace "wikilink")
 
-### **Linux Support**
+### Linux Support
 
 #### For EDKII project developers:
 
@@ -78,7 +80,7 @@ When the above steps are done, the directory structure will look like:
       └───FatPkg
 ```
 
-### **Windows Support**
+### Windows Support
 
 #### For EDKII project developers:
 

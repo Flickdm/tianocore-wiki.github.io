@@ -1,3 +1,5 @@
+# Wizard Getting Started
+
 ## Installation Overview
 
 *Note: examples are based on Microsoft Windows 7 with Visual Studio

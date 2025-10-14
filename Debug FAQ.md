@@ -1,3 +1,5 @@
+# Debug Faq
+
 Debug frequently asked questions
 
 ### Is there a way to get a list of or debug message of all the drivers that do not get dispatched? What is recommended for DSC file and PCD configuration (Debug error level flag) to get a debug output list of all the drivers that were not dispatched?

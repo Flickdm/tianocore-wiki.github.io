@@ -1,3 +1,5 @@
+# ArmPlatformPkg
+
 ArmPlatformPkg supports UEFI for ARM delveopment boards and their
 drivers (ARM RealView EB/RTSM, ARM Versatile Express. This package also
 exposes some common components (such as SEC, PEIMs, BDS) which can be

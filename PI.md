@@ -1,4 +1,4 @@
-## Platform Initialization (PI)
+# Platform Initialization (PI)
 
 UEFI Platform Initialization (PI) describes the boot execution phases to encompass [UEFI](UEFI.md) supported protocols and services. PI evolved from the original Intel® Platform Innovation Firmware for EFI Specification. While UEFI primarily focuses on the interface between firmware and the operating system, PI focuses on interfaces between low-level firmware components.
 

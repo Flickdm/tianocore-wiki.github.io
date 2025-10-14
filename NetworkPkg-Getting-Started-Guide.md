@@ -1,6 +1,6 @@
-# **NetworkPkg Getting Started Guide**
+# NetworkPkg Getting Started Guide
 
-## **Features List**
+## Features List
 
 ### IPv6 network stack
 

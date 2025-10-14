@@ -26,7 +26,7 @@ The single hash `#` character indicates comments in the (INF) file. In line comm
 
 Note: The _\<Usage Block\>_ will start with double `##` within the various sections and is **not** a comment and will be parsed for the the Intel(R) UEFI Packaging Tool included in the EDK II base tools project. The usages in the comment block describe how the Protocol, PPIS or GUID  is used in the C code.
 
-### [Defines] <br>
+### [Defines]
 ```
      INF_VERSION            = 1.25
 ```

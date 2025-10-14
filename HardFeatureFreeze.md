@@ -1,3 +1,5 @@
+# Hard Feature Freeze
+
 After the hard feature freeze, the master branch in git is no longer open for
 general development. Only bug fixes will be accepted until the next [stable
 tag](EDK-II#stable-tags).

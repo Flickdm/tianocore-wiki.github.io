@@ -1,10 +1,12 @@
+# Documents
+
 Documents including Specification, User Manuals, White Papers, and other
 member contributions are listed here.
 
-## <a href="EDK_II_Documents" class="wikilink" title="EDK II Documents">EDK
+## EDK
 II Documents</a>
 
-## <a href="EDK" class="wikilink" title="EDK">EDK</a> Documents
+## EDK Documents
 
 - <a href="EDK_User_Documentation" class="wikilink"
   title="EDK User Documentation">EDK User Documentation</a>

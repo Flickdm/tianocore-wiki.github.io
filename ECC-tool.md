@@ -5,7 +5,7 @@ It reports errors for the codes which don't follow [EDK II C Coding Standards Sp
 # 2. Where is the ECC tool?
 ECC tool is located in edk2/BaseTools/Source/Python/Ecc.
 
-# 3. How to run ECC tool?<br>
+# 3. How to run ECC tool?
 Steps to run the ECC tool:<br>
 * 1). Enter edk2 directory, run: **edksetup.bat**** (**on Windows**)<br>
       **Enter edk2 directory, run: **source edksetup.sh**** (**on Linux**)<br>

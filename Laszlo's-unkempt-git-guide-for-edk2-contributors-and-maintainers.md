@@ -1,5 +1,4 @@
-Disclaimer
-==========
+# Laszlo's Unkempt Git Guide For Edk2 Contributors And Maintainers
 
 **NOTE**: This document describes a deprecated process of contributing changes using
 patches on a mailing list. Information in this document may still be helpful

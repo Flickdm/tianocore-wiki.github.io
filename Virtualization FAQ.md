@@ -1,3 +1,5 @@
+# Virtualization FAQ
+
 Virtualization questions
 
 ### Can I remove Hardware components and run in a virtualized environment?

@@ -1,3 +1,5 @@
+# Dec Faq
+
 ## Frequently asked questions about DEC
 
 ### How is DSC different from DEC vs INF?

@@ -1,3 +1,5 @@
+# EDK II git svn
+
 If you have commit access, then you should consider using git-svn to
 interface with the EDK II svn repository.
 

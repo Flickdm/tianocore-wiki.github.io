@@ -1,12 +1,14 @@
+# Coreboot Uefi Payload
+
 \_\_NOTOC\_\_
 
-### **Outdated**
+### Outdated
 
 Please see the updated page <a href="UefiPayloadpkg" class="wikilink"
 title="UefiPayloadpkg">UefiPayloadpkg</a> that replaces the
 CorebootModulePkg and CorebootPayloadPkg
 
-### **Coreboot**
+### Coreboot
 
 coreboot is an Open Source project aimed at replacing the proprietary
 BIOS (firmware) found in most computers. coreboot performs a little bit
@@ -19,7 +21,7 @@ UEFI. This allows for systems to only include the features necessary in
 the target application, reducing the amount of code and flash space
 required. <http://www.coreboot.org/>
 
-### **Coreboot Payload Package**
+### Coreboot Payload Package
 
 **CorebootModulePkg** - Source code package of Coreboot Support Modules
 that will be used to parse the coreboot tables in memory , report
@@ -33,7 +35,7 @@ modules required in DSC file.
 **Build Instructions**:
 <https://github.com/tianocore/edk2/raw/master/CorebootPayloadPkg/BuildAndIntegrationInstructions.txt>
 
-### **Intel® Firmware Support Package**
+### Intel® Firmware Support Package
 
 Intel holds the key programming information that is crucial for
 initializing Intel silicon. The Intel® Firmware Support Package (FSP) is
@@ -45,7 +47,7 @@ certain bus interfaces, if necessary. The FSP provides chipset and
 processor initialization in a format that can easily be incorporated
 into many boot loaders including coreboot. <http://www.intel.com/fsp>
 
-### **Payload**
+### Payload
 
 Coreboot in itself is "only" minimal code for initializing hardware. It
 does not have the media drivers nor does it provide services required by
@@ -55,7 +57,7 @@ services required to load and boot an OS.
 
 <img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Coreboot001.jpg" >
 
-### **UEFI Payload**
+### UEFI Payload
 
 UEFI payload provides UEFI services on top of coreboot that allows UEFI
 OS boot.

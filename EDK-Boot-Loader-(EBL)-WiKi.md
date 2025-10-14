@@ -1,3 +1,5 @@
+# EDK Boot Loader (EBL) WiKi
+
 The EDK Boot Loader (EBL) is a small EFI application that produces a
 small command line shell.
 

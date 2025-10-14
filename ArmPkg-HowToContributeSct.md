@@ -1,3 +1,5 @@
+# ArmPkg HowToContributeSct
+
 ## How To contribute to SCT
 
 <u>Pre-requirements:</u>

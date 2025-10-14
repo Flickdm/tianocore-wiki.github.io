@@ -27,24 +27,24 @@ gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfilePropertyMask|0x0|UINT8|0x30001041
 ## This flag is to control which memory types of alloc info will be recorded by DxeCore & SmmCore.<BR><BR>
 # For SmmCore, only EfiRuntimeServicesCode and EfiRuntimeServicesData are valid.<BR>
 #
-# Below is bit mask for this PCD: (Order is same as UEFI spec)<BR>
-#  EfiReservedMemoryType          0x0001<BR>
-#  EfiLoaderCode                  0x0002<BR>
-#  EfiLoaderData                  0x0004<BR>
-#  EfiBootServicesCode            0x0008<BR>
-#  EfiBootServicesData            0x0010<BR>
-#  EfiRuntimeServicesCode         0x0020<BR>
-#  EfiRuntimeServicesData         0x0040<BR>
-#  EfiConventionalMemory          0x0080<BR>
-#  EfiUnusableMemory              0x0100<BR>
-#  EfiACPIReclaimMemory           0x0200<BR>
-#  EfiACPIMemoryNVS               0x0400<BR>
-#  EfiMemoryMappedIO              0x0800<BR>
-#  EfiMemoryMappedIOPortSpace     0x1000<BR>
-#  EfiPalCode                     0x2000<BR>
-#  EfiPersistentMemory            0x4000<BR>
-#  OEM Reserved       0x4000000000000000<BR>
-#  OS Reserved        0x8000000000000000<BR>
+# Below is bit mask for this PCD: (Order is same as UEFI spec)
+# EfiReservedMemoryType 0x0001
+# EfiLoaderCode 0x0002
+# EfiLoaderData 0x0004
+# EfiBootServicesCode 0x0008
+# EfiBootServicesData 0x0010
+# EfiRuntimeServicesCode 0x0020
+# EfiRuntimeServicesData 0x0040
+# EfiConventionalMemory 0x0080
+# EfiUnusableMemory 0x0100
+# EfiACPIReclaimMemory 0x0200
+# EfiACPIMemoryNVS 0x0400
+# EfiMemoryMappedIO 0x0800
+# EfiMemoryMappedIOPortSpace 0x1000
+# EfiPalCode 0x2000
+# EfiPersistentMemory 0x4000
+# OEM Reserved 0x4000000000000000
+# OS Reserved 0x8000000000000000
 #
 # e.g. Reserved+ACPINvs+ACPIReclaim+RuntimeCode+RuntimeData are needed, 0x661 should be used.<BR>
 #

@@ -1,3 +1,5 @@
+# EDK II Platforms
+
 ## EDK II Platforms
 
 Note: new platforms are being developed in the [edk2-platforms](https://github.com/tianocore/edk2-platforms) repository. Some older platforms still reside in the main [edk2](https://github.com/tianocore/edk2) repository.

@@ -1,3 +1,5 @@
+# Windows Systems
+
 \_\_NOTOC\_\_
 
 ` Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
@@ -36,7 +38,7 @@ GitHub.
 - TortoiseGit for windows OS is available at
   (https://tortoisegit.org/download/)
 
-## **GitHub EDK II Project Repositories**
+## GitHub EDK II Project Repositories
 
 - The EDK II project repository is available at
   <https://github.com/tianocore/edk2>.
@@ -62,7 +64,7 @@ you would configure your proxy by setting an environment variable:
         $ git config --global https.proxy <proxyname>.domain.com:<port>
         $ git config --global http.proxy <proxyname>.domain.com:<port>
 
-## **How to Setup the EDK II Tree**
+## How to Setup the EDK II Tree
 
 **Note:** Some of the following examples use the Multiple Workspace
 feature to configure the EDK II BaseTools. More information on the
@@ -70,7 +72,7 @@ Multiple Workspace feature can be found at the following location.
 \* <a href="Multiple_Workspace" class="wikilink"
 title="Multiple_Workspace">Multiple_Workspace</a>
 
-## **Download**
+## Download
 
 Download/Checkout the EDK II source tree from Github
 
@@ -86,9 +88,9 @@ Download/Checkout the EDK II source tree from Github
 Continue to <a href="Windows-systems#compile-tools" class="wikilink"
 title="Compile Tools">Compile Tools</a>
 
-### Using **Git for Windows** Application
+### Using Git for Windows Application
 
-#### *Git GUI*
+#### Git GUI
 
 1.  Clone the EDK II project repository
     1.  Open Git GUI
@@ -101,7 +103,7 @@ title="Compile Tools">Compile Tools</a>
 Continue to <a href="Windows-systems#compile-tools" class="wikilink"
 title="Compile Tools">Compile Tools</a> section
 
-#### *Git CMD*
+#### Git CMD
 
 If you use the command line version, then you can easily checkout the
 edk2 to the C:\edk2 directory with the following git command: Main
@@ -114,7 +116,7 @@ title="Compile Tools">Compile Tools</a> and then
 <a href="Windows-systems#build" class="wikilink" title=" BUILD">
 BUILD</a> sections
 
-## **Compile Tools**
+## Compile Tools
 
 ##### For EDK II project developers on Windows with source BaseTools:
 
@@ -145,7 +147,7 @@ Example:
          C:\edk2> set PYTHON_HOME=C:\Python37
          C:\edk2> edksetup.bat Rebuild
 
-## **Build**
+## Build
 
 - Set up the
   <a href="Nasm-Setup" class="wikilink" title=" Nasm"> Nasm</a> open
@@ -205,7 +207,7 @@ be able to run successfully under the shell.
 
     C:\edk2> dir /s Build\MdeModule\DEBUG_...\IA32\HelloWorld.efi
 
-### Build <a href="OVMF" class="wikilink" title="OVMF">OVMF</a> (OPTIONAL)
+### Build OVMF (OPTIONAL)
 
 Once your build environment is set up you might be interested in
 building the <a href="OVMF" class="wikilink" title="OVMF">OVMF</a>

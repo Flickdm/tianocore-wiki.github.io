@@ -1,3 +1,5 @@
+# OBB Verification
+
 OBB (Oem Boot Block) Verification is a common solution of maintaining the Chain-of-Trust in edk2 based firmware. It fills the gap between IBB (Initial Boot Block, verified by Root-of-Trust) and 3rd-party image (like OS loader, verified by Secure Boot). Following figure shows the point at which the OBB Verification complete the Chain-of-Trust in firmware.
 
 ![1566887183249](images/OBB-in-the-Chain-of-Trust.png)

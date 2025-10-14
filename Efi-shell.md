@@ -1,3 +1,5 @@
+# EFI Shell
+
 Welcome to the EFI-SHELL Project. The purpose of this project is to
 allow the EFI Shell application code to become an open-source component
 of the EDK and the "Framework". The EFI Shell was released under the BSD

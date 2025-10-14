@@ -1,3 +1,5 @@
+# Remove IntelFrameworkModulePkg
+
 Below is the directory tree of IntelFrameworkModulePkg.
 The link after the directory name is the GitHub issue link tracking the removal of it.
 

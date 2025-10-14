@@ -1,3 +1,5 @@
+# Fat32 License
+
 BSD License - Modified for the FAT32 Driver by Intel
 
 Copyright (c) 2004, Intel Corporation

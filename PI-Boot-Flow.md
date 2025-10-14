@@ -1,3 +1,5 @@
+# Platform Initialization (PI) Boot Flow
+
 <a
 href="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.JPG"
 class="wikilink"

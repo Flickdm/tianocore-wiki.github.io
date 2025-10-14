@@ -1,3 +1,5 @@
+# About The Community
+
 There is a lot to learn about EDK II and the TianoCore open source
 community. The real magic of any community is when you join and have
 full access to the tools that the community drivers use to evolve and

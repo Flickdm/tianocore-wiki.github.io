@@ -1,8 +1,10 @@
+# Edk apps
+
 **Note that EDK has been deprecated in favor of
 <a href="EDK_II" class="wikilink" title="EDK II">EDK II</a>. This
 information is provided for historical purposes**
 
-## Welcome to the **EDK Sample Applications Project**!
+## Welcome to the EDK Sample Applications Project!
 
 One of the inspiring aspects of the EDK is the ability to develop
 applications for the UEFI Environment. Since the ability to expand the

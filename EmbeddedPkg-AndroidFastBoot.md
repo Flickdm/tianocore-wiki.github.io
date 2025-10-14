@@ -1,3 +1,5 @@
+# EmbeddedPkg Android FastBoot
+
 Fastboot is a protocol designed as a mechanism to update Android
 platforms. This page describes an implementation of the device-side as
 part of UEFI. You can use it to download and flash images onto a

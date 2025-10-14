@@ -1,3 +1,5 @@
+# Ebc Faq
+
 ## Frequently asked questions about EDK and EBC
 
 ### What is EBC?

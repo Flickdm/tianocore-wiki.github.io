@@ -1,3 +1,5 @@
+# Fmp Capsule Dependency Introduction
+
 ## Introduction
 There are situations where a platform may have separately updatable firmware components (e.g. motherboard, BMC, EC, etc.) and in some cases, there may be dependencies among them. For instance, FWx requires FWy to be at least version 2.0 to install. Today, we don’t have a way to express that in our infrastructure. Fmp capsule dependency attempts to add that capability through minor changes in the FMP capsule as well as a minor enhancement to FmpDxe driver and FmpDeviceLib.
 Capsule Dependency is an incremental change of FMP capsule (Signed Capsule) to evaluate the capsule’s version dependency requirement is satisfied or not before applying the update.
@@ -179,7 +181,7 @@ FmpDeviceGetAttributes (
 ```
 
 ### How to generate capsule with dependency feature:
-#### 1.	Encode
+#### 1. Encode
 Capsule generate tool supports to encode capsule dependencies through `'-j'`
 command with a JSON file, for example, to type following command in command prompt:
 `GenerateCapsule.py -e -j Example.json -o Example.cap`
@@ -266,12 +268,12 @@ Here are some example of dependency entry for all kinds of operators:
 "Dependencies": "aa2fd162-59d1-4d73-bd2c-c6f9f353cdda >= 0x00000001 DECLARE \"Fmp Device 1\""
 ```
 
-#### 2.	Decode
+#### 2. Decode
 Capsule dependency tool supports the dependencies decoding, for example, to type following command in command prompt:
 	`GenerateCapsule.py -d Example.cap -o Test`
 All Decoded dependency expressions are written to `Test.json` for each payload.
 
-#### 3.	Dump information
+#### 3. Dump information
 Dump info leverages Decode, for example, to type following command in command prompt:
 	`GenerateCapsule.py --dump-info Example.cap`
 Here is an example for output dump information.
@@ -310,7 +312,7 @@ Now Device A has an update to version 0x02 that requires the version of Device B
 
 1. Create Device A's capsule with the dependency on Device B:
 ```shell
-# GenerateCapsule.py -e -j A_v2.json -o A_v2.cap
+# GenerateCapsule.py -e -j Av2.json -o Av2.cap
 ```
 Example of A_v2.json:
 ```json
@@ -340,9 +342,9 @@ Shell> CapsuleApp.efi A_v2.cap
 3. After the update finishes, enter UEFI shell and check the update status. The expectation is that update fails with `UNSATISFIED_DEPENDENCIE` error status.
 ```shell
 Shell> CapsuleApp -E
-##############
+###### ########
 # ESRT TABLE #
-##############
+###### ########
 EFI_SYSTEM_RESOURCE_TABLE:
 FwResourceCount    - 0x2
 FwResourceCountMax - 0x6

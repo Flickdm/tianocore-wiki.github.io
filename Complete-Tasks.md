@@ -1,3 +1,5 @@
+# Complete Tasks
+
 These tasks have already been completed and are examples of successful
 projects from prior years.
 
@@ -5,7 +7,7 @@ projects from prior years.
 
 ## GSoC 2021
 
-### <s>ext4 driver</s>
+### ext4 driver
 
 Develop a read-only ext4 filesystem driver.
 <http://en.wikipedia.org/wiki/Ext4>
@@ -29,7 +31,7 @@ More information:
 <a href="Tasks-ext2_file-system_driver" class="wikilink"
 title="Tasks-ext2 file-system driver">Tasks-ext2 file-system driver</a>
 
-### <s>Port MinPlatform to the Acer Aspire VN7-572G</s>
+### Port MinPlatform to the Acer Aspire VN7-572G
 
 Build a MinPlatform board port for the Acer Aspire VN7-572G.
 
@@ -56,7 +58,7 @@ href="https://gist.github.com/benjamindoron/cf9ce28bba0b6356113918a40814af30"
 class="wikilink"
 title="https://gist.github.com/benjamindoron/cf9ce28bba0b6356113918a40814af30">https://gist.github.com/benjamindoron/cf9ce28bba0b6356113918a40814af30</a>
 
-### <s>Formally Verified PE/COFF Loader</s>
+### Formally Verified PE/COFF Loader
 
 - Language: C
 - Mentors: Bret Barkelew (<a href="@corthon" class="wikilink"
@@ -75,7 +77,7 @@ More information:
 class="wikilink"
 title="https://github.com/mhaeuser/gsoc-2021-edk2-pe-loader">https://github.com/mhaeuser/gsoc-2021-edk2-pe-loader</a>
 
-### <s>Enable Clang/LLVM Build for Microsoft Windows</s>
+### Enable Clang/LLVM Build for Microsoft Windows
 
 <a href="LLVM" class="wikilink"
 title="https://llvm.org/"><span>https://llvm.org/</span></a> support in
@@ -99,7 +101,7 @@ robustly. Microsoft Windows 10 should be the primary target.
   class="wikilink"
   title="https://github.com/tianocore/edk2-staging/tree/2021-gsoc-llvm-gnumake">https://github.com/tianocore/edk2-staging/tree/2021-gsoc-llvm-gnumake</a>
 
-### <s>Terminal driver improvements</s>
+### Terminal driver improvements
 
 Optimize cursor motion sequences; support Linux/UNIX standard
 (xterm/konsole/gnome-terminal/etc.) key codes and line-drawing
@@ -128,7 +130,7 @@ title="Tasks-Terminal-driver-improvements">Tasks-Terminal-driver-improvements</a
 
 ## GSoC 2012
 
-### <s>USB-to-serial driver</s>
+### USB-to-serial driver
 
 Develop a USB driver for a common USB-to-serial adapter.
 
@@ -154,7 +156,7 @@ driver</a>
 
 ## GSoC 2011
 
-### <s>Read-only FFS file-system driver</s>
+### Read-only FFS file-system driver
 
 Develop a read-only filesystem driver which allows the contents of each
 PI 1.2 FFS in the system to appear as a pseudo-file system.
@@ -183,7 +185,7 @@ More information:
 
 ## Other Completed Projects
 
-### <s>Shell editor improvements</s>
+### Shell editor improvements
 
 Various improvements for the Shell editor
 
@@ -202,7 +204,7 @@ Various improvements for the Shell editor
 More information: <a href="Tasks-Text_Editor" class="wikilink"
 title="Tasks-Text Editor">Tasks-Text Editor</a>
 
-### <s>Optimize OVMF for Xen HVM domains</s>
+### Optimize OVMF for Xen HVM domains
 
 Add Xen specific support in
 <a href="OVMF" class="wikilink" title="OVMF">OVMF</a> to improve boot &
@@ -215,7 +217,7 @@ runtime performance. <http://www.xen.org/>
 - Status: Implemented via
   <https://github.com/tianocore/edk2/issues/7876>
 
-### <s>Port EmulatorPkg to Windows</s>
+### Port EmulatorPkg to Windows
 
 Port <a href="EmulatorPkg" class="wikilink"
 title="EmulatorPkg">EmulatorPkg</a> to Microsoft Windows (32/64 bit), as
@@ -231,12 +233,12 @@ More information:
 <a href="Tasks-EmulatorPkg_for_Windows" class="wikilink"
 title="Tasks-EmulatorPkg for Windows">Tasks-EmulatorPkg for Windows</a>
 
-### <s>Add Visual Studio 2017 Support</s>
+### Add Visual Studio 2017 Support
 
 Microsoft Visual Studio will be released March 7, 2017. Add VS2017 build
 support to EDK II.
 
-### <s>Port Intel Firmware Engine SDK Extensions to OVMF</s>
+### Port Intel Firmware Engine SDK Extensions to OVMF
 
 Intel Firmware Engine adds UserExtensions in the SDK to describe
 connections between modules and module parameters (as "Patchable In
@@ -249,7 +251,7 @@ development and testing of these concepts on a virtual platform.
 - Mentor: <a href="@jcarsey" class="wikilink"
   title="https://github.com/jcarsey"><span>https://github.com/jcarsey</span></a>
 
-### <s>Enable Xen Support in OVMF</s>
+### Enable Xen Support in OVMF
 
 Get Xen to boot UEFI with
 <a href="OVMF" class="wikilink" title="OVMF">OVMF</a>.
@@ -261,7 +263,7 @@ Get Xen to boot UEFI with
 - Suggested by: andreiwarkentin
 - Status: Available in main edk2 tree
 
-### <s>Multiprocessor support in UefiCpuPkg/CpuDxe</s>
+### Multiprocessor support in UefiCpuPkg/CpuDxe
 
 Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
 (Implement MdePkg/Include/Protocol/MpService.h)
@@ -278,7 +280,7 @@ More information:
 title="Tasks-UefiCpuPkg-CpuDxe MP support">Tasks-UefiCpuPkg-CpuDxe MP
 support</a>
 
-### <s>Enable Link-time Code Optimization for Linux builds</s>
+### Enable Link-time Code Optimization for Linux builds
 
 Enable Link-time Code Optimization on Linux for either GCC or
 LLVM/CLANG. <http://gcc.gnu.org/wiki/LinkTimeOptimization>

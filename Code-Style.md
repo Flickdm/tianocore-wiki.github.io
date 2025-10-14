@@ -1,3 +1,5 @@
+# Code Style
+
 Code style add greatly to the readability and maintainability of code.
 Therefore, please follow our coding style when making
 <a href="Code_Contributions" class="wikilink"

@@ -1,3 +1,5 @@
+# Member Types
+
 There are several ways to participate in our community. Anyone can join
 our
 <a href="Mailing_Lists" class="wikilink" title="Mailing Lists">Mailing

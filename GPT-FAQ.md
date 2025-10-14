@@ -1,3 +1,5 @@
+# GPT FAQ
+
 Frequently asked questins about GPT
 
 ### Are there tools to setup and create the EFI GPT partition?
@@ -9,7 +11,7 @@ utilities’ download: <http://www.intel.com/technology/efi>
 
 No, this must be on installation with a clean disk.
 
-### In reference to the figure in the UEFI 2.x Section 5.3.1 where does the Logical Block Address (LBA) **LBAn** exist on a disk?
+### In reference to the figure in the UEFI 2.x Section 5.3.1 where does the Logical Block Address (LBA) LBAn exist on a disk?
 
 **LBAn** is the last logical block on a disk and also stores the Backup
 GUID Partition Table Header’s fields. See section 5.3 UEFI 2.x for more

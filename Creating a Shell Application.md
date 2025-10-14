@@ -1,3 +1,5 @@
+# Creating A Shell Application
+
 A Shell application is a UEFI Application that consumes a shell
 protocol. For clarity a UEFI application is a binary that is unloaded
 upon return from the entry point routine. The protocols are produced by
@@ -7,7 +9,7 @@ handle).
 
 `Use OpenProtocol function to get the protocol pointers.`
 
-## Using EFI_SHELL_PROTOCOL
+## Using EFISHELLPROTOCOL
 
 There may be more than 1 instance of this protocol, and the goal of the
 application should be to open the instance produced by the immediate
@@ -15,7 +17,7 @@ parent shell. From EFI_LOADED_IMAGE_PROTOCOL you would get the handle of
 your parent and attempt to open the protocol on that handle before doing
 an open-ended search for the protocol.
 
-## Features of EFI_SHELL_PROTOCOL
+## Features of EFISHELLPROTOCOL
 
 The EFI_SHELL_PROTOCOL provides access to support functions of the
 shell. This is how SHELL_FILE_HANDLEs are created and destroyed, file
@@ -23,13 +25,13 @@ names are interpreted, environment variables are get and set, and things
 of that nature. See the UEFI Shell Specification 2.0 for all the details
 on the protocol.
 
-## Using EFI_SHELL_PARAMETERS_PROTOCOL
+## Using EFISHELLPARAMETERS_PROTOCOL
 
 There is a single instance of this protocol on the handle of each child
 application. You can search your own ImageHandle to find the correct
 instance of this protocol.
 
-## Features of EFI_SHELL_PARAMETERS_PROTOCOL
+## Features of EFISHELLPARAMETERS_PROTOCOL
 
 The EFI_SHELL_PARAMETERS_PROTOCOL provides primarily StdIn, StdOut, and
 StdErr to shell applications. When a user on the command line does

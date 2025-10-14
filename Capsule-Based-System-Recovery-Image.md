@@ -1,3 +1,5 @@
+# Capsule Based System Recovery Image
+
 [Back to Capsule Based Firmware Update and Firmware Recovery Common Use Cases](Capsule-Based-Firmware-Update-and-Firmware-Recovery#common-capsule-use-cases)
 
 * What is the feature?

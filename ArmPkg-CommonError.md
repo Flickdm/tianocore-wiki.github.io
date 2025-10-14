@@ -1,6 +1,8 @@
+# ArmPkg CommonError
+
 ### Build Errors
 
-#### Undefined symbol \_\_aeabi\_\*
+#### Undefined symbol \\aeabi\_\*
 
     armlink : error L6218:  Undefined symbol __aeabi_uidivmod (referred from BaseLib.lib).
     armlink : error L6218:  Undefined symbol __aeabi_lasr (referred from BaseLib.lib).
