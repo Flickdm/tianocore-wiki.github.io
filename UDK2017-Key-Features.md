@@ -35,5 +35,7 @@
 
 **********
 **Note:** This page describes the  package notes and the differences based on previous UEFI Development Kit ([UDK](UDK.md)) UDK2015 Release.
+
 * For a detailed list of Changes and updates,  See wiki page [UDK2017](UDK2017.md) Release
+
 **********

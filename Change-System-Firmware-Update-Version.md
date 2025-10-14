@@ -11,6 +11,7 @@ System Firmware Descriptor PEIM.  The implementation of this PEIM is covered
 
 Change Version Value and Version String
 =======================================
+
 The following is a portion of the `SystemFirmwareDescriptor.aslc` that contains the version
 values and strings.
 
@@ -34,9 +35,11 @@ or higher to be installed.
 
 Verify Version Value and Version String
 =======================================
+
 Build a firmware image with the updated version information and update a target platform with
 the new version of firmware.  Run `CapsuleApp.efi -P` to view the Firmware Management Protocol
 details. In the example below,
+
 * **`CURRENT_FIRMWARE_VERSION`** is in the field called `Version` with a value of `0x10`.
 * **`CURRENT_FIRMWARE_VERSION_STRING`** is in the field called `VersionName` with a value of `"Version 0.0.0.16"`.
 * **`LOWEST_SUPPORTED_FIRMWARE_VERSION`** is in the field called `LowestSupportedImageVersion` with a value of `0xA`.

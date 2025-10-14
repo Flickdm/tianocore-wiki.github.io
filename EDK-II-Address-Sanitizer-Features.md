@@ -1,6 +1,7 @@
 # EDK II Address Sanitizer Features
 
 Current EDK II supports following kinds of address sanitizer features:
+
 1. Page/pool memory overflow detection (Heap Guard)
     * PcdHeapGuardPropertyMask
     * PcdHeapGuardPoolType
@@ -15,4 +16,5 @@ Current EDK II supports following kinds of address sanitizer features:
     * -fstack-protector-all (MdePkg\Library\BaseStackCheckLib\BaseStackCheckLib.inf)
 
 # Heap Guard
+
 to-be-done

@@ -1,7 +1,7 @@
 # Unix Like Systems
 
-` Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
-`       build edk2 for the first time. This page is retained for reference.`
+`Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
+`build edk2 for the first time. This page is retained for reference.`
 
 New instructions: <a href="Build_Instructions" class="wikilink"
 title="Build Instructions">Build Instructions</a>
@@ -173,7 +173,7 @@ most UNIX-like systems.
 
 The first step is to install the Apple Xcode development environment:
 
-` `[`http://developer.apple.com/tools/xcode`](http://developer.apple.com/tools/xcode)
+``[`http://developer.apple.com/tools/xcode`](http://developer.apple.com/tools/xcode)
 
 To install Xcode, you must register as an Apple developer, and download
 the Xcode installation disk image (which is fairly large). These

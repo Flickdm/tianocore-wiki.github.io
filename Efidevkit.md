@@ -178,11 +178,11 @@ UEFI 2.3.1 support.
 
 At a high level, this update requires a codebase owner to:
 
-1.  ) Integrate this Green H package
-2.  ) Integrate the latest Broadwell Platform or Bay Trail platform
+1. ) Integrate this Green H package
+2. ) Integrate the latest Broadwell Platform or Bay Trail platform
     framework reference code packages
-3.  ) Integrate the latest open source tools to support UEFI 2.3.1 HII
-4.  ) Update the SetupBrowser and HII producer and consumer modules and
+3. ) Integrate the latest open source tools to support UEFI 2.3.1 HII
+4. ) Update the SetupBrowser and HII producer and consumer modules and
     tools to support UEFI 2.3.1
 
 The patch should function in either UEFI 2.0 or UEFI 2.3.1 modes, but

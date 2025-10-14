@@ -130,7 +130,7 @@ The remainder of this page focuses on source management details and how to prepa
 
     - If a pull request is only being created to run CI checks, create a [draft pull request](GitHub-PR-Tips.md#create-a-draft-pull-request).
 
-    - Pull request description needs to include Fixes issue url link, for example: Fixes https://github.com/tianocore/edk2/issues/10626, then PR will automatically be related to github issue.
+    - Pull request description needs to include Fixes issue url link, for example: Fixes <https://github.com/tianocore/edk2/issues/10626>, then PR will automatically be related to github issue.
 
     - The relevant reviewers and maintainers need to be added to the pull request.
       - If you are a maintainer, you should add the appropriate PR reviewers yourself.
@@ -244,7 +244,7 @@ The generic rules from the main process applies, with the following additions:
 2. Platforms/drivers must document any build steps/options beyond the basic steps described in the top-level
    Readme.md. They must also document the toolchains that are known working.
    - Helper scripts to streamline building are fine, but since those tend to come with their own stack of
-     dependencies, they must not be _required_ for a basic build test.
+     dependencies, they must not be *required* for a basic build test.
    - Pointing to a docker image is fine, as long as the toolchain versions in that docker image are
      also explicitly called out.
 3. Platforms/drivers must be buildable with current toolchain versions (i.e. no "build is only supported on

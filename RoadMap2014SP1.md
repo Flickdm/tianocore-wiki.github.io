@@ -32,7 +32,7 @@ Feature Details
 
 <td>
 
-`   Support UEFI 2.4 errata B`
+`Support UEFI 2.4 errata B`
 
 </td>
 
@@ -50,11 +50,11 @@ Feature Details
 
 INF/DEC files updates
 
-1.  Usage information in INF file comment blocks
-2.  Add Module Extra UNI file
-3.  PCD information in DEC file comment blocks
-4.  Add PACKAGE_UNI_FILE UNI file
-5.  Add Package Extra UNI file
+1. Usage information in INF file comment blocks
+2. Add Module Extra UNI file
+3. PCD information in DEC file comment blocks
+4. Add PACKAGE_UNI_FILE UNI file
+5. Add Package Extra UNI file
 
 </td>
 
@@ -70,7 +70,7 @@ INF/DEC files updates
 
 <td>
 
-`   Add ACPI 5.1 and SMBIOS 2.8.0 definitions.`
+`Add ACPI 5.1 and SMBIOS 2.8.0 definitions.`
 
 </td>
 
@@ -86,7 +86,7 @@ INF/DEC files updates
 
 <td>
 
-`   Support OpenSSL from 0.9.8w to 0.9.8zb`
+`Support OpenSSL from 0.9.8w to 0.9.8zb`
 
 </td>
 
@@ -102,7 +102,7 @@ INF/DEC files updates
 
 <td>
 
-`   Support USB 3.0 (XHCI) Recovery`
+`Support USB 3.0 (XHCI) Recovery`
 
 </td>
 
@@ -118,7 +118,7 @@ INF/DEC files updates
 
 <td>
 
-`   Support VS2013 build`
+`Support VS2013 build`
 
 </td>
 
@@ -134,7 +134,7 @@ INF/DEC files updates
 
 <td>
 
-`   Remove un-necessary attribute for EFI variables`
+`Remove un-necessary attribute for EFI variables`
 
 </td>
 

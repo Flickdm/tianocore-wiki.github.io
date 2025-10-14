@@ -32,9 +32,11 @@
 * Add Microsoft Visual Studio 2017 tool chain in BaseTools tools_def.template.
 * Support hash-based build to improve the incremental build performance
 * Build time improvement using multi-threading in GenFds to generate FFS files
-*  Support XCODE5 tool chain build and boot functionality.
+* Support XCODE5 tool chain build and boot functionality.
 
 **********
 **Note:** This page describes the  package notes and the differences based on previous UEFI Development Kit ([UDK](UDK.md)) [UDK2017](UDK2017.md) Release.
+
 * For a detailed list of Changes and updates,  See wiki page [UDK2018](UDK2018.md) Release
+
 **********

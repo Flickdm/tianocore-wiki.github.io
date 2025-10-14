@@ -219,18 +219,14 @@ The following links are provided for use by the general public:
 - [Directory of EFI Toolkit Source Code
   Snapshots](https://sourceforge.net/projects/efi-toolkit/files/)
 
-
 - [Link to the TianoCore Community
   Projects](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Welcome#Projects)
-
 
 - [Link to the UEFI Specification (on UEFI.org
   Site)](http://www.uefi.org)
 
-
 - [Archives of the EDK "Dev" Mailing
   List](https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Mailing_Lists)
-
 
 - [Query or submit EFI toolkit Project
   Defects](http://sourceforge.net/tracker/?group_id=289014&atid=1223910)

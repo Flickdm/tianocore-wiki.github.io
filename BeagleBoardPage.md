@@ -21,13 +21,11 @@ directory with the following commands:
     /cygdrive/c$ cd edk2
     /cygdrive/c/edk2$ svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
 
-
 Build the Beagle Board Package
 Now you can run the build.sh script
 
     /cygdrive/c/edk2$ cd /cygdrive/c/edk2/BeagleBoardPkg
     /cygdrive/c/edk2/BeagleBoardPkg$ ./build.sh
-
 
 As a tangible result of the build, the FLASH image for the Beagle Board
 will end up in
@@ -37,7 +35,6 @@ Note: You may get a build error that looks like:
 
     /bin/sh: /cygdrive/c/Program Files/ARM/RVCT/Progr​ams/3.1/761/win_32-p​entium/armcc: No such file or directory
 
-
 This means your ARM compiler is installed in a different location. You
 will need to edit edk2/Conf/tools_def.txt to match the location your
 compiler was installed (search for DEFINE RVCT31CYGWIN_TOOLS_PATH). The
@@ -46,7 +43,6 @@ edksetup.sh BaseTools to setup the environment. It is copied from
 edk2/BaseTools/Con​f/tools_def.template​ that is checked into source
 control. You can make local edits to the tools_def.txt version and not
 worry about accidentally checking it in to source control.
-
 
 The ./build.sh script also supports arguments. If you pass RELEASE debug
 code is stripped out. Please note the image that gets created is a fixed
@@ -188,7 +184,6 @@ To:
     BaseAddress = 0x80208000|gEmbedded​TokenSpaceGuid.PcdEm​beddedFdBaseAddress #The base address of the FLASH Device.
     ####BaseAddress = 0x80008000|gEmbedded​TokenSpaceGuid.PcdEm​beddedFdBaseAddress #The base address of the FLASH Device.
 
-
 Step \#2
 Then rebuild:
 
@@ -261,7 +256,6 @@ simpler as binary versions of all the tools are checked in, but if you
 don't run the build.sh script the RealView Debugger scripts will not be
 created.
 
-
 If you use the command line version of subversion, then you can easily
 checkout the edk2 to the C:\edk2 directory with the following command:
 
@@ -269,15 +263,12 @@ checkout the edk2 to the C:\edk2 directory with the following command:
     C:\> cd C:\edk2
     C:\edk2> svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
 
-
 The b.bat script builds the EFI Beagle Board image, patches the
 beginning of the image with information needed by the mask ROM, and
 builds some debug scripts for RealView and Trace32 JTAG debuggers.
 
     C:\> cd C:\edk2\BeagleBoardPkg
     C:\edk2\BeagleBoardPkg> b
-
-
 
 The b.bat script also supports arguments. If you pass RELEASE debug code
 is stripped out. Please note the image that gets created is a fixed size
@@ -291,8 +282,6 @@ are passed directly to the edk2 build command. Here are some examples:
     C:\edk2\BeagleBoardPkg> b RELEASE
     C:\edk2\BeagleBoardPkg> b RELEASE clean
     C:\edk2\BeagleBoardPkg> b -y report.log -v
-
-
 
 Note: You may get a build error that looks like:
 

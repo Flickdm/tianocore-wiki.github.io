@@ -99,27 +99,27 @@ List of functions of ShellLib:
 
 ## A Simple Shell Application
 
-` EFI_STATUS`
-` EFIAPI`
-` UefiMain (`
-`   IN EFI_HANDLE        ImageHandle,`
-`   IN EFI_SYSTEM_TABLE  *SystemTable`
-`   )`
-` {`
-`   EFI_STATUS                     Status;`
-`   EFI_SHELL_PARAMETERS_PROTOCOL  *ShellParameters`
-`   //`
-`   // See if we have a shell parameters placed on us`
-`   //`
-`   Status = gBS->OpenProtocol (`
-`                 gImageHandle,`
-`                 &gEfiShellParametersProtocolGuid,`
-`                 (VOID **) &ShellParameters,`
-`                 gImageHandle,`
-`                 NULL,`
-`                 EFI_OPEN_PROTOCOL_GET_PROTOCOL`
-`                );`
-` }`
+`EFI_STATUS`
+`EFIAPI`
+`UefiMain (`
+`IN EFI_HANDLE        ImageHandle,`
+`IN EFI_SYSTEM_TABLE  *SystemTable`
+`)`
+`{`
+`EFI_STATUS                     Status;`
+`EFI_SHELL_PARAMETERS_PROTOCOL  *ShellParameters`
+`//`
+`// See if we have a shell parameters placed on us`
+`//`
+`Status = gBS->OpenProtocol (`
+`gImageHandle,`
+`&gEfiShellParametersProtocolGuid,`
+`(VOID **) &ShellParameters,`
+`gImageHandle,`
+`NULL,`
+`EFI_OPEN_PROTOCOL_GET_PROTOCOL`
+`);`
+`}`
 
 This application starts the process of getting access to a shell
 protocol.

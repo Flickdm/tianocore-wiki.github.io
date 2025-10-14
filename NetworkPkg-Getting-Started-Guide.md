@@ -5,17 +5,20 @@
 ### IPv6 network stack
 
 * **NetworkPkg/Ip6Dxe** - Ip6 driver, which produces
+
 ```
 EFI_IP6_PROTOCOL
 EFI_IP6_CONFIG_PROTOCOL
 ```
 
 * **NetworkPkg/Udp6Dxe** - Udp6 driver, which produces
+
 ```
 EFI_UDP6_PROTOCOL
 ```
 
 * **NetworkPkg/TcpDxe** - TCP combo driver, which produces
+
 ```
 EFI_TCP4_PROTOCOL
 EFI_TCP6_PROTOCOL
@@ -24,10 +27,13 @@ EFI_TCP6_PROTOCOL
 Note: The Tcp4Dxe driver in MdeModulePkg has been deprecated, please use NetworkPkg/TcpDxe instead.
 
 * **NetworkPkg/Dhcp6Dxe** - DHCP6 driver, which produces
+
 ```
 EFI_DHCP6_PROTOCOL
 ```
+
 * **NetworkPkg/Mtftp6Dxe** - MTFTP6 driver, which produces
+
 ```
 EFI_MTFTP6_PROTOCOL
 ```
@@ -35,37 +41,49 @@ EFI_MTFTP6_PROTOCOL
 ### IPsec
 
 * **NetworkPkg/IpSecDxe** - Ipsec driver, which produces
+
 ```
 EFI_IPSEC2_PROTOCOL
 EFI_IPSEC_CONFIG_PROTOCOL
 ```
+
 1. Supported features in IPsec:
- * Security Protocols: Encapsulating Security Payload (ESP)
- * IPsec Mode: Transport/Tunnel mode
- * Encryption Algorithm: 3DES-CBC, AES-CBC
- * Authentication Algorithm: HMAC\_SHA1\_96
- * Authentication Method: Pre-shared Key, X509 Certificates
+
+* Security Protocols: Encapsulating Security Payload (ESP)
+* IPsec Mode: Transport/Tunnel mode
+* Encryption Algorithm: 3DES-CBC, AES-CBC
+* Authentication Algorithm: HMAC\_SHA1\_96
+* Authentication Method: Pre-shared Key, X509 Certificates
+
 2. After IPsec is enabled in both side, all inbound and outbound IP packet are processed by IPsec.
 
 ### [PXE](PXE.md)
+
 * **NetworkPkg/UefiPxeBcDxe** - PXE driver, which produces
+
 ```
 EFI_LOAD_FILE_PROTOCOL
 EFI_PXE_BASE_CODE_PROTOCOL
 ```
+
 Note: The UefiPxeBcDxe driver in MdeModulePkg has been deprecated, please use NetworkPkg/UefiPxeBcDxe instead.
 
 ### iSCSI
+
 * **NetworkPkg/IScsiDxe** - iSCSi driver, which produces
+
 ```
 EFI_ISCSI_INITIATOR_NAME_PROTOCOL
 EFI_EXT_SCSI_PASS_THRU_PROTOCOL
 EFI_AUTHENTICATION_INFO_PROTOCOL
 ```
+
 Note: The IScsiDxe driver in MdeModulePkg has been deprecated, please use NetworkPkg/IScsiDxe instead.
 
 ### DNS
+
 * **NetworkPkg/DnsDxe** - DNS driver, which produces
+
 ```
 EFI_DNS4_PROTOCOL
 EFI_DNS6_PROTOCOL
@@ -74,10 +92,12 @@ EFI_DNS6_PROTOCOL
 ### TLS
 
 * **NetworkPkg/TlsDxe** - TLS driver, which produces
+
 ```
 EFI_TLS_PROTOCOL
 EFI_TLS_CONFIGURATION_PROTOCOL
 ```
+
 Note: TlsDxe driver takes advantage of OpenSLL library, including BaseCryptLib and TlsLib. So, TLS feature highly depends on the OpenSSL building. To enable this feature, please follow the instructions found in the file "Patch-HOWTO.txt" located in CryptoPkg\Library\OpensslLib to enable the OpenSSL building first.
 
 * **NetworkPkg/TlsAuthConfigDxe** - TLS certificates configuration driver, which provides the UI to support the required certificate configuration.
@@ -85,30 +105,38 @@ Note: TlsDxe driver takes advantage of OpenSLL library, including BaseCryptLib a
 ### HTTP/HTTPS Boot
 
 * **NetworkPkg/HttpDxe** - HTTP driver, which produces
+
 ```
 EFI_HTTP_PROTOCOL
 ```
+
 Note: HttpDxe driver consumes TlsDxe driver to support HTTPS feature. The HTTP instance can be able to determine whether to use HTTP or HTTPS feature by according to the different schemes ("http://" or "https://") in the boot file URI.
 
 * **NetworkPkg/HttpUtilitiesDxe** - HTTP utilities driver, which produces
+
 ```
 EFI_HTTP_UTILITIES_PROTOCOL
 ```
+
 * **NetworkPkg/HttpBootDxe** - HTTP Boot driver, which produces
+
 ```
 EFI_LOAD_FILE_PROTOCOL
 ```
 
 ### Shell Application
+
 * **Application/VConfig** - VLAN configuration Shell application
 * **Application/IpsecConfig** - IPsec configuration Shell application
 
 ### Notes
+
 * UNDI, SNP, DPC and MNP drivers are components shared by IPv4 network stack and IPv6 network stack. These modules could be found in MdeModulePkg  except the UNDI driver. For UNDI driver, please contact the Card Vendor.
 
 ## FEATURES ENABLING
 
 ### Platform DSC file
+
 ```
 [Defines]
   DEFINE NETWORK_ENABLE                        = TRUE
@@ -174,7 +202,9 @@ EFI_LOAD_FILE_PROTOCOL
 
   !endif
 ```
+
 ### Platform FDF file
+
 ```
 !if $(NETWORK_ENABLE) == TRUE
   INF  MdeModulePkg/Universal/Network/SnpDxe/SnpDxe.inf

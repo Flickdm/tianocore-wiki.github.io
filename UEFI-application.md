@@ -37,16 +37,16 @@ changes.
 
 If you are running from the shell then there are 2 ways.
 
-1.  The <a href="shell" class="wikilink" title="shell">shell</a> will
+1. The <a href="shell" class="wikilink" title="shell">shell</a> will
     search for a script file called “startup.nsh” in any FAT file system
     that would get executed. Inside the script other UEFI applications
     could be invoked.
-2.  The shell's command line can specify a UEFI application to run
+2. The shell's command line can specify a UEFI application to run
     automatically.
 
 Outside the shell there are different ways.
 
-1.  The UEFI Specification also defines Boot Options. BootOption and
+1. The UEFI Specification also defines Boot Options. BootOption and
     BootOrder variables can be set to a UEFI Application can be auto
     executed on every boot.
 

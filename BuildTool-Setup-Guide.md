@@ -1,18 +1,18 @@
 # GitHub Help
 
-` Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
-`       build edk2 for the first time. This page is retained for reference.`
+`Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
+`build edk2 for the first time. This page is retained for reference.`
 
 New instructions: <a href="Build_Instructions" class="wikilink"
 title="Build Instructions">Build Instructions</a>
 
-GitHub (https://help.github.com/index.html) provides step-by-step
+GitHub (<https://help.github.com/index.html>) provides step-by-step
 instructions for user registration and basic features supported by
 GitHub
 
 - Setup GitHub for Linux \| Windows \| MAC \| All
-  (https://help.github.com/articles/set-up-git)
-- To download and install a Git GUI interface (http://git-scm.com/)
+  (<https://help.github.com/articles/set-up-git>)
+- To download and install a Git GUI interface (<http://git-scm.com/>)
 
 ## GitHub EDK II Project Repositories
 

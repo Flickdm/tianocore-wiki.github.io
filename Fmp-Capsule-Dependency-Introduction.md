@@ -1,37 +1,48 @@
 # Fmp Capsule Dependency Introduction
 
 ## Introduction
+
 There are situations where a platform may have separately updatable firmware components (e.g. motherboard, BMC, EC, etc.) and in some cases, there may be dependencies among them. For instance, FWx requires FWy to be at least version 2.0 to install. Today, we don’t have a way to express that in our infrastructure. Fmp capsule dependency attempts to add that capability through minor changes in the FMP capsule as well as a minor enhancement to FmpDxe driver and FmpDeviceLib.
 Capsule Dependency is an incremental change of FMP capsule (Signed Capsule) to evaluate the capsule’s version dependency requirement is satisfied or not before applying the update.
 Full feature is defined in UEFI Spec 2.8.
 
 ## Implementation Details
+
 ### Updated Capsule Update Work Flow
+
 ![Figure 1](https://github.com/tianocore/tianocore.github.io/wiki/images/Fmp-Capsule-Dependency-Capsule-Update-Workflow.JPG)
 
 #### Last Attempt Status Extension
+
 Extend ESRT status information to express if a capsule could not applied because its dependency could not be satisfied.
 > `#define LAST_ATTEMPT_STATUS_ERROR_UNSATISFIED_DEPENDENCIES 0x00000008`
 
 #### Dependency Evaluation
+
 Dependency evaluation process is a cross check between the capsule data and all existing FMP protocal instances in system.
+
 - Check 1 : Validate platform exsiting Fmp Images' version to satisfy the dependency expression in capsule image.
 - Check 2 : Validate the capsule image version to satify all the platform existing Fmp images' dependency expression.
 
 #### FmpDeviceLib Extension
+
 To support the Dependency Evaluation Check 2, Fmp device must have the capability to save its own dependency expression and provide the dependency expression to Fmp DXE driver.
 The parameter `Image` of `FmpDeviceSetImage` and `FmpDeviceGetImage` function is extended to contain the dependency expression op-codes.
 ![Figure 2](https://github.com/tianocore/tianocore.github.io/wiki/images/Fmp-Capsule-Dependency-FmpDeviceLib-Extension.jpg)
+
 1. `FmpDeviceSetImage` is responsible for retrieving the dependency from the parameter `Image` and saving it to a protected storage.
 2. `FmpDeviceGetImage` is responsible for retrieving the dependency from the storage where `FmpDeviceSetImage` saves dependency and combining it with the Fmp Payload Image into one buffer which is returned to the caller. This dependency will be populated into `EFI_FIRMWARE_IMAGE_DESCRIPTOR` and used for Dependency Evaluation Check 2.
 3. `FmpDeviceGetAttributes` must set the bit `IMAGE_ATTRIBUTE_DEPENDENCY` to indicate the Fmp device has dependency expression associcated with the Fmp image and supports Fmp Capsule Dependency feature.
 
 ## Enable Fmp Capsule Dependency
-### How to enable capsule dependency feature for an Fmp Device:
+
+### How to enable capsule dependency feature for an Fmp Device
+
 Please refer to the following sample code which uses EFI variable as the storage of Fmp dependency op-codes. Notice: The EFI variable must be locked before EndOfDxe.
 If no such implementation, only Dependency Evaluation Check 1 is supported.
 
 #### 1. FmpDeviceSetImage
+
 ```c
 EFI_STATUS
 SaveFmpDependencyToStorage (
@@ -88,7 +99,9 @@ FmpDeviceSetImage (
   //
 }
 ```
+
 #### 2. FmpDeviceGetImage
+
 ```c
 EFI_FIRMWARE_IMAGE_DEP *
 GetFmpDependencyFromStorage (
@@ -149,7 +162,9 @@ FmpDeviceGetImage (
 
 }
 ```
+
 #### 3. FmpDeviceGetAttributes
+
 ```c
 EFI_STATUS
 EFIAPI
@@ -180,8 +195,10 @@ FmpDeviceGetAttributes (
 }
 ```
 
-### How to generate capsule with dependency feature:
+### How to generate capsule with dependency feature
+
 #### 1. Encode
+
 Capsule generate tool supports to encode capsule dependencies through `'-j'`
 command with a JSON file, for example, to type following command in command prompt:
 `GenerateCapsule.py -e -j Example.json -o Example.cap`
@@ -243,40 +260,47 @@ The value of `“Dependencies”` field should be C style infix notation express
 >Noted that Opcode 0x0D (END) will automatically added after dependency encoding.
 
 The precedence of infix notation expression operators is listed below from high to low, and it’s followed the C language operator precedence.
-* () (brackets)
-* ~ (NOT)
-* \>=, >, <=, < (GTE, GT, LTE, LT)
-* == (EQ)
-* && (OR)
-* || (AND)
+- () (brackets)
+- ~ (NOT)
+- \>=, >, <=, < (GTE, GT, LTE, LT)
+- == (EQ)
+- && (OR)
+- || (AND)
 
 >DECLARE \"xxxx\" is acting like comments, wherever it inserted in the infix notation expression, it will be converted as {DECLARE_VERSION_STRING, xxxx}.
 
 >All operators/operands in infix notation expression should split with spaces, except brackets.
 
 Here are some example of dependency entry for all kinds of operators:
+
 ```json
 "Dependencies": "TRUE"
 ```
+
 ```json
 "Dependencies": "aa2fd162-59d1-4d73-bd2c-c6f9f353cdda >= 0x00000001 && 58e21611-44c0-44b7-bc43-488f45cd1e97 < 0x00000002"
 ```
+
 ```json
 "Dependencies": "aa2fd162-59d1-4d73-bd2c-c6f9f353cdda >= 0x00000001 || (58e21611-44c0-44b7-bc43-488f45cd1e97 < 0x00000002 && 567e834b-8310-4b33-ac76-967fbe51132c >= 0x00000003)"
 ```
+
 ```json
 "Dependencies": "aa2fd162-59d1-4d73-bd2c-c6f9f353cdda >= 0x00000001 DECLARE \"Fmp Device 1\""
 ```
 
 #### 2. Decode
+
 Capsule dependency tool supports the dependencies decoding, for example, to type following command in command prompt:
-	`GenerateCapsule.py -d Example.cap -o Test`
+ `GenerateCapsule.py -d Example.cap -o Test`
 All Decoded dependency expressions are written to `Test.json` for each payload.
 
 #### 3. Dump information
+
 Dump info leverages Decode, for example, to type following command in command prompt:
-	`GenerateCapsule.py --dump-info Example.cap`
+ `GenerateCapsule.py --dump-info Example.cap`
 Here is an example for output dump information.
+
 ```
 --------
 EFI_FIRMWARE_IMAGE_AUTHENTICATION.MonotonicCount                = 0000000000000000
@@ -301,8 +325,10 @@ FMP_PAYLOAD_HEADER.Signature              = 3153534D (MSS1)
 FMP_PAYLOAD_HEADER.HeaderSize             = 00000010
 ```
 
-### How to test capsule dependency feature:
+### How to test capsule dependency feature
+
 For example, there are two Fmp devices in the system:
+
 | Device | Version | GUID |
 | --- | --- | --- |
 | Sample Device A | 0x01 | 79179BFD-704D-4C90-9E02-0AB8D968C18A |
@@ -311,10 +337,13 @@ For example, there are two Fmp devices in the system:
 Now Device A has an update to version 0x02 that requires the version of Device B to be at least 0x02. However B's version is 0x01 in the system, so this update must fail.
 
 1. Create Device A's capsule with the dependency on Device B:
+
 ```shell
 # GenerateCapsule.py -e -j Av2.json -o Av2.cap
 ```
+
 Example of A_v2.json:
+
 ```json
 {
     "Payloads": [
@@ -335,11 +364,15 @@ Example of A_v2.json:
     ]
 }
 ```
+
 2. Enter UEFI shell and update Device A by CapsuleApp.efi:
+
 ```shell
 Shell> CapsuleApp.efi A_v2.cap
 ```
+
 3. After the update finishes, enter UEFI shell and check the update status. The expectation is that update fails with `UNSATISFIED_DEPENDENCIE` error status.
+
 ```shell
 Shell> CapsuleApp -E
 ###### ########
@@ -358,7 +391,9 @@ EFI_SYSTEM_RESOURCE_ENTRY (0):
   LastAttemptVersion       - 0x2
   LastAttemptStatus        - 0x8 (Error: Unsatisfied Dependencies)
 ```
+
 If Device B's version is changed to 0x02, the update should success and the status would be:
+
 ```shell
   FwClass                  - 79179BFD-704D-4C90-9E02-0AB8D968C18A
   FwType                   - 0x2 (DeviceFirmware)

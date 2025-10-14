@@ -128,7 +128,7 @@ EFI effort, located here
 ### Q: How can I add to or correct this FAQ?
 
 A: If you have additions, corrections, or suggestions for this FAQ,
-please send them to the site maintainers at faq@tianocore.org.
+please send them to the site maintainers at <faq@tianocore.org>.
 
 ## Getting Started FAQ
 
@@ -151,7 +151,7 @@ languages.
 A: That's perfectly fine. One of the goals of this site is for the EDK
 to be easily accessible by the various stakeholders. If you have any
 problems accessing source code and can't find your answers on the site,
-please send a question to questions@tianocore.org
+please send a question to <questions@tianocore.org>
 
 ### Q: How do I become a member of the EFI and Framework Open Source Community?
 
@@ -177,7 +177,7 @@ A: There are various sources of help on the site, including site-wide
 Help, New User Forum, and project-level mailing lists and forums. If you
 can't find your answer through these resources send your question to the
 EFI and Framework open source community manager at
-questions@tianocore.org.
+<questions@tianocore.org>.
 
 ## Security FAQ
 
@@ -206,7 +206,7 @@ it's sure to be a popular one.
 
 A: The EDK is the open-source part of the Intel Platform Innovation
 Framework for EFI (for a good overview of the Framework see
-www.intel.com/technology/efi/efi.htm ). The EDK includes the "Foundation
+<www.intel.com/technology/efi/efi.htm> ). The EDK includes the "Foundation
 Code" of the Framework, as well as sample drivers and project-specific
 build tools. The Foundation code represents the core interoperability
 interfaces between modules and the Framework. The PEI Foundation

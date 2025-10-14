@@ -21,13 +21,11 @@ directory with the following commands:
     /cygdrive/c$ cd edk2
     /cygdrive/c/edk2$ svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
 
-
 Build the Beagle Board Package
 Now you can run the build.sh script
 
     /cygdrive/c/edk2$ cd /cygdrive/c/edk2/BeagleBoardPkg
     /cygdrive/c/edk2/BeagleBoardPkg$ ./build.sh
-
 
 As a tangible result of the build, the FLASH image for the Beagle Board
 will end up in
@@ -37,7 +35,6 @@ Note: You may get a build error that looks like:
 
     /bin/sh: /cygdrive/c/Program Files/ARM/RVCT/Progr​ams/3.1/761/win_32-p​entium/armcc: No such file or directory
 
-
 This means your ARM compiler is installed in a different location. You
 will need to edit edk2/Conf/tools_def.txt to match the location your
 compiler was installed (search for DEFINE RVCT31CYGWIN_TOOLS_PATH). The
@@ -46,7 +43,6 @@ edksetup.sh BaseTools to setup the environment. It is copied from
 edk2/BaseTools/Con​f/tools_def.template​ that is checked into source
 control. You can make local edits to the tools_def.txt version and not
 worry about accidentally checking it in to source control.
-
 
 The ./build.sh script also supports arguments. If you pass RELEASE debug
 code is stripped out. Please note the image that gets created is a fixed
@@ -73,7 +69,6 @@ If you don't have Cygwin installed you can't use the build.sh Bash
 script in the BeagleBoardPkg directory. Building on Windows is a little
 simpler as binary versions of all the tools are checked in.
 
-
 If you use the command line version of subversion, then you can easily
 checkout the edk2 to the C:\edk2 directory with the following command:
 
@@ -81,15 +76,12 @@ checkout the edk2 to the C:\edk2 directory with the following command:
     C:\> cd C:\edk2
     C:\edk2> svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
 
-
 The b.bat script builds the EFI Beagle Board image, patches the
 beginning of the image with information needed by the mask ROM, and
 builds some debug scripts for RealView and Trace32 JTAG debuggers.
 
     C:\> cd C:\edk2\BeagleBoardPkg
     C:\edk2\BeagleBoardPkg> b
-
-
 
 The b.bat script also supports arguments. If you pass RELEASE debug code
 is stripped out. Please note the image that gets created is a fixed size
@@ -103,8 +95,6 @@ are passed directly to the edk2 build command. Here are some examples:
     C:\edk2\BeagleBoardPkg> b RELEASE
     C:\edk2\BeagleBoardPkg> b RELEASE clean
     C:\edk2\BeagleBoardPkg> b -y report.log -v
-
-
 
 Note: You may get a build error that looks like:
 
@@ -333,7 +323,6 @@ fv0:
         7,246  Driver 934431FE-5745-402E-913D-17B4434EB0F3 BeagleBoardBds
                  234,474 bytes in files 846 bytes free
 
-
 The edk2 build process places all the .fd and .fv files in the FV
 directory of the build root. The build root starts in the edk2 directory
 as Build/BeagleBoard then there is a directory name that contains the
@@ -428,7 +417,6 @@ a build tool to be a branch to the entry point of the SEC PE/COFF Image.
       UINT32 Length;
     } EFI_FV_BLOCK_MAP_ENTRY;
 
-
 The first line of edk2 source code that is executed is the symbol
 \_ModuleEntryPoint in the SEC. The edk2 has ARMASM compatible assembler
 files that have a .asm extension, and gcc compatible assembler files
@@ -456,8 +444,6 @@ Board SEC does the following:
 - Decompress compressed FV
 - Boot DXE Core
 
-
-
 **DXE Dispatch**
 
 The DXE Core is for the most part generic code. The DXE core dispatches
@@ -484,7 +470,6 @@ contains the following opcodes:
 - END
 - SOR (Schedule on Request)
 
-
 A file in an FV consists of multiple sections and a driver will contain
 a PE/COFF section and an optional dependency section. The dependency
 section contains the byte codes of the dependency grammar. However, the
@@ -501,7 +486,6 @@ There are four common dependency expression forms that are used:
 - gHardwareInterruptProtocolGuid
 - gHardwareInterruptProtocolGuid AND gSecondProtocolGuid
 - No Dependency expression
-
 
 A Dependency expression of TRUE means the driver can dispatched at any
 time. In practice the DXE core will dispatch any driver who's dependency
@@ -532,7 +516,6 @@ expression of all the following protocols AND'ed together:
 - gEfiMonotonicCounterArchProtocolGuid
 - gEfiResetArchProtocolGuid
 - gEfiRealTimeClockArchProtocolGuid
-
 
 The debug prints from a DEBUG build of the Beagle Board show the
 dispatch order on the Beagle Board:
@@ -620,7 +603,6 @@ symbol load commands. The following is an example from a Beagle Board.
     load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbMassStorageDxe\UsbMassStorageDxe\DEBUG\UsbMassStorageDxe.dll & 0x87E52240
     load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\Ebl\Ebl\DEBUG\Ebl.dll & 0x87160240
 
-
 The 1st argument to sym is optional and it can be used to change the
 template for how the symbol file load commands are printed out. The
 default string is for the RealView Debugger. The first format specifier
@@ -661,7 +643,6 @@ for a hex number with no leading 0x.
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbBusDxe\UsbBusDxe\DEBUG\UsbBusDxe.dll 0x87E58240
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbMassStorageDxe\UsbMassStorageDxe\DEBUG\UsbMassStorageDxe.dll 0x87E52240
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\Ebl\Ebl\DEBUG\Ebl.dll 0x87160240
-
 
 The 2nd argument to sym is optional and it defines the image type
 represented by the file name string. The image loaded and relocated in
@@ -863,8 +844,6 @@ The following is the first section of the PCD.log file:
     ===============================================================================
     ===============================================================================
     ...
-
-
 
 ## What is UEFI PI
 

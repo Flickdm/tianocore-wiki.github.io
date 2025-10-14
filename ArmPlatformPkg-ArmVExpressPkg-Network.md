@@ -25,7 +25,6 @@ to start, it is expected as the server needs to be configured.
 
 The files you will need to manually edit are:
 
-
 \- /etc/dhcp3/dhcpd.conf : DHCP properties configuration
 
 \- /etc/default/dhcp3-server : DHCP network configuration

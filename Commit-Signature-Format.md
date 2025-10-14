@@ -6,10 +6,10 @@ This format is also documented in [Contributions.txt](https://github.com/tianoco
 
 # Name format
 
-* Your Name &lt;your.email@host.com&gt;
-  - This is your real name and email address
-  - Quote (") your name if it contains a comma
-    * "Last, First" &lt;your.email@host.com&gt;
+* Your Name &lt;<your.email@host.com>&gt;
+  * This is your real name and email address
+  * Quote (") your name if it contains a comma
+    * "Last, First" &lt;<your.email@host.com>&gt;
 
 # Where to add signatures
 
@@ -29,7 +29,7 @@ This format is also documented in [Contributions.txt](https://github.com/tianoco
 * Reviewers should publicly indicate they have reviewed the code by replying to the code review email with:
   1. Review comments (optional if you have no suggested changes.)
   2. Your Reviewed-by signature line, exactly as it should appear in the commit.  (The committer will add this before committing the change to source control.)
-    * You should omit your Reviewed-by signature if you want to re-review the change after your suggested changes are made.
+  * You should omit your Reviewed-by signature if you want to re-review the change after your suggested changes are made.
 
 # Format Strictness
 

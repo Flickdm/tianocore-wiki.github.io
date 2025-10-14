@@ -4,8 +4,8 @@
 
 # Common EDK II Build Instructions for Linux
 
-` Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
-`       build edk2 for the first time. This page is retained for reference.`
+`Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
+`build edk2 for the first time. This page is retained for reference.`
 
 New instructions: <a href="Build_Instructions" class="wikilink"
 title="Build Instructions">Build Instructions</a>
@@ -72,12 +72,9 @@ And change the corresponding lines to match these:
     ACTIVE_PLATFORM       = MdeModulePkg/MdeModulePkg.dsc
     TOOL_CHAIN_TAG        = GCC5
 
-
 Note: The `gcc --version` command can be used to find out your GCC
 version. Use the **GCC45** toolchain for gcc 4.5.\* and the **GCC46**
 toolchain for gcc 4.6.\*.
-
-
 
 Note: for GCC5 please install the gcc-5 package. Example for Ubuntu:
 `sudo apt-get install gcc-5`
@@ -88,14 +85,12 @@ Locate the TARGET_ARCH setting:
 
 Change this reflect the build architecture for the final UEFI binary.
 
-
 Example: `X64`, `IA32 X64` (which will build both architectures).
 
 Optional: enable multi-threaded build. The default value for
 `MAX_CONCURRENT_THREAD_NUMBER` is 1, which disables multi-threaded
 build. Change this value based on your system's multi-threading
 capabilities. The formula is '1 + (2 x processor threads)'.
-
 
 Example: for an Intel Core i5 (two processor cores w/ hyperthreading),
 the value is `9`.

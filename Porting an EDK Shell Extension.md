@@ -239,7 +239,7 @@ This should not be required. The EDKII ShellLib will automatically
 initialize itself. Only when building a shell internal command this is
 not true and the manual initialization must be called.
 
-#### EFI_SHELL_STR_INIT, LibInitializeStrings, or any string function.
+#### EFI_SHELL_STR_INIT, LibInitializeStrings, or any string function
 
 If you need some strings put into HII it is expected that you will
 handle this yourself. Please refer to the HiiLib library class for doing

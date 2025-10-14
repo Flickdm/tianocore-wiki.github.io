@@ -11,6 +11,7 @@ DPC is typically used by UEFI Drivers that have event notification functions tha
 The DPC protocol is not a standardized protocol in UEFI specification; it is an edk2 specific implementation and defined in *MdeModulePkg/Include/Protocol/Dpc.h*.
 
 The DPC protocol only has 2 interfaces: `QueueDpc()` and `DispatchDpc()`.
+
 ```
 typedef
 EFI_STATUS
@@ -21,9 +22,11 @@ EFI_STATUS
   IN VOID               *DpcContext    OPTIONAL
   );
 ```
+
 The function `QueueDpc()` queues the DPC Procedure specified by *DpcProcedure* to be execute at a later time when the TPL level is at or below the TPL level specified by *DpcTpl*.  When *DpcProcedure* is invoked, the one parameter specified by *DpcContext* is passed to *DpcProcedure*. This function is required to maintain a unique queue for every legal EFI_TPL value. The DPC Procedure specified by *DpcProcedure* and *DpcContext* is placed at the end of the DPC queue specified by *DpcTpl*.
 
 The DPC driver does not take the responsibility to invoke the queued DPCs. Instead, the UEFI driver or application which calls `QueueDpc()` is responsible for calling `DispatchDpc()` to dispatch them from lower TPL levels at an appropriate time.
+
 ```
 typedef
 EFI_STATUS
@@ -31,6 +34,7 @@ EFI_STATUS
   IN EFI_DPC_PROTOCOL  *This
   );
 ```
+
 The function `DispatchDpc()` dispatches all the previously queued DPCs whose TPL level is greater than or equal to the current TPL level. DPCs with the highest TPL level are dispatched before DPCs with lower TPL levels.  Within a single TPL level, the DPCs are dispatched in the order that they were queued by QueueDpc().
 
 ## What problem does DPC solve?
@@ -82,6 +86,7 @@ Edk2 also provides a library interface DpcLib, which is a simple encapsulation o
 ```
 
 The following code fragment shows a simple example of using the DpcLib.
+
 ```
 #include <Library/DpcLib.h>
 
@@ -256,11 +261,13 @@ MnpPoll()
 ### Choose a proper place to dispatch the DPC
 
 The dispatching of previous queued DPCs is not guaranteed by the firmware or the DPC driver. Instead, **the UEFI driver or application that calls *QueueDpc()* is responsible for calling *DispatchDpc()* to dispatch it**.
+
 * UEFI applications that call QueueDpc() must call DispatchDpc() before they exit to guarantee that all queued DPCs have been dispatched.
 * UEFI drivers that call QueueDpc() must call DispatchDpc() before they unload to guarantee that all queued DPCs have been dispatched
 * UEFI drivers the follow the EFI Driver Model and call QueueDpc() using a device specific context must call DispatchDpc() from their EFI Driver Binding Stop() function to guarantee that all DPCs for that device are dispatched before the device specific context structures are freed.
 
 However, it's not encouraged to queue a lot of DPCs and dispatch them together before exiting. As we discussed before, multiple DPCs in the queue will result in nested DPC calls, and bring additional complexity to the upper layer driver. **In Edk2 network stack, it is required to call the QueueDpc() and DispatchDpc() always in pairs**, or in other words, always try to call DispatchDpc() immediately after a SignalEvent() which may queue a new DPC procedure, otherwise the upper layer drivers will malfunction. For example, a particular implementation of the MNP driver want to receive multiple packets in the MnpPoll(). So it calls gBS->SignalEvent() for every received packet, then uses a single DispatchDpc() to dispatch them as below.
+
 ```
 // Bad example
 MnpPoll()
@@ -277,7 +284,9 @@ MnpPoll()
   DispatchDpc ();    // Dispatch several DPC procedures together - NOT good
 }
 ```
+
 The above implementation will result in nested DPC calls as we discussed before, and cause a failure in TCP/UDP driver. The correct practice is to dispatch the DPC procedure inside the while loop, so these DPC procedures will be dispatched separately.
+
 ```
 // Good example
 MnpPoll()
@@ -298,4 +307,5 @@ MnpPoll()
 Finally, **make sure the *DispatchDpc()* is called at a right TPL level** so it won't miss any previously queued DPCs. Remember that the *DispatchDpc()* dispatches all the DPCs that is greater than or equal to the current TPL value.
 
 # Related Pages
+
 [NetworkPkg Getting Started Guide](https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide)

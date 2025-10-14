@@ -278,12 +278,12 @@ UEFI Mantis access
 
 Mantis is the UEFI ECR (Engineering Change Request) portal
 
-1.  <http://www.uefi.org/home/>
-2.  Click on Log On in upper right corner, or Members Pages on left.
-3.  Under Announcements on the right is Current Specifications (which is
+1. <http://www.uefi.org/home/>
+2. Click on Log On in upper right corner, or Members Pages on left.
+3. Under Announcements on the right is Current Specifications (which is
     not accurate) and UEFI Mantis Access.
-4.  Click on UEFI Mantis Access - this is the UEFI ECR database.
-5.  Your uefi.org username/password is supposed to work. If it does not,
+4. Click on UEFI Mantis Access - this is the UEFI ECR database.
+5. Your uefi.org username/password is supposed to work. If it does not,
     then use the UEFI contact link to request access
     <http://www.uefi.org/contact_us/>
 

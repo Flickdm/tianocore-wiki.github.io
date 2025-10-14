@@ -23,8 +23,8 @@ Before installing the git (or svn) plugin, check your Eclipse version
 The list of plugins for this Eclipse Platform version is available at
 <http://download.eclipse.org/releases/indigo>
 
-` - File > Import ...`
-` - Git > Projects from GIT`
+`- File > Import ...`
+`- Git > Projects from GIT`
 
 The Sourceforge git repository (mirror of svn) is
 <git://tianocore.git.sourceforge.net/gitroot/tianocore/edk2>. The main
@@ -46,7 +46,7 @@ development from the public repository.
 Versatile Express Cortex A9x4, defined by the DSC file:
 ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-A9x4.dsc
 
-` - Project > Properties`
+`- Project > Properties`
 
 <figure>
 <img src="ArmDs5-tutorial-5.png" title="ArmDs5-tutorial-5.png" />
@@ -54,7 +54,6 @@ ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-A9x4.dsc
 </figure>
 
 - Change the default 'make' Build command to use the Tianocore Makefile:
-
 
     make -f ArmPlatformPkg/Scripts/Makefile
 
@@ -65,7 +64,7 @@ ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-A9x4.dsc
 
 - Add the Environment Variables:
 
-` - EDK2_DSC=ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-A9x4.dsc`
+`- EDK2_DSC=ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-A9x4.dsc`
 
 <figure>
 <img src="ArmDs5-tutorial-6.png" title="ArmDs5-tutorial-6.png" />
@@ -74,10 +73,10 @@ ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-A9x4.dsc
 
 - The supported environment variables are:
 
-` EDK2_ARCH=ARM|IA32|X64|... (default: ARM)`
-` EDK2_TOOLCHAIN=RVCTLINUX|ARMLINUXGCC|ARMGCC|... (default: RVCTLINUX)`
-` EDK2_BUILD=DEBUG|RELEASE (default: DEBUG)`
-` EDK2_MACROS=...`
+`EDK2_ARCH=ARM|IA32|X64|... (default: ARM)`
+`EDK2_TOOLCHAIN=RVCTLINUX|ARMLINUXGCC|ARMGCC|... (default: RVCTLINUX)`
+`EDK2_BUILD=DEBUG|RELEASE (default: DEBUG)`
+`EDK2_MACROS=...`
 
 <figure>
 <img src="ArmDs5-tutorial-7.png" title="ArmDs5-tutorial-7.png" />
@@ -90,11 +89,11 @@ environment variable.
 You can add a similar PATH to your project environment variables in
 addition to the environment variables above:
 
-` PATH=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin; C:\git\edk2\BaseTools\Bin\Win32;${Path}`
+`PATH=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin; C:\git\edk2\BaseTools\Bin\Win32;${Path}`
 
 6\. Build your project
 
-` - Project > Build All`
+`- Project > Build All`
 
 <figure>
 <img src="ArmDs5-tutorial-8.png" title="ArmDs5-tutorial-8.png" />

@@ -59,8 +59,8 @@ firmware solution. In order to make an open IA firmware solution simple,
 we demonstrate a firmware design approach with minimal features.
 The only criteria are
 
-1.  It can boot to the OS
-2.  It is secure.
+1. It can boot to the OS
+2. It is secure.
 
 We can remove many unnecessary silicon or platform features like Capsule
 update, Recovery, S3 resume, SMBIOS, EC, Super IO (SIO), I2C, and only
@@ -168,8 +168,6 @@ Guide](https://tianocore-docs.github.io/EDKIIHttpBootGettingStartedGuide/draft/)
 
 `available on this page.`
 
-
-
 - May 2017 Rev 1.3
 - Feb 2017 Rev 1.2
   [.PDF](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/EDKIIHttpsBootGettingStartedGuide_1.2.pdf)
@@ -195,7 +193,6 @@ contributed by Jiewen Yao and Vincent Zimmer
 Data execution protection (DEP) is intended to prevent an application or
 service from executing code from a non-executable memory region. This
 helps prevent certain exploits that store code via a buffer overflow.
-
 
 In the White paper \[
 <https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_Securiy_Enhancement_to_Mitigate_Buffer_Overflow_in_UEFI.pdf>
@@ -489,7 +486,6 @@ firmware infrastructure, such as SEC, PEI, DXE, runtime phase.
 EDKII](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_Implementing_S3_resume_with_EDKII_V2.pdf)
 This paper presents the internal structure and boot flow of PI S3 resume
 design, as implemented in the EDKII.
-
 
 Prerequisite This paper assumes that audience has EDKII/UEFI firmware
 development experience. He or she should also be familiar with

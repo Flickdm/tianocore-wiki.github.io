@@ -25,28 +25,28 @@ the FFS file that is stored in an FV.
 
 DEC Examples \[Guids\]
 
-` ## Guid specify the device is the console out device.`
-` #  Include/Guid/ConsoleOutDevice.h`
-` gEfiConsoleOutDeviceGuid       = { 0xD3B36F2C, 0xD551, 0x11D4, { 0x9A, 0x46, 0x00, 0x90, 0x27, 0x3F, 0xC1, 0x4D }}`
+`## Guid specify the device is the console out device.`
+`#  Include/Guid/ConsoleOutDevice.h`
+`gEfiConsoleOutDeviceGuid       = { 0xD3B36F2C, 0xD551, 0x11D4, { 0x9A, 0x46, 0x00, 0x90, 0x27, 0x3F, 0xC1, 0x4D }}`
 
 \[Protocols\]
 
-` ## Load File protocol provides capability to load and unload EFI image into memory and execute it.`
-` #  Include/Protocol/LoadPe32Image.h`
-` #  This protocol is deprecated. Native EDKII module should NOT use this protocol to load/unload image.`
-` #  If developer need implement such functionality, they should use BasePeCoffLib.`
-` gEfiLoadPeImageProtocolGuid    = { 0x5CB5C776, 0x60D5, 0x45EE, { 0x88, 0x3C, 0x45, 0x27, 0x08, 0xCD, 0x74, 0x3F }}`
+`## Load File protocol provides capability to load and unload EFI image into memory and execute it.`
+`#  Include/Protocol/LoadPe32Image.h`
+`#  This protocol is deprecated. Native EDKII module should NOT use this protocol to load/unload image.`
+`#  If developer need implement such functionality, they should use BasePeCoffLib.`
+`gEfiLoadPeImageProtocolGuid    = { 0x5CB5C776, 0x60D5, 0x45EE, { 0x88, 0x3C, 0x45, 0x27, 0x08, 0xCD, 0x74, 0x3F }}`
 
 INF Example
 
 \[Defines\]
 
-` INF_VERSION                    = 1.25`
-` BASE_NAME                      = DiskIoDxe`
-` FILE_GUID                      = 6B38F7B4-AD98-40e9-9093-ACA2B5A253C4`
-` MODULE_TYPE                    = UEFI_DRIVER`
-` VERSION_STRING                 = 1.0`
-` ENTRY_POINT                    = InitializeDiskIo`
+`INF_VERSION                    = 1.25`
+`BASE_NAME                      = DiskIoDxe`
+`FILE_GUID                      = 6B38F7B4-AD98-40e9-9093-ACA2B5A253C4`
+`MODULE_TYPE                    = UEFI_DRIVER`
+`VERSION_STRING                 = 1.0`
+`ENTRY_POINT                    = InitializeDiskIo`
 
 ### Is there an easy way to decode the GUIDs including customer defined GUIDS and GUIDs defined in the Specs?
 
@@ -64,18 +64,18 @@ DEC file that declares the Protocol/PPI/GUID. Packages that are part of
 the UDK 2010 follow a recommended practice for the include file layout,
 so .h files associated with Protocols/PPIs/GUIDs can be easily found:
 
-` `<PackageName>`\`
-`   `<PackageName>`.dec`
-`   Include\`
-`     Protocol\`
-`       <Protocol1.h>`
-`       <Protocol2.h>`
-`     Ppi\`
-`       <Ppi1.h>`
-`       <Ppi2.h>`
-`     Guid\ `
-`       <Guid1.h>`
-`       <Guid2.h>`
+``<PackageName>`\`
+``<PackageName>`.dec`
+`Include\`
+`Protocol\`
+`<Protocol1.h>`
+`<Protocol2.h>`
+`Ppi\`
+`<Ppi1.h>`
+`<Ppi2.h>`
+`Guid\`
+`<Guid1.h>`
+`<Guid2.h>`
 
 ### Is there a tool to track the chain of GUID to Protocol driver?
 

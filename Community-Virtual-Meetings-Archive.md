@@ -1,12 +1,16 @@
 # October 2018 Meeting 2
+
 ## Overview
+
 We will be holding the second (of many) community meetings in hopes of receiving feedback as well as raising any new ideas or concerns.
 
 ## Add to Calendar
+
 [North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore%20Community%20Meeting%20-%20NAMO%20%20EMEA.ics)
 [Asia Pacific / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore%20Community%20Meeting%20-%20APAC%20%20EMEA.ics)
 
-## Some initial topics that may be discussed include:
+## Some initial topics that may be discussed include
+
 - Patch System Discussion V2 (Pull Requests vs Mailing Lists)
 - Microsoft's Project Mu
 - Use of standard C types
@@ -16,11 +20,12 @@ We will be holding the second (of many) community meetings in hopes of receiving
 - Using git submodules instead of embedding (e.g. LZMA SDK, Oniguruma, FDT)
 
 ## Contact
+
 Please email the list, or myself directly with subjects that you'd like to see discussed, questions, or comments.
 
 Stephano Cetola
 TianoCore Community Manager
-stephano.cetola@linux.intel.com
+<stephano.cetola@linux.intel.com>
 
 ## Meeting Details
 
@@ -35,10 +40,13 @@ stephano.cetola@linux.intel.com
 ***
 
 # October 2018
+
 ## Overview
+
 We will be holding the first (of many) community meetings in hopes of receiving feedback as well as raising any new ideas or concerns.
 
-## Some initial topics that may be discussed include:
+## Some initial topics that may be discussed include
+
 - The new license terms (CLA free)
 - Open community meetings for bug scrub and design reviews
 - Pull Requests
@@ -52,11 +60,12 @@ We will be holding the first (of many) community meetings in hopes of receiving 
 - Using git submodules instead of embedding (e.g. LZMA SDK, Oniguruma, FDT)
 
 ## Contact
+
 Please email the list, or myself directly with subjects that you'd like to see discussed, questions, or comments.
 
 Stephano Cetola
 TianoCore Community Manager
-stephano.cetola@linux.intel.com
+<stephano.cetola@linux.intel.com>
 
 ## Meeting Details
 

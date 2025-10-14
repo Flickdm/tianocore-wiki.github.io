@@ -56,7 +56,7 @@ virtual machine environments.
 
 ## VirtualBox
 
-VirtualBox (http://www.virtualbox.org) is a virtual machine environment.
+VirtualBox (<http://www.virtualbox.org>) is a virtual machine environment.
 The more recent versions of VirtualBox can enable UEFI support in the VM
 settings under 'System' =\> 'Extended Features' =\> 'EFI support'.
 

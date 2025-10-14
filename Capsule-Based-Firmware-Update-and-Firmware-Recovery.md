@@ -33,7 +33,7 @@ The [UEFI Specification](http://www.uefi.org) and the [PI Specification](http://
 
 * [UEFI] `UpdateCapsule()` and `QueryCapsuleCapabilities()` Runtime Services
 * [UEFI] `_OsIndicationsSupported_` and `_OsIndications_` UEFI Variables
-  + Support for `EFI_OS_INDICATIONS_FILE_CAPSULE_DELIVERY_SUPPORTED` is **not** implemented.
+  * Support for `EFI_OS_INDICATIONS_FILE_CAPSULE_DELIVERY_SUPPORTED` is **not** implemented.
 * [UEFI] _CapsuleNNNN_ Capsule Report Variables
 * [UEFI] Firmware Management Protocol (FMP)
 * [UEFI] EFI System Resource Table (ESRT)

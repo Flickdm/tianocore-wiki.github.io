@@ -1,6 +1,6 @@
 # Network IO
 
-## Welcome to the Network IO Project.
+## Welcome to the Network IO Project
 
 **Introduction to the Network-IO Project**
 
@@ -81,7 +81,7 @@ Latest Versions of the UEFI Gig Undi Bin and Source:
 
 \`\`\`
 
-`  Build -p IntelGigUndiPkg.dsc`
+`Build -p IntelGigUndiPkg.dsc`
 
 \`\`\`
 
@@ -90,4 +90,4 @@ Latest Versions of the UEFI Gig Undi Bin and Source:
 **Project Points of Contact**
 
 - Network-IO Project Owner (China): Ruth Li, Intel Corporation,
-  ruth.li@intel.com
+  <ruth.li@intel.com>

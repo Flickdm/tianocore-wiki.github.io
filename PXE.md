@@ -19,6 +19,7 @@ The UEFI specification introduces the following protocols related to PXE boot:
 * Load File Protocol – loads the boot file to specified buffer, which allows the boot manger to boot the file later.
 
 ## Feature Scope
+
 * Support PXE boot over IPv4 stack, IPv6 stack, or both
 * Network Boot Options using PXE are automatically created
 * Support PXE Redirection servers (Proxy DHCP servers)
@@ -30,6 +31,7 @@ The UEFI specification introduces the following protocols related to PXE boot:
 ## PXE Offer Types
 
 There are eight offer types defined in PXEBC_OFFER_TYPE. All of them are supported in IPv4-based PXE. The rules for distinguishing these offers include:
+
 * If the offer is a pure DHCP packet, it is PxeOfferTypeDhcpOnly.
 * If the offer does not have DHCP4 option 53, and it contains a DHCP option 67 provides boot file name, it is PxeOfferTypeBootp.
 * If the offer has a DHCP4 option 60, or DHCP6 option 16, and the value is starting with “PXEClient”, it is a PXE offer.
@@ -73,6 +75,7 @@ The picture shows a typical IPv4 PXE boot flow (it's from PXE Spec V2.1 Figure 2
 **Step 5-6** takes place between the client and a Boot Server. The client should select and discover a Boot Server from the obtained server list in step 1-4. This phase is not a part of standard DHCP protocol, but uses the DHCP Request and Ack message format as a convenient for communication. The client should send the request message to port 67 (broadcast) or port 4011 (multicast/unicast) of the selected boot server, and wait a DHCP ack for the boot file name and MTFTP configuration parameters.
 
 **Step 7-9** is the downloading of the network bootstrap program (NBP). The client will load the NBP into the computer’s local memory using TFTP, verify the image and execute it finally.
+
 * In a Windows Deployment Services (WDS) environment, the NBP is provided as wdsmgfw.efi.
 * In a Linux environment, the NBP is provided by UEFI-enabled boot loaders such as GRUB, GRUB2 or ELILO.
 
@@ -96,8 +99,8 @@ Operating systems used to verify EDK II PXE Boot functionality:
 
 ## References
 
-1. PXE 2.1 specification: http://download.intel.com/design/archives/wfm/downloads/pxespec.pdf
-2. UEFI 2.6 specification: http://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf
-3. WfM2.0 specification: http://download.intel.com/design/archives/wfm/downloads/base20.pdf
-4. UEFI PXE Boot Performance Analysis: https://software.intel.com/sites/default/files/managed/2d/04/intel-uefi-pxe-boot-performance-analysis.pdf
-5. NetworkPkg Getting Started Guide: https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide
+1. PXE 2.1 specification: <http://download.intel.com/design/archives/wfm/downloads/pxespec.pdf>
+2. UEFI 2.6 specification: <http://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf>
+3. WfM2.0 specification: <http://download.intel.com/design/archives/wfm/downloads/base20.pdf>
+4. UEFI PXE Boot Performance Analysis: <https://software.intel.com/sites/default/files/managed/2d/04/intel-uefi-pxe-boot-performance-analysis.pdf>
+5. NetworkPkg Getting Started Guide: <https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide>

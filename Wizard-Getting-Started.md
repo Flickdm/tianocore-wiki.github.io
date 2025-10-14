@@ -6,17 +6,17 @@
 2008. Please review the release notes for installation on other
 OS/compiler environments*
 
-1.  Make sure you have a compiler installed that supports UDK2014
-2.  Download the UDK2014 Driver Developer Release
+1. Make sure you have a compiler installed that supports UDK2014
+2. Download the UDK2014 Driver Developer Release
 
 ([UDK2014.IHV.zip](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UDK2014.IHV.zip)).
 
-1.  Unzip
+1. Unzip
     [UDK2014.IHV.zip](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UDK2014.IHV.zip)
     into a workspace directory (example: C:\FW\UDK2014.IHV)
-2.  Download and install the [UEFI Driver Wizard
+2. Download and install the [UEFI Driver Wizard
     .msi](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UefiDriverWizard.msi)
-3.  Open the UEFI Driver Wizard, select 'File -\> Open Workspace' and
+3. Open the UEFI Driver Wizard, select 'File -\> Open Workspace' and
     select the UDK2014.IHV workspace directory
 
 After these steps are complete, the UEFI Driver Wizard is ready to use

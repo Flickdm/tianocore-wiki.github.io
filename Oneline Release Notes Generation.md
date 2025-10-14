@@ -23,6 +23,7 @@ r10974 DuetPkg: Use UefiCpuPkg/CpuDxe instead of DuetPkg/CpuDxe
 </Pre>
 
 ## svn-log-to-oneline.awk
+
 ```awk
 # Convert svn log output to a single line per commit
 
@@ -39,6 +40,7 @@ s==2 && /.+/ { print r, $0; s=0 }
 ```
 
 ## svn-log-to-oneline.py
+
 ```python
 import re, sys
 rec = re.compile('^[-]+\n(r[0-9]+)[^\n]+\n\n([^\n]+)', re.M)

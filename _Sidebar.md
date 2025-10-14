@@ -1,4 +1,4 @@
-#### Wiki Navigation:
+#### Wiki Navigation
 
 **[[Home]]**<br/>
 [Getting Started with EDK II](Getting-Started-with-EDK-II.md)<br/>

@@ -41,9 +41,9 @@ title="EdkCompatibilityPkg">EdkCompatibilityPkg</a>
 
 ### What are Native and ECP? And what is different about the EDK II libraries?
 
-1.  ) Native means we do not use the ECP EDK compatibility package.
+1. ) Native means we do not use the ECP EDK compatibility package.
     There are no EDK style drivers / modules.
-2.  ) EDK II libraries are a richer set of libraries. Instances can be
+2. ) EDK II libraries are a richer set of libraries. Instances can be
     mapped to same library name. EDK II defines a lib class in the .h
     file which defines the APIs of the library and there can be many
     instances or implementations that have that same library class name.

@@ -39,9 +39,8 @@ This section assumes you have the
 checked out into the edk directory. Use Subversion to check out the
 GccShellPkg in the edk2 directory with the following commands:
 
-    $ cd edk2
-    $ svn co https://gcc-shell.svn.sourceforge.net/svnroot/gcc-shell/trunk/GccShellPkg  GccShellPkg
-
+    cd edk2
+    svn co https://gcc-shell.svn.sourceforge.net/svnroot/gcc-shell/trunk/GccShellPkg  GccShellPkg
 
 On Windows binary copies of the tools are checked into source control.
 On Unix like systems the tools must be built. So do the following to
@@ -49,7 +48,6 @@ build the tools on a Unix like system. You should only need to do this
 one time after you checked the code out from source control:
 
     ~/work/edk2$  make -C BaseTools/Source/C
-
 
 Follow the [OS specific
 instructions](https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Step-by-step_instructions)
@@ -65,13 +63,11 @@ edk2/Build/GccShellPkg/DEBUG_RVCT31/IA32/ShellFull.efi
     C:\edk2> edksetup.bat
     C:\edk2> build -p GccShellPkg/GccShellPkg.dsc -a ARM -t RVCT31
 
-
 Windows Cygwin Bash shell with RVCT: Shell binary:
 edk2/Build/GccShellPkg/DEBUG_RVCT31CYGWIN/IA32/ShellFull.efi
 
     ~/work/edk2$  . edksetup.sh BaseTools
     ~/work/edk2$  build -p GccShellPkg/GccShellPkg.dsc -a ARM -t RVCT31CYGWIN
-
 
 OS X with Xcode tools example: Shell binary:
 edk2/Build/GccShellPkg/DEBUG_XCODE32/IA32/ShellFull.efi
@@ -79,19 +75,16 @@ edk2/Build/GccShellPkg/DEBUG_XCODE32/IA32/ShellFull.efi
     ~/work/edk2$  . edksetup.sh BaseTools
     ~/work/edk2$  build -p GccShellPkg/GccShellPkg.dsc -a IA32 -t XCODE32
 
-
 Linux with GCC tools example: Shell binary:
 edk2/Build/GccShellPkg/DEBUG_ELFGCC/X64/ShellFull.efi
 
     ~/work/edk2$  . edksetup.sh BaseTools
     ~/work/edk2$  build -p GccShellPkg/GccShellPkg.dsc -a X64 -t ELFGCC
 
-
-
 ## Run gcc-shell in UnixPkg
 
-    $ cd edk2/UnixPkg
-    $ vi UnixPkg.fdf
+    cd edk2/UnixPkg
+    vi UnixPkg.fdf
 
 Update the Flash Description File (.fdf) to point to the GccShellPkg
 binary we just built. Note path will change based on the compiler you
@@ -105,11 +98,9 @@ To:
     #        SECTION PE32 = EdkShellBinPkg/FullShell/Ia32/Shell_Full.efi
             SECTION PE32 =Build/GccShellPkg/DEBUG_XCODE32/IA32/ShellFull.efi
 
-
 Now build the UnixPkg to include the shell we can source level debug:
 
-    $ ./build.sh
-
+    ./build.sh
 
 Run the UnixPkg emulator:
 
@@ -204,7 +195,6 @@ modification to match the locations of the compilers installed on your
 system without having to check that back into source control. If
 edk/Conf/tools_def.txt exists it will not get overwritten. So you should
 only have to change it one time.
-
 
     GenSec: ERROR 0001: Error opening file
       /Users/fish/work/edk2/Build/GccShellPkg/DEBUG_XCODE32/IA32/ShellFull.efi

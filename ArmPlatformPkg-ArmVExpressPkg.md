@@ -9,14 +9,12 @@ Build and Run on EDK2 Subversion revision 14897
   - Using Ubuntu: gcc, make, uuid-dev
   - Using Cygwin: gcc, make, e2fsprogs (needed for uuid.h)
 
-
 - Tested with:
   - Versatile Express DVD version 5.2 - [How to get the latest firmware
     for ARM Versatile
     Express?](http://arminfo.emea.arm.com/help/index.jsp?topic=/com.arm.doc.faqs/ka16308.html)
   - Linaro toolchain 2013.08 - [Get the latest
     version](https://launchpad.net/linaro-toolchain-binaries/+download)
-
 
 - Serial Terminal settings
   - Baud Rates: 38400
@@ -175,7 +173,7 @@ version, set the environment variable 'RVCT_TOOLS_PATH':
 
     export RVCT_TOOLS_PATH=[YOUR_TOOLCHAIN_PATH]
 
-### To support the standalone mode:
+### To support the standalone mode
 
 The full ArmVe UEFI firmware can be written into NOR Flash to allow the
 entire boot sequence to be done after a cold boot.
@@ -202,7 +200,6 @@ E:\SITE1\HBI0191B\board.txt Changing: `SCC: 0x004 0x10001F09` For:
 
 The default entry in the ARM Boot Manager is defined by the PCDs:
 
-
 \- gArmPlatformTokenSpaceGuid.PcdDefaultBootDescription\|L"NorFlash"
 
 \-
@@ -217,7 +214,6 @@ The PCD PcdDefaultBootDevicePath expects a Device Path conforms to the
 UEFI specification.
 PcdDefaultBootType defines the type of the image pointed by
 PcdDefaultBootDevicePath.
-
 
 \- PcdDefaultBootDevicePath = 0 for an EFI Application
 

@@ -47,7 +47,7 @@ would enable Compression, Encryption and Signing. There are sources for
 tools in BaseTools CRC32 and LZMA compression. By looking a these
 examples a signing tool can also be used.
 
-### When is signing done and what about PEI and DXE signature checks.
+### When is signing done and what about PEI and DXE signature checks
 
 It is done at Build time, but it is possible to sign at boot time. For
 PEI and DXE signature checks it is possible as long as they are build
@@ -91,47 +91,47 @@ following:
 1\) At the end in the \[LibraryClasses.common.UEFI_APPLICATION\] section
 add the following:
 
-` ShellLib|ShellPkg/Library/UefiShellLib/UefiShellLib.inf`
-` FileHandleLib|ShellPkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf`
-` SortLib|ShellPkg/Library/UefiSortLib/UefiSortLib.inf`
-` ShellCEntryLib|ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib.inf`
-` PathLib|ShellPkg/Library/BasePathLib/BasePathLib.inf`
+`ShellLib|ShellPkg/Library/UefiShellLib/UefiShellLib.inf`
+`FileHandleLib|ShellPkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf`
+`SortLib|ShellPkg/Library/UefiSortLib/UefiSortLib.inf`
+`ShellCEntryLib|ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib.inf`
+`PathLib|ShellPkg/Library/BasePathLib/BasePathLib.inf`
 
 2\) At the end in the \[PcdsFixedAtBuild\] Section add the following:
 
 `#   Update the PCD as follows using the UEFI Shell's 2.0 PCD:`
-`  gEfiIntelFrameworkModulePkgTokenSpaceGuid.PcdShellFile|{ 0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1 }`
+`gEfiIntelFrameworkModulePkgTokenSpaceGuid.PcdShellFile|{ 0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1 }`
 
 3\) At the end in the \[Components.IA32\] Section add the following:
 
 `ShellPkg/Application/Shell/Shell.inf {`
-`   `<LibraryClasses>
-`     NULL|ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.inf`
-`     NULL|ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib.inf`
-`     NULL|ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib.inf`
-`     FileHandleLib|ShellPkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf`
-`     ShellCommandLib|ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib.inf`
-`     SortLib|ShellPkg/Library/UefiSortLib/UefiSortLib.inf`
-`     HandleParsingLib|ShellPkg/Library/UefiHandleParsingLib/UefiHandleParsingLib.inf`
-`     ShellLib|ShellPkg/Library/UefiShellLib/UefiShellLib.inf`
-`     ShellCEntryLib|ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib.inf`
-`     PathLib|ShellPkg/Library/BasePathLib/BasePathLib.inf`
+``<LibraryClasses>
+`NULL|ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.inf`
+`NULL|ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib.inf`
+`NULL|ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib.inf`
+`FileHandleLib|ShellPkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf`
+`ShellCommandLib|ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib.inf`
+`SortLib|ShellPkg/Library/UefiSortLib/UefiSortLib.inf`
+`HandleParsingLib|ShellPkg/Library/UefiHandleParsingLib/UefiHandleParsingLib.inf`
+`ShellLib|ShellPkg/Library/UefiShellLib/UefiShellLib.inf`
+`ShellCEntryLib|ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib.inf`
+`PathLib|ShellPkg/Library/BasePathLib/BasePathLib.inf`
 `!ifndef $(NO_SHELL_PROFILES)`
-`     NULL|ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib.inf`
-`     NULL|ShellPkg/Library/UefiShellInstall1CommandsLib/UefiShellInstall1CommandsLib.inf`
-`     NULL|ShellPkg/Library/UefiShellDebug1CommandsLib/UefiShellDebug1CommandsLib.inf`
-`     NULL|ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib.inf`
+`NULL|ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib.inf`
+`NULL|ShellPkg/Library/UefiShellInstall1CommandsLib/UefiShellInstall1CommandsLib.inf`
+`NULL|ShellPkg/Library/UefiShellDebug1CommandsLib/UefiShellDebug1CommandsLib.inf`
+`NULL|ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib.inf`
 `!endif`
-`  `<PcdsFeatureFlag>
+``<PcdsFeatureFlag>
 `gEfiShellPkgTokenSpaceGuid.PcdShellLibAutoInitialize|FALSE`
-` }`
+`}`
 
 **Nt32Pkg.fdf**
 
 4\) Add the following at the end of the \# DXE Phase modules in the
 Nt32Pkg.fdf file
 
-` INF  ShellPkg/Application/Shell/Shell.inf`
+`INF  ShellPkg/Application/Shell/Shell.inf`
 
 5\) Comment out by adding "#" at the begining of the line the EFI EDK
 shell 1.0 in the FILE section of the Nt32Pkg.fdf file

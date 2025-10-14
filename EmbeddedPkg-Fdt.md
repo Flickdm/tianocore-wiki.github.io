@@ -36,5 +36,4 @@ The current version of EDK2 used libdft from Wednesday 16th January
 - To add libfdt support to your EDK2 firmware, add the following line to
   your platform DSC file (required by BdsLib):
 
-
     FdtLib|EmbeddedPkg/Library/FdtLib/FdtLib.inf

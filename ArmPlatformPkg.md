@@ -48,15 +48,15 @@ your DSC file:
 
 - ArmLib can be :
 
-` - ArmPkg/Library/ArmLib/ArmV7/ArmV7Lib.inf`
-` - ArmPkg/Library/ArmLib/Arm11/Arm11Lib.inf`
+`- ArmPkg/Library/ArmLib/ArmV7/ArmV7Lib.inf`
+`- ArmPkg/Library/ArmLib/Arm11/Arm11Lib.inf`
 
 - ArmCpuLib can be:
 
-` - ArmPkg/Drivers/ArmCpuLib/Arm11MpCoreLib/Arm11MpCoreLib.inf`
-` - ArmPkg/Drivers/ArmCpuLib/ArmCortexA8Lib/ArmCortexA8Lib.inf`
-` - ArmPkg/Drivers/ArmCpuLib/ArmCortexA9Lib/ArmCortexA9Lib.inf`
-` - ArmPkg/Drivers/ArmCpuLib/ArmCortexA15Lib/ArmCortexA15Lib.inf`
+`- ArmPkg/Drivers/ArmCpuLib/Arm11MpCoreLib/Arm11MpCoreLib.inf`
+`- ArmPkg/Drivers/ArmCpuLib/ArmCortexA8Lib/ArmCortexA8Lib.inf`
+`- ArmPkg/Drivers/ArmCpuLib/ArmCortexA9Lib/ArmCortexA9Lib.inf`
+`- ArmPkg/Drivers/ArmCpuLib/ArmCortexA15Lib/ArmCortexA15Lib.inf`
 
 - ArmPlatformLib must be
   \[YOUR_PLATFORM_PKG\]/Library/\[YOUR_PLATFORM\]Lib/\[YOUR_PLATFORM\]Lib.inf
@@ -108,15 +108,15 @@ your DSC file:
 
 - ArmLib can be :
 
-` - ArmPkg/Library/ArmLib/ArmV7/ArmV7Lib.inf`
-` - ArmPkg/Library/ArmLib/Arm11/Arm11Lib.inf`
+`- ArmPkg/Library/ArmLib/ArmV7/ArmV7Lib.inf`
+`- ArmPkg/Library/ArmLib/Arm11/Arm11Lib.inf`
 
 - ArmCpuLib can be:
 
-` - ArmPkg/Drivers/ArmCpuLib/Arm11MpCoreLib/Arm11MpCoreLib.inf`
-` - ArmPkg/Drivers/ArmCpuLib/ArmCortexA8Lib/ArmCortexA8Lib.inf`
-` - ArmPkg/Drivers/ArmCpuLib/ArmCortexA9Lib/ArmCortexA9Lib.inf`
-` - ArmPkg/Drivers/ArmCpuLib/ArmCortexA15Lib/ArmCortexA15Lib.inf`
+`- ArmPkg/Drivers/ArmCpuLib/Arm11MpCoreLib/Arm11MpCoreLib.inf`
+`- ArmPkg/Drivers/ArmCpuLib/ArmCortexA8Lib/ArmCortexA8Lib.inf`
+`- ArmPkg/Drivers/ArmCpuLib/ArmCortexA9Lib/ArmCortexA9Lib.inf`
+`- ArmPkg/Drivers/ArmCpuLib/ArmCortexA15Lib/ArmCortexA15Lib.inf`
 
 - ArmPlatformLib must be
   \[YOUR_PLATFORM_PKG\]/Library/\[YOUR_PLATFORM\]Lib/\[YOUR_PLATFORM\]Lib.inf

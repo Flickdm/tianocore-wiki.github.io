@@ -64,18 +64,18 @@ EFI_FILE_PROTOCOL from SHELL_FILE_HANDLE and back.
 
 The registration API is as follows:
 
-` RETURN_STATUS`
-` EFIAPI`
-` ShellCommandRegisterCommandName (`
-`   IN CONST  CHAR16                      *CommandString,`
-`   IN        SHELL_RUN_COMMAND           CommandHandler,`
-`   IN        SHELL_GET_MAN_FILENAME      GetManFileName,`
-`   IN        UINT32                      ShellMinSupportLevel,`
-`   IN CONST  CHAR16                      *ProfileName,`
-`   IN CONST  BOOLEAN                     CanAffectLE,`
-`   IN CONST  EFI_HANDLE                  HiiHandle,`
-`   IN CONST  EFI_STRING_ID               ManFormatHelp`
-` );`
+`RETURN_STATUS`
+`EFIAPI`
+`ShellCommandRegisterCommandName (`
+`IN CONST  CHAR16                      *CommandString,`
+`IN        SHELL_RUN_COMMAND           CommandHandler,`
+`IN        SHELL_GET_MAN_FILENAME      GetManFileName,`
+`IN        UINT32                      ShellMinSupportLevel,`
+`IN CONST  CHAR16                      *ProfileName,`
+`IN CONST  BOOLEAN                     CanAffectLE,`
+`IN CONST  EFI_HANDLE                  HiiHandle,`
+`IN CONST  EFI_STRING_ID               ManFormatHelp`
+`);`
 
 You pass into this command:
 
@@ -95,22 +95,22 @@ can be done, such as replacing PrintToken() with ShellPrintHiiEx().
 
 Use ShellPkg/Library/UefiShellInstall1CommandsLib as your porting basis.
 
-1.  Make a new directory in ShellPkg/Library called
+1. Make a new directory in ShellPkg/Library called
     DpInstall1CommandsLib.
-2.  Using Windows cmd.exe, change directory to ShellPkg/Library.
-3.  Run **copy
+2. Using Windows cmd.exe, change directory to ShellPkg/Library.
+3. Run **copy
     UefiShellInstall1CommandsLib\UefiShellInstall1CommandsLib.\*
     DpInstall1CommandsLib\DpInstall1CommandsLib.\***
-4.  Edit DpInstall1CommandsLib.inf
-    1.  Change BASE_NAME to DpUefiShellInstall1CommandsLib
-    2.  Generate a new GUID for FILE_GUID using Visual Studio
+4. Edit DpInstall1CommandsLib.inf
+    1. Change BASE_NAME to DpUefiShellInstall1CommandsLib
+    2. Generate a new GUID for FILE_GUID using Visual Studio
         guidgen.exe or [GuidGen](http://www.guidgen.com).
-    3.  Change \[Sources\] to list the DP source files
+    3. Change \[Sources\] to list the DP source files
         (DpUefiShellInstall1CommandsLib.c/h/uni, Dp.c, Dp.h, etc)
-    4.  To \[Packages\] add PerformancePkg/PerformancePkg.dec
-    5.  To \[LibraryClasses\] add TimerLib, PerformanceLib, and
+    4. To \[Packages\] add PerformancePkg/PerformancePkg.dec
+    5. To \[LibraryClasses\] add TimerLib, PerformanceLib, and
         DxeServicesLib
-    6.  Change \[Protocols\] to use
+    6. Change \[Protocols\] to use
 
         gEfiLoadedImageProtocolGuid \# ALWAYS_CONSUMED
 
@@ -121,29 +121,29 @@ Use ShellPkg/Library/UefiShellInstall1CommandsLib as your porting basis.
         gEfiLoadedImageDevicePathProtocolGuid \# SOMETIMES_CONSUMED
 
         gEfiDevicePathToTextProtocolGuid \# SOMETIMES_CONSUMED
-    7.  To \[Pcds\] add
+    7. To \[Pcds\] add
         gEfiMdePkgTokenSpaceGuid.PcdUefiLibMaxPrintBufferSize
-    8.  Change \[Guids\] to use gDpShellInstall1HiiGuid
-5.  Edit DpInstall1CommandsLib.uni
-    1.  Change all instances of BCFG to DP, keeping the case of the
+    8. Change \[Guids\] to use gDpShellInstall1HiiGuid
+5. Edit DpInstall1CommandsLib.uni
+    1. Change all instances of BCFG to DP, keeping the case of the
         changed item, e.g.
-        1.  Change STR_GET_HELP_BCFG to STR_GET_HELP_DP
-        2.  Change .TH bcfg to .TH dp
-    2.  Change all help text to reflect help text in DpStrings.uni.
-6.  Edit DpInstall1CommandsLib.h
-    1.  Change all instances of BCFG to DP, keeping the case of the
+        1. Change STR_GET_HELP_BCFG to STR_GET_HELP_DP
+        2. Change .TH bcfg to .TH dp
+    2. Change all help text to reflect help text in DpStrings.uni.
+6. Edit DpInstall1CommandsLib.h
+    1. Change all instances of BCFG to DP, keeping the case of the
         changed item.
-    2.  Change gShellInstall1HiiHandle to gDpShellInstall1HiiHandle.
-7.  Edit DpInstall1CommandsLib.c
-    1.  Change all instances of BCFG to DP, keeping the case of the
+    2. Change gShellInstall1HiiHandle to gDpShellInstall1HiiHandle.
+7. Edit DpInstall1CommandsLib.c
+    1. Change all instances of BCFG to DP, keeping the case of the
         changed item.
-    2.  Change gShellInstall1HiiHandle to gDpShellInstall1HiiHandle.
-    3.  Include DpUefiShellInstall1CommandsLib.h
-    4.  Add Dp to the start of each function name so they start with
+    2. Change gShellInstall1HiiHandle to gDpShellInstall1HiiHandle.
+    3. Include DpUefiShellInstall1CommandsLib.h
+    4. Add Dp to the start of each function name so they start with
         DpShell.
-    5.  Change all instances of gShellInstall1HiiHandle to
+    5. Change all instances of gShellInstall1HiiHandle to
         gDpShellInstall1HiiHandle.
-    6.  In DpShellInstall1CommandsLibConstructor, this comment should be
+    6. In DpShellInstall1CommandsLibConstructor, this comment should be
         above HiiAddPackages().
 
         //
@@ -159,11 +159,11 @@ Use ShellPkg/Library/UefiShellInstall1CommandsLib as your porting basis.
         file.
 
         //
-8.  In DpUtilities.c, DpTrace.c, DpProfile.c, DpInternal.h change all
+8. In DpUtilities.c, DpTrace.c, DpProfile.c, DpInternal.h change all
     instances of gHiiHandle to gDpShellInstall1HiiHandle.
-9.  In Dp.c do the following:
-    1.  Change all instances of gHiiHandle to gDpShellInstall1HiiHandle.
-    2.  Add the following:
+9. In Dp.c do the following:
+    1. Change all instances of gHiiHandle to gDpShellInstall1HiiHandle.
+    2. Add the following:
 
         \#include "DpUefiShellInstall1CommandsLib.h"
 
@@ -174,8 +174,8 @@ Use ShellPkg/Library/UefiShellInstall1CommandsLib as your porting basis.
         \#include \<Library/HandleParsingLib.h\>
 
         \#include \<Library/DevicePathLib.h\>
-    3.  Change InitializeDp to ShellCommandRunDpInstall.
-    4.  Replace the code between GetPerformanceCounter() and
+    3. Change InitializeDp to ShellCommandRunDpInstall.
+    4. Replace the code between GetPerformanceCounter() and
         ShellCommandLineParse() with the following:
 
         //
@@ -192,18 +192,18 @@ Use ShellPkg/Library/UefiShellInstall1CommandsLib as your porting basis.
 
         ASSERT_EFI_ERROR(Status);
 10. Edit ShellPkg/Include/Guid/ShellLibHiiGuid.h and do the following:
-    1.  Add the GUID in DpInstall1CommandsLib.inf and call it
+    1. Add the GUID in DpInstall1CommandsLib.inf and call it
         SHELL_DP_INSTALL1_HII_GUID.
-    2.  Add 'extern EFI_GUID gDpShellInstall1HiiGuid'.
+    2. Add 'extern EFI_GUID gDpShellInstall1HiiGuid'.
 11. Edit ShellPkg/ShellPkg.dec and add the GUID in
     DpInstall1CommandsLib.inf and call it gDpShellInstall1HiiGuid.
 12. Edit ShellPkg/ShellPkg.dsc and do the following:
-    1.  Add
+    1. Add
         ShellPkg/Library/DpInstall1CommandsLib/DpUefiShellInstall1CommandsLib.inf
         as a NULL library instance to Shell.inf {} section.
-    2.  Add the appropriate TimerLib and PerformanceLib drivers to the
+    2. Add the appropriate TimerLib and PerformanceLib drivers to the
         \[LibraryClasses\] section.
-    3.  Add the following library instances to \[LibraryClasses.common\]
+    3. Add the following library instances to \[LibraryClasses.common\]
 
         IoLib\|MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic.inf
 

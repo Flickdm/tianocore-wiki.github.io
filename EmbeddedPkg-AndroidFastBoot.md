@@ -178,13 +178,11 @@ The implementation is distributed into several components:
   the FASTBOOT_PLATFORM_PROTOCOL to initiate platform-specific
   operations.
 
-
 - EmbeddedPkg/Drivers/AndroidFastbootTransportUsbDxe is a driver
   implementing the FASTBOOT_TRANSPORT_PROTOCOL over USB by acting as a
   peripheral. This requires a USB peripheral or OTG controller and a
   UEFI driver for that controller. USB is the "default" transport system
   for Fastboot - the only one supported by the core AOSP.
-
 
 - ArmPlatformPkg/ArmVExpressPkg/ArmVExpressFastBootDxe is an example of
   a FASTBOOT_PLATFORM_PROTOCOL implementation for ARM development

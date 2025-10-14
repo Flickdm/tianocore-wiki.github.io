@@ -50,9 +50,9 @@ Contents
 
 <b>UDK2014.SP1.P1</b>
 
-`     `<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download">`Download zip`
-`     `</a>
-`   `
+``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download">`Download zip`
+``</a>
+``
 
 </th>
 
@@ -74,11 +74,11 @@ What’s in the package?
 
 <td>
 
-`     w/ WorkSpace Expanded .zip`
-`      Release `<b>`Dec 31, 2014`</b>
-`      `<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-ReleaseNotes-MyWorkSpace.txt/download">`Release Notes`</a>` `
-`      `
-`   `
+`w/ WorkSpace Expanded .zip`
+`Release`<b>`Dec 31, 2014`</b>
+``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-ReleaseNotes-MyWorkSpace.txt/download">`Release Notes`</a>``
+``
+``
 
 </td>
 
@@ -99,7 +99,7 @@ r92
 <a href="UDK2014-How-to-Build" class="wikilink"
 title="UDK2014-How-to-Build">UDK2014-How-to-Build</a>
 
-`     UDK2014 Release`
+`UDK2014 Release`
 
 <b>Features Summary:</b>
 See
@@ -128,7 +128,7 @@ Notes Features</a>
 <a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-FilesList.txt/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-FilesList.txt/download">File
 List</a>
 
-`     Of Entire Release .zip `
+`Of Entire Release .zip`
 
 <hr/>
 
@@ -145,7 +145,7 @@ All</a>
 
 UDK2014 only
 
-`     `<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">`Download All PDFs`</a>
+``<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">`Download All PDFs`</a>
 
 </td>
 
@@ -385,9 +385,9 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-`     The `<a href="IntelFrameworkPkg" class="wikilink"
-title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>` Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
-`   `
+`The`<a href="IntelFrameworkPkg" class="wikilink"
+title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
+``
 
 </td>
 
@@ -418,8 +418,8 @@ The <a href="MdeModulePkg" class="wikilink"
 title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This
 package provides the modules that conform to UEFI/PI Industry standards.
 
-`     It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)`
-`     and libraries instances, which are used for those modules`
+`It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)`
+`and libraries instances, which are used for those modules`
 
 </td>
 
@@ -456,9 +456,9 @@ The <a href="MdePkg" class="wikilink" title="MdePkg">MdePkg</a> Document
 Package Helper file. This Package provides all definitions(including
 functions, MACROs, structures and library classes)
 
-`     and libraries instances, which are defined in MDE Specification.`
-`     It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of`
-`     EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.`
+`and libraries instances, which are defined in MDE Specification.`
+`It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of`
+`EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.`
 
 </td>
 
@@ -521,7 +521,7 @@ title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This
 package includes the security drivers, defintions(including
 PPIs/PROTOCOLs/GUIDs
 
-`     and library classes) and libraries instances`
+`and library classes) and libraries instances`
 
 </td>
 
@@ -540,8 +540,8 @@ PPIs/PROTOCOLs/GUIDs
 
 <b>UDK2014.SP1</b>
 
-`     `<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Complete.MyWorkSpace.zip/download">`Download Zip`</a>`  `
-`   `
+``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Complete.MyWorkSpace.zip/download">`Download Zip`</a>``
+``
 
 </th>
 
@@ -563,13 +563,13 @@ What’s in the package?
 
 <td>
 
-`     w/ WorkSpace Expanded .zip`
-`      Release `<b>`Oct 31, 2014`</b>
-`      `<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download">`Release Notes`</a>` `
-`      `
-`     `<b>`Nov 13, 2014`</b>
-`      Make sure to `<font color="#FF0000">`INCLUDE `</font>`fatal crash fix : `<a href="http://sourceforge.net/p/edk2/code/16337">` DHCP Fix Dhcp6Utility.c`</a>
-`   `
+`w/ WorkSpace Expanded .zip`
+`Release`<b>`Oct 31, 2014`</b>
+``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download">`Release Notes`</a>``
+``
+``<b>`Nov 13, 2014`</b>
+`Make sure to`<font color="#FF0000">`INCLUDE`</font>`fatal crash fix :`<a href="http://sourceforge.net/p/edk2/code/16337">`DHCP Fix Dhcp6Utility.c`</a>
+``
 
 </td>
 
@@ -617,7 +617,7 @@ Notes Features</a>
 <a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-FilesList.txt/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-FilesList.txt/download">File
 List</a>
 
-`     Of Entire Release .zip `
+`Of Entire Release .zip`
 
 <hr/>
 
@@ -634,7 +634,7 @@ All</a>
 
 UDK2014 only (not UDK2014.SP1)
 
-`     `<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">`Download All PDFs`</a>
+``<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">`Download All PDFs`</a>
 
 </td>
 
@@ -877,9 +877,9 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-`     The `<a href="IntelFrameworkPkg" class="wikilink"
-title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>` Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
-`   `
+`The`<a href="IntelFrameworkPkg" class="wikilink"
+title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
+``
 
 </td>
 
@@ -910,8 +910,8 @@ The <a href="MdeModulePkg" class="wikilink"
 title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This
 package provides the modules that conform to UEFI/PI Industry standards.
 
-`     It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)`
-`     and libraries instances, which are used for those modules`
+`It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)`
+`and libraries instances, which are used for those modules`
 
 </td>
 
@@ -948,9 +948,9 @@ The <a href="MdePkg" class="wikilink" title="MdePkg">MdePkg</a> Document
 Package Helper file. This Package provides all definitions(including
 functions, MACROs, structures and library classes)
 
-`     and libraries instances, which are defined in MDE Specification.`
-`     It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of`
-`     EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.`
+`and libraries instances, which are defined in MDE Specification.`
+`It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of`
+`EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.`
 
 </td>
 
@@ -1013,7 +1013,7 @@ title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This
 package includes the security drivers, defintions(including
 PPIs/PROTOCOLs/GUIDs
 
-`     and library classes) and libraries instances`
+`and library classes) and libraries instances`
 
 </td>
 
@@ -1030,9 +1030,9 @@ PPIs/PROTOCOLs/GUIDs
 
 <th>
 
-`   UDK2014`
-`     `<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download">` Download Zip`</a>
-`   `
+`UDK2014`
+``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download">`Download Zip`</a>
+``
 
 </th>
 
@@ -1054,10 +1054,10 @@ What’s in the package?
 
 <td>
 
-`     w/ WorkSpace Expanded .zip`
-`      Release `<b>`March 12, 2014`</b>
-`      `<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-ReleaseNotes-MyWorkSpace.txt/download">`Release Notes`</a>` `
-`   `
+`w/ WorkSpace Expanded .zip`
+`Release`<b>`March 12, 2014`</b>
+``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-ReleaseNotes-MyWorkSpace.txt/download">`Release Notes`</a>``
+``
 
 </td>
 
@@ -1105,7 +1105,7 @@ Notes Features</a>
 <a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-FilesList.txt/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-FilesList.txt/download">File
 List</a>
 
-`     Of Entire Release .zip `
+`Of Entire Release .zip`
 
 <hr/>
 
@@ -1376,9 +1376,9 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-`     The `<a href="IntelFrameworkPkg" class="wikilink"
-title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>` Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
-`   `
+`The`<a href="IntelFrameworkPkg" class="wikilink"
+title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
+``
 
 </td>
 
@@ -1413,8 +1413,8 @@ The <a href="MdeModulePkg" class="wikilink"
 title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This
 package provides the modules that conform to UEFI/PI Industry standards.
 
-`     It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)`
-`     and libraries instances, which are used for those modules`
+`It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)`
+`and libraries instances, which are used for those modules`
 
 </td>
 
@@ -1458,9 +1458,9 @@ The <a href="MdePkg" class="wikilink" title="MdePkg">MdePkg</a> Document
 Package Helper file. This Package provides all definitions(including
 functions, MACROs, structures and library classes)
 
-`     and libraries instances, which are defined in MDE Specification.`
-`     It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of`
-`     EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.`
+`and libraries instances, which are defined in MDE Specification.`
+`It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of`
+`EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.`
 
 </td>
 
@@ -1529,7 +1529,7 @@ title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This
 package includes the security drivers, defintions(including
 PPIs/PROTOCOLs/GUIDs
 
-`     and library classes) and libraries instances`
+`and library classes) and libraries instances`
 
 </td>
 

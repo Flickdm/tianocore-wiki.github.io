@@ -1,6 +1,5 @@
 <ul>
 
-
 # Community Information
 
 <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/About-The-Community" title="About the Community"> About the Community </a></li>

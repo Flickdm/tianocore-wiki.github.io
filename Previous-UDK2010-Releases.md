@@ -885,7 +885,7 @@ Documents
 
 UEFI development Kit 2010 Update \#4 (Complete)
 
-`Based on svn `[`http://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010`](http://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010)`  r11579`
+`Based on svn`[`http://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010`](http://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010)`r11579`
 
 Supports UEFI 2.3 and PI 1.2 Specifications form the <http://uefi.org>
 

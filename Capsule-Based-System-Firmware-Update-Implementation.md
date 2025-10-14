@@ -6,6 +6,7 @@ Supporting [`SignedCapsulePkg`](https://github.com/tianocore/edk2/tree/master/Si
 
 `PlatformFlashAccessLib` Library Instance
 ==========================================
+
 In order for a signed capsule to update the non-volatile storage device that that contains the system firmware contents that may be updated, an instance of the `PlatformFlashAccessLib` must be implemented. This library class provides a single API to update a portion of the non-volatile storage device.
 
 ```
@@ -31,6 +32,7 @@ It is recommended that this new platform specific library instance be placed in 
 
 System Firmware Descriptor PEIM
 ===============================
+
 A PEIM is used to provide a System Firmware Descriptor that provides the current system firmware version information.  This information is stored in a RAW section of the PEIM FFS file.  The PEIM is responsible for reading the RAW section and setting the `VOID*` PCD called `gEfiSignedCapsulePkgTokenSpaceGuid.PcdEdkiiSystemFirmwareImageDescriptor` to the contents of the RAW section.  The Firmware Management Protocol for the system firmware uses this PCD to determine the current version of the system firmware.
 
 Complete examples of this PEIM can be found in the Intel Galileo Gen 2 EDK II project:
@@ -67,6 +69,7 @@ The following `#defines` from `SystemFirmwareDescriptor.aslc` need to be updated
 
 System Firmware Update Configuration INI File
 ==============================================
+
 This a System Firmware Update Configuration INI file provides the inventory of components in a capsule that are used by the system firmware's Firmware Management Protocol to update one or more components in the system firmware's non-volatile storage device using the `PlatformFlashAccessLib` instance implemented in the step above.
 
 The INI file is ASCII text. The first section is `[Head]`.  The value of `NumHeadUpdate` must be set to the number of components in the inventory.  There must be an `UpdateX` statement assigned to a unique name for each component in the inventory.   The example below shows a `[Head]` section that describes a single component.

@@ -44,6 +44,7 @@ new useful configurations or tools to this documentation.
 > the container.
 >
 > For example:
+>
 > - Install the WSL extension in VS code
 > - Launch a WSL 2 instance
 > - Clone the repository to a directory within the instance, not a mounted Windows drive

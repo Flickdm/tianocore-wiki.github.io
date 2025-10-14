@@ -1,7 +1,7 @@
 # Using EDK Ii With Native GCC
 
-` Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
-`       build edk2 for the first time. This page is retained for reference.`
+`Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
+`build edk2 for the first time. This page is retained for reference.`
 
 New instructions: <a href="Build_Instructions" class="wikilink"
 title="Build Instructions">Build Instructions</a>
@@ -96,7 +96,6 @@ for EDK II. The following command will install all required packages:
 
     bash$ sudo apt install build-essential uuid-dev iasl git  nasm  python-is-python3
 
-
 build-essential - Informational list of build-essential packages
 
 uuid-dev - Universally Unique ID library (headers and static libraries)
@@ -134,7 +133,6 @@ Several Ubuntu packages will be needed to set up the build environment
 for EDK II. The following command will install all required packages:
 
     bash$ sudo apt-get install build-essential uuid-dev iasl git gcc-5 nasm python3-distutils
-
 
 build-essential - Informational list of build-essential packages
 

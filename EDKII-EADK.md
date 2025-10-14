@@ -77,14 +77,12 @@ C Library. These applications reside in AppPkg/Applications.
 - **Hello** This is a very simple EDK II native application that doesn't
   use any features of the Standard C Library.
 
-
 - **Main** This application is functionally identical to Hello, except
   that it uses the Standard C Library to provide a main() entry point.
 - **Python** A port of the Python-2.7.2 interpreter for UEFI. This
   application is disabled by default. Un-comment the line for
   PythonCore.inf in the \[Components\] section of AppPkg.dsc to enable
   building Python.
-
 
 - **Sockets** A collection of applications demonstrating use of the EDK
   II Socket Libraries. These applications include:

@@ -17,12 +17,10 @@
 
 - Build the Full Shell:
 
-
     build -a ARM -p ShellPkg/ShellPkg.dsc -t RVCTLINUX -b RELEASE -y report.log
     build -a AARCH64 -p ShellPkg/ShellPkg.dsc -t ARMLINUXGCC -b RELEASE -y report.log
 
 - Without Shell Profiles:
-
 
     build -a ARM -p ShellPkg/ShellPkg.dsc -t RVCTLINUX -b RELEASE  -D NO_SHELL_PROFILES -y report.log
     build -a AARCH64 -p ShellPkg/ShellPkg.dsc -t ARMLINUXGCC -b RELEASE  -D NO_SHELL_PROFILES -y report.log
@@ -34,7 +32,6 @@
 
 - Edit EdkShellPkg.dsc to replace:
 
-
     DEFINE EDK_SHELL_DIR             = Shell
 
 By:
@@ -43,12 +40,10 @@ By:
 
 - Patch the EdkShell sources:
 
-
     cd Shell
     patch -p1 < ../ShellR64.patch
 
 - Build it:
-
 
     cd $EDK2_ROOT
     build -a ARM -p EdkShellPkg/EdkShellPkg.dsc -t RVCTLINUX -b RELEASE -y report.log

@@ -29,7 +29,7 @@ title="UEFI application">UEFI application</a> questions
 <a href="UEFI_Drivers" class="wikilink" title="UEFI Drivers">UEFI
 Drivers</a>
 
-### It seems as though UEFI is revolutionary given the scope of changes from legacy BIOS.
+### It seems as though UEFI is revolutionary given the scope of changes from legacy BIOS
 
 The Implementation may seem like it is revolutionary since it is now in
 “C” instead of Assembly but once the structure of UEFI is understood it
@@ -274,13 +274,13 @@ No, in the UEFI spec.
 
 ### What is an example of the flash organization from a real platform?
 
-1.  FV Recovery
-2.  Ftw Spare Space
-3.  Ftw Working Space
-4.  Event log
-5.  Microcode
-6.  Variable Region
-7.  FV Main
+1. FV Recovery
+2. Ftw Spare Space
+3. Ftw Working Space
+4. Event log
+5. Microcode
+6. Variable Region
+7. FV Main
 
 ### What is the Hierarchy of flash device FD, Firmware Volumes FV, Firmware File System FFS, EFI files?
 

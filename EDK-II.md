@@ -31,7 +31,7 @@ TianoCore uses github issues for [Reporting Issues](Reporting-Issues.md) and [Re
 
 Current list of [Tasks](Tasks.md) identified by the EDK II community.
 
-irc - #edk2 - use www.oftc.net as a web client
+irc - #edk2 - use <www.oftc.net> as a web client
 
 ## Additional Information
 

@@ -12,7 +12,6 @@ SR1 Feature Details </span>
 - Features added to support the UEFI 2.3.1 specification from the
   official [UEFI Forum Web](http://uefi.org) site
 
-
 - EDK II Build tools and Updates to the
   <a href="EDK_II_Specifications" class="wikilink"
   title=" EDK II v1.22 specifications"> EDK II v1.22 specifications</a>

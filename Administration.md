@@ -28,18 +28,15 @@ administration duties include:
   owners are able to design their own project homepage and associated
   content.
 
-
 - **Module Maintainer:** This role is used in projects where management
   of the codebase is delegated to project members referred to as module
   maintainers. The EDK is one such project. With projects that do not
   have such delegation, the Project Owner assumes this role.
 
-
 - **Integrator:** This role is given to individuals who need the ability
   to commit changes to the code repository. This role also has
   permissions to actively use all other project collaboration tools
   (mailing lists, documents, issue management tool, etc).
-
 
 - **Developer:** This role is given to developers who are working on
   code fixes and enhancements, but do not have the physical ability to
@@ -47,12 +44,10 @@ administration duties include:
   strict standards for updates to the code base (such as the EDK and
   FAT32 projects).
 
-
 - **QA:** This role is used for individuals involved in QA activities.
   This role has access to all project resources as above, but also has
   the ability to "tag" in the code repository, to be used in conjunction
   with a testing process.
-
 
 - **Participant:** This popular role is used to give an individual
   access to a project, to allow them to participate in project

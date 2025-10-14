@@ -1,34 +1,34 @@
 # OVMF FAQ
 
--   [What is Open Virtual Machine Firmware
+- [What is Open Virtual Machine Firmware
     (OVMF)?](#what-is-open-virtual-machine-firmware-ovmf)
--   [What source code license does OVMF
+- [What source code license does OVMF
     use?](#what-source-code-license-does-ovmf-use)
--   [What does OVMF provide?](#what-does-ovmf-provide)
--   [Are OVMF releases fully UEFI
+- [What does OVMF provide?](#what-does-ovmf-provide)
+- [Are OVMF releases fully UEFI
     compliant?](#are-ovmf-releases-fully-uefi-compliant)
--   [Does OVMF support legacy booting, legacy option ROMs,
+- [Does OVMF support legacy booting, legacy option ROMs,
     CSM?](#does-ovmf-support-legacy-booting-legacy-option-roms-csm)
--   [What quality level is the OVMF code? (Alpha,
+- [What quality level is the OVMF code? (Alpha,
     Beta, Production?)](#what-quality-level-is-the-ovmf-code-alpha-beta-production)
--   [What virtual machines are supported by the OVMF firmware
+- [What virtual machines are supported by the OVMF firmware
     builds?](#what-virtual-machines-are-supported-by-the-ovmf-firmware-builds)
--   [Are only open source virtual machines
+- [Are only open source virtual machines
     supported?](#are-only-open-source-virtual-machines-supported)
--   [How can I use OVMF with a VM?](#how-can-i-use-ovmf-with-a-vm)
--   [Where is the source code to
+- [How can I use OVMF with a VM?](#how-can-i-use-ovmf-with-a-vm)
+- [Where is the source code to
     OVMF?](#where-is-the-source-code-to-ovmf)
--   [If I work on a Virtual Machine, how can I make use of
+- [If I work on a Virtual Machine, how can I make use of
     OVMF?](#if-i-work-on-a-virtual-machine-how-can-i-make-use-of-ovmf)
--   [Where can I find the current status and roadmap of
+- [Where can I find the current status and roadmap of
     OVMF?](#where-can-i-find-the-current-status-and-roadmap-of-ovmf)
--   [What build environments are supported by
+- [What build environments are supported by
     OVMF?](#what-build-environments-are-supported-by-ovmf)
--   [Where can I ask additional questions and discuss
+- [Where can I ask additional questions and discuss
     OVMF?](#where-can-i-ask-additional-questions-and-discuss-ovmf)
--   [How can I contribute to OVMF?](#how-can-i-contribute-to-ovmf)
--   [How do I build OVMF?](#how-do-i-build-ovmf)
--   [How do I enable source level debugging with
+- [How can I contribute to OVMF?](#how-can-i-contribute-to-ovmf)
+- [How do I build OVMF?](#how-do-i-build-ovmf)
+- [How do I enable source level debugging with
     OVMF?](#how-do-i-enable-source-level-debugging-with-ovmf)
 
 ### What is Open Virtual Machine Firmware (OVMF)?
@@ -43,8 +43,8 @@ Some OVMF content is convered by additional licenses detailed in [OvmfPkg/Licens
 
 ### What does OVMF provide?
 
--   Libraries and drivers related to virtual machines
--   An entire firmware implementation with supports UEFI on open source
+- Libraries and drivers related to virtual machines
+- An entire firmware implementation with supports UEFI on open source
     virtual machines.
 
 ### Are OVMF releases fully UEFI compliant?
@@ -154,6 +154,7 @@ OVMF](How-to-build-OVMF "wikilink") wiki page.
 ### How do I enable source level debugging with OVMF?
 
 Please refer to:
+
   1. [EDK II Source Level Debug](EDK-II-Source-Level-Debug.md)
   2. [How to debug OVMF with QEMU using GDB](How-to-debug-OVMF-with-QEMU-using-GDB.md)
   3. [How to debug OVMF with QEMU using WinDbg](How-to-debug-OVMF-with-QEMU-using-WinDbg.md)

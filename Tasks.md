@@ -41,7 +41,7 @@ not required.
 
 Current <a href="EDK_II" class="wikilink" title="EDK II">EDK II</a>
 doesn't support the dynamic linking
-(https://en.wikipedia.org/wiki/Dynamic_linker), which limits UEFI
+(<https://en.wikipedia.org/wiki/Dynamic_linker>), which limits UEFI
 firmware to be split into modular components that can be distributed
 separately in binary and loaded only when necessary. This project is to
 add native dynamic library build support (PE/COFF first) and introduce a

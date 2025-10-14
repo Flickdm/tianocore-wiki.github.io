@@ -53,12 +53,10 @@ environments.
 
 - Declare the EDK2 package paths:
 
-
     export PACKAGES_PATH=$PWD:$PWD/edk2-platforms
 
 - For the Foundation and Base FVPs (defined by the DSC file
   ArmPlatformPkg?/ArmVExpressPkg/ArmVExpress-RTSM-AEMv8Ax4-foundation.dsc):
-
 
     GCC5_AARCH64_PREFIX=aarch64-linux-gnu- build -a AARCH64 -p Platform/ARM/VExpressPkg/ArmVExpress-FVP-AArch64.dsc -t GCC5
 

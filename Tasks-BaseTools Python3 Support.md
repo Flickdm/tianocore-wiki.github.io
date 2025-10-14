@@ -60,16 +60,17 @@ Requirements:
 * Update code, replacing deprecated modules with newer modules.
 * First line python code statement in each file must be:
 
-  ```from` `__future__` `import` `absolute_import`
+  ```from``__future__``import``absolute_import`
 
 Tools
 -----
 
 * All tools are 32-bit versions of the tools, in order to create Win32
 
-` executables.`
+`executables.`
 
 Python 2.7.x
+
 * must be able to run with 2.7.3 or later Python 3.x.x
 * must be able to run with 3.4.x or later pip
 * recommended version is 8.1.1
@@ -86,9 +87,9 @@ Python 2.7.x
 Coding Style
 ------------
 
-[ Python PEP-8 Coding Style Guidelines](http://www.python.org/dev/peps/pep-0008/ "wikilink")
+[Python PEP-8 Coding Style Guidelines](http://www.python.org/dev/peps/pep-0008/ "wikilink")
 
-[ Python PEP-257 Docstring Conventions](https://www.python.org/dev/peps/pep-0257/ "wikilink")
+[Python PEP-257 Docstring Conventions](https://www.python.org/dev/peps/pep-0257/ "wikilink")
 
 ### EDK II specific changes to PEP-8 and Pylint
 

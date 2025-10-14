@@ -2,8 +2,8 @@
 
 \_\_NOTOC\_\_
 
-` Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
-`       build edk2 for the first time. This page is retained for reference.`
+`Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
+`build edk2 for the first time. This page is retained for reference.`
 
 New instructions: <a href="Build_Instructions" class="wikilink"
 title="Build Instructions">Build Instructions</a>
@@ -28,15 +28,15 @@ systems.
 
 ## GitHub Help
 
-GitHub (https://help.github.com/index.html) provides step-by-step
+GitHub (<https://help.github.com/index.html>) provides step-by-step
 instructions for user registration and basic features supported by
 GitHub.
 
 ### Git GUI Interface for Windows OS
 
-- Git for Windows OS is available at: (http://git-scm.com/download/win)
+- Git for Windows OS is available at: (<http://git-scm.com/download/win>)
 - TortoiseGit for windows OS is available at
-  (https://tortoisegit.org/download/)
+  (<https://tortoisegit.org/download/>)
 
 ## GitHub EDK II Project Repositories
 
@@ -61,8 +61,8 @@ administrator to find out the computer name and port to use for proxy
 setup. The following commands are common **Git Bash** examples of how
 you would configure your proxy by setting an environment variable:
 
-        $ git config --global https.proxy <proxyname>.domain.com:<port>
-        $ git config --global http.proxy <proxyname>.domain.com:<port>
+        git config --global https.proxy <proxyname>.domain.com:<port>
+        git config --global http.proxy <proxyname>.domain.com:<port>
 
 ## How to Setup the EDK II Tree
 
@@ -78,12 +78,12 @@ Download/Checkout the EDK II source tree from Github
 
 ### Download Using a Web browser
 
-1.  Download EDK II Project
-    1.  Open <https://github.com/tianocore/edk2> in web browser
-    2.  Click on the *Clone or Download* button (Right Green)
-    3.  Click on Download ZIP
-    4.  Unzip to C:/
-    5.  Rename directory “edk2-master” to “edk2”
+1. Download EDK II Project
+    1. Open <https://github.com/tianocore/edk2> in web browser
+    2. Click on the *Clone or Download* button (Right Green)
+    3. Click on Download ZIP
+    4. Unzip to C:/
+    5. Rename directory “edk2-master” to “edk2”
 
 Continue to <a href="Windows-systems#compile-tools" class="wikilink"
 title="Compile Tools">Compile Tools</a>
@@ -92,13 +92,13 @@ title="Compile Tools">Compile Tools</a>
 
 #### Git GUI
 
-1.  Clone the EDK II project repository
-    1.  Open Git GUI
-    2.  Use *Clone Exiting Repository* with Source location
+1. Clone the EDK II project repository
+    1. Open Git GUI
+    2. Use *Clone Exiting Repository* with Source location
         <https://github.com/tianocore/edk2.git>
-    3.  Select a Target directory C:/edk2
-    4.  Check Recursively clone submodules too
-    5.  click Clone button
+    3. Select a Target directory C:/edk2
+    4. Check Recursively clone submodules too
+    5. click Clone button
 
 Continue to <a href="Windows-systems#compile-tools" class="wikilink"
 title="Compile Tools">Compile Tools</a> section
@@ -118,7 +118,7 @@ BUILD</a> sections
 
 ## Compile Tools
 
-##### For EDK II project developers on Windows with source BaseTools:
+##### For EDK II project developers on Windows with source BaseTools
 
 - Create a workspace directory
 - Change to the workspace directory
@@ -126,7 +126,7 @@ BUILD</a> sections
   <a href="Windows-systems#download" class="wikilink" title=" Download">
   Download</a> section above)
   - Example: git clone <https://github.com/tianocore/edk2>
-- Install Python37 or late version (https://www.python.org/) to run
+- Install Python37 or late version (<https://www.python.org/>) to run
   python tool from source
 - Compile BaseTools C source tools
 
@@ -134,15 +134,13 @@ Example:
 
 - Inside Git Bash
 
-
-         $ git clone https://github.com/tianocore/edk2
+         git clone https://github.com/tianocore/edk2
 
 ##### Compile BaseTools
 
 Example:
 
 - Open Command prompt and CD C:\edk2:
-
 
          C:\edk2> set PYTHON_HOME=C:\Python37
          C:\edk2> edksetup.bat Rebuild
@@ -161,8 +159,8 @@ Example:
 - Change to the edk2 directory
 - Run the edksetup.bat script
 
-`     C:\Users\MySid> CD \edk2`
-`     C:\edk2> edksetup`
+`C:\Users\MySid> CD \edk2`
+`C:\edk2> edksetup`
 
 ### Build MdeModulePkg
 

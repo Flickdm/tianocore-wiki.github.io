@@ -9,16 +9,19 @@ Optimize cursor motion sequences; support Linux/UNIX standard (xterm/konsole/gno
 * Suggested by: bjjohnson, [@nate-desimone](https://github.com/nate-desimone)
 
 # Status
+
 * Completed :heavy_check_mark:.
 * Work done by Caden Kline ([@Pokemod97](https://github.com/Pokemod97)) as a [GSoC2021](GSoC2021.md) Student.
 * Available at: [https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3](https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3)
 
 # Background
-The Terminal driver is located at https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe
+
+The Terminal driver is located at <https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe>
 
 The most prevalent use case for the terminal driver is to display the BIOS setup menu on headless server systems using a PC style serial port connected to a laptop via null modem. This allows administrators to adjust BIOS settings on rack mounted systems without needing to connect a monitor and keyboard.
 
 # Details
+
 Historically, the BIOS setup menu would be rendered using the IBM PC VGA text mode, which encoded text using code page 437 (CP437). This was important for box-drawing characters, such as ┌ , ─ , and ┐ , which VGA text mode encodes as 0xDA, 0xC4, and 0xBF respectively. However, most terminal emulators assume text to be encoded in UTF-8. Unicode defines these box drawing characters as 0x250C, 0x2500, and 0x2510. In UTF-8 encoding, these characters translate into 3 byte sequences of (0xE2, 0x94, 0x8C), (0xE2, 0x94, 0x80), and (0xE2, 0x94, 0x90) respectively. The VGA encodings of these box characters will end up generating errors if one attempts to decode them as strict UTF-8, though most terminals assume that the intended characters to be drawn are Ú, Ä, and ¿, which have the Unicode character codes 0xDA, 0xC4, and 0xBF. The end result is the BIOS setup menu looks like this:
 
 ```
@@ -89,12 +92,14 @@ The terminal driver has fully supported both the legacy CP437 encoding and the U
 The default terminal type is PC_ANSI, which uses CP437. In this day and age that is probably not the right default anymore, though one could argue whether PC_ANSI being the default is a "bug". Here is the list of supported terminal types:
 
 UEFI Spec Defined:
+
 * PC_ANSI
 * VT_100
 * VT_100_PLUS
 * VT_UTF8
 
 EDK II Extensions:
+
 * TTY_TERM
 * LINUX
 * XTERM_R6
@@ -136,21 +141,25 @@ For most the modes listed above, the VT-100 method should be used for drawing bo
 Now, here is the second bug. That BIOS setup menu page that OVMF has for configuring the serial port has a field for setting the terminal type. But, changing the value in that field doesn't actually change the configuration data that is sent to the terminal driver. So the terminal driver always ends up using PC_ANSI mode even if the user changes that setting. This isn’t a bug in the terminal driver really, it’s a bug in OVMF's setup menu implementation. But it does create the appearance of a problem in the terminal driver and should be fixed as part of this GSoC project. This should be fixed in both he OVMF implementation and the MinPlatform implementation.
 
 # Development Environment
+
 Building: This project should support all edk2 supported OSes and toolchains.
 
 # Links for More Information
-* https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe
-* https://github.com/tianocore/edk2/tree/master/OvmfPkg
-* https://en.wikipedia.org/wiki/Box-drawing_character
-* https://en.wikipedia.org/wiki/UTF-8
-* https://en.wikipedia.org/wiki/Code_page_437
-* https://en.wikipedia.org/wiki/DEC_Special_Graphics
 
-* https://en.wikipedia.org/wiki/VT100
-* https://www.putty.org
+* <https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe>
+* <https://github.com/tianocore/edk2/tree/master/OvmfPkg>
+* <https://en.wikipedia.org/wiki/Box-drawing_character>
+* <https://en.wikipedia.org/wiki/UTF-8>
+* <https://en.wikipedia.org/wiki/Code_page_437>
+* <https://en.wikipedia.org/wiki/DEC_Special_Graphics>
+
+* <https://en.wikipedia.org/wiki/VT100>
+* <https://www.putty.org>
 
 # Further Discussion
+
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
 # See Also
+
 [Tasks](Tasks.md)

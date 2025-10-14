@@ -3,6 +3,7 @@
 ## Basic Concepts
 
 EDK II Debug methods enable the following debug techniques:
+
 * Use `DEBUG` macros instead of inline Print() functions for debug messages
 * Use `ASSERT` macros to halt code execution on critical issues
 * Use a [[software debugger|SourceLevelDebugPkg]] (COM/USB)
@@ -26,6 +27,7 @@ The EDK II Debug Library (`MdePkg\Include\Library\DebugLib.h`) is a portable lib
 ## PCDs to configure DebugLib
 
 The MdePkg Debug Library Class defines two PCDs
+
 * `PcdDebugPropertyMask` - Bit mask to determine which features are on/off
 * `PcdDebugPrintErrorLevel` - Types of messages produced
 

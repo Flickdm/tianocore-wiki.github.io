@@ -1,8 +1,8 @@
 # Frequently asked EDK II build questions
 
-` Note: This page is retained for reference. Most of the content as of 2022 is still relevant but it is recommended to`
-`       view the new set of build instructions that describe how to develop using containers and build with the Stuart`
-`       application.`
+`Note: This page is retained for reference. Most of the content as of 2022 is still relevant but it is recommended to`
+`view the new set of build instructions that describe how to develop using containers and build with the Stuart`
+`application.`
 
 New instructions: <a href="Build_Instructions" class="wikilink"
 title="Build Instructions">Build Instructions</a>
@@ -12,7 +12,7 @@ title="Build Instructions">Build Instructions</a>
 Use –t parameter for the build command. Example: Using the Microsoft
 Visual Studio 2019 tool chain ...
 
-`   build –t VS2019`
+`build –t VS2019`
 
 For using other tools see
 <a href="Getting_Started_with_EDK_II" class="wikilink"
@@ -51,9 +51,9 @@ The Build output directory is defined in the defines section of a .DSC
 file. For example, Nt32Pkg\Nt32Pkg.dsc - the UEFI application would be
 in Build\NT32\DEBUG_MYTOOLS\IA32
 
-`   OUTPUT_DIRECTORY            = Build/NT32`
-`   SUPPORTED_ARCHITECTURES = IA32`
-`   BUILD_TARGETS           = DEBUG`
+`OUTPUT_DIRECTORY            = Build/NT32`
+`SUPPORTED_ARCHITECTURES = IA32`
+`BUILD_TARGETS           = DEBUG`
 
 ## How do I get my UEFI application to the target UEFI System?
 
@@ -89,18 +89,18 @@ BaseTools directory and new binaries are generated.
 This is not recommended but can be used within the DSC or FDF as part of
 the build. But here is an example:
 
-`  !ifdef $(SOURCE_DEBUG_ENABLE)`
-`    MSFT:*_*_X64_GENFW_FLAGS  = --keepexceptiontable`
-`    GCC:*_*_X64_GENFW_FLAGS   = --keepexceptiontable`
-`    INTEL:*_*_X64_GENFW_FLAGS = --keepexceptiontable`
-`  !endif`
+`!ifdef $(SOURCE_DEBUG_ENABLE)`
+`MSFT:*_*_X64_GENFW_FLAGS  = --keepexceptiontable`
+`GCC:*_*_X64_GENFW_FLAGS   = --keepexceptiontable`
+`INTEL:*_*_X64_GENFW_FLAGS = --keepexceptiontable`
+`!endif`
 
 ## When can the report generator show the protocols produced by modules?
 
 The report generator can show protocols produced by modules. The Runtime
 DXE core will also report what is missing before handing off.
 
-## Why is the Buffer Security check flag (Build options) disabled for building EDK II UEFI applications and drivers but it is enabled for building tools.
+## Why is the Buffer Security check flag (Build options) disabled for building EDK II UEFI applications and drivers but it is enabled for building tools
 
 UEFI applications and drivers are not executed in an Operating System
 environment. This is important, as the switches have very specific (and,
@@ -141,14 +141,14 @@ built.
 a\) Use the report generator build into the build tool “BUILD –Y” on the
 command line
 
-` -Y REPORTTYPE, --report-type=REPORTTYPE`
-`                   Flags that control the type of build report to`
-`                           generate.  Must be one of: [PCD, LIBRARY, FLASH, DEPEX,`
-`                       BUILD_FLAGS, FIXED_ADDRESS, EXECUTION_ORDER].`
-`                           To specify more than one flag, repeat this option on`
-`                           the command line and the default flag set is [PCD,`
-`                           LIBRARY, FLASH, DEPEX, BUILD_FLAGS, FIXED_ADDRESS]`
-`           Use “–Y DEPEX” and this will generate a text file with dependencies`
+`-Y REPORTTYPE, --report-type=REPORTTYPE`
+`Flags that control the type of build report to`
+`generate.  Must be one of: [PCD, LIBRARY, FLASH, DEPEX,`
+`BUILD_FLAGS, FIXED_ADDRESS, EXECUTION_ORDER].`
+`To specify more than one flag, repeat this option on`
+`the command line and the default flag set is [PCD,`
+`LIBRARY, FLASH, DEPEX, BUILD_FLAGS, FIXED_ADDRESS]`
+`Use “–Y DEPEX” and this will generate a text file with dependencies`
 
 b\) Predicted dispatch order is limited because it makes assumptions
 about the behavior of the modules. It cannot handle that some PPI and

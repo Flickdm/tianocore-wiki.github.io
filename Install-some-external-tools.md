@@ -50,7 +50,7 @@ At least one of the following 3rd party compiler tool chain is required:
 | Microsoft Windows Driver Development Kit6 (DDK) | 3790.1830 |  | The default tool chain for IPF builds. To download and use the DDK, you must burn the ISO file to a CD or DVD. |
 | Windows Server 2003 SP1 DDK |  |  |  |
 | Microsoft ACPI Source Language Assembler | 3.0.0NT or later | <http://www.microsoft.com/whdc/system/pnppwr/powermgmt/default.mspx> |  |
-| Intel ACPI Component Architecture | 20060113 or later \|-http://www.intel.com/technology/iapc/acpi/downloads.htm |  |  |
+| Intel ACPI Component Architecture | 20060113 or later \|-<http://www.intel.com/technology/iapc/acpi/downloads.htm> |  |  |
 
 ## Windows XP or Windows Vista
 

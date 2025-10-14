@@ -1,11 +1,14 @@
 # Debugging EDK II using OvmfPkg with QEMU and the Windows Debugger (WinDbg)
+
 This example shows how to enable source debugging in QEMU with OvmfPkg using WinDbg.
 
 ## Download the Required Applications
+
 These instructions were tested on a Windows 10 host (19042) with QEMU 4.2.0, WinDbg from the Windows 8.1 SDK (6.3.9600.17298),
 and the Intel UDK Debugger Tool v1.5 for Windows.
 
 ### WinDbg
+
 * This version of the SDK can be downloaded from the [SDK archive](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/)
   or via [this direct link](https://go.microsoft.com/fwlink/p/?LinkId=323507).
   * For the purposes of source debugging, only the "Debugging Tools for Windows" needs to be selected during installation.
@@ -17,6 +20,7 @@ and the Intel UDK Debugger Tool v1.5 for Windows.
     * If you chose a different installation location, note it for future steps.
 
 ### Intel UDK Debugger Tool
+
 * Download the installer from [Intel Software](https://software.intel.com/content/www/us/en/develop/articles/unified-extensible-firmware-interface.html)
   or via [this direct link](https://software.intel.com/sites/default/files/managed/de/00/UDK_Debugger_Tool_v1_5_Win.zip)
 * Begin installation
@@ -40,6 +44,7 @@ and the Intel UDK Debugger Tool v1.5 for Windows.
     `C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\SoftDebugger.ini`
 
   * For reference, by default it should contain the following contents:
+
 ```
    [Debug Port]
    Channel = TCP
@@ -68,20 +73,21 @@ and the Intel UDK Debugger Tool v1.5 for Windows.
    TerminalRedirectionPort = 20715
 ```
 
-  * You can customize this file further to suit your situation. The flash range for OVMF can be found in
+* You can customize this file further to suit your situation. The flash range for OVMF can be found in
     [OvmfPkg/OvmfPkgDefines.fdf.inc](https://github.com/tianocore/edk2/blob/master/OvmfPkg/OvmfPkgDefines.fdf.inc).
-    * For example, for a 4MB image the flash range is currently defined as: \
+  * For example, for a 4MB image the flash range is currently defined as: \
       [0xFFC00000 : 0xFFFFFFFF]
 
-  * `LoadModuleSymbol` is an important setting to automatically have WinDbg load source symbols and to set unresolved
+* `LoadModuleSymbol` is an important setting to automatically have WinDbg load source symbols and to set unresolved
     breakpoints. Though it does appear to slow the session down when enabled.
 
-  * `NoAccessLimit` can be set to 0.
+* `NoAccessLimit` can be set to 0.
 
-  * _Note_: `BaudRate` and `FlowControl` settings are used for serial channels and not required at this time
+* _Note_: `BaudRate` and `FlowControl` settings are used for serial channels and not required at this time
     though they are not harmful to leave in the file.
 
 ### Building the Firmware
+
 The firmware should be built with the `SOURCE_DEBUG_ENABLE` option set to `TRUE` and `DEBUG_ON_SERIAL_PORT` defined. This
 example builds a 64-bit OVMF image with Visual Studio 2019.
 
@@ -92,6 +98,7 @@ If you'd like to disable optimizations, you can specify a NOOPT build target. Fo
 `build -p OvmfPkg/OvmfPkgX64.dsc -a X64 -t VS2019 -b NOOPT -D SOURCE_DEBUG_ENABLE=TRUE -D DEBUG_ON_SERIAL_PORT`
 
 ### Launching the Debug Session
+
 You can launch QEMU and quickly run the "Start WinDbg with Intel UDK Debugger Tool" shortcut in the Start menu. However,
 the timing can be sensitive during initialization and you might get a connection timeout. It is recommended to launch
 the appropriate applications from a batch file to start the session reliably.
@@ -132,6 +139,7 @@ Note that other customizations are possible for QEMU configuration this is just 
 configuration settings.
 
 ### WinDbg Working Case Examples
+
 This section briefly shows some samples of expected behavior when source level debug is working.
 
 Multiple panels can be used to view system registers, the call stack, disassembly, source code, and the debugger
@@ -148,6 +156,7 @@ Types of locals are generally handled well:
 ![Intel UDK Debugger WinDbg Dialog](images/ovmf-qemu-windbg/windbg-example-locals2.png "Intel UDK Debugger WinDbg Dialog")
 
 ### More Information
+
 There are many resources available online to help get started with using the Windows Debugger. These are just some
 starting points:
 

@@ -7,19 +7,19 @@ In collaboration with UEFI, we will be following the same [[Inclusive Language I
 
 In our plan below, we have steps for dealing with both "_non-legacy_" and "_legacy_".  For these terms we define "_non-legacy_" as UEFI BIOS/specifications and beyond, where as "_legacy_" is BIOS/specifications that predates UEFI.  There are references to legacy specifications not controlled by the TianoCore Community, and they may not follow these guidelines. In order to preserve compatibility for code that reads on legacy specifications, particularly where that specification is no longer under maintenance or development, language in this specification may appear out of sync with the guidelines. In these cases, the Community will work with other standards development bodies to eliminate such examples over time. In the meanwhile, by acknowledging and calling attention to this issue the hope is to promote discussion and action towards more complete use of Inclusive Language reflective of the diverse and innovative population of the technical community that works on standards.
 
-
- ## Plan
+## Plan
 
 1. Announcement of intent, and all check-ins from here onwards will need to abide by Inclusive Language Implementation Guidelines
 2. Scrubbing of all comments, documentation, and Wiki pages
 3. Scrubbing of all non-legacy code
 4. Working with UEFI to scrub legacy code
 
+## Implementation Guidelines
 
- ## Implementation Guidelines
+### Master/Slave to not be used together nor alone
 
- ### Master/Slave to not be used together nor alone.
  Alternatives:
+
  Master | Slave
  -------|-------
  Main | Secondary, Subordinate
@@ -31,8 +31,10 @@ In our plan below, we have steps for dealing with both "_non-legacy_" and "_lega
 
  Or similar descriptive terminology
 
- ### Blacklist/Whitelist to not be used together nor alone.
+### Blacklist/Whitelist to not be used together nor alone
+
  Alternatives:
+
  Blacklist | Whitelist
  ----------|----------
  Blocklist | Passlist

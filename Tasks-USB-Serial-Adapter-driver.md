@@ -70,8 +70,8 @@ latest code is currently available at:
 
 A quick start for building & testing this code on Linux would be:
 
-    $ OvmfPkg/build.sh
-    $ OvmfPkg/build.sh qemu -usb -usbdevice serial::vc
+    OvmfPkg/build.sh
+    OvmfPkg/build.sh qemu -usb -usbdevice serial::vc
 
 Once QEMU/OVMF starts, press Control+Alt+5 to see the 'usbserial'
 output.

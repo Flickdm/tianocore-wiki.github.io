@@ -46,11 +46,10 @@ file named 'FV_IMAGE'.
 
 The FVMAIN FV image is defined above by the section '\[FV.FvMain\]'.
 
-### To disable the compression:
+### To disable the compression
 
 1\. Flatten the FDF file: Move the content of FVMAIN into
 FVMAIN_COMPACT:
-
 
 \- remove FV_IMAGE file from FVMAIN_COMPACT
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-This document is provided to help developers prepare UEFI drivers using the [EDK II](EDK-II.md) development environment. UEFI driver standards are described in the Unified Extensible Firmware Interface (UEFI) Specification, at http://uefi.org/specifications. This document provides basic information for the most common categories of UEFI drivers; other driver designs are possible.
+This document is provided to help developers prepare UEFI drivers using the [EDK II](EDK-II.md) development environment. UEFI driver standards are described in the Unified Extensible Firmware Interface (UEFI) Specification, at <http://uefi.org/specifications>. This document provides basic information for the most common categories of UEFI drivers; other driver designs are possible.
 
 ## Versions
 

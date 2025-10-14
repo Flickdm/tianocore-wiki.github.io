@@ -13,7 +13,6 @@
   - devel: For general developer discussions
   - commits: For source code commits.
 
-
 - Set-up: **Neet to document**
 
 # Open Discussions

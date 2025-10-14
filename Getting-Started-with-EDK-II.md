@@ -2,8 +2,8 @@
 
 \_\_NOTOC\_\_
 
-` Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
-`       build edk2 for the first time. This page is retained for reference.`
+`Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
+`build edk2 for the first time. This page is retained for reference.`
 
 New instructions: <a href="Build_Instructions" class="wikilink"
 title="Build Instructions">Build Instructions</a>
@@ -36,7 +36,7 @@ project or package:
 - <a href="Nasm_Setup" class="wikilink" title="Nasm">Nasm</a>
 - <a href="ASL_Setup" class="wikilink" title="ASL Compiler">ASL
   Compiler</a>
-- Install Python 3.7 or later (https://www.python.org/) to run python
+- Install Python 3.7 or later (<https://www.python.org/>) to run python
   tool from source
   - Python 2.7.10 or later can still be used with PYTHON_HOME
 
@@ -45,7 +45,7 @@ project or package:
 title="Multiple_Workspace">Multiple_Workspace</a> \`PACKAGES_PATH\`
 feature to the configure EDK II build environment. For example, this is
 required for using platform code based on edk2-platforms:
-(https://github.com/tianocore/edk2-platforms).
+(<https://github.com/tianocore/edk2-platforms>).
 
 Once you have a basic build environment running, you can build a project
 in RELEASE or
@@ -54,15 +54,15 @@ mode.
 
 ## GitHub Help
 
-GitHub (https://help.github.com/index.html) provides step-by-step
+GitHub (<https://help.github.com/index.html>) provides step-by-step
 instructions for user registration and basic features supported by
 GitHub
 
 - Setup GitHub for Linux/Windows/MAC
-  (https://help.github.com/articles/set-up-git)
+  (<https://help.github.com/articles/set-up-git>)
 - Download and install a git GUI interface: git GUI Clients
-  (https://git-scm.com/download/gui/win) \| TortoiseGit
-  (https://tortoisegit.org/)
+  (<https://git-scm.com/download/gui/win>) \| TortoiseGit
+  (<https://tortoisegit.org/>)
 
 ### GitHub EDK II Project Repositories
 

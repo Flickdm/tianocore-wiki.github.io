@@ -63,10 +63,10 @@ by a platform-specific library instance.
 LibraryClasses section of module SecurityStubDxe in the platform DSC
 file:
 
-`   MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {`
-`      `<LibraryClasses>
-`         NULL|SecurityPkg/Library/DxeImageVerificationLib/DxeImageVerificationLib.inf`
-`   }`
+`MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {`
+``<LibraryClasses>
+`NULL|SecurityPkg/Library/DxeImageVerificationLib/DxeImageVerificationLib.inf`
+`}`
 
 5\. Add Authenticated Variable driver INF to \[Component\] section of
 the platform DSC file:
@@ -90,10 +90,10 @@ Add Authenticated Variable Driver INF to the platform FDF file:
 
 7\. Update Variable GUID value of VARIABLE_STORE_HEADER in FDF file as:
 
-`   #Signature: gEfiAuthenticatedVariableGuid =`
-`   # {0xaaf32c78, 0x947b, 0x439a, { 0xa1, 0x80, 0x2e, 0x14, 0x4e, 0xc3, 0x77, 0x92}}`
-`   0x78, 0x2c, 0xf3, 0xaa, 0x7b, 0x94, 0x9a, 0x43,`
-`   0xa1, 0x80, 0x2e, 0x14, 0x4e, 0xc3, 0x77, 0x92,`
+`#Signature: gEfiAuthenticatedVariableGuid =`
+`# {0xaaf32c78, 0x947b, 0x439a, { 0xa1, 0x80, 0x2e, 0x14, 0x4e, 0xc3, 0x77, 0x92}}`
+`0x78, 0x2c, 0xf3, 0xaa, 0x7b, 0x94, 0x9a, 0x43,`
+`0xa1, 0x80, 0x2e, 0x14, 0x4e, 0xc3, 0x77, 0x92,`
 
 8\. Set appropriate value of
 gEfiMdeModulePkgTokenSpaceGuid.PcdMaxVariableSize for security feature
@@ -199,7 +199,6 @@ deferred image after user authentication.
 
 - SecurityPkg/UserIdentification/UserIdentifyManagerDxe/UserIdentifyManagerDxe.inf
 
-
 - 2\) PwdCredentialProviderDxe driver produces user credential protocol
   and
 
@@ -207,14 +206,12 @@ provides support for password credential.
 
 - SecurityPkg/UserIdentification/PwdCredentialProviderDxe/PwdCredentialProviderDxe.inf
 
-
 - 3\) UsbCredentialProviderDxe driver produces user credential protocol
   and
 
 provides support for secure card credential.
 
 - SecurityPkg/UserIdentification/UsbCredentialProviderDxe/UsbCredentialProviderDxe.inf
-
 
 - 4\) UserProfileManagerDxe driver provide UI configure for user
   profiles in
@@ -232,10 +229,10 @@ be deferred by the predefined policy in a PCD before user
 authentication, or be verified by current user access policy after user
 authentication.
 
-`   MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {`
-`      `<LibraryClasses>
-`        NULL|SecurityPkg/Library/DxeDeferImageLoadLib/DxeDeferImageLoadLib.inf`
-`   }`
+`MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {`
+``<LibraryClasses>
+`NULL|SecurityPkg/Library/DxeDeferImageLoadLib/DxeDeferImageLoadLib.inf`
+`}`
 
 6\. Add UID drivers to the platform FDF file:
 
@@ -328,10 +325,10 @@ SecurityStubDxe in the platform DSC file.
 
 - SecurityPkg/Library/DxeTpmMeasureBootLib/DxeTpmMeasureBootLib.inf
 
-`       MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {`
-`         `<LibraryClasses>
-`           NULL|SecurityPkg/Library/DxeTpmMeasureBootLib/DxeTpmMeasureBootLib.inf`
-`       }`
+`MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {`
+``<LibraryClasses>
+`NULL|SecurityPkg/Library/DxeTpmMeasureBootLib/DxeTpmMeasureBootLib.inf`
+`}`
 
 5\. Add TPM drivers to \[Component\] section of the platform DSC file:
 
@@ -392,7 +389,6 @@ TPM chip. Its value is set to 0 for PC client type by default. It should
 be set 1 for server.
 
 - gEfiSecurityPkgTokenSpaceGuid.PcdTpmPlatformClass\|0\|UINT8\|0x00000006
-
 
 - 2\) Hide TPM device
 

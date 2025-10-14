@@ -4,8 +4,8 @@
 
 ## Common instructions for Unix
 
-` Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
-`       build edk2 for the first time. This page is retained for reference.`
+`Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
+`build edk2 for the first time. This page is retained for reference.`
 
 New instructions: <a href="Build_Instructions" class="wikilink"
 title="Build Instructions">Build Instructions</a>
@@ -30,7 +30,7 @@ guide for mainstream Linux distros.
     bash$ cd ~/src
     bash$ git clone https://github.com/tianocore/edk2
 
-#### For EDKII project developers:
+#### For EDKII project developers
 
 - Clone the EDK II project repository
   - git clone <https://github.com/tianocore/edk2>

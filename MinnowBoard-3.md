@@ -16,8 +16,8 @@ Project Info: [Intel Developer Zone - Intel Atom® Processor E3900 Series page](
 
 Developers can download pre-built UEFI firmware images, utilities, binary object modules, and project release notes. The open source firmware project is available from the TianoCore GitHub:
 
-*  https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoard3-UDK2017
-*  https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoard3
+* <https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoard3-UDK2017>
+* <https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoard3>
 
 ## MinnowBoard 3
 

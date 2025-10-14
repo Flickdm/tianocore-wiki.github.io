@@ -29,6 +29,7 @@ TianoCore technical sessions and workshops are featured at a variety of conferen
 ### [[Other Projects (Non EDK II Projects)|Additional-Projects-other]]
 
 ## Important Information
+
 * [[Getting Started for Developers|Getting Started with EDK II]]
 * [EDKII Packages](EDKII-Packages.md)
 * [[Code Style|Code-Style]]

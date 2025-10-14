@@ -4,7 +4,6 @@
 
 <u>Pre-requirements:</u>
 
-
 \- Having an account on Github
 
 \- Being a member of the UEFI Forum. The membership list is available
@@ -24,11 +23,11 @@ alt="contribute-sct-2.png" />
 
 2\. Clone the repository on your host machine:
 
-    $ git clone https://github.com/oliviermartin/UEFI-SCT.git
+    git clone https://github.com/oliviermartin/UEFI-SCT.git
 
 3\. Create your branch
 
-    $ git checkout -b om/installsct-fix-backup origin/master
+    git checkout -b om/installsct-fix-backup origin/master
 
 After making your first change, you can see the state of your local GIT
 repository:
@@ -89,11 +88,11 @@ repository:
 
 Once happy by your changes, you can add them to your future GIT commit:
 
-    $ git add Application/InstallSct/InstallSct.c
+    git add Application/InstallSct/InstallSct.c
 
 And commit it!
 
-    $ git commit
+    git commit
 
 After having completed all your changes, you need to push them to the
 your GIT repository:

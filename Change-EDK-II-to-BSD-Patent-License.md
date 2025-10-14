@@ -1,28 +1,30 @@
 # Change EDK II to BSD+Patent License
 
 This change is based on the following emails:
-  * https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html
-  * https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html
+
+* <https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html>
+* <https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html>
 
 RFCs with detailed process for the license change:
-  * V3: https://lists.01.org/pipermail/edk2-devel/2019-March/038116.html
-  * V2: https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html
-  * V1: https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html
+
+* V3: <https://lists.01.org/pipermail/edk2-devel/2019-March/038116.html>
+* V2: <https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html>
+* V1: <https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html>
 
 # GitHub Issue
 
-https://github.com/tianocore/edk2/issues/7666
+<https://github.com/tianocore/edk2/issues/7666>
 
 # Patch Reviews
 
 The patch series for review has been posted on the following branch using
 7ed72121b7 as the base for the patch series.
 
-  https://github.com/mdkinney/edk2/tree/Bug_1373_BsdPatentLicense_V3
+  <https://github.com/mdkinney/edk2/tree/Bug_1373_BsdPatentLicense_V3>
 
 The commits in patch series can be viewed here:
 
-  https://github.com/mdkinney/edk2/commits/Bug_1373_BsdPatentLicense_V3
+  <https://github.com/mdkinney/edk2/commits/Bug_1373_BsdPatentLicense_V3>
 
 The patch series has one patch per package along with a few patches
 to update the license information in the root of the edk2 repository
@@ -35,6 +37,7 @@ from the branch.
 All EDK II package maintainers and package reviewers should provide
 review feedback for their packages.  The critical part of the review
 is:
+
 1) Any changes that cause build breaks or logic changes.  These code
    changes are intended to only modify license contents in comment
    blocks.
@@ -105,21 +108,21 @@ and the Reviewed-by status.
  This RFC follows up on the proposal from Mark Doran to change the
 EDK II Project to a BSD+Patent License.
 
-	https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html
+ https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html
 
 The review period for this license change is 30 days.  If there is no
 unresolved feedback on April 9, 2019, then commits of the license change
 patches will begin on April 9, 2019.
 
-  ** Please provide feedback on the proposal by Monday April 8, 2019. **
+  **Please provide feedback on the proposal by Monday April 8, 2019.**
 
 Feedback can be sent to edk2-devel at lists.01.org, the EDK II community
 manager or any of the EDK II stewards.
 
-  * Leif Lindholm   <leif.lindholm at linaro.org>    Steward
-  * Andrew Fish     <afish at apple.com>             Steward
-  * Laszlo Ersek    <lersek at redhat.com>           Steward
-  * Michael Kinney  <michael.d.kinney at intel.com>  Steward
+* Leif Lindholm   <leif.lindholm at linaro.org>    Steward
+* Andrew Fish     <afish at apple.com>             Steward
+* Laszlo Ersek    <lersek at redhat.com>           Steward
+* Michael Kinney  <michael.d.kinney at intel.com>  Steward
 
 The goal is to convert all of the files in the edk2 repository that are
 currently covered by the 2-Clause BSD License and the TianoCore
@@ -140,7 +143,7 @@ branches in the edk2 repository.
    BSD License to the BSD+Patent License. The following is the link to the
    BSD+Patent License and the new License.txt file contents.
 
-   https://opensource.org/licenses/BSDplusPatent
+   <https://opensource.org/licenses/BSDplusPatent>
 
    ```
    Redistribution and use in source and binary forms, with or without

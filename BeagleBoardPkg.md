@@ -59,7 +59,6 @@ title="ArmPkg-Toolchain">ArmPkg-Toolchain</a>
 
 - To Build the Debug version of UEFI
 
-
     ./build.sh
 
 ## Using UEFI to boot Linux
@@ -68,8 +67,7 @@ title="ArmPkg-Toolchain">ArmPkg-Toolchain</a>
 
 - Getting from Linaro website:
 
-
-    wget http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz
+    wget <http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz>
     tar xzf linaro-image-tools-0.4.8.tar.gz
     cd $(WORKROOT)/linaro-image-tools-0.4.8/
     sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted qemu-arm-static btrfs-tools command-not-found
@@ -77,7 +75,6 @@ title="ArmPkg-Toolchain">ArmPkg-Toolchain</a>
 Add linaro-media-create path to the PATH environment variable
 
 - Getting from the Ubuntu package:
-
 
     sudo add-apt-repository ppa:linaro-maintainers/tools
     sudo apt-get update
@@ -111,13 +108,11 @@ sdcard:
 
 - Get the command line from uboot ('boot.txt' from the boot partition):
 
-
     console=ttyS2,115200n8 root=/dev/mmcblk0p2 rw earlyprintk fixrtc nocompcache vram=12M omapfb.mode=dvi:1280x720MR-16@60
 
 - Start the UEFI on the BeagleBoard
 - Go into the 'Boot Menu'
 - Update the existing entry
-
 
     The default boot selection will start in   8 seconds
     [1] Linux from SD
@@ -172,12 +167,10 @@ more information.
 
 - Using the previous image:
 
-
     qemu-system-arm -M beagle -serial stdio -sd beagle_sd.img
 
 - Booting UEFI from NOR Flash: Rebuild the UEFI firmware WITH the
   OMAP353x header:
-
 
     cd $(WORKROOT)/edk2/BeagleBoardPkg/
     ./build.sh RELEASE
@@ -185,7 +178,6 @@ more information.
 
 - If UEFI fails to find the Linux kernel then you should expect to see
   this error message:
-
 
     ERROR : Did not find linux kernel.
 
@@ -300,9 +292,8 @@ partition (the FAT partition) of your SD card.
     [3] Boot Manager
     Start:
 
-1.  It should also be possible to boot EFI from USB using the following
+1. It should also be possible to boot EFI from USB using the following
     U-Boot commands:
-
 
     OMAP3 beagleboard.org # usb reset
     OMAP3 beagleboard.org # usb scan

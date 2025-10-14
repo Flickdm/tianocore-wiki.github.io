@@ -11,10 +11,11 @@ NT32 will provide boot and runtime services for application development, mapping
 The goals and features of the Nt32Pkg platform are similar to [UnixPkg](UnixPkg.md) and [EmulatorPkg](EmulatorPkg.md). Our long term goal is to port [EmulatorPkg](EmulatorPkg.md) to Microsoft Windows and retire Nt32Pkg.
 
 Using NT32 emulation with Windows:
+
 * To build Nt32pkg in Windows see: How to build using [Windows Systems]( Windows-systems#build)
 * To Run the NT32 Emulation,
-   - after building the Nt32Pkg successfully` >Build -p Nt32Pkg/Nt32Pkg.dsc`
-   - at the Command prompt type: `>Build Run`
+  * after building the Nt32Pkg successfully`>Build -p Nt32Pkg/Nt32Pkg.dsc`
+  * at the Command prompt type: `>Build Run`
 * The NT32 emulation will then display 2 UGA Windows with the UEFI Shell environment.
 
-Source Repository: https://github.com/tianocore/edk2/tree/master/Nt32Pkg
+Source Repository: <https://github.com/tianocore/edk2/tree/master/Nt32Pkg>

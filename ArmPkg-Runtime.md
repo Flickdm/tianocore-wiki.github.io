@@ -17,14 +17,12 @@ EfiRuntimeServicesData)
 - Do not access BootServices API during Runtime mode - or protect the
   code:
 
-
       if (!EfiAtRuntime ()) {
         // Raise TPL to TPL_HIGH to stop anyone from interrupting us.
         OriginalTPL = gBS->RaiseTPL (TPL_HIGH_LEVEL);
       }
 
 - Declare the controller memory region as Runtime Memory Mapped IO:
-
 
       // Declare the controller as EFI_MEMORY_RUNTIME
       Status = gDS->AddMemorySpace (
@@ -42,7 +40,6 @@ EfiRuntimeServicesData)
   Operating System Virtual Memory view.
 - Fixup all the controller and dynamic addresses invoked during Runtime
   mode. Example:
-
 
     VOID
     EFIAPI
@@ -420,17 +417,16 @@ only need to:
 - Set PcdPrePiProduceMemoryTypeInformationHob to TRUE
 - Define the number of pages for the Runtime Data and Code regions:
 
-
     --- a/ArmPlatformPkg/ArmVExpressPkg/ArmVExpress.dsc.inc
     +++ b/ArmPlatformPkg/ArmVExpressPkg/ArmVExpress.dsc.inc
     @@ -318,8 +318,8 @@
        gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiACPIReclaimMemory|0
        gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiACPIMemoryNVS|0
        gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiReservedMemoryType|0
-    -  gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesData|50
-    -  gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesCode|20
-    +  gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesData|80
-    +  gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesCode|65
+  - gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesData|50
+  - gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesCode|20
+  - gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesData|80
+  - gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesCode|65
        gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiBootServicesCode|400
        gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiBootServicesData|20000
        gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiLoaderCode|20

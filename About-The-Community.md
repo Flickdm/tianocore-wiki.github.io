@@ -14,7 +14,7 @@ As a community member, you have access to the following:
 - Source Control - All Projects use github to keep track of different
   versions of software source code and to manage
 
-` code contributions via pull requests.`
+`code contributions via pull requests.`
 
 - <a href="Community_Virtual_Meetings" class="wikilink"
   title="Community Virtual Meetings">Community Virtual Meetings</a> -

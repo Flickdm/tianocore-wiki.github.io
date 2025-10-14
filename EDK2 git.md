@@ -25,8 +25,8 @@ In this scenario, the contributor can clone from one of the EDK II
 <a href="Source_Control" class="wikilink" title="git mirrors">git
 mirrors</a>. They can then:
 
-1.  Make their changes in git as usual
-2.  Use git format-patch / send-email as normal to publish the changes
+1. Make their changes in git as usual
+2. Use git format-patch / send-email as normal to publish the changes
     to
     <a href="edk2-devel" class="wikilink" title="edk2-devel">edk2-devel</a>
 

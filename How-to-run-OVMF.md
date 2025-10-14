@@ -13,10 +13,11 @@ To install on Debian/Ubuntu: <code>sudo apt-get install qemu</code>
 
 You can [build OVMF](How-to-build-OVMF "wikilink") based on the latest version of [EDK II](EDK-II.md).
 
-Pre-built images are available at https://www.kraxel.org/repos/
-  * These images are automatically built and track the latest OVMF code in the EDK II tree.
-  * Some of these builds include a seabios CSM and can boot non-UEFI “legacy” operating systems. Note: seabios is GPLv3 licensed)
-  * If your OS doesn’t work with RPM repositories, then you can manually download and decompress the RPM files under jenkins/edk2
+Pre-built images are available at <https://www.kraxel.org/repos/>
+
+* These images are automatically built and track the latest OVMF code in the EDK II tree.
+* Some of these builds include a seabios CSM and can boot non-UEFI “legacy” operating systems. Note: seabios is GPLv3 licensed)
+* If your OS doesn’t work with RPM repositories, then you can manually download and decompress the RPM files under jenkins/edk2
 
 Choose the correct processor architecture
 -----------------------------------------
@@ -73,12 +74,14 @@ qemu-system-x86_64 -L . --bios ~/src/edk2/Build/OvmfX64/DEBUG_GCC5/FV/OVMF.fd -n
 
 QEMU with -pflash
 ----------------
+
 <pre>
 qemu-system-x86_64 -pflash bios.bin -hda fat:hda-contents -net none
 </pre>
 
 Optional: QEMU with Read/Write Fat file system using a host directory
 ----------------
+
 (Beware that QEMU makes the virtual FAT table once and host could get out of sync and QEMU might get confused)
 
 <pre>

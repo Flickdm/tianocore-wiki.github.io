@@ -4,6 +4,7 @@ Back to [Capsule Based System Firmware Update](Capsule-Based-System-Firmware-Upd
 
 Platform DSC `[Defines]` Section
 =================================
+
 Add the following `CAPSULE_ENABLE` define to the `[Defines]` section with a default
 value of `FALSE`.  The capsule-based system firmware update feature can be enabled by
 passing in `-D CAPSULE_ENABLE` flag on to the EDK II build command.
@@ -23,6 +24,7 @@ passing in `-D CAPSULE_ENABLE` flag on to the EDK II build command.
 
 Platform DSC `[LibraryClasses]` Sections
 ========================================
+
 Make sure the following library mappings are in the `[LibraryClasses]` section.  The path to
 the `PlatformFlashAccessLib` must be updated to match the path to the implementation provided
 in the previous step.  These library mappings are required to support building the modules that
@@ -57,6 +59,7 @@ Make sure the following library mappings are in the `[LibraryClasses.common.DXE_
 
 Platform DSC `[Pcds]` Sections
 ==============================
+
 * Add the PCD `PcdEdkiiSystemFirmwareImageDescriptor` to the `[PcdsDynamicExDefault]`
 section with a value of `{0x0}` and a maximum size large enough to hold the
 `EDKII_SYSTEM_FIRMWARE_IMAGE_DESCRIPTOR` structure and its associated Unicode strings
@@ -97,6 +100,7 @@ single GUID value for `PcdSystemFmpCapsuleImageTypeIdGuid`, and a GUID value for
 
 Platform DSC `[Components]` Sections
 ====================================
+
 Add the platform specific System Firmware Descriptor PEIM implemented in an earlier step to
 the `[Components]` section with the rest of the PEIMs.  **NOTE:** The example below uses a
 PEI CPU architecture of IA32.  Replace IA32 with PEI CPU Architecture for your platform.
@@ -147,6 +151,7 @@ DXE CPU architecture of X64.  Replace X64 with DXE CPU Architecture for your pla
 
 Platform FDF PEI `[FV]` Section
 ===============================
+
 Add the SystemFirmwareDescriptor PEIM implemented in a earlier step to the FV that
 contains other PEIMs so it is dispatched on every boot.
 
@@ -159,6 +164,7 @@ INF RuleOverride = FMP_IMAGE_DESC <Your Platform Package>/Feature/Capsule/System
 
 Platform FDF DXE `[FV]` Section
 ===============================
+
 Add the EsrtDxe, SystemFirmwareReportDxe, and the **test signing key** file to the
 FV contains other DXE modules so they are dispatched on every boot.
 
@@ -176,6 +182,7 @@ FILE FREEFORM = PCD(gEfiSignedCapsulePkgTokenSpaceGuid.PcdEdkiiPkcs7TestPublicKe
 
 Platform FDF `[FV]` Section
 ===========================
+
 Add the following `[FV]` sections to the platform FDF file to build the FVs that
 contains FFS files with the update payloads.  These FVs are added to an FMP payload
 that is wrapped into a capsule that is signed using a PKCS7 certificate.
@@ -245,6 +252,7 @@ FILE RAW = 812136D3-4D3A-433A-9418-29BB9BF78F6E { # gEdkiiSystemFmpCapsuleConfig
 
 Platform FDF `[FmpPayload]` Section
 ===================================
+
 Add the following `[FmpPayload]` section to the platform FDF file to build the FMP payload
 and that is wrapped into a capsule that is signed using a PKCS7 certificate.
 
@@ -268,6 +276,7 @@ FV = SystemFirmwareUpdateCargo
 
 Platform FDF `[Capsule]` Section
 ================================
+
 Add the following `[Capsule]` section to the platform FDF file to wrap the FMP payload
 into capsule that is signed using a PKCS7 certificate.
 
@@ -285,6 +294,7 @@ FMP_PAYLOAD = FmpPayloadSystemFirmwarePkcs7
 
 Platform FDF `[Rule]` Section
 =============================
+
 Add the following `[Rule]` required to add the platform specific SystemFirmwareDescriptor
 PEIM to the PEI FV.
 

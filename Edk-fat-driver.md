@@ -53,34 +53,34 @@ of the code being specific just to the Enhanced-FAT-Driver. The new
 driver is faster and takes up only 66% of the original FAT-Driver's
 memory footprint. What makes the Enhanced-FAT-Driver better?
 
-`   * Better Architecture`
-`         o More modular design thanks to object oriented and hierarchical design`
-`         o Logic directory approach used in place of the physical directory`
-`         o Easier to maintain and debug`
-`         o 80% of the code was completely rewritten to make it smaller and faster`
-`   * Higher Performance`
-`         o A cache mechanism to cache recently opened directories`
-`         o A more efficient 8.3 name generation algorithm`
-`         o 10x, 100x or even 1000x acceleration when creating thousands files/directories`
-`   * Smaller Size`
-`         o Simplified the controller name from "FAT File System[FAT16] 200MB" to "FAT File System"`
-`         o Succinct coding style`
-`         o 2/3 the image size of the original FAT-Driver`
+`* Better Architecture`
+`o More modular design thanks to object oriented and hierarchical design`
+`o Logic directory approach used in place of the physical directory`
+`o Easier to maintain and debug`
+`o 80% of the code was completely rewritten to make it smaller and faster`
+`* Higher Performance`
+`o A cache mechanism to cache recently opened directories`
+`o A more efficient 8.3 name generation algorithm`
+`o 10x, 100x or even 1000x acceleration when creating thousands files/directories`
+`* Smaller Size`
+`o Simplified the controller name from "FAT File System[FAT16] 200MB" to "FAT File System"`
+`o Succinct coding style`
+`o 2/3 the image size of the original FAT-Driver`
 
 So why are there two FAT-Driver implementations in the fat-driver
 project?
 
-`   * Publish the enhanced FAT implementation so that people can try the new implementation with size and performance benefits`
-`   * Keep the original FAT driver for backward compatibility or avoid potential risk for mature products`
+`* Publish the enhanced FAT implementation so that people can try the new implementation with size and performance benefits`
+`* Keep the original FAT driver for backward compatibility or avoid potential risk for mature products`
 
 Which driver should I use?
 
-`   * Enhanced-FAT-Driver`
-`         o When you need the fastest FAT filesystem driver`
-`         o When space is crucial`
-`   * FAT-Driver`
-`         o When you need stability to avoid possible risk of a new implementation`
-`         o When you prefer to keep the original behavior, such as 8.3 name generation algorithm, complete controller name for each volume`
+`* Enhanced-FAT-Driver`
+`o When you need the fastest FAT filesystem driver`
+`o When space is crucial`
+`* FAT-Driver`
+`o When you need stability to avoid possible risk of a new implementation`
+`o When you prefer to keep the original behavior, such as 8.3 name generation algorithm, complete controller name for each volume`
 
 What does this mean to you?
 
@@ -106,25 +106,25 @@ communication between the two projects. From these links you can enter a
 FAT32 issue, query open FAT32 issues, access the DEV mailing list
 archive and download the FAT32 source code.
 
-`   * Enhanced FAT-Driver`
-`         o Latest Enhanced-FAT-Driver Source Code Snapshot (Development Version)`
-`         o Latest Enhanced-FAT-Driver Source Code Snapshot (Official Release)`
-`         o Query of Open and Active Enhanced-FAT-Driver Project Defects`
-`   * FAT-Driver`
-`         o Latest FAT-Driver Source Code Snapshot (Development Version)`
-`         o Latest FAT-Driver Source Code Snapshot (Official Release)`
-`         o Query of Open and Active FAT-Driver Project Defects`
-`   * General`
-`         o Query of All FAT-Driver Project Defects`
-`         o Archives of the EDK "Dev" Mailing List`
+`* Enhanced FAT-Driver`
+`o Latest Enhanced-FAT-Driver Source Code Snapshot (Development Version)`
+`o Latest Enhanced-FAT-Driver Source Code Snapshot (Official Release)`
+`o Query of Open and Active Enhanced-FAT-Driver Project Defects`
+`* FAT-Driver`
+`o Latest FAT-Driver Source Code Snapshot (Development Version)`
+`o Latest FAT-Driver Source Code Snapshot (Official Release)`
+`o Query of Open and Active FAT-Driver Project Defects`
+`* General`
+`o Query of All FAT-Driver Project Defects`
+`o Archives of the EDK "Dev" Mailing List`
 
 Other Common Links and Downloads
 
-`   * Request for a FAT-Driver Project Role (initial or promotion)`
-`   * Link to the EDK Project Homepage  `<a href="efidevkit" class="wikilink" title="EDK"><code>EDK</code></a>
-`   * Link to Microsoft's FAT32 System Driver Specification `<a href="http://msdn.microsoft.com/en-us/windows/hardware/gg463080"
+`* Request for a FAT-Driver Project Role (initial or promotion)`
+`* Link to the EDK Project Homepage`<a href="efidevkit" class="wikilink" title="EDK"><code>EDK</code></a>
+`* Link to Microsoft's FAT32 System Driver Specification`<a href="http://msdn.microsoft.com/en-us/windows/hardware/gg463080"
 class="wikilink" title=" Link"><code> Link</code></a>
-`   * Link to Microsoft's License agreement `<a href="http://msdn.microsoft.com/en-us/windows/hardware/gg463080.aspx"
+`* Link to Microsoft's License agreement`<a href="http://msdn.microsoft.com/en-us/windows/hardware/gg463080.aspx"
 class="wikilink" title=" Link"><code> Link</code></a>
 
 Project Points of Contact

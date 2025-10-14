@@ -7,9 +7,9 @@ recommends how to setup and administrate UEFI/tianocore projects.
 
 Project features can be easily added and removed by:
 
-1.  Visit the sourceforge page for the project
-2.  Select 'Project Admin' =\> 'Feature Settings'
-3.  Click the checkbox to enable/disable various features
+1. Visit the sourceforge page for the project
+2. Select 'Project Admin' =\> 'Feature Settings'
+3. Click the checkbox to enable/disable various features
 
 Note: Each feature you enable will cause extra menu items to show up on
 the project's sourceforge page. Try to enable only the minimum features

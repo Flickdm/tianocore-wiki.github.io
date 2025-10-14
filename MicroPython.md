@@ -5,7 +5,7 @@
 
 A port of the MicroPython Interpreter for UEFI is available in edk2-staging: (`MicroPythonPkg`)
 
-https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework/MicroPythonPkg
+<https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework/MicroPythonPkg>
 
 This port was developed as a component of the [MicroPython Test Framework for UEFI](MicroPython-Test-Framework-for-UEFI.md), designed for firmware unit testing and validation. It is also under evaluation to replace the existing [Python 2.7 port for UEFI](https://github.com/tianocore/edk2/tree/master/AppPkg/Applications/Python).
 

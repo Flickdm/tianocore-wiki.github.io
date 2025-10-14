@@ -70,7 +70,7 @@ Linux. It is far from an exhaustive list but hopefully will be a helpful
 starting point. This version was created Jan. 31, 2013 and will be
 updated periodically. Please send recommended changes to the \<a
 href="[mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question](mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question)\>
-edk2-devel@lists.01.org</a> To join the email list goto:
+<edk2-devel@lists.01.org></a> To join the email list goto:
 <a href="edk2-devel" class="wikilink" title="edk2-devel">edk2-devel</a>
 (NOTE: Do NOT send any personal information to the edk2-devel list.)
 
@@ -110,7 +110,7 @@ edk2-devel@lists.01.org</a> To join the email list goto:
   font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">
 <git://kernel.ubuntu.com/jk/sbsigntool>
 
-`       `</span>
+``</span>
 
 </td>
 
@@ -129,7 +129,7 @@ pesign </span>
 
 <td>
 
-`       `<span style="font-size:11.0pt;
+``<span style="font-size:11.0pt;
   font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">
 
 <https://github.com/vathpela/pesign> </span>
@@ -395,8 +395,6 @@ using MS UEFI CA to sign images
   successfully secure booted. Fixes are available in <tip:x86/efi>
   branch at:
 
-
-
 <http://git.kernel.org/?p=linux/kernel/git/tip/tip.git;a=shortlog;h=refs/heads/x86/efi>
 
 - efilinux Loader - has been signed with the Microsoft\* SignTool and
@@ -404,10 +402,7 @@ using MS UEFI CA to sign images
   'next' branch prior to being merged into the 'master' branch and a
   planned 1.1 release:
 
-
-
 <https://github.com/mfleming/efilinux>
-
 
 The .reloc section fix on x86-64 was merged into the efi-linux library’s
 sourceforge repository and a new version was released (3.0q).
@@ -416,19 +411,14 @@ sourceforge repository and a new version was released (3.0q).
 
 - UDK GCC44 & GCC46 UDK Tool Chain
 
-
-
 UEFI applications (such as HelloWorld.efi) built with the GCC44 and
 GCC46 UDK tool chains have been signed with the Microsoft\* SignTool and
 successfully secure booted.
 
 - UDK UNIXGCC UDK Tool Chain
 
-
-
 UEFI applications built with the UNIXGCC tool chain are not currently
 secure bootable. This problem is under investigation.
-
 
 ==**Images with Multiple Signatures**== This section describes support
 for Authenticode-signed UEFI images with multiple signatures, references

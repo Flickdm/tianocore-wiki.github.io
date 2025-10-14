@@ -127,8 +127,8 @@ Due to nuances in the way EDK II formats code, some changes were made to the ups
 were changes that could not be controlled purely through the Uncrustify configuration file. For more details about the fork,
 please visit that project overview in the link below.
 
-* Uncrustify upstream repository: https://github.com/uncrustify/uncrustify
-* Uncrustify EDK II fork repository (in Project Mu): https://dev.azure.com/projectmu/Uncrustify
+* Uncrustify upstream repository: <https://github.com/uncrustify/uncrustify>
+* Uncrustify EDK II fork repository (in Project Mu): <https://dev.azure.com/projectmu/Uncrustify>
 
 ## Developer Workflow
 
@@ -295,7 +295,7 @@ Example to run against all .c and .h files in `MdePkg` executed from the root of
   * `--no-backup`: Replace files with no backup (again, useful to diff formatting with git)
   * `--if-changed`: Only produce output if a change is detected.
 
-   > *Note:* When testing a configuration change, it is sometimes useful to run Uncrustify against a particular file
+   > _Note:_ When testing a configuration change, it is sometimes useful to run Uncrustify against a particular file
      and check the debug output to understand what rule was applied and why it was applied. The command shows an
      example of how to run the configuration file `uncrustify.cfg` against the source file `VariableSmm.c` where the
      file is forced to be treated as C, the debug output is written to `uncrustify_debug.txt` and the log severity level

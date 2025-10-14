@@ -1,6 +1,6 @@
 # Multiple Workspace
 
-### Introduction:
+### Introduction
 
 An update to the EDKII build tools now allows the setting of multiple
 paths that will be searched when attempting to resolve the location of
@@ -24,7 +24,7 @@ PACKAGES_PATH environment variables.
 The use of the PACKAGES_PATH environment variable is optional and if it
 is not defined the build will function like it has in the past.
 
-### Environment Variables:
+### Environment Variables
 
 - WORKSPACE
   - Location of the Build directory
@@ -36,8 +36,8 @@ is not defined the build will function like it has in the past.
 
 **Example:**
 
-` set WORKSPACE=c:\efi\test`
-` set PACKAGES_PATH=%WORKSPACE%\platform;%WORKSPACE%\edk2`
+`set WORKSPACE=c:\efi\test`
+`set PACKAGES_PATH=%WORKSPACE%\platform;%WORKSPACE%\edk2`
 
 In this case WORKSPACE is the container for two trees as well as the
 location of the Build directory. The example assumes the set of code
@@ -49,9 +49,9 @@ When the build tools are run with this configuration the directories
 will be scanned in the following order to find packages listed in the
 DSC and FDF files.
 
-1.  c:\efi\test
-2.  c:\efi\test\platform
-3.  c:\efi\test\edk2
+1. c:\efi\test
+2. c:\efi\test\platform
+3. c:\efi\test\edk2
 
 **Summary:**
 

@@ -20,6 +20,7 @@ After downloading the container, install Docker if you have not done that alread
 ### Install Docker
 
 Follow these instructions, based on distribution:
+
 * [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)
 * [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 * [OpenSUSE](https://en.opensuse.org/SDB:Docker)

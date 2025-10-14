@@ -43,40 +43,40 @@ C File Example:
 `#include "FooFileName.h"`
 
 `/**`
-`  Brief and Detailed Descriptions.`
+`Brief and Detailed Descriptions.`
 
-`  @param[in]      Arg1 Description of Arg1.`
-`  @param[in]      Arg2 Description of Arg2, which is optional.`
-`  @param[out]     Arg3 Description of Arg3.`
-`  @param[in, out] Arg4 Description of Arg4.`
+`@param[in]      Arg1 Description of Arg1.`
+`@param[in]      Arg2 Description of Arg2, which is optional.`
+`@param[out]     Arg3 Description of Arg3.`
+`@param[in, out] Arg4 Description of Arg4.`
 
-`  @retval EFI_SUCCESS   Description of what EFI_SUCCESS means.`
-`  @retval !EFI_SUCCESS  Failure.`
+`@retval EFI_SUCCESS   Description of what EFI_SUCCESS means.`
+`@retval !EFI_SUCCESS  Failure.`
 
 `**/`
 `EFI_STATUS`
 `EFIAPI`
 `FooName (`
-`  IN     UINTN  Arg1,`
-`  IN     UINTN  Arg2 OPTIONAL,`
-`     OUT UINTN  *Arg3,`
-`  IN OUT UINTN  *Arg4`
-`  )`
+`IN     UINTN  Arg1,`
+`IN     UINTN  Arg2 OPTIONAL,`
+`OUT UINTN  *Arg3,`
+`IN OUT UINTN  *Arg4`
+`)`
 `{`
-`  UINTN Local;`
-`  UINTN AnotherLocal;`
+`UINTN Local;`
+`UINTN AnotherLocal;`
 
-`  ...`
+`...`
 
-`  for (Local = 0; Local < 5; Local++) {`
-`    if (Local == 2) {`
-`      Print (L"Local: %d (yes! 2)\n", Local);`
-`    } else {`
-`      Print (L"Local: %d\n", Local);`
-`    }`
-`  }`
+`for (Local = 0; Local < 5; Local++) {`
+`if (Local == 2) {`
+`Print (L"Local: %d (yes! 2)\n", Local);`
+`} else {`
+`Print (L"Local: %d\n", Local);`
+`}`
+`}`
 
-`  ...`
+`...`
 `}`
 
 H File Example:
@@ -89,25 +89,25 @@ H File Example:
 `#define FOO_CONSTANT  0xcafe`
 
 `/**`
-`  Brief and Detailed Descriptions.`
+`Brief and Detailed Descriptions.`
 
-`  @param[in]      Arg1 Description of Arg1.`
-`  @param[in]      Arg2 Description of Arg2, which is optional.`
-`  @param[out]     Arg3 Description of Arg3.`
-`  @param[in, out] Arg4 Description of Arg4.`
+`@param[in]      Arg1 Description of Arg1.`
+`@param[in]      Arg2 Description of Arg2, which is optional.`
+`@param[out]     Arg3 Description of Arg3.`
+`@param[in, out] Arg4 Description of Arg4.`
 
-`  @retval EFI_SUCCESS   Description of what EFI_SUCCESS means.`
-`  @retval !EFI_SUCCESS  Failure.`
+`@retval EFI_SUCCESS   Description of what EFI_SUCCESS means.`
+`@retval !EFI_SUCCESS  Failure.`
 
 `**/`
 `EFI_STATUS`
 `EFIAPI`
 `FooName (`
-`  IN     UINTN  Arg1,`
-`  IN     UINTN  Arg2 OPTIONAL,`
-`     OUT UINTN  *Arg3,`
-`  IN OUT UINTN  *Arg4`
-`  );`
+`IN     UINTN  Arg1,`
+`IN     UINTN  Arg2 OPTIONAL,`
+`OUT UINTN  *Arg3,`
+`IN OUT UINTN  *Arg4`
+`);`
 
 `...`
 
@@ -125,8 +125,8 @@ Used for variables, functions and file names
 `...`
 `VOID SuperFunction (`
 `...`
-`  UINTN ALocalVariable;`
-`  UINTN UefiVersion;`
+`UINTN ALocalVariable;`
+`UINTN UefiVersion;`
 
 <font style="color: red">Incorrect</font>:
 
@@ -134,8 +134,8 @@ Used for variables, functions and file names
 `...`
 `VOID superFunction (`
 `...`
-`  UINTN a_local_variable;`
-`  UINTN UEFIVersion;`
+`UINTN a_local_variable;`
+`UINTN UEFIVersion;`
 
 ### UPPERCASE
 
@@ -146,7 +146,7 @@ Used for types and macros
 `#define FOO_MACRO(a, b) ((a) * (b))`
 `typedef struct _STRUCT_NAME STRUCT_NAME;`
 `struct _STRUCT_NAME {`
-`  ...`
+`...`
 `};`
 
 <font style="color: red">Incorrect</font>:
@@ -161,29 +161,29 @@ Don't use C types directly
 
 <font style="color: green">Correct</font>:
 
-`  INTN   ALocalVariable;`
-`  UINTN  UefiVersion;`
-`  VOID   *Ptr;`
+`INTN   ALocalVariable;`
+`UINTN  UefiVersion;`
+`VOID   *Ptr;`
 
 <font style="color: red">Incorrect</font>:
 
-`  int           ALocalVariable;`
-`  unsigned int  UefiVersion;`
-`  void          *Ptr;`
+`int           ALocalVariable;`
+`unsigned int  UefiVersion;`
+`void          *Ptr;`
 
 ### 2 spaces of indentation
 
 <font style="color: green">Correct</font>:
 
-`  if (TRUE) {`
-`    Print (L"Hello, world!\n");`
-`  }`
+`if (TRUE) {`
+`Print (L"Hello, world!\n");`
+`}`
 
 <font style="color: red">Incorrect</font>:
 
-`  if (TRUE) {`
-`      Print (L"Hello, world!\n");`
-`  }`
+`if (TRUE) {`
+`Print (L"Hello, world!\n");`
+`}`
 
 ### Always use { }
 
@@ -192,11 +192,11 @@ statement
 
 <font style="color: green">Correct</font>:
 
-`  if (TRUE) {`
-`    Print (L"Hello, world!\n");`
-`  }`
+`if (TRUE) {`
+`Print (L"Hello, world!\n");`
+`}`
 
 <font style="color: red">Incorrect</font>:
 
-`  if (TRUE)`
-`    Print (L"Hello, world!\n");`
+`if (TRUE)`
+`Print (L"Hello, world!\n");`

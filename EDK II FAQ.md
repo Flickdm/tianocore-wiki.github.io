@@ -246,11 +246,11 @@ In the Procedure:
 `EFI_STATUS`
 `EFIAPI`
 `GetPciRom (`
-` IN  EFI_PCI_PLATFORM_PROTOCOL         *This,`
-` IN  EFI_HANDLE                        PciHandle,`
-` OUT VOID                              **RomImage,`
-` OUT UINTN                             *RomSize`
-` )`
+`IN  EFI_PCI_PLATFORM_PROTOCOL         *This,`
+`IN  EFI_HANDLE                        PciHandle,`
+`OUT VOID                              **RomImage,`
+`OUT UINTN                             *RomSize`
+`)`
 
 A found device is checked against the table, and if there is an Option
 Rom available, a pointer to the Rom image is provided for load.
@@ -300,7 +300,7 @@ Internal worker functions do not need the EFI API.
 
 B\) MSFT vs UEFI calling conventions are similar so they would work.
 
-### Why do we have to put GUIDs and PPI, Libraries have to be under the /Include directory.
+### Why do we have to put GUIDs and PPI, Libraries have to be under the /Include directory
 
 There is no assumption from the build tools on where things are located
 but for design and consistency there is a coding style of putting them

@@ -362,8 +362,8 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-`The `<a href="IntelFrameworkPkg" class="wikilink"
-title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>` Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
+`The`<a href="IntelFrameworkPkg" class="wikilink"
+title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
 
 </td>
 
@@ -751,18 +751,14 @@ For quick reference, here are the links to the latest packages:
 - [UEFI Packing
   Tool](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download)
 
-
 - [Edk II Application Development Kit (EADK) -
   A2](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release.zip/download)
-
 
 - [UEFI Shell 2.0 Spec package
   Sources](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
 
-
 - [EDKII User
   Manual](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/EDKII_UserManual_0_7.pdf/download)
-
 
 - The Intel(R) UDK Debugger Tool and its detailed user manual may be
   obtained from <http://www.intel.com/technology/efi>

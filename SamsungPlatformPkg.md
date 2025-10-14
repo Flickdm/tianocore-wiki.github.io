@@ -1,6 +1,6 @@
 # SamsungPlatformPkg
 
-The Samsung Origen (http://www.origenboard.org/) is one of the low-cost
+The Samsung Origen (<http://www.origenboard.org/>) is one of the low-cost
 ARM development boards. The platform is powered by a dual Cortex A9 and
 supports a large range of devices on boards (2x SD card, LCD & HDMI
 connectors, USB 2.0, etc).
@@ -57,8 +57,7 @@ package.
 
 - Getting from Linaro website:
 
-
-    wget http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz
+    wget <http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz>
     tar xzf linaro-image-tools-0.4.8.tar.gz
     cd $(WORKROOT)/linaro-image-tools-0.4.8/
     sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted qemu-arm-static btrfs-tools command-not-found
@@ -66,7 +65,6 @@ package.
 Add linaro-media-create path to the PATH environment variable
 
 - Getting from the Ubuntu package:
-
 
     sudo add-apt-repository ppa:linaro-maintainers/tools
     sudo apt-get update

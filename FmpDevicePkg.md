@@ -7,10 +7,11 @@ customized using libraries and PCDs.
 
 Based on content from the following branch:
 
-https://github.com/Microsoft/MS_UEFI/tree/share/MsCapsuleSupport/MsCapsuleUpdatePkg
+<https://github.com/Microsoft/MS_UEFI/tree/share/MsCapsuleSupport/MsCapsuleUpdatePkg>
 
 Library Classes
 ===============
+
 * FmpDeviceLib - Provides firmware device specific services
   to support updates of a firmware image stored in a firmware
   device.
@@ -26,6 +27,7 @@ Library Classes
 
 PCDs set per module
 ====================
+
 * PcdFmpDeviceTestKeySha256Digest - The SHA-256 hash of a
   PKCS7 test key that is used to detect if a test key is
   being used to authenticate capsules.  Test key detection
@@ -48,6 +50,7 @@ PCDs set per module
 
 PCDs set per module or for entire platform
 ==========================================
+
 * PcdFmpDevicePkcs7CertBufferXdr - One or more PKCS7
   certificates used to verify a firmware device capsule
   update image.

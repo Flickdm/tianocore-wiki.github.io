@@ -19,6 +19,7 @@ before proceeding to the next step.
 
 Add Generated Private Keys to `tools_def.txt`
 =============================================
+
 * Update `Conf/tools_def.txt` to use generated private keys.  The bottom of tools_def.txt has a
 section  labeled **Pkcs7Sign tool definitions**.  The default settings for this section does not include
 a `*_*_*_PKCS7SIGN_FLAGS` statement.  This means the test signing keys are used by default.  In order
@@ -43,6 +44,7 @@ on the signing method and signing tools that provide proper protection of their 
 
 Add Generated Public Key to Platform DSC
 =========================================
+
 * Update Platform DSC file to set the PCD `gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer`
 to the generated public key.  The example below adds the generated public key to the
 `[PcdsDynamicExVpd]` section.  `<MaxSize>` must be set to a value that is at least as big as
@@ -109,16 +111,19 @@ directory as the platform DSC file.
 
 Build and Boot Firmware Image
 =============================
+
 * If the `tools_def.txt` configuration sown above is used, then set the `KEYS_PATH` and
 `KEYS_BASE_NAME` environment variables to the path and base name of generated private keys.
 The following example sets the environment variables for generated keys in a `Keys` directory
 in thew `QuarkPlaytformPkg` and a base name for the key set to `GalileoGen2`.
+
 ```
 set KEYS_PATH=%WORKSPACE%\edk2\QuarkPlatformPkg\Keys
 set KEYS_BASE_NAME=GalileoGen2
 ```
 
 These environment variable settings use the following generated private key files
+
 ```
 QuarkPlatformPkg/Keys/GalileoGen2Root.pub.pem
 QuarkPlatformPkg/Keys/GalileoGen2Sub.pub.pem
@@ -132,12 +137,13 @@ QuarkPlatformPkg/Keys/GelileiGen2Cert.pem
 * Update target with new firmware image
 
 * Boot target to Boot Manager.  The front page should **not** show a
-` WARNING: Test key detected.` message.  If logging is enabled, then this same
+`WARNING: Test key detected.` message.  If logging is enabled, then this same
 message should not be present in the log.  If this message is still displayed,
 then the firmware is still using the public test signing key.
 
 Build System Firmware Update Capsule
 ====================================
+
 * Update System Firmware Descriptor PEIM .aslc file to a higher version by updating the
 `CURRENT_FIRMWARE_VERSION` and `CURRENT_FIRMWARE_VERSION_STRING` defines.  This file is described
 [here](Capsule-Based-System-Firmware-Update-Implementation#system-firmware-descriptor-peim)
@@ -148,6 +154,7 @@ Build System Firmware Update Capsule
 
 Verify System Firmware Update Capsule
 =====================================
+
 * Copy System Firmware Update Capsule Image with higher version to a USB drive
 
 * Run `CapsuleApp.efi <CapsuleImage>` to load and process the system firmware update capsule.

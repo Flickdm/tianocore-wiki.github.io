@@ -20,6 +20,7 @@ Historically, there are some old proposals for EBC usage that never materialized
 EBC has a unique feature that is not found in other intermediate languages, natural indexing. Natural indexing has made compiler development for EBC notoriously difficult. In EBC, there are several basic types that are variable in size. For example, the `sizeof(void *)` as well as any other pointer type can vary at runtime. On 32-bit host systems like IA32, `sizeof(void *)==4`. On 64-bit systems like X64 or AARCH64, `sizeof(void *)==8`. The UEFI specific integer data type, `UINTN` uses the same variable sizes as pointers in EBC.
 
 # Existing Work
+
 The original EBC compiler is the Intel C Compiler for EFI Byte Code. This compiler is very expensive ($955) which has likely been the largest component in EBC's limited popularity. The usefulness of this compiler has waned since the development of EDK II. This compiler does not support LTO (Link Time Optimization). The LibraryClass dependency system in EDK II relies heavily on LTO in order to generate reasonably sized binaries.
 
 [Akira Moroo](https://retrage.github.io/about/) ([@retrage](https://github.com/retrage)) has done a great deal of work on developing an open source EBC compiler. He has made 2 attempts thus far and has talked about his work both on his [blog](https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html) and at [Kernel/VM Tokyo 2019](https://speakerdeck.com/retrage/llvm-backend-development-for-efi-byte-code). His [first attempt](https://github.com/retrage/elvm/tree/retrage/ebc-v2) used ELVM but ultimately proved to be too limited due to ELVM's lack of a linker, requiring the entire program to come from a single .c file.
@@ -27,20 +28,24 @@ The original EBC compiler is the Intel C Compiler for EFI Byte Code. This compil
 His [second attempt](https://github.com/yabits/llvm/tree/retrage/ebc) uses Clang & LLVM. While this showed great promise, it has not been completed yet. One of the roadblocks at the time was the lack of a PE/COFF linker for LLVM. Since LLVM 9.0, the LLVM linker now supports PE/COFF output, making a version of clang that can output EBC more attainable. Rebasing his work up to the latest LLVM 11 is the recommended starting point for any future work.
 
 # Development Environment
+
 Building: This project should ideally support all edk2 supported OSes when it is finished. Though Linux would likely be the easiest starting point since the existing LLVM work was done on Linux. Getting the compiler stable on Linux should be the first goal. Testing generated EBC binaries can be done with [EmulatorPkg](https://github.com/tianocore/edk2/tree/master/EmulatorPkg) without the need for any emulation software like Qemu. [@retrage](https://github.com/retrage) has also created his own userspace [ebcvm](https://github.com/yabits/ebcvm), however we would recommend EmulatorPkg over it since EmulatorPkg runs the exact EBC interpreter that will be used on real systems.
 
 # Links for More Information
-* https://github.com/yabits/llvm/tree/retrage/ebc
-* https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html
-* https://speakerdeck.com/retrage/llvm-backend-development-for-efi-byte-code
-* http://vzimmer.blogspot.com/2015/08/efi-byte-code.html
-* https://github.com/tianocore/edk2/tree/master/EmulatorPkg
-* https://github.com/yabits/ebcvm
-* https://github.com/pbatard/fasmg-ebc
-* https://github.com/retrage/elvm/tree/retrage/ebc-v2
+
+* <https://github.com/yabits/llvm/tree/retrage/ebc>
+* <https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html>
+* <https://speakerdeck.com/retrage/llvm-backend-development-for-efi-byte-code>
+* <http://vzimmer.blogspot.com/2015/08/efi-byte-code.html>
+* <https://github.com/tianocore/edk2/tree/master/EmulatorPkg>
+* <https://github.com/yabits/ebcvm>
+* <https://github.com/pbatard/fasmg-ebc>
+* <https://github.com/retrage/elvm/tree/retrage/ebc-v2>
 
 # Further Discussion
+
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
 # See Also
+
 [Tasks](Tasks.md)

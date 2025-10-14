@@ -52,6 +52,7 @@ Spec v1.25
 PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.25A.pdf/download)
 \|
 [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.25A.zip/download)
+
 - 2015-07-01 -
 [PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1_25.pdf/download)
 \|
@@ -62,12 +63,10 @@ PDF](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.zip/download)
 
-
 -2015-01-01 -
 [PDF](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.zip/download)
-
 
 Spec v1.22
 -2014-01-01 - [Errata D
@@ -107,19 +106,16 @@ Spec v1.25
 \|
 [ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/DEC_Spec_1_25.zip)
 
-
 Spec v1.24
 -2015-08-01 - [Errata C
 PDF](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24C.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24C.zip/download)
 
-
 -2015-03-01 - [Errata B
 PDF](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.zip/download)
-
 
 -2015-01-11 - [Errata A
 PDF](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pdf/download)
@@ -129,7 +125,6 @@ PDF](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pd
 [PDF](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download)
-
 
 Spec v1.22
 -2013-08-30 - [Errata C
@@ -167,7 +162,6 @@ Spec v1.26
 \|
 [ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/DSC_Spec_1_26.zip)
 
-
 Spec v1.25
 -2015-07-01 -
 [PDF](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1_25.pdf/download)
@@ -175,12 +169,10 @@ Spec v1.25
 [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1_25.zip/download)
 Spec v1.24
 
-
 -2015-03-01 - [Errata A
 PDF](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24A.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24A.zip/download)
-
 
 -2015-01-11 -
 [PDF](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download)
@@ -224,7 +216,6 @@ Spec v1.26
 \|
 [ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/FDF_Spec_1_26.zip)
 
-
 Spec v1.25
 -2015-07-01 -
 [PDF](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1_25.pdf/download)
@@ -235,7 +226,6 @@ Spec v1.24
 PDF](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24A.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24A.zip/download)
-
 
 -2015-01-01 -
 [PDF](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download)
@@ -284,38 +274,32 @@ Spec v1.25
 \|
 [ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/INF_Spec_1_25.zip)
 
-
 Spec v1.24
 -2015-08-01 - [Errata C
 PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24C.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24C.zip/download)
 
-
 -2015-03-01 - [Errata B
 PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.zip/download)
-
 
 -2015-01-01 - [Errata A
 PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.zip/download)
 
-
 -2014-08-11 -
 [PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.zip/download)
-
 
 Spec v1.22
 -2014-01-01 - [Errata D
 PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download)
 \|
 [ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download)
-
 
 -2013-08-30 - [Errata
 C](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.22_Errata_C.pdf/download)
@@ -420,10 +404,8 @@ Spec v1.9 July 2015 -
 \|
 [ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/VFR_1_9.zip)
 
-
 Spec v1.7 June 2012 -
 [PDF](https://sourceforge.net/projects/edk2/files/Specifications/VFR_V1.7.pdf/download)
-
 
 Spec v1.6 Dec 2011 -
 [PDF](https://sourceforge.net/projects/edk2/files/Specifications/VFR_1_6.pdf/download)

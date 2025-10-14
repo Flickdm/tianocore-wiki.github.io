@@ -140,7 +140,7 @@ The administrators would like to thank the members of the community for their un
 
 Site Transition – February 05, 2010 –
 
-The use of the URL www.tianocore.org is now linked to this site (when accessed as http://, there are still some issues using https:// which are undergoing resolution).
+The use of the URL <www.tianocore.org> is now linked to this site (when accessed as http://, there are still some issues using https:// which are undergoing resolution).
 
 News – February 05, 2010 –
 
@@ -184,7 +184,7 @@ The Administrators
 
 SITE TRANSITION—DOWNTIME January 21—Your action required
 
-The transition of The UEFI Open Source Community Website (URL: www.tianocore.org) is underway, and the members of this community should be aware of the following events:
+The transition of The UEFI Open Source Community Website (URL: <www.tianocore.org>) is underway, and the members of this community should be aware of the following events:
 
 January 14, 2010 – This message update and Email has been posted on the website and transmitted to the UEFI Open Source Community members.
 
@@ -194,9 +194,9 @@ January 21, 2010 – Will be the last day that this version of the UEFI Open Sou
 
 January 22, 2010 – The new UEFI Open Source Community Website will be available on the new hosting site. The new hosting will be part of the Sourceforge community (sourceforge.net), and will be available through the following link:
 
-www.tianocore.Sourceforge.net
+<www.tianocore.Sourceforge.net>
 
-As well as www.tianocore.org once the DNS transfer takes place. There will be a slight delay between this event and the transfer ot the DNS for the URL:www.tianocore.org to transfer from the current site to the new site, during that time, the link may appear broken. The transfer team will be focused on making this timeframe as small as possible, but please be aware that this may be the case.
+As well as <www.tianocore.org> once the DNS transfer takes place. There will be a slight delay between this event and the transfer ot the DNS for the URL:www.tianocore.org to transfer from the current site to the new site, during that time, the link may appear broken. The transfer team will be focused on making this timeframe as small as possible, but please be aware that this may be the case.
 
 The following information should answer some of the most obvious questions about this change:
 
@@ -216,7 +216,7 @@ The Administrators
 
 ### [December 9, 2009](http://www.tianocore.org/news/2009/12/09/news.html)
 
-The UEFI Open Source Community Website (URL: www.tianocore.org) will be going through some updates and changes.
+The UEFI Open Source Community Website (URL: <www.tianocore.org>) will be going through some updates and changes.
 
 This site has been using the same format and interfaces since its inception in 2004, and it is time for an update.
 
@@ -236,7 +236,7 @@ This product was leveraged upon the development of the OVMF (Open Virtual Machin
 
 (For further information on Sun VirtualBox\* version 3.1.0 see here)
 
--   Other names and brands may be claimed as property of others
+- Other names and brands may be claimed as property of others
 
 ### [October 9, 2009](http://www.tianocore.org/news/2009/10/09/news.html)
 
@@ -280,8 +280,8 @@ For more information, please refer to the EDK II Project home page .
 
 On This site!: The Open Virtual Machine Firmware (OVMF) project is the latest addition to the EDK II source repository. This new project is an effort to support Virtual Machines using the EDK II code base, with features like:
 
--   Open Source (BSD licensed ) virtual machine libraries and drivers
--   A firmware implementation which supports UEFI on open source virtual machines. \*\* Initially targeting the QEMU VM.
+- Open Source (BSD licensed ) virtual machine libraries and drivers
+- A firmware implementation which supports UEFI on open source virtual machines. \*\* Initially targeting the QEMU VM.
 
 For more information, please refer to the OVMF web page.
 

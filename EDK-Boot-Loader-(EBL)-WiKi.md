@@ -179,7 +179,6 @@ FileName for TFTP
 
 </table>
 
-
 **Filesystem** (fs)
 A Filesystem device represents an UEFI Simple File System Protocol API.
 The device number is zero based and represents the location of the
@@ -247,17 +246,15 @@ command on the Beagle Board:
 
 `BeagleEdk2 >dev`
 `Firmware Volume Devices:`
-`  fv0: 0x80008208 - 0x80087FC7 : 0x0007FDC0`
-`  fv1: 0x87F47000 - 0x87FC773F : 0x00080740`
+`fv0: 0x80008208 - 0x80087FC7 : 0x0007FDC0`
+`fv1: 0x87F47000 - 0x87FC773F : 0x00080740`
 `File System Devices:`
-`  fs0: SemihostFs:`
-`  fs1: ANDREW'S_SD:`
+`fs0: SemihostFs:`
+`fs1: ANDREW'S_SD:`
 `Block IO Devices:`
-`  blk0: Size = 0x10000000`
-`  blk1: Removable Size = 0x1E0000000`
-`  blk2: fs1: Removable Partition Size = 0x1DFFF8200`
-
-
+`blk0: Size = 0x10000000`
+`blk1: Removable Size = 0x1E0000000`
+`blk2: fs1: Removable Partition Size = 0x1DFFF8200`
 
 Beagle Board Devices
 
@@ -291,8 +288,8 @@ fv0:
 
 FV copied to memory by Beagle Board mask ROM.
 
-`                           Contains reset vector code, SEC, and a compressed `
-`                           copy of fv1: `
+`Contains reset vector code, SEC, and a compressed`
+`copy of fv1:`
 
 </td>
 
@@ -310,7 +307,7 @@ fv1:
 
 Decompressed FV that contains the UEFI and DXE
 
-`                           drivers for the BeagleBoard `
+`drivers for the BeagleBoard`
 
 </td>
 
@@ -328,8 +325,8 @@ fs0:
 
 File System that represents a JTAG semihosting
 
-`                           connection. The file names and paths are part of the `
-`                           system running the debugger. `
+`connection. The file names and paths are part of the`
+`system running the debugger.`
 
 </td>
 
@@ -347,7 +344,7 @@ fs1:
 
 FAT file system on an SD Card that has a volume
 
-`                           name "ANDREW'S SD". `
+`name "ANDREW'S SD".`
 
 </td>
 
@@ -381,7 +378,7 @@ blk1:
 
 Block IO device representing the SD Card plugged
 
-`                           into the Beagle Board `
+`into the Beagle Board`
 
 </td>
 
@@ -399,16 +396,14 @@ blk2:
 
 Block IO device produced by the partition driver
 
-`                           after parsing the MBR on the SD Card. This block `
-`                           device contains the FAT file system fs1: `
+`after parsing the MBR on the SD Card. This block`
+`device contains the FAT file system fs1:`
 
 </td>
 
 </tr>
 
 </table>
-
-
 
 The following commands are examples of interacting with an Firmware
 Volume device. The *page off* command tells the EBL to not prompt the
@@ -429,50 +424,48 @@ header. 0x10 is defined as EFI_SECTION_PE32
 `BeagleEdk2 >page off`
 `BeagleEdk2 >cd fv0:`
 `BeagleEdk2 fv0:\>dir`
-`   19,544     SEC D959E387-7B91-452C-90E0-A1DBAC90DDB8`
-`  103,060      FV 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792`
-`             122,604 bytes in files 401,036 bytes free`
+`19,544     SEC D959E387-7B91-452C-90E0-A1DBAC90DDB8`
+`103,060      FV 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792`
+`122,604 bytes in files 401,036 bytes free`
 `BeagleEdk2 fv0:\>dir fv1:`
-`   51,032 DxeCore D6A2CB7F-6A18-4E2F-B43B-9920A733700A DxeCore`
-`   21,908  Driver B8D9777E-D72A-451F-9BDB-BAFB52A68415 ArmCpuDxe`
-`    4,678  Driver B601F8C4-43B7-4784-95B1-F4226CB40CEE RuntimeDxe`
-`    2,480  Driver F80697E9-7FD6-4665-8646-88E33EF71DFC SecurityStubDxe`
-`    1,788  Driver F099D67F-71AE-4C36-B2A3-DCEB0EB2B7D8 WatchdogTimer`
-`    2,020  Driver 42857F0A-13F2-4B21-8A23-53D3F714B840 CapsuleRuntimeDxe`
-`    6,396  Driver 02B01AD5-7E59-43E8-A6D8-238180613A5A EmuVariableRuntimeDxe`
-`    1,378  Driver FCABE6A7-7953-4A84-B7EC-D29E89B62E87 EmbeddedMonotonicCounter`
-`    2,396  Driver 6696936D-3637-467C-87CB-14EA8248948C SimpleTextInOutSerial`
-`    2,076  Driver 16036A73-E8EF-46D0-953C-9B8E96527D13 Reset`
-`    1,260  Driver B336F62D-4135-4A55-AE4E-4971BBF0885D RealTimeClock`
-`    1,834  Driver 4C6E0267-C77D-410D-8100-1495911A989D MetronomeDxe`
-`    3,102  Driver C5B9C74A-6D72-4719-99AB-C59F199091EB SemihostFs`
-`    4,452  Driver 4D00EF14-C4E0-426B-81B7-30A00A14AAD6 NandFlash`
-`    4,364  Driver 100C2CFA-B586-4198-9B4C-1683D195B1DA MMCHS`
-`    1,724  Driver D5125E0F-1226-444F-A218-0085996ED5DA Smbus`
-`    1,402  Driver E7D9CAE1-6930-46E3-BDF9-0027446E7DF2 Gpio`
-`    2,144  Driver 23EED05D-1B93-4A1A-8E1B-931D69E37952 BeagleBoardInterruptDxe`
-`    2,728  Driver 6DDBF08B-CFC9-43CC-9E81-0784BA312CA0 BeagleBoardTimerDxe`
-`    1,490  Driver 71FE861A-5450-48B6-BFB0-B93522616F99 TPS65950`
-`    4,156  Driver 6B38F7B4-AD98-40E9-9093-ACA2B5A253C4 DiskIoDxe`
-`    8,898  Driver 1FA1F39E-FEFF-4AAE-BD7B-38A070A3B609 PartitionDxe`
-`   14,992  Driver 961578FE-B6B7-44C3-AF35-6BC705CD2B1F Fat`
-`    2,686  Driver CD3BAFB6-50FB-4FE8-8E4E-AB74D2C1A600 EnglishDxe`
-`    3,892  Driver FEAA2E2B-53AC-4D5E-AE10-1EFD5DA4A2BA BeagleBoardPciEmulation`
-`   12,056  Driver BDFE430E-8F2A-4DB0-9991-6F856594777E EhciDxe`
-`   11,484  Driver 240612B7-A063-11D4-9A3A-0090273FC14D UsbBusDxe`
-`    8,268  Driver 9FB4B4A7-42C0-4BCD-8540-9BCC6711F83E UsbMassStorageDxe`
-`   43,472     App 3CEF354A-3B7A-4519-AD70-72A134698311 Ebl`
-`    7,246  Driver 934431FE-5745-402E-913D-17B4434EB0F3 BeagleBoardBds`
-`             237,802 bytes in files 846 bytes free`
+`51,032 DxeCore D6A2CB7F-6A18-4E2F-B43B-9920A733700A DxeCore`
+`21,908  Driver B8D9777E-D72A-451F-9BDB-BAFB52A68415 ArmCpuDxe`
+`4,678  Driver B601F8C4-43B7-4784-95B1-F4226CB40CEE RuntimeDxe`
+`2,480  Driver F80697E9-7FD6-4665-8646-88E33EF71DFC SecurityStubDxe`
+`1,788  Driver F099D67F-71AE-4C36-B2A3-DCEB0EB2B7D8 WatchdogTimer`
+`2,020  Driver 42857F0A-13F2-4B21-8A23-53D3F714B840 CapsuleRuntimeDxe`
+`6,396  Driver 02B01AD5-7E59-43E8-A6D8-238180613A5A EmuVariableRuntimeDxe`
+`1,378  Driver FCABE6A7-7953-4A84-B7EC-D29E89B62E87 EmbeddedMonotonicCounter`
+`2,396  Driver 6696936D-3637-467C-87CB-14EA8248948C SimpleTextInOutSerial`
+`2,076  Driver 16036A73-E8EF-46D0-953C-9B8E96527D13 Reset`
+`1,260  Driver B336F62D-4135-4A55-AE4E-4971BBF0885D RealTimeClock`
+`1,834  Driver 4C6E0267-C77D-410D-8100-1495911A989D MetronomeDxe`
+`3,102  Driver C5B9C74A-6D72-4719-99AB-C59F199091EB SemihostFs`
+`4,452  Driver 4D00EF14-C4E0-426B-81B7-30A00A14AAD6 NandFlash`
+`4,364  Driver 100C2CFA-B586-4198-9B4C-1683D195B1DA MMCHS`
+`1,724  Driver D5125E0F-1226-444F-A218-0085996ED5DA Smbus`
+`1,402  Driver E7D9CAE1-6930-46E3-BDF9-0027446E7DF2 Gpio`
+`2,144  Driver 23EED05D-1B93-4A1A-8E1B-931D69E37952 BeagleBoardInterruptDxe`
+`2,728  Driver 6DDBF08B-CFC9-43CC-9E81-0784BA312CA0 BeagleBoardTimerDxe`
+`1,490  Driver 71FE861A-5450-48B6-BFB0-B93522616F99 TPS65950`
+`4,156  Driver 6B38F7B4-AD98-40E9-9093-ACA2B5A253C4 DiskIoDxe`
+`8,898  Driver 1FA1F39E-FEFF-4AAE-BD7B-38A070A3B609 PartitionDxe`
+`14,992  Driver 961578FE-B6B7-44C3-AF35-6BC705CD2B1F Fat`
+`2,686  Driver CD3BAFB6-50FB-4FE8-8E4E-AB74D2C1A600 EnglishDxe`
+`3,892  Driver FEAA2E2B-53AC-4D5E-AE10-1EFD5DA4A2BA BeagleBoardPciEmulation`
+`12,056  Driver BDFE430E-8F2A-4DB0-9991-6F856594777E EhciDxe`
+`11,484  Driver 240612B7-A063-11D4-9A3A-0090273FC14D UsbBusDxe`
+`8,268  Driver 9FB4B4A7-42C0-4BCD-8540-9BCC6711F83E UsbMassStorageDxe`
+`43,472     App 3CEF354A-3B7A-4519-AD70-72A134698311 Ebl`
+`7,246  Driver 934431FE-5745-402E-913D-17B4434EB0F3 BeagleBoardBds`
+`237,802 bytes in files 846 bytes free`
 `BeagleEdk2 fv0:\>`
 `BeagleEdk2 fv0:\>hex fv1:\DxeCore 0 20`
 `00000000: 44 C7 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 |D...MZ..........|`
 `00000010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|`
 `BeagleEdk2 fv0:\>hex fv1:\DxeCore:10 0 20`
 `00000000: 4D 5A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |MZ..............|`
-`00000010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| `
-
-
+`00000010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|`
 
 The fs0: device represents a semihosting connection to the JTAG
 debugger. It lets you read and write files back to you PC that is
@@ -495,8 +488,6 @@ on the PC.
 `00000020: 74 68 65 20 52 65 61 6C 56 69 65 77 20 44 65 62 |the RealView Deb|`
 `00000030: 75 67 67 65 72 21 0D 0A                         |ugger!..|`
 
-
-
 The blk1: device represents the Raw SD Card, and LBA zero is the Master
 Boot Record (MBR). The blk2: device is the partition that contains the
 FAT file system, and LBA zero of this device represents the BIOS
@@ -507,7 +498,7 @@ example shows how you can operate on the entire block device with a
 command that allows you to specify what part of the device you would
 like to operate on.
 
-`BeagleEdk2 >hex blk1:0:200 `
+`BeagleEdk2 >hex blk1:0:200`
 `00000000: 33 C0 8E D0 BC 00 7C FB 50 07 50 1F FC BE 1B 7C |3.....|.P.P....||`
 `00000010: BF 1B 06 50 57 B9 E5 01 F3 A4 CB BD BE 07 B1 04 |...PW...........|`
 `00000020: 38 6E 00 7C 09 75 13 83 C5 10 E2 F4 CD 18 8B F5 |8n.|.u..........|`
@@ -574,8 +565,6 @@ like to operate on.
 `000001E0: 61 6E 79 20 6B 65 79 20 74 6F 20 72 65 73 74 61 |any key to resta|`
 `000001F0: 72 74 0D 0A 00 00 00 00 00 AC CB D8 00 00 55 AA |rt............U.|`
 
-
-
 The address device type is powerful as it lets you use an arbitrary
 chunk of memory in any command that operates on devices. In the follow
 example the *hex* command is used to dump the first 0x40 bytes of the FV
@@ -587,15 +576,15 @@ to four bytes.
 
 `BeagleEdk2 >dev`
 `Firmware Volume Devices:`
-`  fv0: 0x80008208 - 0x80087FC7 : 0x0007FDC0`
-`  fv1: 0x87F47000 - 0x87FC783F : 0x00080840`
+`fv0: 0x80008208 - 0x80087FC7 : 0x0007FDC0`
+`fv1: 0x87F47000 - 0x87FC783F : 0x00080840`
 `File System Devices:`
-`  fs0: SemihostFs:`
-`  fs1: ANDREW'S_SD:`
+`fs0: SemihostFs:`
+`fs1: ANDREW'S_SD:`
 `Block IO Devices:`
-`  blk0: Size = 0x10000000`
-`  blk1: Removable Size = 0x1E0000000`
-`  blk2: fs1: Removable Partition Size = 0x1DFFF8200`
+`blk0: Size = 0x10000000`
+`blk1: Removable Size = 0x1E0000000`
+`blk2: fs1: Removable Partition Size = 0x1DFFF8200`
 `BeagleEdk2 >hex fv0: 0 40`
 `00000000: 37 01 00 EA 00 00 00 00 7E F0 B0 E1 00 00 00 00 |7.......~.......|`
 `00000010: 78 E5 8C 8C 3D 8A 1C 4F 99 35 89 61 85 C3 2D D3 |x...=..O.5.a..-.|`

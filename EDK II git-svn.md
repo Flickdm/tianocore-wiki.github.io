@@ -33,8 +33,8 @@ You can also download a snapshot git-svn tree:
 The snapshots are named edk2-git-svn-\*.zip. They contain the git
 repository along with the svn data.
 
-1.  Unzip the file into an empty directory
-2.  Run 'git reset --hard' in that directory
+1. Unzip the file into an empty directory
+2. Run 'git reset --hard' in that directory
 
 ### Commit changes to your local tree
 

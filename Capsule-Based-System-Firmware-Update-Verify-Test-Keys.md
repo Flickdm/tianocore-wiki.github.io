@@ -23,10 +23,11 @@ This build process uses EDK II `CryptoPkg`, which requires a patch to be applied
 `build -a IA32 -t VS2015x86 -p QuarkPlatformPkg/Quark.dsc -D CAPSULE_ENABLE`
 
 * Update target with new firmware image
-* Boot target to Boot Manager.  The front page should show a ` WARNING: Test key detected.`
+* Boot target to Boot Manager.  The front page should show a `WARNING: Test key detected.`
 message informing the user that a test signing key is in use and that this firmware image
 is only for development/debug purposes.  If logging is enabled, then this same message
 is displayed in that log.
+
 ```
  QUARK
 
@@ -43,6 +44,7 @@ is displayed in that log.
    Continue
    Reset
 ```
+
 * Boot target to UEFI Shell
 
 # Verify Capsule Structures
@@ -50,6 +52,7 @@ is displayed in that log.
 * Copy `CapsuleApp.efi` to a USB drive
 * Attach USB drive with`CapsuleApp.efi`
 * Run `CapsuleApp.efi` with no parameters to see the help information
+
 ```
 CapsuleApp:  usage
   CapsuleApp <Capsule...>
@@ -75,11 +78,13 @@ Parameter:
   -D:  Dump Capsule image header information and FMP header information,
        if it is an FMP capsule.
 ```
+
 * Run `CapsuleApp.efi -P` to view the Firmware Management Protocol details.  The details
 should match the System Firmware Descriptor PEIM .aslc file described
 [here](Capsule-Based-System-Firmware-Update-Implementation#system-firmware-descriptor-peim).
 In this example, the `ImageTypeId` GUID value is `553B20F9-9154-46CE-8142-80E2AD96CD92`, the
 `Version` value is `0x3` and the `VersionName` string is `"0x00000003"`.
+
 ```
 ###### ######
 # FMP DATA #
@@ -118,11 +123,13 @@ FMP (0) ImageInfo:
     HardwareInstance            - 0x0
 FMP (0) PackageInfo - Unsupported
 ```
+
 * Run `CapsuleApp.efi -E` to view the ESRT details.  The `FwType` should be `0x1 (SystemFirmware)`,
 and the `FwVersion` should be the `CURRENT_FIRMWARE_VERSION` value from the System Firmware
 Descriptor PEIM .aslc file.  In this example the `FwClass` value is the same as the Firmware
 Management Protocol `ImageTypeId` GUID value of `553B20F9-9154-46CE-8142-80E2AD96CD92`, and
 the `FwVersion` value is `0x3`.
+
 ```
 ##############
 # ESRT TABLE #
@@ -159,6 +166,7 @@ EFI_SYSTEM_RESOURCE_ENTRY (0):
 * Run `CapsuleApp.efi -D <CapsuleImage>` to dump capsule image header information.  The
 `UpdateImageTypeId` value is the same as the ESRT `FwClass` value is also the same as the
 Firmware Management Protocol `ImageTypeId` GUID value of `553B20F9-9154-46CE-8142-80E2AD96CD92`.
+
 ```
 [FmpCapusule]
 CapsuleHeader:
@@ -186,6 +194,7 @@ FmpPayload[0] ImageHeader:
 
 * Run `CapsuleApp.efi -P` to view the Firmware Management Protocol details.  The details
 should match the updated version information in the System Firmware Descriptor PEIM .aslc file.
+
 ```
 ############
 # FMP DATA #
@@ -224,8 +233,10 @@ FMP (0) ImageInfo:
     HardwareInstance            - 0x0
 FMP (0) PackageInfo - Unsupported
 ```
+
 * Run `CapsuleApp.efi -E` to view the ESRT details.  The details should match the updated
 version information in the System Firmware Descriptor PEIM .aslc file.
+
 ```
 ##############
 # ESRT TABLE #

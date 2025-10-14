@@ -9,6 +9,7 @@ Before you begin a course, review the course objectives and intended audience to
 How to download: Download each lesson’s '''Zip file**'''  into your local directory.  Then unzip each one and run each of  the .htm files locally.  Double click on the index.html file for each lesson to open with your default browser.
 
 ## Courses
+
 Intended Audience:Firmware/Software Engineers <br>
 Course Goal:Initialize the boot process by following the UEFI specifications
 <table width="100%">
@@ -97,7 +98,6 @@ Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases<br>
   <td>
 <a href="https://github.com/tianocore-training/Lesson-3/archive/master.zip"> Zip File**</a>
 
-
   </td>
   <td>
   <a href="https://tianocore-training.github.io/Lesson-3/"> Launch   </a>
@@ -156,6 +156,7 @@ Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)<b
 ---
 
 ## Training Course Detailed Descriptions
+
 <b>(downloads below are the same as above)</b>
 
 '''Lesson 0: Defining Specifications' Role in Firmware'''<br>
@@ -167,6 +168,7 @@ Download <a href="https://github.com/tianocore-training/Lesson-0/archive/master.
 
 **Lesson 0:** <br>
 Course Objectives: When you complete the course, you will be able to:
+
 * Identify and define the Legacy BIOS and UEFI specifications
 * Compare the similarities and differences of Legacy BIOS and UEFI
 * Define Platform Initialization and explain its evolution from “The Framework” to “Platform Initialization”
@@ -184,6 +186,7 @@ Download <a href="https://github.com/tianocore-training/Lesson-1/archive/master.
 
 **Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases** <br>
 When you complete this lesson, you will be able to:
+
 * Access EDK II to assist you in in using commercial compilers, providing for self-hosted development, and supplying libraries to assist in managing common tasks.
 * Use tools to assist you in Platform Initialization
 * Define and implement types of debugging allowed with EDK II
@@ -198,6 +201,7 @@ Download <a href="https://github.com/tianocore-training/Lesson-2/archive/master.
 
 **Lesson 2: Driver Execution Environment (DXE)**<br>
 When you complete this lesson, you will be able to:
+
 * Summarize the DXE phase and its purpose, functions, properties, attributes, and components * Identify the responsibilities of the DXE phase
 * Describe events and their role in the DXE phase
 * Define architectural protocols and their role in the DXE phase
@@ -210,29 +214,32 @@ Download <a href="https://github.com/tianocore-training/Lesson-3/archive/master.
 **Lesson 3: UEFI Driver**
 
 When you complete this lesson, you will be able to:
-*    Summarize UEFI drivers’ attribute, functions, and contents
-*    Compare and contrast drivers and applications
-*    Define UEFI protocols and explain their properties
-*    Outline the UEFI driver design process
-*    Identify and define the types of UEFI drivers
-*    Describe the necessary and recommended protocols for writing UEFI drivers
+
+* Summarize UEFI drivers’ attribute, functions, and contents
+* Compare and contrast drivers and applications
+* Define UEFI protocols and explain their properties
+* Outline the UEFI driver design process
+* Identify and define the types of UEFI drivers
+* Describe the necessary and recommended protocols for writing UEFI drivers
 
 Download <a href="https://github.com/tianocore-training/Lesson-4/archive/master.zip"> Lesson 4 Zip File**</a> or
 <a href="https://tianocore-training.github.io/Lesson-4"> Launch   </a>
 
 **Lesson 4: Firmware and Data Storage***<br>
 When you complete this lesson, you will be able to:
-*	Define Firmware Storage, Firmware Files, Firmware File Systems, and Firmware Volumes and explain their hierarchical relationship.
-*	Define Terse Image
-*	Explain why using a Terse Image is more beneficial than using a UEFI Image
-*	Locate firmware storage in a physical memory map
-*	Load drivers from a non-flash location
+
+* Define Firmware Storage, Firmware Files, Firmware File Systems, and Firmware Volumes and explain their hierarchical relationship.
+* Define Terse Image
+* Explain why using a Terse Image is more beneficial than using a UEFI Image
+* Locate firmware storage in a physical memory map
+* Load drivers from a non-flash location
 
 Download <a href="https://github.com/tianocore-training/Lesson-5/archive/master.zip"> Lesson 5 Zip File**</a>  Or
 <a href="https://tianocore-training.github.io/Lesson-5"> Launch   </a>
 
 **Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)**<br>
 When you complete this lesson, you will be able to:
+
 * Explain the primary steps of the BDS Phase
 * Define BDS’s goals
 * Identify BDS’ functions and components

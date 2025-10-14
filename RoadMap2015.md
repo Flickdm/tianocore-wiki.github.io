@@ -26,15 +26,15 @@ Feature Details
 
 <th>
 
-`   Support UEFI 2.5 Updates`
-` `
+`Support UEFI 2.5 Updates`
+``
 
 </th>
 
 <th>
 
-`   Support PI 1.4 Updates`
-` `
+`Support PI 1.4 Updates`
+``
 
 </th>
 
@@ -44,15 +44,15 @@ Feature Details
 
 <td>
 
-1.  Smart Card Reader & Smart card edge protocol (H file only)
-2.  Inline Cryptographic Interface Protocol (H file only)
-3.  UEFI USB Function I/O Protocol (H file only)
-4.  Add NVM Express Pass Thru Protocol
-5.  Add UFS stack
-6.  Add SD Device Path (H file only)
-7.  Add reconnect Browser Action
-8.  Ability to refresh the entire form
-9.  The default/options for the Ordered List question
+1. Smart Card Reader & Smart card edge protocol (H file only)
+2. Inline Cryptographic Interface Protocol (H file only)
+3. UEFI USB Function I/O Protocol (H file only)
+4. Add NVM Express Pass Thru Protocol
+5. Add UFS stack
+6. Add SD Device Path (H file only)
+7. Add reconnect Browser Action
+8. Ability to refresh the entire form
+9. The default/options for the Ordered List question
 10. Keyword Strings support
 11. New CPER Memory Section (H file only)
 12. New EFI_HASH2_PROTOCOL
@@ -74,15 +74,15 @@ Feature Details
 
 <td valign=top>
 
-1.  PI SMM GPI
-2.  New MP Service PPI
-3.  Multiple CPU health info
-4.  PEI SetBootMode Service() clarification
-5.  GetMemoryMap Update for ReservedMemory
-6.  New Graphics PPI
-7.  New Capsule PPI
-8.  SIO PEI and UEFI-Driver Model Architecture
-9.  Extended File Size Errata
+1. PI SMM GPI
+2. New MP Service PPI
+3. Multiple CPU health info
+4. PEI SetBootMode Service() clarification
+5. GetMemoryMap Update for ReservedMemory
+6. New Graphics PPI
+7. New Capsule PPI
+8. SIO PEI and UEFI-Driver Model Architecture
+9. Extended File Size Errata
 10. Add Reset2 PPI
 
 </td>
@@ -133,11 +133,11 @@ Excluded from UEFI 2.5 Updates
 
 <td colspan="2">
 
-1.  Match2 Opcode and EFI_REGULAR_EXPRESSION_PROTOCOL
-2.  Bluetooth Support (H file only)
-3.  Errata Boot Manager Policy & SATA Device Path Node
-4.  RamDisk Device Path
-5.  UEFI “Next” Feature –
+1. Match2 Opcode and EFI_REGULAR_EXPRESSION_PROTOCOL
+2. Bluetooth Support (H file only)
+3. Errata Boot Manager Policy & SATA Device Path Node
+4. RamDisk Device Path
+5. UEFI “Next” Feature –
 
 - Boot from HTTP (Excluding IPV6)
 - WIFI support (H file only)
