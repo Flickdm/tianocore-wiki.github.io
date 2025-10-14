@@ -12,7 +12,7 @@ Community meeting minutes will be posted to the list after each meeting.
 
 Please subscribe to the Groups.io calendar:
 
-<https://edk2.groups.io/g/devel/calendar>
+[https://edk2.groups.io/g/devel/calendar](https://edk2.groups.io/g/devel/calendar)
 
 ## Meeting Format
 

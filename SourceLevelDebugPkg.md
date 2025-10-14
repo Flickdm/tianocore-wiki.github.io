@@ -5,15 +5,14 @@ which connects over COM or USB debug ports. This plus a debug host
 application will allow source level debugging of UEFI drivers and UEFI
 applications.
 
-<https://github.com/tianocore/edk2/tree/master/SourceLevelDebugPkg>
+[https://github.com/tianocore/edk2/tree/master/SourceLevelDebugPkg](https://github.com/tianocore/edk2/tree/master/SourceLevelDebugPkg)
 
 Host debug applications for Microsoft Windows and Linux are available
 here:
-<https://software.intel.com/en-us/articles/unified-extensible-firmware-interface>
+[https://software.intel.com/en-us/articles/unified-extensible-firmware-interface](https://software.intel.com/en-us/articles/unified-extensible-firmware-interface)
 Also uses the UEFI Connection with Intel® System Studio Debugger here:
-<https://software.intel.com/en-us/system-studio/choose-download>
+[https://software.intel.com/en-us/system-studio/choose-download](https://software.intel.com/en-us/system-studio/choose-download)
 
 Info for debugging with gdb is available here:
-<a href="How_to_debug_OVMF_with_QEMU_using_GDB" class="wikilink"
-title="How to debug OVMF with QEMU using GDB">How to debug OVMF with
-QEMU using GDB</a>
+[How to debug OVMF with
+QEMU using GDB](How_to_debug_OVMF_with_QEMU_using_GDB)

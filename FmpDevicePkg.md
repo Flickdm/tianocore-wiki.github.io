@@ -7,7 +7,7 @@ customized using libraries and PCDs.
 
 Based on content from the following branch:
 
-<https://github.com/Microsoft/MS_UEFI/tree/share/MsCapsuleSupport/MsCapsuleUpdatePkg>
+[https://github.com/Microsoft/MS_UEFI/tree/share/MsCapsuleSupport/MsCapsuleUpdatePkg](https://github.com/Microsoft/MS_UEFI/tree/share/MsCapsuleSupport/MsCapsuleUpdatePkg)
 
 Library Classes
 ===============

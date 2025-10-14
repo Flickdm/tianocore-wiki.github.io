@@ -6,7 +6,7 @@ The Minimum Platform Architecture (MPA) creates guidelines for how to design, en
 
 The main MinPlatform Package ([MinPlatformPkg](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg)) provides a consistent boot flow and well-defined interfaces to support board functions.
 
-- How to download and build <https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Readme.md>
+- How to download and build [https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Readme.md](https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Readme.md)
 
 #### EDK II Minimum Platforms
 

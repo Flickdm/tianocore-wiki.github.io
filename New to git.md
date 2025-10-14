@@ -92,7 +92,7 @@ careful with.
   * Note: The main edk2 tree is protected from force pushes, and you can setup your github branches to be similarly
     protected:
 
-    <https://github.com/blog/2051-protected-branches-and-required-status-checks>
+    [https://github.com/blog/2051-protected-branches-and-required-status-checks](https://github.com/blog/2051-protected-branches-and-required-status-checks)
 
   * Why it is potentially dangerous:
 

@@ -13,7 +13,7 @@ To install on Debian/Ubuntu: <code>sudo apt-get install qemu</code>
 
 You can [build OVMF](How-to-build-OVMF "wikilink") based on the latest version of [EDK II](EDK-II.md).
 
-Pre-built images are available at <https://www.kraxel.org/repos/>
+Pre-built images are available at [https://www.kraxel.org/repos/](https://www.kraxel.org/repos/)
 
 * These images are automatically built and track the latest OVMF code in the EDK II tree.
 * Some of these builds include a seabios CSM and can boot non-UEFI “legacy” operating systems. Note: seabios is GPLv3 licensed)

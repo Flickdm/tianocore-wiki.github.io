@@ -109,7 +109,7 @@ To run an *i82557b* native test, the UndiRuntimeDxe module must be included in t
 OptionRomPkg/UndiRuntimeDxe/UndiRuntimeDxe.inf
 ```
 
-During *i82557b* native verification, you may encounter issues. For information on known issues, please refer to <https://github.com/tianocore/edk2/issues/9587>.
+During *i82557b* native verification, you may encounter issues. For information on known issues, please refer to [https://github.com/tianocore/edk2/issues/9587](https://github.com/tianocore/edk2/issues/9587).
 
 ## EDKII Network Scalability
 
@@ -136,7 +136,7 @@ qemu-system-x86_64 \
 
 #### NOTES
 
-Due to a limit on PCI bus slots, there is a limit of less than 32 virtual network devices. There is a solution documented here:  <https://github.com/qemu/qemu/blob/master/docs/pcie.txt>. PCI hierarchy is shown as follows:
+Due to a limit on PCI bus slots, there is a limit of less than 32 virtual network devices. There is a solution documented here:  [https://github.com/qemu/qemu/blob/master/docs/pcie.txt](https://github.com/qemu/qemu/blob/master/docs/pcie.txt). PCI hierarchy is shown as follows:
 
 ![PCI Hierarchy](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/PCI_Hierarchy.png "PCI Hierarchy")
 
@@ -179,20 +179,20 @@ The command above use Q35 for a larger IO space. In this PCI hierarchy, a DMI-PC
 ## References
 
 1. EDKII Network Getting Started Guide:
-<https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide>
+[https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide](https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide)
 2. Networking within QEMU:
-<https://wiki.qemu.org/Documentation/Networking>
+[https://wiki.qemu.org/Documentation/Networking](https://wiki.qemu.org/Documentation/Networking)
 3. QEMU Command:
-<https://qemu.weilnetz.de/doc/qemu-doc.html>
+[https://qemu.weilnetz.de/doc/qemu-doc.html](https://qemu.weilnetz.de/doc/qemu-doc.html)
 4. OVMF Introduction:
-<https://github.com/tianocore/tianocore.github.io/wiki/ovmf>
+[https://github.com/tianocore/tianocore.github.io/wiki/ovmf](https://github.com/tianocore/tianocore.github.io/wiki/ovmf)
 5. OvmfPkg README:
-<https://github.com/tianocore/edk2/tree/master/OvmfPkg>
+[https://github.com/tianocore/edk2/tree/master/OvmfPkg](https://github.com/tianocore/edk2/tree/master/OvmfPkg)
 6. UEFI HTTP Boot with OVMF:
-<https://en.opensuse.org/UEFI_HTTPBoot_with_OVMF>
+[https://en.opensuse.org/UEFI_HTTPBoot_with_OVMF](https://en.opensuse.org/UEFI_HTTPBoot_with_OVMF)
 7. Intel® UEFI Development Kit Debugger Tool:
-<https://software.intel.com/en-us/articles/unified-extensible-firmware-interface>
+[https://software.intel.com/en-us/articles/unified-extensible-firmware-interface](https://software.intel.com/en-us/articles/unified-extensible-firmware-interface)
 8. PCI hierarchy:
-<https://github.com/qemu/qemu/blob/master/docs/pcie.txt>
+[https://github.com/qemu/qemu/blob/master/docs/pcie.txt](https://github.com/qemu/qemu/blob/master/docs/pcie.txt)
 9. QEMU Virtual Network Device (Mailing Thread):
-<https://lists.gnu.org/archive/html/qemu-devel/2017-07/msg01251.html>
+[https://lists.gnu.org/archive/html/qemu-devel/2017-07/msg01251.html](https://lists.gnu.org/archive/html/qemu-devel/2017-07/msg01251.html)

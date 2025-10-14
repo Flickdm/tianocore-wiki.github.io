@@ -23,7 +23,7 @@ UEFI application that is a UEFI OS Loader.
 ### How do I view the sample program “HelloWorld”?
 
 The “HelloWorld” is a sample application that is part of the
-*MdeModulePkg* in the edk2 directory <https://github.com/tianocore/edk2>
+*MdeModulePkg* in the edk2 directory [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 repository directory. There is both a
 [HelloWorld.C](https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Application/HelloWorld/HelloWorld.c)
 for the source and an
@@ -37,7 +37,7 @@ changes.
 
 If you are running from the shell then there are 2 ways.
 
-1. The <a href="shell" class="wikilink" title="shell">shell</a> will
+1. The [shell](shell) will
     search for a script file called “startup.nsh” in any FAT file system
     that would get executed. Inside the script other UEFI applications
     could be invoked.

@@ -5,22 +5,17 @@ Develop a USB driver for a common USB Serial Adapter.
 - Status: Complete :heavy_check_mark:
 - Difficulty: Medium
 - Language: C
-- Mentor: <a href="@ErikBjorge" class="wikilink"
-  title="https://github.com/ErikBjorge"><span>https://github.com/ErikBjorge</span></a>
-- Suggested by: <a href="@jljusten" class="wikilink"
-  title="https://github.com/jljusten"><span>https://github.com/jljusten</span></a>
+- Mentor: [https://github.com/ErikBjorge](https://github.com/ErikBjorge)
+- Suggested by: [https://github.com/jljusten](https://github.com/jljusten)
 
 # Status
 
 - Completed :heavy_check_mark: (For FTDI).
-- Work done by <a href="@ashedesimone" class="wikilink"
-  title="https://github.com/ashedesimone"><span>https://github.com/ashedesimone</span></a>
-  as a <a href="GSoC2012" class="wikilink" title="GSoC2012">GSoC2012</a>
+- Work done by [https://github.com/ashedesimone](https://github.com/ashedesimone)
+  as a [GSoC2012](GSoC2012)
   Student.
 - Available at
-  <a href="edk2-platforms/Drivers/OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe"
-  class="wikilink"
-  title="https://github.com/tianocore/edk2-platforms/tree/master/Drivers/OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe"><span>https://github.com/tianocore/edk2-platforms/tree/master/Drivers/OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe</span></a>.
+  [https://github.com/tianocore/edk2-platforms/tree/master/Drivers/OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe](https://github.com/tianocore/edk2-platforms/tree/master/Drivers/OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe).
 
 # Details
 
@@ -62,10 +57,10 @@ With QEMU you can use the '-usb -usbdevice serial::vc' parameters to add
 an emulated FTDI into the system.
 
 Support for the FTDI device was worked on during
-<a href="GSoC2012" class="wikilink" title="GSoC2012">GSoC2012</a>. The
+[GSoC2012](GSoC2012). The
 latest code is currently available at:
 
-- <https://github.com/AshleyDeSimone/edk2/tree/ftdi-usb-serial>
+- [https://github.com/AshleyDeSimone/edk2/tree/ftdi-usb-serial](https://github.com/AshleyDeSimone/edk2/tree/ftdi-usb-serial)
 - Look for the driver code under OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe
 
 A quick start for building & testing this code on Linux would be:
@@ -112,7 +107,7 @@ project.
 
 - The QEMU virutal machine environment emulates an FTDI based device
   (see more details above!)
-  - <http://www.ftdichip.com/Drivers/D2XX.htm>
+  - [http://www.ftdichip.com/Drivers/D2XX.htm](http://www.ftdichip.com/Drivers/D2XX.htm)
 - [Keyspan
   USA-19HS](http://www.tripplite.com/en/products/model.cfm?txtSeriesID=849&txtModelID=3914)
 - [Belkin USB to Serial
@@ -125,10 +120,8 @@ project.
 # Further Discussion
 
 This project would be for an edk2 based driver, so please discuss the
-project on <a href="edk2-devel" class="wikilink"
-title="https://edk2.groups.io/g/devel"><span>https://edk2.groups.io/g/devel</span></a>.
+project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
 # See Also
 
-- <a href="Tasks#USB-to-serial_driver" class="wikilink"
-  title="Tasks#USB-to-serial driver">Tasks#USB-to-serial driver</a>
+- [Tasks#USB-to-serial driver](Tasks.md)

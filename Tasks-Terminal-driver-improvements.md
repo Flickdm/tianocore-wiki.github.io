@@ -16,7 +16,7 @@ Optimize cursor motion sequences; support Linux/UNIX standard (xterm/konsole/gno
 
 # Background
 
-The Terminal driver is located at <https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe>
+The Terminal driver is located at [https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe](https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe)
 
 The most prevalent use case for the terminal driver is to display the BIOS setup menu on headless server systems using a PC style serial port connected to a laptop via null modem. This allows administrators to adjust BIOS settings on rack mounted systems without needing to connect a monitor and keyboard.
 
@@ -146,15 +146,15 @@ Building: This project should support all edk2 supported OSes and toolchains.
 
 # Links for More Information
 
-* <https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe>
-* <https://github.com/tianocore/edk2/tree/master/OvmfPkg>
-* <https://en.wikipedia.org/wiki/Box-drawing_character>
-* <https://en.wikipedia.org/wiki/UTF-8>
-* <https://en.wikipedia.org/wiki/Code_page_437>
-* <https://en.wikipedia.org/wiki/DEC_Special_Graphics>
+* [https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe](https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe)
+* [https://github.com/tianocore/edk2/tree/master/OvmfPkg](https://github.com/tianocore/edk2/tree/master/OvmfPkg)
+* [https://en.wikipedia.org/wiki/Box-drawing_character](https://en.wikipedia.org/wiki/Box-drawing_character)
+* [https://en.wikipedia.org/wiki/UTF-8](https://en.wikipedia.org/wiki/UTF-8)
+* [https://en.wikipedia.org/wiki/Code_page_437](https://en.wikipedia.org/wiki/Code_page_437)
+* [https://en.wikipedia.org/wiki/DEC_Special_Graphics](https://en.wikipedia.org/wiki/DEC_Special_Graphics)
 
-* <https://en.wikipedia.org/wiki/VT100>
-* <https://www.putty.org>
+* [https://en.wikipedia.org/wiki/VT100](https://en.wikipedia.org/wiki/VT100)
+* [https://www.putty.org](https://www.putty.org)
 
 # Further Discussion
 

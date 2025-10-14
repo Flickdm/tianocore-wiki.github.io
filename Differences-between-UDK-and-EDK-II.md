@@ -11,7 +11,7 @@
 ### How do other 3rd party companies use [UDK](UDK.md)?
 
 * Other 3rd party companies, including BIOS vendors use the UEFI conformance BIOS implementation based on the UDK release which Intel validates.
-* See also the Intel UEFI community for more information <https://software.intel.com/en-us/firmware/>
+* See also the Intel UEFI community for more information [https://software.intel.com/en-us/firmware/](https://software.intel.com/en-us/firmware/)
 
 ### [UDK](UDK.md) is stable
 

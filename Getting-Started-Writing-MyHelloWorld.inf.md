@@ -3,10 +3,9 @@
 Example of MyHelloWorld.inf
 
 Please check for the latest version of the
-<a href="EDK_II_Specifications" class="wikilink"
-title="EDK II Specifications">EDK II Specifications</a>
+[EDK II Specifications](EDK_II_Specifications)
 
-Note: Copy and paste the GUID from : <http://www.guidgen.com/> for the
+Note: Copy and paste the GUID from : [http://www.guidgen.com/](http://www.guidgen.com/) for the
 **FILE_GUID** in the example below
 
     ## @file

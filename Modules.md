@@ -1,6 +1,6 @@
 # Modules
 
-The <a href="EDK" class="wikilink" title="EDK">EDK</a> Module Structure
+The [EDK](EDK) Module Structure
 Explained
 
 The following three tables explain the structure of the EDK source code.

@@ -1,6 +1,6 @@
 # Acronyms And Glossary
 
-<a href="Member-FAQ" class="wikilink" title="Member-FAQ">Member-FAQ</a>
+[Member-FAQ](Member-FAQ)
 
 The EFI and Framework Open Source Community lives within a fairly
 complex world of acronyms, terms, etc. Hopefully this page helps clarify
@@ -161,9 +161,8 @@ EFI Developer Kit
 **EPL**
 Eclipse Public License
 
-**<a href="Wikipedia:Extensible_Firmware_Interface" class="wikilink"
-title=" Extensible Firmware Interface"> Extensible Firmware
-Interface</a> (EFI)**
+**[ Extensible Firmware
+Interface](Wikipedia:Extensible_Firmware_Interface) (EFI)**
 EFI is a specification that defines the interface between an operating
 system, option ROMs, and platform firmware. EFI was originally invented
 by Intel as the [Intel(R) Itainum](http://en.wikipedia.org/wiki/Itainum)
@@ -229,8 +228,7 @@ processor. It consists of both system memory and I/O space
 **glyph**
 The graphical representation of a single Unicode weight
 
-**<a href="Wikipedia:_Globally_Unique_Identifier" class="wikilink"
-title=" Globally Unique IDentifier"> Globally Unique IDentifier</a> (GUID)**
+**[ Globally Unique IDentifier](Wikipedia:_Globally_Unique_Identifier) (GUID)**
 Globally Unique Identifier. A 128-bit value used to differentiate and
 name services and structures.
 
@@ -441,7 +439,7 @@ A standard defining an association between numeric values known as
 languages. See the Unicode specification for more information.
 
 **USB**
-Universal Serial Bus. See <http://www.usb.org> for more information
+Universal Serial Bus. See [http://www.usb.org](http://www.usb.org) for more information
 
 **VFR**
 Visual Forms Representation. A high-level language representation of IFR
@@ -468,8 +466,8 @@ a firmware volume
 
 ------------------------------------------------------------------------
 
-<a href="EDK_II_FAQ" class="wikilink" title="EDK II FAQ">EDK II FAQ</a>
+[EDK II FAQ](EDK_II_FAQ)
 Frequently asked questions about EDK II
 
-<a href="UEFI-PI_FAQ" class="wikilink" title="UEFI/PI FAQ">UEFI/PI
-FAQ</a> Frequently asked questions about UEFI/PI
+[UEFI/PI
+FAQ](UEFI-PI_FAQ) Frequently asked questions about UEFI/PI

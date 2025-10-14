@@ -26,7 +26,7 @@ brew install mtoc
 
 # Install NASM
 
-The assembler used for EDK II builds is Netwide Assembler (NASM). The latest version of NASM is available from <https://nasm.us/>.
+The assembler used for EDK II builds is Netwide Assembler (NASM). The latest version of NASM is available from [https://nasm.us/](https://nasm.us/).
 
 ## Brew Instructions
 
@@ -37,7 +37,7 @@ brew upgrade nasm
 
 # Install ACPI Compiler
 
-In order to support EDK II firmware builds, the latest version of the ASL compiler from <https://acpica.org> must be installed.  The ASL compiler is required to build ACPI Source Language code.
+In order to support EDK II firmware builds, the latest version of the ASL compiler from [https://acpica.org](https://acpica.org) must be installed.  The ASL compiler is required to build ACPI Source Language code.
 
 ## Brew Install
 
@@ -48,11 +48,11 @@ brew upgrade acpica
 
 # Install XQuartz
 
-The EmulatorPkg requires headers from X11, which are provided by the XQuartz project. Install it from <https://www.xquartz.org/>.
+The EmulatorPkg requires headers from X11, which are provided by the XQuartz project. Install it from [https://www.xquartz.org/](https://www.xquartz.org/).
 
 # Install QEMU Emulator
 
-On order to support running the OVMF platforms from the OvmfPkg, the QEMU emulator from <https://www.qemu.org/> must be installed.
+On order to support running the OVMF platforms from the OvmfPkg, the QEMU emulator from [https://www.qemu.org/](https://www.qemu.org/) must be installed.
 
 ## Brew Install
 

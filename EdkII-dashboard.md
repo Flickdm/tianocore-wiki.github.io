@@ -78,7 +78,7 @@ SR1.UP1.P1
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010)
 
 </td>
 
@@ -101,7 +101,7 @@ Dec 2013
 
 <td>
 
-<http://www.uefi.org>
+[http://www.uefi.org](http://www.uefi.org)
 Click Specifications -\> Download Specifications, fill out form, and
 click Submit.
 
@@ -115,23 +115,18 @@ click Submit.
 
 UDK2010 documents (.chm and html)
 
-- <a href="CryptoPkg" class="wikilink" title="CryptoPkg">CryptoPkg</a>
+- [CryptoPkg](CryptoPkg)
   0.92
-- <a href="EdkCompatibilityPkg" class="wikilink"
-  title="EdkCompatibilityPkg">EdkCompatibilityPkg</a> 0.92
-- <a href="IntelFrameworkModulePkg" class="wikilink"
-  title="IntelFrameworkModulePkg">IntelFrameworkModulePkg</a> 0.92
-- <a href="IntelFrameworkPkg" class="wikilink"
-  title="IntelFrameworkPkg">IntelFrameworkPkg</a> 0.92
-- <a href="MdeModulePkg" class="wikilink"
-  title="MdeModulePkg">MdeModulePkg</a> 0.92
-- <a href="MdePkg" class="wikilink" title="MdePkg">MdePkg</a> with
+- [EdkCompatibilityPkg](EdkCompatibilityPkg) 0.92
+- [IntelFrameworkModulePkg](IntelFrameworkModulePkg) 0.92
+- [IntelFrameworkPkg](IntelFrameworkPkg) 0.92
+- [MdeModulePkg](MdeModulePkg) 0.92
+- [MdePkg](MdePkg) with
   Libraries 1.03
-- <a href="MdePkg" class="wikilink" title="MdePkg">MdePkg</a> 1.03
-- <a href="NetworkPkg" class="wikilink" title="NetworkPkg">NetworkPkg</a>
+- [MdePkg](MdePkg) 1.03
+- [NetworkPkg](NetworkPkg)
   0.93
-- <a href="SecurityPkg" class="wikilink"
-  title="SecurityPkg">SecurityPkg</a> 0.92
+- [SecurityPkg](SecurityPkg) 0.92
 
 </td>
 
@@ -145,9 +140,9 @@ Jul 2013
 <td>
 
 all docs
-<http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download>
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download)
 individual docs
-<https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/>
+[https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/)
 
 </td>
 
@@ -170,7 +165,7 @@ Mar 2012
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Driver_Developer>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Driver_Developer](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Driver_Developer)
 
 </td>
 
@@ -193,7 +188,7 @@ Jul 2013
 
 <td>
 
-<http://www.uefi.org>
+[http://www.uefi.org](http://www.uefi.org)
 Click Specifications -\> Download Specifications, fill out form, and
 click Submit.
 
@@ -218,7 +213,7 @@ May 2012
 
 <td>
 
-<http://www.uefi.org>
+[http://www.uefi.org](http://www.uefi.org)
 Click Specifications -\> Download Specifications, fill out form, and
 click Submit.
 
@@ -278,14 +273,14 @@ UEFI Mantis access
 
 Mantis is the UEFI ECR (Engineering Change Request) portal
 
-1. <http://www.uefi.org/home/>
+1. [http://www.uefi.org/home/](http://www.uefi.org/home/)
 2. Click on Log On in upper right corner, or Members Pages on left.
 3. Under Announcements on the right is Current Specifications (which is
     not accurate) and UEFI Mantis Access.
 4. Click on UEFI Mantis Access - this is the UEFI ECR database.
 5. Your uefi.org username/password is supposed to work. If it does not,
     then use the UEFI contact link to request access
-    <http://www.uefi.org/contact_us/>
+    [http://www.uefi.org/contact_us/](http://www.uefi.org/contact_us/)
 
 </td>
 
@@ -305,7 +300,7 @@ Intel UEFI Driver and Application Tool Resources
 
 <td>
 
-<http://www.intel.com/go/uefi-ihv>
+[http://www.intel.com/go/uefi-ihv](http://www.intel.com/go/uefi-ihv)
 
 </td>
 
@@ -325,8 +320,8 @@ How to enable UEFI Secure Boot
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=How_to_Enable_Security>
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=SecurityPkg>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=How_to_Enable_Security](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=How_to_Enable_Security)
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=SecurityPkg](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=SecurityPkg)
 
 </td>
 
@@ -346,7 +341,7 @@ UEFI Training videos
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Training>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Training](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Training)
 
 </td>
 
@@ -366,7 +361,7 @@ Driver Developer page
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Driver_Developer>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Driver_Developer](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Driver_Developer)
 
 </td>
 
@@ -386,7 +381,7 @@ UDK main page
 
 <td>
 
-<http://www.tianocore.org>
+[http://www.tianocore.org](http://www.tianocore.org)
 
 </td>
 
@@ -406,7 +401,7 @@ UDK 2010 roadmap
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=RoadMap>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=RoadMap](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=RoadMap)
 
 </td>
 
@@ -466,7 +461,7 @@ UEFI Driver Wizard
 
 Open source program designed to accelerate the development of new UEFI
 drivers using a GUI-based template generator.
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Driver_Developer>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Driver_Developer](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Driver_Developer)
 
 </td>
 
@@ -524,7 +519,7 @@ UEFI Shell
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010)
 
 </td>
 
@@ -548,7 +543,7 @@ A2 May 2011
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010)
 
 </td>
 
@@ -568,7 +563,7 @@ EDK II shell porting guide
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Porting_an_EDK_Shell_Extension>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Porting_an_EDK_Shell_Extension](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Porting_an_EDK_Shell_Extension)
 
 </td>
 
@@ -588,7 +583,7 @@ Shell 2.0 documentation
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=ShellPkg#Shell_2.0_Engineering_Resources>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=ShellPkg#Shell_2.0_Engineering_Resources](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=ShellPkg#Shell_2.0_Engineering_Resources)
 
 </td>
 
@@ -644,7 +639,7 @@ Build Specs wiki
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=EDK_II_Specifications>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=EDK_II_Specifications](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=EDK_II_Specifications)
 
 </td>
 
@@ -667,7 +662,7 @@ Aug 2013
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_C.pdf/download>
+[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_C.pdf/download](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_C.pdf/download)
 
 </td>
 
@@ -690,7 +685,7 @@ Aug 2013
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download>
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download)
 
 </td>
 
@@ -713,7 +708,7 @@ Aug 2013
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_C.pdf/download>
+[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_C.pdf/download](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_C.pdf/download)
 
 </td>
 
@@ -736,7 +731,7 @@ Aug 2013
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_C.pdf/download>
+[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_C.pdf/download](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_C.pdf/download)
 
 </td>
 
@@ -759,7 +754,7 @@ Aug 2013
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_C.pdf/download>
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_C.pdf/download](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_C.pdf/download)
 
 </td>
 
@@ -781,7 +776,7 @@ VFR Spec
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/Specifications/VFR_V1.7.pdf/download>
+[http://sourceforge.net/projects/edk2/files/Specifications/VFR_V1.7.pdf/download](http://sourceforge.net/projects/edk2/files/Specifications/VFR_V1.7.pdf/download)
 
 </td>
 
@@ -803,7 +798,7 @@ PCD Infrastructure
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/Specifications/PCD_Infrastructure.pdf/download>
+[http://sourceforge.net/projects/edk2/files/Specifications/PCD_Infrastructure.pdf/download](http://sourceforge.net/projects/edk2/files/Specifications/PCD_Infrastructure.pdf/download)
 
 </td>
 
@@ -861,7 +856,7 @@ EDK II User Manual
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20User%20Manual%20V0.60.pdf/download>
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20User%20Manual%20V0.60.pdf/download](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20User%20Manual%20V0.60.pdf/download)
 
 </td>
 
@@ -883,7 +878,7 @@ EDK II Module Writer’s Guide
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download>
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download)
 
 </td>
 
@@ -905,7 +900,7 @@ EDK II C Coding Standards
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download>
+[http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download](http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download)
 
 </td>
 
@@ -927,7 +922,7 @@ EDK II Performance Optimization
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download>
+[http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download](http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download)
 
 </td>
 
@@ -947,7 +942,7 @@ EDK II packages
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=EDKII_Packages>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=EDKII_Packages](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=EDKII_Packages)
 
 </td>
 
@@ -1003,7 +998,7 @@ EDK II and other FAQs
 
 <td>
 
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Member_FAQ>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Member_FAQ](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Member_FAQ)
 
 </td>
 
@@ -1025,7 +1020,7 @@ EDK II Build Decoded
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK_II_Build_Decoded.pdf/download>
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK_II_Build_Decoded.pdf/download](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK_II_Build_Decoded.pdf/download)
 
 </td>
 
@@ -1047,7 +1042,7 @@ How to create Visual Studio solution for code tree
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/General%20Documentation/How-to-Create_VS_Solution_for_Existing_Code.pdf/download>
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/How-to-Create_VS_Solution_for_Existing_Code.pdf/download](http://sourceforge.net/projects/edk2/files/General%20Documentation/How-to-Create_VS_Solution_for_Existing_Code.pdf/download)
 
 </td>
 
@@ -1069,7 +1064,7 @@ EDK II SMM call topology
 
 <td>
 
-<http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20SMM%20call%20topology.pdf/download>
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20SMM%20call%20topology.pdf/download](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20SMM%20call%20topology.pdf/download)
 
 </td>
 
@@ -1155,7 +1150,7 @@ EDK II project home page
 
 <td>
 
-<http://edk2.sourceforge.net/>
+[http://edk2.sourceforge.net/](http://edk2.sourceforge.net/)
 
 </td>
 
@@ -1171,7 +1166,7 @@ EDK II support page
 
 <td>
 
-<http://sourceforge.net/projects/edk2/support>
+[http://sourceforge.net/projects/edk2/support](http://sourceforge.net/projects/edk2/support)
 
 </td>
 
@@ -1187,7 +1182,7 @@ EDK II source code changes mailing list
 
 <td>
 
-<http://lists.sourceforge.net/lists/listinfo/edk2-commits>
+[http://lists.sourceforge.net/lists/listinfo/edk2-commits](http://lists.sourceforge.net/lists/listinfo/edk2-commits)
 
 </td>
 
@@ -1203,7 +1198,7 @@ EDK II developer discussion mailing list
 
 <td>
 
-<http://lists.sourceforge.net/mailman/listinfo/edk2-devel>
+[http://lists.sourceforge.net/mailman/listinfo/edk2-devel](http://lists.sourceforge.net/mailman/listinfo/edk2-devel)
 
 </td>
 
@@ -1219,7 +1214,7 @@ EDK II search mailing lists
 
 <td>
 
-<http://sourceforge.net/search/?group_id=288620&type_of_search=mlists>
+[http://sourceforge.net/search/?group_id=288620&type_of_search=mlists](http://sourceforge.net/search/?group_id=288620&type_of_search=mlists)
 
 </td>
 
@@ -1265,7 +1260,7 @@ StartCore
 
 <td>
 
-<http://edk2-startcore.sourceforge.net/>
+[http://edk2-startcore.sourceforge.net/](http://edk2-startcore.sourceforge.net/)
 
 </td>
 
@@ -1281,7 +1276,7 @@ EDK II Build Data Viewer
 
 <td>
 
-<https://github.com/01org/edkiibuilddataviewer/>
+[https://github.com/01org/edkiibuilddataviewer/](https://github.com/01org/edkiibuilddataviewer/)
 A Windows application to view all EDK II build log files, and display
 and quickly find where PCDs and GUIDs are defined,
 what source files are used in a build, and more!
@@ -1342,7 +1337,7 @@ EFI Shell Developer Guide
 
 <td>
 
-<http://sourceforge.net/projects/efi-shell/files/documents/>
+[http://sourceforge.net/projects/efi-shell/files/documents/](http://sourceforge.net/projects/efi-shell/files/documents/)
 
 </td>
 
@@ -1364,7 +1359,7 @@ EFI Shell Command Manual
 
 <td>
 
-<http://sourceforge.net/projects/efi-shell/files/documents/>
+[http://sourceforge.net/projects/efi-shell/files/documents/](http://sourceforge.net/projects/efi-shell/files/documents/)
 
 </td>
 
@@ -1386,7 +1381,7 @@ EFI Shell User’s Guide
 
 <td>
 
-<http://sourceforge.net/projects/efi-shell/files/documents/>
+[http://sourceforge.net/projects/efi-shell/files/documents/](http://sourceforge.net/projects/efi-shell/files/documents/)
 
 </td>
 
@@ -1408,7 +1403,7 @@ EFI Shell Getting Started Guide
 
 <td>
 
-<http://sourceforge.net/projects/efi-shell/files/>
+[http://sourceforge.net/projects/efi-shell/files/](http://sourceforge.net/projects/efi-shell/files/)
 
 </td>
 
@@ -1430,7 +1425,7 @@ HII spec
 
 <td>
 
-<http://www.intel.com/content/www/us/en/processors/itanium/efi-human-interface-infrastructure-specification-v092.html>
+[http://www.intel.com/content/www/us/en/processors/itanium/efi-human-interface-infrastructure-specification-v092.html](http://www.intel.com/content/www/us/en/processors/itanium/efi-human-interface-infrastructure-specification-v092.html)
 
 </td>
 
@@ -1450,7 +1445,7 @@ Intel Framework specs collection
 
 <td>
 
-<http://www.intel.com/content/www/us/en/architecture-and-technology/unified-extensible-firmware-interface/efi-specifications-general-technology.html>
+[http://www.intel.com/content/www/us/en/architecture-and-technology/unified-extensible-firmware-interface/efi-specifications-general-technology.html](http://www.intel.com/content/www/us/en/architecture-and-technology/unified-extensible-firmware-interface/efi-specifications-general-technology.html)
 
 </td>
 

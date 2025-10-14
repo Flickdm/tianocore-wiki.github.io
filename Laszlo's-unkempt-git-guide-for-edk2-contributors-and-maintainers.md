@@ -29,7 +29,7 @@ Contributor workflow
 2. <a name="contrib-02" href="#contrib-02">&sect;</a>
      Enable SSH authentication for your account.
 
-     <https://help.github.com/articles/generating-an-ssh-key/>
+     [https://help.github.com/articles/generating-an-ssh-key/](https://help.github.com/articles/generating-an-ssh-key/)
 
      When completing this step, you should end up with a new keypair
      under `~/.ssh/`, for example:
@@ -51,9 +51,9 @@ Contributor workflow
      Fork the following repository on GitHub into your own GitHub
      account, using the GitHub web GUI:
 
-       <https://github.com/tianocore/edk2/>
+       [https://github.com/tianocore/edk2/](https://github.com/tianocore/edk2/)
 
-     (My personal fork is at <https://github.com/lersek/edk2/>)
+     (My personal fork is at [https://github.com/lersek/edk2/](https://github.com/lersek/edk2/))
 
 4. <a name="contrib-04" href="#contrib-04">&sect;</a>
      Clone the official edk2 repository to your local computer:

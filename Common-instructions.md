@@ -7,11 +7,10 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: <a href="Build_Instructions" class="wikilink"
-title="Build Instructions">Build Instructions</a>
+New instructions: [Build Instructions](Build-Instructions.md)
 
 These instructions assume you have installed Linux packages required for
-an <a href="EDK_II" class="wikilink" title="EDK II">EDK II</a> build
+an [EDK II](EDK_II) build
 environment, including git (example:
 [16.04/16.10](https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC#Ubuntu_1604_LTS__Ubuntu_1610%7CUbuntu)).
 The following instructions are common to the majority of Linux
@@ -110,10 +109,9 @@ application:
 ### Build OVMF
 
 Once your build environment is set up you might be interested in
-<a href="How_to_build_OVMF" class="wikilink"
-title="building the OVMF platform">building the OVMF platform</a> which
+[building the OVMF platform](How_to_build_OVMF) which
 is included in the main
-<a href="EDK_II" class="wikilink" title="EDK II">EDK II</a> source tree.
-Since <a href="OVMF" class="wikilink" title="OVMF">OVMF</a> builds a
+[EDK II](EDK_II) source tree.
+Since [OVMF](OVMF) builds a
 full system firmware image, this may be of interest to UEFI system
 firmware developers.

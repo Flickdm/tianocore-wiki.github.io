@@ -3,8 +3,8 @@
 ## Beagle Board
 
 To find the latest instructions to build the BeagleBoard on Linux go to
-<a href="BeagleBoardPkg" class="wikilink" title=" this wikipage"> this
-wikipage</a>
+[ this
+wikipage](BeagleBoardPkg)
 
 ## Get the edk2 source tree and build BeagleBoardPkg in Windows® Cygwin Bash shell
 
@@ -218,11 +218,8 @@ also a way to recover the image if the NAND ever gets into a bad state.
 
 ## Put edk2 code in the Beagle Board DRAM using U-Boot
 
-See <a
-href="BeagleBoardPkg#Booting_EDK2_in_the_Beagle_Board_DRAM_using_U-Boot"
-class="wikilink"
-title=" Booting EDK2 in the Beagle Board DRAM using U-Boot"> Booting
-EDK2 in the Beagle Board DRAM using U-Boot</a>
+See [ Booting
+EDK2 in the Beagle Board DRAM using U-Boot](BeagleBoardPkg#Booting_EDK2_in_the_Beagle_Board_DRAM_using_U-Boot)
 
 ## Put edk2 code in the Beagle Board NAND using EBL
 
@@ -244,8 +241,8 @@ Use the EFI EBL to flash the image
 
 The Beagle Board does not implement PEI. SEC loads the DXE core
 directly. See the
-<a href="PI_Boot_Flow" class="wikilink" title="PI Boot Flow">PI Boot
-Flow</a> for an overview of PI booting.
+[PI Boot
+Flow](PI_Boot_Flow) for an overview of PI booting.
 
 **NAND FLASH Layout**
 The OMAP3530 used on the Beagle Board contains a mask ROM that initiates
@@ -344,8 +341,7 @@ should be in your path and you can use it to dump out the contents of a
 
 **Reset Vector**
 The OMAP 3530 mask ROM executes first and used the configuration headers
-found in <a href="#NAND_FLASH_Layout" class="wikilink"
-title="NAND FLASH Layout">NAND FLASH Layout</a> to turn on DRAM and
+found in [NAND FLASH Layout](#NAND_FLASH_Layout) to turn on DRAM and
 shadow the NAND FLASH image into memory at 0x80008208. Address 0x8008208
 is the beginning of the FVMAIN_COMPACT.Fv. An FV starts with a
 EFI_FIRMWARE_VOLUME_HEADER data structure. On the Beagle Board the first
@@ -551,8 +547,7 @@ dispatch order on the Beagle Board:
 
 ## How do I load symbols for debugging
 
-The <a href="#Beagle_Board_Boot_Flow" class="wikilink"
-title="Beagle Board Boot Flow">Beagle Board Boot Flow</a> section
+The [Beagle Board Boot Flow](#Beagle_Board_Boot_Flow) section
 describes how UEFI, and especially PI, boot by loading a series of
 PE/COFF images. A natural question to ask is how load symbols for a
 debugger, especially when you consider that EFI defaults to load images
@@ -849,5 +844,4 @@ The following is the first section of the PCD.log file:
 
 The UEFI PI specification utilizes some EFI concepts to define how to
 build modular chunks of code in various phases of the firmwares boot
-flow. Please see the <a href="UEFI_and_PI_Wiki" class="wikilink"
-title="UEFI and PI Wiki">UEFI and PI Wiki</a> for more information.
+flow. Please see the [UEFI and PI Wiki](UEFI_and_PI_Wiki) for more information.

@@ -1,9 +1,8 @@
 # ShellPkg Main Libraries
 
-There are 3 main <a href="EDK2_Libraries" class="wikilink"
-title="libraries">libraries</a> used by almost all shell commands and 2
+There are 3 main [libraries](EDK2_Libraries) used by almost all shell commands and 2
 of these are very usable by shell applications in the
-<a href="ShellPkg" class="wikilink" title="ShellPkg">ShellPkg</a>.
+[ShellPkg](ShellPkg).
 
 ## ShellLib
 
@@ -28,9 +27,8 @@ manipulating handles. This means things like
 fully usable only when linked within the shell binary and therefore only
 by internal shell commands. This provides extra features for internal
 commands. See
-<a href="Shell_Application_to_internal_command" class="wikilink"
-title="Shell Application to internal command">Shell Application to
-internal command</a>.
+[Shell Application to
+internal command](Shell.md).
 
 # ShellPkg Other Libraries
 

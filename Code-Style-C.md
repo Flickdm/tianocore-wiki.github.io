@@ -1,14 +1,12 @@
 # Code Style C
 
 This is just a brief overview of the C
-<a href="Code_Style" class="wikilink" title="Code Style">Code Style</a>
+[Code Style](Code_Style)
 used for our projects. The EDK II Project requires the use of
-<a href="uncrustify" class="wikilink"
-title="https://github.com/uncrustify/uncrustify"><span>https://github.com/uncrustify/uncrustify</span></a>
+[https://github.com/uncrustify/uncrustify](https://github.com/uncrustify/uncrustify)
 to automatically format C code to match the EDK II C Coding Standard.
 Details on how to install and run uncrustify for EDK II can be found at
-<a href="EDK_II_Code_Formatting" class="wikilink"
-title="EDK II Code Formatting">EDK II Code Formatting</a>.
+[EDK II Code Formatting](EDK_II_Code_Formatting).
 
 The official C Coding Standards specification can be found at:
 

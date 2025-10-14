@@ -5,18 +5,18 @@
 ### How is DSC different from DEC vs INF?
 
 The
-\[<https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications#dec>\|
+\[[https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications#dec](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications#dec)\|
 EDK II Declaration (DEC)\] file format supports the building, packaging,
 and distribution of EDK II modules. The
-\[<https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications#dsc>\|
+\[[https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications#dsc](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications#dsc)\|
 EDK II Platform Description file (DSC)\] format describes a platform,
 which is (basically) a collection of DSC files. The
-\[<https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications#inf>\|
+\[[https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications#inf](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications#inf)\|
 EDK II build information (INF)\] file format describes how to build a
 single EDK II component, which generates a .EFI file.
 
 For more info on DEC, please review the specification:
-<https://tianocore-docs.github.io/edk2-DecSpecification/draft/>
+[https://tianocore-docs.github.io/edk2-DecSpecification/draft/](https://tianocore-docs.github.io/edk2-DecSpecification/draft/)
 
 ### How many DEC and DSC files are in a build?
 

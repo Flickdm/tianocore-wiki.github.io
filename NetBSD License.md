@@ -5,7 +5,7 @@ netBSD License
 ------------------------------------------------------------------------
 
 This license follows the same terms and conditions as the BSD license
-which is also viewable at: <http://www.netbsd.org/>
+which is also viewable at: [http://www.netbsd.org/](http://www.netbsd.org/)
 
 BSD License from Intel
 

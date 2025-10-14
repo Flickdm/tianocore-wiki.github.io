@@ -1,6 +1,6 @@
 # EDK II Overview
 
-<a href="EDK_II" class="wikilink" title="EDK II">EDK II</a> was the
+[EDK II](EDK_II) was the
 response to the EFI community’s request for a better build and version
 tracking environment for UEFI and PI development. The main difference
 between the EDK II to the original EDK is the **Enhanced Build
@@ -25,8 +25,8 @@ and features in the EDK II, which have altered the environment. If you
 are familiar with the original EDK these changes will be obvious, while
 the benefits of them will be apparent to everyone. The new structure,
 along with package owners is documented in the
-<a href="EDKII_Packages" class="wikilink" title="EDKII Packages">EDKII
-Packages</a>.
+[EDKII
+Packages](EDKII_Packages).
 
 It is important to note, that the compiled results of the EDK II are
 equivalent to the original EDK, the changes are in the build environment

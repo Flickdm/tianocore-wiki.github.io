@@ -5,8 +5,8 @@ interface with the EDK II svn repository.
 
 If you do not have commit access, then you should instead just clone one
 of the git mirrors listed on the
-<a href="Source_Control" class="wikilink" title="Source Control">Source
-Control</a> page.
+[Source
+Control](Source_Control) page.
 
 ## git-svn Overview
 
@@ -28,7 +28,7 @@ time!):
     bash$ git svn clone -s https://svn.code.sf.net/p/edk2/code edk2
 
 You can also download a snapshot git-svn tree:
-<http://sourceforge.net/projects/edk2/files/Git/>
+[http://sourceforge.net/projects/edk2/files/Git/](http://sourceforge.net/projects/edk2/files/Git/)
 
 The snapshots are named edk2-git-svn-\*.zip. They contain the git
 repository along with the svn data.
@@ -80,4 +80,4 @@ Commit all of your changes to svn:
 
 ## See also
 
-- <a href="EDK2_git" class="wikilink" title="EDK2 git">EDK2 git</a>
+- [EDK2 git](EDK2_git)

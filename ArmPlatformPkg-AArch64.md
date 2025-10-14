@@ -102,7 +102,7 @@ You should get the binaries:
 
 ### Run Linux from UEFI on the Foundation FVP
 
-1\) Download the Foundation FVP: <http://www.arm.com/fvp>
+1\) Download the Foundation FVP: [http://www.arm.com/fvp](http://www.arm.com/fvp)
 
 Decompress the AArch64 Foundation FVP
 

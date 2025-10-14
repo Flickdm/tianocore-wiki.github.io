@@ -5,7 +5,7 @@
 This meeting is a chance for the TianoCore community to bring any initial design ideas and communicate those ideas to tech leaders and fellow developers. Please send any ideas you have for designs to our community manager (contact below).
 
 ## Design Documents
-<https://edk2.groups.io/g/devel/files/Designs>
+[https://edk2.groups.io/g/devel/files/Designs](https://edk2.groups.io/g/devel/files/Designs)
 
 ## How to Submit a Topic
 
@@ -17,11 +17,11 @@ Send an email to [the discuss list](mailto:discuss@edk2.groups.io) with
 
 Files relevant (PDF, doc, etc) can be uploaded here:
 
-<https://edk2.groups.io/g/devel/files/Designs>
+[https://edk2.groups.io/g/devel/files/Designs](https://edk2.groups.io/g/devel/files/Designs)
 
 The calendar event will be updated with design topics:
 
-<https://edk2.groups.io/g/devel/calendar>
+[https://edk2.groups.io/g/devel/calendar](https://edk2.groups.io/g/devel/calendar)
 
 A notice will then be sent to the group 1 day before the event with a list of all the topics.
 
@@ -29,7 +29,7 @@ A notice will then be sent to the group 1 day before the event with a list of al
 
 Please subscribe to the Groups.io calendar:
 
-<https://edk2.groups.io/g/devel/calendar>
+[https://edk2.groups.io/g/devel/calendar](https://edk2.groups.io/g/devel/calendar)
 
 ## Contact
 

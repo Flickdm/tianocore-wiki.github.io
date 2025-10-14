@@ -1,10 +1,9 @@
 # Python Tools
 
 The following tools are required for building
-<a href="edk2-buildtools" class="wikilink" title=" EDK II BaseTools">
-EDK II BaseTools</a> and instructions are provided in the
-<a href="BuildTool_Setup_Guide" class="wikilink"
-title="BuildTool Setup Guide">BuildTool Setup Guide</a>.
+[
+EDK II BaseTools](edk2-buildtools) and instructions are provided in the
+[BuildTool Setup Guide](BuildTool_Setup_Guide).
 
 # Resources
 

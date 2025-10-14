@@ -4,9 +4,8 @@
 II](http://www.tianocore.org/edk2/) project
 
 What are the
-<a href="Differences_between_UDK2010_and_EDK_II" class="wikilink"
-title="Differences between UDK2010 and EDK II">Differences between
-UDK2010 and EDK II</a>?
+[Differences between
+UDK2010 and EDK II](Differences_between_UDK2010_and_EDK_II)?
 
 If you have questions please email the [Edk2 Devel Mail
 list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2010.SR1%20Question) -
@@ -98,29 +97,25 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-<https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1>: r14385
+[https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1](https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1): r14385
 
-<https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/>: r73
+[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/): r73
 
 **How to Build**
 
-<a href="UDK2010.SR1.UP1_How-to-Build" class="wikilink"
-title=" How to Build"> How to Build</a> UDK2010.SR1.UP1.P1 Release
+[ How to Build](UDK2010.SR1.UP1_How-to-Build) UDK2010.SR1.UP1.P1 Release
 
 **Features Summary:** See [Release Notes
 Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download)
 
 **Supported OS and Build Environments**
 
-- <a href="Using_EDK_II_with_Native_GCC" class="wikilink"
-  title=" Using newer versions of Linux"> Using newer versions of
-  Linux</a>
-- <a href="Windows_systems" class="wikilink"
-  title="Windows systems">Windows systems</a>
-- <a href="Xcode" class="wikilink" title=" Xcode Mac OS X "> Xcode Mac OS
-  X </a>
-- <a href="Unix-like_systems" class="wikilink"
-  title="Unix-like systems">Unix-like systems</a> (For older Linux
+- [ Using newer versions of
+  Linux](Using-EDK-II-with-Native-GCC.md)
+- [Windows systems](Windows-systems.md)
+- [ Xcode Mac OS
+  X ](Xcode)
+- [Unix-like systems](Unix-like-systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
 </td>
@@ -182,9 +177,8 @@ What is it?
 
 <td>
 
-<a href="EDK_II_Specifications" class="wikilink"
-title=" UDK2010 SR1 UP1 EDK II v1.22 Errata B specifications"> UDK2010
-SR1 UP1 EDK II v1.22 Errata B specifications</a>
+[ UDK2010
+SR1 UP1 EDK II v1.22 Errata B specifications](EDK_II_Specifications)
 
 These documents describe the EDK II build information for the following
 (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata
@@ -268,7 +262,7 @@ UDK2010.SR1.UP1.P1 documents
 
 <td>
 
-The <a href="CryptoPkg" class="wikilink" title="CryptoPkg">CryptoPkg</a>
+The [CryptoPkg](CryptoPkg)
 Document Package Helper file. This Package provides
 cryptographic-related libraries for UEFI security modules.
 
@@ -298,8 +292,7 @@ cryptographic-related libraries for UEFI security modules.
 
 <td>
 
-The <a href="EdkCompatibilityPkg" class="wikilink"
-title="EdkCompatibilityPkg">EdkCompatibilityPkg</a> documents provide
+The [EdkCompatibilityPkg](EdkCompatibilityPkg) documents provide
 documentation on header files and libraries that enable you to build the
 EDK module in UEFI 2.0 + Framework 0.9x mode. This package also provides
 Thunk modules that enable Framework 0.9x modules to work with
@@ -331,8 +324,7 @@ UEFI2.3/PI1.2 EDK II Cores.
 
 <td>
 
-The <a href="IntelFrameworkModulePkg" class="wikilink"
-title="IntelFrameworkModulePkg">IntelFrameworkModulePkg</a> Document
+The [IntelFrameworkModulePkg](IntelFrameworkModulePkg) Document
 Package Helper file. This Package contains the definitions and module
 implementation which follows Intel EFI Framework Specification.
 
@@ -362,8 +354,7 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-`The`<a href="IntelFrameworkPkg" class="wikilink"
-title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
+`The`[IntelFrameworkPkg](IntelFrameworkPkg)`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
 
 </td>
 
@@ -391,8 +382,7 @@ title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package 
 
 <td>
 
-The <a href="MdeModulePkg" class="wikilink"
-title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This
+The [MdeModulePkg](MdeModulePkg) Document Package Helper file. This
 package provides the modules that conform to UEFI/PI Industry standards.
 It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and
 library classes) and libraries instances, which are used for those
@@ -430,7 +420,7 @@ modules
 
 <td>
 
-The <a href="MdePkg" class="wikilink" title="MdePkg">MdePkg</a> Document
+The [MdePkg](MdePkg) Document
 Package Helper file. This Package provides all definitions(including
 functions, MACROs, structures and library classes) and libraries
 instances, which are defined in MDE Specification. It also provides the
@@ -468,7 +458,7 @@ and some Industry Standards.
 <td>
 
 The
-<a href="NetworkPkg" class="wikilink" title="NetworkPkg">NetworkPkg</a>
+[NetworkPkg](NetworkPkg)
 Document Package Helper file. This package provides network modules that
 conform to UEFI 2.2 specification.
 
@@ -496,8 +486,7 @@ conform to UEFI 2.2 specification.
 
 <td>
 
-The <a href="SecurityPkg" class="wikilink"
-title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This
+The [SecurityPkg](SecurityPkg) Document Package Helper file. This
 package includes the security drivers, defintions(including
 PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances
 
@@ -528,8 +517,7 @@ Previous UDK2010 Releases
 
 <td>
 
-See <a href="Previous_UDK2010_Releases" class="wikilink"
-title=" Previous UDK2010 Menu"> Previous UDK2010 Menu</a>
+See [ Previous UDK2010 Menu](Previous_UDK2010_Releases)
 
 ------------------------------------------------------------------------
 
@@ -593,9 +581,7 @@ What’s in the Download?
 
 <td>
 
-<a href="Driver_Developer" class="wikilink"
-title=" Go to Driver Dev Page"> <strong>Go to Driver Dev
-Page</strong></a>
+[**Go to Driver Dev Page**](Driver_Developer)
 
 </td>
 
@@ -603,8 +589,7 @@ Page</strong></a>
 
 UEFI Driver Writer's Wizard and the UEFI Driver Writer's Guide supports
 UEFI 3.2.1 version of the Specification. See the
-<a href="Driver_Developer" class="wikilink"
-title="Driver_Developer">Driver_Developer</a> page for more resources
+[Driver_Developer](Driver_Developer) page for more resources
 for UEFI Driver Writers Resources
 
 </td>
@@ -631,9 +616,9 @@ Guide](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packi
 
 Intel® UEFI Packaging Tool is used to create, install or remove a UEFI
 Distribution Package. The .Zip includes bin UPT.exe from
-<http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32>
+[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32)
 and Manual Documentation from
-<http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals>
+[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals)
 plus the Quick Start Guide
 
 </td>
@@ -663,12 +648,12 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 <td>
 
 EDK II Application Development Kit
-<a href="EDKII_EADK" class="wikilink" title=" (EADK)"> (EADK)</a> Alpha
+[ (EADK)](EDKII_EADK) Alpha
 2 Release Package incorporates using the Standard C Library components.
 Include these into standard "C" applications. See the AppPkg for "Hello
 World" example
 
-- Based on SVN <http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2>
+- Based on SVN [http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2)
   r11577
 
 </td>
@@ -677,12 +662,11 @@ World" example
 
 Packages Included in zip
 
-<a href="AppPkg" class="wikilink" title="AppPkg">AppPkg</a>
+[AppPkg](AppPkg)
 
-<a href="StdLib" class="wikilink" title="StdLib">StdLib</a>
+[StdLib](StdLib)
 
-<a href="StdLibPrivateInternalFiles" class="wikilink"
-title="StdLibPrivateInternalFiles">StdLibPrivateInternalFiles</a>
+[StdLibPrivateInternalFiles](StdLib.md)
 
 </td>
 
@@ -695,8 +679,7 @@ title="StdLibPrivateInternalFiles">StdLibPrivateInternalFiles</a>
 [UEFI Shell 2.0 Pkg
 .zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
 
-<a href="ShellPkg#Shell_2.0_Engineering_Resources" class="wikilink"
-title=" Shell 2.0 Documentation"> Shell 2.0 Documentation</a>
+[ Shell 2.0 Documentation](ShellPkg#Shell_2.0_Engineering_Resources)
 
 </td>
 
@@ -704,23 +687,21 @@ title=" Shell 2.0 Documentation"> Shell 2.0 Documentation</a>
 
 EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 -
 Verified and tested SVN Rersion:
-<https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg>
+[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg)
 r11566
 
 This release is the implmentation sources for the UEFI Shell
-Specification 2.0. Please see <http://www.uefi.org> to download this
+Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
 specification
 
-See <a
-href="Shell_FAQ#How_do_you_add_the_new_UEFI_Shell_2.0_to_the_Nt32_in_the_UDK2010.SR1"
-class="wikilink" title=" How to include UEFI Shell 2.0 into .DSC file">
-How to include UEFI Shell 2.0 into .DSC file</a>
+See [
+How to include UEFI Shell 2.0 into .DSC file](Shell_FAQ#How_do_you_add_the_new_UEFI_Shell_2.0_to_the_Nt32_in_the_UDK2010.SR1)
 
 </td>
 
 <td>
 
-<a href="ShellPkg" class="wikilink" title="ShellPkg">ShellPkg</a> .zip
+[ShellPkg](ShellPkg) .zip
 Package
 
 </td>
@@ -733,13 +714,12 @@ Package
 
 # UDK2010 More Info
 
-EDK II More info: <a href="Getting_Started_with_EDK_II" class="wikilink"
-title="Getting Started for Developers">Getting Started for
-Developers</a>,
-<a href="EDK_II_Overview" class="wikilink" title="EDK II Overview">EDK
-II Overview</a>,
-<a href="EDKII_Packages" class="wikilink" title="EDKII Packages">EDKII
-Packages</a>
+EDK II More info: [Getting Started for
+Developers](Getting_Started_with_EDK_II),
+[EDK
+II Overview](EDK_II_Overview),
+[EDKII
+Packages](EDKII_Packages)
 
 UEFI Developers Kit 2010 (UDK2010). The UDK2010 is the EDKII support for
 all currently published [UEFI specifications](http://www.uefi.org)
@@ -761,4 +741,4 @@ For quick reference, here are the links to the latest packages:
   Manual](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/EDKII_UserManual_0_7.pdf/download)
 
 - The Intel(R) UDK Debugger Tool and its detailed user manual may be
-  obtained from <http://www.intel.com/technology/efi>
+  obtained from [http://www.intel.com/technology/efi](http://www.intel.com/technology/efi)

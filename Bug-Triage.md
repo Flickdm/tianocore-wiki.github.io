@@ -12,7 +12,7 @@ GitHub Project Issues with label needs-triage
 
 Please subcribe to the Groups.io calendar:
 
-<https://edk2.groups.io/g/devel/calendar>
+[https://edk2.groups.io/g/devel/calendar](https://edk2.groups.io/g/devel/calendar)
 
 ## Contact
 
@@ -25,15 +25,15 @@ Please email [the list](mailto:discuss@edk2.groups.io) with bugs / features that
 **Every Other Friday at 8:00am in Shanghai (Thursday at 17:00 PDT)**
 
 For more info please see:
-<https://www.tianocore.org/bug-triage>
+[https://www.tianocore.org/bug-triage](https://www.tianocore.org/bug-triage)
 
 To join the meeting on a computer or mobile phone:
-<https://bluejeans.com/889357567?src=calendarLink>
+[https://bluejeans.com/889357567?src=calendarLink](https://bluejeans.com/889357567?src=calendarLink)
 
 Phone Dial-in
 +1.408.740.7256 (US (San Jose))
 +1.408.317.9253 (US (Primary, San Jose))
-Global Numbers: <https://www.bluejeans.com/numbers>
+Global Numbers: [https://www.bluejeans.com/numbers](https://www.bluejeans.com/numbers)
 
 Meeting ID: 889 357 567
 
@@ -43,4 +43,4 @@ Room System
 Meeting ID: 889 357 567
 
 Want to test your video connection?
-<https://bluejeans.com/111>
+[https://bluejeans.com/111](https://bluejeans.com/111)

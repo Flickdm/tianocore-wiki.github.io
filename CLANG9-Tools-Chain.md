@@ -6,7 +6,7 @@ CLANGPDB tool chain is added to directly generate PE/COFF image (EFI image).
 This tool chain uses LLVM clang C compiler and lld linker, generates PE/COFF
 image and PDB compatible debug symbol format. Now, it supports IA32/X64 Archs.
 It must use LLVM 9 or above release. LLVM 9 is ready on
-<http://releases.llvm.org/download.html#9.0.0>.
+[http://releases.llvm.org/download.html#9.0.0](http://releases.llvm.org/download.html#9.0.0).
 
 CLANGPDB is the cross OS tool chain. It can work on Windows/Linux/Mac.
 For the same source code, with the same version LLVM tool chain,
@@ -44,11 +44,11 @@ OVMF IA32/IA32X64 all boots to Shell on Windows/Linux/Mac OS.
 Emulator can boot to Shell on Windows only with CLANGPDB.
 Emulator build with -DWIN_HOST_BUILD=TRUE -t CLANGPDB on Windows OS.
 OVMF IA32X64 RELEASE build generates the same BIOS images on Windows/Linux/Mac OS.
-OVMF X64 boot issue is tracked on <https://github.com/tianocore/edk2/issues/8092>
+OVMF X64 boot issue is tracked on [https://github.com/tianocore/edk2/issues/8092](https://github.com/tianocore/edk2/issues/8092)
 
 ## Cross OS/Host Reproducible Build
 
-We enabled the reporducible build (<https://reproducible-builds.org/>) recently
+We enabled the reporducible build ([https://reproducible-builds.org/](https://reproducible-builds.org/)) recently
 for edk2 MSVC and GCC/CLANG toolchains. And now we go further, CLANGPDB is the first
 Uefi toolchain to support "Cross OS/Host Reproducible Build", which is to generate
 exactly same firmware release binary across different operating systems.

@@ -1,9 +1,9 @@
 # How to report a Security Issue
 
 **NOTE**
-The latest tracking and update of security issues for EDKII can be found at (<https://github.com/tianocore/tianocore.github.io/wiki/GHSA-GitHub-Security-Advisories-Proceess>).
+The latest tracking and update of security issues for EDKII can be found at ([https://github.com/tianocore/tianocore.github.io/wiki/GHSA-GitHub-Security-Advisories-Proceess](https://github.com/tianocore/tianocore.github.io/wiki/GHSA-GitHub-Security-Advisories-Proceess)).
 
-At present the repository tracked by Tianocore Infosec includes the main EDKII repository (<https://github.com/tianocore/edk2>). For issues found in repos like (<https://github.com/tianocore/edk2-platforms>) recommend reaching out to the respective component who is named in the subdirectory - you can find a list of relevant companies in this domain at (<https://uefi.org/security>), for example.
+At present the repository tracked by Tianocore Infosec includes the main EDKII repository ([https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)). For issues found in repos like ([https://github.com/tianocore/edk2-platforms](https://github.com/tianocore/edk2-platforms)) recommend reaching out to the respective component who is named in the subdirectory - you can find a list of relevant companies in this domain at ([https://uefi.org/security](https://uefi.org/security)), for example.
 
 Also, it is encouraged to attach a patch that mitigates the issues with the bug report, if possible.
 
@@ -19,7 +19,7 @@ If you are interested in being involved in the evaluation of Tianocore Security 
 
 Also, Tianocore Infosec team members should only share details of unmitigated issues within the draft GHSA. Any sharing of unmitigated issues on un-encrypted email or open source prior to embargo expiry may lead to removal from the Infosec group.
 
-Now that Tianocore is a CNA <https://cve.mitre.org/cve/cna.html>, namely <https://www.cvedetails.com/product/64326/Tianocore-Edk2.html?vendor_id=19679>, CVE issuance will be a “Must” for Tianocore content and “May” for downstream derivatives of Tianocore (open or closed). We request that the reporter perform the initial CVSS calculation.  Recommend using <https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L>. If reporter doesn’t wish to grade, then Infosec will propose a grade and share w/ reporter prior to applying the grading.
+Now that Tianocore is a CNA [https://cve.mitre.org/cve/cna.html](https://cve.mitre.org/cve/cna.html), namely [https://www.cvedetails.com/product/64326/Tianocore-Edk2.html?vendor_id=19679](https://www.cvedetails.com/product/64326/Tianocore-Edk2.html?vendor_id=19679), CVE issuance will be a “Must” for Tianocore content and “May” for downstream derivatives of Tianocore (open or closed). We request that the reporter perform the initial CVSS calculation.  Recommend using [https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L). If reporter doesn’t wish to grade, then Infosec will propose a grade and share w/ reporter prior to applying the grading.
 
 The Tianocore Infosec team uses the following flow to evaluate items
 ![](https://github.com/jwang36/tianocore.github.io/raw/master/security/flowchart.svg?sanitize=true)

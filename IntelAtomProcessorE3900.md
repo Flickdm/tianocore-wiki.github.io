@@ -14,8 +14,8 @@ This project is open source UEFI firmware, based on the TianoCore EDK II codebas
 
 Developers can download pre-built UEFI firmware images, utilities, binary object modules, and project release notes. The open source firmware project is available from the TianoCore GitHub:
 
-* <https://github.com/tianocore/edk2-platforms/tree/devel-IntelAtomProcessorE3900>
-* <https://software.intel.com/en-us/articles/uefi-firmware-project-for-intel-atom-processor-e3900-series-processor-platforms>
+* [https://github.com/tianocore/edk2-platforms/tree/devel-IntelAtomProcessorE3900](https://github.com/tianocore/edk2-platforms/tree/devel-IntelAtomProcessorE3900)
+* [https://software.intel.com/en-us/articles/uefi-firmware-project-for-intel-atom-processor-e3900-series-processor-platforms](https://software.intel.com/en-us/articles/uefi-firmware-project-for-intel-atom-processor-e3900-series-processor-platforms)
 
 ## Reporting Firmware Issues
 
@@ -41,7 +41,7 @@ _**NOTE:** The firmware provided by this project for the UP Squared maker board 
 More Info:
 
 * [BIOS chip flashing on UP Squared](https://wiki.up-community.org/BIOS_chip_flashing_on_UP_Squared) - Information for using a SPI programmer to apply a new firmware image (factory image or custom image)
-* Product Info: <http://www.up-board.org/upsquared/> & <http://www.up-china.net/>
+* Product Info: [http://www.up-board.org/upsquared/](http://www.up-board.org/upsquared/) & [http://www.up-china.net/](http://www.up-china.net/)
 
 ### MinnowBoard 3 Module
 

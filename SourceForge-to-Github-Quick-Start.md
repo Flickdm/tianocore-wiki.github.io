@@ -3,7 +3,7 @@
 GitHub Help
 ===========
 
-GitHub (<https://help.github.com/index.html>) provides step-by-step
+GitHub ([https://help.github.com/index.html](https://help.github.com/index.html)) provides step-by-step
 instructions for user registration and basic features supported by
 GitHub.
 
@@ -11,17 +11,17 @@ GitHub.
 --------------------------------------
 
 The EDK II project repository is available at
-<https://github.com/tianocore/edk2>.
+[https://github.com/tianocore/edk2](https://github.com/tianocore/edk2).
 
 Prebuilt Windows tools are available at
-<https://github.com/tianocore/edk2-BaseTools-win32>.
+[https://github.com/tianocore/edk2-BaseTools-win32](https://github.com/tianocore/edk2-BaseTools-win32).
 
 Please note that FatPkg is now included in the EDKII project repository, as of April 2016.
 Previously the FatPkg was in an independent repository which can be found at
-<https://github.com/tianocore/edk2-FatPkg>.
+[https://github.com/tianocore/edk2-FatPkg](https://github.com/tianocore/edk2-FatPkg).
 
 Content that is not released under an accepted open source license can
-be found at <https://github.com/tianocore/edk2-non-osi>.
+be found at [https://github.com/tianocore/edk2-non-osi](https://github.com/tianocore/edk2-non-osi).
 
 **How to Setup the EDK II Tree**
 --------------------------------
@@ -37,7 +37,7 @@ Multiple Workspace feature can be found at the following location.
 #### For EDKII project developers
 
 - Clone the EDK II project repository
-  - git clone <https://github.com/tianocore/edk2>
+  - git clone [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 - Change to the edk2 directory
 - Build the tools
   - make -C BaseTools
@@ -52,9 +52,9 @@ code development.
 - Create a workspace directory
 - Change to the workspace directory
 - Clone the EDK II project repository
-  - git clone <https://github.com/tianocore/edk2>
+  - git clone [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 - Clone the edk2-FatPkg repository to “FatPkg”
-  - git clone <https://github.com/tianocore/edk2-FatPkg> FatPkg
+  - git clone [https://github.com/tianocore/edk2-FatPkg](https://github.com/tianocore/edk2-FatPkg) FatPkg
 - Build the tools
   - make -C edk2/BaseTools
 - Set environment variables
@@ -87,9 +87,9 @@ When the above steps are done, the directory structure will look like:
 - Create a workspace directory
 - Change to the workspace directory
 - Clone the EDK II project repository
-  - git clone <https://github.com/tianocore/edk2>
+  - git clone [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 - Clone the edk2-BaseTools-win32 repository
-  - git clone <https://github.com/tianocore/edk2-BaseTools-win32>
+  - git clone [https://github.com/tianocore/edk2-BaseTools-win32](https://github.com/tianocore/edk2-BaseTools-win32)
 - Set environment variables:
   - EDK\_TOOLS\_BIN – Set it as the edk2-BaseTools-win32 directory
 
@@ -114,11 +114,11 @@ When the above steps are done, the directory structure will look like:
 - Create a workspace directory
 - Change to the workspace directory
 - Clone the EDK II project repository
-  - git clone <https://github.com/tianocore/edk2>
+  - git clone [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 - Clone the edk2-BaseTools-win32 repository
-  - git clone <https://github.com/tianocore/edk2-BaseTools-win32>
+  - git clone [https://github.com/tianocore/edk2-BaseTools-win32](https://github.com/tianocore/edk2-BaseTools-win32)
 - Clone the edk2-FatPkg repository to “FatPkg”
-  - git clone <https://github.com/tianocore/edk2-FatPkg> FatPkg
+  - git clone [https://github.com/tianocore/edk2-FatPkg](https://github.com/tianocore/edk2-FatPkg) FatPkg
 - Set environment variables:
   - WORKSPACE – The workspace directory created above
   - PACKAGES\_PATH – Set it to %WORKSPACE%\\edk2

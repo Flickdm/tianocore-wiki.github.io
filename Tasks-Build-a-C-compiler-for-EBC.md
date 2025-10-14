@@ -33,14 +33,14 @@ Building: This project should ideally support all edk2 supported OSes when it is
 
 # Links for More Information
 
-* <https://github.com/yabits/llvm/tree/retrage/ebc>
-* <https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html>
-* <https://speakerdeck.com/retrage/llvm-backend-development-for-efi-byte-code>
-* <http://vzimmer.blogspot.com/2015/08/efi-byte-code.html>
-* <https://github.com/tianocore/edk2/tree/master/EmulatorPkg>
-* <https://github.com/yabits/ebcvm>
-* <https://github.com/pbatard/fasmg-ebc>
-* <https://github.com/retrage/elvm/tree/retrage/ebc-v2>
+* [https://github.com/yabits/llvm/tree/retrage/ebc](https://github.com/yabits/llvm/tree/retrage/ebc)
+* [https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html](https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html)
+* [https://speakerdeck.com/retrage/llvm-backend-development-for-efi-byte-code](https://speakerdeck.com/retrage/llvm-backend-development-for-efi-byte-code)
+* [http://vzimmer.blogspot.com/2015/08/efi-byte-code.html](http://vzimmer.blogspot.com/2015/08/efi-byte-code.html)
+* [https://github.com/tianocore/edk2/tree/master/EmulatorPkg](https://github.com/tianocore/edk2/tree/master/EmulatorPkg)
+* [https://github.com/yabits/ebcvm](https://github.com/yabits/ebcvm)
+* [https://github.com/pbatard/fasmg-ebc](https://github.com/pbatard/fasmg-ebc)
+* [https://github.com/retrage/elvm/tree/retrage/ebc-v2](https://github.com/retrage/elvm/tree/retrage/ebc-v2)
 
 # Further Discussion
 

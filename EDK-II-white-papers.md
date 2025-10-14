@@ -2,8 +2,7 @@
 
 This page contains a list of White papers and technical documents in
 chronological order
-Check <a href="EDK_II_Security_White_Papers" class="wikilink"
-title="EDK II Security White Papers">EDK II Security White Papers</a>
+Check [EDK II Security White Papers](EDK_II_Security_White_Papers)
 for documents on security
 
 <div class="t_projects">
@@ -195,7 +194,7 @@ service from executing code from a non-executable memory region. This
 helps prevent certain exploits that store code via a buffer overflow.
 
 In the White paper \[
-<https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_Securiy_Enhancement_to_Mitigate_Buffer_Overflow_in_UEFI.pdf>
+[https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_Securiy_Enhancement_to_Mitigate_Buffer_Overflow_in_UEFI.pdf](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_Securiy_Enhancement_to_Mitigate_Buffer_Overflow_in_UEFI.pdf)
 A Tour Beyond BIOS-Security Enhancement to Mitigate Buffer Overflow\]
 below, we only discussed the DEP for protecting the stack and setting
 the not-present page for detecting \`NULL\` address accesses and as the
@@ -514,7 +513,7 @@ or
 Paper](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf)
 This document provides an overview of the implementation and intent
 behind the UEFI Secure Boot feature and capability of UEFI
-Specification, Version 2.3.1C, <http://www.uefi.org>
+Specification, Version 2.3.1C, [http://www.uefi.org](http://www.uefi.org)
 
 The goal of the paper is to provide
 

@@ -1,6 +1,6 @@
 # Shell FAQ
 
-<a href="shell" class="wikilink" title="shell">shell</a>
+[shell](shell)
 
 Shell questions
 

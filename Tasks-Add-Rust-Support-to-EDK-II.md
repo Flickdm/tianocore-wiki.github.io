@@ -18,7 +18,7 @@ However, most firmware development use cases don't need a full implementation of
 
 # Existing Work
 
-[@jyao1](https://github.com/jyao1) made an initial effort to build EDK II Rust support, though it is not fully complete. His work in progress is available on edk2-staging: <https://github.com/tianocore/edk2-staging/tree/edkii-rust>
+[@jyao1](https://github.com/jyao1) made an initial effort to build EDK II Rust support, though it is not fully complete. His work in progress is available on edk2-staging: [https://github.com/tianocore/edk2-staging/tree/edkii-rust](https://github.com/tianocore/edk2-staging/tree/edkii-rust)
 
 Unfortunately the rust-osdev [uefi-rs](https://github.com/rust-osdev/uefi-rs) implementation is released under the MPL, which is a weak copyleft license and is not compatible with TianoCore's BSD+Patent licensing. Accordingly, you will need to ***NOT*** read that code at all to make sure that that TianoCore's BSD licensing is not tainted.
 
@@ -28,8 +28,8 @@ Building: This project should ideally support all edk2 supported OSes and toolch
 
 # Links for More Information
 
-* <https://github.com/tianocore/edk2-staging/tree/edkii-rust>
-* <https://www.rust-lang.org/>
+* [https://github.com/tianocore/edk2-staging/tree/edkii-rust](https://github.com/tianocore/edk2-staging/tree/edkii-rust)
+* [https://www.rust-lang.org/](https://www.rust-lang.org/)
 
 # Further Discussion
 

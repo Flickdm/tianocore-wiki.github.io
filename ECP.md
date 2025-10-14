@@ -34,10 +34,9 @@ phase.
 
 There is currently not any Documented ECP guide but the help (.chm and
 .html) files for the package are on tianocore.org: Latest release will
-be on <a href="UDK2010" class="wikilink" title="UDK2010">UDK2010</a>
+be on [UDK2010](UDK2010)
 under the Documents Section of the latest release for the
-<a href="EdkCompatibilityPkg" class="wikilink"
-title="EdkCompatibilityPkg">EdkCompatibilityPkg</a>
+[EdkCompatibilityPkg](EdkCompatibilityPkg)
 
 ### What are Native and ECP? And what is different about the EDK II libraries?
 

@@ -1,33 +1,31 @@
 # UEFI PI FAQ
 
-More information: <a href="UEFI-and-PI-Wiki" class="wikilink"
-title="UEFI-and-PI-Wiki">UEFI-and-PI-Wiki</a> \|
-<a href="PI_Boot_Flow" class="wikilink" title="PI Boot Flow">PI Boot
-Flow</a> \| <a href="PI" class="wikilink" title="PI">PI</a>
+More information: [UEFI-and-PI-Wiki](UEFI-and-PI-Wiki) \|
+[PI Boot
+Flow](PI_Boot_Flow) \| [PI](PI)
 
 **Frequently asked Questions about UEFI/PI**
 
-<a href="Build" class="wikilink" title="Build">Build</a> questions
+[Build](Build) questions
 
-<a href="Depex_FAQ" class="wikilink" title="Depex FAQ">Depex FAQ</a>
+[Depex FAQ](Depex_FAQ)
 questions
 
-<a href="GPT_FAQ" class="wikilink" title="GPT FAQ">GPT FAQ</a> questions
+[GPT FAQ](GPT_FAQ) questions
 
-<a href="GUID_FAQ" class="wikilink" title="GUID FAQ">GUID FAQ</a>
+[GUID FAQ](GUID_FAQ)
 questions
 
-<a href="HII" class="wikilink" title="HII">HII</a> questions
+[HII](HII) questions
 
-<a href="PEI" class="wikilink" title="PEI">PEI</a> questions
+[PEI](PEI) questions
 
-<a href="Shell_FAQ" class="wikilink" title="Shell">Shell</a> questions
+[Shell](Shell.md) questions
 
-<a href="UEFI_application" class="wikilink"
-title="UEFI application">UEFI application</a> questions
+[UEFI application](UEFI_application) questions
 
-<a href="UEFI_Drivers" class="wikilink" title="UEFI Drivers">UEFI
-Drivers</a>
+[UEFI
+Drivers](UEFI.md)
 
 ### It seems as though UEFI is revolutionary given the scope of changes from legacy BIOS
 
@@ -57,7 +55,7 @@ Currently over 50% maybe somewhere above 70% as of 2010
 
 Yes, the UEFI SCT User Guide has a section (5.3) on how to add test
 cases to the SCT. The SCT releases can be downloaded from
-<http://uefi.org>
+[http://uefi.org](http://uefi.org)
 
 ### Who defines Protocols?
 
@@ -97,7 +95,7 @@ designed and implemented, it may be cross compiled to EBC. There are
 some compatibility issues that the UEFI driver writer must be aware of
 in order to implement a UEFI driver is C that is compatible with native
 mode compilers as well as the EBC compiler. Chapter 19 of the EFI Driver
-Writers Guide at <http://developer.intel.com/technology/efi/dg.htm>
+Writers Guide at [http://developer.intel.com/technology/efi/dg.htm](http://developer.intel.com/technology/efi/dg.htm)
 describes the porting considerations when using the EBC compiler.
 
 ### Can you show the control flow from power-on to OS boot?
@@ -343,8 +341,8 @@ UEFI and OS need to be in the same mode—32 bit or 64 bit
 ### Any formal forum?
 
 Yes, Join the Sourceforge and sign up for the developer for EDK II.
-<https://sourceforge.net/projects/edk2/develop> and subscribe to the
-mailing lists. Get involved with the UEFI Forum at <http://www.uefi.org>
+[https://sourceforge.net/projects/edk2/develop](https://sourceforge.net/projects/edk2/develop) and subscribe to the
+mailing lists. Get involved with the UEFI Forum at [http://www.uefi.org](http://www.uefi.org)
 
 ### Given a FV / ROM image is there tools to find out the layout and they way they are packed?
 

@@ -2,8 +2,7 @@
 
 <div class="t_projects">
 
-current <a href="EDK_II_Specifications" class="wikilink"
-title="EDK II Specifications">EDK II Specifications</a>
+current [EDK II Specifications](EDK_II_Specifications)
 
 <table>
 

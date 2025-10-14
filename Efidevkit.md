@@ -1,18 +1,17 @@
 # EFI Dev Kit
 
 <b><i>Note: EDK has been deprecated. Please refer to
-<a href="EDK_II" class="wikilink" title="EDK II">EDK II</a> for the
+[EDK II](EDK_II) for the
 latest information. This page is maintained for historical purposes and
 will be archived in a future site update.</i></b>
 
 The **EDK** is the open-source component of the "Framework", Intel's
 implementation of the EFI Specification, which was developed under the
 project codenamed "Tiano". The EDK was released under the
-<a href="BSD_License" class="wikilink" title="BSD License">BSD
-License</a>. Refer to the
-<a href="FAQ#EDK_and_Fat-Driver_Projects_FAQ" class="wikilink"
-title="EDK section of the EFI and Framework Open Source FAQs">EDK
-section of the EFI and Framework Open Source FAQs</a> for a full
+[BSD
+License](BSD_License). Refer to the
+[EDK
+section of the EFI and Framework Open Source FAQs](EDK.md) for a full
 explanation of how the EDK relates to the EFI effort.
 
 **Working with the EDK**
@@ -32,8 +31,8 @@ the Intel website. To learn more about the EDK codebase see the [EDK
 Module Structure
 Explained](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Modules).
 
-- Developer page: <http://sourceforge.net/projects/efidevkit/develop>
-- EDK Files page: <http://sourceforge.net/projects/efidevkit/files>
+- Developer page: [http://sourceforge.net/projects/efidevkit/develop](http://sourceforge.net/projects/efidevkit/develop)
+- EDK Files page: [http://sourceforge.net/projects/efidevkit/files](http://sourceforge.net/projects/efidevkit/files)
 
 <div class="t_projects">
 
@@ -343,15 +342,14 @@ Fix to the Undi EDK Intel(R) PRO/1000 Network Driver
 
 </div>
 
-<a href="Previous_EDK_and_Shell_Releases" class="wikilink"
-title="Previous EDK and Shell Releases">Previous EDK and Shell
-Releases</a>
+[Previous EDK and Shell
+Releases](Previous_EDK_and_Shell_Releases)
 
 **Sub Projects**
 
-<a href="Edk-apps" class="wikilink" title="edk-apps">edk-apps</a>
+[edk-apps](Edk-apps)
 
-<a href="Network-io" class="wikilink" title="network-io">network-io</a>
+[network-io](Network-io)
 
 License information:
 [BSD](http://www.opensource.org/licenses/bsd-license.php)
@@ -368,8 +366,8 @@ Project owner(s): ,
 
 **Project Points of Contact**
 
-- <a href="modules" class="wikilink" title="EDK Module Owners">EDK Module
-  Owners</a>
+- [EDK Module
+  Owners](modules)
 
 **Useful Links**
 

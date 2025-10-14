@@ -4,8 +4,7 @@
 
 ### Outdated
 
-Please see the updated page <a href="UefiPayloadpkg" class="wikilink"
-title="UefiPayloadpkg">UefiPayloadpkg</a> that replaces the
+Please see the updated page [UefiPayloadpkg](UefiPayloadpkg) that replaces the
 CorebootModulePkg and CorebootPayloadPkg
 
 ### Coreboot
@@ -19,7 +18,7 @@ run directly from firmware, run operating systems in flash, load custom
 bootloaders, or implement firmware standards, like PC BIOS services or
 UEFI. This allows for systems to only include the features necessary in
 the target application, reducing the amount of code and flash space
-required. <http://www.coreboot.org/>
+required. [http://www.coreboot.org/](http://www.coreboot.org/)
 
 ### Coreboot Payload Package
 
@@ -33,7 +32,7 @@ Modules, Provides definitions of payload image's layout and lists the
 modules required in DSC file.
 
 **Build Instructions**:
-<https://github.com/tianocore/edk2/raw/master/CorebootPayloadPkg/BuildAndIntegrationInstructions.txt>
+[https://github.com/tianocore/edk2/raw/master/CorebootPayloadPkg/BuildAndIntegrationInstructions.txt](https://github.com/tianocore/edk2/raw/master/CorebootPayloadPkg/BuildAndIntegrationInstructions.txt)
 
 ### Intel® Firmware Support Package
 
@@ -45,7 +44,7 @@ initialization steps as documented in the BWG / BIOS Specification
 including initialization of the CPU, memory controller, chipset and
 certain bus interfaces, if necessary. The FSP provides chipset and
 processor initialization in a format that can easily be incorporated
-into many boot loaders including coreboot. <http://www.intel.com/fsp>
+into many boot loaders including coreboot. [http://www.intel.com/fsp](http://www.intel.com/fsp)
 
 ### Payload
 
@@ -53,7 +52,7 @@ Coreboot in itself is "only" minimal code for initializing hardware. It
 does not have the media drivers nor does it provide services required by
 an OS. After the initialization, it jumps to a payload which can provide
 services required to load and boot an OS.
-<http://www.coreboot.org/Payloads>
+[http://www.coreboot.org/Payloads](http://www.coreboot.org/Payloads)
 
 <img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Coreboot001.jpg" >
 

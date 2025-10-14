@@ -4,8 +4,7 @@
 `view the new set of build instructions that describe how to develop using containers and build with the Stuart`
 `application.`
 
-New instructions: <a href="Build_Instructions" class="wikilink"
-title="Build Instructions">Build Instructions</a>
+New instructions: [Build Instructions](Build-Instructions.md)
 
 ## Regarding the Build for EDK II, how do you specify a different compiler tool chain on the command line?
 
@@ -15,8 +14,7 @@ Visual Studio 2019 tool chain ...
 `build –t VS2019`
 
 For using other tools see
-<a href="Getting_Started_with_EDK_II" class="wikilink"
-title="Getting_Started_with_EDK_II">Getting_Started_with_EDK_II</a>.
+[Getting_Started_with_EDK_II](Getting_Started_with_EDK_II).
 This provides some detailed instructions for setting up some different
 tool chains? The file Conf/tools_def.txt contains a list of targets.
 
@@ -32,10 +30,8 @@ options.
 For EDK II, yes, the build tools will need to be recompiled for GCC.
 Link for how to Build for GCC:
 
-- <a href="Using_EDK_II_with_Native_GCC" class="wikilink"
-  title="Using EDK II with Native GCC">Using EDK II with Native GCC</a>
-- <a href="Unix-like_systems" class="wikilink"
-  title="Unix-like systems">Unix-like systems</a> (For older Linux
+- [Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
+- [Unix-like systems](Unix-like-systems.md) (For older Linux
   distributions, or when using Cygwin or Mac OS X)
 
 ## What does the parsing tool do?
@@ -78,7 +74,7 @@ Linux, Unix, and OS/X systems, these sources are used to build the
 binaries for that OS, or in the case of Python, the Python sources are
 executed directly.
 
-The <a href="BaseTools" class="wikilink" title="BaseTools">BaseTools</a>
+The [BaseTools](BaseTools)
 Source Project is where advanced development is done on the EDK II
 tools. Tool developers work in this separate project until a new feature
 is stable, and only once it is stable is a feature added to the
@@ -161,7 +157,7 @@ for the error level PcdDebugPrintErrorLevel
 ## How does the build tool load the reset vector at 0xFFFFFFF0?
 
 This is defined in the PI Specification, Volume 3.
-<http://www.uefi.org/specs>
+[http://www.uefi.org/specs](http://www.uefi.org/specs)
 
 In the FV (Firmware Volume) there is something called a Volume Top File
 inf the FV . A Volume Top File (VTF) is a file that must be located such
@@ -174,7 +170,7 @@ you look at the VTF file it is basically the code that contains the
 reset vector, and it jumps to the SEC code.
 
 Reference:
-<https://github.com/tianocore/edk2/tree/master/UefiCpuPkg/ResetVector/Vtf0>
+[https://github.com/tianocore/edk2/tree/master/UefiCpuPkg/ResetVector/Vtf0](https://github.com/tianocore/edk2/tree/master/UefiCpuPkg/ResetVector/Vtf0)
 
 So the hard code bit is the FV (Firmware Volume) that that contains the
 Volume Top File needs to start at an address where the end of the FV

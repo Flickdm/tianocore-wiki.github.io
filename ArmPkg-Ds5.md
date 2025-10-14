@@ -12,16 +12,16 @@ Even if this tutorial is based on Linux; it should also work on Windows
 your target (hardware or RTSM model).
 Help can be found here to add your RTSM model to DS-5 if not already
 done:
-<http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0446i/CIHECHJE.html>
+[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0446i/CIHECHJE.html](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0446i/CIHECHJE.html)
 
 2\. Import the Tianocore project from the Sourceforge repository
 
 <b>Note:</b> To install the Eclipse Git plugin in DS-5, see:
-<http://www.eclipse.org/egit/>
+[http://www.eclipse.org/egit/](http://www.eclipse.org/egit/)
 Before installing the git (or svn) plugin, check your Eclipse version
 (Help \> About Eclipse Platform). <i>Example, Eclipse 3.7 = Indigo</i>
 The list of plugins for this Eclipse Platform version is available at
-<http://download.eclipse.org/releases/indigo>
+[http://download.eclipse.org/releases/indigo](http://download.eclipse.org/releases/indigo)
 
 `- File > Import ...`
 `- Git > Projects from GIT`
@@ -222,8 +222,7 @@ executing the command 'cmd_load_symbols.py':
 
 Because the Fat and Shell binaries come as pre-built binaries.
 If you want to rebuild these binaries for your platform:
-<a href="ArmPkg-Binaries" class="wikilink"
-title="ArmPkg-Binaries">ArmPkg-Binaries</a>
+[ArmPkg-Binaries](ArmPkg-Binaries)
 
 <b>Note 3:</b> DS-5 Debugger’s editor does not recognize the '\*.iii' as
 assembly files. The workaround is to add a file association for "\*.iii"

@@ -20,7 +20,7 @@ Thus far, most MinPlatform motherboard ports are for Intel RVPs (Reference and V
 
 This project is to add support for a new motherboard to MinPlatform. The motherboard can be any motherboard of your choice.
 
-It is ***strongly*** recommended that you choose a motherboard which utilizes a processor/SoC/chipset which is already supported by an existing MinPlatform *BoardPkg. Adding support for a new processor is a difficult task; even a highly experienced EDK II developer would not be able to complete that task within a reasonable time frame. The current list of*BoardPkgs can be found here: <https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel>
+It is ***strongly*** recommended that you choose a motherboard which utilizes a processor/SoC/chipset which is already supported by an existing MinPlatform *BoardPkg. Adding support for a new processor is a difficult task; even a highly experienced EDK II developer would not be able to complete that task within a reasonable time frame. The current list of*BoardPkgs can be found here: [https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel)
 
 If you are looking for ideas for a board to use, the [UP Xtreme i11](https://up-shop.org/up-xtreme-i11-boards-series.html) would probably be a good choice. We already have support for the [original Up Xtreme board](https://up-shop.org/up-xtreme-series.html) in the WhiskeyLakeOpenBoardPkg. Support for the UP Xtreme i11 could be added to TigerLakeOpenBoardPkg.
 
@@ -32,10 +32,10 @@ Building: This project can be completed on any edk2 supported OS or toolchain. I
 
 # Links for More Information
 
-* <https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/>
-* <https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg>
-* <https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel>
-* <https://up-shop.org/up-xtreme-i11-boards-series.html>
+* [https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/)
+* [https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg)
+* [https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel)
+* [https://up-shop.org/up-xtreme-i11-boards-series.html](https://up-shop.org/up-xtreme-i11-boards-series.html)
 
 # Further Discussion
 

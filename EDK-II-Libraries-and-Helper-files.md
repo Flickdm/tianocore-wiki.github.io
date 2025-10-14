@@ -34,7 +34,7 @@ Description
 
 <td>
 
-<a href="UDK2018" class="wikilink" title="UDK2018">UDK2018</a>
+[UDK2018](UDK2018)
 
 </td>
 
@@ -42,7 +42,7 @@ Description
 
 See
 [Documentation](https://github.com/tianocore/tianocore.github.io/wiki/UDK2018#documentation)
-on the <a href="UDK2018" class="wikilink" title="UDK2018">UDK2018</a>
+on the [UDK2018](UDK2018)
 link. Help documents in CHM and Zip formats for the UDK2018 Release.
 Includes all the Library and documentation for UDK2018
 
@@ -54,7 +54,7 @@ Includes all the Library and documentation for UDK2018
 
 <td>
 
-<a href="UDK2017" class="wikilink" title="UDK2017">UDK2017</a>
+[UDK2017](UDK2017)
 
 </td>
 
@@ -62,7 +62,7 @@ Includes all the Library and documentation for UDK2018
 
 See
 [Documentation](https://github.com/tianocore/tianocore.github.io/wiki/UDK2017#documentation)
-on the <a href="UDK2017" class="wikilink" title="UDK2017">UDK2017</a>
+on the [UDK2017](UDK2017)
 link. Help documents in CHM and Zip formats for the UDK2017 Release.
 Includes all the Library and documentation for UDK2017
 
@@ -74,14 +74,14 @@ Includes all the Library and documentation for UDK2017
 
 <td>
 
-<a href="UDK2015" class="wikilink" title="UDK2015">UDK2015</a>
+[UDK2015](UDK2015)
 
 </td>
 
 <td>
 
 See Documents on the
-<a href="UDK2015" class="wikilink" title="UDK2015">UDK2015</a> link.
+[UDK2015](UDK2015) link.
 Help documents in CHM and Zip formats for the UDK2015 Release. Includes
 all the Library and documentation for UDK2015
 

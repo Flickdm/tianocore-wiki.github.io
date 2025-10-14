@@ -7,10 +7,10 @@
 \- Having an account on Github
 
 \- Being a member of the UEFI Forum. The membership list is available
-here: <http://uefi.org/members>
+here: [http://uefi.org/members](http://uefi.org/members)
 
 \- Requesting access to UEFI-SCT Github project:
-<https://github.com/UEFI/UEFI-SCT>
+[https://github.com/UEFI/UEFI-SCT](https://github.com/UEFI/UEFI-SCT)
 
 1.Fork the Github repository
 <img src="contribute-sct-1.png" title="contribute-sct-1.png" width="800"

@@ -24,9 +24,9 @@ Building: As the existing Raspberry Pi UEFI firmware is built using a GCC AARCH6
 
 # Links for More Information
 
-* <https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/>
-* <https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg>
-* <https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi>
+* [https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/)
+* [https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg)
+* [https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi](https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi)
 
 # Further Discussion
 

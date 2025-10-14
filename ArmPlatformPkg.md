@@ -10,14 +10,12 @@ support UniCore and MPCore and are tested on real hardware.
 
 There are actually two cases:
 
-- <a href="#arm_platform_porting_case1" class="wikilink"
-  title="Case 1 - EDK2 from cold boot">Case 1 - EDK2 from cold boot</a>:
+- [Case 1 - EDK2 from cold boot](#arm_platform_porting_case1):
   the Tianocore project is used to produce the boot firmware that will
   control the boot process from the first instruction executed after
   cold boot to the start of the operating system on your platform
-- <a href="#arm_platform_porting_case2" class="wikilink"
-  title="Case 2 - EDK2 as a 2nd stage Boot Loader">Case 2 - EDK2 as a 2nd
-  stage Boot Loader</a>: the Tianocore project is only used to generate
+- [Case 2 - EDK2 as a 2nd
+  stage Boot Loader](#arm_platform_porting_case2): the Tianocore project is only used to generate
   a 2nd (or 3rd) stage boot loader (such as the BeagleBoard)
 
 <figure>
@@ -136,5 +134,4 @@ RealTimeClockLib for your platform
 
 ### Instruction to build ARM Versatile Express Development Board
 
-<a href="ArmPlatformPkg-ArmVExpressPkg" class="wikilink"
-title="ArmPlatformPkg-ArmVExpressPkg">ArmPlatformPkg-ArmVExpressPkg</a>
+[ArmPlatformPkg-ArmVExpressPkg](ArmPlatformPkg-ArmVExpressPkg)

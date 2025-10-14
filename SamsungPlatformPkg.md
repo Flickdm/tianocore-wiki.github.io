@@ -1,6 +1,6 @@
 # SamsungPlatformPkg
 
-The Samsung Origen (<http://www.origenboard.org/>) is one of the low-cost
+The Samsung Origen ([http://www.origenboard.org/](http://www.origenboard.org/)) is one of the low-cost
 ARM development boards. The platform is powered by a dual Cortex A9 and
 supports a large range of devices on boards (2x SD card, LCD & HDMI
 connectors, USB 2.0, etc).
@@ -34,8 +34,7 @@ repository. To get the sources:
     patch -p1 < 0007-SamsungPlatformPkg-SmdkBoardLib-Fixed-GCC-build-issu.patch
 
 3\. Add support for one of the supported toolchains. See
-<a href="ArmPkg-Toolchain" class="wikilink"
-title="ArmPkg-Toolchain">ArmPkg-Toolchain</a>
+[ArmPkg-Toolchain](ArmPkg-Toolchain)
 
 4\. Build EDK2:
 
@@ -46,18 +45,18 @@ title="ArmPkg-Toolchain">ArmPkg-Toolchain</a>
 5\. Get the Linaro Linux distribution:
 
 - Go on the Samsung Origen Linaro webpage:
-  <http://releases.linaro.org/12.01/ubuntu/leb-origen/>. Download the
+  [http://releases.linaro.org/12.01/ubuntu/leb-origen/](http://releases.linaro.org/12.01/ubuntu/leb-origen/). Download the
   Origen HwPack:
   hwpack_linaro-leb-origen_20120123-1_armel_supported.tar.gz
 - Download the minimal Linaro File System:
-  <http://releases.linaro.org/12.01/ubuntu/oneiric-images/nano/linaro-o-nano-tar-20120123-1.tar.gz>
+  [http://releases.linaro.org/12.01/ubuntu/oneiric-images/nano/linaro-o-nano-tar-20120123-1.tar.gz](http://releases.linaro.org/12.01/ubuntu/oneiric-images/nano/linaro-o-nano-tar-20120123-1.tar.gz)
 
 6\. Install Linaro image Creator either from the tarball or the Ubuntu
 package.
 
 - Getting from Linaro website:
 
-    wget <http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz>
+    wget [http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
     tar xzf linaro-image-tools-0.4.8.tar.gz
     cd $(WORKROOT)/linaro-image-tools-0.4.8/
     sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted qemu-arm-static btrfs-tools command-not-found
@@ -79,7 +78,7 @@ mapped to your MMC/SC card.
 
     sudo dd if=Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/FV/ORIGENBOARD_EFI.fd of=/dev/sdb bs=512 seek=65
 
-See this page <https://wiki.linaro.org/Boards/Origen/Setup> for more
+See this page [https://wiki.linaro.org/Boards/Origen/Setup](https://wiki.linaro.org/Boards/Origen/Setup) for more
 information about the command.
 
 9\. Insert the newly created SD card into the Origen SD card slot and

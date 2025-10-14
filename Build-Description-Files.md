@@ -52,7 +52,7 @@ Optional entry used to locate an Unicode file which can be used for localization
      FILE_GUID             = 11111111-2222-3333-4444-555555555555
 ```
 
-A unique GUID for this module. See  <http://www.guidgen.com/> <br><br>
+A unique GUID for this module. See  [http://www.guidgen.com/](http://www.guidgen.com/) <br><br>
 
 ```
      MODULE_TYPE           = USER_DEFINED

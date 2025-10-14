@@ -2,8 +2,8 @@
 
 **[ShellPkg](https://github.com/tianocore/edk2/tree/master/ShellPkg)**
 is an
-<a href="EDKII_Packages" class="wikilink" title="EDK II Package">EDK II
-Package</a> that provides a native implementation of the UEFI Shell 2.x
+[EDK II
+Package](EDKII_Packages) that provides a native implementation of the UEFI Shell 2.x
 specifications.
 
 [1](https://github.com/tianocore/edk2/tree/master/ShellPkg)
@@ -24,19 +24,14 @@ for more info.
 
 ## UEFI Shell 2.x Engineering Resources
 
-- <a href="Shell_Execution_Requirements" class="wikilink"
-  title="Shell Execution Requirements">Shell Execution Requirements</a>
-- <a href="Shell_Library_Primer" class="wikilink"
-  title="Shell Library Primer">Shell Library Primer</a>
-- <a href="Creating_a_Shell_Application" class="wikilink"
-  title="Creating a Shell Application">Creating a Shell Application</a>
-- <a href="Porting_an_EDK_Shell_Extension" class="wikilink"
-  title="Porting an EDK Shell Extension">Porting an EDK Shell
-  Extension</a>
-- <a href="Shell_Application_to_internal_command" class="wikilink"
-  title="Move a Shell Application to internal command">Move a Shell
-  Application to internal command</a>
-- <a href="Shell_FAQ" class="wikilink" title="Shell FAQ">Shell FAQ</a>
+- [Shell Execution Requirements](Shell.md)
+- [Shell Library Primer](Shell.md)
+- [Creating a Shell Application](Shell.md)
+- [Porting an EDK Shell
+  Extension](Porting_an_EDK_Shell_Extension)
+- [Move a Shell
+  Application to internal command](Shell.md)
+- [Shell FAQ](Shell.md)
 
 ## UEFI Shell Specifications (uefi.org)
 
@@ -50,8 +45,7 @@ for more info.
 
 ## ShellPkg versus EdkShellPkg
 
-The **<a href="EdkShellPkg" class="wikilink"
-title="EdkShellPkg">EdkShellPkg</a>** implements an older version of the
+The **[EdkShellPkg](EdkShellPkg)** implements an older version of the
 EFI Shell, prior to standardization by the UEFI Forum. Please treat
 *EdkShellPkg**and**EdkShellBinPkg*' as end-of-life code.
 

@@ -1,15 +1,15 @@
 # UEFI SCT
 
-<a href="UEFI" class="wikilink" title="UEFI">UEFI</a> \|
-<a href="PI" class="wikilink" title="PI">PI</a> \|
-<a href="Testing_EDK_II" class="wikilink" title="Testing EDK II">Testing
-EDK II</a>
+[UEFI](UEFI) \|
+[PI](PI) \|
+[Testing
+EDK II](Testing_EDK_II)
 
 # UEFI Self-Certification Tests (SCT)
 
 ## UEFI SCT
 
-The <a href="UEFI" class="wikilink" title="UEFI">UEFI</a>
+The [UEFI](UEFI)
 Self-Certification Test (UEFI SCT) is a toolset for platform developers
 to validate firmware implementation compliance to the UEFI
 Specification. The toolset features a Test Harness for executing
@@ -17,29 +17,29 @@ built-in UEFI Compliance Tests, as well as for integrating user-defined
 tests that were developed using the UEFI SCT open source code.
 
 The latest version of the UEFI SCT can be found at
-<http://uefi.org/testtools>
+[http://uefi.org/testtools](http://uefi.org/testtools)
 
 ## FWTS
 
 The UEFI Board of Directors recommends the open source Firmware Test
-Suite (FWTS) for <a href="ACPI" class="wikilink" title="ACPI">ACPI</a>
+Suite (FWTS) for [ACPI](PI.md)
 validation.
 
-<https://wiki.ubuntu.com/FirmwareTestSuite>
+[https://wiki.ubuntu.com/FirmwareTestSuite](https://wiki.ubuntu.com/FirmwareTestSuite)
 
-<https://wiki.ubuntu.com/FirmwareTestSuite/FirmwareTestSuiteLive>
+[https://wiki.ubuntu.com/FirmwareTestSuite/FirmwareTestSuiteLive](https://wiki.ubuntu.com/FirmwareTestSuite/FirmwareTestSuiteLive)
 
 ## UEFI PI SCT
 
-The <a href="UEFI_PI" class="wikilink" title="PI">PI</a> SCT is used to
+The [PI](UEFI_PI) SCT is used to
 perform self-certification testing on the PEI code.
 
 The latest Version of the PI SCT can be downloaded from: [PI1.2 SCT.2
 Release.zip](https://sourceforge.net/projects/pi-sct/files/PI1.2_Sct_.2_Release_Mar_05_2013/PI1.2-SCT.2Release-Mar052013.zip/download)
 
-PI 1.2 introduces <a href="SMM" class="wikilink" title="SMM">SMM</a> not
+PI 1.2 introduces [SMM](SMM) not
 supported by EDK. PI SCT test cases for PI 1.2 must be built using
-<a href="EDK_II" class="wikilink" title="EDK II">EDK II</a>. SCT
+[EDK II](EDK_II). SCT
 packages for PI 1.2+ must use EDK II coding style, as EDK will not be
 supported from this point forward.
 

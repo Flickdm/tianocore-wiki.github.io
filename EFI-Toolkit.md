@@ -1,6 +1,6 @@
 # EFI Toolkit
 
-The <a href="EDKII-EADK" class="wikilink" title="EDKII-EADK">EDKII-EADK</a>
+The [EDKII-EADK](EDKII-EADK)
 is replacing the EFI Toolkit. It is recommended that you use this EDK II
 Project instead of the EFI Toolkit since it is no longer supported.**
 
@@ -14,8 +14,7 @@ environment on 32 and 64 bit based platforms. The components are
 released as reference source code. Some components are meant to be stand
 alone and run on UEFI/EFI compliant systems and some components will
 require running on the EFI shell. The EFI Toolkit is released under the
-<a href="BSD_License_from_Intel" class="wikilink"
-title="BSD License">BSD License</a>, and the Python code is released
+[BSD License](BSD-License.md), and the Python code is released
 under [PSF
 License](http://www.python.org/download/releases/2.4.4/license/).
 
@@ -29,7 +28,7 @@ portability libraries that make it easy to port or write Unix/POSIX
 style programs.
 
 Source repository:
-<https://svn.code.sf.net/p/efi-toolkit/code/trunk/efi-toolkit/>
+[https://svn.code.sf.net/p/efi-toolkit/code/trunk/efi-toolkit/](https://svn.code.sf.net/p/efi-toolkit/code/trunk/efi-toolkit/)
 
 <div class="t_projects">
 
@@ -210,7 +209,7 @@ License information:
 
 Project owner(s): hlhsiung, mwu7
 
-Developer page: <http://sourceforge.net/projects/efi-toolkit/develop>
+Developer page: [http://sourceforge.net/projects/efi-toolkit/develop](http://sourceforge.net/projects/efi-toolkit/develop)
 
 **Handy Links**
 

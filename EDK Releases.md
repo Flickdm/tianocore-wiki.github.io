@@ -338,22 +338,21 @@ the EDK1117PatchV6_Details.txt file.
 
 </div>
 
-<a href="Previous_EDK_and_Shell_Releases" class="wikilink"
-title="Previous EDK and Shell Releases">Previous EDK and Shell
-Releases</a>
+[Previous EDK and Shell
+Releases](Previous_EDK_and_Shell_Releases)
 
 **Sub Projects**
 
-<a href="Edk-apps" class="wikilink" title="edk-apps">edk-apps</a>
+[edk-apps](Edk-apps)
 
-<a href="Network-io" class="wikilink" title="network-io">network-io</a>
+[network-io](Network-io)
 
 License information:
 [BSD](http://www.opensource.org/licenses/bsd-license.php)
 
 Project owner(s): ,
 
-Developer page: <http://sourceforge.net/projects/edk2/develop>
+Developer page: [http://sourceforge.net/projects/edk2/develop](http://sourceforge.net/projects/edk2/develop)
 
 **Member Links**
 
@@ -369,8 +368,8 @@ Developer page: <http://sourceforge.net/projects/edk2/develop>
   [mailto:hot.tian@intel.com](mailto:hot.tian@intel.com)
 - EDK Project Owner (US): Michael Krau, Intel Corporation,
   [mailto:michael.p.krau@intel.com](mailto:michael.p.krau@intel.com)
-- <a href="modules" class="wikilink" title="EDK Module Owners">EDK Module
-  Owners</a>
+- [EDK Module
+  Owners](modules)
 
 **Useful Links**
 

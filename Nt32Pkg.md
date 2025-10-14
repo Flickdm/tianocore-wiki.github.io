@@ -18,4 +18,4 @@ Using NT32 emulation with Windows:
   * at the Command prompt type: `>Build Run`
 * The NT32 emulation will then display 2 UGA Windows with the UEFI Shell environment.
 
-Source Repository: <https://github.com/tianocore/edk2/tree/master/Nt32Pkg>
+Source Repository: [https://github.com/tianocore/edk2/tree/master/Nt32Pkg](https://github.com/tianocore/edk2/tree/master/Nt32Pkg)

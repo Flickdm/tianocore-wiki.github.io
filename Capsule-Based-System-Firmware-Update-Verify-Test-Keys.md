@@ -13,8 +13,8 @@ before proceeding to the next step.
 
 This build process uses EDK II `CryptoPkg`, which requires a patch to be applied from OpenSSL. Please verify this process has been completed before proceeding to the next step, otherwise the build will fail.
 
-* EDK II CryptoPkg: <https://github.com/tianocore/edk2/tree/master/CryptoPkg>
-* Patch Instructions: <https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt>
+* EDK II CryptoPkg: [https://github.com/tianocore/edk2/tree/master/CryptoPkg](https://github.com/tianocore/edk2/tree/master/CryptoPkg)
+* Patch Instructions: [https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt](https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt)
 
 # Build and Boot Firmware Image
 

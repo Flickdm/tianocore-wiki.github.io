@@ -30,7 +30,7 @@ for some projects:
 - Mailing Lists
   - If your project is small, you may consider using the larger EDK or
     EDK II dev lists for discussions. (See
-    <a href="Mailing_Lists" class="wikilink" title="Mailing Lists">Mailing
-    Lists</a> page)
+    [Mailing
+    Lists](Mailing_Lists) page)
 - Forums
 - Project News

@@ -5,8 +5,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: <a href="Build_Instructions" class="wikilink"
-title="Build Instructions">Build Instructions</a>
+New instructions: [Build Instructions](Build-Instructions.md)
 
 This page provides step-by-step instructions or setting up a [EDK
 II](http://www.tianocore.org/edk2/) build environment on Windows
@@ -14,43 +13,40 @@ systems.
 
 <u>*Table of Contents*</u>
 
-- <a href="Windows-systems#github-help" class="wikilink"
-  title="GitHub Help">GitHub Help</a>
-- <a href="Windows-systems#how-to-setup-the-edk-ii-tree" class="wikilink"
-  title=" How to Setup the EDK II Tree"> How to Setup the EDK II Tree</a>
-- <a href="Windows-systems#download" class="wikilink" title=" Download">
-  Download</a> Checkout EDK II source tree from Github
-- <a href="Windows-systems#compile-tools" class="wikilink"
-  title="Compile Tools">Compile Tools</a> Build EDK II BaseTools for
+- [GitHub Help](Windows-systems.md)
+- [ How to Setup the EDK II Tree](Windows-systems#how-to-setup-the-edk-ii-tree)
+- [
+  Download](Windows-systems.md) Checkout EDK II source tree from Github
+- [Compile Tools](Windows-systems#compile-tools) Build EDK II BaseTools for
   Windows
-- <a href="Windows-systems#build" class="wikilink" title=" BUILD">
-  BUILD</a> EDK II
+- [
+  BUILD](Windows-systems#build) EDK II
 
 ## GitHub Help
 
-GitHub (<https://help.github.com/index.html>) provides step-by-step
+GitHub ([https://help.github.com/index.html](https://help.github.com/index.html)) provides step-by-step
 instructions for user registration and basic features supported by
 GitHub.
 
 ### Git GUI Interface for Windows OS
 
-- Git for Windows OS is available at: (<http://git-scm.com/download/win>)
+- Git for Windows OS is available at: ([http://git-scm.com/download/win](http://git-scm.com/download/win))
 - TortoiseGit for windows OS is available at
-  (<https://tortoisegit.org/download/>)
+  ([https://tortoisegit.org/download/](https://tortoisegit.org/download/))
 
 ## GitHub EDK II Project Repositories
 
 - The EDK II project repository is available at
-  <https://github.com/tianocore/edk2>.
+  [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2).
 
 Content that is not released under an accepted open source license can
-be found at <https://github.com/tianocore/edk2-non-osi>.
+be found at [https://github.com/tianocore/edk2-non-osi](https://github.com/tianocore/edk2-non-osi).
 
 Note: the steps below will pull the latest code from edk2 master. To
 work from a stable release, please refer to the Microsoft Windows build
 steps for
-<a href="UDK2017" class="wikilink" title="UDK2017">UDK2017</a>:
-<https://github.com/tianocore/tianocore.github.io/wiki/UDK2017-How-to-Build#how-to-build-windows-system>
+[UDK2017](UDK2017):
+[https://github.com/tianocore/tianocore.github.io/wiki/UDK2017-How-to-Build#how-to-build-windows-system](https://github.com/tianocore/tianocore.github.io/wiki/UDK2017-How-to-Build#how-to-build-windows-system)
 
 ### Internet proxies
 
@@ -69,8 +65,7 @@ you would configure your proxy by setting an environment variable:
 **Note:** Some of the following examples use the Multiple Workspace
 feature to configure the EDK II BaseTools. More information on the
 Multiple Workspace feature can be found at the following location.
-\* <a href="Multiple_Workspace" class="wikilink"
-title="Multiple_Workspace">Multiple_Workspace</a>
+\* [Multiple_Workspace](Multiple_Workspace)
 
 ## Download
 
@@ -79,14 +74,13 @@ Download/Checkout the EDK II source tree from Github
 ### Download Using a Web browser
 
 1. Download EDK II Project
-    1. Open <https://github.com/tianocore/edk2> in web browser
+    1. Open [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2) in web browser
     2. Click on the *Clone or Download* button (Right Green)
     3. Click on Download ZIP
     4. Unzip to C:/
     5. Rename directory “edk2-master” to “edk2”
 
-Continue to <a href="Windows-systems#compile-tools" class="wikilink"
-title="Compile Tools">Compile Tools</a>
+Continue to [Compile Tools](Windows-systems#compile-tools)
 
 ### Using Git for Windows Application
 
@@ -95,26 +89,24 @@ title="Compile Tools">Compile Tools</a>
 1. Clone the EDK II project repository
     1. Open Git GUI
     2. Use *Clone Exiting Repository* with Source location
-        <https://github.com/tianocore/edk2.git>
+        [https://github.com/tianocore/edk2.git](https://github.com/tianocore/edk2.git)
     3. Select a Target directory C:/edk2
     4. Check Recursively clone submodules too
     5. click Clone button
 
-Continue to <a href="Windows-systems#compile-tools" class="wikilink"
-title="Compile Tools">Compile Tools</a> section
+Continue to [Compile Tools](Windows-systems#compile-tools) section
 
 #### Git CMD
 
 If you use the command line version, then you can easily checkout the
 edk2 to the C:\edk2 directory with the following git command: Main
-repository: <https://github.com/tianocore/edk2>
+repository: [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 
         $git clone https://github.com/tianocore/edk2
 
-Continue to <a href="Windows-systems#compile-tools" class="wikilink"
-title="Compile Tools">Compile Tools</a> and then
-<a href="Windows-systems#build" class="wikilink" title=" BUILD">
-BUILD</a> sections
+Continue to [Compile Tools](Windows-systems#compile-tools) and then
+[
+BUILD](Windows-systems#build) sections
 
 ## Compile Tools
 
@@ -123,10 +115,10 @@ BUILD</a> sections
 - Create a workspace directory
 - Change to the workspace directory
 - Clone the EDK II project repository (See
-  <a href="Windows-systems#download" class="wikilink" title=" Download">
-  Download</a> section above)
-  - Example: git clone <https://github.com/tianocore/edk2>
-- Install Python37 or late version (<https://www.python.org/>) to run
+  [
+  Download](Windows-systems.md) section above)
+  - Example: git clone [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
+- Install Python37 or late version ([https://www.python.org/](https://www.python.org/)) to run
   python tool from source
 - Compile BaseTools C source tools
 
@@ -148,13 +140,12 @@ Example:
 ## Build
 
 - Set up the
-  <a href="Nasm-Setup" class="wikilink" title=" Nasm"> Nasm</a> open
+  [ Nasm](Nasm-Setup) open
   source assembly compiler
 - Set up the
-  <a href="Asl_Setup" class="wikilink" title=" ASL Compiler"> ASL
-  Compiler</a>
-- <a href="Windows-systems#compile-tools" class="wikilink"
-  title="Compile Tools">Compile Tools</a> above
+  [ ASL
+  Compiler](Asl_Setup)
+- [Compile Tools](Windows-systems#compile-tools) above
 - Open a Windows CMD prompt:
 - Change to the edk2 directory
 - Run the edksetup.bat script
@@ -182,8 +173,7 @@ Chains' in tools_def.txt to see the valid options for TOOL_CHAIN_TAG.
 
     TOOL_CHAIN_TAG        = VS2015x86
 
-See also: <a href="Windows-systems-ToolChain-Matrix" class="wikilink"
-title="Windows-systems-ToolChain-Matrix">Windows-systems-ToolChain-Matrix</a>
+See also: [Windows-systems-ToolChain-Matrix](Windows-systems-ToolChain-Matrix)
 for how to change the Tool Chain Tag.
 
 Also, consider if you want to build a different processor architecture
@@ -208,13 +198,12 @@ be able to run successfully under the shell.
 ### Build OVMF (OPTIONAL)
 
 Once your build environment is set up you might be interested in
-building the <a href="OVMF" class="wikilink" title="OVMF">OVMF</a>
+building the [OVMF](OVMF)
 platform which is included in the main edk2 source tree. Since
-<a href="OVMF" class="wikilink" title="OVMF">OVMF</a> builds a full
+[OVMF](OVMF) builds a full
 system firmware image this may be of interest to UEFI system firmware
 developers.
 
 # See Also
 
-- <a href="Getting-Started-Writing-Simple-Application" class="wikilink"
-  title="Getting-Started-Writing-Simple-Application">Getting-Started-Writing-Simple-Application</a>
+- [Getting-Started-Writing-Simple-Application](Getting-Started-Writing-Simple-Application)

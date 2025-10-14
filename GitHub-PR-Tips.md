@@ -129,14 +129,14 @@ To locate a specific commit within the repository's history.
 3. Click the commit.
 
 > Note: If you have a commit hash, for example `4b6ee06a090d956f80b4a92fb9bf03098a372f39`, you can append it to the
-> repository URL to view the commit directly. For example, <https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39>.
+> repository URL to view the commit directly. For example, [https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39](https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39).
 
 - [About commits](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)
 - [Searching commits](https://docs.github.com/search-github/searching-on-github/searching-commits)
 
 ### Finding a Pull Request for a Commit
 
-Once you have a commit hash/URL such as <https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39>,
+Once you have a commit hash/URL such as [https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39](https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39),
 you can quickly find the associated pull request by looking for the pull request link next to the branch name. In the
 example below, clicking [`#5639`](https://github.com/tianocore/edk2/pull/5639) will take you to the pull request.
 

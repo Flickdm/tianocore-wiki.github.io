@@ -4,9 +4,8 @@
 
 **Introduction to the Network-IO Project**
 
-Please see <a href="NetworkPkg_Getting_Started_Guide" class="wikilink"
-title="NetworkPkg Getting Started Guide">NetworkPkg Getting Started
-Guide</a> for EDK II updates
+Please see [NetworkPkg Getting Started
+Guide](NetworkPkg_Getting_Started_Guide) for EDK II updates
 
 <table>
 <tbody>

@@ -11,7 +11,7 @@ The MdePkg provides all definitions(including functions, MACROs,
 structures and library classes) and libraries instances, which are
 defined in the MdePkg. The latest MdePkg .chm files will document these
 definitions and can be found in the latest
-<a href="UDK" class="wikilink" title="UDK">UDK</a> releases.
+[UDK](UDK) releases.
 
 It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
 EFI1.10/UEFI2.x/PI1.x and other Industry Standards.
@@ -25,13 +25,12 @@ ported to any environment. The MdePkg can be used to write SEC in C
 code. The MdePkg package can also produce UEFI drivers or UEFI
 applications that conform to either the EFI 1.10 or the UEFI 2.x
 specifications. The MdePkg can also build UEFI drivers or applications
-based on the <a href="EDK_II" class="wikilink" title="EDK II">EDK II</a>
+based on the [EDK II](EDK_II)
 build environment described in the
-<a href="EDK_II_Specifications" class="wikilink"
-title="EDK II Specifications">EDK II Specifications</a>.
+[EDK II Specifications](EDK_II_Specifications).
 
 The latest MdePkg .chm files will document all the details on the
 definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and
 libraries instances associated with the MdePkg package. To download the
-latest .chm files see <a href="UDK" class="wikilink" title="UDK">UDK</a>
+latest .chm files see [UDK](UDK)
 for the current release.

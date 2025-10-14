@@ -60,12 +60,12 @@ incorporates using the Standard C Library components. Include these into
 standard "C" applications. See the AppPkg for "Hello World" example
 
 - This release is based on SVN:
-- <https://svn.code.sf.net/p/edk2/code/trunk/edk2/> -r 14804
+- [https://svn.code.sf.net/p/edk2/code/trunk/edk2/](https://svn.code.sf.net/p/edk2/code/trunk/edk2/) -r 14804
 
 Packages Included: (Note: get the latest from the
-<a href="UDK2010" class="wikilink" title="UDK2010">UDK2010</a>
+[UDK2010](UDK2010)
 release)
-**1) <a href="AppPkg" class="wikilink" title="AppPkg">AppPkg</a>**;-
+**1) [AppPkg](AppPkg)**;-
 This package contains applications which demonstrate use of the Standard
 C Library. These applications reside in AppPkg/Applications.
 
@@ -124,7 +124,7 @@ C Library. These applications reside in AppPkg/Applications.
 :\* TftpServer
 
 :\* WebServer
-**2) <a href="StdLib" class="wikilink" title="StdLib">StdLib</a>**
+**2) [StdLib](StdLib)**
 
 \- The StdLib package contains the standard header files as well as implementations of the standard libraries.
 
@@ -161,7 +161,7 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/UDK20
 <td>
 
 - This release is based on SVN: (Same as UDK2010.SR1.UP1.P1)
-- <https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1/> -r 14385
+- [https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1/](https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1/) -r 14385
 
 </td>
 
@@ -181,7 +181,7 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 
 <td>
 
-- Based on SVN <http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2>
+- Based on SVN [http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2)
   r11577
 
 </td>

@@ -1,12 +1,11 @@
 # Tool Information
 
 This is a table of all of the tools that are part of the
-<a href="edk2-buildtools" class="wikilink" title=" EDK II BaseTools">
-EDK II BaseTools</a>.
+[
+EDK II BaseTools](edk2-buildtools).
 
 To build these tools see
-<a href="BuildTool_Setup_Guide" class="wikilink"
-title="BuildTool Setup Guide">BuildTool Setup Guide</a>.
+[BuildTool Setup Guide](BuildTool_Setup_Guide).
 
 <div class="t_projects">
 

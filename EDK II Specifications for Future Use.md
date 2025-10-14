@@ -43,8 +43,8 @@ Final revisions v1.22 Errata A
 **Posted Dec 19, 2011**
 
 - posted on EDK II Specifications Page
-  <a href="EDK_II_Specifications" class="wikilink" title=" Download">
-  Download</a>
+  [
+  Download](EDK_II_Specifications)
 
 </td>
 

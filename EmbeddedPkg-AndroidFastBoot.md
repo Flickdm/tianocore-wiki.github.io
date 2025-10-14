@@ -7,14 +7,11 @@ target's storage, or to download and boot Linux kernels.
 
 Android FastBoot support in UEFI has been added into SVN rev15317
 (2014-03-05). The protocol is documented in the Android source tree in
-\`system/core/fastboot/fastboot_protocol.txt\`: <a
-href="https://android.googlesource.com/platform/system/core/+/master/fastboot/fastboot_protocol.txt"
-class="wikilink"
-title="https://android.googlesource.com/platform/system/core/+/master/fastboot/fastboot_protocol.txt">https://android.googlesource.com/platform/system/core/+/master/fastboot/fastboot_protocol.txt</a>
+\`system/core/fastboot/fastboot_protocol.txt\`: [https://android.googlesource.com/platform/system/core/+/master/fastboot/fastboot_protocol.txt](https://android.googlesource.com/platform/system/core/+/master/fastboot/fastboot_protocol.txt)
 
 The Android FastBoot host tool is available from the Android ADT
 (Android Developer Tools) at
-<http://developer.android.com/sdk/index.html>
+[http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html)
 
 ## Build and Start Android FastBoot on UEFI
 
@@ -49,10 +46,7 @@ Android Partitions that would be exposed by the Android FastBoot
 protocol.
 
 Prepare an SD card with an Android build for VExpress according to
-Linaro's instructions: <a
-href="https://wiki.linaro.org/Platform/Android/ImageInstallation?action=show&amp;redirect=Platform%2FAndroid%2FInstallImages"
-class="wikilink"
-title="https://wiki.linaro.org/Platform/Android/ImageInstallation?action=show&amp;redirect=Platform%2FAndroid%2FInstallImages">https://wiki.linaro.org/Platform/Android/ImageInstallation?action=show&amp;redirect=Platform%2FAndroid%2FInstallImages</a>
+Linaro's instructions: [https://wiki.linaro.org/Platform/Android/ImageInstallation?action=show&amp;redirect=Platform%2FAndroid%2FInstallImages](https://wiki.linaro.org/Platform/Android/ImageInstallation?action=show&amp;redirect=Platform%2FAndroid%2FInstallImages)
 
 At time of writing, Linaro's android build uses the legacy MBR partition
 table, which is not supported by Fastboot on VExpress. We will now

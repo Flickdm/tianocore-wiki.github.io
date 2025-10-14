@@ -7,12 +7,11 @@ control commits.
 To maintain an easily reviewable source control history, it is important
 to put the appropriate amount of effort into partitioning your changes
 properly. This is just as important as the time you spend developing the
-code and writing a good <a href="Commit_Message_Format" class="wikilink"
-title="Commit Message">Commit Message</a>.
+code and writing a good [Commit Message](Commit_Message_Format).
 
 Part of your role as a
-<a href="Code_Reviews" class="wikilink" title="Code Reviewer">Code
-Reviewer</a> should be to give feedback about proper commit
+[Code
+Reviewer](Code_Reviews) should be to give feedback about proper commit
 partitioning.
 
 In general, try to:
@@ -54,4 +53,4 @@ with potential *git bisect* issues.
 
 # See Also
 
-- <a href="Code-Style" class="wikilink" title="Code-Style">Code-Style</a>
+- [Code-Style](Code-Style)

@@ -1,13 +1,13 @@
 # Udk2014 Releases
 
 This page contains the release history for
-<a href="UDK2014" class="wikilink" title="UDK2014">UDK2014</a>.
+[UDK2014](UDK2014).
 
-See <a href="UDK" class="wikilink" title="UDK">UDK</a> for current UEFI
+See [UDK](UDK) for current UEFI
 Development Kit releases
 
 If you have questions please email the
-<a href="edk2-devel" class="wikilink" title="edk2-devel">edk2-devel</a>
+[edk2-devel](edk2-devel)
 email list.
 
 <table width="100%" class="t_projects">
@@ -90,14 +90,13 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-<a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:"><https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1>:</a>
+<a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:">[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):</a>
 r16557
-<a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:"><https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg>:</a>
+<a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):</a>
 r92
 
 <b>How to Build</b>
-<a href="UDK2014-How-to-Build" class="wikilink"
-title="UDK2014-How-to-Build">UDK2014-How-to-Build</a>
+[UDK2014-How-to-Build](UDK2014-How-to-Build)
 
 `UDK2014 Release`
 
@@ -108,15 +107,12 @@ Notes Features</a>
 
 <b>Supported OS and Build Environments</b>
 
-- <a href="Using_EDK_II_with_Native_GCC" class="wikilink"
-  title=" Using newer versions of Linux"> Using newer versions of
-  Linux</a>
-- <a href="Windows_systems" class="wikilink"
-  title="Windows systems">Windows systems</a>
-- <a href="Xcode" class="wikilink" title=" Xcode Mac OS X "> Xcode Mac OS
-  X </a>
-- <a href="Unix-like_systems" class="wikilink"
-  title="Unix-like systems">Unix-like systems</a> (For older Linux
+- [ Using newer versions of
+  Linux](Using_EDK_II_with_Native_GCC)
+- [Windows systems](Windows_systems)
+- [ Xcode Mac OS
+  X ](Xcode)
+- [Unix-like systems](Unix-like_systems) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
 </td>
@@ -202,8 +198,7 @@ Version 1.24
 
 <td>
 
-<a href="EDK-II-Specifications" class="wikilink"
-title="EDK-II-Specifications">EDK-II-Specifications</a>
+[EDK-II-Specifications](EDK-II-Specifications)
 
 These documents describe the EDK II build information for the following
 (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata
@@ -296,7 +291,7 @@ Contains zip of all the .chm converted to PDF
 
 <td>
 
-The <a href="CryptoPkg" class="wikilink" title="CryptoPkg">CryptoPkg</a>
+The [CryptoPkg](CryptoPkg)
 
 </td>
 
@@ -323,8 +318,7 @@ The <a href="CryptoPkg" class="wikilink" title="CryptoPkg">CryptoPkg</a>
 <td>
 
 NOTE: Only for UDK2014 release.
-The <a href="EdkCompatibilityPkg" class="wikilink"
-title="EdkCompatibilityPkg">EdkCompatibilityPkgdocuments</a> provide
+The [EdkCompatibilityPkgdocuments](EdkCompatibilityPkg) provide
 documentation on header files and libraries that enable you to build the
 EDK module in UEFI 2.0 + Framework 0.9x mode. This package also provides
 Thunk modules that enable Framework 0.9x modules to work with
@@ -355,8 +349,7 @@ UEFI2.3/PI1.2 EDK II Cores.
 
 <td>
 
-The <a href="IntelFrameworkModulePkg" class="wikilink"
-title="IntelFrameworkModulePkg">IntelFrameworkModulePkg</a> Document
+The [IntelFrameworkModulePkg](IntelFrameworkModulePkg) Document
 Package Helper file. This Package contains the definitions and module
 implementation which follows Intel EFI Framework Specification.
 
@@ -385,8 +378,7 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-`The`<a href="IntelFrameworkPkg" class="wikilink"
-title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
+`The`[IntelFrameworkPkg](IntelFrameworkPkg)`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
 ``
 
 </td>
@@ -414,8 +406,7 @@ title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package 
 
 <td>
 
-The <a href="MdeModulePkg" class="wikilink"
-title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This
+The [MdeModulePkg](MdeModulePkg) Document Package Helper file. This
 package provides the modules that conform to UEFI/PI Industry standards.
 
 `It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)`
@@ -452,7 +443,7 @@ w/ Libraries .zip</a>
 
 <td>
 
-The <a href="MdePkg" class="wikilink" title="MdePkg">MdePkg</a> Document
+The [MdePkg](MdePkg) Document
 Package Helper file. This Package provides all definitions(including
 functions, MACROs, structures and library classes)
 
@@ -488,7 +479,7 @@ functions, MACROs, structures and library classes)
 <td>
 
 The
-<a href="NetworkPkg" class="wikilink" title="NetworkPkg">NetworkPkg</a>
+[NetworkPkg](NetworkPkg)
 Document Package Helper file. This package provides network modules that
 conform to UEFI 2.2 specification.
 
@@ -516,8 +507,7 @@ conform to UEFI 2.2 specification.
 
 <td>
 
-The <a href="SecurityPkg" class="wikilink"
-title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This
+The [SecurityPkg](SecurityPkg) Document Package Helper file. This
 package includes the security drivers, defintions(including
 PPIs/PROTOCOLs/GUIDs
 
@@ -581,14 +571,13 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-<a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:"><https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1>:</a>
+<a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:">[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):</a>
 r16182
-<a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:"><https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg>:</a>
+<a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):</a>
 r92
 
 <b>How to Build</b>
-<a href="UDK2014-How-to-Build" class="wikilink"
-title="UDK2014-How-to-Build">UDK2014-How-to-Build</a> UDK2014 Release
+[UDK2014-How-to-Build](UDK2014-How-to-Build) UDK2014 Release
 
 <b>Features Summary:</b>
 See
@@ -597,15 +586,12 @@ Notes Features</a>
 
 <b>Supported OS and Build Environments</b>
 
-- <a href="Using_EDK_II_with_Native_GCC" class="wikilink"
-  title=" Using newer versions of Linux"> Using newer versions of
-  Linux</a>
-- <a href="Windows_systems" class="wikilink"
-  title="Windows systems">Windows systems</a>
-- <a href="Xcode" class="wikilink" title=" Xcode Mac OS X "> Xcode Mac OS
-  X </a>
-- <a href="Unix-like_systems" class="wikilink"
-  title="Unix-like systems">Unix-like systems</a> (For older Linux
+- [ Using newer versions of
+  Linux](Using_EDK_II_with_Native_GCC)
+- [Windows systems](Windows_systems)
+- [ Xcode Mac OS
+  X ](Xcode)
+- [Unix-like systems](Unix-like_systems) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
 </td>
@@ -691,8 +677,7 @@ Version 1.22 Errata D and Version 1.24
 
 <td>
 
-<a href="EDK-II-Specifications" class="wikilink"
-title="EDK-II-Specifications">EDK-II-Specifications</a> EDK II v1.22
+[EDK-II-Specifications](EDK-II-Specifications) EDK II v1.22
 Errata D and V1.24 specifications
 
 These documents describe the EDK II build information for the following
@@ -787,7 +772,7 @@ Contains zip of all the .chm converted to PDF
 
 <td>
 
-The <a href="CryptoPkg" class="wikilink" title="CryptoPkg">CryptoPkg</a>
+The [CryptoPkg](CryptoPkg)
 Document Package Helper file. This Package provides
 cryptographic-related libraries for UEFI security modules.
 
@@ -815,8 +800,7 @@ cryptographic-related libraries for UEFI security modules.
 
 <td>
 
-The <a href="EdkCompatibilityPkg" class="wikilink"
-title="EdkCompatibilityPkg">EdkCompatibilityPkg</a> documents provide
+The [EdkCompatibilityPkg](EdkCompatibilityPkg) documents provide
 documentation on header files and libraries that enable you to build the
 EDK module in UEFI 2.0 + Framework 0.9x mode. This package also provides
 Thunk modules that enable Framework 0.9x modules to work with
@@ -847,8 +831,7 @@ UEFI2.3/PI1.2 EDK II Cores.
 
 <td>
 
-The <a href="IntelFrameworkModulePkg" class="wikilink"
-title="IntelFrameworkModulePkg">IntelFrameworkModulePkg</a> Document
+The [IntelFrameworkModulePkg](IntelFrameworkModulePkg) Document
 Package Helper file. This Package contains the definitions and module
 implementation which follows Intel EFI Framework Specification.
 
@@ -877,8 +860,7 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-`The`<a href="IntelFrameworkPkg" class="wikilink"
-title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
+`The`[IntelFrameworkPkg](IntelFrameworkPkg)`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
 ``
 
 </td>
@@ -906,8 +888,7 @@ title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package 
 
 <td>
 
-The <a href="MdeModulePkg" class="wikilink"
-title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This
+The [MdeModulePkg](MdeModulePkg) Document Package Helper file. This
 package provides the modules that conform to UEFI/PI Industry standards.
 
 `It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)`
@@ -944,7 +925,7 @@ w/ Libraries .zip</a>
 
 <td>
 
-The <a href="MdePkg" class="wikilink" title="MdePkg">MdePkg</a> Document
+The [MdePkg](MdePkg) Document
 Package Helper file. This Package provides all definitions(including
 functions, MACROs, structures and library classes)
 
@@ -980,7 +961,7 @@ functions, MACROs, structures and library classes)
 <td>
 
 The
-<a href="NetworkPkg" class="wikilink" title="NetworkPkg">NetworkPkg</a>
+[NetworkPkg](NetworkPkg)
 Document Package Helper file. This package provides network modules that
 conform to UEFI 2.2 specification.
 
@@ -1008,8 +989,7 @@ conform to UEFI 2.2 specification.
 
 <td>
 
-The <a href="SecurityPkg" class="wikilink"
-title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This
+The [SecurityPkg](SecurityPkg) Document Package Helper file. This
 package includes the security drivers, defintions(including
 PPIs/PROTOCOLs/GUIDs
 
@@ -1069,14 +1049,13 @@ MyWorkSpace Directory)
 
 Based on svn version:
 
-<a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014:"><https://svn.code.sf.net/p/edk2/code/branches/UDK2014>:</a>
+<a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014:">[https://svn.code.sf.net/p/edk2/code/branches/UDK2014](https://svn.code.sf.net/p/edk2/code/branches/UDK2014):</a>
 r15322
-<a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:"><https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg>:</a>
+<a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):</a>
 r84
 
 <b>How to Build</b>
-<a href="UDK2014-How-to-Build" class="wikilink"
-title="UDK2014-How-to-Build">UDK2014-How-to-Build</a> UDK2014 Release
+[UDK2014-How-to-Build](UDK2014-How-to-Build) UDK2014 Release
 
 <b>Features Summary:</b>
 See
@@ -1085,15 +1064,12 @@ Notes Features</a>
 
 <b>Supported OS and Build Environments</b>
 
-- <a href="Using_EDK_II_with_Native_GCC" class="wikilink"
-  title=" Using newer versions of Linux"> Using newer versions of
-  Linux</a>
-- <a href="Windows_systems" class="wikilink"
-  title="Windows systems">Windows systems</a>
-- <a href="Xcode" class="wikilink" title=" Xcode Mac OS X "> Xcode Mac OS
-  X </a>
-- <a href="Unix-like_systems" class="wikilink"
-  title="Unix-like systems">Unix-like systems</a> (For older Linux
+- [ Using newer versions of
+  Linux](Using_EDK_II_with_Native_GCC)
+- [Windows systems](Windows_systems)
+- [ Xcode Mac OS
+  X ](Xcode)
+- [Unix-like systems](Unix-like_systems) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
 </td>
@@ -1178,8 +1154,7 @@ Version 1.22 Errata D
 
 <td>
 
-<a href="EDK-II-Specifications" class="wikilink"
-title="EDK-II-Specifications">EDK-II-Specifications</a> EDK II v1.22
+[EDK-II-Specifications](EDK-II-Specifications) EDK II v1.22
 Errata D specifications
 
 These documents describe the EDK II build information for the following
@@ -1275,7 +1250,7 @@ Contains zip of all the .chm converted to PDF
 
 <td>
 
-The <a href="CryptoPkg" class="wikilink" title="CryptoPkg">CryptoPkg</a>
+The [CryptoPkg](CryptoPkg)
 Document Package Helper file. This Package provides
 cryptographic-related libraries for UEFI security modules.
 
@@ -1306,8 +1281,7 @@ cryptographic-related libraries for UEFI security modules.
 
 <td>
 
-The <a href="EdkCompatibilityPkg" class="wikilink"
-title="EdkCompatibilityPkg">EdkCompatibilityPkg</a> documents provide
+The [EdkCompatibilityPkg](EdkCompatibilityPkg) documents provide
 documentation on header files and libraries that enable you to build the
 EDK module in UEFI 2.0 + Framework 0.9x mode. This package also provides
 Thunk modules that enable Framework 0.9x modules to work with
@@ -1342,8 +1316,7 @@ UEFI2.3/PI1.2 EDK II Cores.
 
 <td>
 
-The <a href="IntelFrameworkModulePkg" class="wikilink"
-title="IntelFrameworkModulePkg">IntelFrameworkModulePkg</a> Document
+The [IntelFrameworkModulePkg](IntelFrameworkModulePkg) Document
 Package Helper file. This Package contains the definitions and module
 implementation which follows Intel EFI Framework Specification.
 
@@ -1376,8 +1349,7 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-`The`<a href="IntelFrameworkPkg" class="wikilink"
-title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
+`The`[IntelFrameworkPkg](IntelFrameworkPkg)`Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.`
 ``
 
 </td>
@@ -1409,8 +1381,7 @@ title="IntelFrameworkPkg"><code>IntelFrameworkPkg</code></a>`Document Package 
 
 <td>
 
-The <a href="MdeModulePkg" class="wikilink"
-title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This
+The [MdeModulePkg](MdeModulePkg) Document Package Helper file. This
 package provides the modules that conform to UEFI/PI Industry standards.
 
 `It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)`
@@ -1454,7 +1425,7 @@ w/ Libraries .pdf</a>
 
 <td>
 
-The <a href="MdePkg" class="wikilink" title="MdePkg">MdePkg</a> Document
+The [MdePkg](MdePkg) Document
 Package Helper file. This Package provides all definitions(including
 functions, MACROs, structures and library classes)
 
@@ -1493,7 +1464,7 @@ functions, MACROs, structures and library classes)
 <td>
 
 The
-<a href="NetworkPkg" class="wikilink" title="NetworkPkg">NetworkPkg</a>
+[NetworkPkg](NetworkPkg)
 Document Package Helper file. This package provides network modules that
 conform to UEFI 2.2 specification.
 
@@ -1524,8 +1495,7 @@ conform to UEFI 2.2 specification.
 
 <td>
 
-The <a href="SecurityPkg" class="wikilink"
-title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This
+The [SecurityPkg](SecurityPkg) Document Package Helper file. This
 package includes the security drivers, defintions(including
 PPIs/PROTOCOLs/GUIDs
 

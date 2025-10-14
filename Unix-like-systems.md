@@ -3,8 +3,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: <a href="Build_Instructions" class="wikilink"
-title="Build Instructions">Build Instructions</a>
+New instructions: [Build Instructions](Build-Instructions.md)
 
 This page provides *step-by-step instructions* for setting up a [EDK
 II](http://www.tianocore.org/edk2/) build environment on various
@@ -12,8 +11,7 @@ Unix-like systems.
 
 **Note**: These instructions are not recommended for most EDK II
 developers. If you are working with a supported Linux distribution, then
-the <a href="Using_EDK_II_with_Native_GCC" class="wikilink"
-title="Using EDK II with Native GCC">Using EDK II with Native GCC</a>
+the [Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
 instructions are faster, easier, and produce a smaller UEFI binary
 image.
 
@@ -122,8 +120,7 @@ This allows you to substitute ~/src/edk2 for an alternate path such as
 
 <big> Continue with common instructions for Unix </big>
 
-The <a href="Common_instructions_for_Unix" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common_instructions_for_Unix) are common for
 most UNIX-like systems.
 
 ## Fedora 11
@@ -163,8 +160,7 @@ become the root user, for the 'make install' command.
 
 <big> Continue with common instructions for Unix </big>
 
-The <a href="Common_instructions_for_Unix" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common_instructions_for_Unix) are common for
 most UNIX-like systems.
 
 ## Mac OS X 10.5
@@ -225,7 +221,7 @@ fails below.
 ### GMP & MPFR via Macports (if not behind web proxy)
 
 If you are not behind a network firewall, then the
-<http://www.macports.org> project can greatly simlify the installation
+[http://www.macports.org](http://www.macports.org) project can greatly simlify the installation
 of gmp & mpfr. (Macports does not work easily with web proxies at this
 time.) After installing macports you should be able to simply run this
 command at the shell prompt.
@@ -234,8 +230,7 @@ command at the shell prompt.
 
 <big> Continue with common instructions for Unix </big>
 
-The <a href="Common_instructions_for_Unix" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common_instructions_for_Unix) are common for
 most UNIX-like systems.
 
 ## Ubuntu 9.10
@@ -260,6 +255,5 @@ to run this command.
 
 ## Continue with common instructions for Unix
 
-The <a href="Common_instructions_for_Unix" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common_instructions_for_Unix) are common for
 most UNIX-like systems.

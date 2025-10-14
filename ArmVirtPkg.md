@@ -9,4 +9,4 @@ wiki:
 - [Using UEFI in a Xen domU
   (AArch64)](https://wiki.linaro.org/LEG/UEFIforXEN)
 
-Source: <https://github.com/tianocore/edk2/tree/master/ArmVirtPkg>
+Source: [https://github.com/tianocore/edk2/tree/master/ArmVirtPkg](https://github.com/tianocore/edk2/tree/master/ArmVirtPkg)

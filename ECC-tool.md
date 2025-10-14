@@ -25,7 +25,7 @@ Steps to run the ECC tool:<br>
     ```
 
     This error may be met when you run the ECC tool with Python 2.x, then ECC depends on antlr V3.0.1, you can download it from
-    <http://www.antlr3.org/download/Python/>.
+    [http://www.antlr3.org/download/Python/](http://www.antlr3.org/download/Python/).
     After downloading and extracting it, you can enter the antlr tool directory and run:
 
     `C:\Python27\python.exe setup.py install` (_on Windows_)

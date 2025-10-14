@@ -17,11 +17,11 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
 1. Setup Build Environment
     1) Install Microsoft Visual Studio 2015* in the build machine and make
         sure that AMD64 complier was selected when installing.
-    2) Download NASM 2.0.7 or later from <http://www.nasm.us/> and install it to
+    2) Download NASM 2.0.7 or later from [http://www.nasm.us/](http://www.nasm.us/) and install it to
         C:\Nasm. Make sure C:\Nasm is added to system environment variable 'PATH'
     3) Set up for using GitHub for Windows. See:
-    <https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help>
-    4) Download and install Python2.7.x  <https://www.python.org/> for building the BaseTools
+    [https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help](https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help)
+    4) Download and install Python2.7.x  [https://www.python.org/](https://www.python.org/) for building the BaseTools
         Default install directory is: C:/Python27
 
 2. Create the full Source Code directory for the UDK2017 release
@@ -32,7 +32,7 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
     3) **OR**  Checkout the vUDK2017 Tag from GitHub with the following "git" command <br>
         1) run  `git clone  https://github.com/tianocore/edk2.git vUDK2017`
         2) Move all files and folders under "vUDK2017" to "C:\MyWorkspace"
-    4) **Optional** (See _Compile the BaseTools_ below) Checkout BaseTools binaries and copy them to BaseTools binary folder.  Warning the Windows* Binary tools are only valid for the tip of the  <https://github.com/tianocore/edk2> repository.
+    4) **Optional** (See _Compile the BaseTools_ below) Checkout BaseTools binaries and copy them to BaseTools binary folder.  Warning the Windows* Binary tools are only valid for the tip of the  [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2) repository.
          1) `Cd C:\MyWorkspace`
          2) Run `git clone https://github.com/tianocore/edk2-BaseTools-win32.git`
          3) Enter folder edk2-BaseTools-win32
@@ -47,7 +47,7 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
         For this release, please use OpenSSL-1.1.0e.
 
 4. Compile the BaseTools (Skip if Optional Step 2.iv was done above) See:
-     <https://github.com/tianocore/tianocore.github.io/wiki/Windows-systems#compile-tools>
+     [https://github.com/tianocore/tianocore.github.io/wiki/Windows-systems#compile-tools](https://github.com/tianocore/tianocore.github.io/wiki/Windows-systems#compile-tools)
     1) Open a Microsoft Visual Studio* command prompt, type `cd C:\MyWorkspace`
         to enter the  workspace directory
     2) Compile the BaseTools C source tools
@@ -77,7 +77,7 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
 
 1. Setup Build Environment
     1) Follow instructions for setting up the build environment on tianocore.org.
-        "<https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC>"
+        "[https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC](https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC)"
     2) Please notice that here the root is `"~/src/MyWorkspace"` instead
            of `"~/src/edk2"`
     3) Make sure BaseTools is built and required software like iASL compiler
@@ -87,12 +87,12 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
     2) Install NASM 2.0.7 or later.
         At Ubuntu, you can type `"sudo apt-get install nasm"` under terminal prompt to
         install it.
-        You can also download the source package from <http://www.nasm.us/> and
+        You can also download the source package from [http://www.nasm.us/](http://www.nasm.us/) and
         install it following the instruction on the website.
     3) Install IASL 20150818 or later.
         At Ubuntu, you can type `"sudo apt-get install iasl"` under terminal prompt to
         install it.
-        You can also download the source package from <https://acpica.org/downloads>
+        You can also download the source package from [https://acpica.org/downloads](https://acpica.org/downloads)
         and install it following the instruction on the website.
     4) Install the C Compiler- Ubuntu 16.04 LTS  you can use GNU C compiler (v5.4.0)
         At Ubuntu, you can type `"sudo apt-get install gcc-5"` under terminal prompt to install it.

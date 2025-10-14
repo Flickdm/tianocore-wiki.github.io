@@ -44,8 +44,7 @@ Omap35xxPkg.
     patch -p1 < ArmPlatformPkg/Documentation/patches/BaseTools-Pending-Patches.patch
     cd BeagleBoardPkg/
 
-3\. Get the toolchain: See <a href="ArmPkg-Toolchain" class="wikilink"
-title="ArmPkg-Toolchain">ArmPkg-Toolchain</a>
+3\. Get the toolchain: See [ArmPkg-Toolchain](ArmPkg-Toolchain)
 
 4\. Apply the ARM pending patches required to build the firmware
 
@@ -67,7 +66,7 @@ title="ArmPkg-Toolchain">ArmPkg-Toolchain</a>
 
 - Getting from Linaro website:
 
-    wget <http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz>
+    wget [http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
     tar xzf linaro-image-tools-0.4.8.tar.gz
     cd $(WORKROOT)/linaro-image-tools-0.4.8/
     sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted qemu-arm-static btrfs-tools command-not-found
@@ -155,8 +154,7 @@ The EBL (EDK Boot Loader) is a small simple command line environment
 that is much simpler that the EFI shell. It is also possible to launch
 the EFI shell from the EBL command prompt. The EBL source code is
 located in the edk2 EmbeddedPkg.
-Please see the <a href="EDK_Boot_Loader_(EBL)_WiKi" class="wikilink"
-title="EDK Boot Loader (EBL) WiKi">EDK Boot Loader (EBL) WiKi</a> for
+Please see the [EDK Boot Loader (EBL) WiKi](EDK_Boot_Loader_(EBL)_WiKi) for
 more information.
 
 ## Testing UEFI on qEmu
@@ -237,9 +235,8 @@ This is defined by BeagleBoardPkg/BeagleBoardPkg.dsc:
 ## Booting EDK2 in the Beagle Board DRAM using U-Boot
 
 1\. Build the BeagleBoard EDK2 as defined in section
-'<a href="#How_to_build_UEFI_for_the_BeagleBoard" class="wikilink"
-title=" How to build UEFI for the BeagleBoard"> How to build UEFI for
-the BeagleBoard</a>'.
+'[ How to build UEFI for
+the BeagleBoard](#How_to_build_UEFI_for_the_BeagleBoard)'.
 
 2\. Copy the BeagleBoard UEFI firmware (BEAGLEBOARD_EFI.fd) on your boot
 partition (the FAT partition) of your SD card.

@@ -123,7 +123,7 @@ to the external community of firmware engineers.
 
 A: We have a web-page that explains various acronyms associated with the
 EFI effort, located here
-<a href="FAQ" class="wikilink" title="FAQ">FAQ</a>.
+[FAQ](FAQ).
 
 ### Q: How can I add to or correct this FAQ?
 

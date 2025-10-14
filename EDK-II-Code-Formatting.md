@@ -127,8 +127,8 @@ Due to nuances in the way EDK II formats code, some changes were made to the ups
 were changes that could not be controlled purely through the Uncrustify configuration file. For more details about the fork,
 please visit that project overview in the link below.
 
-* Uncrustify upstream repository: <https://github.com/uncrustify/uncrustify>
-* Uncrustify EDK II fork repository (in Project Mu): <https://dev.azure.com/projectmu/Uncrustify>
+* Uncrustify upstream repository: [https://github.com/uncrustify/uncrustify](https://github.com/uncrustify/uncrustify)
+* Uncrustify EDK II fork repository (in Project Mu): [https://dev.azure.com/projectmu/Uncrustify](https://dev.azure.com/projectmu/Uncrustify)
 
 ## Developer Workflow
 
@@ -200,7 +200,7 @@ the configuration details are set once in the editor configuration file.
      Id: zachflower.uncrustify
      Description: Code format using uncrustify
      Publisher: Zachary Flower
-     VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=zachflower.uncrustify>
+     VS Marketplace Link: [https://marketplace.visualstudio.com/items?itemName=zachflower.uncrustify](https://marketplace.visualstudio.com/items?itemName=zachflower.uncrustify)
 
 2. Configure the Uncrustify plugin for your local setup by adding the following to your VS Code settings.json file:
    (Windows example)
@@ -341,8 +341,8 @@ alternate version of the edk2 repository that serves as "documentation" with the
 A tool called git-filter-repo can be used to perform this transformation and runs in a reasonable period of time
 (a few hours):
 
-* <https://github.com/newren/git-filter-repo>
-* <https://github.com/newren/git-filter-repo/blob/main/contrib/filter-repo-demos/lint-history>
+* [https://github.com/newren/git-filter-repo](https://github.com/newren/git-filter-repo)
+* [https://github.com/newren/git-filter-repo/blob/main/contrib/filter-repo-demos/lint-history](https://github.com/newren/git-filter-repo/blob/main/contrib/filter-repo-demos/lint-history)
 
 The following steps can be used to perform this transformation. This is the Windows process. A Linux process will be
 added in the future.

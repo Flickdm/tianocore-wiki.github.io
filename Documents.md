@@ -9,7 +9,5 @@ II Documents</a>
 
 ## EDK Documents
 
-- <a href="EDK_User_Documentation" class="wikilink"
-  title="EDK User Documentation">EDK User Documentation</a>
-- <a href="EDK_Member_Documents" class="wikilink"
-  title="EDK Member Documents">EDK Member Documents</a>
+- [EDK User Documentation](EDK.md)
+- [EDK Member Documents](EDK_Member_Documents)

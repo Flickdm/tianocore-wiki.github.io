@@ -1,12 +1,11 @@
 # Start Using UEFI
 
-<a href="UEFI" class="wikilink" title="UEFI">UEFI</a> usage and support
+[UEFI](UEFI) usage and support
 is rapidly growing in computing today. Our goal is to enable product
 manufacturers to create products that are shipped both supporting and
 using UEFI to boot the operating system. If you are interested in the
 EDK II implementation of UEFI please see
-<a href="Getting_Started" class="wikilink"
-title="Getting Started">Getting Started</a> with EDK II.
+[Getting Started](Getting_Started) with EDK II.
 
 However, if you are a technology enthusiast, then you may want to try
 out UEFI yourself. You should note that UEFI is focused on improving the
@@ -56,7 +55,7 @@ virtual machine environments.
 
 ## VirtualBox
 
-VirtualBox (<http://www.virtualbox.org>) is a virtual machine environment.
+VirtualBox ([http://www.virtualbox.org](http://www.virtualbox.org)) is a virtual machine environment.
 The more recent versions of VirtualBox can enable UEFI support in the VM
 settings under 'System' =\> 'Extended Features' =\> 'EFI support'.
 
@@ -68,5 +67,5 @@ of UEFI compatibility.
 
 ## Ubuntu
 
-<a href="UEFI_UBUNTU" class="wikilink" title="Ubuntu">Ubuntu</a>
+[Ubuntu](UEFI_UBUNTU)
 provides UEFI bootable CD images for their 64-bit (X64) releases.

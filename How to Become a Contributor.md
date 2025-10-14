@@ -2,5 +2,4 @@
 
 This page is no longer used.
 
-Please refer to the <a href="How_To_Contribute" class="wikilink"
-title="How To Contribute">How To Contribute</a> page.
+Please refer to the [How To Contribute](How_To_Contribute) page.

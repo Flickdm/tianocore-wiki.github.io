@@ -150,7 +150,7 @@ individual queries over time.
 - [edk2 Active Queries](https://github.com/tianocore/edk2/blob/master/.github/codeql/edk2.qls)
 - [edk2 Active  CodeQL Configuration](https://github.com/tianocore/edk2/blob/master/.github/codeql/codeql-config.yml)
 
-> _Note:_ Additional queries can be found here as well - <https://lgtm.com/search?q=cpp&t=rules>
+> _Note:_ Additional queries can be found here as well - [https://lgtm.com/search?q=cpp&t=rules](https://lgtm.com/search?q=cpp&t=rules)
 
 ### Process for Suggesting New Queries for edk2
 

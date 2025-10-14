@@ -7,8 +7,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: <a href="Build_Instructions" class="wikilink"
-title="Build Instructions">Build Instructions</a>
+New instructions: [Build Instructions](Build-Instructions.md)
 
 A significant portion of the steps are common on the various UNIX-like
 platforms. You should start with the instructions for the operating
@@ -17,11 +16,9 @@ here at the appropriate time.
 
 Note these instructions are not for current Linux distributions, only
 UNIX-like systems that do not work with the
-<a href="Using_EDK_II_with_Native_GCC" class="wikilink"
-title="Using EDK II with Native GCC">Using EDK II with Native GCC</a>
+[Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
 instructions. Please follow the
-<a href="Using_EDK_II_with_Native_GCC" class="wikilink"
-title="Using EDK II with Native GCC">Using EDK II with Native GCC</a>
+[Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
 guide for mainstream Linux distros.
 
 ### Get the edk2 source tree using Git
@@ -33,7 +30,7 @@ guide for mainstream Linux distros.
 #### For EDKII project developers
 
 - Clone the EDK II project repository
-  - git clone <https://github.com/tianocore/edk2>
+  - git clone [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 - Change to the edk2 directory
 - Build the tools
   - make -C BaseTools
@@ -171,7 +168,7 @@ compiler. But, if you are building an entire system firmware image, then
 you may need an ASL compiler. For example, the edk2 OVMF sample platform
 does require an ASL compiler in order to be built.
 
-First, download the latest ACPI-CA release from <http://www.acpica.org>.
+First, download the latest ACPI-CA release from [http://www.acpica.org](http://www.acpica.org).
 
 **OS X users**: At this time, the latest versions of ACPI-CA are not
 building on Mac OS X, so please use the release from 20081031 instead.

@@ -3,8 +3,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: <a href="Build_Instructions" class="wikilink"
-title="Build Instructions">Build Instructions</a>
+New instructions: [Build Instructions](Build-Instructions.md)
 
 This page provides *step-by-step instructions* for setting up a [EDK
 II](http://www.tianocore.org/edk2/) build environment on Linux using a
@@ -111,8 +110,7 @@ tools use 'python'
 
 ### Continue with common instructions
 
-The <a href="Common_instructions" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common-instructions.md) are common for
 most UNIX-like systems.
 
 ### Ubuntu 16.04 LTS / Ubuntu 16.10
@@ -150,8 +148,7 @@ python3-distutils - distutils module from the Python standard library
 
 ### Continue with common instructions
 
-The <a href="Common_instructions" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common-instructions.md) are common for
 most UNIX-like systems.
 
 ## Instructions for older Linux Environments
@@ -193,8 +190,7 @@ To install the required packages, you must be root. Therefore we use
 
 <big> Continue with common instructions </big>
 
-The <a href="Common_instructions" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.
 
 ### Fedora 13
@@ -223,8 +219,7 @@ To install the required packages, you must be root. Therefore we use
 
 <big> Continue with common instructions </big>
 
-The <a href="Common_instructions" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.
 
 ### Mandriva 2010
@@ -252,8 +247,7 @@ To install the required packages, you must be root. Therefore we use
 
 <big> Continue with common instructions </big>
 
-The <a href="Common_instructions" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.
 
 ### openSUSE 12.1
@@ -278,8 +272,7 @@ to run this command.
 
 <big> Continue with common instructions </big>
 
-The <a href="Common_instructions" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.
 
 ### Ubuntu 10.10
@@ -309,12 +302,10 @@ to run this command.
 
 ### Continue with common instructions
 
-The <a href="Common_instructions" class="wikilink"
-title="remaining instructions">remaining instructions</a> are common for
+The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.
 
 # See Also
 
-- <a href="Unix-like_systems" class="wikilink"
-  title="Unix-like systems">Unix-like systems</a> - Instructions which
+- [Unix-like systems](Unix-like-systems.md) - Instructions which
   walk through building the Mingw GCC cross-compiler

@@ -2,46 +2,41 @@
 
 **EDK II FAQ**
 
-<a href="Differences_between_EDK_and_EDK_II" class="wikilink"
-title="Differences between EDK and EDK II">Differences between EDK and
-EDK II</a>
+[Differences between EDK and
+EDK II](Differences_between_EDK_and_EDK_II)
 
-<a href="Differences_between_UDK2010_and_EDK_II" class="wikilink"
-title="Differences between UDK2010 and EDK II">Differences between
-UDK2010 and EDK II</a>
+[Differences between
+UDK2010 and EDK II](Differences_between_UDK2010_and_EDK_II)
 
-<a href="Build" class="wikilink" title="Build">Build</a> questions
+[Build](Build) questions
 
-<a href="Debug_FAQ" class="wikilink" title="Debug FAQ">Debug FAQ</a>
+[Debug FAQ](Debug_FAQ)
 questions
 
-<a href="DEC_FAQ" class="wikilink" title="DEC FAQ">DEC FAQ</a> questions
+[DEC FAQ](DEC_FAQ) questions
 
-<a href="ECP" class="wikilink" title="ECP">ECP</a> EFI Compatibility
+[ECP](ECP) EFI Compatibility
 package questions
 
-<a href="Execution_order_FAQ" class="wikilink"
-title="Execution order FAQ">Execution order FAQ</a> questions
+[Execution order FAQ](Execution_order_FAQ) questions
 
-<a href="GUID_FAQ" class="wikilink" title="GUID FAQ">GUID FAQ</a>
+[GUID FAQ](GUID_FAQ)
 questions
 
-<a href="NT32" class="wikilink" title="NT32">NT32</a> questions
+[NT32](NT32) questions
 
-<a href="PCD" class="wikilink" title="PCD">PCD</a> questions
+[PCD](PCD) questions
 
-<a href="Shell_FAQ" class="wikilink" title="Shell">Shell</a> questions
+[Shell](Shell.md) questions
 
-<a href="Virtualization_FAQ" class="wikilink"
-title="Virtualization FAQ">Virtualization FAQ</a> questions
+[Virtualization FAQ](Virtualization_FAQ) questions
 
-<a href="UEFI_application" class="wikilink"
-title="UEFI application">UEFI application</a> questions
+[UEFI application](UEFI_application) questions
 
-<a href="UEFI_Drivers" class="wikilink" title="UEFI Drivers">UEFI
-Drivers</a> questions
+[UEFI
+Drivers](UEFI.md) questions
 
-<a href="USB_stack" class="wikilink" title="USB stack">USB stack</a>
+[USB stack](USB_stack)
 questions
 
 ### Is an a priori file checked first?
@@ -197,13 +192,12 @@ Typically the order listed is order of appearance
 ### How do you create additional FDF segments?
 
 The FDF Spec should have information on specifying in the FDF for a
-platform. See <a href="EDK_II_Specifications" class="wikilink"
-title="EDK II Specifications">EDK II Specifications</a>
+platform. See [EDK II Specifications](EDK_II_Specifications)
 
 ### Any formal forum?
 
 Yes, Join the Sourceforge and sign up for the developer for EDK II.
-<http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Mailing_Lists>
+[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Mailing_Lists](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Mailing_Lists)
 and subscribe to the mailing lists.
 
 ### What happens when there is no more temporary RAM?
@@ -411,29 +405,29 @@ boot manager select EFI DVDROM/CDROM boot)
 The following location is present on all mirrors (IE at univ of Oregon)
 boot.iso Should also see the efidisk.img and efiboot.img in the same
 directory.
-<http://mirror.uoregon.edu/fedora/linux/development/14/x86_64/os/images/>
+[http://mirror.uoregon.edu/fedora/linux/development/14/x86_64/os/images/](http://mirror.uoregon.edu/fedora/linux/development/14/x86_64/os/images/)
 
 or
 
-<http://ftp.linux.ncsu.edu/pub/fedora/linux/releases/14/Fedora/x86_64/os/images/>
+[http://ftp.linux.ncsu.edu/pub/fedora/linux/releases/14/Fedora/x86_64/os/images/](http://ftp.linux.ncsu.edu/pub/fedora/linux/releases/14/Fedora/x86_64/os/images/)
 
 so your favorite mirror /fedora/linux/development/14/x86_64/os/images
 then look for boot.iso and burn it with your burner software. If you
 want to make a usb stick fedora EFI bootable or want to do a netboot
 install see below. Minimal boot image method from fedora 14 docs.
 
-<http://docs.fedoraproject.org/en-US/Fedora/14/html/Installation_Guide/Making_Minimal_Boot_Media.html>
+[http://docs.fedoraproject.org/en-US/Fedora/14/html/Installation_Guide/Making_Minimal_Boot_Media.html](http://docs.fedoraproject.org/en-US/Fedora/14/html/Installation_Guide/Making_Minimal_Boot_Media.html)
 On the web there are 3 methods to install UEFI x64 fedora 14 to usb
 sticks:
 
-<http://blog.fpmurphy.com/2010/10/methods-to-uefi-install-fedora-14.html>
+[http://blog.fpmurphy.com/2010/10/methods-to-uefi-install-fedora-14.html](http://blog.fpmurphy.com/2010/10/methods-to-uefi-install-fedora-14.html)
 
 For Ubuntu goto their cdimage to get the .iso images
-<http://cdimage.ubuntu.com/>
+[http://cdimage.ubuntu.com/](http://cdimage.ubuntu.com/)
 
 desktop would be maverick release
 
-<http://cdimage.ubuntu.com/releases/10.04.1/release/>
+[http://cdimage.ubuntu.com/releases/10.04.1/release/](http://cdimage.ubuntu.com/releases/10.04.1/release/)
 
 ubuntu-10.04-dvd-amd64.iso 29-Apr-2010 15:28 4.1G Install/live DVD for
 64-bit PC (AMD64) computers (standard download)

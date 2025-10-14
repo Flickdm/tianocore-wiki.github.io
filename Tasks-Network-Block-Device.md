@@ -14,25 +14,24 @@ Add [Network Block Device](http://nbd.sourceforge.net/) support
 Client
 
 - [OVMF](http://www.tianocore.org/ovmf/),
-  <a href="EmulatorPkg" class="wikilink"
-  title="EmulatorPkg">EmulatorPkg</a>, or
-  <a href="NT32" class="wikilink" title="NT32">NT32</a>.
+  [EmulatorPkg](EmulatorPkg), or
+  [NT32](NT32).
 
 Server
 
 - Linux
 - Windows (for example, try
-  <http://www.vanheusden.com/windows/nbdsrvr/>)
+  [http://www.vanheusden.com/windows/nbdsrvr/](http://www.vanheusden.com/windows/nbdsrvr/))
 
 # Links for more information
 
-- <https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md>
-- <http://nbd.sourceforge.net/>
-- <http://wiki.wireshark.org/NBD>
-- <http://www.vanheusden.com/java/JNbd/>
-- <http://www.vanheusden.com/windows/nbdsrvr/>
-- <https://github.com/yoe/nbd>
-- <http://code.activestate.com/recipes/577569-nbd-server-in-python/>
+- [https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md](https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md)
+- [http://nbd.sourceforge.net/](http://nbd.sourceforge.net/)
+- [http://wiki.wireshark.org/NBD](http://wiki.wireshark.org/NBD)
+- [http://www.vanheusden.com/java/JNbd/](http://www.vanheusden.com/java/JNbd/)
+- [http://www.vanheusden.com/windows/nbdsrvr/](http://www.vanheusden.com/windows/nbdsrvr/)
+- [https://github.com/yoe/nbd](https://github.com/yoe/nbd)
+- [http://code.activestate.com/recipes/577569-nbd-server-in-python/](http://code.activestate.com/recipes/577569-nbd-server-in-python/)
 
 # Development environment
 
@@ -45,7 +44,7 @@ Sub-goals:
 
 - Read the publicly available documentation and understand the NBD
   protocol:
-  <https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md>
+  [https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md](https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md)
   - For any missing details, wireshark can be used to observe existing
     behavior
 - Setup UEFI environment with working TCP/IP (can 'ping' from Shell)
@@ -76,11 +75,9 @@ Sub-goals:
 # Further Discussion
 
 This project would be for an edk2 based driver, so please discuss the
-project on <a href="edk2-devel" class="wikilink"
-title="https://edk2.groups.io/g/devel"><span>https://edk2.groups.io/g/devel</span></a>.
+project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
 # See Also
 
-- <a href="Tasks#Network_Block_Device_(NBD)_client" class="wikilink"
-  title="Tasks#Network Block Device (NBD) client">Tasks#Network Block
-  Device (NBD) client</a>
+- [Tasks#Network Block
+  Device (NBD) client](Tasks.md)_client)

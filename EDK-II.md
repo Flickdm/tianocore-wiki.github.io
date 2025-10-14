@@ -4,9 +4,9 @@ EDK II is a modern, feature-rich, cross-platform firmware development environmen
 
 ## Source Repositories
 
-EDK II Main Repository - <https://github.com/tianocore/edk2>
+EDK II Main Repository - [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 
-EDK II Staging (features in development) - <https://github.com/tianocore/edk2-staging>
+EDK II Staging (features in development) - [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)
 
 ## Stable Tags
 

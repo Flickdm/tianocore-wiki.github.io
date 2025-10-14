@@ -97,5 +97,4 @@ will get the library in either 32 or 64 bit. Itanium and the EFI Byte
 code compiler are also supported. Plus ARM on open source. There are a
 few “Base” libraries that CPU specific.
 
-<a href="category:UEFI/PI" class="wikilink"
-title="category:UEFI/PI">category:UEFI/PI</a>
+[category:UEFI/PI](category:UEFI/PI)

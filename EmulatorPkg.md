@@ -4,8 +4,8 @@
 
 The goal of this project is to provide a common OS emulation
 environment, to replace
-<a href="Nt32Pkg" class="wikilink" title="Nt32Pkg">Nt32Pkg</a> and
-<a href="UnixPkg" class="wikilink" title="UnixPkg">UnixPkg</a>.
+[Nt32Pkg](Nt32Pkg) and
+[UnixPkg](UnixPkg).
 
 | UEFI architecture | Operating System | Status     |
 |-------------------|------------------|------------|

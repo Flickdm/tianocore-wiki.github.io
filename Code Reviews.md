@@ -6,8 +6,7 @@ be a code reviewer.
 
 # Submit Code
 
-<a href="Code_Contributions#Submitting_Contributions" class="wikilink"
-title="Submit your patch">Submit your patch</a> to GitHub as a pull
+[Submit your patch](Code-Contributions.md) to GitHub as a pull
 request.
 
 # Review Code
@@ -28,7 +27,7 @@ think are needed. The author will need to mark those feedback items as
 resolved before the pull request can be completed.
 
 Please consider
-<a href="Code_Style" class="wikilink" title="Code Style">Code Style</a>
+[Code Style](Code_Style)
 issues as part of your code review.
 
 # Resubmit Code
@@ -38,4 +37,4 @@ and force push to your fork branch to update the pull request.
 
 # See Also
 
-- <a href="Code_Style" class="wikilink" title="Code Style">Code Style</a>
+- [Code Style](Code_Style)

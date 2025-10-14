@@ -2,29 +2,29 @@
 
 This change is based on the following emails:
 
-* <https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html>
-* <https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html>
+* [https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html](https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html)
+* [https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html](https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html)
 
 RFCs with detailed process for the license change:
 
-* V3: <https://lists.01.org/pipermail/edk2-devel/2019-March/038116.html>
-* V2: <https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html>
-* V1: <https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html>
+* V3: [https://lists.01.org/pipermail/edk2-devel/2019-March/038116.html](https://lists.01.org/pipermail/edk2-devel/2019-March/038116.html)
+* V2: [https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html](https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html)
+* V1: [https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html](https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html)
 
 # GitHub Issue
 
-<https://github.com/tianocore/edk2/issues/7666>
+[https://github.com/tianocore/edk2/issues/7666](https://github.com/tianocore/edk2/issues/7666)
 
 # Patch Reviews
 
 The patch series for review has been posted on the following branch using
 7ed72121b7 as the base for the patch series.
 
-  <https://github.com/mdkinney/edk2/tree/Bug_1373_BsdPatentLicense_V3>
+  [https://github.com/mdkinney/edk2/tree/Bug_1373_BsdPatentLicense_V3](https://github.com/mdkinney/edk2/tree/Bug_1373_BsdPatentLicense_V3)
 
 The commits in patch series can be viewed here:
 
-  <https://github.com/mdkinney/edk2/commits/Bug_1373_BsdPatentLicense_V3>
+  [https://github.com/mdkinney/edk2/commits/Bug_1373_BsdPatentLicense_V3](https://github.com/mdkinney/edk2/commits/Bug_1373_BsdPatentLicense_V3)
 
 The patch series has one patch per package along with a few patches
 to update the license information in the root of the edk2 repository
@@ -143,7 +143,7 @@ branches in the edk2 repository.
    BSD License to the BSD+Patent License. The following is the link to the
    BSD+Patent License and the new License.txt file contents.
 
-   <https://opensource.org/licenses/BSDplusPatent>
+   [https://opensource.org/licenses/BSDplusPatent](https://opensource.org/licenses/BSDplusPatent)
 
    ```
    Redistribution and use in source and binary forms, with or without

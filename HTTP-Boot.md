@@ -36,7 +36,7 @@ Besides the standard DHCP parameters like the station IP, gateway and DNS server
 
 | Tag Name | Tag # (DHCPv4) | Tag # (DHCPv6)| Length | Data Field |
 | --- | --- | --- | --- |--- |
-| Boot File | 'file' field in DHCP header, or option 67 | 59 | Varies | Boot File URI String (eg. "<http://Webserver/Boot/Boot.efi>" or "<http://Webserver/Boot/Boot.iso>") |
+| Boot File | 'file' field in DHCP header, or option 67 | 59 | Varies | Boot File URI String (eg. "[http://Webserver/Boot/Boot.efi](http://Webserver/Boot/Boot.efi)" or "[http://Webserver/Boot/Boot.iso](http://Webserver/Boot/Boot.iso)") |
 | Class Identifier | 60 | 16 | 10 | "HTTPClient" |
 
 ### URI Configuration in Home Environment

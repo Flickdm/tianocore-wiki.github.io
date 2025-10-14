@@ -1,19 +1,15 @@
 # SecurityPkg
 
 There are 4 security related features in SecurityPkg including
-<a href="SecurityPkg#TPM" class="wikilink" title="TPM">TPM</a>,
-<a href="SecurityPkg#UID" class="wikilink"
-title="User identification (UID)">User identification (UID)</a>,
-<a href="SecurityPkg#Secure_Boot" class="wikilink"
-title="secure boot">secure boot</a>, and
-<a href="SecurityPkg#Authenticated_Variable" class="wikilink"
-title="authenticated variable">authenticated variable</a>.
+[TPM](SecurityPkg#TPM),
+[User identification (UID)](SecurityPkg#UID),
+[secure boot](SecurityPkg#Secure_Boot), and
+[authenticated variable](SecurityPkg#Authenticated_Variable).
 
 More information:
 
 - [ReadMe_Security.txt](https://github.com/tianocore-docs/Docs/blob/master/UDK/UDK2010.SR1/Readme_Security.txt)
-- <a href="How-to-Enable-Security" class="wikilink"
-  title=" How to enable Security"> How to enable Security</a> with EDK
+- [ How to enable Security](How-to-Enable-Security) with EDK
   II
 - PDF on [How to Sign UEFI Drivers & Applications
   V1.31.pdf](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf)
@@ -71,7 +67,7 @@ starting point. This version was created Jan. 31, 2013 and will be
 updated periodically. Please send recommended changes to the \<a
 href="[mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question](mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question)\>
 <edk2-devel@lists.01.org></a> To join the email list goto:
-<a href="edk2-devel" class="wikilink" title="edk2-devel">edk2-devel</a>
+[edk2-devel](edk2-devel)
 (NOTE: Do NOT send any personal information to the edk2-devel list.)
 
 ### Linux tools for signing UEFI images
@@ -132,7 +128,7 @@ pesign </span>
 ``<span style="font-size:11.0pt;
   font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">
 
-<https://github.com/vathpela/pesign> </span>
+[https://github.com/vathpela/pesign](https://github.com/vathpela/pesign) </span>
 
 </td>
 
@@ -395,14 +391,14 @@ using MS UEFI CA to sign images
   successfully secure booted. Fixes are available in <tip:x86/efi>
   branch at:
 
-<http://git.kernel.org/?p=linux/kernel/git/tip/tip.git;a=shortlog;h=refs/heads/x86/efi>
+[http://git.kernel.org/?p=linux/kernel/git/tip/tip.git;a=shortlog;h=refs/heads/x86/efi](http://git.kernel.org/?p=linux/kernel/git/tip/tip.git;a=shortlog;h=refs/heads/x86/efi)
 
 - efilinux Loader - has been signed with the Microsoft\* SignTool and
   successfully secure booted. These fixes have been merged into the
   'next' branch prior to being merged into the 'master' branch and a
   planned 1.1 release:
 
-<https://github.com/mfleming/efilinux>
+[https://github.com/mfleming/efilinux](https://github.com/mfleming/efilinux)
 
 The .reloc section fix on x86-64 was merged into the efi-linux library’s
 sourceforge repository and a new version was released (3.0q).
@@ -439,7 +435,7 @@ entries in a UEFI image, but the Authenticode specification does not
 preclude this case of multiple entries.
 
 Currently, both the SignTool from MSFT and the DxeImageVerificationLib
-from the SecurityPkg on <http://www.tianocore.org> treat the Attribute
+from the SecurityPkg on [http://www.tianocore.org](http://www.tianocore.org) treat the Attribute
 Certificate Table as a single certificate. So if one re-signs a UEFI
 image with a new certificate, the MSFT SignTool will overwrite the old
 certificate entry with the new one. And the verification library assumes
@@ -452,7 +448,7 @@ multiple signatures.
 ### 2. Sample Images
 
 Some sample UEFI images and their certificates can be found at:
-<http://pjones.fedorapeople.org/multisign/>
+[http://pjones.fedorapeople.org/multisign/](http://pjones.fedorapeople.org/multisign/)
 
 They are:
 
@@ -474,7 +470,7 @@ a small patch to the IsPkcsSignedDataVerifiedBySignatureList routine in
 SecurityPkg\Library\DxeImageVerificationLib\DxeImageVerificationLib.c.
 
 Patches are based based on SVN r13505 of
-<https://svn.code.sf.net/p/edk2/code/trunk/edk2/>
+[https://svn.code.sf.net/p/edk2/code/trunk/edk2/](https://svn.code.sf.net/p/edk2/code/trunk/edk2/)
 
 Rev2 handles N certificates in an image and validates each
 WIN_CERTIFICATE header found in the image

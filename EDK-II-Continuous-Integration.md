@@ -18,8 +18,8 @@ enhancements and extensions to these services.
    * [EDK II Pytool Extensions](https://github.com/tianocore/edk2-pytool-extensions)
    * [GitHub Issue](https://github.com/tianocore/edk2/issues/8241)
    * Original RFC Proposals
-     * <https://edk2.groups.io/g/rfc/message/93>
-     * <https://edk2.groups.io/g/devel/message/46607>
+     * [https://edk2.groups.io/g/rfc/message/93](https://edk2.groups.io/g/rfc/message/93)
+     * [https://edk2.groups.io/g/devel/message/46607](https://edk2.groups.io/g/devel/message/46607)
 2) Enable the following pre-commit checks
    * [PatchCheck](https://github.com/tianocore/edk2/blob/e92b155740cdbf10a85ed8f37f69da0991fc8275/BaseTools/Scripts/PatchCheck.py)
    * [CharEncodingCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/CharEncodingCheck)
@@ -110,7 +110,7 @@ enhancements and extensions to these services.
   * May need to maintain an exception list
 * Static Analysis against modified modules/libs
   * CLANG static analysis
-  * Coverity: <https://scan.coverity.com/>
+  * Coverity: [https://scan.coverity.com/](https://scan.coverity.com/)
   * Difficult to address all warnings/issues/false positives reported
   * May need to maintain an exception list
 * pyflakes (for python sources)
@@ -123,9 +123,9 @@ enhancements and extensions to these services.
 * Boot platforms to UEFI Shell
 * Run UEFI SCTs and collect results for platforms
 * Linaro LAVA CI
-  * <https://validation.linaro.org/static/docs/v2>
-  * <https://validation.linaro.org/static/docs/v2/lava_ci.html#continuous-integration>
-  * <https://lkft.linaro.org>
+  * [https://validation.linaro.org/static/docs/v2](https://validation.linaro.org/static/docs/v2)
+  * [https://validation.linaro.org/static/docs/v2/lava_ci.html#continuous-integration](https://validation.linaro.org/static/docs/v2/lava_ci.html#continuous-integration)
+  * [https://lkft.linaro.org](https://lkft.linaro.org)
 * Boot platforms to OS(s)
 * Integration/Regression tests that require full OS boots
 * Build binary releases of components (e.g. UEFI Shell, OVMF)
@@ -149,29 +149,29 @@ enhancements and extensions to these services.
   * Project that offers a python script that automates communicating with the
     UEFI shell over the emulated serial port. Used in downstream package builds,
     for packaging a pre-enrolled variable store template file.
-    * <https://github.com/puiterwijk/qemu-ovmf-secureboot>
+    * [https://github.com/puiterwijk/qemu-ovmf-secureboot](https://github.com/puiterwijk/qemu-ovmf-secureboot)
 
 # Evaluations and Supporting Background Materials
 
 * Background
-  * <https://en.wikipedia.org/wiki/Continuous_integration>
+  * [https://en.wikipedia.org/wiki/Continuous_integration](https://en.wikipedia.org/wiki/Continuous_integration)
 * GitHub Continuous Integration services
-  * <https://github.com/marketplace/category/continuous-integration>
+  * [https://github.com/marketplace/category/continuous-integration](https://github.com/marketplace/category/continuous-integration)
 * Jenkins Evaluation
 * GitLab Evaluation
   * Contacts
     * Laszlo Ersek <lersek@redhat.com>
     * Philippe Mathieu-Daudé <philmd@redhat.com>
-  * <https://gitlab.com/philmd/edk2/pipelines>
+  * [https://gitlab.com/philmd/edk2/pipelines](https://gitlab.com/philmd/edk2/pipelines)
 * Azure Pipeline Evaluation for CPU Archs, tool chain tags, and build targets
   * Contacts
     * Michael D Kinney <michael.d.kinney@intel.com>
-  * <https://github.com/mdkinney/edk2-ci>
-  * <https://dev.azure.com/mikekinney/edk2-ci/_build?definitionId=1>
+  * [https://github.com/mdkinney/edk2-ci](https://github.com/mdkinney/edk2-ci)
+  * [https://dev.azure.com/mikekinney/edk2-ci/_build?definitionId=1](https://dev.azure.com/mikekinney/edk2-ci/_build?definitionId=1)
 * Azure Pipelines Evaluation with HBFA integration
   * Contacts
     * Sean Brogan <sean.brogan@microsoft.com>
-  * <https://github.com/spbrogan/edk2-staging/tree/edk2-stuart-ci-latest>
+  * [https://github.com/spbrogan/edk2-staging/tree/edk2-stuart-ci-latest](https://github.com/spbrogan/edk2-staging/tree/edk2-stuart-ci-latest)
   * To work with this branch and run tests immediately, all you need to do is:
 
 ```
@@ -182,15 +182,15 @@ stuart_ci_build -c .\CISettings.py --Tool_Chain VS2017
 ```
 
 * Branch is monitored for CI and PR gating in the following Azure build pipeline.
-  * <https://dev.azure.com/tianocore/edk2-ci-play/_build?definitionId=12>
+  * [https://dev.azure.com/tianocore/edk2-ci-play/_build?definitionId=12](https://dev.azure.com/tianocore/edk2-ci-play/_build?definitionId=12)
 * Results show that this CI process is running build CI and DSC checking and
     automatically running a host-based unit test and all of the results are
     visible in a single view.
-  * <https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=216&view=ms.vss-test-web.build-test-results-tab>
-  * <https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=215&view=ms.vss-test-web.build-test-results-tab>
+  * [https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=216&view=ms.vss-test-web.build-test-results-tab](https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=216&view=ms.vss-test-web.build-test-results-tab)
+  * [https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=215&view=ms.vss-test-web.build-test-results-tab](https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=215&view=ms.vss-test-web.build-test-results-tab)
 * Depends on pip installable tool from the following TianoCore repos
-  * <https://github.com/tianocore/edk2-pytool-extensions>
-  * <https://github.com/tianocore/edk2-pytool-library>
+  * [https://github.com/tianocore/edk2-pytool-extensions](https://github.com/tianocore/edk2-pytool-extensions)
+  * [https://github.com/tianocore/edk2-pytool-library](https://github.com/tianocore/edk2-pytool-library)
 * Documentation for edk2-pytools
-  * <https://github.com/tianocore/edk2-pytool-library/tree/master/docs>
-  * <https://github.com/tianocore/edk2-pytool-extensions/tree/master/docs>
+  * [https://github.com/tianocore/edk2-pytool-library/tree/master/docs](https://github.com/tianocore/edk2-pytool-library/tree/master/docs)
+  * [https://github.com/tianocore/edk2-pytool-extensions/tree/master/docs](https://github.com/tianocore/edk2-pytool-extensions/tree/master/docs)

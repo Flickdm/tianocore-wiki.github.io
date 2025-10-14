@@ -2,9 +2,9 @@
 
 ## Download Nasm
 
-The NASM assembler is available from: <http://www.nasm.us/>
+The NASM assembler is available from: [http://www.nasm.us/](http://www.nasm.us/)
 
-The link to the release notes for what is new in NASM 2.15.05 is at: <http://www.nasm.us/doc/nasmdocc.html>
+The link to the release notes for what is new in NASM 2.15.05 is at: [http://www.nasm.us/doc/nasmdocc.html](http://www.nasm.us/doc/nasmdocc.html)
 
 * NASM 2.12 adds support for Codeview version 8 (cv8) which allows for source
   level debug of NASM sources when EDK II sources are built using Microsoft

@@ -6,21 +6,17 @@ text editor
 - Status: Complete :heavy_check_mark:
 - Difficulty: Medium
 - Language: C
-- Mentor: <a href="@jljusten" class="wikilink"
-  title="https://github.com/jljusten"><span>https://github.com/jljusten</span></a>
-- Suggested by: <a href="@jljusten" class="wikilink"
-  title="https://github.com/jljusten"><span>https://github.com/jljusten</span></a>,
-  <a href="@ErikBjorge" class="wikilink"
-  title="https://github.com/ErikBjorge"><span>https://github.com/ErikBjorge</span></a>,
-  <a href="@jcarsey" class="wikilink"
-  title="https://github.com/jcarsey"><span>https://github.com/jcarsey</span></a>
+- Mentor: [https://github.com/jljusten](https://github.com/jljusten)
+- Suggested by: [https://github.com/jljusten](https://github.com/jljusten),
+  [https://github.com/ErikBjorge](https://github.com/ErikBjorge),
+  [https://github.com/jcarsey](https://github.com/jcarsey)
 
 # Status
 
 - Completed :heavy_check_mark:
 - Work done by Suyu Yang for
-  <a href="GSOC2011" class="wikilink" title="GSOC2011">GSOC2011</a>.
-  - Source: <http://code.google.com/p/edk2-editor>
+  [GSOC2011](GSOC2011).
+  - Source: [http://code.google.com/p/edk2-editor](http://code.google.com/p/edk2-editor)
 - Available in main edk2 tree
 
 Issues:
@@ -46,8 +42,8 @@ Testing
 
 - This project can be tested on any PI 1.2 system.
 - [OVMF](http://www.tianocore.org/ovmf/),
-  <a href="Nt32Pkg" class="wikilink" title="Nt32Pkg">Nt32Pkg</a> or
-  <a href="UnixPkg" class="wikilink" title="UnixPkg">UnixPkg</a> could
+  [Nt32Pkg](Nt32Pkg) or
+  [UnixPkg](UnixPkg) could
   each provide friendly test environments.
 
 # Current State
@@ -231,9 +227,8 @@ search, then the replace text.
 
 # See Also
 
-- <a href="Tasks" class="wikilink" title="Tasks">Tasks</a>
-- <a href="GSOC2011#Shell_editor_improvements" class="wikilink"
-  title="GSOC2011#Shell editor improvements">GSOC2011#Shell editor
-  improvements</a>
+- [Tasks](Tasks)
+- [GSOC2011#Shell editor
+  improvements](GSOC2011#Shell_editor_improvements)
 - [SimpleTextIn.h](https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/SimpleTextIn.h),
   [SimpleTextInEx.h](https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/SimpleTextInEx.h)

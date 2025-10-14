@@ -1,7 +1,7 @@
 # Edk apps
 
 **Note that EDK has been deprecated in favor of
-<a href="EDK_II" class="wikilink" title="EDK II">EDK II</a>. This
+[EDK II](EDK_II). This
 information is provided for historical purposes**
 
 ## Welcome to the EDK Sample Applications Project

@@ -4,7 +4,7 @@
 
 The Standard Library component of the UDK is made up of three seperate,
 but interconnected,
-<a href="EDKII_Packages" class="wikilink" title="packages">packages</a>.
+[packages](EDKII_Packages).
 
 ## AppLib
 

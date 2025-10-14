@@ -17,13 +17,13 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
 1. Setup Build Environment
     1) Install Microsoft Visual Studio 2015* in the build machine and make
         sure that AMD64 complier was selected when installing.
-    2) Download NASM 2.12.01 or later from <http://www.nasm.us/> and install it to
+    2) Download NASM 2.12.01 or later from [http://www.nasm.us/](http://www.nasm.us/) and install it to
         C:\Nasm. Make sure C:\Nasm is added to system environment variable 'PATH'
     3) Set up for using GitHub for Windows. See:
-    <https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help>
-    4) Download and install Python2.7.x  <https://www.python.org/> for building the BaseTools
+    [https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help](https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help)
+    4) Download and install Python2.7.x  [https://www.python.org/](https://www.python.org/) for building the BaseTools
         Default install directory is: C:/Python27
-    5) Download the pre-compiled Openssl binary from <https://wiki.openssl.org/index.php/Binaries>.  Search for a
+    5) Download the pre-compiled Openssl binary from [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries).  Search for a
         Windows binary in the list of "_Third Party OpenSSL Related Binary Distributions_" table that will be
         Windows binary. Go to the third party site to download the latest version of Windows x64 86 or Win32 binary.
         Download and extract to C:\Openssl. Make sure C:\Openssl is added to system environment
@@ -43,12 +43,12 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
     1) Open file "C:\MyWorkspace\CryptoPkg\Library\OpensslLib\OpenSSL-HOWTO.txt"
         and follow the instruction to install OpenSSL* for UEFI building.
         For this release, please use OpenSSL-1.1.0g. Download it from
-        <https://github.com/openssl/openssl/archive/OpenSSL_1_1_0g.zip>
+        [https://github.com/openssl/openssl/archive/OpenSSL_1_1_0g.zip](https://github.com/openssl/openssl/archive/OpenSSL_1_1_0g.zip)
         Extract it to C:\MyWorkspace\CryptoPkg\Library\OpensslLib,
         and rename its directory name to openssl
 
 4. Compile the BaseTools See:
-     <https://github.com/tianocore/tianocore.github.io/wiki/Windows-systems#compile-tools>
+     [https://github.com/tianocore/tianocore.github.io/wiki/Windows-systems#compile-tools](https://github.com/tianocore/tianocore.github.io/wiki/Windows-systems#compile-tools)
     1) Open a Microsoft Visual Studio* command prompt, type `cd C:\MyWorkspace`
         to enter the  workspace directory
     2) Compile the BaseTools C source tools
@@ -77,7 +77,7 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
 
 1. Setup Build Environment
     1) Follow instructions for setting up the build environment on tianocore.org.
-        "<https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC>"
+        "[https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC](https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC)"
 
         2) Please notice that here the root is `"~/src/MyWorkspace`" instead
            of `"~/src/edk2"`
@@ -90,12 +90,12 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
     2) Install NASM 2.12.01 or later.
         At Ubuntu, you can type "sudo apt-get install nasm" under terminal to
         install it.
-        You can also download the source package from <http://www.nasm.us/> and
+        You can also download the source package from [http://www.nasm.us/](http://www.nasm.us/) and
         install it following the instruction on the website.
     3) Install IASL 20150818 or later.
         At Ubuntu, you can type `"sudo apt-get install iasl"` under terminal to
         install it.
-        You can also download the source package from <https://acpica.org/downloads>
+        You can also download the source package from [https://acpica.org/downloads](https://acpica.org/downloads)
         and install it following the instruction on the website.
 
 2. Create the full Source Code directory for the UDK2018 release
@@ -112,7 +112,7 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
     1) Open file "~/src/MyWorkspace/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt"
         and follow the instruction to install OpenSSL* for UEFI building.
         For this release, please use OpenSSL-1.1.0g.       Download it from
-        <https://github.com/openssl/openssl/archive/OpenSSL_1_1_0g.zip>
+        [https://github.com/openssl/openssl/archive/OpenSSL_1_1_0g.zip](https://github.com/openssl/openssl/archive/OpenSSL_1_1_0g.zip)
         Extract it to ~/src/MyWorkspace/CryptoPkg/Library/OpensslLib,
         and rename its directory name to openssl
 

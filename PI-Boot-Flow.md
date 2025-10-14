@@ -1,14 +1,9 @@
 # Platform Initialization (PI) Boot Flow
 
-<a
-href="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.JPG"
-class="wikilink"
-title=" &lt;img src=&quot;https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases-tn.jpg&gt;">
-&lt;img
-src="<span>https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases-tn.jpg</span>&gt;</a>
+[&lt;img](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.JPG)src="<span>https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases-tn.jpg</span>&gt;</a>
 
 **Security (SEC) Phase**
-The Security (<a href="SEC" class="wikilink" title="SEC">SEC</a>) phase
+The Security ([SEC](SEC)) phase
 is the first phase in the PI Architecture architecture and is
 responsible for the following:
 \* Handling all platform restart events
@@ -27,7 +22,7 @@ Interface](http://uefi.org/specsandtesttools)
 
 **Pre-EFI Initialization (PEI) Phase**
 The Pre-EFI Initialization
-(<a href="PEI" class="wikilink" title="PEI">PEI</a>) phase of the PI
+([PEI](PEI)) phase of the PI
 Architecture specifications (hereafter referred to as the “PI
 Architecture”) is invoked quite early in the boot flow. Specifically,
 after some preliminary processing in the Security (SEC) phase, any
@@ -52,7 +47,7 @@ the S3 sleep state. For crisis recovery, the PEI phase should reside in
 some small, fault-tolerant block of the firmware store. As a result, it
 is imperative to keep the footprint of the PEI phase as small as
 possible. In addition, for a successful
-<a href="ACPI_S3" class="wikilink" title="ACPI S3">ACPI S3</a> resume,
+[ACPI S3](PI.md) resume,
 the speed of the resume is of utmost importance, so the code path
 through the firmware should be minimized. These two boot flows also
 speak to the need to keep the processing and code paths in the PEI phase
@@ -69,7 +64,7 @@ Interface](http://www.uefi.org/specsandtesttools)
 
 **Driver eXecution Environment (DXE) Phase**
 The Driver Execution Environment
-(<a href="DXE" class="wikilink" title="DXE">DXE</a>) phase is where most
+([DXE](Tasks-UefiCpuPkg-CpuDxe-MP-support.md)) phase is where most
 of the system initialization is performed. Pre-EFI Initialization (PEI),
 the phase prior to DXE, is responsible for initializing permanent memory
 in the platform so that the DXE phase can be loaded and executed. The
@@ -106,7 +101,7 @@ Interface](http://www.uefi.org/specsandtesttools)
 The Boot Manager in DXE executes after all the DXE drivers whose
 dependencies have been satisfied have been dispatched by the DXE
 Dispatcher. At that time, control is handed to the Boot Device Selection
-(<a href="BDS" class="wikilink" title="BDS">BDS</a>) phase of execution.
+([BDS](ArmPlatformPkg-Bds.md)) phase of execution.
 The BDS phase is responsible for implementing the platform boot policy.
 System firmware that is compliant with this specification must implement
 the boot policy specified in the Boot Manager chapter of the UEFI 2.0
@@ -139,12 +134,12 @@ Execution Environment Core
 Interface](http://www.uefi.org/specsandtesttools)
 
 **Transient System Load (TSL) Phase**
-<a href="TSL" class="wikilink" title="TSL">TSL</a> is the 1st stage of
+[TSL](TSL) is the 1st stage of
 the boot process where the OS loader is an EFI application.
 
 **Run Time (RT) Phase**
 UEFI has a limited set of Runtime
-(<a href="RT" class="wikilink" title="RT">RT</a>) Services that are
+([RT](RT)) Services that are
 available after the Operating System boots and takes over the system.
 The primary runtime services enable the OS to read and write environment
 variables. There are also services that abstract the Real Time Clock,
@@ -169,5 +164,5 @@ behavior in this phase.
 
 ## Glossary
 
-See <a href="Acronyms-and-Glossary" class="wikilink" title=" Acronyms">
-Acronyms</a> for glossary and acronym information.
+See [
+Acronyms](Acronyms-and-Glossary) for glossary and acronym information.

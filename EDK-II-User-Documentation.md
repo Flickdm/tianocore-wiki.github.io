@@ -81,8 +81,7 @@ development and test of UEFI Secure Boot using the UDK2010.SR1 release.
 Updates and clarifications related to UEFI Spec conformance regarding
 KEK and DB usages
 
-See also <a href="SecurityPkg" class="wikilink"
-title="SecurityPkg">SecurityPkg</a> for more information on How to
+See also [SecurityPkg](SecurityPkg) for more information on How to
 enable security, TPM, User identification (UID), secure boot and
 authenticated variable.
 
@@ -108,12 +107,10 @@ beyond UDK2010.SR1 release version
 
 <td>
 
-The <a href="UEFI_Driver_Writer&#39;s_Guide" class="wikilink"
-title="UEFI Driver Writer&#39;s Guide">UEFI Driver Writer's Guide</a> is
+The [UEFI Driver Writer's Guide](UEFI.md) is
 designed to aid in the development of UEFI Drivers using the EDK II open
 source project as a development environment. Please refer to the
-<a href="Driver_Developer" class="wikilink"
-title="Driver Developer">Driver Developer</a> page for more information.
+[Driver Developer](Driver_Developer) page for more information.
 
 </td>
 

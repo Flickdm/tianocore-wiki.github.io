@@ -6,16 +6,15 @@ PI 1.2 FFS in the system to appear as a UEFI file system.
 - Difficulty: Medium
 - Language: C
 - Mentor:
-- Suggested by: <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Suggested by: [https://github.com/mdkinney](https://github.com/mdkinney)
 
 # Status
 
 - Completed :heavy_check_mark:
 - Work done by Colin Drake as a
-  <a href="GSOC2011" class="wikilink" title="GSOC2011">GSOC2011</a>
+  [GSOC2011](GSOC2011)
   student.
-  - Source: <https://github.com/cfdrake/FileSystemPkg>
+  - Source: [https://github.com/cfdrake/FileSystemPkg](https://github.com/cfdrake/FileSystemPkg)
 
 # Details
 
@@ -46,19 +45,17 @@ toolchain.
 Testing: This project can be tested on any PI 1.2 system. Even without
 loading the driver into flash, it can be loaded by using the EFI shell
 'load' command. [OVMF](http://www.tianocore.org/ovmf/),
-<a href="Nt32Pkg" class="wikilink" title="Nt32Pkg">Nt32Pkg</a> or
-<a href="UnixPkg" class="wikilink" title="UnixPkg">UnixPkg</a> could
+[Nt32Pkg](Nt32Pkg) or
+[UnixPkg](UnixPkg) could
 each provide friendly test environments.
 
 # Further Discussion
 
 This project would be for an edk2 based driver, so please discuss the
-project on <a href="edk2-devel" class="wikilink"
-title="https://edk2.groups.io/g/devel"><span>https://edk2.groups.io/g/devel</span></a>.
+project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
 # See Also
 
-- <a href="Tasks" class="wikilink" title="Tasks">Tasks</a>
-- <a href="GSOC2011#Read-only_FFS_file-system_driver" class="wikilink"
-  title="GSOC2011#Read-only FFS file-system driver">GSOC2011#Read-only FFS
-  file-system driver</a>
+- [Tasks](Tasks)
+- [GSOC2011#Read-only FFS
+  file-system driver](GSOC2011.md)

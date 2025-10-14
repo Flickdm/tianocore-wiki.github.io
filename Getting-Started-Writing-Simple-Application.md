@@ -10,16 +10,15 @@ e.g. <span style="font-family: Courier">mkdir edk2</span>
 ### 2) Download the Edk II source and build tools
 
 1. Latest EDK II source from following Instructions on
-    <a href="Getting-Started-with-EDK-II" class="wikilink"
-    title=" Step by step instructions"> Step by step instructions</a>
-    1. i.e. example \>git clone <https://github.com/tianocore/edk2.git>
+    [ Step by step instructions](Getting-Started-with-EDK-II)
+    1. i.e. example \>git clone [https://github.com/tianocore/edk2.git](https://github.com/tianocore/edk2.git)
 
 OR
 
 1. Download the latest .zip
-    <a href="UDK2017" class="wikilink" title="UDK2017">UDK2017</a>
+    [UDK2017](UDK2017)
     Download release (or Latest
-    <a href="UDK" class="wikilink" title="UDK">UDK</a> release).
+    [UDK](UDK) release).
 
 === 3) Run the ***edksetup**'' === Run***edksetup --nt32**'' script from
 the command line prompt at the Work Space directory
@@ -36,17 +35,14 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 
 1. TOOL_CHAIN_TAG see:
     1. Windows
-        <a href="Windows_systems_ToolChain_Matrix" class="wikilink"
-        title="Windows systems ToolChain Matrix">Windows systems ToolChain
-        Matrix</a>
+    [Windows systems ToolChain
+    Matrix](Windows-systems-ToolChain-Matrix.md)
     2. Newer versions of
-        Linux<a href="Using_EDK_II_with_Native_GCC" class="wikilink"
-        title="Using EDK II with Native GCC">Using EDK II with Native GCC</a>
+    Linux[Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
     3. Older Linux distributions
-        <a href="Unix-like_systems" class="wikilink"
-        title="Unix-like systems">Unix-like systems</a>
+    [Unix-like systems](Unix-like-systems.md)
     4. Mac OS X
-        <a href="Xcode" class="wikilink" title="Xcode">Xcode</a>
+        [Xcode](Xcode)
 2. TARGET_ARCH - Optional can also use
     <span style="font-size: 10.0pt; font-family: Courier">**"-a"**
     </span> on the BUILD command line
@@ -66,11 +62,9 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
     Space Directory (e.g. C:\edk2\\*MyHelloWorld* or
     ~/src/edk2/*MyHelloWorld*)
 2. Create a .c file in the project directory (see example:
-    <a href="Getting_Started_Writing_MyHelloWorld.c" class="wikilink"
-    title=" MyHelloWorld.c"> MyHelloWorld.c</a>)
+    [ MyHelloWorld.c](Getting_Started_Writing_MyHelloWorld.c))
 3. Create a .inf file in the project directory (see examle:
-    <a href="Getting-Started-Writing-MyHelloWorld.inf" class="wikilink"
-    title=" MyHelloWorld.inf"> MyHelloWorld.inf</a>)
+    [ MyHelloWorld.inf](Getting-Started-Writing-MyHelloWorld.inf))
 
 ### 6) Build your UEFI Application
 
@@ -109,5 +103,4 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 4. Test with Windows NT 32 emulation: command prompt \>
     <span style="font-family: Courier">**Build Run** </span>
 
-<a href="Getting_Started" class="wikilink"
-title="Getting Started">Getting Started</a>
+[Getting Started](Getting_Started)

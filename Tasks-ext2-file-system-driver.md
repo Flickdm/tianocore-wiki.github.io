@@ -1,40 +1,35 @@
 # Tasks Ext2 File System Driver
 
-Develop an <a href="ext2" class="wikilink"
-title="https://en.wikipedia.org/wiki/Ext2"><span>https://en.wikipedia.org/wiki/Ext2</span></a>
+Develop an [https://en.wikipedia.org/wiki/Ext2](https://en.wikipedia.org/wiki/Ext2)
 filesystem driver. (read-only support would be useful as a first step)
 
 - Status: Complete :heavy_check_mark:
 - Difficulty: Medium ... Hard
 - Language: C
-- Mentors: <a href="Mike_Kinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
-  and <a href="Bret_Barkelew" class="wikilink"
-  title="https://github.com/corthon"><span>https://github.com/corthon</span></a>
+- Mentors: [https://github.com/mdkinney](https://github.com/mdkinney)
+  and [https://github.com/corthon](https://github.com/corthon)
 - Suggested by: rsun3
 
 # Status
 
 - Completed :heavy_check_mark:.
 - Instead of implementing an ext2 driver as originally proposed, a much
-  more useful <a href="ext4" class="wikilink"
-  title="https://en.wikipedia.org/wiki/Ext4"><span>https://en.wikipedia.org/wiki/Ext4</span></a>
+  more useful [https://en.wikipedia.org/wiki/Ext4](https://en.wikipedia.org/wiki/Ext4)
   driver was implemented instead!
-- Work done by Pedro Falcato (<a href="@heatd" class="wikilink"
-  title="https://github.com/heatd"><span>https://github.com/heatd</span></a>)
-  as a <a href="GSoC2021" class="wikilink" title="GSoC2021">GSoC2021</a>
+- Work done by Pedro Falcato ([https://github.com/heatd](https://github.com/heatd))
+  as a [GSoC2021](GSoC2021)
   Student.
 
 # Older Work
 
 - Before GSoC 2021, some progress was made during
-  <a href="GSOC2011" class="wikilink" title="GSOC2011">GSOC2011</a> by
+  [GSOC2011](GSOC2011) by
   Alin Rus
-  - Source: <https://github.com/GunioRobot/Ext2Pkg>
+  - Source: [https://github.com/GunioRobot/Ext2Pkg](https://github.com/GunioRobot/Ext2Pkg)
 - A newer effort has been started based on GRUB filesystem drivers,
   however this code cannot be merged to TianoCore due to GRUB being
   licensed under the GPL.
-  - <https://github.com/pbatard/efifs/tree/master/>
+  - [https://github.com/pbatard/efifs/tree/master/](https://github.com/pbatard/efifs/tree/master/)
 
 # Details
 
@@ -50,8 +45,7 @@ by examining the disk contents.
 
 It may be possible to leverage BSD compatible code from a reputable open
 source project, but using 3rd-party code does add some extra complexity
-(see <a href="Code_Contributions" class="wikilink"
-title="Code Contributions">Code Contributions</a>).
+(see [Code Contributions](Code_Contributions)).
 
 # Development environment
 
@@ -67,12 +61,10 @@ hard disk image that contains an ext2 file-system.
 # Further Discussion
 
 This project would be for an edk2 based driver, so please discuss the
-project on <a href="edk2-devel" class="wikilink"
-title="https://edk2.groups.io/g/devel"><span>https://edk2.groups.io/g/devel</span></a>.
+project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
 # See Also
 
-- <a href="Tasks" class="wikilink" title="Tasks">Tasks</a>
-- <a href="GSOC2011#Read-only_ext2_driver" class="wikilink"
-  title="GSOC2011#Read-only ext2 driver">GSOC2011#Read-only ext2
-  driver</a>
+- [Tasks](Tasks)
+- [GSOC2011#Read-only ext2
+  driver](GSOC2011.md)

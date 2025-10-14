@@ -112,7 +112,7 @@ Update BaseTools Python version to 2.7.3 </span>
 
 <span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
 Please refer to the folder "Notes" and "Documents" links on the
-<a href="UDK2014" class="wikilink" title="UDK2014">UDK2014</a> link
+[UDK2014](UDK2014) link
 These contain detailed change text for each Package in this release and
 all related documentation for this release
 

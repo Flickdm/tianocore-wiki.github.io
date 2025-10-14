@@ -49,7 +49,7 @@ The remainder of this page focuses on source management details and how to prepa
 
 4. Follow the commit message template given below when writing commit messages.
 
-    - [Commit-Message-Format](Commit-Message-Format "wikilink")
+    - [Commit-Message-Format](GitHub-PR-Tips.md)
 
     - To commit staged changes: `>$ git commit`
 
@@ -128,9 +128,9 @@ The remainder of this page focuses on source management details and how to prepa
       - **NOTE:** A GitHub pull request can also be created using the command line utility called [`gh`](https://cli.github.com/).
         - See [`gh pr`](https://cli.github.com/manual/gh_pr).
 
-    - If a pull request is only being created to run CI checks, create a [draft pull request](GitHub-PR-Tips.md#create-a-draft-pull-request).
+    - If a pull request is only being created to run CI checks, create a [draft pull request](GitHub-PR-Tips.md).
 
-    - Pull request description needs to include Fixes issue url link, for example: Fixes <https://github.com/tianocore/edk2/issues/10626>, then PR will automatically be related to github issue.
+    - Pull request description needs to include Fixes issue url link, for example: Fixes [https://github.com/tianocore/edk2/issues/10626](https://github.com/tianocore/edk2/issues/10626), then PR will automatically be related to github issue.
 
     - The relevant reviewers and maintainers need to be added to the pull request.
       - If you are a maintainer, you should add the appropriate PR reviewers yourself.
@@ -190,7 +190,7 @@ The remainder of this page focuses on source management details and how to prepa
 
 4. Verify that the commit(s) can individually be submitted to `edk2/master`. Squashing commits is not allowed.
 
-   - [Commit-Message-Format](Commit-Message-Format "wikilink")
+   - [Commit-Message-Format](GitHub-PR-Tips.md)
 
 5. Review the files relevant to you. Once all files are reviewed and any feedback you left is addressed, mark the PR
    as approved.

@@ -3,16 +3,14 @@
 Security Advisory Process
 
 Now using Security reporting through the following:
-<a href="Reporting_Security_Issues" class="wikilink"
-title="Reporting Security Issues">Reporting Security Issues</a>
+[Reporting Security Issues](Reporting_Security_Issues)
 
 Below for archive reference only
 
 ------------------------------------------------------------------------
 
 - **IMPORTANT:** All mail sent via this reflector are TianoCore
-  <a href="Code_Contributions" class="wikilink"
-  title="Code Contributions">Code Contributions</a>
+  [Code Contributions](Code_Contributions)
 
 - **IMPORTANT:** Please consider encrypting your message. We support
   S/MIME. If you do not have encryption available, describe the issue in
@@ -69,7 +67,7 @@ of the initial issue report.)
 Designated files (step 7) are indicated by a comment in the header that
 the file may process untrusted input. These files are so designated
 because they protect the assets in the tianocore.org threat model. See
-(<http://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf>)
+([http://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf](http://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf))
 for information on the assets. If you believe other files should be so
 designated, please use the report button to provide the path. The
 "untrusted input" header comment is also used to indicate that the files

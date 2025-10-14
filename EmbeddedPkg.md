@@ -40,7 +40,5 @@ aslo part of this package.
 
 ### Related Pages
 
-- EBL Support: <a href="EmbeddedPkg-Ebl" class="wikilink"
-  title="EmbeddedPkg-Ebl">EmbeddedPkg-Ebl</a>
-- FDT Support: <a href="EmbeddedPkg-Fdt" class="wikilink"
-  title="EmbeddedPkg-Fdt">EmbeddedPkg-Fdt</a>
+- EBL Support: [EmbeddedPkg-Ebl](EmbeddedPkg-Ebl)
+- FDT Support: [EmbeddedPkg-Fdt](EmbeddedPkg-Fdt)

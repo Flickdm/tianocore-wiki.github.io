@@ -10,7 +10,7 @@ style control-flow subversion attacks:
 2. Indirect branch tracking – free branch protection to defend against Jump/Call Oriented Programming.
 
 For detail of CET, please refer to Control-flow Enforcement Technology whitepaper
-(<https://software.intel.com/sites/default/files/managed/4d/2a/control-flow-enforcement-technology-preview.pdf>)
+([https://software.intel.com/sites/default/files/managed/4d/2a/control-flow-enforcement-technology-preview.pdf](https://software.intel.com/sites/default/files/managed/4d/2a/control-flow-enforcement-technology-preview.pdf))
 
 # Introduction
 
@@ -22,7 +22,7 @@ This wiki page focuses on how to enable CET in SMM.
 
 # PCD
 
-The PCD - PcdControlFlowEnforcementPropertyMask defined in MdePkg.dec(<https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec>) to indicates the control flow enforcement enabling state.
+The PCD - PcdControlFlowEnforcementPropertyMask defined in MdePkg.dec([https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec](https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec)) to indicates the control flow enforcement enabling state.
 
 ```
   ## Indicates the control flow enforcement enabling state.

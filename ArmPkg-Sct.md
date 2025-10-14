@@ -3,8 +3,7 @@
 ## Debugging UEFI Self Certification Test (SCT)
 
 1\. Build UEFI for your targeted ARM RTSM (RealTime System Model). See
-<a href="ArmPlatformPkg-ArmVExpressPkg" class="wikilink"
-title="ArmPlatformPkg-ArmVExpressPkg">ArmPlatformPkg-ArmVExpressPkg</a>
+[ArmPlatformPkg-ArmVExpressPkg](ArmPlatformPkg-ArmVExpressPkg)
 for more complete instructions.
 
 For this tutorial we will use ARM Versatile Express Cortex A9x4 RTSM:
@@ -300,7 +299,7 @@ When SCT is started in interactive mode all the SCT test binaries are
 before the tests are started from the UI.
 
 For this tutorial we will use DS-5 and its UEFI debugging scripts (see
-<a href="ArmPkg-Ds5" class="wikilink" title="ArmPkg-Ds5">ArmPkg-Ds5</a>).
+[ArmPkg-Ds5](ArmPkg-Ds5)).
 
 For the Fast Model Versatile Express A9x4, after breaking the execution
 of the model, type within the DS-5 'Commands' window (with \$EDK2_ROOT

@@ -12,8 +12,8 @@ Build Pre-requisites
     - For Unix-like operating systems, IASL is the only option:
       - For newer Linux distributions, you should be able to install iasl via the distribution's package management system. (This [page](Using-EDK-II-with-Native-GCC) may help.)
       - Or, the [Unix-like systems getting started guide](Unix-like-systems) includes details for installing IASL as well.
-    - For Windows, you can download pre-built version of IASL compiler from <http://www.acpica.org>.
-    - For Windows, you can also download a pre-built version of the Microsoft ASL compiler from <http://www.acpi.info>.
+    - For Windows, you can download pre-built version of IASL compiler from [http://www.acpica.org](http://www.acpica.org).
+    - For Windows, you can also download a pre-built version of the Microsoft ASL compiler from [http://www.acpi.info](http://www.acpi.info).
 
 Choosing which version of OVMF to build
 ---------------------------------------
@@ -45,4 +45,4 @@ You can use OVMF.Fd to [run OVMF](How-to-run-OVMF "wikilink").
 See Also
 --------
 
-- <https://github.com/tianocore/edk2/blob/master/OvmfPkg/README>
+- [https://github.com/tianocore/edk2/blob/master/OvmfPkg/README](https://github.com/tianocore/edk2/blob/master/OvmfPkg/README)

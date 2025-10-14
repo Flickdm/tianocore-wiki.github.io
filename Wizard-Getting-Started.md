@@ -29,8 +29,7 @@ before running the wizard. The
 [UDK2014.IHV.zip](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UDK2014.IHV.zip)
 Driver Developer Release contains the minimal set of components needed
 to create UEFI drivers. Please refer to the
-<a href="UDK2014.IHV-Setup-Guide" class="wikilink"
-title="UDK2014.IHV-Setup-Guide">UDK2014.IHV-Setup-Guide</a> for more
+[UDK2014.IHV-Setup-Guide](UDK2014.IHV-Setup-Guide) for more
 information.
 
 After starting the UEFI Driver Wizard, use the 'File -\> Open Workspace'

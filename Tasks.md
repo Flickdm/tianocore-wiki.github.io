@@ -2,15 +2,13 @@
 
 These tasks have been identified by our community. Many of these tasks
 would make good
-<a href="GSoC2022" class="wikilink" title="GSoC">GSoC</a> projects. They
+[GSoC](GSoC2022) projects. They
 are currently open for development by community members, and would be a
 great way to get involved and start contributing. Please let us know on
-<a href="edk2-devel" class="wikilink"
-title="https://edk2.groups.io/g/devel"><span>https://edk2.groups.io/g/devel</span></a>
+[https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel)
 if you plan to work on one of these tasks (to prevent duplicated
 effort). Also, please provide status updates on
-<a href="edk2-devel" class="wikilink"
-title="https://edk2.groups.io/g/devel"><span>https://edk2.groups.io/g/devel</span></a>
+[https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel)
 so the community will know the project is still being actively
 developed.
 
@@ -19,8 +17,7 @@ developed.
 - Large Projects should take about 350 hours to complete.
 - Medium Project should take about 175 hours to complete.
 - Large projects are paid a different stipend. Please see the
-  <a href="stipend_page" class="wikilink"
-  title="https://developers.google.com/open-source/gsoc/help/student-stipends"><span>https://developers.google.com/open-source/gsoc/help/student-stipends</span></a>
+  [https://developers.google.com/open-source/gsoc/help/student-stipends](https://developers.google.com/open-source/gsoc/help/student-stipends)
   for exact amounts.
 
 **Skills Required**
@@ -39,9 +36,9 @@ not required.
 
 #### Dynamic Linking
 
-Current <a href="EDK_II" class="wikilink" title="EDK II">EDK II</a>
+Current [EDK II](EDK_II)
 doesn't support the dynamic linking
-(<https://en.wikipedia.org/wiki/Dynamic_linker>), which limits UEFI
+([https://en.wikipedia.org/wiki/Dynamic_linker](https://en.wikipedia.org/wiki/Dynamic_linker)), which limits UEFI
 firmware to be split into modular components that can be distributed
 separately in binary and loaded only when necessary. This project is to
 add native dynamic library build support (PE/COFF first) and introduce a
@@ -50,10 +47,8 @@ dynamic linker in edk2 core.
 - Project Size: Large
 - Difficulty: Hard
 - Language: C, C++
-- Mentor: <a href="@shijunjing" class="wikilink"
-  title="https://github.com/shijunjing"><span>https://github.com/shijunjing</span></a>
-- Suggested by: <a href="@shijunjing" class="wikilink"
-  title="https://github.com/shijunjing"><span>https://github.com/shijunjing</span></a>
+- Mentor: [https://github.com/shijunjing](https://github.com/shijunjing)
+- Suggested by: [https://github.com/shijunjing](https://github.com/shijunjing)
 
 #### Add Rust Support to EDK II
 
@@ -63,12 +58,10 @@ Add support for the Rust programming language to EDK II
 - Difficulty: Hard
 - Language: Rust, C, Assembly, Python
 - Mentor:
-- Suggested by: <a href="@nate-desimone" class="wikilink"
-  title="https://github.com/nate-desimone"><span>https://github.com/nate-desimone</span></a>
+- Suggested by: [https://github.com/nate-desimone](https://github.com/nate-desimone)
 
 More information:
-<a href="Tasks-Add-Rust-Support-to-EDK-II" class="wikilink"
-title="Tasks-Add-Rust-Support-to-EDK-II">Tasks-Add-Rust-Support-to-EDK-II</a>
+[Tasks-Add-Rust-Support-to-EDK-II](Tasks-Add-Rust-Support-to-EDK-II)
 
 #### Port the Go language to UEFI
 
@@ -80,8 +73,7 @@ you can get this new GOOS upstreamed.
 - Difficulty: Hard
 - Language: Go, C, Assembly
 - Mentor:
-- Suggested by: <a href="@nate-desimone" class="wikilink"
-  title="https://github.com/nate-desimone"><span>https://github.com/nate-desimone</span></a>
+- Suggested by: [https://github.com/nate-desimone](https://github.com/nate-desimone)
 
 More information: TODO
 
@@ -94,15 +86,13 @@ Add AddressSanitizer, UBSan, and possibly MSAN support to EDK2
 - Depends on the toolchain and possibly CPU architecture
 - Focus on firmware components
 - A branch with UBSan and ASAN already exists, although it's incomplete:
-  <https://github.com/shijunjing/edk2/tree/sanitizer2>
+  [https://github.com/shijunjing/edk2/tree/sanitizer2](https://github.com/shijunjing/edk2/tree/sanitizer2)
 - Project Size: Medium
 - Difficulty: Medium...Hard
 - Language: C, Assembly
 - Mentor:
-- Suggested by: <a href="@shijunjing" class="wikilink"
-  title="https://github.com/shijunjing"><span>https://github.com/shijunjing</span></a>,
-  <a href="@heatd" class="wikilink"
-  title="https://github.com/heatd"><span>https://github.com/heatd</span></a>
+- Suggested by: [https://github.com/shijunjing](https://github.com/shijunjing),
+  [https://github.com/heatd](https://github.com/heatd)
 
 ## New Platforms and Boards
 
@@ -116,12 +106,10 @@ Build a MinPlatform Board Port for Qemu.
 - Difficulty: Medium
 - Language: C
 - Mentor:
-- Suggested by: <a href="@nate-desimone" class="wikilink"
-  title="https://github.com/nate-desimone"><span>https://github.com/nate-desimone</span></a>
+- Suggested by: [https://github.com/nate-desimone](https://github.com/nate-desimone)
 
 More information:
-<a href="Tasks-MinPlatform-QemuOpenBoardPkg" class="wikilink"
-title="Tasks-MinPlatform-QemuOpenBoardPkg">Tasks-MinPlatform-QemuOpenBoardPkg</a>
+[Tasks-MinPlatform-QemuOpenBoardPkg](Tasks-MinPlatform-QemuOpenBoardPkg)
 
 #### Port MinPlatform to a New Motherboard
 
@@ -131,12 +119,10 @@ Build a MinPlatform board port for a new motherboard of your choice.
 - Difficulty: Medium...Hard
 - Language: C
 - Mentor:
-- Suggested by: <a href="@nate-desimone" class="wikilink"
-  title="https://github.com/nate-desimone"><span>https://github.com/nate-desimone</span></a>
+- Suggested by: [https://github.com/nate-desimone](https://github.com/nate-desimone)
 
 More information:
-<a href="Tasks-MinPlatform-Board-Port" class="wikilink"
-title="Tasks-MinPlatform-Board-Port">Tasks-MinPlatform-Board-Port</a>
+[Tasks-MinPlatform-Board-Port](Tasks-MinPlatform-Board-Port)
 
 #### Add a MinPlatform Board Port for the Raspberry Pi
 
@@ -146,18 +132,15 @@ Build a MinPlatform board port for the Raspberry Pi.
 - Difficulty: Medium
 - Language: C
 - Mentor:
-- Suggested by: <a href="@nate-desimone" class="wikilink"
-  title="https://github.com/nate-desimone"><span>https://github.com/nate-desimone</span></a>
+- Suggested by: [https://github.com/nate-desimone](https://github.com/nate-desimone)
 
 More information:
-<a href="Tasks-MinPlatform-Port-to-Raspberry-Pi" class="wikilink"
-title="Tasks-MinPlatform-Port-to-Raspberry-Pi">Tasks-MinPlatform-Port-to-Raspberry-Pi</a>
+[Tasks-MinPlatform-Port-to-Raspberry-Pi](Tasks-MinPlatform-Port-to-Raspberry-Pi)
 
 #### Add CI (Continuous Integration) Boot Testing for EDK II Platforms
 
 Update EDK II CI to support testing of platforms in the
-<a href="edk2-plaforms" class="wikilink"
-title="https://github.com/tianocore/edk2-platforms"><span>https://github.com/tianocore/edk2-platforms</span></a>
+[https://github.com/tianocore/edk2-platforms](https://github.com/tianocore/edk2-platforms)
 repository. The CI tests can be run in simulators or on physical HW.
 This task involves defining a standard interface between EDK II CI
 agents and remote CI agents that take as input a FW image built by an
@@ -168,8 +151,7 @@ agent.
 - Difficulty: Hard
 - Language: YAML, Python, C
 - Mentor:
-- Suggested by: <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Suggested by: [https://github.com/mdkinney](https://github.com/mdkinney)
 
 ### Medium Projects
 
@@ -184,8 +166,7 @@ working S3 resume on at least one real board.
 - Difficulty: Medium..Hard
 - Language: C
 - Mentor:
-- Suggested by: <a href="@nate-desimone" class="wikilink"
-  title="https://github.com/nate-desimone"><span>https://github.com/nate-desimone</span></a>
+- Suggested by: [https://github.com/nate-desimone](https://github.com/nate-desimone)
 
 ## Testing and Quality Improvements
 
@@ -199,16 +180,13 @@ EDK II needs more unit tests... help us write them!
 - Difficulty: Easy...Medium
 - Language: C, Assembly
 - Mentor:
-- Suggested by: <a href="@nate-desimone" class="wikilink"
-  title="https://github.com/nate-desimone"><span>https://github.com/nate-desimone</span></a>
+- Suggested by: [https://github.com/nate-desimone](https://github.com/nate-desimone)
 
 #### Host-based Unit Tests using Google Test
 
-Add support for the <a href="GoogleTestLLVM" class="wikilink"
-title="https://google.github.io/googletest/"><span>https://google.github.io/googletest/</span></a>
+Add support for the [https://google.github.io/googletest/](https://google.github.io/googletest/)
 mocking framework to the EDK II
-<a href="UnitTestFrameworkPkg" class="wikilink"
-title="https://github.com/tianocore/edk2/tree/master/UnitTestFrameworkPkg"><span>https://github.com/tianocore/edk2/tree/master/UnitTestFrameworkPkg</span></a>
+[https://github.com/tianocore/edk2/tree/master/UnitTestFrameworkPkg](https://github.com/tianocore/edk2/tree/master/UnitTestFrameworkPkg)
 to support implementing host based tests. Also port the cmocka based
 unit tests to GoogleTest to test the mocking framework and provide
 GoogleTest examples to the rest of the EDK II Community.
@@ -217,13 +195,12 @@ GoogleTest examples to the rest of the EDK II Community.
 - Difficulty: Medium...Hard
 - Language: C
 - Mentor:
-- Suggested by: <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Suggested by: [https://github.com/mdkinney](https://github.com/mdkinney)
 
 #### Test Harness Improvements
 
 Improvements to the test harness in the edk2-test staging branch.
-<https://github.com/tianocore/edk2-staging/tree/edk2-test>
+[https://github.com/tianocore/edk2-staging/tree/edk2-test](https://github.com/tianocore/edk2-staging/tree/edk2-test)
 
 - Test Harness for PEI using Capsule Update or Recovery feature to
   deliver tests
@@ -233,8 +210,7 @@ Improvements to the test harness in the edk2-test staging branch.
 - Performance improvements of test harness
 - Difficulty: Medium
 
-Mentor: <a href="@mdkinney" class="wikilink"
-title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>,
+Mentor: [https://github.com/mdkinney](https://github.com/mdkinney),
 Supreeth Venkatesh
 
 #### Continuous Integration For EDK II Platforms
@@ -247,8 +223,7 @@ source platforms hosted in edk2-platforms.
 - Difficulty: Easy
 - Language: Python
 - Mentor:
-- Suggested by: <a href="@nate-desimone" class="wikilink"
-  title="https://github.com/nate-desimone"><span>https://github.com/nate-desimone</span></a>
+- Suggested by: [https://github.com/nate-desimone](https://github.com/nate-desimone)
 
 #### Add CLANG Compiler coverage to EDK II CI
 
@@ -259,8 +234,7 @@ build using CLANG compilers for Windows and Linux.
 - Difficulty: Easy...Medium
 - Language: Python, C
 - Mentor:
-- Suggested by: <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Suggested by: [https://github.com/mdkinney](https://github.com/mdkinney)
 
 #### Upgrade EDK II CI Agents from Ubuntu 18 to Ubuntu 20
 
@@ -271,8 +245,7 @@ Ubuntu 20.
 - Difficulty: Medium
 - Language: Python, C
 - Mentor:
-- Suggested by: <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Suggested by: [https://github.com/mdkinney](https://github.com/mdkinney)
 
 ## EDK II Core Improvements
 
@@ -300,8 +273,7 @@ compatibility of EDK II with standard C sources.
 - Difficulty: Medium...Hard
 - Language: C, Python
 - Mentor:
-- Suggested by: <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Suggested by: [https://github.com/mdkinney](https://github.com/mdkinney)
 
 ## Accessibility
 
@@ -321,10 +293,8 @@ hardware codec.
 - Project Size: Large
 - Difficulty: Medium...Hard
 - Language: C
-- Mentor: <a href="@leiflindholm" class="wikilink"
-  title="https://github.com/leiflindholm"><span>https://github.com/leiflindholm</span></a>
-- Suggested by: <a href="@leiflindholm" class="wikilink"
-  title="https://github.com/leiflindholm"><span>https://github.com/leiflindholm</span></a>
+- Mentor: [https://github.com/leiflindholm](https://github.com/leiflindholm)
+- Suggested by: [https://github.com/leiflindholm](https://github.com/leiflindholm)
 
 **Follow-on tasks**
 
@@ -373,8 +343,7 @@ Summary:
 - Difficulty: Medium
 - Language: C
 - Mentor:
-- Suggested by: <a href="@ajfish" class="wikilink"
-  title="https://github.com/ajfish"><span>https://github.com/ajfish</span></a>
+- Suggested by: [https://github.com/ajfish](https://github.com/ajfish)
 
 ### Medium Projects
 
@@ -388,27 +357,23 @@ safely print and use DEBUG trace messages.
 - Difficulty: Medium
 - Language: C
 - Mentor:
-- Suggested by: <a href="@ajfish" class="wikilink"
-  title="https://github.com/ajfish"><span>https://github.com/ajfish</span></a>
+- Suggested by: [https://github.com/ajfish](https://github.com/ajfish)
 
 #### Port EmulatorPkg to ARM
 
 Create a ARM based host environment for
-<a href="EmulatorPkg" class="wikilink"
-title="EmulatorPkg">EmulatorPkg</a>. Expected outcome is being able to
+[EmulatorPkg](EmulatorPkg). Expected outcome is being able to
 run ARM UEFI binaries on top of Linux running on an ARM system.
 
 - Project Size: Medium
 - Difficulty: Medium
 - Language: C
 - Mentor:
-- Suggested by: <a href="@ajfish" class="wikilink"
-  title="https://github.com/ajfish"><span>https://github.com/ajfish</span></a>
+- Suggested by: [https://github.com/ajfish](https://github.com/ajfish)
 
 #### EmulatorPkg network support for Linux
 
-Port <a href="EmulatorPkg" class="wikilink"
-title="EmulatorPkg">EmulatorPkg</a>/EmuSnpDxe to support Linux. Expected
+Port [EmulatorPkg](EmulatorPkg)/EmuSnpDxe to support Linux. Expected
 outcome is being able to open TCP/IP connections from UEFI shell
 applications running in EmulatorPkg on top of Linux.
 
@@ -416,8 +381,7 @@ applications running in EmulatorPkg on top of Linux.
 - Difficulty: Medium
 - Language: C
 - Mentor:
-- Suggested by: <a href="@ajfish" class="wikilink"
-  title="https://github.com/ajfish"><span>https://github.com/ajfish</span></a>
+- Suggested by: [https://github.com/ajfish](https://github.com/ajfish)
 
 #### Various Debug Improvements
 
@@ -433,8 +397,7 @@ reasonable subset for a project proposal.
 - Log data directly to image handle, per driver.
 - Log data to centralized data service.
 - Add a library class for a module to access/initiate leak checking.
-- Add sample based profiling to <a href="EmulatorPkg" class="wikilink"
-  title="EmulatorPkg">EmulatorPkg</a>/<a href="Nt32Pkg" class="wikilink" title="Nt32Pkg">Nt32Pkg</a>.
+- Add sample based profiling to [EmulatorPkg](EmulatorPkg)/[Nt32Pkg](Nt32Pkg).
   On a Mac this would be figuring out how to use Instruments to profile
   the emulator.
 - Add a sampling based profiling tool to a real EFI system. Note this
@@ -447,8 +410,7 @@ Summary:
 - Difficulty: Medium ... Hard
 - Language: C
 - Mentor:
-- Suggested by: <a href="@ajfish" class="wikilink"
-  title="https://github.com/ajfish"><span>https://github.com/ajfish</span></a>
+- Suggested by: [https://github.com/ajfish](https://github.com/ajfish)
 
 ## UEFI Networking Improvements
 
@@ -465,18 +427,15 @@ allows the network share to be mounted as a disk.
 - Difficulty: Hard
 - Language: C
 - Mentor:
-- Suggested by: <a href="@jljusten" class="wikilink"
-  title="https://github.com/jljusten"><span>https://github.com/jljusten</span></a>,
-  <a href="@ErikBjorge" class="wikilink"
-  title="https://github.com/ErikBjorge"><span>https://github.com/ErikBjorge</span></a>,
-  <a href="@jcarsey" class="wikilink"
-  title="https://github.com/jcarsey"><span>https://github.com/jcarsey</span></a>
+- Suggested by: [https://github.com/jljusten](https://github.com/jljusten),
+  [https://github.com/ErikBjorge](https://github.com/ErikBjorge),
+  [https://github.com/jcarsey](https://github.com/jcarsey)
 
 ### Medium Projects
 
 #### Network Block Device (NBD) client
 
-<http://nbd.sourceforge.net/>
+[http://nbd.sourceforge.net/](http://nbd.sourceforge.net/)
 
 - Project Size: Medium
 - Difficulty: Medium
@@ -484,8 +443,7 @@ allows the network share to be mounted as a disk.
 - Mentor:
 - Suggested by: bjjohnson, andreiwarkentin
 
-More information: <a href="Tasks-Network_Block_Device" class="wikilink"
-title="Tasks-Network Block Device">Tasks-Network Block Device</a>
+More information: [Tasks-Network Block Device](Tasks-Network_Block_Device)
 
 #### DNS Proxy Support
 
@@ -518,8 +476,7 @@ to/from a file in an easily-edited format.
 
 #### Python3 for UEFI Shell: Python modules for standard UEFI Services and Protocols
 
-Python3 in the edk2-libc <a href="AppPkg" class="wikilink"
-title="https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8"><span>https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8</span></a>
+Python3 in the edk2-libc [https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8](https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8)
 can be used to implement UEFI firmware tests. In order to increase the
 scope of possible tests, it would be valuable to have python modules
 that wrap the UEFI Boot Services, UEFI Runtime Services, and the
@@ -529,8 +486,7 @@ commonly used UEFI Protocols.
 - Difficulty: Medium
 - Language: C, Python
 - Mentor:
-- Suggested by: <a href="@jpshivakavi" class="wikilink"
-  title="https://github.com/jpshivakavi"><span>https://github.com/jpshivakavi</span></a>
+- Suggested by: [https://github.com/jpshivakavi](https://github.com/jpshivakavi)
 
 ### Medium Projects
 
@@ -539,17 +495,15 @@ commonly used UEFI Protocols.
 Port portions of ACPI-CA to a shell application to enable dumping and
 disassembly of ACPI tables.
 
-- Based on <https://acpica.org/node/126>
+- Based on [https://acpica.org/node/126](https://acpica.org/node/126)
 - Table Verifier: AML method execution for testing without booting to an
   OS.
 - Project Size: Medium
 - Difficulty: Medium
 - Language: C
 - Mentor: TBD
-- Suggested by: <a href="@ajfish" class="wikilink"
-  title="https://github.com/ajfish"><span>https://github.com/ajfish</span></a>,
-  <a href="@jljusten" class="wikilink"
-  title="https://github.com/jljusten"><span>https://github.com/jljusten</span></a>
+- Suggested by: [https://github.com/ajfish](https://github.com/ajfish),
+  [https://github.com/jljusten](https://github.com/jljusten)
 
 #### Port OpenSSH as a shell application
 
@@ -565,8 +519,7 @@ demonstrate working remote shell session from the UEFI shell.
 
 #### Python3 for UEFI Shell: Add GCC & CLANG tool chain support
 
-Python3 in the edk2-libc <a href="AppPkg" class="wikilink"
-title="https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8"><span>https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8</span></a>
+Python3 in the edk2-libc [https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8](https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8)
 supports Visual Studio builds. Update the sources and the build files to
 support the GCC and CLANG compilers.
 
@@ -574,13 +527,11 @@ support the GCC and CLANG compilers.
 - Difficulty: Medium
 - Language: C
 - Mentor:
-- Suggested by: <a href="@jpshivakavi" class="wikilink"
-  title="https://github.com/jpshivakavi"><span>https://github.com/jpshivakavi</span></a>
+- Suggested by: [https://github.com/jpshivakavi](https://github.com/jpshivakavi)
 
 #### Python3 for UEFI Shell: Add AARCH64 CPU Architecture
 
-Python3 in the edk2-libc <a href="AppPkg" class="wikilink"
-title="https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8"><span>https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8</span></a>
+Python3 in the edk2-libc [https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8](https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8)
 supports IA32/X64. Update the sources and the build files to support
 AARCH64.
 
@@ -588,8 +539,7 @@ AARCH64.
 - Difficulty: Medium
 - Language: C
 - Mentor:
-- Suggested by: <a href="@jpshivakavi" class="wikilink"
-  title="https://github.com/jpshivakavi"><span>https://github.com/jpshivakavi</span></a>
+- Suggested by: [https://github.com/jpshivakavi](https://github.com/jpshivakavi)
 
 ## EDK II BaseTools
 
@@ -605,8 +555,7 @@ firmware.
 - Difficulty: Hard
 - Language: C, Python
 - Mentor:
-- Suggested by: <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Suggested by: [https://github.com/mdkinney](https://github.com/mdkinney)
 
 ### Medium Projects
 
@@ -619,8 +568,7 @@ defined by the UEFI Specification to a PE/COFF image.
 - Difficulty: Medium
 - Language: Python
 - Mentor:
-- Suggested by: <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Suggested by: [https://github.com/mdkinney](https://github.com/mdkinney)
 
 ## Tools for EDK II Ease-of-Use
 
@@ -628,8 +576,7 @@ defined by the UEFI Specification to a PE/COFF image.
 
 #### UEFI Driver Wizard
 
-Improvements to existing <a href="UEFI_Driver_Wizard" class="wikilink"
-title="UEFI Driver Wizard">UEFI Driver Wizard</a>
+Improvements to existing [UEFI Driver Wizard](UEFI_Driver_Wizard)
 
 - Update to latest version of wxPython
 - Update for latest UEFI Specifications
@@ -637,30 +584,26 @@ title="UEFI Driver Wizard">UEFI Driver Wizard</a>
   Drivers, SMM Drivers)
 - Project Size: Medium
 - Difficulty: Easy
-- Mentor: <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Mentor: [https://github.com/mdkinney](https://github.com/mdkinney)
 
 #### Various Ease-Of-Use Tools
 
 Simplify EDK II development:
 
-- GUI frontend for <a href="EdkRepo" class="wikilink"
-  title="https://github.com/tianocore/edk2-edkrepo"><span>https://github.com/tianocore/edk2-edkrepo</span></a>.
+- GUI frontend for [https://github.com/tianocore/edk2-edkrepo](https://github.com/tianocore/edk2-edkrepo).
 - GUI helper tool to configure and launch a build.
 - GUI helper tool to configure platform PCDs.
 - GUI helper tool to configure FLASH layout, Recovery, and Capsules.
 - Automatically set values in
-  <a href="target.txt" class="wikilink" title="target.txt">target.txt</a>
+  [target.txt](target.txt)
   based on platform configuration (compiler, thread count, etc.).
 - Output a compile_commands.json at build time that can be consumed by
   various tools like clangd, etc.
 - Project Size: Medium
 - Difficulty: Easy...Medium
 - Languages: C, Python
-- Mentor: <a href="@ashedesimone" class="wikilink"
-  title="https://github.com/ashedesimone"><span>https://github.com/ashedesimone</span></a>,
-  <a href="@mdkinney" class="wikilink"
-  title="https://github.com/mdkinney"><span>https://github.com/mdkinney</span></a>
+- Mentor: [https://github.com/ashedesimone](https://github.com/ashedesimone),
+  [https://github.com/mdkinney](https://github.com/mdkinney)
 
 # Partially Complete Projects
 
@@ -668,10 +611,7 @@ None at the moment.
 
 # See Also
 
-- <a href="Complete-Tasks" class="wikilink"
-  title="Previously Complete Projects">Previously Complete Projects</a>
-- <a href="Obsolete-Tasks" class="wikilink"
-  title="Obsolete Projects">Obsolete Projects</a>
-- <a href="How_To_Contribute" class="wikilink"
-  title="How To Contribute">How To Contribute</a>
-- <a href="GSoC2021" class="wikilink" title="GSoC2021">GSoC2021</a>
+- [Previously Complete Projects](Complete-Tasks)
+- [Obsolete Projects](Obsolete-Tasks)
+- [How To Contribute](How_To_Contribute)
+- [GSoC2021](GSoC2021)
