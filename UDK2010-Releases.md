@@ -61,7 +61,7 @@ expanded to MyWorkSpace Directory) Based on svn version:
 [https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1](https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1): r14385
 [https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/): r73
 
-**How to Build** [ How to Build](UDK2010.SR1.UP1_How-to-Build) UDK2010.SR1.UP1.P1 Release
+**How to Build** [How to Build](archives/build-tooling/build-workflows/UDK2010.SR1.UP1%20How-to-Build.md) UDK2010.SR1.UP1.P1 Release
 **Features Summary:** See [Release Notes
 Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download)
 **Supported OS and Build Environments**
@@ -134,7 +134,7 @@ Version 1.22 Errata C
 <td>
 
 [ UDK2010
-SR1 UP1 EDK II v1.22 Errata C specifications](EDK-II-Specifications)
+SR1 UP1 EDK II v1.22 Errata C specifications](EDK-II-Specifications.md)
 These documents describe the EDK II build information for the following
 (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata
 updates (version 1.22 Errata C) that are available with the
@@ -243,7 +243,7 @@ What’s in the package?
 
 <td>
 
-Go to [Driver-Developer](Driver-Developer)
+Go to [Driver-Developer](Driver-Developer.md)
 
 </td>
 
@@ -251,7 +251,7 @@ Go to [Driver-Developer](Driver-Developer)
 
 UEFI Driver Writer's Wizard and the UEFI Driver Writer's Guide supports
 UEFI 3.2.1 version of the Specification. See the
-[Driver-Developer](Driver-Developer) page for more resources
+[Driver-Developer](Driver-Developer.md) page for more resources
 for UEFI Driver Writers Resources
 
 </td>
@@ -306,7 +306,7 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 <td>
 
 EDK II Application Development Kit
-[ (EADK)](EDKII-EADK)
+[ (EADK)](EDKII-EADK.md)
 Release 1.02 Package incorporates the Standard C Library, BSD Sockets
 Library, and other standards-based components. Include these into
 standard "C" applications. See the AppPkg for examples using the
@@ -322,8 +322,8 @@ ReadMe.txt files.
 
 Packages Included in zip
 
-- [AppPkg](AppPkg)
-- [StdLib](StdLib)
+- [AppPkg](AppPkg.md)
+- [StdLib](StdLib.md)
 - StdLibPrivateInternalFiles
 
 </td>
@@ -336,7 +336,7 @@ Packages Included in zip
 
 [UEFI Shell 2.0 Pkg
 .zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
-[ Shell 2.0 Documentation](ShellPkg#Shell_2.0_Engineering_Resources)
+[ Shell 2.0 Documentation](ShellPkg.md#uefi-shell-2x-engineering-resources)
 
 </td>
 
@@ -349,14 +349,13 @@ r11566
 This release is the implmentation sources for the UEFI Shell
 Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
 specification
-See [
-How to include UEFI Shell 2.0 into .DSC file](Shell_FAQ#How_do_you_add_the_new_UEFI_Shell_2.0_to_the_Nt32_in_the_UDK2010.SR1)
+See [How to include UEFI Shell 2.0 into .DSC file](Shell%20FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
 
 </td>
 
 <td>
 
-[ShellPkg](ShellPkg) .zip
+[ShellPkg](ShellPkg.md) .zip
 Package
 
 </td>
@@ -429,7 +428,7 @@ r13452
 [https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg](https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg):
 r67
 
-**How to Build** [ How to Build](UDK2010.SR1.UP1_How-to-Build) UDK2010.SR1.UP1 Release
+**How to Build** [How to Build](archives/build-tooling/build-workflows/UDK2010.SR1.UP1%20How-to-Build.md) UDK2010.SR1.UP1 Release
 **Features Summary:**
 
 - UDK2010.SR1.UP1 release will deliver the remaining UEFI 2.3.1 support
@@ -503,7 +502,7 @@ EDK II Specifications (UDK2010.SR1.UP1)
 <td>
 
 [ UDK2010
-SR1 UP1 EDK II v1.22 Errata B specifications](EDK-II-Specifications) These documents
+SR1 UP1 EDK II v1.22 Errata B specifications](EDK-II-Specifications.md) These documents
 describe the EDK II build information for the following (Build, DEC,
 DSC, FDF and INF) file formats and it contains the Errata updates
 (version 1.22 Errata B) that are available with the UDK2010.SR1.UP1
@@ -638,17 +637,17 @@ r67
 
 **How to Build**
 
-[ How to Build](UDK2010.SR1_How-to-Build) UDK2010.SR1 Release
+[ How to Build](archives/build-tooling/build-workflows/UDK2010.SR1%20How-to-Build.md) UDK2010.SR1 Release
 
 **Features Summary:**
 
 - This release will support Microsoft® Windows® 8 Secure Boot feature.
-  See [ How to Enable Security](How-to-Enable-Security)
+  See [ How to Enable Security](How-to-Enable-Security.md)
 - Features added to support the UEFI 2.3.1 specification from the
   official [UEFI Forum Web](http://uefi.org) site
 - EDK II Build tools and Updates to the
-  [ EDK II v1.22 specifications](EDK-II-Specifications)
-- Other Feature [Details](UDK2010-SR1-Features)
+  [ EDK II v1.22 specifications](EDK-II-Specifications.md)
+- Other Feature [Details](UDK2010-SR1-Features.md)
 - See [Release
   Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt/download)
   for more details on the features for this release
@@ -733,7 +732,7 @@ What is it?
 <td>
 
 [ UDK2010 SR1
-Build EDK II v1.22 specifications](EDK-II-Specifications)
+Build EDK II v1.22 specifications](EDK-II-Specifications.md)
 
 These documents describe the EDKII build information for the following
 (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata
@@ -897,7 +896,7 @@ UEFI.
 
 [PcAtChipsetPkg](PcAtChipsetPkg)
 
-[ShellPkg](ShellPkg)
+[ShellPkg](ShellPkg.md)
 
 [UefiCpuPkg](UefiCpuPkg)
 

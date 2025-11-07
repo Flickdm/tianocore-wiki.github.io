@@ -67,7 +67,7 @@ it in "Unix" mode. The gcc tool chain will not compile in "DOS" mode.
 
 For Cygwin, you may also find the
 [Unix-like systems
-step-by-step instructions](Unix-like_systems) valuable.
+step-by-step instructions](Unix-like-systems.md) valuable.
 
 ## Environment Variables
 

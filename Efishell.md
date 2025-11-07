@@ -2,7 +2,7 @@
 
 <b><i>Note: EDK Shell has been deprecated. Please refer to
 [Shell](Shell) and
-[ShellPkg](ShellPkg) for
+[ShellPkg](ShellPkg.md) for
 the latest information.</i></b>
 
 EFI shell releases are part of the EDK build infrastructure. Also

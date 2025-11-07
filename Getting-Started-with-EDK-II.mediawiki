@@ -14,7 +14,7 @@ This page shows the steps for downloading [[EDK II]] from GitHub and compiling p
 Several build environments are supported and documented.  If instructions are not available for your exact system configuration, you may still be able to tweak the instructions to work on your system.
 
 * Linux: [[Using EDK II with Native GCC]] (recommended for current versions of Linux)
-* Microsoft Windows: [[Windows systems]] (Win7/8/8.1/10)
+* Microsoft Windows: [[Windows-systems|Windows systems]] (Win7/8/8.1/10)
 * Mac OS X: [[Xcode]]
 * UNIX: [[Unix-like systems]] (For non-Linux UNIX, older Linux distros, or when using Cygwin)
 

@@ -103,7 +103,7 @@ Based on svn version:
 
 **How to Build**
 
-[ How to Build](UDK2010.SR1.UP1_How-to-Build) UDK2010.SR1.UP1.P1 Release
+[How to Build](archives/build-tooling/build-workflows/UDK2010.SR1.UP1%20How-to-Build.md) UDK2010.SR1.UP1.P1 Release
 
 **Features Summary:** See [Release Notes
 Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download)
@@ -517,7 +517,7 @@ Previous UDK2010 Releases
 
 <td>
 
-See [ Previous UDK2010 Menu](Previous_UDK2010_Releases)
+See [ Previous UDK2010 Menu](Previous-UDK2010-Releases.md)
 
 ------------------------------------------------------------------------
 
@@ -648,7 +648,7 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 <td>
 
 EDK II Application Development Kit
-[ (EADK)](EDKII_EADK) Alpha
+[ (EADK)](EDKII-EADK.md) Alpha
 2 Release Package incorporates using the Standard C Library components.
 Include these into standard "C" applications. See the AppPkg for "Hello
 World" example
@@ -662,9 +662,9 @@ World" example
 
 Packages Included in zip
 
-[AppPkg](AppPkg)
+[AppPkg](AppPkg.md)
 
-[StdLib](StdLib)
+[StdLib](StdLib.md)
 
 [StdLibPrivateInternalFiles](StdLib.md)
 
@@ -679,7 +679,7 @@ Packages Included in zip
 [UEFI Shell 2.0 Pkg
 .zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
 
-[ Shell 2.0 Documentation](ShellPkg#Shell_2.0_Engineering_Resources)
+[ Shell 2.0 Documentation](ShellPkg.md#uefi-shell-2x-engineering-resources)
 
 </td>
 
@@ -694,14 +694,13 @@ This release is the implmentation sources for the UEFI Shell
 Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
 specification
 
-See [
-How to include UEFI Shell 2.0 into .DSC file](Shell_FAQ#How_do_you_add_the_new_UEFI_Shell_2.0_to_the_Nt32_in_the_UDK2010.SR1)
+See [How to include UEFI Shell 2.0 into .DSC file](Shell%20FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
 
 </td>
 
 <td>
 
-[ShellPkg](ShellPkg) .zip
+[ShellPkg](ShellPkg.md) .zip
 Package
 
 </td>
@@ -715,11 +714,11 @@ Package
 # UDK2010 More Info
 
 EDK II More info: [Getting Started for
-Developers](Getting_Started_with_EDK_II),
+Developers](Getting-Started-with-EDK-II.md),
 [EDK
-II Overview](EDK_II_Overview),
+II Overview](EDK-II-Overview.md),
 [EDKII
-Packages](EDKII_Packages)
+Packages](EDKII-Packages.md)
 
 UEFI Developers Kit 2010 (UDK2010). The UDK2010 is the EDKII support for
 all currently published [UEFI specifications](http://www.uefi.org)

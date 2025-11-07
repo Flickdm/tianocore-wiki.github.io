@@ -4,7 +4,7 @@
 [EDK](EDK)
 [Shell](Efi-shell).
 EdkShellPkg has been retired in lieu of
-[ShellPkg](ShellPkg) which
+[ShellPkg](ShellPkg.md) which
 implements the UEFI Shell 2.x as specified by the UEFI Forum.
 
 ### Source Repository

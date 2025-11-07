@@ -66,7 +66,7 @@ more information.
 
 # How to Setup the EDK II Tree
 
-See [Getting Started with EDK II](Getting_Started_with_EDK_II)
+See [Getting Started with EDK II](Getting-Started-with-EDK-II.md)
 
 ## EDK II Development Process
 

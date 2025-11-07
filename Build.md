@@ -14,7 +14,7 @@ Visual Studio 2019 tool chain ...
 `build –t VS2019`
 
 For using other tools see
-[Getting_Started_with_EDK_II](Getting_Started_with_EDK_II).
+[Getting Started with EDK II](Getting-Started-with-EDK-II.md).
 This provides some detailed instructions for setting up some different
 tool chains? The file Conf/tools_def.txt contains a list of targets.
 

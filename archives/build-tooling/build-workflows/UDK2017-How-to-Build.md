@@ -1,4 +1,4 @@
-# How to Build [UDK2017](UDK2017.md)
+# How to Build [UDK2017](../../../UDK2017.md)
 
 > Note: New build instructions are available. It is recommended to start with the new instructions if learning how to
 > build edk2 for the first time and not specifically targeting UDK2017. This page is retained for reference.
@@ -127,4 +127,4 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
 
 If you have questions please email the [[edk2-devel]] mail list.
 
-See also [Getting Started with EDK II](Getting-Started-with-EDK-II.md)
+See also [Getting Started with EDK II](../../../Getting-Started-with-EDK-II.md)

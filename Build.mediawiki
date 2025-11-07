@@ -12,7 +12,7 @@ Use –t parameter for the build command. Example: Using the Microsoft Visual St
 
     build –t VS2019
 
-For using other tools see [[Getting_Started_with_EDK_II]]. This provides some detailed instructions for setting up some different tool chains? The file Conf/tools_def.txt contains a list of targets.
+For using other tools see [[Getting-Started-with-EDK-II|Getting Started with EDK II]]. This provides some detailed instructions for setting up some different tool chains? The file Conf/tools_def.txt contains a list of targets.
 
 ==Is it possible to use PCDs @ build time?==
 

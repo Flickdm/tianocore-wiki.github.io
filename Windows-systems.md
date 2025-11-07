@@ -44,9 +44,7 @@ be found at [https://github.com/tianocore/edk2-non-osi](https://github.com/tiano
 
 Note: the steps below will pull the latest code from edk2 master. To
 work from a stable release, please refer to the Microsoft Windows build
-steps for
-[UDK2017](UDK2017):
-[https://github.com/tianocore/tianocore.github.io/wiki/UDK2017-How-to-Build#how-to-build-windows-system](https://github.com/tianocore/tianocore.github.io/wiki/UDK2017-How-to-Build#how-to-build-windows-system)
+steps for [UDK2017](archives/build-tooling/build-workflows/UDK2017-How-to-Build.md#how-to-build-windows-system).
 
 ### Internet proxies
 

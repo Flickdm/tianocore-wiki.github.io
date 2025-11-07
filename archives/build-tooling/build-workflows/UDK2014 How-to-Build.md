@@ -1,18 +1,18 @@
-# Udk2010.Sr1 How To Build
+# Udk2014 How To Build
 
 <span style="font-size: 12.0pt; text-align: center; font-family: Verdana; color: blue; font-weight: bold; font-style: normal">
-UDK2010.SR1 How to build instructions </span>
+UDK2014 - How to build instructions </span>
 
-Download the UDK2010.SR1 Release with expanded workspace directories
-[Download](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1.Complete.MyWorkSpace.zip/download)
+Download the UDK2014 Release with expanded workspace directories
+[DownLoad](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download)
 
-## UDK2010.SR1 Release Files / Directories
+## UDK2014 Release Files / Directories
 
 What is included in the Downloaded zip file
 
-- UDK2010.SR1.MyWorkSpace.zip
-- BaseTools(Windows)\_UDK2010.SR1.zip
-- BaseTools(Unix)\_UDK2010.SR1.tar
+- UDK2014.MyWorkSpace.zip
+- BaseTools(Windows).zip
+- BaseTools(Unix).tar
 - Documents
 - Notes
 
@@ -24,19 +24,16 @@ What is included in the Downloaded zip file
 
 - 1\) Install Microsoft Visual Studio 2008\* SP1 in the build machine
   and make sure that AMD64 complier was selected when installing.
-- 2\) Download "iasl-win-20070508.zip" from
-  "[http://www.acpica.org/downloads/Version_20070508.php](http://www.acpica.org/downloads/Version_20070508.php)" and extract
-  file "iasl.exe" to C:\ASL
 
 2\. Extract Common Source Code
 
-- 1\) Extract files in \[UDK2010.SR1.MyWorkSpace.zip\] to the working
-  space directory (e.g C:). Note the Directory "MyWorkSpace" will be
-  created as a result. In this case, it is C:\MyWorkspace.
+- 1\) Extract files in \[UDK2014.MyWorkSpace.zip\] to the working space
+  directory (e.g C:). Note the Directory "MyWorkSpace" will be created
+  as a result. In this case, it is C:\MyWorkspace.
 - 2\) There are two BaseTools package one is for Windows system and
   another is for UNIX-Like system. Please make sure
-  BaseTools(Windows)\_UDK2010.SR1.zip is used here. Expand the
-  appropriate BaseTools to C:\MyWorkSpace
+  BaseTools(Windows).zip is used here. Expand the appropriate BaseTools
+  to C:\MyWorkSpace
 
 3\. Generate OpenSSL\* Crypto Library Note: this does not need to be
 done for Nt32
@@ -50,11 +47,15 @@ done for Nt32
 - 1\) Open a command prompt, type command "cd C:\MyWorkspace" to enter
   the workspace directory, and then type command
 
-\> edksetup
+\> edksetup --nt32
 
-to initialize the working environment.
+to initialize the working environment. See also:
+[Windows systems ToolChain Matrix](../../../Windows-systems-ToolChain-Matrix.md)
+for how to change the TOOL_CHAIN_TAG for supported compiler
+combinations.
 
-- 2\) Type below commands to build platforms
+- 2\) Type below commands to build platforms (below assumes Microsoft
+  Visual Studio 2008)
 
 \> build -t VS2008x86
 
@@ -70,6 +71,9 @@ instead of VS2008. Please refer to tools_def.txt for all supported tool
 chains and detailed descriptions. (tools_def.txt will be generated at
 Conf directory after running "edksetup".)
 
+- 3\. Note Microsoft Visual Studio\* 2010 is supported with -t VS2010 or
+  -t VS2010x86
+
 ## Unix-Like System Configuration
 
 **Ubuntu**
@@ -84,14 +88,11 @@ Codename: Karmic\*
 
 1\. Extract Common Source Code
 
-- 1\) Create a working space directory in the build machine, for
   example, ~/src/
-- 2\) Extract files in \[UDK2010.SR1.MyWorkSpace.zip\] the working space
   directory. In this case, it is ~/src/MyWorkSpace where /MyWorkSpace is
   created.
-- 3\) There are two BaseTools packages, one is for Windows system and
-  another is for UNIX-Like system. Please make sure
-  BaseTools(Unix)\_UDK2010.SR1.tar is used here.
+  another is for UNIX-Like system. Please make sure BaseTools(Unix).tar
+  is used here.
 
 2\. Generate OpenSSL\* Crypto Library Note: This does not need to be
 done for Nt32 Open file
@@ -99,23 +100,17 @@ done for Nt32 Open file
 follow the instruction to install OpenSSL\* for UEFI building.
 
 3\. See How to Set up Build environment
-[Using EDK II with Native GCC](Using_EDK_II_with_Native_GCC)
+ [Using EDK II with Native GCC](../../../Using-EDK-II-with-Native-GCC.md)
 for newer versions of Linux
 
-- a\) Please note that here the root is "~/src/MyWorkSpace" instead of
   "~/src/edk2"
-- b\) Make sure BaseTools is built and required software like iASL
   compiler is installed well.
-- c\) Some operations need switch to user "root" to execute.
 
 4\. Build Steps \*\*\* Nt32 \*\*\*
 
-- 1\) Open a terminal and type "cd ~/src/MyWorkSpace" to enter the
   workspace directory.
-- 2\) Initialize the build environment by typing
 
 \>. edksetup.sh BaseTools
 
-- 3\) Type below commands to build platforms
 
 \> build -t GCC44
