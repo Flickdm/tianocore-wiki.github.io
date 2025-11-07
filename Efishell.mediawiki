@@ -1,3 +1,0 @@
-<b><i>Note: EDK Shell has been deprecated. Please refer to [[Shell]] and [[ShellPkg]] for the latest information.</i></b>
-
-EFI shell releases are part of the EDK build infrastructure. Also referred to as [[EFI Shell]].
