@@ -9,7 +9,7 @@ There are 4 security related features in SecurityPkg including
 More information:
 
 - [ReadMe_Security.txt](https://github.com/tianocore-docs/Docs/blob/master/UDK/UDK2010.SR1/Readme_Security.txt)
-- [ How to enable Security](How-to-Enable-Security) with EDK
+- [How to enable Security](How-to-Enable-Security) with EDK
   II
 - PDF on [How to Sign UEFI Drivers & Applications
   V1.31.pdf](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf)

@@ -109,6 +109,7 @@ Notes Features</a>
 
   Linux](Using-EDK-II-with-Native-GCC.md)
  [ Using newer versions of
+
 - [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
  [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
 - [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
@@ -587,11 +588,11 @@ Notes Features</a>
 <b>Supported OS and Build Environments</b>
 
 - [ Using newer versions of
-- [ Using newer versions of
+- [Using newer versions of
   Linux](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
 - [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
-- [ Xcode Mac OS
-  X ](Xcode)
+- [Xcode Mac OS
+  X](Xcode)
 - [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
@@ -1066,11 +1067,11 @@ Notes Features</a>
 <b>Supported OS and Build Environments</b>
 
 - [ Using newer versions of
-- [ Using newer versions of
+- [Using newer versions of
   Linux](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
 - [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
-- [ Xcode Mac OS
-  X ](Xcode)
+- [Xcode Mac OS
+  X](Xcode)
 - [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 

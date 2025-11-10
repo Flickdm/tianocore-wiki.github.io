@@ -3,7 +3,7 @@
 These releses are archived for reference.
 
 To learn more about the EDK codebase see the
-[ EDK Module Structure
+[EDK Module Structure
 Explained](Modules).
 
 <div class="t_projects">
@@ -1412,5 +1412,5 @@ License information:
 [BSD](http://www.opensource.org/licenses/bsd-license.php)
 
 Project owner(s):
-[ EDK 1
+[EDK 1
 Module owners](Modules)

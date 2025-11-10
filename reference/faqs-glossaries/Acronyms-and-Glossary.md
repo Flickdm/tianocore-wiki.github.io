@@ -161,7 +161,7 @@ EFI Developer Kit
 **EPL**
 Eclipse Public License
 
-**[ Extensible Firmware
+**[Extensible Firmware
 Interface](Wikipedia:Extensible_Firmware_Interface) (EFI)**
 EFI is a specification that defines the interface between an operating
 system, option ROMs, and platform firmware. EFI was originally invented
@@ -228,7 +228,7 @@ processor. It consists of both system memory and I/O space
 **glyph**
 The graphical representation of a single Unicode weight
 
-**[ Globally Unique IDentifier](Wikipedia:_Globally_Unique_Identifier) (GUID)**
+**[Globally Unique IDentifier](Wikipedia:_Globally_Unique_Identifier) (GUID)**
 Globally Unique Identifier. A 128-bit value used to differentiate and
 name services and structures.
 

@@ -260,6 +260,7 @@ The value of `“Dependencies”` field should be C style infix notation express
 >Noted that Opcode 0x0D (END) will automatically added after dependency encoding.
 
 The precedence of infix notation expression operators is listed below from high to low, and it’s followed the C language operator precedence.
+
 - () (brackets)
 - ~ (NOT)
 - \>=, >, <=, < (GTE, GT, LTE, LT)

@@ -66,11 +66,11 @@ expanded to MyWorkSpace Directory) Based on svn version:
 Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download)
 **Supported OS and Build Environments**
 
-- [ Using newer versions of
+- [Using newer versions of
   Linux](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
 - [Windows systems](../../build-tooling/environment-setup/Windows-systems.md) \*
-  [ Xcode Mac OS
-  X ](Xcode)
+  [Xcode Mac OS
+  X](Xcode)
 - [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
@@ -133,7 +133,7 @@ Version 1.22 Errata C
 
 <td>
 
-[ UDK2010
+[UDK2010
 SR1 UP1 EDK II v1.22 Errata C specifications](../../reference/specs-standards/EDK-II-Specifications.md)
 These documents describe the EDK II build information for the following
 (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata
@@ -306,7 +306,7 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 <td>
 
 EDK II Application Development Kit
-[ (EADK)](../../platforms-packages/core-packages/EDKII-EADK.md)
+[(EADK)](../../platforms-packages/core-packages/EDKII-EADK.md)
 Release 1.02 Package incorporates the Standard C Library, BSD Sockets
 Library, and other standards-based components. Include these into
 standard "C" applications. See the AppPkg for examples using the
@@ -336,7 +336,7 @@ Packages Included in zip
 
 [UEFI Shell 2.0 Pkg
 .zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
-[ Shell 2.0 Documentation](../../platforms-packages/core-packages/ShellPkg.md)
+[Shell 2.0 Documentation](../../platforms-packages/core-packages/ShellPkg.md)
 
 </td>
 
@@ -443,11 +443,11 @@ r67
 
 **Supported OS and Build Environments**
 
-- [ Using newer versions of
+- [Using newer versions of
   Linux](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
 - [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
-- [ Xcode Mac OS
-  X ](Xcode)
+- [Xcode Mac OS
+  X](Xcode)
 - [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
@@ -501,7 +501,7 @@ EDK II Specifications (UDK2010.SR1.UP1)
 
 <td>
 
-[ UDK2010
+[UDK2010
 SR1 UP1 EDK II v1.22 Errata B specifications](../../reference/specs-standards/EDK-II-Specifications.md) These documents
 describe the EDK II build information for the following (Build, DEC,
 DSC, FDF and INF) file formats and it contains the Errata updates
@@ -642,11 +642,11 @@ r67
 **Features Summary:**
 
 - This release will support Microsoft® Windows® 8 Secure Boot feature.
-  See [ How to Enable Security](../../development/tutorials-howto/How-to-Enable-Security.md)
+  See [How to Enable Security](../../development/tutorials-howto/How-to-Enable-Security.md)
 - Features added to support the UEFI 2.3.1 specification from the
   official [UEFI Forum Web](http://uefi.org) site
 - EDK II Build tools and Updates to the
-  [ EDK II v1.22 specifications](../../reference/specs-standards/EDK-II-Specifications.md)
+  [EDK II v1.22 specifications](../../reference/specs-standards/EDK-II-Specifications.md)
 - Other Feature [Details](UDK2010-SR1-Features.md)
 - See [Release
   Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt/download)
@@ -654,11 +654,11 @@ r67
 
 **Supported OS and Build Environments**
 
-- [ Using newer versions of
+- [Using newer versions of
   Linux](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
 - [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
-- [ Xcode Mac OS
-  X ](Xcode)
+- [Xcode Mac OS
+  X](Xcode)
 - [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or when using Cygwin or Mac OS X)
 
@@ -731,7 +731,7 @@ What is it?
 
 <td>
 
-[ UDK2010 SR1
+[UDK2010 SR1
 Build EDK II v1.22 specifications](../../reference/specs-standards/EDK-II-Specifications.md)
 
 These documents describe the EDKII build information for the following

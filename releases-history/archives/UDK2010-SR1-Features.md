@@ -174,7 +174,7 @@ Updates to the EDK II Build Process.
 <span style="font-size: 8.0pt; font-family: Verdana; color: black; font-style: normal">
 
 - Support MACRO definitions in build tools.
-- Updates for [ EDK II v1.22 specifications](EDK_II_Specifications)
+- Updates for [EDK II v1.22 specifications](EDK_II_Specifications)
   (Build, DEC, DSC, FDF, INF)
 
 </span> </span>

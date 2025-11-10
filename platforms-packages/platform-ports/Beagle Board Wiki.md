@@ -3,7 +3,7 @@
 ## Beagle Board
 
 To find the latest instructions to build the BeagleBoard on Linux go to
-[ this
+[this
 wikipage](BeagleBoardPkg)
 
 ## Get the edk2 source tree and build BeagleBoardPkg in Windows® Cygwin Bash shell
@@ -218,7 +218,7 @@ also a way to recover the image if the NAND ever gets into a bad state.
 
 ## Put edk2 code in the Beagle Board DRAM using U-Boot
 
-See [ Booting
+See [Booting
 EDK2 in the Beagle Board DRAM using U-Boot](BeagleBoardPkg#Booting_EDK2_in_the_Beagle_Board_DRAM_using_U-Boot)
 
 ## Put edk2 code in the Beagle Board NAND using EBL

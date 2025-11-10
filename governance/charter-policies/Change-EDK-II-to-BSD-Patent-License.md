@@ -108,7 +108,7 @@ and the Reviewed-by status.
  This RFC follows up on the proposal from Mark Doran to change the
 EDK II Project to a BSD+Patent License.
 
- https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html
+ <https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html>
 
 The review period for this license change is 30 days.  If there is no
 unresolved feedback on April 9, 2019, then commits of the license change

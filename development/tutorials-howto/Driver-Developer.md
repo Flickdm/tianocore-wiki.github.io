@@ -59,7 +59,7 @@ a GUI-based template generator. This wizard provides basic support for
 the most common categories of UEFI drivers. Please refer to the UEFI
 Driver Wizard
 [ReadMe](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UefiDriverWizard/README.txt).
-Check out the [Wizard Getting Started ](Wizard-Getting-Started) guide for
+Check out the [Wizard Getting Started](Wizard-Getting-Started) guide for
 more information. Download the UEFI Driver Wizard MSI (installer for
 Microsoft Windows) or use this [SVN
 Link](https://svn.code.sf.net/p/edk2share/code/trunk/DriverDeveloper/UefiDriverWizard/)

@@ -14,7 +14,7 @@ systems.
 <u>*Table of Contents*</u>
 
 - [GitHub Help](Windows-systems.md)
-- [ How to Setup the EDK II Tree](Windows-systems#how-to-setup-the-edk-ii-tree)
+- [How to Setup the EDK II Tree](Windows-systems#how-to-setup-the-edk-ii-tree)
 - [
   Download](Windows-systems.md) Checkout EDK II source tree from Github
 - [Compile Tools](Windows-systems#compile-tools) Build EDK II BaseTools for
@@ -138,10 +138,10 @@ Example:
 ## Build
 
 - Set up the
-  [ Nasm](Nasm-Setup) open
+  [Nasm](Nasm-Setup) open
   source assembly compiler
 - Set up the
-  [ ASL
+  [ASL
   Compiler](Asl_Setup)
 - [Compile Tools](Windows-systems#compile-tools) above
 - Open a Windows CMD prompt:

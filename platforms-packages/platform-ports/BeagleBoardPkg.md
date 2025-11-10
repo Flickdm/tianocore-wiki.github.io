@@ -235,7 +235,7 @@ This is defined by BeagleBoardPkg/BeagleBoardPkg.dsc:
 ## Booting EDK2 in the Beagle Board DRAM using U-Boot
 
 1\. Build the BeagleBoard EDK2 as defined in section
-'[ How to build UEFI for
+'[How to build UEFI for
 the BeagleBoard](#How_to_build_UEFI_for_the_BeagleBoard)'.
 
 2\. Copy the BeagleBoard UEFI firmware (BEAGLEBOARD_EFI.fd) on your boot

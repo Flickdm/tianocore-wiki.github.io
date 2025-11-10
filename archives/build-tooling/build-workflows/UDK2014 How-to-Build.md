@@ -112,5 +112,4 @@ for newer versions of Linux
 
 \>. edksetup.sh BaseTools
 
-
 \> build -t GCC44

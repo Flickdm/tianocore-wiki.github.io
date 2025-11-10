@@ -9,7 +9,7 @@ e.g. <span style="font-family: Courier">mkdir edk2</span>
 ### 2) Download the Edk II source and build tools
 
 1. Latest EDK II source from following Instructions on
-    [ Step by step instructions](Getting-Started-with-EDK-II)
+    [Step by step instructions](Getting-Started-with-EDK-II)
     1. i.e. example \>git clone [https://github.com/tianocore/edk2.git](https://github.com/tianocore/edk2.git)
 
 OR
@@ -60,9 +60,9 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
     Space Directory (e.g. C:\edk2\\*MyHelloWorld* or
     ~/src/edk2/*MyHelloWorld*)
 2. Create a .c file in the project directory (see example:
-    [ MyHelloWorld.c](Getting_Started_Writing_MyHelloWorld.c))
+    [MyHelloWorld.c](Getting_Started_Writing_MyHelloWorld.c))
 3. Create a .inf file in the project directory (see examle:
-    [ MyHelloWorld.inf](Getting-Started-Writing-MyHelloWorld.inf))
+    [MyHelloWorld.inf](Getting-Started-Writing-MyHelloWorld.inf))
 
 ### 6) Build your UEFI Application
 

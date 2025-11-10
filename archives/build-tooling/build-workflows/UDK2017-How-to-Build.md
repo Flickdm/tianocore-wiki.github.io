@@ -59,7 +59,7 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
 </pre>
 
 5. Build Steps
-    ***NT32***
+    _**NT32**_
 
     1) Open a Microsoft Visual Studio* command prompt, type `cd C:\MyWorkspace`
         to enter the workspace directory
@@ -112,7 +112,7 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
         For this release, please use OpenSSL-1.1.0e.
 
 4. Build Steps
-    ***MdeModulePkg***
+    _**MdeModulePkg**_
     1) Open a terminal and type `"cd ~/src/MyWorkspace"` to enter the workspace
         directory.
     2) First build the BaseTools by typing
