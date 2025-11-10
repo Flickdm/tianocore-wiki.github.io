@@ -30,5 +30,5 @@ some compatibility issues that the UEFI driver writer must be aware of
 in order to implement a UEFI driver is C that is compatible with native
 mode compilers as well as the EBC compiler. Chapter 19 of the EFI Driver
 Writers Guide at
-[UEFI Driver Writer's Guide](UEFI.md)
+[UEFI Driver Writer's Guide](../specs-standards/UEFI.md)
 describes porting considerations when using the EBC compiler.

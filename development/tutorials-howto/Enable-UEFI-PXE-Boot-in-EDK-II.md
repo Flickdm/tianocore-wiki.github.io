@@ -1,6 +1,6 @@
 # Enable UEFI PXE Boot in EDK II
 
-[PXE](PXE.md) Boot is enabled by the [EDK II](EDK-II.md) network stack. If your platform does not have EDK II network stack built in yet, or you feel you miss any modules for enabling PXE boot, please refer to the “FEATURES ENABLING” section in the [NetworkPkg Getting Started Guide](NetworkPkg-Getting-Started-Guide.md).
+[PXE](../../platforms-packages/component-guides/PXE.md) Boot is enabled by the [EDK II](../../reference/external-resources/EDK-II.md) network stack. If your platform does not have EDK II network stack built in yet, or you feel you miss any modules for enabling PXE boot, please refer to the “FEATURES ENABLING” section in the [NetworkPkg Getting Started Guide](../../platforms-packages/core-packages/NetworkPkg-Getting-Started-Guide.md).
 
 **NOTES:** The platform must support the UUID detection by reading table-based SMBIOS. Please refer the section 5.2.1 of PXE v2.1 specification for more details.
 

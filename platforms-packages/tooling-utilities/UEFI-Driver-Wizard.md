@@ -8,7 +8,7 @@ The [UEFI Driver Wizard](https://github.com/tianocore-docs/Docs/raw/master/Drive
 
 <img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/UEFIDriverWizard03.png" >
 
-The [UDK2014.IHV Setup Guide](UDK2014.IHV-Setup-Guide.md) (Driver Developer Release) is a subset of the UEFI Development Kit (UDK2014) designed for use with the UEFI Driver Wizard. This release only contains the packages essential for independent hardware vendor (IHV) driver development.
+The [UDK2014.IHV Setup Guide](../../releases-history/archives/UDK2014.IHV-Setup-Guide.md) (Driver Developer Release) is a subset of the UEFI Development Kit (UDK2014) designed for use with the UEFI Driver Wizard. This release only contains the packages essential for independent hardware vendor (IHV) driver development.
 
 Please refer to the UEFI Driver Wizard
 [ReadMe](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UefiDriverWizard/README.txt).

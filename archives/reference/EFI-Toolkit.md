@@ -14,7 +14,7 @@ environment on 32 and 64 bit based platforms. The components are
 released as reference source code. Some components are meant to be stand
 alone and run on UEFI/EFI compliant systems and some components will
 require running on the EFI shell. The EFI Toolkit is released under the
-[BSD License](BSD-License.md), and the Python code is released
+[BSD License](../../reference/legal-licenses/BSD-License.md), and the Python code is released
 under [PSF
 License](http://www.python.org/download/releases/2.4.4/license/).
 

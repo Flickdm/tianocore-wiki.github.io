@@ -1,6 +1,6 @@
 # EDK II Development Process
 
-First check out [Getting Started with EDK II](Getting-Started-with-EDK-II.md) for downloading the latest EDK II development project with your build
+First check out [Getting Started with EDK II](../tutorials-howto/Getting-Started-with-EDK-II.md) for downloading the latest EDK II development project with your build
 environment.
 
 Are you new to using git? If so, then the [[New to git]] page may be helpful.
@@ -274,5 +274,5 @@ should follow the following steps to keep the code in sync.
 ## See Also
 
 - [Commit-Message-Format](Commit-Message-Format.md)
-- [Code-Style](Code-Style.md)
-- [Inclusive Language Guidelines](Inclusive-Language-Guidelines.md)
+- [Code-Style](../coding-standards/Code-Style.md)
+- [Inclusive Language Guidelines](../../governance/charter-policies/Inclusive-Language-Guidelines.md)

@@ -14,7 +14,7 @@ Visual Studio 2019 tool chain ...
 `build –t VS2019`
 
 For using other tools see
-[Getting Started with EDK II](Getting-Started-with-EDK-II.md).
+[Getting Started with EDK II](../../development/tutorials-howto/Getting-Started-with-EDK-II.md).
 This provides some detailed instructions for setting up some different
 tool chains? The file Conf/tools_def.txt contains a list of targets.
 
@@ -30,8 +30,8 @@ options.
 For EDK II, yes, the build tools will need to be recompiled for GCC.
 Link for how to Build for GCC:
 
-- [Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
-- [Unix-like systems](Unix-like-systems.md) (For older Linux
+- [Using EDK II with Native GCC](../environment-setup/Using-EDK-II-with-Native-GCC.md)
+- [Unix-like systems](../environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or when using Cygwin or Mac OS X)
 
 ## What does the parsing tool do?

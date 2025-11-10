@@ -50,7 +50,7 @@ done for Nt32
 \> edksetup --nt32
 
 to initialize the working environment. See also:
-[Windows systems ToolChain Matrix](../../../Windows-systems-ToolChain-Matrix.md)
+[Windows systems ToolChain Matrix](../../../build-tooling/environment-setup/Windows-systems-ToolChain-Matrix.md)
 for how to change the TOOL_CHAIN_TAG for supported compiler
 combinations.
 
@@ -100,7 +100,7 @@ done for Nt32 Open file
 follow the instruction to install OpenSSL\* for UEFI building.
 
 3\. See How to Set up Build environment
- [Using EDK II with Native GCC](../../../Using-EDK-II-with-Native-GCC.md)
+ [Using EDK II with Native GCC](../../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
 for newer versions of Linux
 
   "~/src/edk2"

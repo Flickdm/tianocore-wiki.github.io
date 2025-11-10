@@ -52,5 +52,5 @@ Reviewed-by: Reviewer Name <reviewer@reviewer-email.server>
 
 # See Also
 
-* [Code-Style](Code-Style.md)
+* [Code-Style](../coding-standards/Code-Style.md)
 * [SubmittingPatches](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches?id=f6f94e2ab1b33f0082ac22d71f66385a60d8157f#n297)

@@ -1,7 +1,7 @@
 # UEFI UBUNTU
 
 [UEFI
-OS Support](UEFI.md) \| [Linux Support for UEFI](UEFI.md)
+OS Support](../../reference/specs-standards/UEFI.md) \| [Linux Support for UEFI](../../reference/specs-standards/UEFI.md)
 
 # Ubuntu Linux Support for UEFI
 
@@ -20,7 +20,7 @@ Debian](Debian_Linux) starting with the Jessie release.
 
 Ubuntu 12.04 LTS or higher supports
 [Secure
-Boot](UEFI.md), with an OS shim loader signed by the
+Boot](../../reference/specs-standards/UEFI.md), with an OS shim loader signed by the
 [UEFI CA](UEFI_CA). This
 means that a system properly configured for UEFI Secure Boot can load
 Ubuntu Linux without enabling legacy BIOS support, or disabling Secure

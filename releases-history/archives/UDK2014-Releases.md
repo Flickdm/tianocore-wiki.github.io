@@ -109,10 +109,10 @@ Notes Features</a>
 
   Linux](Using-EDK-II-with-Native-GCC.md)
  [ Using newer versions of
-- [Windows systems](Windows-systems.md)
- [Windows systems](Windows-systems.md)
-- [Unix-like systems](Unix-like-systems.md) (For older Linux
- [Unix-like systems](Unix-like-systems.md) (For older Linux
+- [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
+ [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
+- [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
+ [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
 </td>
@@ -588,11 +588,11 @@ Notes Features</a>
 
 - [ Using newer versions of
 - [ Using newer versions of
-  Linux](Using-EDK-II-with-Native-GCC.md)
-- [Windows systems](Windows-systems.md)
+  Linux](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
+- [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
 - [ Xcode Mac OS
   X ](Xcode)
-- [Unix-like systems](Unix-like-systems.md) (For older Linux
+- [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
 </td>
@@ -1067,11 +1067,11 @@ Notes Features</a>
 
 - [ Using newer versions of
 - [ Using newer versions of
-  Linux](Using-EDK-II-with-Native-GCC.md)
-- [Windows systems](Windows-systems.md)
+  Linux](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
+- [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
 - [ Xcode Mac OS
   X ](Xcode)
-- [Unix-like systems](Unix-like-systems.md) (For older Linux
+- [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
 </td>

@@ -47,7 +47,7 @@ the S3 sleep state. For crisis recovery, the PEI phase should reside in
 some small, fault-tolerant block of the firmware store. As a result, it
 is imperative to keep the footprint of the PEI phase as small as
 possible. In addition, for a successful
-[ACPI S3](PI.md) resume,
+[ACPI S3](../../reference/specs-standards/PI.md) resume,
 the speed of the resume is of utmost importance, so the code path
 through the firmware should be minimized. These two boot flows also
 speak to the need to keep the processing and code paths in the PEI phase
@@ -64,7 +64,7 @@ Interface](http://www.uefi.org/specsandtesttools)
 
 **Driver eXecution Environment (DXE) Phase**
 The Driver Execution Environment
-([DXE](Tasks-UefiCpuPkg-CpuDxe-MP-support.md)) phase is where most
+([DXE](../../governance/project-management/Tasks-UefiCpuPkg-CpuDxe-MP-support.md)) phase is where most
 of the system initialization is performed. Pre-EFI Initialization (PEI),
 the phase prior to DXE, is responsible for initializing permanent memory
 in the platform so that the DXE phase can be loaded and executed. The
@@ -101,7 +101,7 @@ Interface](http://www.uefi.org/specsandtesttools)
 The Boot Manager in DXE executes after all the DXE drivers whose
 dependencies have been satisfied have been dispatched by the DXE
 Dispatcher. At that time, control is handed to the Boot Device Selection
-([BDS](ArmPlatformPkg-Bds.md)) phase of execution.
+([BDS](../../platforms-packages/core-packages/ArmPlatformPkg-Bds.md)) phase of execution.
 The BDS phase is responsible for implementing the platform boot policy.
 System firmware that is compliant with this specification must implement
 the boot policy specified in the Boot Manager chapter of the UEFI 2.0

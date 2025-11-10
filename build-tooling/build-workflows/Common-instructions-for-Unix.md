@@ -16,9 +16,9 @@ here at the appropriate time.
 
 Note these instructions are not for current Linux distributions, only
 UNIX-like systems that do not work with the
-[Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
+[Using EDK II with Native GCC](../environment-setup/Using-EDK-II-with-Native-GCC.md)
 instructions. Please follow the
-[Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
+[Using EDK II with Native GCC](../environment-setup/Using-EDK-II-with-Native-GCC.md)
 guide for mainstream Linux distros.
 
 ### Get the edk2 source tree using Git

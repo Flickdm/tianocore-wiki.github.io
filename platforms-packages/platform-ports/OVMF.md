@@ -1,10 +1,10 @@
 # OVMF
 
-OVMF is an [EDK II](EDK-II.md) based project to enable [UEFI](UEFI.md) support for Virtual Machines. OVMF contains sample UEFI firmware for [QEMU](http://www.qemu-project.org/) and [KVM](http://www.linux-kvm.org/).
+OVMF is an [EDK II](../../reference/external-resources/EDK-II.md) based project to enable [UEFI](../../reference/specs-standards/UEFI.md) support for Virtual Machines. OVMF contains sample UEFI firmware for [QEMU](http://www.qemu-project.org/) and [KVM](http://www.linux-kvm.org/).
 
 License: [[BSD|BSD License]]
 
-More information: [OVMF FAQ](OVMF-FAQ.md), [How to build OVMF](How-to-build-OVMF.md), [[Boot Overview|OVMF-Boot Overview]], [[edk2-devel]]
+More information: [OVMF FAQ](../../reference/faqs-glossaries/OVMF-FAQ.md), [How to build OVMF](../../development/tutorials-howto/How-to-build-OVMF.md), [[Boot Overview|OVMF-Boot Overview]], [[edk2-devel]]
 
 Source repository: [https://github.com/tianocore/edk2/tree/master/OvmfPkg](https://github.com/tianocore/edk2/tree/master/OvmfPkg)
 

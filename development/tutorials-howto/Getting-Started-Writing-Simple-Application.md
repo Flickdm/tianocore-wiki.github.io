@@ -34,11 +34,11 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 1. TOOL_CHAIN_TAG see:
     1. Windows
     [Windows systems ToolChain
-    Matrix](Windows-systems-ToolChain-Matrix.md)
+    Matrix](../../build-tooling/environment-setup/Windows-systems-ToolChain-Matrix.md)
     2. Newer versions of
-    Linux[Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
+    Linux[Using EDK II with Native GCC](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
     3. Older Linux distributions
-    [Unix-like systems](Unix-like-systems.md)
+    [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md)
     4. Mac OS X
         [Xcode](Xcode)
 2. TARGET_ARCH - Optional can also use

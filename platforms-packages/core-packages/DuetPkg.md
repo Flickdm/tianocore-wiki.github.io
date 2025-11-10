@@ -12,4 +12,4 @@ DuetPkg description:
 
 How to Build for EDK II: [https://github.com/tianocore/edk2/raw/master/DuetPkg/ReadMe.txt](https://github.com/tianocore/edk2/raw/master/DuetPkg/ReadMe.txt)
 
-_Note that DUET is designed to boot UEFI over a legacy BIOS. DUET is considered out of date on current systems. We recommend development using one of the updated [EDK II Platforms](EDK-II-Platforms.md)._
+_Note that DUET is designed to boot UEFI over a legacy BIOS. DUET is considered out of date on current systems. We recommend development using one of the updated [EDK II Platforms](../platform-ports/EDK-II-Platforms.md)._

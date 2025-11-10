@@ -1,6 +1,6 @@
 # Configuring PXE Boot Servers for UEFI
 
-This page collects resources for configuring [PXE](PXE.md) servers to boot UEFI images. The defacto PXE configuration is typically setup for 16-bit x86 legacy BIOS images, so adding UEFI support requires changes to server config files.
+This page collects resources for configuring [PXE](../../platforms-packages/component-guides/PXE.md) servers to boot UEFI images. The defacto PXE configuration is typically setup for 16-bit x86 legacy BIOS images, so adding UEFI support requires changes to server config files.
 
 You can also refer to Intel's [UEFI PXE Boot Performance Analysis](https://software.intel.com/sites/default/files/managed/2d/04/intel-uefi-pxe-boot-performance-analysis.pdf) whitepaper for an overfoew fo the UEFI PXE boot process, and tips for optimizing boot time on Microsoft Windows and Linux platforms.
 

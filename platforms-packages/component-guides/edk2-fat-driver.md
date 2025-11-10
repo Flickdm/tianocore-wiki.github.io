@@ -8,4 +8,4 @@ File Allocation Table (FAT) - [https://en.wikipedia.org/wiki/File_Allocation_Tab
 
 Prior to April 2016, the FAT driver was a separate EDK II based project due to licensing issues. As of April 2016 it is merged into the EDK II project.
 
-Refer to the [Code Contributions](Code-Contributions.md) page for more information on contributing to the EDK II FAT driver.
+Refer to the [Code Contributions](../../development/contribution-guides/Code-Contributions.md) page for more information on contributing to the EDK II FAT driver.

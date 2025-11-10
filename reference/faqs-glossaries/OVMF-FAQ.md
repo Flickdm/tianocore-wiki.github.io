@@ -103,7 +103,7 @@ booting the VM. The README file included in the downloaded archive file
 will explain how to run the OVMF firmware image with the supported VM.
 
 More detailed instructions for running OVMF can be found on the [running
-OVMF](Galileo.md) wiki page.
+OVMF](../../platforms-packages/platform-ports/Galileo.md) wiki page.
 
 ### Where is the source code to OVMF?
 
@@ -131,7 +131,7 @@ Visual Studio (2003 or 2005), WINDDK, ICC (Intel Compiler) and GCC under
 CYGWIN.
 
 If you are new to EDK II development, [this
-page](Galileo.md) may help you get a build
+page](../../platforms-packages/platform-ports/Galileo.md) may help you get a build
 environment up and running. OVMF will also require an ASL compiler to be
 installed on the system. The Intel ASL compiler is compatible with many
 operating systems, and is available from [http://www.acpica.org](http://www.acpica.org).
@@ -143,18 +143,18 @@ II dev email list.
 
 ### How can I contribute to OVMF?
 
-Please refer to the [Getting Started](Galileo.md) page.
+Please refer to the [Getting Started](../../platforms-packages/platform-ports/Galileo.md) page.
 
 ### How do I build OVMF?
 
 Refer to the README document under the OvmfPkg directory within the EDK
 II source repository or on the [building
-OVMF](Galileo.md) wiki page.
+OVMF](../../platforms-packages/platform-ports/Galileo.md) wiki page.
 
 ### How do I enable source level debugging with OVMF?
 
 Please refer to:
 
-  1. [EDK II Source Level Debug](EDK-II-Source-Level-Debug.md)
-  2. [How to debug OVMF with QEMU using GDB](How-to-debug-OVMF-with-QEMU-using-GDB.md)
-  3. [How to debug OVMF with QEMU using WinDbg](How-to-debug-OVMF-with-QEMU-using-WinDbg.md)
+  1. [EDK II Source Level Debug](../../development/tutorials-howto/EDK-II-Source-Level-Debug.md)
+  2. [How to debug OVMF with QEMU using GDB](../../development/tutorials-howto/How-to-debug-OVMF-with-QEMU-using-GDB.md)
+  3. [How to debug OVMF with QEMU using WinDbg](../../development/tutorials-howto/How-to-debug-OVMF-with-QEMU-using-WinDbg.md)

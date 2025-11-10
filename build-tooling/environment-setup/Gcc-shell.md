@@ -2,7 +2,7 @@
 
 <b><i>Note: this package has been deprecated. Please refer to
 [Shell](Shell) and
-[ShellPkg](ShellPkg.md) for
+[ShellPkg](../../platforms-packages/core-packages/ShellPkg.md) for
 the latest info.</i></b>
 
 ## Welcome to the gcc-shell project

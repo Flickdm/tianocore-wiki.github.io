@@ -2,7 +2,7 @@
 
 There are 3 main [libraries](EDK2_Libraries) used by almost all shell commands and 2
 of these are very usable by shell applications in the
-[ShellPkg](ShellPkg.md).
+[ShellPkg](../core-packages/ShellPkg.md).
 
 ## ShellLib
 

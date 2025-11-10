@@ -22,7 +22,7 @@ The latest version of the UEFI SCT can be found at
 ## FWTS
 
 The UEFI Board of Directors recommends the open source Firmware Test
-Suite (FWTS) for [ACPI](PI.md)
+Suite (FWTS) for [ACPI](../../reference/specs-standards/PI.md)
 validation.
 
 [https://wiki.ubuntu.com/FirmwareTestSuite](https://wiki.ubuntu.com/FirmwareTestSuite)

@@ -24,7 +24,7 @@ Please report any firmware issues in [GitHub Issues](https://github.com/tianocor
 * Product: EDK2 Platforms
 * Component: Minnowboard 3
 
-See [Reporting Issues](Reporting-Issues.md) for more information.
+See [Reporting Issues](../../community/support-onboarding/Reporting-Issues.md) for more information.
 
 ## Supported Platforms
 
@@ -53,4 +53,4 @@ MinnowBoard 3 Module is based on the Intel Atom® processor E3900 Series platfor
 
 ## Note: Previous Codebase for MinnowBoard 3
 
-Intel Atom® Processor E3900 Series Processor Platforms were originally supported by the [MinnowBoard 3](MinnowBoard-3.md) codebase. At release 0.70, this codebase was updated to use [UDK2018](UDK2018.md) and moved to a new branch with broader platform support.
+Intel Atom® Processor E3900 Series Processor Platforms were originally supported by the [MinnowBoard 3](MinnowBoard-3.md) codebase. At release 0.70, this codebase was updated to use [UDK2018](../../releases-history/archives/UDK2018.md) and moved to a new branch with broader platform support.

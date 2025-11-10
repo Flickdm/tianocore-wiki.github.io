@@ -27,14 +27,14 @@ questions
 
 [PCD](PCD) questions
 
-[Shell](Shell.md) questions
+[Shell](../../platforms-packages/component-guides/Shell.md) questions
 
 [Virtualization FAQ](Virtualization_FAQ) questions
 
 [UEFI application](UEFI_application) questions
 
 [UEFI
-Drivers](UEFI.md) questions
+Drivers](../specs-standards/UEFI.md) questions
 
 [USB stack](USB_stack)
 questions

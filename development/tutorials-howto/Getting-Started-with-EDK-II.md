@@ -5,7 +5,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: [Build Instructions](Build-Instructions.md)
+New instructions: [Build Instructions](../../build-tooling/build-workflows/Build-Instructions.md)
 
 # Downloading and Compiling Code
 
@@ -19,11 +19,11 @@ Several build environments are supported and documented. If instructions
 are not available for your exact system configuration, you may still be
 able to tweak the instructions to work on your system.
 
-- Linux: [Using EDK II with Native GCC](Using-EDK-II-with-Native-GCC.md)
+- Linux: [Using EDK II with Native GCC](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
   (recommended for current versions of Linux)
-- Microsoft Windows: [Windows systems](Windows-systems.md) (Win7/8/8.1/10)
+- Microsoft Windows: [Windows systems](../../build-tooling/environment-setup/Windows-systems.md) (Win7/8/8.1/10)
 - Mac OS X: [Xcode](Xcode)
--- UNIX: [Unix-like systems](Unix-like-systems.md) (For non-Linux UNIX,
+-- UNIX: [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For non-Linux UNIX,
   older Linux distros, or when using Cygwin)
 
 **Note:** Some other build tools may be required depending on the

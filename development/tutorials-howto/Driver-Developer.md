@@ -73,13 +73,13 @@ to download for Linux/Unix/Mac.
 
 <td>
 
-[UEFI Driver Writer's Guide](UEFI.md)
+[UEFI Driver Writer's Guide](../../reference/specs-standards/UEFI.md)
 
 </td>
 
 <td>
 
-The [UEFI Driver Writer's Guide](UEFI.md)
+The [UEFI Driver Writer's Guide](../../reference/specs-standards/UEFI.md)
 (DWG) is available in multiple formats.
 
 </td>

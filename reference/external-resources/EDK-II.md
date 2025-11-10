@@ -17,7 +17,7 @@ see [Stable tag](https://github.com/tianocore/edk2/tags)
 
 ## Future Release and Tag Planning
 
-See [EDK-II-Release-Planning](EDK-II-Release-Planning.md)
+See [EDK-II-Release-Planning](../../releases-history/planning-roadmaps/EDK-II-Release-Planning.md)
 
 ## Documentation
 
@@ -25,11 +25,11 @@ See [EDK II Documents](EDK-II-Documents.md)
 
 ## Community
 
-[Mailing Lists](Mailing-Lists.md)
+[Mailing Lists](../../community/communications/Mailing-Lists.md)
 
-TianoCore uses github issues for [Reporting Issues](Reporting-Issues.md) and [Reporting Security Issues](Reporting-Security-Issues.md).
+TianoCore uses github issues for [Reporting Issues](../../community/support-onboarding/Reporting-Issues.md) and [Reporting Security Issues](../../security/processes/Reporting-Security-Issues.md).
 
-Current list of [Tasks](Tasks.md) identified by the EDK II community.
+Current list of [Tasks](../../governance/project-management/Tasks.md) identified by the EDK II community.
 
 irc - #edk2 - use <www.oftc.net> as a web client
 
@@ -37,9 +37,9 @@ irc - #edk2 - use <www.oftc.net> as a web client
 
 ### UDK Releases
 
-UEFI Development Kit ([UDK](UDK.md)) releases pre-date the introduction of the stable tag, occur less frequently, and have a longer validation cycle. These are based on validation using various platforms. The year tag indicates the year of major specifications used for the release.
+UEFI Development Kit ([UDK](../../releases-history/archives/UDK.md)) releases pre-date the introduction of the stable tag, occur less frequently, and have a longer validation cycle. These are based on validation using various platforms. The year tag indicates the year of major specifications used for the release.
 
-[UDK2018](UDK2018.md) | [UDK2017](UDK2017.md) | [UDK2015](UDK2015.md) | [UDK2014](UDK2014.md) | [UDK2010](UDK2010.md)
+[UDK2018](../../releases-history/archives/UDK2018.md) | [UDK2017](../../releases-history/archives/UDK2017.md) | [UDK2015](../../releases-history/archives/UDK2015.md) | [UDK2014](../../releases-history/archives/UDK2014.md) | [UDK2010](../../releases-history/archives/UDK2010.md)
 
 ### Additional Repositories
 

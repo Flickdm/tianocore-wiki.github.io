@@ -61,7 +61,7 @@ enhancements and extensions to these services.
    * [Mergify GitHub App](https://github.com/apps/mergify)
    * [Mergify Documentation](https://doc.mergify.io)
 
-[EDK II Continuous Integration Administration](EDK-II-Continuous-Integration-Administration.md)
+[EDK II Continuous Integration Administration](../../governance/project-management/EDK-II-Continuous-Integration-Administration.md)
 
 ## Proposed Pre-Commit Checks in Phase 2
 

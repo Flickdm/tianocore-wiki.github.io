@@ -3,7 +3,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: [Build Instructions](Build-Instructions.md)
+New instructions: [Build Instructions](../build-workflows/Build-Instructions.md)
 
 GitHub ([https://help.github.com/index.html](https://help.github.com/index.html)) provides step-by-step
 instructions for user registration and basic features supported by
@@ -66,7 +66,7 @@ more information.
 
 # How to Setup the EDK II Tree
 
-See [Getting Started with EDK II](Getting-Started-with-EDK-II.md)
+See [Getting Started with EDK II](../../development/tutorials-howto/Getting-Started-with-EDK-II.md)
 
 ## EDK II Development Process
 

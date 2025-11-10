@@ -63,7 +63,7 @@ standard "C" applications. See the AppPkg for "Hello World" example
 - [https://svn.code.sf.net/p/edk2/code/trunk/edk2/](https://svn.code.sf.net/p/edk2/code/trunk/edk2/) -r 14804
 
 Packages Included: (Note: get the latest from the
-[UDK2010](UDK2010.md)
+[UDK2010](../../releases-history/archives/UDK2010.md)
 release)
 **1) [AppPkg](AppPkg.md)**;-
 This package contains applications which demonstrate use of the Standard

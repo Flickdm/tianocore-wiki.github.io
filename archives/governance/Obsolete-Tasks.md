@@ -51,7 +51,7 @@ usable (GPL license). [http://www.coreboot.org/SeaBIOS](http://www.coreboot.org/
 :red_circle:**
 
 Add features to
-[Galileo](Galileo.md)
+[Galileo](../../platforms-packages/platform-ports/Galileo.md)
 based on open source platform in EDK II.
 [https://github.com/tianocore/edk2/tree/master/QuarkPlatformPkg](https://github.com/tianocore/edk2/tree/master/QuarkPlatformPkg)
 

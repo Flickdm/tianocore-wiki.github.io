@@ -6,8 +6,8 @@ _Note: this package replaces CorebootModulePkg and CorebootPayloadPkg, which wer
 
 ## Overview
 
-The Unified Extensible Firmware Interface ([UEFI](UEFI.md)) specification defines interfaces for firmware modules interoperability and provides an interface for the operating systems to consume firmware services.
-[EDK II](EDK-II.md) is a modern, feature-rich, cross-platform firmware development environment that implements UEFI.
+The Unified Extensible Firmware Interface ([UEFI](../../reference/specs-standards/UEFI.md)) specification defines interfaces for firmware modules interoperability and provides an interface for the operating systems to consume firmware services.
+[EDK II](../../reference/external-resources/EDK-II.md) is a modern, feature-rich, cross-platform firmware development environment that implements UEFI.
 
 [UEFI Payload](https://github.com/tianocore/edk2/tree/master/UefiPayloadPkg) is an EDK II based project to enable UEFI support for bootloaders like [Slim Bootloader](https://github.com/slimbootloader/slimbootloader) and [coreboot](https://coreboot.org/). Bootloaders follow a modular approach for platform initialization (initialization stages) and OS boot logic (payload). The separation of platform initialization and boot logic allows the choice of different payloads.
 UEFI Payload relies on the underlying boot firmware to initialize the platform and consumes the platform initialization information to be platform agnostic as much as possible.

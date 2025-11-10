@@ -7,9 +7,9 @@ Note: new platforms are being developed in the [edk2-platforms](https://github.c
 ### Virtual/Simulated Platforms
 
 * [OVMF](OVMF.md) - UEFI firmware support for the [QEMU](https://www.qemu.org/) open source machine emulator and virtualizer.
-* [Nt32Pkg](Nt32Pkg.md) - enabling UEFI application development in a Microsoft* Windows environment.
+* [Nt32Pkg](../../archives/platforms-packages/Nt32Pkg.md) - enabling UEFI application development in a Microsoft* Windows environment.
 * [EmulatorPkg](EmulatorPkg.md) - enable UEFI emulation within an OS environment.
-* [ArmVirtPkg](ArmVirtPkg.md) - UEFI emulation for ARM processors.
+* [ArmVirtPkg](../core-packages/ArmVirtPkg.md) - UEFI emulation for ARM processors.
 
 ### Intel® Processor Platforms
 

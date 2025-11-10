@@ -67,4 +67,4 @@ project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
 - [Tasks](Tasks)
 - [GSOC2011#Read-only ext2
-  driver](GSOC2011.md)
+  driver](../../community/events-outreach/GSOC2011.md)

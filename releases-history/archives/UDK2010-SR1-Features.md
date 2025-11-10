@@ -6,13 +6,13 @@ SR1 Feature Details </span>
 **Features Summary:**
 
 - This release will support Microsoft® Windows® 8 Secure Boot feature.
-  See [How to Enable Security](How-to-Enable-Security.md) for
+  See [How to Enable Security](../../development/tutorials-howto/How-to-Enable-Security.md) for
   details
 - Features added to support the UEFI 2.3.1 specification from the
   official [UEFI Forum Web](http://uefi.org) site
 
 - EDK II Build tools and Updates to the
-  [EDK II v1.22 specifications](EDK-II-Specifications.md)
+  [EDK II v1.22 specifications](../../reference/specs-standards/EDK-II-Specifications.md)
 
 <div class="t_projects">
 

@@ -3,7 +3,7 @@
 `Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
 `build edk2 for the first time. This page is retained for reference.`
 
-New instructions: [Build Instructions](Build-Instructions.md)
+New instructions: [Build Instructions](../build-workflows/Build-Instructions.md)
 
 This page provides *step-by-step instructions* for setting up a [EDK
 II](http://www.tianocore.org/edk2/) build environment on Linux using a
@@ -110,7 +110,7 @@ tools use 'python'
 
 ### Continue with common instructions
 
-The [remaining instructions](Common-instructions.md) are common for
+The [remaining instructions](../build-workflows/Common-instructions.md) are common for
 most UNIX-like systems.
 
 ### Ubuntu 16.04 LTS / Ubuntu 16.10
@@ -148,7 +148,7 @@ python3-distutils - distutils module from the Python standard library
 
 ### Continue with common instructions
 
-The [remaining instructions](Common-instructions.md) are common for
+The [remaining instructions](../build-workflows/Common-instructions.md) are common for
 most UNIX-like systems.
 
 ## Instructions for older Linux Environments

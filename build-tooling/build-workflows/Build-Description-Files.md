@@ -2,7 +2,7 @@
 
 Understanding the basic setup of .DCS, .DEC, and .INF build description files.
 
-Please check for the latest version of the [EDK II Specifications](EDK-II-Specifications.md)
+Please check for the latest version of the [EDK II Specifications](../../reference/specs-standards/EDK-II-Specifications.md)
 
 ***
 
@@ -19,7 +19,7 @@ __**Table of Contents**__
 
 ## The .INF file
 
-For the Spec and Description see: [INF](EDK-II-Specifications#inf) on the [EDK II Specifications](EDK-II-Specifications.md) page<BR>
+For the Spec and Description see: [INF](EDK-II-Specifications#inf) on the [EDK II Specifications](../../reference/specs-standards/EDK-II-Specifications.md) page<BR>
 This file describes how to build a module (i.e. a driver, library, application, etc…).
 
 ### Comments
@@ -140,7 +140,7 @@ Add compiler specific options needed to build the module.
 
 ## The .DEC file
 
-For the Spec and Description see: [DEC](EDK-II-Specifications#dec) on the [EDK II Specifications](EDK-II-Specifications.md) page<BR>
+For the Spec and Description see: [DEC](EDK-II-Specifications#dec) on the [EDK II Specifications](../../reference/specs-standards/EDK-II-Specifications.md) page<BR>
 This file is used to declare what is available in the package and tells the build system where to find things such as “Include” directories.  It can also be used to replace the use of #define values or constant variables in .h files though a mechanism called the Platform Configuration Database(PCD).  This file is used when a module includes this package in its [Packages] section.
 
 ### Comments
@@ -241,7 +241,7 @@ Example:
 
 ## The .DSC file
 
-For the Spec and Description see: [DSC](EDK-II-Specifications#dsc) on the [EDK II Specifications](EDK-II-Specifications.md) page<BR>
+For the Spec and Description see: [DSC](EDK-II-Specifications#dsc) on the [EDK II Specifications](../../reference/specs-standards/EDK-II-Specifications.md) page<BR>
 This file describes how to build a package; a package being a set of components to be provided together. Note the Build will need at least one .DSC file to be successful.
 
 ### [Defines]

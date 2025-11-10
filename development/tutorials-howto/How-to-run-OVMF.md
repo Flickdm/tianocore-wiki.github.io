@@ -1,6 +1,6 @@
 # How To Run Ovmf
 
-How to run [OVMF](OVMF.md) with QEMU or KVM.
+How to run [OVMF](../../platforms-packages/platform-ports/OVMF.md) with QEMU or KVM.
 
 Pre-requisites
 --------------
@@ -11,7 +11,7 @@ To install on Debian/Ubuntu: <code>sudo apt-get install qemu</code>
 
 ### Get a build of OVMF.fd
 
-You can [build OVMF](How-to-build-OVMF "wikilink") based on the latest version of [EDK II](EDK-II.md).
+You can [build OVMF](How-to-build-OVMF "wikilink") based on the latest version of [EDK II](../../reference/external-resources/EDK-II.md).
 
 Pre-built images are available at [https://www.kraxel.org/repos/](https://www.kraxel.org/repos/)
 

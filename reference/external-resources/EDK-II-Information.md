@@ -1,3 +1,3 @@
 # EDK II Information
 
-[Additional-Projects](Additional-Projects.md)
+[Additional-Projects](../../Projects/Additional-Projects.md)

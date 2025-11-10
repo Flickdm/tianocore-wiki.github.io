@@ -11,7 +11,7 @@ Optimize cursor motion sequences; support Linux/UNIX standard (xterm/konsole/gno
 # Status
 
 * Completed :heavy_check_mark:.
-* Work done by Caden Kline ([@Pokemod97](https://github.com/Pokemod97)) as a [GSoC2021](GSoC2021.md) Student.
+* Work done by Caden Kline ([@Pokemod97](https://github.com/Pokemod97)) as a [GSoC2021](../../community/events-outreach/GSoC2021.md) Student.
 * Available at: [https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3](https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3)
 
 # Background

@@ -103,7 +103,7 @@ Based on svn version:
 
 **How to Build**
 
-[How to Build](archives/build-tooling/build-workflows/UDK2010.SR1.UP1%20How-to-Build.md) UDK2010.SR1.UP1.P1 Release
+[How to Build](../build-tooling/build-workflows/UDK2010.SR1.UP1 How-to-Build.md) UDK2010.SR1.UP1.P1 Release
 
 **Features Summary:** See [Release Notes
 Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download)
@@ -111,11 +111,11 @@ Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.
 **Supported OS and Build Environments**
 
 - [ Using newer versions of
-  Linux](Using-EDK-II-with-Native-GCC.md)
-- [Windows systems](Windows-systems.md)
+  Linux](../../build-tooling/environment-setup/Using-EDK-II-with-Native-GCC.md)
+- [Windows systems](../../build-tooling/environment-setup/Windows-systems.md)
 - [ Xcode Mac OS
   X ](Xcode)
-- [Unix-like systems](Unix-like-systems.md) (For older Linux
+- [Unix-like systems](../../build-tooling/environment-setup/Unix-like-systems.md) (For older Linux
   distributions, or using Cygwin or Mac OS X)
 
 </td>
@@ -517,7 +517,7 @@ Previous UDK2010 Releases
 
 <td>
 
-See [ Previous UDK2010 Menu](Previous-UDK2010-Releases.md)
+See [ Previous UDK2010 Menu](../../releases-history/archives/Previous-UDK2010-Releases.md)
 
 ------------------------------------------------------------------------
 
@@ -648,7 +648,7 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 <td>
 
 EDK II Application Development Kit
-[ (EADK)](EDKII-EADK.md) Alpha
+[ (EADK)](../../platforms-packages/core-packages/EDKII-EADK.md) Alpha
 2 Release Package incorporates using the Standard C Library components.
 Include these into standard "C" applications. See the AppPkg for "Hello
 World" example
@@ -662,11 +662,11 @@ World" example
 
 Packages Included in zip
 
-[AppPkg](AppPkg.md)
+[AppPkg](../../platforms-packages/core-packages/AppPkg.md)
 
-[StdLib](StdLib.md)
+[StdLib](../../platforms-packages/core-packages/StdLib.md)
 
-[StdLibPrivateInternalFiles](StdLib.md)
+[StdLibPrivateInternalFiles](../../platforms-packages/core-packages/StdLib.md)
 
 </td>
 
@@ -679,7 +679,7 @@ Packages Included in zip
 [UEFI Shell 2.0 Pkg
 .zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
 
-[ Shell 2.0 Documentation](ShellPkg.md#uefi-shell-2x-engineering-resources)
+[ Shell 2.0 Documentation](../../platforms-packages/core-packages/ShellPkg.md)
 
 </td>
 
@@ -694,13 +694,13 @@ This release is the implmentation sources for the UEFI Shell
 Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
 specification
 
-See [How to include UEFI Shell 2.0 into .DSC file](Shell%20FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
+See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/Shell FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
 
 </td>
 
 <td>
 
-[ShellPkg](ShellPkg.md) .zip
+[ShellPkg](../../platforms-packages/core-packages/ShellPkg.md) .zip
 Package
 
 </td>
@@ -714,11 +714,11 @@ Package
 # UDK2010 More Info
 
 EDK II More info: [Getting Started for
-Developers](Getting-Started-with-EDK-II.md),
+Developers](../../development/tutorials-howto/Getting-Started-with-EDK-II.md),
 [EDK
-II Overview](EDK-II-Overview.md),
+II Overview](../../reference/external-resources/EDK-II-Overview.md),
 [EDKII
-Packages](EDKII-Packages.md)
+Packages](../../platforms-packages/core-packages/EDKII-Packages.md)
 
 UEFI Developers Kit 2010 (UDK2010). The UDK2010 is the EDKII support for
 all currently published [UEFI specifications](http://www.uefi.org)

@@ -107,7 +107,7 @@ beyond UDK2010.SR1 release version
 
 <td>
 
-The [UEFI Driver Writer's Guide](UEFI.md) is
+The [UEFI Driver Writer's Guide](../specs-standards/UEFI.md) is
 designed to aid in the development of UEFI Drivers using the EDK II open
 source project as a development environment. Please refer to the
 [Driver Developer](Driver_Developer) page for more information.

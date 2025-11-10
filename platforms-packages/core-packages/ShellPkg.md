@@ -24,14 +24,14 @@ for more info.
 
 ## UEFI Shell 2.x Engineering Resources
 
-- [Shell Execution Requirements](Shell.md)
-- [Shell Library Primer](Shell.md)
-- [Creating a Shell Application](Shell.md)
+- [Shell Execution Requirements](../component-guides/Shell.md)
+- [Shell Library Primer](../component-guides/Shell.md)
+- [Creating a Shell Application](../component-guides/Shell.md)
 - [Porting an EDK Shell
   Extension](Porting_an_EDK_Shell_Extension)
 - [Move a Shell
-  Application to internal command](Shell.md)
-- [Shell FAQ](Shell.md)
+  Application to internal command](../component-guides/Shell.md)
+- [Shell FAQ](../component-guides/Shell.md)
 
 ## UEFI Shell Specifications (uefi.org)
 

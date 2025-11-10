@@ -9,5 +9,5 @@ II Documents</a>
 
 ## EDK Documents
 
-- [EDK User Documentation](EDK.md)
+- [EDK User Documentation](../../archives/reference/EDK.md)
 - [EDK Member Documents](EDK_Member_Documents)
