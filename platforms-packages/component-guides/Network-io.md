@@ -8,15 +8,13 @@ Please see [NetworkPkg Getting Started
 Guide](NetworkPkg_Getting_Started_Guide) for EDK II updates
 
 <table>
-<tbody>
 <tr>
-<td><p><img src="https://github.com/tianocore/tianocore.github.io/blob/master/images/Networklayer.jpg" ><br />
-</p></td>
+<td>![](https://github.com/tianocore/tianocore.github.io/blob/master/images/Networklayer.jpg)  
+</td>
 </tr>
 <tr>
-<td><p><strong>Figure 1. UEFI Network layering</strong></p></td>
+<td>**Figure 1. UEFI Network layering**</td>
 </tr>
-</tbody>
 </table>
 
 This is a sub-project of the EDK project. Beginning with the developer

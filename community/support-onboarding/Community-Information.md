@@ -1,15 +1,12 @@
-<ul>
-
 # Community Information
 
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/About-The-Community" title="About the Community"> About the Community </a></li>
+[ About the Community ](https://github.com/tianocore/tianocore.github.io/wiki/About-The-Community)
 
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/UEFI" title="UEFI"> UEFI </a></li>
+[ UEFI ](https://github.com/tianocore/tianocore.github.io/wiki/UEFI)
 
-<li><a href="http://www.tianocore.org/news/" title="Community News"> Community News </a></li>
+[ Community News ](http://www.tianocore.org/news/)
 
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Contact-Us" title="Contact Us"> Contact Us </a></li>
+[ Contact Us ](https://github.com/tianocore/tianocore.github.io/wiki/Contact-Us)
 
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Legalese" title="Legalese"> Legalese </a></li>
+[ Legalese ](https://github.com/tianocore/tianocore.github.io/wiki/Legalese)
 
-</ul>

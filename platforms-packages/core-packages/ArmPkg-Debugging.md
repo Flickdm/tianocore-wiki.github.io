@@ -60,7 +60,7 @@ debugger.
 
 ### Debugging initial bring-up code (SEC phase)
 
-<u>Scope:</u> The UEFI Debug Support has not been initialized yet. And
+Scope: The UEFI Debug Support has not been initialized yet. And
 the platform crashes before the UART or any output are available to the
 firmware engineer.
 
@@ -80,7 +80,9 @@ file. Example:
     $ fromelf -s Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll | grep _ModuleEntryPoint
       1217  _ModuleEntryPoint          0x00000004   Gb    1  Code  De
     Or:
-    <pre>$ arm-linux-gnueabi-objdump -t Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll | grep _ModuleEntryPoint
+    
+
+$ arm-linux-gnueabi-objdump -t Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll | grep _ModuleEntryPoint
     00000004 g     F ER_RO  000000c8 .hidden _ModuleEntryPoint
 
 3\. Get the address of \_ModuleEntryPoint in the UEFI Firmware file. The
@@ -91,13 +93,13 @@ entry point.
 
 Note: 'BL' is a branch relative to the Program Counter (PC) register. In
 the case of the example, the absolute address of \_ModuleEntryPoint will
-be: <i>0x0 (base address) + 0x184 (offset from the base address) =
-0x184</i>
+be: *0x0 (base address) + 0x184 (offset from the base address) =
+0x184*
 
 4\. Calculate the translated ELF base address for this first module:
-<i>Absolute Address of \_ModuleEntryPoint on the Target - Absolute
+*Absolute Address of \_ModuleEntryPoint on the Target - Absolute
 Address of \_ModuleEntryPoint in the ELF file = 0x184 - 0x004 =
-0x180</i>
+0x180*
 
 5\. Load the symbols for this module:
 

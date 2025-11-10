@@ -38,17 +38,17 @@ Any assembly code should be ported to all assembly formats.
 Some possible sub-goals for the driver
 
 - Successfully start up other processor (Startup IPI)
-- <s>Transition from 16-bit real to 32-bit flat mode</s> (see
+- ~~Transition from 16-bit real to 32-bit flat mode~~ (see
   ap-startup-example below)
-- <s>Transition from 16-bit real to 64-bit long mode</s> (see
+- ~~Transition from 16-bit real to 64-bit long mode~~ (see
   ap-startup-example below)
-- <s>AP starts running CpuDxe code</s> (see ap-startup-example below)
+- ~~AP starts running CpuDxe code~~ (see ap-startup-example below)
 - AP can run code requested by MpService protocol
   (StartupAllAPs/StartupThisAP)
   - See StartCore below
 - Support for remaining MpService protocol functions
-- <s>Dynamically update ACPI tables in OVMF based on number of
-  processors</s>
+- ~~Dynamically update ACPI tables in OVMF based on number of
+  processors~~
 - Refer to "Software Developer's Manual" to research further
   initialization requirements.
 

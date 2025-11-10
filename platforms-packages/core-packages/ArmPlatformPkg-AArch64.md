@@ -10,7 +10,7 @@ While the AArch64 Foundation FVP is free to download, the Base FVP
 requires an ARM license. The Base FVP has additional debugging and
 configuration features.
 
-<b>Requirement:</b>
+**Requirement:**
 
 - A 32-bit or 64-bit Linux host machine. Support for MS Windows-based
   toolchains has not been added to the EDK2 BaseTools.
@@ -43,7 +43,7 @@ EDK2 source tree
     . edksetup.sh
     make -C BaseTools
 
-<b>Note:</b> You might need to unset some environment variables if you
+**Note:** You might need to unset some environment variables if you
 are working in the same shell and a different EDK2 repository than your
 usual EDK2 development environment.
 Otherwise some conflicts might exist between both EDK2 development
@@ -63,7 +63,7 @@ environments.
 Once built, the UEFI Firmware is the following file
 Build/ArmVExpress-FVP-AArch64/DEBUG_GCC5/FV/FVP_AARCH64_EFI.fd
 
-<b>Note 1:</b> To build the release build, add '-b RELEASE'. Here's an
+**Note 1:** To build the release build, add '-b RELEASE'. Here's an
 example with the Foundation FVP:
 
     GCC5_AARCH64_PREFIX=aarch64-linux-gnu- build -a AARCH64 -p Platform/ARM/VExpressPkg/ArmVExpress-FVP-AArch64.dsc -t GCC5 -b RELEASE
@@ -146,7 +146,7 @@ manner:
 
     $AARCH64_FOUNDATION_MODEL_ROOT/Foundation_v8 --cores=2 --image=ArmPlatformPkg/ArmVExpressPkg/Scripts/uefi-aarch64-bootstrap/uefi-bootstrap-el3-foundation.axf --nsdata=Build/ArmVExpress-RTSM-AEMv8Ax4-foundation/DEBUG_GCC47/FV/RTSM_VE_FOUNDATIONV8_EFI.fd@0xA0000000 --block-device=<path/to>/vexpress64-openembedded_minimal-armv8_20130623-376.img
 
-<b>Note:</b> Do not use a symbolic link to the file-system image. The
+**Note:** Do not use a symbolic link to the file-system image. The
 model will not be able to read the image file.
 
 ### Run Linux from UEFI on the Base FVP

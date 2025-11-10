@@ -19,16 +19,16 @@ This wiki page only focuses on how to enable memory leak detection with memory p
 There are three PCDs PcdMemoryProfilePropertyMask, PcdMemoryProfileMemoryType and PcdMemoryProfileDriverPath defined in MdeModulePkg.dec([https://github.com/tianocore/edk2/blob/master/MdeModulePkg/MdeModulePkg.dec](https://github.com/tianocore/edk2/blob/master/MdeModulePkg/MdeModulePkg.dec)) to control the behaviors of memory profile feature.
 
 ```
-## The mask is used to control memory profile behavior.<BR><BR>
-#  BIT0 - Enable UEFI memory profile.<BR>
-#  BIT1 - Enable SMRAM profile.<BR>
-#  BIT7 - Disable recording at the start.<BR>
+## The mask is used to control memory profile behavior.    
+#  BIT0 - Enable UEFI memory profile.  
+#  BIT1 - Enable SMRAM profile.  
+#  BIT7 - Disable recording at the start.  
 # @Prompt Memory Profile Property.
 # @Expression  0x80000002 | (gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfilePropertyMask & 0x7C) == 0
 gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfilePropertyMask|0x0|UINT8|0x30001041
 
-## This flag is to control which memory types of alloc info will be recorded by DxeCore & SmmCore.<BR><BR>
-# For SmmCore, only EfiRuntimeServicesCode and EfiRuntimeServicesData are valid.<BR>
+## This flag is to control which memory types of alloc info will be recorded by DxeCore & SmmCore.    
+# For SmmCore, only EfiRuntimeServicesCode and EfiRuntimeServicesData are valid.  
 #
 # Below is bit mask for this PCD: (Order is same as UEFI spec)
 # EfiReservedMemoryType 0x0001
@@ -49,22 +49,22 @@ gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfilePropertyMask|0x0|UINT8|0x30001041
 # OEM Reserved 0x4000000000000000
 # OS Reserved 0x8000000000000000
 #
-# e.g. Reserved+ACPINvs+ACPIReclaim+RuntimeCode+RuntimeData are needed, 0x661 should be used.<BR>
+# e.g. Reserved+ACPINvs+ACPIReclaim+RuntimeCode+RuntimeData are needed, 0x661 should be used.  
 #
 # @Prompt Memory profile memory type.
 gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfileMemoryType|0x0|UINT64|0x30001042
 
-## This PCD is to control which drivers need memory profile data.<BR><BR>
-# For example:<BR>
-# One image only (Shell):<BR>
-#     Header                    GUID<BR>
-#     {0x04, 0x06, 0x14, 0x00,  0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1,<BR>
-#      0x7F, 0xFF, 0x04, 0x00}<BR>
-# Two or more images (Shell + WinNtSimpleFileSystem):<BR>
-#     {0x04, 0x06, 0x14, 0x00,  0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1,<BR>
-#      0x7F, 0x01, 0x04, 0x00,<BR>
-#      0x04, 0x06, 0x14, 0x00,  0x8B, 0xE1, 0x25, 0x9C, 0xBA, 0x76, 0xDA, 0x43, 0xA1, 0x32, 0xDB, 0xB0, 0x99, 0x7C, 0xEF, 0xEF,<BR>
-#      0x7F, 0xFF, 0x04, 0x00}<BR>
+## This PCD is to control which drivers need memory profile data.    
+# For example:  
+# One image only (Shell):  
+#     Header                    GUID  
+#     {0x04, 0x06, 0x14, 0x00,  0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1,  
+#      0x7F, 0xFF, 0x04, 0x00}  
+# Two or more images (Shell + WinNtSimpleFileSystem):  
+#     {0x04, 0x06, 0x14, 0x00,  0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1,  
+#      0x7F, 0x01, 0x04, 0x00,  
+#      0x04, 0x06, 0x14, 0x00,  0x8B, 0xE1, 0x25, 0x9C, 0xBA, 0x76, 0xDA, 0x43, 0xA1, 0x32, 0xDB, 0xB0, 0x99, 0x7C, 0xEF, 0xEF,  
+#      0x7F, 0xFF, 0x04, 0x00}  
 # @Prompt Memory profile driver path.
 gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfileDriverPath|{0x0}|VOID*|0x00001043
 ```

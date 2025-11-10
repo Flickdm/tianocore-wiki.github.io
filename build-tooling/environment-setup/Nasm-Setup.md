@@ -18,6 +18,10 @@ NASM 2.15.05 is the recommended minimum version.
 
 Nasm environment variable is used for the EDK II Build
 If assembly code is used by the modules and the NASM assembler is used, the system environment variable, NASM_PREFIX must be set as shown below and must include the trailing backslash character:
-<pre>
+
+
+
   C:\edk2\> set NASM_PREFIX=C:\nasm\
-</pre>
+
+
+

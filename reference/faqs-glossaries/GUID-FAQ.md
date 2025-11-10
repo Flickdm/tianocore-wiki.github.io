@@ -64,8 +64,8 @@ DEC file that declares the Protocol/PPI/GUID. Packages that are part of
 the UDK 2010 follow a recommended practice for the include file layout,
 so .h files associated with Protocols/PPIs/GUIDs can be easily found:
 
-``<PackageName>`\`
-``<PackageName>`.dec`
+```\`
+```.dec`
 `Include\`
 `Protocol\`
 `<Protocol1.h>`

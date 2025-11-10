@@ -254,8 +254,7 @@ copied from NAND to DRAM. The first 4 bytes of the image contain the
 size of the image, and the next 4 bytes contain the address of where the
 image should be copied. On the Beagle Board the image is copied to
 0x80008208.
-<img src="OMAP_ROM_Boot.key.jpg" title="OMAP3530 ROM BOOT" width="600"
-alt="OMAP3530 ROM BOOT" />
+![](OMAP_ROM_Boot.key.jpg)
 The values used to initialize clocks and DRAM come from the
 [ConfigurationHeader.dat](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BeagleBoardPkg/ConfigurationHeader.dat)
 text file. The build process uses the
@@ -455,8 +454,8 @@ dependency grammar allows a driver to run before or after another driver
 present in the system. The dependency grammar is stack based and
 contains the following opcodes:
 
-- BEFORE <File Name GUID>
-- AFTER <File Name GUID>
+- BEFORE `<File Name GUID>`
+- AFTER `<File Name GUID>`
 - PUSH
 - AND
 - OR

@@ -7,7 +7,7 @@ EDK II BaseTools](edk2-buildtools).
 To build these tools see
 [BuildTool Setup Guide](BuildTool_Setup_Guide).
 
-<div class="t_projects">
+
 
 <table >
 
@@ -506,4 +506,4 @@ informational purposes.
 
 </table>
 
-</div>
+

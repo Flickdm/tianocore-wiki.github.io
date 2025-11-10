@@ -6,7 +6,7 @@
 
 ## MinnowBoard Max/Turbot
 
-<img src="https://minnowboard.org/wp-content/uploads/2017/10/MBTurbot-dual-core-Top-0001-171002-1.png" width="20%" height="20%" >
+![](https://minnowboard.org/wp-content/uploads/2017/10/MBTurbot-dual-core-Top-0001-171002-1.png)
 
 MinnowBoard Max & Turbot are low cost, commercially available, reference platforms for hardware, software and firmware developers who wish to work within an open environment. Design specifications and materials have been provided to the open community, encouraging platform experimentation and derivative designs.
 

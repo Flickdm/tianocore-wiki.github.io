@@ -19,7 +19,7 @@ EDK II BaseTools](edk2-buildtools) and instructions are provided in the
 All of the Python tools located in the BaseTools sub-project are built
 and tested using:
 
-<div class="t_projects">
+
 
 <table  align=left>
 
@@ -151,4 +151,4 @@ antlr_python_runtime-3.1.3-py2.7
 
 </table>
 
-</div>
+

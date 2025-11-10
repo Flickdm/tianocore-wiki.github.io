@@ -2,7 +2,7 @@
 
 ## How To contribute to SCT
 
-<u>Pre-requirements:</u>
+Pre-requirements:
 
 \- Having an account on Github
 
@@ -13,13 +13,11 @@ here: [http://uefi.org/members](http://uefi.org/members)
 [https://github.com/UEFI/UEFI-SCT](https://github.com/UEFI/UEFI-SCT)
 
 1.Fork the Github repository
-<img src="contribute-sct-1.png" title="contribute-sct-1.png" width="800"
-alt="contribute-sct-1.png" />
+![](contribute-sct-1.png)
 
 After forking the repository, it should appear under your own Github
 account:
-<img src="contribute-sct-2.png" title="contribute-sct-2.png" width="800"
-alt="contribute-sct-2.png" />
+![](contribute-sct-2.png)
 
 2\. Clone the repository on your host machine:
 
@@ -37,8 +35,8 @@ repository:
     Your branch is up-to-date with 'github-olivier/master'.
 
     Changes not staged for commit:
-      (use "git add <file>..." to update what will be committed)
-      (use "git checkout -- <file>..." to discard changes in working directory)
+      (use "git add ..." to update what will be committed)
+      (use "git checkout -- ..." to discard changes in working directory)
 
         modified:   Application/InstallSct/InstallSct.c
 
@@ -110,23 +108,18 @@ your GIT repository:
 
 The new branch should now be visible into your fork of UEFI-SCT
 project:
-<img src="contribute-sct-3.png" title="contribute-sct-3.png" width="800"
-alt="contribute-sct-3.png" />
+![](contribute-sct-3.png)
 
 To propose your changes to the UEFI-SCT project to be merged, send a
 pull-request by clicking on 'Compare & pull request'.
-<img src="contribute-sct-4.png" title="contribute-sct-4.png" width="800"
-alt="contribute-sct-4.png" />
+![](contribute-sct-4.png)
 
 After sending the pull request, the request should appear into the
 'UEFI-SCT' project 'pull request' list.
-<img src="contribute-sct-5.png" title="contribute-sct-5.png" width="800"
-alt="contribute-sct-5.png" />
+![](contribute-sct-5.png)
 
 Details of the 'pull-request' can be shown by clicking on the entry:
-<img src="contribute-sct-6.png" title="contribute-sct-6.png" width="800"
-alt="contribute-sct-6.png" />
+![](contribute-sct-6.png)
 
 User can review changes and leave comments:
-<img src="contribute-sct-7.png" title="contribute-sct-7.png" width="800"
-alt="contribute-sct-7.png" />
+![](contribute-sct-7.png)

@@ -20,7 +20,7 @@ The way to get platform information from bootloader is to use the [ParseLib](htt
 
 ParseLib instance [SblParseLib](https://github.com/tianocore/edk2/tree/master/UefiPayloadPkg/Library/SblParseLib) is used to parse information from Slim Bootloader and ParseLib instance [CbParseLib](https://github.com/tianocore/edk2/tree/master/UefiPayloadPkg/Library/CbParseLib) is used to parse information from coreboot.
 
-<img border="0" src="https://github.com/tianocore/tianocore.github.io/blob/master/images/UEFI-Payload.png" width="235" height="296">
+![](https://github.com/tianocore/tianocore.github.io/blob/master/images/UEFI-Payload.png)
 
 ## Build and Integration
 

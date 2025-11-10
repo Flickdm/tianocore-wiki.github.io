@@ -12,11 +12,11 @@ Things to be aware of:
    - The status can always be checked in the pull request
    - This is what a queued run for the workflow looks like
 
-     <img width="396" alt="image" src="https://github.com/user-attachments/assets/a6ab3e65-c222-43e2-9efc-612b2845e168">
+     ![](https://github.com/user-attachments/assets/a6ab3e65-c222-43e2-9efc-612b2845e168)
 
 If the workflow to add reviewers runs successfully it will look like this in the PR Status Checks area. The workflow itself should usually execute in less than a minute.
 
-<img width="601" alt="image" src="https://github.com/user-attachments/assets/547c9aa1-a019-4687-b5ce-f364a0641b43">
+![](https://github.com/user-attachments/assets/547c9aa1-a019-4687-b5ce-f364a0641b43)
 
 If the workflow fails, click "Details" link and follow instructions in the "Debug" section of this page.
 

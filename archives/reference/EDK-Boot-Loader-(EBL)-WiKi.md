@@ -8,17 +8,17 @@ small command line shell.
 The EBL supports the following device types for use with any of its
 commands: Filesystem, Firmware Volume, Block IO, Load File, Memory
 Buffer, and TFTP. A device name has the following form:
-<device><device number>:<device specific info>
+`<device number>:<device specific info>`
 
-<device> is the prefix for the command. The command is matched via a
+`` is the prefix for the command. The command is matched via a
 case insensitive check for the smallest number of leading characters to
 make sure the device name is unique. Example: fs for a file system.
-<device number> is a decimal number the differentiates between multiple
+`<device number>` is a decimal number the differentiates between multiple
 devices of the same type. The number is usually associated with the
 order in which the devices are discovered from the protocol database.
 The device number is not needed for the Memory Buffer form and can be
 omitted.
-<device specific info> varies by device type .
+`<device specific info>` varies by device type .
 EBL Device Types
 
 <table border="1">

@@ -105,7 +105,7 @@ add the following:
 3\) At the end in the \[Components.IA32\] Section add the following:
 
 `ShellPkg/Application/Shell/Shell.inf {`
-``<LibraryClasses>
+``
 `NULL|ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.inf`
 `NULL|ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib.inf`
 `NULL|ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib.inf`
@@ -122,7 +122,7 @@ add the following:
 `NULL|ShellPkg/Library/UefiShellDebug1CommandsLib/UefiShellDebug1CommandsLib.inf`
 `NULL|ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib.inf`
 `!endif`
-``<PcdsFeatureFlag>
+``
 `gEfiShellPkgTokenSpaceGuid.PcdShellLibAutoInitialize|FALSE`
 `}`
 

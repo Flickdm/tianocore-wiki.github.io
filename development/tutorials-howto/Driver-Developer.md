@@ -9,7 +9,7 @@ application programmers. This page contains resources for UEFI driver
 developers including the UEFI Driver Wizard and the UEFI Driver Writers
 Guide (DWG).
 
-<div class="t_projects">
+
 
 <table>
 

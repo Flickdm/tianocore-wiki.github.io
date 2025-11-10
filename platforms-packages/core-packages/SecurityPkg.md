@@ -78,13 +78,13 @@ href="[mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question]
 
 <td>
 
-<b><font face="Calibri">Tool</font></b>
+**Tool**
 
 </td>
 
 <td>
 
-<b><font face="Calibri">Link</font></b>
+**Link**
 
 </td>
 
@@ -94,19 +94,17 @@ href="[mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question]
 
 <td width="141">
 
-<span style="font-size:11.0pt;
-  font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"> sbsigntool
-</span>
+ sbsigntool
+
 
 </td>
 
 <td>
 
-<span style="font-size:11.0pt;
-  font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">
+
 <git://kernel.ubuntu.com/jk/sbsigntool>
 
-``</span>
+``
 
 </td>
 
@@ -116,19 +114,17 @@ href="[mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question]
 
 <td width="141">
 
-<span style="font-size:11.0pt;
-  font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">
 
-pesign </span>
+
+pesign 
 
 </td>
 
 <td>
 
-``<span style="font-size:11.0pt;
-  font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">
+``
 
-[https://github.com/vathpela/pesign](https://github.com/vathpela/pesign) </span>
+[https://github.com/vathpela/pesign](https://github.com/vathpela/pesign) 
 
 </td>
 

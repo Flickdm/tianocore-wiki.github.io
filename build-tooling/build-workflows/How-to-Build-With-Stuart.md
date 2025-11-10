@@ -11,38 +11,35 @@ Steps are split into two categories: [(1) one-time](#one-time-steps) and [(2) re
 
 If you've already completed these steps you don't need to run them again.
 
-<details>
-  <summary>Pre-requisites (Git, Python, Compiler)</summary>
-  <hr>
+**Pre-requisites (Git, Python, Compiler)**
+  ---
 
-  <ul>
-  <li>
-  <strong>Git - Source Control Management (SCM) Tool</strong>
+  **Git - Source Control Management (SCM) Tool**
 
   Git is the source control management tool used by this project.
 
-  You need <code>git</code> to pull the edk2 source code onto your system, make changes in the code, and submit
+  You need `git` to pull the edk2 source code onto your system, make changes in the code, and submit
   your changes back to the GitHub repository.
 
-  <a href="https://git-scm.com/downloads" target="_blank">Git Download Page</a>
-  </li>
-  <li>
-  <strong>Python</strong>
+  [Git Download Page](https://git-scm.com/downloads)
+  
+  
+  **Python**
 
   Python is a programming language that many of the edk2 build tools are written in.
 
-  You will need Python to run the edk2 build tools including <code>stuart</code>, which is written in Python.
+  You will need Python to run the edk2 build tools including `stuart`, which is written in Python.
 
   It is recommended you install a Python version that is equal to the version used in the
-  <code>UsePythonVersion@0</code> step in this file
-  <a href="https://github.com/tianocore/edk2/blob/master/.azurepipelines/templates/pr-gate-steps.yml" target="_blank">.azurepipelines/templates/pr-gate-steps.yml</a>.
+  `UsePythonVersion@0` step in this file
+  [.azurepipelines/templates/pr-gate-steps.yml](https://github.com/tianocore/edk2/blob/master/.azurepipelines/templates/pr-gate-steps.yml).
 
   That version is constantly tested against the code in the repository.
 
-  <a href="https://www.python.org/downloads/" target="_blank">Python Download Page</a>
-  </li>
-  <li>
-  <strong>C Compiler</strong>
+  [Python Download Page](https://www.python.org/downloads/)
+  
+  
+  **C Compiler**
 
   A C compiler is needed to compile the firmware code.
 
@@ -52,148 +49,122 @@ If you've already completed these steps you don't need to run them again.
   you are building.
 
   However, it is common to use:
-  <ul>
-    <li><a href="https://gcc.gnu.org/" target="_blank">GCC</a> on Linux</li>
-    <details>
-      <summary>Ubuntu GCC Installation Instructions</summary>
-      <code>apt-get update && apt-get install -y build-essential git nasm wget m4 bison flex uuid-dev python unzip acpica-tools gcc-multilib</code>
-    </details>
-    <li><a href="https://visualstudio.microsoft.com/downloads/" target="_blank">Visual Studio</a> on Windows</li>
-    <details>
-      <summary>Visual Studio Installation Instructions (Windows)</summary>
-      <br>
-      <details>
-        <summary>Visual Studio 2022 Installation Instructions</summary>
-        <hr>
-        <p>
-          Click to download <a href="https://aka.ms/vs/17/release/vs_BuildTools.exe" target="_blank">Visual Studio 2022 Build Tools</a>
-        </p>
+  [GCC](https://gcc.gnu.org/) on Linux
+    **Ubuntu GCC Installation Instructions**
+      `apt-get update && apt-get install -y build-essential git nasm wget m4 bison flex uuid-dev python unzip acpica-tools gcc-multilib`
+    [Visual Studio](https://visualstudio.microsoft.com/downloads/) on Windows
+    **Visual Studio Installation Instructions (Windows)**
+        
+      **Visual Studio 2022 Installation Instructions**
+        ---
+        
+          Click to download [Visual Studio 2022 Build Tools](https://aka.ms/vs/17/release/vs_BuildTools.exe)
+        
         <ol>
-          <li>
-            Open an <strong>Administrator Command Prompt</strong> by right-clicking on <strong>Command Prompt</strong>
-            and select <strong>Run as Administrator</strong>
-          </li>
-          <li>
-            Change to the directory where you downloaded the <code>vs_BuildTools.exe</code> file
-            (e.g. <code>C:\Downloads</code>)
-          </li>
-          <li>
+          
+            Open an **Administrator Command Prompt** by right-clicking on **Command Prompt**
+            and select **Run as Administrator**
+          
+          
+            Change to the directory where you downloaded the `vs_BuildTools.exe` file
+            (e.g. `C:\Downloads`)
+          
+          
             Enter the following command:
-            <br>
-            <kbd>
+              
+            `
               start /w vs_BuildTools.exe --quiet --wait --norestart --nocache --installPath C:\BuildTools ^
               --add Microsoft.VisualStudio.Component.VC.CoreBuildTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 ^
               --add Microsoft.VisualStudio.Component.Windows11SDK.22000 --add Microsoft.VisualStudio.Component.VC.Tools.ARM ^
               --add Microsoft.VisualStudio.Component.VC.Tools.ARM64
-            </kbd>
-          </li>
+            `
+          
         </ol>
-        <hr>
-    </details>
-    <details>
-      <summary>Visual Studio 2019 Installation Instructions</summary>
-      <hr>
-      <p>
-        Click to download <a href="https://aka.ms/vs/16/release/vs_BuildTools.exe" target="_blank">Visual Studio 2019 Build Tools</a>
-      </p>
+        ---
+    **Visual Studio 2019 Installation Instructions**
+      ---
+      
+        Click to download [Visual Studio 2019 Build Tools](https://aka.ms/vs/16/release/vs_BuildTools.exe)
+      
       <ol>
-        <li>
-          Open an <strong>Administrator Command Prompt</strong> by right-clicking on <strong>Command Prompt</strong>
-          and select <strong>Run as Administrator</strong>
-        </li>
-        <li>
-          Change to the directory where you downloaded the <code>vs_BuildTools.exe</code> file
-          (e.g. <code>C:\Downloads</code>)
-        </li>
-        <li>
+        
+          Open an **Administrator Command Prompt** by right-clicking on **Command Prompt**
+          and select **Run as Administrator**
+        
+        
+          Change to the directory where you downloaded the `vs_BuildTools.exe` file
+          (e.g. `C:\Downloads`)
+        
+        
           Enter the following command:
-          <br>
-          <kbd>
+            
+          `
             start /w vs_BuildTools.exe --quiet --wait --norestart --nocache --installPath C:\BuildTools ^
             --add Microsoft.VisualStudio.Component.VC.CoreBuildTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 ^
             --add Microsoft.VisualStudio.Component.Windows10SDK.19041 --add Microsoft.VisualStudio.Component.VC.Tools.ARM ^
             --add Microsoft.VisualStudio.Component.VC.Tools.ARM64
-          </kbd>
-        </li>
+          `
+        
       </ol>
-      <hr>
-    </details>
-    <details>
-      <summary>Visual Studio 2017 Installation Instructions</summary>
-      <hr>
-      <p>
-        Click to download <a href="https://aka.ms/vs/15/release/vs_BuildTools.exe" target="_blank">Visual Studio 2017 Build Tools</a>
-      </p>
+      ---
+    **Visual Studio 2017 Installation Instructions**
+      ---
+      
+        Click to download [Visual Studio 2017 Build Tools](https://aka.ms/vs/15/release/vs_BuildTools.exe)
+      
       <ol>
-        <li>
-        Open an <strong>Administrator Command Prompt</strong> by right-clicking on <strong>Command Prompt</strong> and
-        select <strong>Run as Administrator</strong>
-        </li>
-        <li>
-        Change to the directory where you downloaded the <code>vs_BuildTools.exe</code> file
-        (e.g. <code>C:\Downloads</code>)
-        </li>
-        <li>
+        
+        Open an **Administrator Command Prompt** by right-clicking on **Command Prompt** and
+        select **Run as Administrator**
+        
+        
+        Change to the directory where you downloaded the `vs_BuildTools.exe` file
+        (e.g. `C:\Downloads`)
+        
+        
           Enter the following command:
-          <br>
-          <kbd>
+            
+          `
             start /w vs_BuildTools.exe --quiet --wait --norestart --nocache --installPath C:\BuildTools ^
             --add Microsoft.VisualStudio.Component.VC.CoreBuildTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 ^
             --add Microsoft.VisualStudio.Component.Windows10SDK.17763 --add Microsoft.VisualStudio.Component.VC.Tools.ARM ^
             --add Microsoft.VisualStudio.Component.VC.Tools.ARM64
-          </kbd>
-        </li>
+          `
+        
       </ol>
-      <hr>
-    </details>
-    <p>
-      <ul>
-        <li>
-          Note: You can find the latest version of Visual Studio supported by edk2 on the
-          <a href="https://github.com/tianocore/edk2#core-ci-build-status" target="_blank">CI Status</a> section of the
+      ---
+    Note: You can find the latest version of Visual Studio supported by edk2 on the
+          [CI Status](https://github.com/tianocore/edk2#core-ci-build-status) section of the
           repo readme file.
-        </li>
-        <li>
+        
+        
           Note: If you still run into build problems finding tools in the SDK, try installing the Windows SDK manually
           using the following instructions.
-        </li>
-      </ul>
-    </p>
-    <details>
-      <summary>Optional: Install the Windows SDK manually</summary>
-      <hr>
-      <p>
+        
+      **Optional: Install the Windows SDK manually**
+      ---
+      
         Download the Windows Software Development Kit (SDK) from
-        <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/" target="_blank">Windows Dev Center - Windows SDK</a>
-      </p>
-      <p>
-        Follow the default options until you reach the "<strong>Select the features you want to install</strong>" page.
-      </p>
+        [Windows Dev Center - Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/)
+      
+      
+        Follow the default options until you reach the "**Select the features you want to install**" page.
+      
       Select the following options:
-      <ul>
-        <li>Windows SDK Signing Tools for Desktop Apps</li>
-        <li>Windows SDK for UWP Managed Apps</li>
-        <li>Windows SDK for UWP C++ Apps</li>
-        <li>Windows SDK for Desktop C++ x86 Apps</li>
-        <li>Windows SDK for Desktop C++ amd64 Apps</li>
-        <li>Windows SDK for Desktop C++ arm Apps</li>
-      </ul>
-      <p>
-        Click <strong>Download</strong> and complete the installation process.
-      </p>
-      <hr>
-    </details>
-  </ul>
-  </li>
-  <li>
-  <strong>Mono (Linux)</strong>
-    <p><a href="https://www.mono-project.com" target="_blank">Mono</a> needs to be installed on Linux.</p>
-    <kbd>apt-get install mono-complete</kbd>
-  </li>
-  </ul>
-  <hr>
-</details>
-
+      Windows SDK Signing Tools for Desktop Apps
+        Windows SDK for UWP Managed Apps
+        Windows SDK for UWP C++ Apps
+        Windows SDK for Desktop C++ x86 Apps
+        Windows SDK for Desktop C++ amd64 Apps
+        Windows SDK for Desktop C++ arm Apps
+      Click **Download** and complete the installation process.
+      
+      ---
+    **Mono (Linux)**
+    [Mono](https://www.mono-project.com) needs to be installed on Linux.
+    `apt-get install mono-complete`
+  
+  ---
 1. Clone the edk2 repo
    - Open a command-prompt in the directory where you would like to keep the edk2 repo
    - Clone the repo
@@ -204,20 +175,15 @@ If you've already completed these steps you don't need to run them again.
 
 3. Create a Python virtual environment
     - Note that the steps differ between Linux and Windows.
-      - <details>
-        <summary>Linux Instructions</summary>
-        <code>python3 -m venv .venv</code>
-        <br>
-        <code>source .venv/bin/activate</code>
-        </details>
-      - <details>
-        <summary>Windows Instructions</summary>
-        <code>py -m venv .venv</code>
-        <br>
-        <code>.venv\Scripts\activate.bat</code>
-        </details>
-
-4. Tell Git to ignore the Python virtual environment
+      - **Linux Instructions**
+        `python3 -m venv .venv`
+          
+        `source .venv/bin/activate`
+        - **Windows Instructions**
+        `py -m venv .venv`
+          
+        `.venv\Scripts\activate.bat`
+        4. Tell Git to ignore the Python virtual environment
 
     Git will try to track your Python virtual environment as new code if it is not told to
     ignore it.
@@ -325,8 +291,7 @@ The remainder of this page contains more details about the `stuart_ci_build` and
 
 ### I want to build MdeModulePkg to test a change I made there
 
-<details>
-  <summary>Example</summary>
+**Example**
 
 ---
 
@@ -341,12 +306,9 @@ The example below uses:
 
 ---
 
-</details>
-
 ### I only want to run the unit tests in a package
 
-<details>
-  <summary>Example</summary>
+**Example**
 
 ---
 
@@ -361,12 +323,9 @@ The important parameter here is the `-t` parameter which specifies that only the
 
 ---
 
-</details>
-
 ### I want to build OvmfPkg to test a change I made there
 
-<details>
-  <summary>Example</summary>
+**Example**
 
 ---
 
@@ -391,12 +350,9 @@ If you want to run CI checks such as CI plugins, you can use `stuart_ci_build` w
 
 ---
 
-</details>
-
 ### I want to build OvmfPkg and automatically run with my firmware after build
 
-<details>
-  <summary>Example</summary>
+**Example**
 
 ---
 
@@ -465,27 +421,21 @@ The example below uses:
 
 ---
 
-</details>
-
 ### I want to build BaseTools
 
-<details>
-  <summary id="example-i-want-to-build-basetools">Example</summary>
+**Example**
 
 ---
 
 [BaseTools](#what-are-basetools) has its own build script that leverages [edk2-pytools](#what-are-edk2-pytools) to
 build the BaseTools applications.
 
-  <details>
-    <summary>Linux (Ubuntu) Pre-Steps</summary>
+  **Linux (Ubuntu) Pre-Steps**
 
 - `sudo apt update`
 - `sudo apt install build-essential uuid-dev`
 
-  </details>
-
-The file [BaseTools/Edk2ToolsBuild.py](https://github.com/tianocore/edk2/blob/master/BaseTools/Edk2ToolsBuild.py)
+  The file [BaseTools/Edk2ToolsBuild.py](https://github.com/tianocore/edk2/blob/master/BaseTools/Edk2ToolsBuild.py)
 can be called as a standalone Python script. You just need to pass the tool chain tag you would like to build with.
 
 Example:
@@ -493,12 +443,9 @@ Example:
 
 ---
 
-</details>
-
 ### I just want to check if my changes will pass all the non-compiler checks in CI
 
-<details>
-  <summary>Example</summary>
+**Example**
 
 ---
 
@@ -518,12 +465,9 @@ with the `-p` parameter.
 
 ---
 
-</details>
-
 ### I want to fix all the spelling errors in my package. How do I just run the spell check plugin?
 
-<details>
-  <summary>Example</summary>
+**Example**
 
 ---
 
@@ -541,7 +485,7 @@ The following command disables all plugins and then enables only `SpellCheck`:
 You can also simply delete the other plugin directories so they are not discovered. You can then test with the
 remaining plugins and then use git to restore the deleted plugin directories back when done testing.
 
-For example, to only test with the <code>SpellCheck</code> plugin, delete every other plugin folder from
+For example, to only test with the `SpellCheck` plugin, delete every other plugin folder from
 [.pytool/Plugin](https://github.com/tianocore/edk2/tree/master/.pytool/Plugin) in your workspace.
 
 Run the command to only perform CI checks:
@@ -553,14 +497,11 @@ When done, restore the other plugin directories:
 
 ---
 
-</details>
-
 ## Common Questions
 
 ### What is CI?
 
-<details>
-  <summary id="what-is-ci">Answer</summary>
+**Answer**
 
 ---
 
@@ -576,12 +517,9 @@ Also see
 
 ---
 
-</details>
-
 ### What are BaseTools?
 
-<details>
-  <summary id="what-are-basetools">Answer</summary>
+**Answer**
 
 ---
 
@@ -602,12 +540,9 @@ A more complete list of BaseTools is located in the [EDK II Tools List](https://
 
 ---
 
-</details>
-
 ### What are edk2-pytools?
 
-<details>
-  <summary id="what-are-edk2-pytools">Answer</summary>
+**Answer**
 
 ---
 
@@ -622,12 +557,9 @@ A collection of Python code for working with edk2.
 
 ---
 
-</details>
-
 ### What is CISettings.py?
 
-<details>
-  <summary id="what-is-ci-settings-py">Answer</summary>
+**Answer**
 
 ---
 
@@ -641,12 +573,9 @@ like the following be used with the file:
 
 ---
 
-</details>
-
 ### What is PlatformBuild.py?
 
-<details>
-  <summary id="what-is-platformbuild-py">Answer</summary>
+**Answer**
 
 ---
 
@@ -666,12 +595,9 @@ Like Stuart CI has "CI plugins", the build process has "build plugins". These ca
 
 ---
 
-</details>
-
 ### What is the difference between stuart_ci_build and stuart_build?
 
-<details>
-  <summary id="stuart-ci-build-vs-stuart-build">Answer</summary>
+**Answer**
 
 ---
 
@@ -682,12 +608,9 @@ Like Stuart CI has "CI plugins", the build process has "build plugins". These ca
 
 ---
 
-</details>
-
 ### What does stuart_ci_build do exactly?
 
-<details>
-  <summary id="what-does-stuart-ci-build-do">Answer</summary>
+**Answer**
 
 ---
 
@@ -711,12 +634,9 @@ The two main places to look for CI settings are:
 
 ---
 
-</details>
-
 ### How do I get more detailed information if an error happens?
 
-<details>
-  <summary id="how-do-i-get-more-detailed-error-info">Answer</summary>
+**Answer**
 
 ---
 
@@ -735,12 +655,9 @@ failure.
 
 ---
 
-</details>
-
 ### What are plugins?
 
-<details>
-  <summary id="what-are-plugins">Answer</summary>
+**Answer**
 
 ---
 
@@ -750,12 +667,9 @@ page.
 
 ---
 
-</details>
-
 ### How do I get lower-level technical details?
 
-<details>
-  <summary id="how-do-i-get-lower-level-technical-details">Answer</summary>
+**Answer**
 
 ---
 
@@ -764,4 +678,3 @@ Start in the
 
 ---
 
-</details>

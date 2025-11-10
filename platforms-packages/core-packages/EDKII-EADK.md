@@ -3,7 +3,7 @@
 EDK II Application Development Kit for include the Standard C Libraries
 in UEFI Shell Applications
 
-<div class="t_projects">
+
 
 <table>
 
@@ -190,4 +190,4 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 
 </table>
 
-</div>
+

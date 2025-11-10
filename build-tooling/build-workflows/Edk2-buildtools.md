@@ -74,11 +74,11 @@ UDK2015 :
 - [BaseTools.Windows.zip](https://github.com/tianocore/udk/releases/download/UDK2015/BaseTools.Windows.zip)
 - [BaseTools.Unix.tar](https://github.com/tianocore/udk/releases/download/UDK2015/BaseTools.Unix.tar)
 
-<hr>
+---
 
 Below Table are Releases for Archive purposes only
 
-<div class="t_projects">
+
 
 <table>
 
@@ -171,7 +171,7 @@ Primary set of tools for processing EDK II content.
 
 <td>
 
-<span class="docHeader">Readme</span>
+Readme
 
 [ReadMe.txt
 (baseTools)](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe.txt/download)
@@ -190,7 +190,7 @@ Primary set of tools for processing EDK II content.
 
 <td>
 
-<span class="docHeader">General documentation</span> [UDK2010.SR1.UP1
+General documentation [UDK2010.SR1.UP1
 User Manuals
 Zip](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/UDK2010.SR1.UP1.UserManuals.zip/download)
 
@@ -202,7 +202,7 @@ Zip](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Pac
 
 <td>
 
-<span class="docHeader">Specifications</span>
+Specifications
 
 </td>
 
@@ -212,7 +212,7 @@ Zip](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Pac
 
 <td>
 
-<span class="docHeader">Technical information</span>
+Technical information
 
 </td>
 
@@ -242,7 +242,7 @@ Primary set of tools for processing EDK II content.
 
 <td>
 
-<span class="docHeader">Readme</span>
+Readme
 
 [ReadMe.txt
 (baseTools)](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe.txt/download)
@@ -261,7 +261,7 @@ Primary set of tools for processing EDK II content.
 
 <td>
 
-<span class="docHeader">General documentation</span> [User Manuals
+General documentation [User Manuals
 Zip](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/UserManuals.zip/download)
 
 </td>
@@ -272,7 +272,7 @@ Zip](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Pac
 
 <td>
 
-<span class="docHeader">Specifications</span>
+Specifications
 
 </td>
 
@@ -282,7 +282,7 @@ Zip](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Pac
 
 <td>
 
-<span class="docHeader">Technical information</span>
+Technical information
 
 </td>
 
@@ -290,7 +290,7 @@ Zip](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Pac
 
 </table>
 
-</div>
+
 
 ## Notes
 

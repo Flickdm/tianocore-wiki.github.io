@@ -11,7 +11,7 @@ This page provides step-by-step instructions or setting up a [EDK
 II](http://www.tianocore.org/edk2/) build environment on Windows
 systems.
 
-<u>*Table of Contents*</u>
+*Table of Contents*
 
 - [GitHub Help](Windows-systems.md)
 - [How to Setup the EDK II Tree](Windows-systems#how-to-setup-the-edk-ii-tree)

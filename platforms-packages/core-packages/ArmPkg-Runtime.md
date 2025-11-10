@@ -89,7 +89,7 @@ EfiRuntimeServicesData)
 Confirm the runtime regions are present by using the command 'memmap' in
 the EFI Shell.
 
-<b>Note:</b> The attribute '8000000000000000' means runtime memory
+**Note:** The attribute '8000000000000000' means runtime memory
 region
 
     UEFI v2.40 (ARM Fixed Virtual Platform EFI Apr 11 2014 11:55:10, 0x00000000)
@@ -309,7 +309,7 @@ the change of the Virtual Memory map to the UEFI Runtime Services:
 Set a breakpoint (or go to the PC location)
 ![](RuntimeUseCase-5.PNG "RuntimeUseCase-5.PNG")
 
-<b>Conclusion:</b> AllocatePool (UEFI Boot Services function) is invoked
+**Conclusion:** AllocatePool (UEFI Boot Services function) is invoked
 during the UEFI Runtime phase (after gBS-\>ExitBootServices() is
 called).
 It is illegal!
@@ -340,12 +340,9 @@ the symbols to be loaded in EL1 Non-Secure world):
     add-symbol-file /home/olimar01/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/ArmPlatformPkg/Drivers/NorFlashDxe/NorFlashDxe/DEBUG/ArmVeNorFlashDxe.dll EL1N:0xFFFFFFC0031D4260
     hbreak -p EL1N:0xffffffc0031d8e14
 
-<figure>
-<img src="RuntimeUseCase-7.PNG" title="RuntimeUseCase-7.PNG" />
-<figcaption>RuntimeUseCase-7.PNG</figcaption>
-</figure>
-
-<b>Conclusion:</b> Fixing up Instance-\>DeviceAddress (physical address
+![](RuntimeUseCase-7.PNG)
+*RuntimeUseCase-7.PNG*
+**Conclusion:** Fixing up Instance-\>DeviceAddress (physical address
 of the NOR Flash device) when the virtual memory map is changed at
 Runtime should fix the issue.
 

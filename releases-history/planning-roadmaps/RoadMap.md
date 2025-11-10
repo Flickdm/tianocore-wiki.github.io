@@ -1,7 +1,7 @@
 # Roadmap
 
-<span style="font-size: 14.0pt; text-align: center; font-family: Verdana; color: blue; font-weight: bold; font-style: normal">UDK2010
-Roadmap for Tianocore.org Feature Details </span>
+UDK2010
+Roadmap for Tianocore.org Feature Details 
 
 - Look for the upcoming release available **Now**
 - Release UDK2010.SR1
@@ -9,7 +9,7 @@ Roadmap for Tianocore.org Feature Details </span>
 - Features added to support the UEFI 2.3.1 specification
 - EDK II Build tools and UPdates to the EDK II Specifications
 
-<div class="t_projects">
+
 
 <table width="500">
 
@@ -17,8 +17,8 @@ Roadmap for Tianocore.org Feature Details </span>
 
 <th colspan="2" style="background-color:#ff5c00">
 
-<span style="font-size: 16.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">Feature
-Details </span>
+Feature
+Details 
 
 </th>
 
@@ -28,8 +28,8 @@ Details </span>
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt;  font-family: Verdana; color: black; font-style: normal">
-Support Asynchronous Block Io </span>
+
+Support Asynchronous Block Io 
 
 </th>
 
@@ -39,12 +39,12 @@ Support Asynchronous Block Io </span>
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
+
 Secure Storage Protocol: enable
 [Opal](http://www.trustedcomputinggroup.org/developers/storage)/[eDrive](http://msdn.microsoft.com/en-us/library/windows/hardware/br259095.aspx)
 SATA devices using the EFI_STORAGE_SECURITY_COMMAND_PROTOCOL, ATA-8
 Trusted Send/Receive and IEEE1667 Silo (UEFI 2.3.1a
-specification)</span>
+specification)
 
 </th>
 
@@ -54,14 +54,14 @@ specification)</span>
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
+
 Networking Improvements:
-<span style="font-size: 8.0pt; font-family: Verdana; color: #0f0f0f; font-style: normal">
+
 
 - Erata related to Netboot6-DUID
 - Provide more DHCP4 & DHCP6 API support
 
-</span> </span>
+ 
 
 </th>
 
@@ -71,12 +71,12 @@ Networking Improvements:
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
+
 TCG Physical Presence (PP). Based on the Physical Presence Interface
 Specification Version 1.20, Revision 1.0. More information at the
 [Trusted Computing Group
 website](http://www.trustedcomputinggroup.org/resources/tcg_physical_presence_interface_specification).
-</span>
+
 
 </th>
 
@@ -86,10 +86,10 @@ website](http://www.trustedcomputinggroup.org/resources/tcg_physical_presence_in
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt;  font-family: Verdana; color: black; font-style: normal">
+
 USB 3.0 Controller Support (XHCI)
 
-</span>
+
 
 </th>
 
@@ -99,9 +99,9 @@ USB 3.0 Controller Support (XHCI)
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
+
 Update Internal Forms Representation (IFR) implementation to match UEFI
-2.3.1 Specification. </span>
+2.3.1 Specification. 
 
 </th>
 
@@ -111,8 +111,8 @@ Update Internal Forms Representation (IFR) implementation to match UEFI
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt;  font-family: Verdana; color: black; font-style: normal">
-iSCSI (ip6) open source implementation for IPv6 </span>
+
+iSCSI (ip6) open source implementation for IPv6 
 
 </th>
 
@@ -122,11 +122,11 @@ iSCSI (ip6) open source implementation for IPv6 </span>
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
+
 Security Package (SecurityPkg). Open source package including the
 following items:
 
-<span style="font-size: 8.0pt; font-family: Verdana; color: #0f0f0f; font-style: normal">
+
 
 - TPM 1.2 Measured Boot
 - UEFI variable support for Secure Boot as defined by UEFI 2.3.1a
@@ -141,9 +141,9 @@ following items:
 - Updates for code to pass SecureTest package
 - Add enable/disable mechanism for Secure Boot
 
-</span>
 
-</span>
+
+
 
 </th>
 
@@ -153,8 +153,8 @@ following items:
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
-User Identification (UID) Errata from UEFI 2.3.1 Specification </span>
+
+User Identification (UID) Errata from UEFI 2.3.1 Specification 
 
 </th>
 
@@ -164,9 +164,9 @@ User Identification (UID) Errata from UEFI 2.3.1 Specification </span>
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-<span style="font-size: 10.0pt;  font-family: Verdana; color: black; font-style: normal">
+
 Updates to the EDK II Build Process.
-<span style="font-size: 8.0pt; font-family: Verdana; color: black; font-style: normal">
+
 
 - Support MACRO definitions in build tools.
 - Updates for [EDK II v1.22 specifications](EDK_II_Specifications)
@@ -174,7 +174,7 @@ Updates to the EDK II Build Process.
   [
   Download](EDK_II_Specifications))
 
-</span> </span>
+ 
 
 </th>
 
@@ -182,4 +182,4 @@ Updates to the EDK II Build Process.
 
 </table>
 
-</div>
+

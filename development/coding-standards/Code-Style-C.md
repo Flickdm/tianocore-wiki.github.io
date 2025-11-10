@@ -117,7 +117,7 @@ H File Example:
 
 Used for variables, functions and file names
 
-<font style="color: green">Correct</font>:
+Correct:
 
 `#include "FooFileName.h"`
 `...`
@@ -126,7 +126,7 @@ Used for variables, functions and file names
 `UINTN ALocalVariable;`
 `UINTN UefiVersion;`
 
-<font style="color: red">Incorrect</font>:
+Incorrect:
 
 `#include "foo-file_name.h"`
 `...`
@@ -139,7 +139,7 @@ Used for variables, functions and file names
 
 Used for types and macros
 
-<font style="color: green">Correct</font>:
+Correct:
 
 `#define FOO_MACRO(a, b) ((a) * (b))`
 `typedef struct _STRUCT_NAME STRUCT_NAME;`
@@ -147,7 +147,7 @@ Used for types and macros
 `...`
 `};`
 
-<font style="color: red">Incorrect</font>:
+Incorrect:
 
 `#define FooMacro(a, b) ((a) * (b))`
 `#define Foo_Macro(a, b) ((a) * (b))`
@@ -157,13 +157,13 @@ Used for types and macros
 
 Don't use C types directly
 
-<font style="color: green">Correct</font>:
+Correct:
 
 `INTN   ALocalVariable;`
 `UINTN  UefiVersion;`
 `VOID   *Ptr;`
 
-<font style="color: red">Incorrect</font>:
+Incorrect:
 
 `int           ALocalVariable;`
 `unsigned int  UefiVersion;`
@@ -171,13 +171,13 @@ Don't use C types directly
 
 ### 2 spaces of indentation
 
-<font style="color: green">Correct</font>:
+Correct:
 
 `if (TRUE) {`
 `Print (L"Hello, world!\n");`
 `}`
 
-<font style="color: red">Incorrect</font>:
+Incorrect:
 
 `if (TRUE) {`
 `Print (L"Hello, world!\n");`
@@ -188,13 +188,13 @@ Don't use C types directly
 If, for, while, etc. always use { }, even when there is only one
 statement
 
-<font style="color: green">Correct</font>:
+Correct:
 
 `if (TRUE) {`
 `Print (L"Hello, world!\n");`
 `}`
 
-<font style="color: red">Incorrect</font>:
+Incorrect:
 
 `if (TRUE)`
 `Print (L"Hello, world!\n");`

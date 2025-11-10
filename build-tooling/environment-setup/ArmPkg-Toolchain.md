@@ -13,7 +13,7 @@
 
 ARM Toolchain supported in EDK2 BaseTools
 
-<u><b>Note:</b></u> BaseTools does not need to by build when EDK2 is
+**Note:** BaseTools does not need to by build when EDK2 is
 built from a MS Windows. Pre-built BaseTools binaries are provided by
 EDK2 repository.
 

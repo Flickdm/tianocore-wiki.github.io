@@ -5,7 +5,7 @@ chronological order
 Check [EDK II Security White Papers](EDK_II_Security_White_Papers)
 for documents on security
 
-<div class="t_projects">
+
 
 <table>
 

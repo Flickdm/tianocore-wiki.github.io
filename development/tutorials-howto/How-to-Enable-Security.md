@@ -62,7 +62,7 @@ LibraryClasses section of module SecurityStubDxe in the platform DSC
 file:
 
 `MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {`
-``<LibraryClasses>
+``
 `NULL|SecurityPkg/Library/DxeImageVerificationLib/DxeImageVerificationLib.inf`
 `}`
 
@@ -228,7 +228,7 @@ authentication, or be verified by current user access policy after user
 authentication.
 
 `MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {`
-``<LibraryClasses>
+``
 `NULL|SecurityPkg/Library/DxeDeferImageLoadLib/DxeDeferImageLoadLib.inf`
 `}`
 
@@ -324,7 +324,7 @@ SecurityStubDxe in the platform DSC file.
 - SecurityPkg/Library/DxeTpmMeasureBootLib/DxeTpmMeasureBootLib.inf
 
 `MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {`
-``<LibraryClasses>
+``
 `NULL|SecurityPkg/Library/DxeTpmMeasureBootLib/DxeTpmMeasureBootLib.inf`
 `}`
 

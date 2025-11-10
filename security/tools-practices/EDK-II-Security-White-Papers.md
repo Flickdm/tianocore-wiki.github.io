@@ -6,7 +6,7 @@ A list of White Papers and information for EDK II Security from multiple sources
 * [https://software.intel.com/en-us/firmware/](https://software.intel.com/en-us/firmware/)
 * [https://tianocore.org](https://tianocore.org)
 * Industry standard:
-  * NIST: [https://csrc.nist.gov/publications/sp800](https://csrc.nist.gov/publications/sp800) <br>
+  * NIST: [https://csrc.nist.gov/publications/sp800](https://csrc.nist.gov/publications/sp800)   
   * TCG: [http://trusted.computinggroup.com/](http://trusted.computinggroup.com/)
 * SideChannel: [Intel Software Developer Zone -firmware speculative execution](https://software.intel.com/security-software-guidance/insights/host-firmware-speculative-execution-side-channel-mitigation)
 * MDS: [Intel Software Developer Zone - microarchitectural data sampling](https://software.intel.com/security-software-guidance/insights/deep-dive-intel-analysis-microarchitectural-data-sampling)

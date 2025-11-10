@@ -1,7 +1,6 @@
 # Index
 
-Welcome to TianoCore, the community supporting an open source implementation of [UEFI](../../reference/specs-standards/UEFI.md).
-[EDK II](../../reference/external-resources/EDK-II.md) is a modern, feature-rich, cross-platform firmware development environment for the UEFI and [PI](../../reference/specs-standards/PI.md) specifications. We hope that you’ll delve into our work, use TianoCore for platform firmware, [[report any issues|Reporting Issues]] you find, and contribute to the community. Learn more on [TianoCore Who we are](../../community/support-onboarding/TianoCore-Who-we-are.md).
+Welcome to TianoCore, the community supporting an open source implementation of [UEFI](../../reference/specs-standards/UEFI.md). [EDK II](../../reference/external-resources/EDK-II.md) is a modern, feature-rich, cross-platform firmware development environment for the UEFI and [PI](../../reference/specs-standards/PI.md) specifications. We hope that you’ll delve into our work, use TianoCore for platform firmware, [[report any issues|Reporting Issues]] you find, and contribute to the community. Learn more on [TianoCore Who we are](../../community/support-onboarding/TianoCore-Who-we-are.md).
 
 The latest [stable tag](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II#stable-tags) of EDK II is [edk2-stable202508](https://github.com/tianocore/edk2/releases/tag/edk2-stable202508).
 
@@ -9,4 +8,4 @@ If you want to compile firmware or utilities, we recommend the [Getting Started 
 
 TianoCore uses github issues to track issues and feature requests. Please review [Reporting Issues](../../community/support-onboarding/Reporting-Issues.md) and [Reporting Security Issues](../../security/processes/Reporting-Security-Issues.md) for more information. If you would like to contribute code or fix issues, please see [How To Contribute](../../development/contribution-guides/How-To-Contribute.md) along with our [Inclusive Language Guidelines](../../governance/charter-policies/Inclusive-Language-Guidelines.md). The [Tasks](../../governance/project-management/Tasks.md) page has a list of priority work items.
 
-[<img src="https://github.com/tianocore/tianocore.github.io/blob/master/images/tianocore_logo_text_whitebkg.jpg"/>](http://www.tianocore.org)
+[![](https://github.com/tianocore/tianocore.github.io/blob/master/images/tianocore_logo_text_whitebkg.jpg)](http://www.tianocore.org)

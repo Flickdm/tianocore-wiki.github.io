@@ -11,12 +11,8 @@ stack size. And to make the algorithm simpler, all the cores have been
 assigned a secondary stack. It means the primary core has been reserved
 two stack regions, but only uses the primary one.
 
-<figure>
-<img src="ArmPlatformPkgStackTopology.png"
-title="ArmPlatformPkgStackTopology.png" />
-<figcaption>ArmPlatformPkgStackTopology.png</figcaption>
-</figure>
-
+![](ArmPlatformPkgStackTopology.png)
+*ArmPlatformPkgStackTopology.png*
 If the ARM Secure extension (ie: Trustzone) is supported in software, at
 least two set of stacks must be allocated on the platform. The stacks
 for the Secure World and the one for the Non Secure/Normal world.
@@ -54,12 +50,8 @@ these global variables everytime we port EDK2 to a new platform. Global
 variables are defined by an offset in this region. The Global Variable
 region is automatically set at the top of the primary core stack.
 
-<figure>
-<img src="ArmPlatformPkgGlobalVariableRegion.png"
-title="ArmPlatformPkgGlobalVariableRegion.png" />
-<figcaption>ArmPlatformPkgGlobalVariableRegion.png</figcaption>
-</figure>
-
+![](ArmPlatformPkgGlobalVariableRegion.png)
+*ArmPlatformPkgGlobalVariableRegion.png*
 Example to access the global variable B in Normal World, the calculation
 should be: PcdCPUCoresStackBase + PcdCPUCorePrimaryStackSize -
 PcdPeiGlobalVariableSize + PcdXipVariableBGlobalOffset

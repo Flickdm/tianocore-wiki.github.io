@@ -10,17 +10,25 @@ If you use git, then the builtin support for oneline release notes can be used:
 Using `svn log` along with small scripts such as those shown below, brief release notes can easily be generated.
 
 Some examples:
-<Pre>
+
+
+
 svn log -l 5 | awk -f svn-log-to-oneline.awk
 svn log -r 10972:10974 https://edk2.svn.sourceforge.net/svnroot/edk2/trunk | python svn-log-to-oneline.py
-</Pre>
+
+
+
 
 You get a result like:
-<Pre>
+
+
+
 r10972 UefiCpuPkg CpuDxe: Fix bug with CPU Arch RegisterInterruptHandler
 r10973 DuetPkg: Add DXE APRIORI for 8259 driver
 r10974 DuetPkg: Use UefiCpuPkg/CpuDxe instead of DuetPkg/CpuDxe
-</Pre>
+
+
+
 
 ## svn-log-to-oneline.awk
 

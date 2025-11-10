@@ -26,8 +26,8 @@ The PCD - PcdControlFlowEnforcementPropertyMask defined in MdePkg.dec([https://g
 
 ```
   ## Indicates the control flow enforcement enabling state.
-  #  If enabled, it uses control flow enforcement technology to prevent ROP or JOP.<BR><BR>
-  #   BIT0 - SMM CET Shadow Stack is enabled.<BR>
+  #  If enabled, it uses control flow enforcement technology to prevent ROP or JOP.    
+  #   BIT0 - SMM CET Shadow Stack is enabled.  
   #   Other - reserved
   # @Prompt Enable control flow enforcement.
   gEfiMdePkgTokenSpaceGuid.PcdControlFlowEnforcementPropertyMask|0x0|UINT32|0x30001017

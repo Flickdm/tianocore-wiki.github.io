@@ -1,8 +1,8 @@
 # EDK II Dashboard
 
-<b>Note: this page is no longer maintained. Information is here for
+**Note: this page is no longer maintained. Information is here for
 historical purposes and will be archived in an upcoming site
-revision.</b>
+revision.**
 
 <table>
 
@@ -10,14 +10,14 @@ revision.</b>
 
 <td>
 
-<font color=#085FA8>EDK II BIOS Enabling Dashboard – January 21,
-2014</font>
+EDK II BIOS Enabling Dashboard – January 21,
+2014
 
 </td>
 
 <td width=200 align=right>
 
-<font color=#FF0000>Updates in red</font>
+Updates in red
 
 </td>
 

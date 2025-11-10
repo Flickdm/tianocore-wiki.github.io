@@ -1,6 +1,6 @@
 # EDK Member Documents
 
-<div class="t_projects">
+
 
 <table>
 
@@ -62,4 +62,4 @@ Material from the 2009 training in Beijing.
 
 </table>
 
-<div>
+

@@ -1,9 +1,9 @@
 # EFI Shell
 
-<b><i>Note: EDK Shell has been deprecated. Please refer to
+***Note: EDK Shell has been deprecated. Please refer to
 [Shell](Shell) and
 [ShellPkg](../../platforms-packages/core-packages/ShellPkg.md) for
-the latest information.</i></b>
+the latest information.***
 
 EFI shell releases are part of the EDK build infrastructure. Also
 referred to as

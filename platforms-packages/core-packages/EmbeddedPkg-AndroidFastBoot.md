@@ -182,11 +182,8 @@ The implementation is distributed into several components:
   a FASTBOOT_PLATFORM_PROTOCOL implementation for ARM development
   platforms. It uses the SD card as the "flash memory".
 
-<figure>
-<img src="UefiAndroidFastboot.PNG" title="UefiAndroidFastboot.PNG" />
-<figcaption>UefiAndroidFastboot.PNG</figcaption>
-</figure>
-
+![](UefiAndroidFastboot.PNG)
+*UefiAndroidFastboot.PNG*
 ### Porting
 
 To port UEFI Fastboot to your platform you will need implementations of

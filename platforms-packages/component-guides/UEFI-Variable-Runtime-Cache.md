@@ -22,9 +22,9 @@ The feature is enabled and disabled by the following FeaturePCD in MdeModulePkg:
   #  from a runtime data buffer referred to as the "runtime cache". An SMI is not triggered
   #  at all for these requests. Variables writes still trigger an SMI. This can greatly
   #  reduce overall system SMM usage as most boots tend to issue far more variable reads
-  #  than writes.<BR><BR>
-  #   TRUE  - The UEFI variable runtime cache is enabled.<BR>
-  #   FALSE - The UEFI variable runtime cache is disabled.<BR>
+  #  than writes.    
+  #   TRUE  - The UEFI variable runtime cache is enabled.  
+  #   FALSE - The UEFI variable runtime cache is disabled.  
   # @Prompt Enable the UEFI variable runtime cache.
   gEfiMdeModulePkgTokenSpaceGuid.PcdEnableVariableRuntimeCache|TRUE|BOOLEAN|0x00010039
 ```

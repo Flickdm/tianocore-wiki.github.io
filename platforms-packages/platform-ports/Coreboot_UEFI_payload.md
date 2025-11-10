@@ -54,11 +54,11 @@ an OS. After the initialization, it jumps to a payload which can provide
 services required to load and boot an OS.
 [http://www.coreboot.org/Payloads](http://www.coreboot.org/Payloads)
 
-<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Coreboot001.jpg" >
+![](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Coreboot001.jpg)
 
 ### UEFI Payload
 
 UEFI payload provides UEFI services on top of coreboot that allows UEFI
 OS boot.
 
-<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Coreboot002.jpg" >
+![](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Coreboot002.jpg)

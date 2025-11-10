@@ -6,7 +6,7 @@ To learn more about the EDK codebase see the
 [EDK Module Structure
 Explained](Modules).
 
-<div class="t_projects">
+
 
 <table>
 
@@ -1406,7 +1406,7 @@ To see the differences between snapshot versions
 
 </table>
 
-</div>
+
 
 License information:
 [BSD](http://www.opensource.org/licenses/bsd-license.php)

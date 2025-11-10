@@ -3,13 +3,15 @@
 Below is the directory tree of IntelFrameworkModulePkg.
 The link after the directory name is the GitHub issue link tracking the removal of it.
 
-<pre>
+
+
+
 IntelFrameworkModulePkg
  +---Bus
- |   +---Isa                <a href="https://github.com/tianocore/edk2/issues/7625">[7625]</a>
+ |   +---Isa                [[7625]](https://github.com/tianocore/edk2/issues/7625)
  |   \---Pci
- |       +---IdeBusDxe      <a href="https://github.com/tianocore/edk2/issues/7639">[7639]</a>
- |       \---VgaMiniPortDxe <a href="https://github.com/tianocore/edk2/issues/7626">[7626]</a>
+ |       +---IdeBusDxe      [[7639]](https://github.com/tianocore/edk2/issues/7639)
+ |       \---VgaMiniPortDxe [[7626]](https://github.com/tianocore/edk2/issues/7626)
  +---Csm
  |   +---BiosThunk
  |   |   +---BlockIoDxe
@@ -23,33 +25,35 @@ IntelFrameworkModulePkg
  |   \---Protocol
  +---Library
  |   +---BaseUefiTianoCustomDecompressLib ->Liming, propose drop
- |   +---DxeCapsuleLib                             <a href="https://github.com/tianocore/edk2/issues/7642">[7642]</a>
- |   +---DxeReportStatusCodeLibFramework           <a href="https://github.com/tianocore/edk2/issues/7628">[7628]</a>
- |   +---GenericBdsLib                             <a href="https://github.com/tianocore/edk2/issues/7624">[7624]</a>
+ |   +---DxeCapsuleLib                             [[7642]](https://github.com/tianocore/edk2/issues/7642)
+ |   +---DxeReportStatusCodeLibFramework           [[7628]](https://github.com/tianocore/edk2/issues/7628)
+ |   +---GenericBdsLib                             [[7624]](https://github.com/tianocore/edk2/issues/7624)
  |   +---LegacyBootMaintUiLib
  |   +---LegacyBootManagerLib
- |   +---LzmaCustomDecompressLib                   <a href="https://github.com/tianocore/edk2/issues/7640">[7640]</a>
- |   +---PeiDxeDebugLibReportStatusCode            <a href="https://github.com/tianocore/edk2/issues/7628">[7628]</a>
- |   +---PeiRecoveryLib                            <a href="https://github.com/tianocore/edk2/issues/7610">[7610]</a>
- |   +---PeiS3Lib                                  <a href="https://github.com/tianocore/edk2/issues/7610">[7610]</a>
- |   +---PlatformBdsLibNull                        <a href="https://github.com/tianocore/edk2/issues/7624">[7624]</a>
- |   \---SmmRuntimeDxeReportStatusCodeLibFramework <a href="https://github.com/tianocore/edk2/issues/7628">[7628]</a>
+ |   +---LzmaCustomDecompressLib                   [[7640]](https://github.com/tianocore/edk2/issues/7640)
+ |   +---PeiDxeDebugLibReportStatusCode            [[7628]](https://github.com/tianocore/edk2/issues/7628)
+ |   +---PeiRecoveryLib                            [[7610]](https://github.com/tianocore/edk2/issues/7610)
+ |   +---PeiS3Lib                                  [[7610]](https://github.com/tianocore/edk2/issues/7610)
+ |   +---PlatformBdsLibNull                        [[7624]](https://github.com/tianocore/edk2/issues/7624)
+ |   \---SmmRuntimeDxeReportStatusCodeLibFramework [[7628]](https://github.com/tianocore/edk2/issues/7628)
  \---Universal
      +---Acpi
-     |   +---AcpiS3SaveDxe                         <a href="https://github.com/tianocore/edk2/issues/7652">[7652]</a>
-     |   \---AcpiSupportDxe                        <a href="https://github.com/tianocore/edk2/issues/7648">[7648]</a>
-     +---BdsDxe                                    <a href="https://github.com/tianocore/edk2/issues/7624">[7624]</a>
-     +---Console\VgaClassDxe                       <a href="https://github.com/tianocore/edk2/issues/7626">[7626]</a>
-     +---CpuIoDxe                                  <a href="https://github.com/tianocore/edk2/issues/7644">[7644]</a>
-     +---DataHubDxe                                <a href="https://github.com/tianocore/edk2/issues/7628">[7628]</a>
-     +---DataHubStdErrDxe                          <a href="https://github.com/tianocore/edk2/issues/7628">[7628]</a>
+     |   +---AcpiS3SaveDxe                         [[7652]](https://github.com/tianocore/edk2/issues/7652)
+     |   \---AcpiSupportDxe                        [[7648]](https://github.com/tianocore/edk2/issues/7648)
+     +---BdsDxe                                    [[7624]](https://github.com/tianocore/edk2/issues/7624)
+     +---Console\VgaClassDxe                       [[7626]](https://github.com/tianocore/edk2/issues/7626)
+     +---CpuIoDxe                                  [[7644]](https://github.com/tianocore/edk2/issues/7644)
+     +---DataHubDxe                                [[7628]](https://github.com/tianocore/edk2/issues/7628)
+     +---DataHubStdErrDxe                          [[7628]](https://github.com/tianocore/edk2/issues/7628)
      +---FirmwareVolume
-     |   +---FwVolDxe                              <a href="https://github.com/tianocore/edk2/issues/7647">[7647]</a>
-     |   \---UpdateDriverDxe                       <a href="https://github.com/tianocore/edk2/issues/7646">[7646]</a>
-     +---LegacyRegionDxe                           <a href="https://github.com/tianocore/edk2/issues/7645">[7645]</a>
-     +---SectionExtractionDxe                      <a href="https://github.com/tianocore/edk2/issues/7647">[7647]</a>
-     \---StatusCode                                <a href="https://github.com/tianocore/edk2/issues/7628">[7628]</a>
+     |   +---FwVolDxe                              [[7647]](https://github.com/tianocore/edk2/issues/7647)
+     |   \---UpdateDriverDxe                       [[7646]](https://github.com/tianocore/edk2/issues/7646)
+     +---LegacyRegionDxe                           [[7645]](https://github.com/tianocore/edk2/issues/7645)
+     +---SectionExtractionDxe                      [[7647]](https://github.com/tianocore/edk2/issues/7647)
+     \---StatusCode                                [[7628]](https://github.com/tianocore/edk2/issues/7628)
          +---DatahubStatusCodeHandlerDxe
          +---Pei
         \---RuntimeDxe
-</pre>
+
+
+

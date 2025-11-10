@@ -1,9 +1,9 @@
 # GCC Shell
 
-<b><i>Note: this package has been deprecated. Please refer to
+***Note: this package has been deprecated. Please refer to
 [Shell](Shell) and
 [ShellPkg](../../platforms-packages/core-packages/ShellPkg.md) for
-the latest info.</i></b>
+the latest info.***
 
 ## Welcome to the gcc-shell project
 

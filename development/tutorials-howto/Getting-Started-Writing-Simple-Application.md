@@ -4,7 +4,7 @@
 
 ### 1) Create a Work Space Directory
 
-e.g. <span style="font-family: Courier">mkdir edk2</span>
+e.g. mkdir edk2
 
 ### 2) Download the Edk II source and build tools
 
@@ -24,8 +24,8 @@ OR
 Run ***edksetup --nt32**'' script from the command line prompt at the Work Space directory
 
 1. Windows Comand Prompt:
-    <span style="font-family: Courier">**C:\edk2\> edksetup --nt32**</span>
-2. Linux like: <span style="font-family: Courier">**bash\$ .edksetup.sh BaseTools**</span>
+    **C:\edk2\> edksetup --nt32**
+2. Linux like: **bash\$ .edksetup.sh BaseTools**
 
 ### 4) Edit the file conf/target.txt
 
@@ -42,17 +42,17 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
     4. Mac OS X
         [Xcode](Xcode)
 2. TARGET_ARCH - Optional can also use
-    <span style="font-size: 10.0pt; font-family: Courier">**"-a"**
-    </span> on the BUILD command line
+    **"-a"**
+     on the BUILD command line
     1. Both IA32 and X64 :
-        <span style="font-size: 10.0pt; font-family: Courier">
-        **TARGET_ARCH = IA32 X64**</span>
+        
+        **TARGET_ARCH = IA32 X64**
     2. Just X64 :
-        <span style="font-size: 10.0pt; font-family: Courier">
-        **TARGET_ARCH = X64**</span>
+        
+        **TARGET_ARCH = X64**
     3. On the commnad line overriding the target.txt:
-        <span style="font-size: 10.0pt; font-family: Courier"> **BUILD
-        -a X64**</span>
+         **BUILD
+        -a X64**
 
 ### 5) Create a project
 
@@ -71,15 +71,15 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 1. Update an existing platform .DSC file with your project .inf file.
     The following list some examples.
     1. Edit the DuetPkg/DuetPkgX64.dsc and add your new application to
-        the the <span style="font-family: Courier"> \[Components\]
-        </span> section and before the
-        <span style="font-family: Courier"> \[BuildOptions\] </span>
-        section. (e.g. <span style="font-family: Courier">
-        MyHelloWorld/MyHelloWorld.inf </span>)
+        the the  \[Components\]
+         section and before the
+         \[BuildOptions\] 
+        section. (e.g. 
+        MyHelloWorld/MyHelloWorld.inf )
 2. Invoke the Build
     1. At the command prompt \>
-        <span style="font-family: Courier">**Build -a X64 -p
-        DuetPkg/DuetPkgX64.dsc** </span>
+        **Build -a X64 -p
+        DuetPkg/DuetPkgX64.dsc** 
 3. Final Output .efi file will be in the directory
     ***WorkSpace*/Build/DuetPkg/DEBUG\_\$(*TOOL_CHAIN_TAG*)/X64**
 
@@ -88,17 +88,17 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 1. Since this is the default as per the target.txt Update the
     Nt32Pkg/Nt32Pkg.dsc file.
     1. Edit the Nt32Pkg/Nt32Pkg.dsc and add your new application to the
-        the <span style="font-family: Courier"> \[Components\] </span>
-        section and before the <span style="font-family: Courier">
-        \[BuildOptions\] </span> section. (e.g.
-        <span style="font-family: Courier">
-        MyHelloWorld/MyHelloWorld.inf </span>)
+        the  \[Components\] 
+        section and before the 
+        \[BuildOptions\]  section. (e.g.
+        
+        MyHelloWorld/MyHelloWorld.inf )
 2. Invoke the Build
     1. At the command prompt \>
-        <span style="font-family: Courier">**Build** </span>
+        **Build** 
 3. Final Output .efi file will be in the directory
     ***WorkSpace*/Build/NT32/DEBUG\_\$(*TOOL_CHAIN_TAG*)/IA32**
 4. Test with Windows NT 32 emulation: command prompt \>
-    <span style="font-family: Courier">**Build Run** </span>
+    **Build Run** 
 
 [Getting Started](Getting_Started)

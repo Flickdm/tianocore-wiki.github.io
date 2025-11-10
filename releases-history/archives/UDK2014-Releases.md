@@ -16,7 +16,7 @@ email list.
 
 <th colspan="3" style="background-color:#a9c6dd">
 
-<b>UDK2014 Releases</b>
+**UDK2014 Releases**
 
 </th>
 
@@ -48,10 +48,10 @@ Contents
 
 <th>
 
-<b>UDK2014.SP1.P1</b>
+**UDK2014.SP1.P1**
 
-``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download">`Download zip`
-``</a>
+``[`Download zip`
+``](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download)
 ``
 
 </th>
@@ -75,8 +75,8 @@ What’s in the package?
 <td>
 
 `w/ WorkSpace Expanded .zip`
-`Release`<b>`Dec 31, 2014`</b>
-``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-ReleaseNotes-MyWorkSpace.txt/download">`Release Notes`</a>``
+`Release`**`Dec 31, 2014`**
+``[`Release Notes`](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-ReleaseNotes-MyWorkSpace.txt/download)``
 ``
 ``
 
@@ -90,22 +90,22 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-<a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:">[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):</a>
+[[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:)
 r16557
-<a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):</a>
+[[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:)
 r92
 
-<b>How to Build</b>
+**How to Build**
 [UDK2014-How-to-Build](UDK2014-How-to-Build)
 
 `UDK2014 Release`
 
-<b>Features Summary:</b>
+**Features Summary:**
 See
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-Features.txt/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.P1-Features.txt/download">Release
-Notes Features</a>
+[Release
+Notes Features](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-Features.txt/download)
 
-<b>Supported OS and Build Environments</b>
+**Supported OS and Build Environments**
 
   Linux](Using-EDK-II-with-Native-GCC.md)
  [ Using newer versions of
@@ -122,27 +122,27 @@ Notes Features</a>
 
 (UDK2014.SP1.P1)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-FilesList.txt/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-FilesList.txt/download">File
-List</a>
+[File
+List](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-FilesList.txt/download)
 
 `Of Entire Release .zip`
 
-<hr/>
+---
 
 Notes UDK2014.SP1
 Feature details :
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download">Download
-All</a>
+[Download
+All](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download)
 
-<hr/>
+---
 
 Documents
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download">Download
-All</a>
+[Download
+All](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download)
 
 UDK2014 only
 
-``<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">`Download All PDFs`</a>
+``[`Download All PDFs`](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download)
 
 </td>
 
@@ -152,12 +152,12 @@ UDK2014 only
 
 <th width="220">
 
-<h2>
+## 
 
-<span class="mw-headline" id="EDK_II_Specifications">EDK II
-Specifications</span>
+EDK II
+Specifications
 
-</h2>
+
 
 </th>
 
@@ -179,21 +179,21 @@ What is it?
 
 Version 1.24
 
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download">BUILD
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.zip/download/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.zip/download/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pdf/download">DEC
-  PDF A</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download">DSC
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download">FDF
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.pdf/download">INF
-  PDF A</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.zip/download">ZIP</a>
+- [BUILD
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.zip/download/download)
+- [DEC
+  PDF A](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.zip/download)
+- [DSC
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.zip/download)
+- [FDF
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.zip/download)
+- [INF
+  PDF A](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.zip/download)
 
 </td>
 
@@ -223,11 +223,11 @@ Each document is a .PDF of each of the specifications
 
 <th width="220">
 
-<h2>
+## 
 
-<span class="mw-headline" id="Documents">Documents</span>
+Documents
 
-</h2>
+
 
 </th>
 
@@ -249,12 +249,12 @@ What’s in the Download?
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download">Download
-All CHM/HTMLs</a>
+[Download
+All CHM/HTMLs](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download)
 
 UDK2014 only
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">Download
-All PDFs</a>
+[Download
+All PDFs](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download)
 
 </td>
 
@@ -282,11 +282,11 @@ Contains zip of all the .chm converted to PDF
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.chm/download">CryptoPkg
-.chm </a>
+[CryptoPkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.zip/download">CryptoPkg
-.zip</a>
+[CryptoPkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.zip/download)
 
 </td>
 
@@ -309,10 +309,10 @@ The [CryptoPkg](CryptoPkg)
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm/download">EdkCompatibilityPkgPkg
-.chm </a>
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download">EdkCompatibilityPkgPkg
-.zip</a>
+[EdkCompatibilityPkgPkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm/download)
+[EdkCompatibilityPkgPkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download)
 
 </td>
 
@@ -340,11 +340,11 @@ UEFI2.3/PI1.2 EDK II Cores.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.chm/download">IntelFrameworkModulePkg
-.chm</a>
+[IntelFrameworkModulePkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.zip/download">IntelFrameworkModulePkg
-.zip</a>
+[IntelFrameworkModulePkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.zip/download)
 
 </td>
 
@@ -369,11 +369,11 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.chm/download">IntelFrameworkPkg
-.chm </a>
+[IntelFrameworkPkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.zip/download">IntelFrameworkPkg
-.zip</a>
+[IntelFrameworkPkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.zip/download)
 
 </td>
 
@@ -397,11 +397,11 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.chm/download">MdeModulePkg
-.chm </a>
+[MdeModulePkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.zip/download">MdeModulePkg
-.zip</a>
+[MdeModulePkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.zip/download)
 
 </td>
 
@@ -428,17 +428,17 @@ package provides the modules that conform to UEFI/PI Industry standards.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.chm/download">MdePkg
-w/ Libraries .chm </a>
+[MdePkg
+w/ Libraries .chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.zip/download">MdePkg
-w/ Libraries .zip</a>
+[MdePkg
+w/ Libraries .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.chm/download">MdePkg
-.chm</a>
+[MdePkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.zip/download">MdePkg
-.zip</a>
+[MdePkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.zip/download)
 
 </td>
 
@@ -470,10 +470,9 @@ functions, MACROs, structures and library classes)
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.chm/download">NetworkPkg.chm
-</a>
+[NetworkPkg.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.zip/download">NetworkPkg.zip</a>
+[NetworkPkg.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.zip/download)
 
 </td>
 
@@ -499,10 +498,9 @@ conform to UEFI 2.2 specification.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.chm/download">SecurityPkg.chm
-</a>
+[SecurityPkg.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.zip/download">SecurityPkg.zip</a>
+[SecurityPkg.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.zip/download)
 
 </td>
 
@@ -529,9 +527,9 @@ PPIs/PROTOCOLs/GUIDs
 
 <th>
 
-<b>UDK2014.SP1</b>
+**UDK2014.SP1**
 
-``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Complete.MyWorkSpace.zip/download">`Download Zip`</a>``
+``[`Download Zip`](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Complete.MyWorkSpace.zip/download)``
 ``
 
 </th>
@@ -555,11 +553,11 @@ What’s in the package?
 <td>
 
 `w/ WorkSpace Expanded .zip`
-`Release`<b>`Oct 31, 2014`</b>
-``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download">`Release Notes`</a>``
+`Release`**`Oct 31, 2014`**
+``[`Release Notes`](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download)``
 ``
-``<b>`Nov 13, 2014`</b>
-`Make sure to`<font color="#FF0000">`INCLUDE`</font>`fatal crash fix :`<a href="http://sourceforge.net/p/edk2/code/16337">`DHCP Fix Dhcp6Utility.c`</a>
+``**`Nov 13, 2014`**
+`Make sure to``INCLUDE``fatal crash fix :`[`DHCP Fix Dhcp6Utility.c`](http://sourceforge.net/p/edk2/code/16337)
 ``
 
 </td>
@@ -572,20 +570,20 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-<a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:">[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):</a>
+[[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:)
 r16182
-<a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):</a>
+[[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:)
 r92
 
-<b>How to Build</b>
+**How to Build**
 [UDK2014-How-to-Build](UDK2014-How-to-Build) UDK2014 Release
 
-<b>Features Summary:</b>
+**Features Summary:**
 See
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-Features.txt/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-Features.txt/download">Release
-Notes Features</a>
+[Release
+Notes Features](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-Features.txt/download)
 
-<b>Supported OS and Build Environments</b>
+**Supported OS and Build Environments**
 
 - [ Using newer versions of
 - [Using newer versions of
@@ -602,27 +600,27 @@ Notes Features</a>
 
 (UDK2014.SP1)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-FilesList.txt/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-FilesList.txt/download">File
-List</a>
+[File
+List](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-FilesList.txt/download)
 
 `Of Entire Release .zip`
 
-<hr/>
+---
 
 Notes
 Feature details :
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download">Download
-All</a>
+[Download
+All](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download)
 
-<hr/>
+---
 
 Documents
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download">Download
-All</a>
+[Download
+All](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download)
 
 UDK2014 only (not UDK2014.SP1)
 
-``<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">`Download All PDFs`</a>
+``[`Download All PDFs`](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download)
 
 </td>
 
@@ -632,12 +630,12 @@ UDK2014 only (not UDK2014.SP1)
 
 <th width="220">
 
-<h2>
+## 
 
-<span class="mw-headline" id="EDK-II-Specifications">EDK II
-Specifications</span>
+EDK II
+Specifications
 
-</h2>
+
 
 </th>
 
@@ -659,21 +657,21 @@ What is it?
 
 Version 1.22 Errata D and Version 1.24
 
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download">BUILD
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download">DEC
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download">DSC
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.pdf/download">FDF
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.pdf/download">INF
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.zip/download">ZIP</a>
+- [BUILD
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download)
+- [DEC
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download)
+- [DSC
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download)
+- [FDF
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.zip/download)
+- [INF
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.zip/download)
 
 </td>
 
@@ -705,11 +703,11 @@ Each document is a .PDF of each of the specifications
 
 <th width="220">
 
-<h2>
+## 
 
-<span class="mw-headline" id="Documents">Documents</span>
+Documents
 
-</h2>
+
 
 </th>
 
@@ -731,12 +729,12 @@ What’s in the Download?
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download">Download
-All CHM/HTMLs</a>
+[Download
+All CHM/HTMLs](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download)
 
 UDK2014 only (not UDK2014.SP1)
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">Download
-All PDFs</a>
+[Download
+All PDFs](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download)
 
 </td>
 
@@ -764,11 +762,11 @@ Contains zip of all the .chm converted to PDF
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/CryptoPkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/CryptoPkg%20Document.chm/download">CryptoPkg
-.chm </a>
+[CryptoPkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/CryptoPkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/CryptoPkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/CryptoPkg%20Document.zip/download">CryptoPkg
-.zip</a>
+[CryptoPkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/CryptoPkg%20Document.zip/download)
 
 </td>
 
@@ -793,10 +791,10 @@ cryptographic-related libraries for UEFI security modules.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/EdkCompatibilityPkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/EdkCompatibilityPkg%20Document.chm/download">EdkCompatibilityPkgPkg
-.chm </a>
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/EdkCompatibilityPkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/EdkCompatibilityPkg%20Document.zip/download">EdkCompatibilityPkgPkg
-.zip</a>
+[EdkCompatibilityPkgPkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/EdkCompatibilityPkg%20Document.chm/download)
+[EdkCompatibilityPkgPkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/EdkCompatibilityPkg%20Document.zip/download)
 
 </td>
 
@@ -823,11 +821,11 @@ UEFI2.3/PI1.2 EDK II Cores.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/IntelFrameworkModulePkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/IntelFrameworkModulePkg%20Document.chm/download">IntelFrameworkModulePkg
-.chm</a>
+[IntelFrameworkModulePkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/IntelFrameworkModulePkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/IntelFrameworkModulePkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/IntelFrameworkModulePkg%20Document.zip/download">IntelFrameworkModulePkg
-.zip</a>
+[IntelFrameworkModulePkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/IntelFrameworkModulePkg%20Document.zip/download)
 
 </td>
 
@@ -852,11 +850,11 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/IntelFrameworkPkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.chm/download">IntelFrameworkPkg
-.chm </a>
+[IntelFrameworkPkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/IntelFrameworkPkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.zip/download">IntelFrameworkPkg
-.zip</a>
+[IntelFrameworkPkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.zip/download)
 
 </td>
 
@@ -880,11 +878,11 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdeModulePkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdeModulePkg%20Document.chm/download">MdeModulePkg
-.chm </a>
+[MdeModulePkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdeModulePkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdeModulePkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdeModulePkg%20Document.zip/download">MdeModulePkg
-.zip</a>
+[MdeModulePkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdeModulePkg%20Document.zip/download)
 
 </td>
 
@@ -911,17 +909,17 @@ package provides the modules that conform to UEFI/PI Industry standards.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.chm/download">MdePkg
-w/ Libraries .chm </a>
+[MdePkg
+w/ Libraries .chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.zip/download">MdePkg
-w/ Libraries .zip</a>
+[MdePkg
+w/ Libraries .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document.chm/download">MdePkg
-.chm</a>
+[MdePkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document.zip/download">MdePkg
-.zip</a>
+[MdePkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document.zip/download)
 
 </td>
 
@@ -953,10 +951,9 @@ functions, MACROs, structures and library classes)
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/NetworkPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/NetworkPkg%20Document%20With%20Modules.chm/download">NetworkPkg.chm
-</a>
+[NetworkPkg.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/NetworkPkg%20Document%20With%20Modules.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/NetworkPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/NetworkPkg%20Document%20With%20Modules.zip/download">NetworkPkg.zip</a>
+[NetworkPkg.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/NetworkPkg%20Document%20With%20Modules.zip/download)
 
 </td>
 
@@ -982,10 +979,9 @@ conform to UEFI 2.2 specification.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/SecurityiPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/SecurityiPkg%20Document%20With%20Modules.chm/download">SecurityPkg.chm
-</a>
+[SecurityPkg.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/SecurityiPkg%20Document%20With%20Modules.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/SecurityiPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/SecurityiPkg%20Document%20With%20Modules.zip/download">SecurityPkg.zip</a>
+[SecurityPkg.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/SecurityiPkg%20Document%20With%20Modules.zip/download)
 
 </td>
 
@@ -1013,7 +1009,7 @@ PPIs/PROTOCOLs/GUIDs
 <th>
 
 `UDK2014`
-``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download">`Download Zip`</a>
+``[`Download Zip`](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download)
 ``
 
 </th>
@@ -1037,8 +1033,8 @@ What’s in the package?
 <td>
 
 `w/ WorkSpace Expanded .zip`
-`Release`<b>`March 12, 2014`</b>
-``<a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-ReleaseNotes-MyWorkSpace.txt/download">`Release Notes`</a>``
+`Release`**`March 12, 2014`**
+``[`Release Notes`](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-ReleaseNotes-MyWorkSpace.txt/download)``
 ``
 
 </td>
@@ -1051,20 +1047,20 @@ MyWorkSpace Directory)
 
 Based on svn version:
 
-<a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014:">[https://svn.code.sf.net/p/edk2/code/branches/UDK2014](https://svn.code.sf.net/p/edk2/code/branches/UDK2014):</a>
+[[https://svn.code.sf.net/p/edk2/code/branches/UDK2014](https://svn.code.sf.net/p/edk2/code/branches/UDK2014):](https://svn.code.sf.net/p/edk2/code/branches/UDK2014:)
 r15322
-<a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):</a>
+[[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:)
 r84
 
-<b>How to Build</b>
+**How to Build**
 [UDK2014-How-to-Build](UDK2014-How-to-Build) UDK2014 Release
 
-<b>Features Summary:</b>
+**Features Summary:**
 See
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-Features.txt/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-Features.txt/download">Release
-Notes Features</a>
+[Release
+Notes Features](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-Features.txt/download)
 
-<b>Supported OS and Build Environments</b>
+**Supported OS and Build Environments**
 
 - [ Using newer versions of
 - [Using newer versions of
@@ -1081,26 +1077,26 @@ Notes Features</a>
 
 (UDK2014)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-FilesList.txt/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-FilesList.txt/download">File
-List</a>
+[File
+List](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-FilesList.txt/download)
 
 `Of Entire Release .zip`
 
-<hr/>
+---
 
 Notes
 Feature details :
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Notes.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Notes.zip/download">Download
-All</a>
+[Download
+All](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Notes.zip/download)
 
-<hr/>
+---
 
 Documents
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Documents.zip/download">Download
-All</a>
+[Download
+All](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Documents.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">Download
-All PDFs</a>
+[Download
+All PDFs](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download)
 
 </td>
 
@@ -1110,12 +1106,12 @@ All PDFs</a>
 
 <th width="220">
 
-<h2>
+## 
 
-<span class="mw-headline" id="EDK-II-Specifications">EDK II
-Specifications</span>
+EDK II
+Specifications
 
-</h2>
+
 
 </th>
 
@@ -1137,21 +1133,21 @@ What is it?
 
 Version 1.22 Errata D
 
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download">BUILD
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download">DEC
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download">DSC
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.pdf/download">FDF
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.zip/download">ZIP</a>
-- <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download">INF
-  PDF</a>
-  <a class="externallink" href="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download">ZIP</a>
+- [BUILD
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download)
+- [DEC
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.zip/download)
+- [DSC
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download)
+- [FDF
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.zip/download)
+- [INF
+  PDF](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download)
+  [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download)
 
 </td>
 
@@ -1182,11 +1178,11 @@ Each document is a .PDF of each of the specifications
 
 <th width="220">
 
-<h2>
+## 
 
-<span class="mw-headline" id="Documents">Documents</span>
+Documents
 
-</h2>
+
 
 </th>
 
@@ -1208,11 +1204,11 @@ What’s in the Download?
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Documents.zip/download">Download
-All CHM/HTMLs</a>
+[Download
+All CHM/HTMLs](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Documents.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">Download
-All PDFs</a>
+[Download
+All PDFs](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download)
 
 </td>
 
@@ -1240,14 +1236,14 @@ Contains zip of all the .chm converted to PDF
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.chm.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.chm.zip/download">CryptoPkg
-.chm .zip</a>
+[CryptoPkg
+.chm .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.chm.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.zip/download">CryptoPkg
-.zip</a>
+[CryptoPkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.pdf/download">CryptoPkg
-.pdf</a>
+[CryptoPkg
+.pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.pdf/download)
 
 </td>
 
@@ -1273,12 +1269,12 @@ cryptographic-related libraries for UEFI security modules.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm.zip/download">EdkCompatibilityPkgPkg
-.chm .zip</a>
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download">EdkCompatibilityPkgPkg
-.zip</a>
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.pdf/download">EdkCompatibilityPkgPkg
-.pdf</a>
+[EdkCompatibilityPkgPkg
+.chm .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm.zip/download)
+[EdkCompatibilityPkgPkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download)
+[EdkCompatibilityPkgPkg
+.pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.pdf/download)
 
 </td>
 
@@ -1306,14 +1302,14 @@ UEFI2.3/PI1.2 EDK II Cores.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.chm/download">IntelFrameworkModulePkg
-.chm</a>
+[IntelFrameworkModulePkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.zip/download">IntelFrameworkModulePkg
-.zip</a>
+[IntelFrameworkModulePkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.pdf/download">IntelFrameworkModulePkg
-.pdf</a>
+[IntelFrameworkModulePkg
+.pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.pdf/download)
 
 </td>
 
@@ -1339,14 +1335,14 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.chm.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.chm.zip/download">IntelFrameworkPkg
-.chm .zip</a>
+[IntelFrameworkPkg
+.chm .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.chm.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.zip/download">IntelFrameworkPkg
-.zip</a>
+[IntelFrameworkPkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.pdf/download">IntelFrameworkPkg
-.pdf</a>
+[IntelFrameworkPkg
+.pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.pdf/download)
 
 </td>
 
@@ -1371,14 +1367,14 @@ implementation which follows Intel EFI Framework Specification.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.chm.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.chm.zip/download">MdeModulePkg
-.chm .zip</a>
+[MdeModulePkg
+.chm .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.chm.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.zip/download">MdeModulePkg
-.zip</a>
+[MdeModulePkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.pdf/download">MdeModulePkg
-.pdf</a>
+[MdeModulePkg
+.pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.pdf/download)
 
 </td>
 
@@ -1406,23 +1402,23 @@ package provides the modules that conform to UEFI/PI Industry standards.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.chm.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.chm.zip/download">MdePkg
-w/ Libraries .chm .zip</a>
+[MdePkg
+w/ Libraries .chm .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.chm.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.zip/download">MdePkg
-w/ Libraries .zip</a>
+[MdePkg
+w/ Libraries .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.pdf/download">MdePkg
-w/ Libraries .pdf</a>
+[MdePkg
+w/ Libraries .pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.pdf/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.chm/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.chm/download">MdePkg
-.chm</a>
+[MdePkg
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.chm/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.zip/download">MdePkg
-.zip</a>
+[MdePkg
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.pdf/download">MdePkg
-.pdf</a>
+[MdePkg
+.pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.pdf/download)
 
 </td>
 
@@ -1455,12 +1451,12 @@ functions, MACROs, structures and library classes)
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.chm.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.chm.zip/download">NetworkPkg.chm
-.zip</a>
+[NetworkPkg.chm
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.chm.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.zip/download">NetworkPkg.zip</a>
+[NetworkPkg.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.pdf/download">NetworkPkg.pdf</a>
+[NetworkPkg.pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.pdf/download)
 
 </td>
 
@@ -1487,12 +1483,12 @@ conform to UEFI 2.2 specification.
 
 <td>
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.chm.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.chm.zip/download">SecurityPkg.chm
-.zip</a>
+[SecurityPkg.chm
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.chm.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.zip/download">SecurityPkg.zip</a>
+[SecurityPkg.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.zip/download)
 
-<a class="externallink" href="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.pdf/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.pdf/download">SecurityPkg.pdf</a>
+[SecurityPkg.pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.pdf/download)
 
 </td>
 

@@ -23,8 +23,8 @@ This wiki page focuses on how to enable SMI handler profile feature.
 The PCD - PcdSmiHandlerProfilePropertyMask defined in MdeModulePkg.dec([https://github.com/tianocore/edk2/blob/master/MdeModulePkg/MdeModulePkg.dec](https://github.com/tianocore/edk2/blob/master/MdeModulePkg/MdeModulePkg.dec)) to control the behaviors of SMI handler profile feature.
 
   ```
-  ## The mask is used to control SmiHandlerProfile behavior.<BR><BR>
-  #  BIT0 - Enable SmiHandlerProfile.<BR>
+  ## The mask is used to control SmiHandlerProfile behavior.    
+  #  BIT0 - Enable SmiHandlerProfile.  
   # @Prompt SmiHandlerProfile Property.
   # @Expression  0x80000002 | (gEfiMdeModulePkgTokenSpaceGuid.PcdSmiHandlerProfilePropertyMask & 0xFE) == 0
   gEfiMdeModulePkgTokenSpaceGuid.PcdSmiHandlerProfilePropertyMask|0|UINT8|0x00000108

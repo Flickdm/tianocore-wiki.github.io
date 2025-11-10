@@ -1,6 +1,6 @@
 # EDK II Specifications Archived
 
-<div class="t_projects">
+
 
 current [EDK II Specifications](EDK_II_Specifications)
 

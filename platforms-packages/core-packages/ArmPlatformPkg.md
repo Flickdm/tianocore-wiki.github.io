@@ -18,13 +18,8 @@ There are actually two cases:
   stage Boot Loader](#arm_platform_porting_case2): the Tianocore project is only used to generate
   a 2nd (or 3rd) stage boot loader (such as the BeagleBoard)
 
-<figure>
-<img src="ARM-EDK2-Overview.png" title="ARM-EDK2-Overview.png" />
-<figcaption>ARM-EDK2-Overview.png</figcaption>
-</figure>
-
-<span id="arm_platform_porting_case1">
-
+![](ARM-EDK2-Overview.png)
+*ARM-EDK2-Overview.png*
 #### Case 1: EDK2 from cold boot
 
 1\. Duplicate the ARM Platform reference DSC and FDF files
@@ -83,7 +78,7 @@ Interrupt Controller)
 7\. Implement SerialPortLib, TimerLib, EfiResetSystemLib,
 RealTimeClockLib for your platform
 
-<span id="arm_platform_porting_case2">
+
 
 #### Case 2: EDK2 as a 2nd stage Boot Loader
 

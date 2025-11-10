@@ -83,7 +83,7 @@ subnet declaration in /etc/dhcp3/dhcpd.conf:
             filename "BOOTARM.EFI";
     }
 
-<b>Note:</b> A DHCP server will always need to provide a filename if it
+**Note:** A DHCP server will always need to provide a filename if it
 does not support PXE boot to allow the UEFI client to request an IP
 address. A UEFI client will refuse an IP address of a DHCP server that
 does not support neither PXE or BOOTP.

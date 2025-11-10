@@ -17,4 +17,4 @@ The [tianocore-training](https://github.com/tianocore-training/Tianocore_Trainin
 
 Hands-on labs are available on Microsoft Windows and Linux for multiple platforms: [OVMF](../../platforms-packages/platform-ports/OVMF.md), [[MinnowBoard Max/Turbot|MinnowBoardMax]], [[Aaeon UpSquared|IntelAtomProcessorE3900]].
 
-Training material presentation PDFs can be viewed directly in a web browser  <a href="https://github.com/tianocore-training/Tianocore_Training_Contents/wiki/Catalog_of_Training#suggested-schedule-with-labs">Presentation PDFs</a>. Supplemental lab materials are available for download <a href="https://github.com/tianocore-training/Lab_Material_FW/archive/main.zip"> Lab_Material_FW.zip </a>
+Training material presentation PDFs can be viewed directly in a web browser  [Presentation PDFs](https://github.com/tianocore-training/Tianocore_Training_Contents/wiki/Catalog_of_Training#suggested-schedule-with-labs). Supplemental lab materials are available for download [ Lab_Material_FW.zip ](https://github.com/tianocore-training/Lab_Material_FW/archive/main.zip)

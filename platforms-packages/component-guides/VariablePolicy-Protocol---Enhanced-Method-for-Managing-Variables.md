@@ -40,7 +40,7 @@ If a platform is using the SMM-, MM-, or Standalone MM-based VariableServices, t
 
 ```text
 MdeModulePkg/Universal/Variable/RuntimeDxe/VariableSmm.inf {
-  <LibraryClasses>
+  
     ## Add this instance to enable VariablePolicy.
     NULL|MdeModulePkg/Library/VarCheckPolicyLib/VarCheckPolicyLib.inf
 }

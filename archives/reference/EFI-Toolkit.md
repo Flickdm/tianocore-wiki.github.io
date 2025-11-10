@@ -30,7 +30,7 @@ style programs.
 Source repository:
 [https://svn.code.sf.net/p/efi-toolkit/code/trunk/efi-toolkit/](https://svn.code.sf.net/p/efi-toolkit/code/trunk/efi-toolkit/)
 
-<div class="t_projects">
+
 
 <table>
 
@@ -161,7 +161,7 @@ A protocol which provides a virtual (RAM) disk.
 
 <td>
 
-<span class="docHeader">Readme</span>
+Readme
 
 [EFI Application Toolkit Release
 Notes](https://efi-toolkit.svn.sourceforge.net/svnroot/efi-toolkit/trunk/efi-toolkit/doc/RELNOTE.pdf)
@@ -174,7 +174,7 @@ Notes](https://efi-toolkit.svn.sourceforge.net/svnroot/efi-toolkit/trunk/efi-too
 
 <td>
 
-<span class="docHeader">General documentation</span>
+General documentation
 
 </td>
 
@@ -184,7 +184,7 @@ Notes](https://efi-toolkit.svn.sourceforge.net/svnroot/efi-toolkit/trunk/efi-too
 
 <td>
 
-<span class="docHeader">Specifications</span>
+Specifications
 
 </td>
 
@@ -194,7 +194,7 @@ Notes](https://efi-toolkit.svn.sourceforge.net/svnroot/efi-toolkit/trunk/efi-too
 
 <td>
 
-<span class="docHeader">Technical information</span>
+Technical information
 
 </td>
 
@@ -202,7 +202,7 @@ Notes](https://efi-toolkit.svn.sourceforge.net/svnroot/efi-toolkit/trunk/efi-too
 
 </table>
 
-</div>
+
 
 License information:
 [BSD](http://www.opensource.org/licenses/bsd-license.php)

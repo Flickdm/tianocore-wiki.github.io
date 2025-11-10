@@ -39,7 +39,9 @@ data to be stripped by automated tools when required.
 # Example
 
 This is a sample [[commit message|Commit Message Format]], including signatures:
-<pre>
+
+
+
 Package/Module: Short one line description of change
 
 Several lines of
@@ -48,7 +50,9 @@ change.
 
 Signed-off-by: Contributor Name <contributor@email.server>
 Reviewed-by: Reviewer Name <reviewer@reviewer-email.server>
-</pre>
+
+
+
 
 # See Also
 

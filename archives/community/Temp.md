@@ -12,7 +12,7 @@ list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2010.SR1%20Question) -
 To join the email list goto: [Join Edk2 Devel Mail
 list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
 
-<div class=t_projects>
+
 
 <table width="100%" >
 
@@ -20,8 +20,8 @@ list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
 
 <th colspan="3" style="background-color:#a9c6dd">
 
-<span style="font-size: 14.0pt; text-align: center; font-family: Verdana; color: black">
-**UDK2010 Releases** </span>
+
+**UDK2010 Releases** 
 
 </th>
 
@@ -31,22 +31,22 @@ list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
 
 <th style="background-color:#fdbb13" width="110">
 
-<span style="font-size: 12.0pt; text-align: left; font-family: Verdana; color: white">
-Download </span>
+
+Download 
 
 </th>
 
 <th style="background-color:#fdbb13" width="430">
 
-<span style="font-size: 12.0pt; text-align: left; font-family: Verdana; color: white">
-What </span>
+
+What 
 
 </th>
 
 <th style="background-color:#fdbb13" width="200">
 
-<span style="font-size: 12.0pt; text-align: left; font-family: Verdana; color: white">
-Contents </span>
+
+Contents 
 
 </th>
 
@@ -122,15 +122,15 @@ Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.
 
 <td>
 
-<span class="docHeader">(UDK2010.SR1.UP1.P1)</span>
+(UDK2010.SR1.UP1.P1)
 
-<span class="docHeader">[File
+[File
 List](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-FilesList-MyWorkSpace.txt/download)
-</span>Of Entire Release .zip
+Of Entire Release .zip
 
 ------------------------------------------------------------------------
 
-<span class="docHeader">Documents</span>
+Documents
 
 [Download
 All](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download)
@@ -709,7 +709,7 @@ Package
 
 </table>
 
-</div>
+
 
 # UDK2010 More Info
 

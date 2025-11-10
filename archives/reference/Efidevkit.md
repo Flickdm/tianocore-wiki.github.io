@@ -1,9 +1,9 @@
 # EFI Dev Kit
 
-<b><i>Note: EDK has been deprecated. Please refer to
+***Note: EDK has been deprecated. Please refer to
 [EDK II](EDK_II) for the
 latest information. This page is maintained for historical purposes and
-will be archived in a future site update.</i></b>
+will be archived in a future site update.***
 
 The **EDK** is the open-source component of the "Framework", Intel's
 implementation of the EFI Specification, which was developed under the
@@ -34,7 +34,7 @@ Explained](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Modul
 - Developer page: [http://sourceforge.net/projects/efidevkit/develop](http://sourceforge.net/projects/efidevkit/develop)
 - EDK Files page: [http://sourceforge.net/projects/efidevkit/files](http://sourceforge.net/projects/efidevkit/files)
 
-<div class="t_projects">
+
 
 <table>
 
@@ -340,7 +340,7 @@ Fix to the Undi EDK Intel(R) PRO/1000 Network Driver
 
 </table>
 
-</div>
+
 
 [Previous EDK and Shell
 Releases](Previous_EDK_and_Shell_Releases)

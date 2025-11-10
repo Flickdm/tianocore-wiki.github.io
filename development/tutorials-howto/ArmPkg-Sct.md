@@ -23,7 +23,7 @@ Example with the latest SCT source package (UEFI 2.3.1 SCT October
     export PATH=/opt/DS-5/bin:$PATH
     SctPkg/BuildArmSct.sh RVCT
 
-<b>Note:</b> The first line is to add the ARM compiler (RVCT toolchain)
+**Note:** The first line is to add the ARM compiler (RVCT toolchain)
 to your PATH. The location of your RVCT toolchain might be different.
 
 3\. Create a MMC card with your newly built version of SCT and the EDK
@@ -43,7 +43,9 @@ binaries.
 
 Example to start ARM Versatile Express Cortex A9x4 RTSM:
 
-</pre>
+
+
+
 
 RTSM_VE_Cortex-A9_MPx4 -C
 motherboard.flashloader0.fname=\$EDK2_ROOT/Build/ArmVExpress-RTSM-A9x4/DEBUG_ARMLINUXGCC/FV/RTSM_VE_CORTEX-A9_EFI.fd
@@ -51,9 +53,11 @@ motherboard.flashloader0.fname=\$EDK2_ROOT/Build/ArmVExpress-RTSM-A9x4/DEBUG_ARM
 motherboard.flashloader1.fname="flash.dat" -C
 motherboard.flashloader1.fnameWrite="flash.dat"
 
-</pre>
 
-<b>Note:</b> The arguments '-C
+
+
+
+**Note:** The arguments '-C
 motherboard.flashloader1.fname="flash.dat" -C
 motherboard.flashloader1.fnameWrite="flash.dat"' allow to save the
 non-volatile UEFI environment variables (used by the UEFI Boot Manager)
@@ -216,7 +220,7 @@ In our case we have one failed test:
 
 Generally the most important information is the 'Runtime Information';
 in this case:
-<i>/home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:1322</i>.
+*/home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:1322*.
 This information will tell you where the error has been raised in the
 SCT test code.
 
@@ -309,11 +313,8 @@ the root of your EDK2 sources):
 
 And add a breakpoint in CheckGloballyDefinedVariables().
 
-<figure>
-<img src="ArmPkg-Sct-6.png" title="ArmPkg-Sct-6.png" />
-<figcaption>ArmPkg-Sct-6.png</figcaption>
-</figure>
-
+![](ArmPkg-Sct-6.png)
+*ArmPkg-Sct-6.png*
 Resume the execution of the Fast Model and start the SCT test to debug
 from the SCT User Interface (by pressing F9). As soon as the function
 where you have set the breakpoint is hit, DS-5 stops the execution.

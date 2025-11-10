@@ -4,7 +4,7 @@ Current [UDK](UDK) Releases
 
 ### UDK2010 Releases
 
-<div class="t_projects">
+
 
 <table>
 
@@ -200,9 +200,9 @@ UDK2010.SR1.UP1.P1 documents
 
 </table>
 
-</div>
 
-<div class="t_projects">
+
+
 
 <table>
 
@@ -364,11 +364,11 @@ Package
 
 </table>
 
-</div>
+
 
 ### Previous UDK2010 Releases
 
-<div class="t_projects">
+
 
 <table>
 
@@ -567,9 +567,9 @@ UDK2010.SR1.UP1 documents
 
 </table>
 
-</div>
 
-<div class="t_projects">
+
+
 
 <table>
 
@@ -666,15 +666,15 @@ r67
 
 <td>
 
-<span class="docHeader">(UDK2010.SR1)</span>
+(UDK2010.SR1)
 
-<span class="docHeader">[File
+[File
 List](http://iweb.dl.sourceforge.net/project/edk2/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-FileList-MyWorkSpace.txt)
-</span>Of Entire Release .zip
+Of Entire Release .zip
 
 ------------------------------------------------------------------------
 
-<span class="docHeader">Notes (UDK2010.SR1)</span>
+Notes (UDK2010.SR1)
 
 Update
 [Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes_UDK2010.SR1.zip/download)
@@ -682,7 +682,7 @@ for all packages since UDK2010.UP4 Release
 
 ------------------------------------------------------------------------
 
-<span class="docHeader">Documents</span>
+Documents
 
 [Download
 All](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents_UDK2010.SR1.zip/download)
@@ -804,9 +804,9 @@ documents
 
 </table>
 
-</div>
 
-<div class="t_projects">
+
+
 
 <table>
 
@@ -904,7 +904,7 @@ UEFI.
 
 <td>
 
-<span class="docHeader">Readme</span>
+Readme
 
 [UDK2010.UP4.Release.Notes.txt](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/UDK2010.UP4.Release.Notes.txt/download)
 
@@ -920,9 +920,9 @@ UDK2010 UP4 Help documents\]
 
 </table>
 
-</div>
 
-<div class="t_projects">
+
+
 
 <table>
 
@@ -1029,7 +1029,7 @@ documents](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010
 
 <td>
 
-<span class="docHeader">General documentation</span>
+General documentation
 
 [EDKII_UserManual_0_7.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download)
 
@@ -1046,7 +1046,7 @@ Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation
 
 <td>
 
-<span class="docHeader">Specifications</span>
+Specifications
 
 [Errata1_22a_20May2010.pdf](http://sourceforge.net/projects/edk2/files/Specifications/Errata1_22a_20May2010.pdf/download)
 
@@ -1060,7 +1060,7 @@ Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation
 
 <td>
 
-<span class="docHeader">Technical information</span>
+Technical information
 
 [PerformanceOptimization_1_0.pdf](http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download)
 
@@ -1070,9 +1070,9 @@ Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation
 
 </table>
 
-</div>
 
-<div class="t_projects">
+
+
 
 <table>
 
@@ -1179,7 +1179,7 @@ Documents](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010
 
 <td>
 
-<span class="docHeader">General documentation</span>
+General documentation
 
 [EDKII_UserManual_0_7.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download)
 
@@ -1196,7 +1196,7 @@ Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation
 
 <td>
 
-<span class="docHeader">Specifications</span>
+Specifications
 
 [Errata1_22a_20May2010.pdf](http://sourceforge.net/projects/edk2/files/Specifications/Errata1_22a_20May2010.pdf/download)
 
@@ -1210,7 +1210,7 @@ Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation
 
 <td>
 
-<span class="docHeader">Technical information</span>
+Technical information
 
 [PerformanceOptimization_1_0.pdf](http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download)
 
@@ -1220,4 +1220,4 @@ Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation
 
 </table>
 
-</div>
+

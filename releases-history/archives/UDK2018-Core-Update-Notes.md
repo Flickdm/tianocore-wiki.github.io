@@ -35,10 +35,14 @@ c. Set`gEfiShellPkgTokenSpaceGuid.PcdShellLibAutoInitialize` as FALSE for Shell.
 
 7. Microcode update module has been moved from `UefiCpuPkg` to `IntelSiliconPkg`. The Platform needs to update the MicrocodeUpdate INF path in DSC/FDF as below.
 
-<pre>
+
+
+
 UefiCpuPkg/Feature/Capsule/MicrocodeUpdateDxe/MicrocodeUpdateDxe.inf
 -> IntelSiliconPkg/Feature/Capsule/MicrocodeUpdateDxe/MicrocodeUpdateDxe.inf
-</pre>
+
+
+
 
 8. The PerformancePkg is removed. Platforms should use the `DP` command produced by the `ShellPkg/DynamicCommand/DpDynamicCommand`. The `PcAtchipsetPkg/Library/AcpiTimerLib` is recommended to be used instead of the `PerformancePkg/Library/TscTimerLib`. If the overrided `TscTimerLib` is still used, the definitions in `PerformancePkg TscFrequency.h` and `GenericIch.h` will need to be copied to the platform package.
 
@@ -76,15 +80,17 @@ SecurityPkg/Tcg/Opal/OpalPasswordDxe/OpalPasswordDxe.inf
 -> SecurityPkg/Tcg/Opal/OpalPassword/OpalPasswordDxe.inf
 ```
 
-The Platform will need to add the line below in their platform dsc and fdf files. <br>
-`SecurityPkg/Tcg/Opal/OpalPassword/OpalPasswordPei.inf` <br>
+The Platform will need to add the line below in their platform dsc and fdf files.   
+`SecurityPkg/Tcg/Opal/OpalPassword/OpalPasswordPei.inf`   
 The platform will also need to connect the trusted storage and console to enable the new `OpalPassword` solution. The `S3` reserved memory size (for example, `PcdS3AcpiReservedMemorySize`) will need to be enlarged as well as the new `OpalPasswordPei` will need to allocate a DMA buffer for DMA operations to unlock the OPAL device.
 
 14. A new field Translation is added to `PCI_ROOT_BRIDGE_APERTURE` structure in `MdeModulePkg/Include/Library/PciHostBridgeLib.h`. A Platform whose HOST address equals to DEVICE address needs to initialize this field to 0.
 
 15. All `TrEE` libraries and drivers are removed. A platform should use `Tcg2` libraries and drivers. Left guid/header file/library/drivers are removed. They are required to be replaced by right ones.
 
-<pre>
+
+
+
     gTrEEConfigFormSetGuid                    <== gTcg2ConfigFormSetGuid
     gEfiTrEEPhysicalPresenceGuid              <== gEfiTcg2PhysicalPresenceGuid
     Include/Guid/TrEEConfigHii.h              <== Include/Guid/Tcg2ConfigHii.h
@@ -98,10 +104,12 @@ The platform will also need to connect the trusted storage and console to enable
     Tcg/TrEEPei                               <== Tcg/Tcg2Pei
     Tcg/TrEEDxe                               <== Tcg/Tcg2Dxe
     Tcg/TrEESmm                               <== Tcg/Tcg2Smm
-</pre>
+
+
+
 
 **********
 **Note:** This page describes the Core package differences based on UEFI Development Kit ([UDK](UDK.md)) [UDK2017](UDK2017.md) Release.
 For a detailed list of Changes and updates See [UDK2018](UDK2018.md) Release wiki page
 
-**********
+*******---

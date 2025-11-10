@@ -1,14 +1,14 @@
 # Roadmap 2015
 
-<span style="font-size: 15.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">
+
 
 ## UDK2015 Roadmap for Tianocore.org
 
-</span>
+
 
 **Expected update Mid October**
 
-<div class="t_projects">
+
 
 <table width="100%">
 

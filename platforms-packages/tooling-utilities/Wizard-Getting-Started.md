@@ -35,8 +35,8 @@ information.
 After starting the UEFI Driver Wizard, use the 'File -\> Open Workspace'
 option to select the workspace directory (example: C:\FW\SR1.IHV).
 
-<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/UEFIDriverWizard01.png" >
-<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/UEFIDriverWizard02.png" >
+![](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/UEFIDriverWizard01.png)
+![](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/UEFIDriverWizard02.png)
 
 *Note that edksetup.bat or edksetup.sh must be run in the workspace
 directory prior to using the UEFI Driver Wizard. The EDK II
@@ -49,7 +49,7 @@ workspace directory the UEFI Driver Wizard will return an error.*
 Once the workspace directory has been configured, use the 'New UEFI
 Driver' dialog to create a blank driver in the workspace directory.
 
-<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/UEFIDriverWizard03.png" >
+![](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/UEFIDriverWizard03.png)
 
 Note that the wizard may return an error at the end of the process if
 required fields are left blank (example: UEFI Driver Name). For details

@@ -113,7 +113,7 @@ PEI CPU architecture of IA32.  Replace IA32 with PEI CPU Architecture for your p
 !endif
 ```
 
-Update BdsDxe.inf `<LibraryClasses>` section to use the PKCS7 based FMP Authentication Library
+Update BdsDxe.inf `` section to use the PKCS7 based FMP Authentication Library
 from the `SecurityPkg`.  If `CAPSULE_ENABLE` is `FALSE`, then use the Null FMP Authentication Library.
 If `CAPSULE_ENABLE` is `TRUE`, then add the EsrtDxe module, the SystemFirmwareUpdateDxe module,
 and the UEFI Application CapsuleApp to the `[Components]` section.  **NOTE:** The example below uses a
@@ -122,7 +122,7 @@ DXE CPU architecture of X64.  Replace X64 with DXE CPU Architecture for your pla
 ```
 [Components.X64]
   MdeModulePkg/Universal/BdsDxe/BdsDxe.inf {
-    <LibraryClasses>
+    
 !if $(CAPSULE_ENABLE)
       FmpAuthenticationLib|SecurityPkg/Library/FmpAuthenticationLibPkcs7/FmpAuthenticationLibPkcs7.inf
 !else
@@ -134,16 +134,16 @@ DXE CPU architecture of X64.  Replace X64 with DXE CPU Architecture for your pla
   MdeModulePkg/Universal/EsrtDxe/EsrtDxe.inf
 
   SignedCapsulePkg/Universal/SystemFirmwareUpdate/SystemFirmwareReportDxe.inf {
-    <LibraryClasses>
+    
       FmpAuthenticationLib|SecurityPkg/Library/FmpAuthenticationLibPkcs7/FmpAuthenticationLibPkcs7.inf
   }
   SignedCapsulePkg/Universal/SystemFirmwareUpdate/SystemFirmwareUpdateDxe.inf {
-    <LibraryClasses>
+    
       FmpAuthenticationLib|SecurityPkg/Library/FmpAuthenticationLibPkcs7/FmpAuthenticationLibPkcs7.inf
   }
 
   MdeModulePkg/Application/CapsuleApp/CapsuleApp.inf {
-    <LibraryClasses>
+    
       PcdLib|MdePkg/Library/DxePcdLib/DxePcdLib.inf
   }
 !endif

@@ -21,8 +21,8 @@ aslo part of this package.
 > spec – probably all the External Device will have be VenHw(...) device
 > path)..
 
-<u>Source:</u> <i>edk2-devel mailing-list - Olivier Martin - Fri
-03/08/2012 09:54</i>
+Source: *edk2-devel mailing-list - Olivier Martin - Fri
+03/08/2012 09:54*
 
 #### EMBEDDEDDEVICEPROTOCOL
 
@@ -33,8 +33,8 @@ aslo part of this package.
 > specific platform. This protocol is a tentative to get a solution to
 > this limitation.
 
-<u>Source:</u> <i>edk2-devel mailing-list - Olivier Martin - Fri
-03/08/2012 09:54</i>
+Source: *edk2-devel mailing-list - Olivier Martin - Fri
+03/08/2012 09:54*
 
 ### Source Repository
 

@@ -1,9 +1,9 @@
 # Udk2014 Features
 
-<span style="font-size: 14.0pt; text-align: center; font-family: Verdana; color: blue; font-weight: bold; font-style: normal">UDK2014
-Feature Summary </span>
+UDK2014
+Feature Summary 
 
-<div class="t_projects">
+
 
 <table width="500">
 
@@ -11,8 +11,8 @@ Feature Summary </span>
 
 <th colspan="2" style="background-color:#ff5c00">
 
-<span style="font-size: 16.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">Feature
-Details </span>
+Feature
+Details 
 
 </th>
 
@@ -22,8 +22,8 @@ Details </span>
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt;  font-family: Verdana; color: black; font-style: normal">
-Support Unified Extensible Firmware(UEFI) specification 2.4. </span>
+
+Support Unified Extensible Firmware(UEFI) specification 2.4. 
 
 </th>
 
@@ -33,8 +33,8 @@ Support Unified Extensible Firmware(UEFI) specification 2.4. </span>
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
-Support Platform Initialization(PI) specification 1.3. </span>
+
+Support Platform Initialization(PI) specification 1.3. 
 
 </th>
 
@@ -44,8 +44,8 @@ Support Platform Initialization(PI) specification 1.3. </span>
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
-Support OpenSSL version 0.98w and whole X509v3 extension check </span>
+
+Support OpenSSL version 0.98w and whole X509v3 extension check 
 
 </th>
 
@@ -55,8 +55,8 @@ Support OpenSSL version 0.98w and whole X509v3 extension check </span>
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
-Support TPM 2.0 </span>
+
+Support TPM 2.0 
 
 </th>
 
@@ -66,8 +66,8 @@ Support TPM 2.0 </span>
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt;  font-family: Verdana; color: black; font-style: normal">
-Support I2C. </span>
+
+Support I2C. 
 
 </th>
 
@@ -77,8 +77,8 @@ Support I2C. </span>
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
-Support NVM Express. </span>
+
+Support NVM Express. 
 
 </th>
 
@@ -88,8 +88,8 @@ Support NVM Express. </span>
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt;  font-family: Verdana; color: black; font-style: normal">
-Update ACPI5.0 tables, PCI definitions and Atapi definitions. </span>
+
+Update ACPI5.0 tables, PCI definitions and Atapi definitions. 
 
 </th>
 
@@ -99,8 +99,8 @@ Update ACPI5.0 tables, PCI definitions and Atapi definitions. </span>
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
-Update BaseTools Python version to 2.7.3 </span>
+
+Update BaseTools Python version to 2.7.3 
 
 </th>
 
@@ -110,13 +110,13 @@ Update BaseTools Python version to 2.7.3 </span>
 
 <th colspan="1" style="background-color:#95b3d7">
 
-<span style="font-size: 10.0pt; font-family: Verdana; color: black; font-style: normal">
+
 Please refer to the folder "Notes" and "Documents" links on the
 [UDK2014](UDK2014) link
 These contain detailed change text for each Package in this release and
 all related documentation for this release
 
-</span>
+
 
 </th>
 
@@ -124,4 +124,4 @@ all related documentation for this release
 
 </table>
 
-</div>
+

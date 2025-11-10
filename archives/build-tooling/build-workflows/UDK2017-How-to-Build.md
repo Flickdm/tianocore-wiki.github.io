@@ -29,7 +29,7 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
     2) Download the official UDK2017 release .zip file from the [UDK2017 Release Page](https://github.com/tianocore/edk2/releases/tag/vUDK2017)
         1) Download - UDK2017 edk-vUDK2017 Workspace [Source code (zip file)](https://github.com/tianocore/edk2/archive/vUDK2017.zip)
         2) Extract files in [edk2-vUDK2017] to the working space directory C:\MyWorkspace.
-    3) **OR**  Checkout the vUDK2017 Tag from GitHub with the following "git" command <br>
+    3) **OR**  Checkout the vUDK2017 Tag from GitHub with the following "git" command
         1) run  `git clone  https://github.com/tianocore/edk2.git vUDK2017`
         2) Move all files and folders under "vUDK2017" to "C:\MyWorkspace"
     4) **Optional** (See _Compile the BaseTools_ below) Checkout BaseTools binaries and copy them to BaseTools binary folder.  Warning the Windows* Binary tools are only valid for the tip of the  [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2) repository.
@@ -52,11 +52,11 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
         to enter the  workspace directory
     2) Compile the BaseTools C source tools
 
-<pre>
- set PYTHON_HOME=C:\Python27
-        set EDK_TOOLS_PATH=%CD%\BaseTools
-        BaseTools\toolssetup.bat Rebuild
-</pre>
+```bat
+set PYTHON_HOME=C:\Python27
+set EDK_TOOLS_PATH=%CD%\BaseTools
+BaseTools\toolssetup.bat Rebuild
+```
 
 5. Build Steps
     _**NT32**_
@@ -119,11 +119,11 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
         `"make -C BaseTools"`
     3) Initialize the build environment by typing
         `". edksetup.sh"`.
-    4) Type following command to build platforms using GCC v5.4.0 <BR>
+    4) Type following command to build platforms using GCC v5.4.0
         `"build  -p MdeModulePkg/MdeModulePkg.dsc -t GCC5"`
     5) Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the ~/src/MyWorkspace/Build/MdeModule/DEBUG_GCC5/IA32 directory
 
-***
+---
 
 If you have questions please email the [[edk2-devel]] mail list.
 

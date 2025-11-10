@@ -1,7 +1,6 @@
 # Udk2014 How To Build
 
-<span style="font-size: 12.0pt; text-align: center; font-family: Verdana; color: blue; font-weight: bold; font-style: normal">
-UDK2014 - How to build instructions </span>
+**UDK2014 - How to build instructions**
 
 Download the UDK2014 Release with expanded workspace directories
 [DownLoad](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download)

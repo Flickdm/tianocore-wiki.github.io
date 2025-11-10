@@ -5,17 +5,17 @@ These courses are provided and produced as a courtesy of Intel Corporation and C
 
 Before you begin a course, review the course objectives and intended audience to determine if the course is right for you.   Enjoy learning more about UEFI and EDK II!
 
-<br>
+  
 How to download: Download each lesson’s '''Zip file**'''  into your local directory.  Then unzip each one and run each of  the .htm files locally.  Double click on the index.html file for each lesson to open with your default browser.
 
 ## Courses
 
-Intended Audience:Firmware/Software Engineers <br>
+Intended Audience:Firmware/Software Engineers   
 Course Goal:Initialize the boot process by following the UEFI specifications
 <table width="100%">
 <tr>
     <th colspan="4" style="background-color:#a9c6dd">
-<b>Defining Specifications' Role in Firmware & Initializing the Boot Process</b> Lessons 0 - 5 </th>
+**Defining Specifications' Role in Firmware & Initializing the Boot Process** Lessons 0 - 5 </th>
 </tr>
 <tr>
 <td>
@@ -35,18 +35,18 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-<a href="https://github.com/tianocore-training/Lesson-0/archive/master.zip"> Zip file**</a>
-  <br>
+[ Zip file**](https://github.com/tianocore-training/Lesson-0/archive/master.zip)
+    
 
   </td>
 
   <td>
-<a href="https://tianocore-training.github.io/Lesson-0"> Launch   </a>
+[ Launch   ](https://tianocore-training.github.io/Lesson-0)
   </td>
 
   <td>
 
-Lesson 0: Defining Specifications' Role in Firmware<br>
+Lesson 0: Defining Specifications' Role in Firmware  
 
   </td>
 
@@ -57,17 +57,17 @@ Lesson 0: Defining Specifications' Role in Firmware<br>
 
   <td>
 
-<a href="https://github.com/tianocore-training/Lesson-1/archive/master.zip" > Zip File**</a>
-  <br>
+[ Zip File**](https://github.com/tianocore-training/Lesson-1/archive/master.zip)
+    
 
   </td>
   <td>
-  <a href="https://tianocore-training.github.io/Lesson-1/"> Launch   </a>
+  [ Launch   ](https://tianocore-training.github.io/Lesson-1/)
   </td>
 
   <td>
 
-Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases<br>
+Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases  
 
   </td>
 
@@ -77,34 +77,16 @@ Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases<br>
 
   <td>
 
-<a href="https://github.com/tianocore-training/Lesson-2/archive/master.zip"> Zip File**</a>
+[ Zip File**](https://github.com/tianocore-training/Lesson-2/archive/master.zip)
 
   </td>
   <td>
-  <a href="https://tianocore-training.github.io/Lesson-2/"> Launch   </a>
+  [ Launch   ](https://tianocore-training.github.io/Lesson-2/)
   </td>
 
   <td>
 
- Lesson 2: Driver Execution Environment (DXE)<br>
-
-  </td>
-
-</tr>
-<!-- COMMENT  -->
-<!-- COMMENT  -->
-<tr>
-
-  <td>
-<a href="https://github.com/tianocore-training/Lesson-3/archive/master.zip"> Zip File**</a>
-
-  </td>
-  <td>
-  <a href="https://tianocore-training.github.io/Lesson-3/"> Launch   </a>
-  </td>
-
-  <td>
-  Lesson 3: UEFI Drivers <br>
+ Lesson 2: Driver Execution Environment (DXE)  
 
   </td>
 
@@ -114,15 +96,15 @@ Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases<br>
 <tr>
 
   <td>
-<a href="https://github.com/tianocore-training/Lesson-4/archive/master.zip"> Zip File**</a>
+[ Zip File**](https://github.com/tianocore-training/Lesson-3/archive/master.zip)
 
   </td>
   <td>
-  <a href="https://tianocore-training.github.io/Lesson-4/"> Launch   </a>
+  [ Launch   ](https://tianocore-training.github.io/Lesson-3/)
   </td>
 
   <td>
-  Lesson 4: Firmware and Data Storage<br>
+  Lesson 3: UEFI Drivers   
 
   </td>
 
@@ -132,15 +114,33 @@ Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases<br>
 <tr>
 
   <td>
-<a href="https://github.com/tianocore-training/Lesson-5/archive/master.zip"> Zip File**</a>
+[ Zip File**](https://github.com/tianocore-training/Lesson-4/archive/master.zip)
 
   </td>
   <td>
-  <a href="https://tianocore-training.github.io/Lesson-5/"> Launch   </a>
+  [ Launch   ](https://tianocore-training.github.io/Lesson-4/)
   </td>
 
   <td>
-Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)<br>
+  Lesson 4: Firmware and Data Storage  
+
+  </td>
+
+</tr>
+<!-- COMMENT  -->
+<!-- COMMENT  -->
+<tr>
+
+  <td>
+[ Zip File**](https://github.com/tianocore-training/Lesson-5/archive/master.zip)
+
+  </td>
+  <td>
+  [ Launch   ](https://tianocore-training.github.io/Lesson-5/)
+  </td>
+
+  <td>
+Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)  
 
   </td>
 
@@ -157,16 +157,16 @@ Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)<b
 
 ## Training Course Detailed Descriptions
 
-<b>(downloads below are the same as above)</b>
+**(downloads below are the same as above)**
 
-'''Lesson 0: Defining Specifications' Role in Firmware'''<br>
+'''Lesson 0: Defining Specifications' Role in Firmware'''  
 Intended Audience: Firmware/Software Engineers
 Course Goal: Briefly explore the history and role of specifications in firmware
 
-Download <a href="https://github.com/tianocore-training/Lesson-0/archive/master.zip"> Lesson 0 Zip file**</a> or
-<a href="https://tianocore-training.github.io/Lesson-0"> Launch   </a>
+Download [ Lesson 0 Zip file**](https://github.com/tianocore-training/Lesson-0/archive/master.zip) or
+[ Launch   ](https://tianocore-training.github.io/Lesson-0)
 
-**Lesson 0:** <br>
+**Lesson 0:**   
 Course Objectives: When you complete the course, you will be able to:
 
 * Identify and define the Legacy BIOS and UEFI specifications
@@ -175,16 +175,16 @@ Course Objectives: When you complete the course, you will be able to:
 * Explain the benefits of Platform Initialization
 * Define EDK I and II and their purposes
 
-<hr>
+---
 
-**Initializing the Boot Process**  Lessons 1 - 5 <br>
+**Initializing the Boot Process**  Lessons 1 - 5   
 Intended Audience:Firmware/Software Engineers
 Course Goal:Initialize the boot process by following the UEFI specifications
 
-Download <a href="https://github.com/tianocore-training/Lesson-1/archive/master.zip"> Lesson 1 Zip File**</a>  or
-<a href="https://tianocore-training.github.io/Lesson-1"> Launch   </a>
+Download [ Lesson 1 Zip File**](https://github.com/tianocore-training/Lesson-1/archive/master.zip)  or
+[ Launch   ](https://tianocore-training.github.io/Lesson-1)
 
-**Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases** <br>
+**Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases**   
 When you complete this lesson, you will be able to:
 
 * Access EDK II to assist you in in using commercial compilers, providing for self-hosted development, and supplying libraries to assist in managing common tasks.
@@ -196,10 +196,10 @@ When you complete this lesson, you will be able to:
 * Explain HOBs, their purpose, and contribution to the PEI phase
 * Transition from the PEI phase to the DXE phase.
 
-Download <a href="https://github.com/tianocore-training/Lesson-2/archive/master.zip"> Lesson 2 Zip File**</a> or
-<a href="https://tianocore-training.github.io/Lesson-2"> Launch   </a>
+Download [ Lesson 2 Zip File**](https://github.com/tianocore-training/Lesson-2/archive/master.zip) or
+[ Launch   ](https://tianocore-training.github.io/Lesson-2)
 
-**Lesson 2: Driver Execution Environment (DXE)**<br>
+**Lesson 2: Driver Execution Environment (DXE)**  
 When you complete this lesson, you will be able to:
 
 * Summarize the DXE phase and its purpose, functions, properties, attributes, and components * Identify the responsibilities of the DXE phase
@@ -208,8 +208,8 @@ When you complete this lesson, you will be able to:
 * Compare and contrast the two types of DXE drivers: Early DXE Phase Drivers and UEFI Drivers
 * Explain System Management Mode Services’ characteristics, services, and role in PI.
 
-Download <a href="https://github.com/tianocore-training/Lesson-3/archive/master.zip"> Lesson 3 Zip File**</a> or
-<a href="https://tianocore-training.github.io/Lesson-3"> Launch   </a>
+Download [ Lesson 3 Zip File**](https://github.com/tianocore-training/Lesson-3/archive/master.zip) or
+[ Launch   ](https://tianocore-training.github.io/Lesson-3)
 
 **Lesson 3: UEFI Driver**
 
@@ -222,10 +222,10 @@ When you complete this lesson, you will be able to:
 * Identify and define the types of UEFI drivers
 * Describe the necessary and recommended protocols for writing UEFI drivers
 
-Download <a href="https://github.com/tianocore-training/Lesson-4/archive/master.zip"> Lesson 4 Zip File**</a> or
-<a href="https://tianocore-training.github.io/Lesson-4"> Launch   </a>
+Download [ Lesson 4 Zip File**](https://github.com/tianocore-training/Lesson-4/archive/master.zip) or
+[ Launch   ](https://tianocore-training.github.io/Lesson-4)
 
-**Lesson 4: Firmware and Data Storage***<br>
+**Lesson 4: Firmware and Data Storage***  
 When you complete this lesson, you will be able to:
 
 * Define Firmware Storage, Firmware Files, Firmware File Systems, and Firmware Volumes and explain their hierarchical relationship.
@@ -234,10 +234,10 @@ When you complete this lesson, you will be able to:
 * Locate firmware storage in a physical memory map
 * Load drivers from a non-flash location
 
-Download <a href="https://github.com/tianocore-training/Lesson-5/archive/master.zip"> Lesson 5 Zip File**</a>  Or
-<a href="https://tianocore-training.github.io/Lesson-5"> Launch   </a>
+Download [ Lesson 5 Zip File**](https://github.com/tianocore-training/Lesson-5/archive/master.zip)  Or
+[ Launch   ](https://tianocore-training.github.io/Lesson-5)
 
-**Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)**<br>
+**Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)**  
 When you complete this lesson, you will be able to:
 
 * Explain the primary steps of the BDS Phase

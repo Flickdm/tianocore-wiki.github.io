@@ -132,7 +132,7 @@ With ARM DS-5
 
     restore [EDK2_PATH]/Build/ArmVExpress-CTA9x4/DEBUG_GCC47/FV/ARMVEXPRESS_EFI.fd binary 0x80000000
 
-<b>Note:</b> You can script this copy in DS-5 by adding the following
+**Note:** You can script this copy in DS-5 by adding the following
 lines in the text box "Execute debugger commands" of the 'Debugger' tab
 in "Debug Configurations":
 
@@ -342,7 +342,7 @@ The model supports various devices that UEFI already supports such as
 the CLCD, the MMC controller, the NOR Flash, the RTC, etc
 
 To start the UEFI in the model, ensure the UEFI firmware is loaded in
-the NOR Flash mapped at 0x0 (generally NOR Flash 0). <b>Note:</b> At
+the NOR Flash mapped at 0x0 (generally NOR Flash 0). **Note:** At
 reset, the CPU always starts at 0x0.
 
 ### Example: UEFI on RTSM Versatile Express Cortex A9x4
@@ -368,7 +368,7 @@ the SCT Binaries
 
     mkfs.vfat -C -n MMC_SD_CARD mmc.dat 131072
 
-<b>Note:</b> 131072 is the size is in kilobytes (125M \* 1024)
+**Note:** 131072 is the size is in kilobytes (125M \* 1024)
 
 2\. Mount the file in the loopback device /dev/loop0:
 
@@ -378,7 +378,7 @@ the SCT Binaries
 3\. Copy the SCT binaries (ArmPlatformSCT folder) on the mounted
 filesystem (in the directory 'fs')
 
-<b>Note:</b> If your platform firmware does not have EdkShell binary,
+**Note:** If your platform firmware does not have EdkShell binary,
 you could copy the binary on the filesysem. The EdkShell binary is
 available in \[EDK2_ROOT\]/EdkShellBinPkg/FullShell/Arm/Shell_Full.efi
 
@@ -407,7 +407,7 @@ downloaded from Semihosting:
 
     gArmPlatformTokenSpaceGuid.PcdFdtDevicePath|L"VenHw(C5B9C74A-6D72-4719-99AB-C59F199091EB)/vexpress.dtb"
 
-<b>Note:</b> The EFI Device Path Node
+**Note:** The EFI Device Path Node
 'VenHw(C5B9C74A-6D72-4719-99AB-C59F199091EB)' is Semihosting UEFI File
 System driver (located at ArmPkg/Filesystem/SemihostFs). By default the
 Semihosting support loads files from the location where the Fast Model

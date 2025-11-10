@@ -7,7 +7,7 @@ Pre-requisites
 
 In order to run OVMF with QEMU, you must have QEMU version 0.9.1 or newer installed on your system.
 
-To install on Debian/Ubuntu: <code>sudo apt-get install qemu</code>
+To install on Debian/Ubuntu: `sudo apt-get install qemu`
 
 ### Get a build of OVMF.fd
 
@@ -61,32 +61,44 @@ Here is a sample command:
 
 If everything goes well, you should see a graphic logo, and the UEFI shell should start.
 
-Note: iPXE is enabled on recent builds of QEMU, and may try to network boot if a valid network adapter is detected. To disable iPXE, add <code>-net none</code> to the command line.
+Note: iPXE is enabled on recent builds of QEMU, and may try to network boot if a valid network adapter is detected. To disable iPXE, add `-net none` to the command line.
 
-Optional: Point directly to UEFI firmware in <code>edk2/Build</code> directory
+Optional: Point directly to UEFI firmware in `edk2/Build` directory
 ------------------------------------------------------------------------------
 
-The path to the <code>OVMF.fd</code> image can be directly provided on the command line, rather than copying to another directory. Example for debug image built using GCC5, with iPXE disabled:
+The path to the `OVMF.fd` image can be directly provided on the command line, rather than copying to another directory. Example for debug image built using GCC5, with iPXE disabled:
 
-<pre>
+
+
+
 qemu-system-x86_64 -L . --bios ~/src/edk2/Build/OvmfX64/DEBUG_GCC5/FV/OVMF.fd -net none
-</pre>
+
+
+
 
 QEMU with -pflash
 ----------------
 
-<pre>
+
+
+
 qemu-system-x86_64 -pflash bios.bin -hda fat:hda-contents -net none
-</pre>
+
+
+
 
 Optional: QEMU with Read/Write Fat file system using a host directory
 ----------------
 
 (Beware that QEMU makes the virtual FAT table once and host could get out of sync and QEMU might get confused)
 
-<pre>
+
+
+
 qemu-system-x86_64 -pflash bios.bin -hda fat:rw:hda-contents -net none
-</pre>
+
+
+
 
 Potential issues
 ----------------
