@@ -98,9 +98,12 @@ EFI_TLS_PROTOCOL
 EFI_TLS_CONFIGURATION_PROTOCOL
 ```
 
-Note: TlsDxe driver takes advantage of OpenSLL library, including BaseCryptLib and TlsLib. So, TLS feature highly depends on the OpenSSL building. To enable this feature, please follow the instructions found in the file "Patch-HOWTO.txt" located in CryptoPkg\Library\OpensslLib to enable the OpenSSL building first.
+Note: TlsDxe driver takes advantage of OpenSLL library, including BaseCryptLib and TlsLib. So, TLS feature highly
+depends on the OpenSSL building. To enable this feature, please follow the instructions found in the file
+"Patch-HOWTO.txt" located in CryptoPkg\Library\OpensslLib to enable the OpenSSL building first.
 
-* **NetworkPkg/TlsAuthConfigDxe** - TLS certificates configuration driver, which provides the UI to support the required certificate configuration.
+* **NetworkPkg/TlsAuthConfigDxe** - TLS certificates configuration driver, which provides the UI to support the required
+  certificate configuration.
 
 ### HTTP/HTTPS Boot
 
@@ -110,7 +113,8 @@ Note: TlsDxe driver takes advantage of OpenSLL library, including BaseCryptLib a
 EFI_HTTP_PROTOCOL
 ```
 
-Note: HttpDxe driver consumes TlsDxe driver to support HTTPS feature. The HTTP instance can be able to determine whether to use HTTP or HTTPS feature by according to the different schemes ("http://" or "https://") in the boot file URI.
+Note: HttpDxe driver consumes TlsDxe driver to support HTTPS feature. The HTTP instance can be able to determine whether
+to use HTTP or HTTPS feature by according to the different schemes ("http://" or "https://") in the boot file URI.
 
 * **NetworkPkg/HttpUtilitiesDxe** - HTTP utilities driver, which produces
 
@@ -131,7 +135,8 @@ EFI_LOAD_FILE_PROTOCOL
 
 ### Notes
 
-* UNDI, SNP, DPC and MNP drivers are components shared by IPv4 network stack and IPv6 network stack. These modules could be found in MdeModulePkg  except the UNDI driver. For UNDI driver, please contact the Card Vendor.
+* UNDI, SNP, DPC and MNP drivers are components shared by IPv4 network stack and IPv6 network stack. These modules could
+  be found in MdeModulePkg except the UNDI driver. For UNDI driver, please contact the Card Vendor.
 
 ## FEATURES ENABLING
 
@@ -252,11 +257,15 @@ EFI_LOAD_FILE_PROTOCOL
 
 ## Using EDKII Network Stack on NT32
 
-To validate network stack on NT32 platform, please download the source code of [SnpNt32Io](https://github.com/tianocore/tianocore.github.io/wiki/Network-io) and refer to the document [UEFI Network Stack for EDK Getting Started Guide](https://sourceforge.net/projects/network-io/files/Documents/) to build the SnpNt32Io dynamic library.
+To validate network stack on NT32 platform, please download the source code of
+[SnpNt32Io](https://github.com/tianocore/tianocore.github.io/wiki/Network-io) and refer to the document [UEFI Network
+Stack for EDK Getting Started Guide](https://sourceforge.net/projects/network-io/files/Documents/) to build the
+SnpNt32Io dynamic library.
 
 ## Using EDKII Network Stack on OVMF
 
-To validate network stack on OVMF platform, please refer to the [EDKII Network Stack over QEMU](https://github.com/tianocore/tianocore.github.io/wiki/EDKII-Network-Over-QEMU) page.
+To validate network stack on OVMF platform, please refer to the [EDKII Network Stack over
+QEMU](https://github.com/tianocore/tianocore.github.io/wiki/EDKII-Network-Over-QEMU) page.
 
 ## UEFI HTTP BOOT
 
@@ -268,4 +277,5 @@ Please refer to the [UEFI HTTPS Boot](https://github.com/tianocore/tianocore.git
 
 ## EDKII DPC Protocols
 
-Please refer to the [Defer Procedure Call Protocol](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-DPC-Protocol) page.
+Please refer to the [Defer Procedure Call
+Protocol](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-DPC-Protocol) page.

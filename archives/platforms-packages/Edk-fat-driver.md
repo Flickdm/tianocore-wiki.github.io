@@ -80,7 +80,7 @@ Which driver should I use?
 `o When space is crucial`
 `* FAT-Driver`
 `o When you need stability to avoid possible risk of a new implementation`
-`o When you prefer to keep the original behavior, such as 8.3 name generation algorithm, complete controller name for each volume`
+`o When you prefer to keep the original behavior, such as 8.3 name generation algorithm, complete controller name f`nor each volume`
 
 What does this mean to you?
 

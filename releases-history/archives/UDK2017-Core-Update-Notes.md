@@ -1,6 +1,6 @@
 # UDK2017 Core Update Notes
 
-1. UserPhysicalPresent() behavior is changed in SecurityPkg\Library\PlatformSecureLibNull.   
+1. UserPhysicalPresent() behavior is changed in SecurityPkg\Library\PlatformSecureLibNull.
     It will return the value of new PCD PcdUserPhysicalPresence instead of TRUE.  
     PcdUserPhysicalPresence's default value is FALSE.  
     Please set correct PcdUserPhysicalPresence value in platform DSC file.  
@@ -20,7 +20,7 @@
       CpuExceptionHandlerLib|UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib.inf
 ```
 
-4. Add Tpm12DeviceLib instance for TcgDxe.inf in platform DSC file, as below:   
+4. Add Tpm12DeviceLib instance for TcgDxe.inf in platform DSC file, as below:
 
 ```
     [LibraryClasses.common.DXE_DRIVER]
@@ -63,13 +63,13 @@
 11. Platform BDS should invoke EfiBootManagerDispatchDeferredImages() just after
     gEfiDxeSmmReadyToLockProtocolGuid is installed. Please refer to the following
     code at quarkplatformpkg/library/platformbootmanagerlib/PlatformBootManager.c.  
-      `//`   
-     `// Dispatch deferred images after EndOfDxe event and ReadyToLock installation.`   
-      `//`   
+      `//`
+     `// Dispatch deferred images after EndOfDxe event and ReadyToLock installation.`
+      `//`
      ` EfiBootManagerDispatchDeferredImages (); `  
     If external Graphics card is chosen for display, Platform BDS should connect the
     external Graphics controller again to retrieve the GOP device path. It should add
-    the GOP device path to "ConOut" EFI variable.   
+    the GOP device path to "ConOut" EFI variable.
     If any PCI/PCIE devices containing UEFI Option ROM and not listed in
     ConIn/ConOut/ErrOut are connected before EndOfDxe/SmmReadyToLock, Platform BDS
     should connect these devices again after invoking
@@ -85,7 +85,7 @@
     input parameter.
     For example, it should check Request if is NULL before using it.  
      `- if (HiiIsConfigHdrMatch (Request, &mBootMaintGuid, mBootMaintStorageName)) {`  
-     `+ if ((Request != NULL) && HiiIsConfigHdrMatch (Request, &mBootMaintGuid, mBootMaintStorageName)) {`   
+     `+ if ((Request != NULL) && HiiIsConfigHdrMatch (Request, &mBootMaintGuid, mBootMaintStorageName)) {`
     If some platform fails on S4 resume, please make sure PcdResetOnMemoryTypeInformationChange
     is set to TRUE by platform or set below PCD to FALSE to disable this feature
     in platform DSC file.  
@@ -115,7 +115,7 @@
     there is no port multiplier.
     The consumer of SATA_DEVICE_PATH or EFI_ATA_PASS_THRU_PROTOCOL needs to
     re-examine and update its usage accordingly.
-    For example, a case was met in a server platform:   
+    For example, a case was met in a server platform:
       `DevicePath = ConvertTextToDevicePath (L"PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0x0,0x0)");`  
     should be updated to  
       `DevicePath = ConvertTextToDevicePath (L"PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0xFFFF,0x0)");`
@@ -125,14 +125,14 @@
 19. PrintLib APIs UnicodeValueToString() and AsciiValueToString() are deprecated.
     And their safe counterparts UnicodeValueToStringS() and AsciiValueToStringS()
     are added.
-    If the macro "DISABLE_NEW_DEPRECATED_INTERFACES" is defined in platform, then   
+    If the macro "DISABLE_NEW_DEPRECATED_INTERFACES" is defined in platform, then
     UnicodeValueToString() and AsciiValueToString() should be replaced with
     UnicodeValueToStringS() and AsciiValueToStringS() respectively.
 20. MtrrLib was updated to check the MTRR precedence.  
     If a platform uses below deprecated macros defined in UefiCpuPkg/Include/Library/MtrrLib.h,
     assertion might be triggered from MtrrLibPrecedence().  
-     `#define  MTRR_LIB_MSR_VALID_MASK                     0xFFFFFFFFFULL`   
-     `#define  MTRR_LIB_CACHE_VALID_ADDRESS                0xFFFFFF000ULL`   
+     `#define  MTRR_LIB_MSR_VALID_MASK                     0xFFFFFFFFFULL`
+     `#define  MTRR_LIB_CACHE_VALID_ADDRESS                0xFFFFFF000ULL`
     Please refer to MtrrLibInitializeMtrrMask() in MtrrLib to calculate the bit
     mask and address mask.
 21. SmmIoLib has been added to perform MMIO range checks.
@@ -140,7 +140,7 @@
     IoLib and PciLib, please replace the usages of platform SmmIoLib with core
     IoLib and PciLib.
 22. Please use the following instance for SecurityPkg/Tcg/Tcg2Smm/Tcg2Smm.inf.  
-    ``   
+    ``
  `Tpm2DeviceLib|SecurityPkg/Library/Tpm2DeviceLibTcg2/Tpm2DeviceLibTcg2.inf`
 
 **********

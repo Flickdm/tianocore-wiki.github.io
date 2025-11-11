@@ -1,6 +1,7 @@
 # EDK II Code Formatting
 
-To better realize the goals of the [EDK II C Coding Standards Specification](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/draft/),
+To better realize the goals of the [EDK II C Coding Standards
+Specification](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/draft/),
 EDK II code formatting is automated using a source code beautifier called Uncrustify. Uncrustify is compatible with
 C/C++ in addition to other languages. In EDK II, it is used to format C language source code.
 
@@ -20,11 +21,13 @@ standard:
   header.
 * **default_function_header.txt** - A text file containing a template that is placed above functions that are missing
   a function header.
-* [**Readme.md**](https://github.com/tianocore/edk2/blob/master/.pytool/Plugin/UncrustifyCheck/Readme.md) - A file that contains details about how the plugin works and how to use it.
+* [**Readme.md**](https://github.com/tianocore/edk2/blob/master/.pytool/Plugin/UncrustifyCheck/Readme.md) - A file that
+  contains details about how the plugin works and how to use it.
 * **uncrustify_ext_dep.yml** - An "external dependency" file that is used to get the current version of the Uncrustify
   application used by the plugin. This file contains the NuGet feed URL and the version currently used.
 * **uncrustify_plug_in.yaml** - A file that contains information to describe the plugin to the build environment.
-* [**uncrustify.cfg**](https://github.com/tianocore/edk2/blob/master/.pytool/Plugin/UncrustifyCheck/uncrustify.cfg) - A file used by the Uncrustify application to control how it formats code. If you want to tweak
+* [**uncrustify.cfg**](https://github.com/tianocore/edk2/blob/master/.pytool/Plugin/UncrustifyCheck/uncrustify.cfg) - A
+  file used by the Uncrustify application to control how it formats code. If you want to tweak
   particular formatting details, this is the place to start.
 * **UncrustifyCheck.py** - The actual Python file that is the CI plugin. Like all CI plugins, this plugin can be run
   in local CI and server CI.
@@ -54,7 +57,8 @@ is based on a PR that intentionally introduces a code formatting issue in MdeMod
 
 2. Determine the Failure Reason
 
-   ![Reasons for PR Failure](images/edk-ii-code-formatting/github-pr-build-failure-uncrustifycheck.png "Reasons for PR Failure")
+![Reasons for PR Failure](images/edk-ii-code-formatting/github-pr-build-failure-uncrustifycheck.png "Reasons for PR
+Failure")
 
    On this page, it is shown that 1 failure occurred and that is due to 1 incorrectly formatted file in MdeModulePkg.
 
@@ -89,7 +93,8 @@ is based on a PR that intentionally introduces a code formatting issue in MdeMod
 
    Back in the job page, a summary is shown at the top of the page like the following:
 
-   ![Build Test Results](images/edk-ii-code-formatting/azure-pipelines-pr-summary-test-failed-percentage.png "Build Test Results")
+![Build Test Results](images/edk-ii-code-formatting/azure-pipelines-pr-summary-test-failed-percentage.png "Build Test
+Results")
 
    To learn more about the test results, click the text. In this case, `92.5% passed`.
 
@@ -108,13 +113,15 @@ is based on a PR that intentionally introduces a code formatting issue in MdeMod
    We can again see this failure is regarding 1 file in MdeModulePkg. Click `Attachments` to get the error log which
    has the detailed information.
 
-   ![Coding Standard Test Result](images/edk-ii-code-formatting/azure-devops-test-results-coding-standard-result.png "Coding Standard Test Result")
+![Coding Standard Test Result](images/edk-ii-code-formatting/azure-devops-test-results-coding-standard-result.png
+"Coding Standard Test Result")
 
 8. Go to the Error Log  Attachment
 
    Now, click the error log to get the error output. In this case, click `Standard_Error_Output.log`.
 
-   ![Standard Output Error Log](images/edk-ii-code-formatting/azure-devops-test-failed-standard-error-output.png "Standard Output Error Log")
+![Standard Output Error Log](images/edk-ii-code-formatting/azure-devops-test-failed-standard-error-output.png "Standard
+Output Error Log")
 
    This log shows the exact changes that are needed to pass code formatting.
 
@@ -124,11 +131,13 @@ is based on a PR that intentionally introduces a code formatting issue in MdeMod
 ## EDK II Uncrustify Fork
 
 Due to nuances in the way EDK II formats code, some changes were made to the upstream Uncrustify application. These
-were changes that could not be controlled purely through the Uncrustify configuration file. For more details about the fork,
+were changes that could not be controlled purely through the Uncrustify configuration file. For more details about the
+fork,
 please visit that project overview in the link below.
 
 * Uncrustify upstream repository: [https://github.com/uncrustify/uncrustify](https://github.com/uncrustify/uncrustify)
-* Uncrustify EDK II fork repository (in Project Mu): [https://dev.azure.com/projectmu/Uncrustify](https://dev.azure.com/projectmu/Uncrustify)
+* Uncrustify EDK II fork repository (in Project Mu):
+  [https://dev.azure.com/projectmu/Uncrustify](https://dev.azure.com/projectmu/Uncrustify)
 
 ## Developer Workflow
 
@@ -151,7 +160,8 @@ The recommended flow is:
 
 ## Installing Uncrustify
 
-Uncrustify is a portable executable that is built in the [EDK II Uncrustify fork repository](https://dev.azure.com/projectmu/Uncrustify)
+Uncrustify is a portable executable that is built in the [EDK II Uncrustify fork
+repository](https://dev.azure.com/projectmu/Uncrustify)
 and ultimately published into a NuGet feed in that fork project.
 
 ### Recommended Installation: In edk2 repository
@@ -160,7 +170,8 @@ It is strongly recommended to follow this flow. It sets up the workspace to work
 the current supported version of the application.
 
 The Uncrustify tool is installed automatically when the pytools environment is used and the `stuart*` commands are run
-to complete environment setup. Review the edk2 [.pytool/Readme.md](https://github.com/tianocore/edk2/tree/master/.pytool#running-ci-locally)
+to complete environment setup. Review the edk2
+[.pytool/Readme.md](https://github.com/tianocore/edk2/tree/master/.pytool#running-ci-locally)
 file for details on `stuart` and this overall flow.
 
 After running the `stuart_update` command, the Uncrustify application content should be brought down into
@@ -175,7 +186,8 @@ project contains the build information for each release. Each build in this pipe
 a specific build, the details mapping the build to source code (such as the branch and commit) are present.
 
 The build content is published as a NuGet package to a NuGet feed. This is the same feed, the recommended installation
-instructions automatically pull from. The NuGet feed is available in the ["Artifacts"](https://dev.azure.com/projectmu/Uncrustify/_packaging?_a=feed&feed=mu_uncrustify)
+instructions automatically pull from. The NuGet feed is available in the
+["Artifacts"](https://dev.azure.com/projectmu/Uncrustify/_packaging?_a=feed&feed=mu_uncrustify)
 section of the fork project. If you hover/click on a specific package entry (e.g. "mu-uncrustify-release"), a set of
 three ellipsis will appear. Click the ellipsis and a context menu will appear. The NuGet package can be downloaded
 by clicking "Download \<x.y.z\>".
@@ -200,7 +212,8 @@ the configuration details are set once in the editor configuration file.
      Id: zachflower.uncrustify
      Description: Code format using uncrustify
      Publisher: Zachary Flower
-     VS Marketplace Link: [https://marketplace.visualstudio.com/items?itemName=zachflower.uncrustify](https://marketplace.visualstudio.com/items?itemName=zachflower.uncrustify)
+VS Marketplace Link:
+[https://marketplace.visualstudio.com/items?itemName=zachflower.uncrustify](https://marketplace.visualstudio.com/items?itemName=zachflower.uncrustify)
 
 2. Configure the Uncrustify plugin for your local setup by adding the following to your VS Code settings.json file:
    (Windows example)
@@ -214,7 +227,8 @@ the configuration details are set once in the editor configuration file.
    >
    >```json
    >"uncrustify.configPath.windows": "D:/src/edk2/.pytool/Plugin/UncrustifyCheck/uncrustify.cfg",
-   >"uncrustify.executablePath.windows": "D:/src/edk2/.pytool/Plugin/UncrustifyCheck/mu-uncrustify-release_extdep/Windows-x86/uncrustify.exe"
+>"uncrustify.executablePath.windows":
+"D:/src/edk2/.pytool/Plugin/UncrustifyCheck/mu-uncrustify-release_extdep/Windows-x86/uncrustify.exe"
    >```
 
 3. Open a C source code file, _`Ctrl+Shift+P` -> Format Document With... -> Configure Default Formatter -> Uncrustify_
@@ -267,16 +281,19 @@ git ls-files DynamicTablesPkg*.c DynamicTablesPkg*.h | .\.pytool\Plugin\Uncrusti
      (such as Brotli files in MdeModulePkg) from getting included in the file list (if you are running against all
      files). Including all files will significantly increase the amount of time Uncrustify takes to run.
 
-   * Sample Powershell command to recursively write all .c and .h files in a given package to a text file (this can of course be done with other languages/commands):
+* Sample Powershell command to recursively write all .c and .h files in a given package to a text file (this can of
+course be done with other languages/commands):
 
      ```powershell
      Get-ChildItem -Path .\MdePkg\* -Include *.c, *.h -Recurse -Force | %{$_.fullname} | Out-File
      -FilePath .\MdePkgFiles.txt -Encoding utf8
      ```
 
-   > **WARNING** Powershell will put the UTF-8 BOM at the beginning of the output file. Uncrustify does not recognize the BOM
+> **WARNING** Powershell will put the UTF-8 BOM at the beginning of the output file. Uncrustify does not recognize the
+BOM
    and it should be removed before passing the file as input to Uncrustify. If it is not removed, Uncrustify will
-   not read the first file path in the text file properly which will cause the file to not be formatted. **Keep this in mind regardless of the method used for generating the text file.**
+not read the first file path in the text file properly which will cause the file to not be formatted. **Keep this in
+mind regardless of the method used for generating the text file.**
 
 2. Run Uncrustify using the generated text file as input
 
@@ -285,7 +302,8 @@ Example to run against all .c and .h files in `MdePkg` executed from the root of
    Windows:
 
    ```shell
-   .\.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c .\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -F MdePkgFiles.txt --replace --no-backup --if-changed
+.\.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c
+.\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -F MdePkgFiles.txt --replace --no-backup --if-changed
    ```
 
 * The following options are given to the Uncrustify application:
@@ -304,7 +322,9 @@ Example to run against all .c and .h files in `MdePkg` executed from the root of
    Windows:
 
    ```shell
-   .\.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c .\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -f .\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableSmm.c -o output.c -l C -p uncrustify_debug.txt -L A 2>verbose_debug.txt
+.\.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c
+.\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -f .\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableSmm.c -o
+output.c -l C -p uncrustify_debug.txt -L A 2>verbose_debug.txt
    ```
 
 Uncrustify will update the source files in-place (with the commands given). This allows you to diff the results with
@@ -328,7 +348,8 @@ Here's an example of running UncrustifyCheck against MdeModulePkg from the root 
 If a file has a formatting error, it will be noted in the output from `stuart_ci_build`. This is visible in the
 terminal output in local CI and the build output log in server CI.
 
-Read the [UncrustifyCheck Readme.md](https://github.com/tianocore/edk2/blob/master/.pytool/Plugin/UncrustifyCheck/Readme.md)
+Read the [UncrustifyCheck
+Readme.md](https://github.com/tianocore/edk2/blob/master/.pytool/Plugin/UncrustifyCheck/Readme.md)
 to understand more about how the plugin can be configured for CI.
 
 ## Extra Reading: Tracing History Across the Uncrustify Transition in edk
@@ -342,7 +363,7 @@ A tool called git-filter-repo can be used to perform this transformation and run
 (a few hours):
 
 * [https://github.com/newren/git-filter-repo](https://github.com/newren/git-filter-repo)
-* [https://github.com/newren/git-filter-repo/blob/main/contrib/filter-repo-demos/lint-history](https://github.com/newren/git-filter-repo/blob/main/contrib/filter-repo-demos/lint-history)
+  [https://github.com/newren/git-filter-repo/blob/main/contrib/filter-repo-demos/lint-history](https://github.com/newren/git-filter-repo/blob/main/contrib/filter-repo-demos/lint-history)
 
 The following steps can be used to perform this transformation. This is the Windows process. A Linux process will be
 added in the future.
@@ -358,7 +379,8 @@ added in the future.
    ```
 
 2. Setup python virtual env, install pytools, and run stuart commands to setup build environment which includes
-   installing uncrustify tools. See [Running CI Locally](https://github.com/tianocore/edk2/tree/master/.pytool#running-ci-locally).
+installing uncrustify tools. See [Running CI
+Locally](https://github.com/tianocore/edk2/tree/master/.pytool#running-ci-locally).
 
 3. Make a backup copy of the plugin UncrustifyCheck outside WORKSPACE. (e.g. C:\Temp\UncrustifyCheck) so the
    Uncrustify executable and EDK II specific Uncrustify configuration file are available when working with a branch

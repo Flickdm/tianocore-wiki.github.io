@@ -22,23 +22,36 @@ So start UEFI a first time on the target up to the Boot menu.
 
 Load all the symbols with DS-5 (symbols for Pre-EFI and UEFI phases):
 
-    source "/home/olivier/tianocore/ArmPlatformPkg/Scripts/Ds5/cmd_load_symbols.py" -f (0xB0000000,0x000B0000) -m (0x80000000,0x40000000) -v -a
+source "/home/olivier/tianocore/ArmPlatformPkg/Scripts/Ds5/cmd_load_symbols.py" -f (0xB0000000,0x000B0000) -m
+(0x80000000,0x40000000) -v -a
 
 Save the output into a file and replace the entry line to make DS-5
 command line. Example:
 
 From:
 
-    Add symbols of /home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/ArmPlatformPkg/PrePi/PeiMPCore/DEBUG/ArmPlatformPrePiMPCore.dll at 0xb0000180
-    Add symbols of /home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll at 0xbfd62240
-    Add symbols of /home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll at 0xbfd14240
+Add symbols of
+/home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/ArmPlatformPkg/PrePi/PeiMPCore/DEBUG/ArmPlatformPrePiMPCore.dll
+at 0xb0000180
+Add symbols of
+/home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll at
+0xbfd62240
+Add symbols of
+/home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll at
+0xbfd14240
     (...)
 
 To:
 
-    add-symbol-file /home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/ArmPlatformPkg/PrePi/PeiMPCore/DEBUG/ArmPlatformPrePiMPCore.dll 0xb0000180
-    add-symbol-file /home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll 0xbfd62240
-    add-symbol-file /home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll 0xbfd14240
+add-symbol-file
+/home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/ArmPlatformPkg/PrePi/PeiMPCore/DEBUG/ArmPlatformPrePiMPCore.dll
+0xb0000180
+add-symbol-file
+/home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+0xbfd62240
+add-symbol-file
+/home/olivier/tianocore/Build/ArmVExpress-CTA15-A7/RELEASE_GCC48/ARM/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll
+0xbfd14240
     (...)
 
 Save the file into symbols.ds

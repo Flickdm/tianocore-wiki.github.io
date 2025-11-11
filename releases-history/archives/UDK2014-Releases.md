@@ -51,7 +51,7 @@ Contents
 **UDK2014.SP1.P1**
 
 ``[`Download zip`
-``](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download)
+``](<https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download>)
 ``
 
 </th>
@@ -90,9 +90,9 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-[[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:)
+[[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):](<https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1>:)
 r16557
-[[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:)
+[[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):](<https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg>:)
 r92
 
 **How to Build**
@@ -103,7 +103,8 @@ r92
 **Features Summary:**
 See
 [Release
-Notes Features](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-Features.txt/download)
+Notes
+Features](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-Features.txt/download)
 
 **Supported OS and Build Environments**
 
@@ -152,12 +153,10 @@ UDK2014 only
 
 <th width="220">
 
-## 
+##
 
 EDK II
 Specifications
-
-
 
 </th>
 
@@ -223,11 +222,9 @@ Each document is a .PDF of each of the specifications
 
 <th width="220">
 
-## 
+##
 
 Documents
-
-
 
 </th>
 
@@ -250,7 +247,8 @@ What’s in the Download?
 <td>
 
 [Download
-All CHM/HTMLs](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download)
+All
+CHM/HTMLs](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download)
 
 UDK2014 only
 [Download
@@ -429,10 +427,12 @@ package provides the modules that conform to UEFI/PI Industry standards.
 <td>
 
 [MdePkg
-w/ Libraries .chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.chm/download)
+w/ Libraries
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.chm/download)
 
 [MdePkg
-w/ Libraries .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.zip/download)
+w/ Libraries
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.zip/download)
 
 [MdePkg
 .chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.chm/download)
@@ -570,9 +570,9 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-[[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:)
+[[https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1](https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1):](<https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1>:)
 r16182
-[[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:)
+[[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):](<https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg>:)
 r92
 
 **How to Build**
@@ -581,7 +581,8 @@ r92
 **Features Summary:**
 See
 [Release
-Notes Features](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-Features.txt/download)
+Notes
+Features](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-Features.txt/download)
 
 **Supported OS and Build Environments**
 
@@ -630,12 +631,10 @@ UDK2014 only (not UDK2014.SP1)
 
 <th width="220">
 
-## 
+##
 
 EDK II
 Specifications
-
-
 
 </th>
 
@@ -703,11 +702,9 @@ Each document is a .PDF of each of the specifications
 
 <th width="220">
 
-## 
+##
 
 Documents
-
-
 
 </th>
 
@@ -730,7 +727,8 @@ What’s in the Download?
 <td>
 
 [Download
-All CHM/HTMLs](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download)
+All
+CHM/HTMLs](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download)
 
 UDK2014 only (not UDK2014.SP1)
 [Download
@@ -910,10 +908,12 @@ package provides the modules that conform to UEFI/PI Industry standards.
 <td>
 
 [MdePkg
-w/ Libraries .chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.chm/download)
+w/ Libraries
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.chm/download)
 
 [MdePkg
-w/ Libraries .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.zip/download)
+w/ Libraries
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document%20With%20Libraries.zip/download)
 
 [MdePkg
 .chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014.SP1/MdePkg%20Document.chm/download)
@@ -1047,9 +1047,9 @@ MyWorkSpace Directory)
 
 Based on svn version:
 
-[[https://svn.code.sf.net/p/edk2/code/branches/UDK2014](https://svn.code.sf.net/p/edk2/code/branches/UDK2014):](https://svn.code.sf.net/p/edk2/code/branches/UDK2014:)
+[[https://svn.code.sf.net/p/edk2/code/branches/UDK2014](https://svn.code.sf.net/p/edk2/code/branches/UDK2014):](<https://svn.code.sf.net/p/edk2/code/branches/UDK2014>:)
 r15322
-[[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:)
+[[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg):](<https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg>:)
 r84
 
 **How to Build**
@@ -1106,12 +1106,10 @@ All PDFs](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/U
 
 <th width="220">
 
-## 
+##
 
 EDK II
 Specifications
-
-
 
 </th>
 
@@ -1178,11 +1176,9 @@ Each document is a .PDF of each of the specifications
 
 <th width="220">
 
-## 
+##
 
 Documents
-
-
 
 </th>
 
@@ -1270,7 +1266,8 @@ cryptographic-related libraries for UEFI security modules.
 <td>
 
 [EdkCompatibilityPkgPkg
-.chm .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm.zip/download)
+.chm
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm.zip/download)
 [EdkCompatibilityPkgPkg
 .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download)
 [EdkCompatibilityPkgPkg
@@ -1336,7 +1333,8 @@ implementation which follows Intel EFI Framework Specification.
 <td>
 
 [IntelFrameworkPkg
-.chm .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.chm.zip/download)
+.chm
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.chm.zip/download)
 
 [IntelFrameworkPkg
 .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.zip/download)
@@ -1368,7 +1366,8 @@ implementation which follows Intel EFI Framework Specification.
 <td>
 
 [MdeModulePkg
-.chm .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.chm.zip/download)
+.chm
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.chm.zip/download)
 
 [MdeModulePkg
 .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.zip/download)
@@ -1403,13 +1402,16 @@ package provides the modules that conform to UEFI/PI Industry standards.
 <td>
 
 [MdePkg
-w/ Libraries .chm .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.chm.zip/download)
+w/ Libraries .chm
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.chm.zip/download)
 
 [MdePkg
-w/ Libraries .zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.zip/download)
+w/ Libraries
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.zip/download)
 
 [MdePkg
-w/ Libraries .pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.pdf/download)
+w/ Libraries
+.pdf](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.pdf/download)
 
 [MdePkg
 .chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.chm/download)

@@ -1,7 +1,8 @@
 # Performance Infrastructure
 
 User can use the Perf macros in edk2/MdePkg/Include/Library/PerformanceLib.h to log the performance information.  
-The performance information are collected in FPDT record format directly by performance libraries and then saved in ACPI Firmware Performance Data Table(FPDT).  
+The performance information are collected in FPDT record format directly by performance libraries and then saved in ACPI
+Firmware Performance Data Table(FPDT). 
 Thus the performance data can be dumped both in UEFI Shell and OS by tools to parse FPDT in ACPI table.
 
 ## Performance Enable
@@ -21,7 +22,8 @@ Thus the performance data can be dumped both in UEFI Shell and OS by tools to pa
        you can add ShellPkg/DynamicCommand/DpDynamicCommand/DpDynamicCommand.inf on your platform**
 
 **Notes:**
-If you want to filter some performance data, please check the configuration of PcdPerformanceLibraryPropertyMask in below PCD part for more information.
+If you want to filter some performance data, please check the configuration of PcdPerformanceLibraryPropertyMask in
+below PCD part for more information.
 
 ## Performance Dump Tool
 
@@ -124,8 +126,10 @@ If you want to filter some performance data, please check the configuration of P
 * Firmware Basic Boot Performance Record:  
      BasicBootPerformanceRecord.**ResetEnd**  
      Platform SEC library caches the time stamp of ResetEnd through SecPerformancePpi.  
-     And SecCore passes the SecPerformancePpi to PeiCore as notification type and add SecPerformancePpiCallback function to get SEC performance data and build Guided HOB to convey the performance data to DXE phase.  
-     So in PEI phase, SecPerformancePpiCallback is called, and then ResetEnd data can be got in DXE phase through Guided HOB.
+And SecCore passes the SecPerformancePpi to PeiCore as notification type and add SecPerformancePpiCallback function to
+get SEC performance data and build Guided HOB to convey the performance data to DXE phase. 
+     So in PEI phase, SecPerformancePpiCallback is called, and then ResetEnd data can be got in DXE phase through
+Guided HOB.
      Currently FirmwarePerformanceDataTableDxe gets ResetEnd data from the Guided HOB.
 
      BasicBootPerformanceRecord.**OsLoaderLoadImageStart**  
@@ -141,7 +145,8 @@ If you want to filter some performance data, please check the configuration of P
      `gEfiMdeModulePkgTokenSpaceGuid.PcdProgressCodeOsLoaderStart|0x03058001|UINT32|0x30001031`  
 
      BasicBootPerformanceRecord.**ExitBootServicesEntry**  
-     FirmwarePerformanceDataTableDxe registers callback function when ExitBootServices Event is signaled and save the time data.
+FirmwarePerformanceDataTableDxe registers callback function when ExitBootServices Event is signaled and save the time
+data.
 
      BasicBootPerformanceRecord.**ExitBootServicesExit**  
 FirmwarePerformanceDataTableDxe listens to the status code of EFI_SW_BS_PC_EXIT_BOOT_SERVICES to save the time data.  
@@ -155,7 +160,8 @@ FirmwarePerformanceDataTableDxe listens to the status code of EFI_SW_BS_PC_EXIT_
 
 ### PcdPerformanceLibraryPropertyMask
 
-  User can configure it to enable the performance infrastructure and also can filter some uninterested performance data.  
+  User can configure it to enable the performance infrastructure and also can filter some uninterested performance
+data.  
   The meaning of each bits in PcdPerformanceLibraryPropertyMask as below:
 
 * BIT0 - Enable Performance Measurement.
@@ -175,8 +181,10 @@ FirmwarePerformanceDataTableDxe listens to the status code of EFI_SW_BS_PC_EXIT_
 ### PcdEdkiiFpdtStringRecordEnableOnly
 
   Control the FPDT record format used to store the performance entry when performance enable.
-  **PcdEdkiiFpdtStringRecordEnableOnly=TRUE:** FPDT_DYNAMIC_STRING_EVENT_RECORD will be used to store every performance Entry.  
-  **PcdEdkiiFpdtStringRecordEnableOnly=FALSE:** different FPDT records will be used to store different performance entries.
+**PcdEdkiiFpdtStringRecordEnableOnly=TRUE:** FPDT_DYNAMIC_STRING_EVENT_RECORD will be used to store every performance
+Entry. 
+**PcdEdkiiFpdtStringRecordEnableOnly=FALSE:** different FPDT records will be used to store different performance
+entries.
 
   **Notes:** The configuration of this PCD may impact the tool to parse the ACPI FPDT to dump the performance data.  
   Current DP tool in ShellPkg can dump the performance data regardless of the PcdEdkiiFpdtStringRecordEnableOnly setting

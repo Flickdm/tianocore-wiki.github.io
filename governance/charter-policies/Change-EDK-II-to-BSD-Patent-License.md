@@ -2,14 +2,17 @@
 
 This change is based on the following emails:
 
-* [https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html](https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html)
-* [https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html](https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html)
+  [https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html](https://lists.01.org/pipermail/edk2-devel/2019-February/036260.html)
+  [https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html](https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html)
 
 RFCs with detailed process for the license change:
 
-* V3: [https://lists.01.org/pipermail/edk2-devel/2019-March/038116.html](https://lists.01.org/pipermail/edk2-devel/2019-March/038116.html)
-* V2: [https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html](https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html)
-* V1: [https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html](https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html)
+* V3:
+  [https://lists.01.org/pipermail/edk2-devel/2019-March/038116.html](https://lists.01.org/pipermail/edk2-devel/2019-March/038116.html)
+* V2:
+  [https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html](https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html)
+* V1:
+  [https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html](https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html)
 
 # GitHub Issue
 

@@ -2,7 +2,8 @@
 
 ## Overview
 
-We will be holding the second (of many) community meetings in hopes of receiving feedback as well as raising any new ideas or concerns.
+We will be holding the second (of many) community meetings in hopes of receiving feedback as well as raising any new
+ideas or concerns.
 
 ## Add to Calendar
 
@@ -43,7 +44,8 @@ TianoCore Community Manager
 
 ## Overview
 
-We will be holding the first (of many) community meetings in hopes of receiving feedback as well as raising any new ideas or concerns.
+We will be holding the first (of many) community meetings in hopes of receiving feedback as well as raising any new
+ideas or concerns.
 
 ## Some initial topics that may be discussed include
 

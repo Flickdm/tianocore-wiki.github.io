@@ -19,7 +19,8 @@ If you are new to the concept of containers, more information can be found
 
 The existing TianoCore container images are created for use with Docker. On Linux,
 docker can be installed through the distributions package management application.
-For specific builds and for other operating systems, see the [Docker install page](https://docs.docker.com/engine/install/).
+For specific builds and for other operating systems, see the [Docker install
+page](https://docs.docker.com/engine/install/).
 
 ### Windows Docker Setup
 
@@ -58,7 +59,8 @@ Some developers may wish to manually maintain their containers. This is useful
 for using editors that do not have native support for containers or the specific
 type of containers used.
 
-First, select the image most appropriate from the [TianoCore containers list](https://github.com/tianocore/containers#current-status)
+First, select the image most appropriate from the [TianoCore containers
+list](https://github.com/tianocore/containers#current-status)
 or a custom image for a specific platform or project. This image can be pulled down
 from the docker command line.
 
@@ -121,8 +123,10 @@ And example of a devcontainer used for a QEMU platform repo is included below.
 ## Pipeline Builds
 
 Both Azure pipelines and github workflows have native support for containers. Information
-on this can be found in the [Azure Pipeline Documentation](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/container-phases?view=azure-devops)
-and the [Github Workflow Documentation](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions).
+on this can be found in the [Azure Pipeline
+Documentation](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/container-phases?view=azure-devops)
+and the [Github Workflow
+Documentation](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions).
 
 One important detail to note is that Azure pipelines will create a new user in the
 docker image during the pipeline. This user is used for all tasks and operations

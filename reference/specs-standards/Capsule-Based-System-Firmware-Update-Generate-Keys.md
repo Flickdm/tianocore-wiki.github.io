@@ -4,11 +4,16 @@ Back to [Capsule Based System Firmware Update](Capsule-Based-System-Firmware-Upd
 
 # How to Generate Signing Keys using OpenSSL Command Line Utilities
 
-These instructions generate a new self-signed X.509 Certificate Chain for signing UEFI Capsules, using [OpenSSL](https://www.openssl.org) command line utilities as an example.
+These instructions generate a new self-signed X.509 Certificate Chain for signing UEFI Capsules, using
+[OpenSSL](https://www.openssl.org) command line utilities as an example.
 
-> NOTE: These instructions only cover how to generate a new X.509 Certificate Chain.  It is up to the product owner to properly handle and protect a the cryptographic pair of private keys and public X.509 certificates used to sign and authenticate capsule-based system firmware update images.
+> NOTE: These instructions only cover how to generate a new X.509 Certificate Chain.  It is up to the product owner to
+properly handle and protect a the cryptographic pair of private keys and public X.509 certificates used to sign and
+authenticate capsule-based system firmware update images.
 
-The OpenSSL configuration and OpenSSL commands on this page were verified using the pre-built 32-bit [OpenSSL for Windows binaries, Version 1.0.2j Light](https://slproweb.com/products/Win32OpenSSL.html).  Other versions of OpenSSL may require different command flags or configuration settings.
+The OpenSSL configuration and OpenSSL commands on this page were verified using the pre-built 32-bit [OpenSSL for
+Windows binaries, Version 1.0.2j Light](https://slproweb.com/products/Win32OpenSSL.html). Other versions of OpenSSL may
+require different command flags or configuration settings.
 
 # Setup OpenSSL Command Line Environment
 
@@ -36,11 +41,16 @@ echo 01 > .\demoCA\serial
 
 # Generate a new Self-signed X.509 Certificate Chain
 
-The following steps demonstrate how to generate a three layer certificate chain (RootCA -> IntermediateCA -> SigningCert) using OpenSSL.  A prefix should be used for all files referenced by OpenSSL commands.  The prefix used in this demonstration is `New`.  Many OpenSSL commands prompt the user for input, so the OpenSSL commands below should be run one at a time.
+The following steps demonstrate how to generate a three layer certificate chain (RootCA -> IntermediateCA ->
+SigningCert) using OpenSSL. A prefix should be used for all files referenced by OpenSSL commands. The prefix used in
+this demonstration is `New`. Many OpenSSL commands prompt the user for input, so the OpenSSL commands below should be
+run one at a time.
 
-Private key files are password protected using the `-aes256` flag.  The sequence of commands provided in this demonstration will prompt for a password multiple times.
+Private key files are password protected using the `-aes256` flag. The sequence of commands provided in this
+demonstration will prompt for a password multiple times.
 
-The `openssl req -new` command prompts the user for several pieces of information.  A unique value for `Common Name` **must** be provided for each of the three certificates generated or the process can not be completed.
+The `openssl req -new` command prompts the user for several pieces of information. A unique value for `Common Name`
+**must** be provided for each of the three certificates generated or the process can not be completed.
 
 ## Generate the Root Pair
 
@@ -116,7 +126,9 @@ openssl x509 -in NewCert.crt -out NewCert.cer -outform DER
 openssl x509 -inform DER -in NewCert.cer -outform PEM -out NewCert.pub.pem
 ```
 
-Convert the Key and Certificate for signing.  The password is removed with `-nodes` flag for convenience in this demonstration.  If the `-nodes` flag is removed, the EDK II build will prompt for a password every time a capsule is signed.
+Convert the Key and Certificate for signing. The password is removed with `-nodes` flag for convenience in this
+demonstration. If the `-nodes` flag is removed, the EDK II build will prompt for a password every time a capsule is
+signed.
 
 ```
 openssl pkcs12 -export -out NewCert.pfx -inkey NewCert.key -in NewCert.crt
@@ -148,11 +160,16 @@ openssl smime -verify -inform DER -in test.bin.p7 -content test.bin -CAfile NewR
 
 # X.509 Certificate Chain Files
 
-Once all the steps above have been completed successfully, the following generated files are used to sign and authenticate capsule based system firmware update images.
+Once all the steps above have been completed successfully, the following generated files are used to sign and
+authenticate capsule based system firmware update images.
 
-* **`NewRoot.cer`**: Public key that is used to configure the `gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer` PCD value.  This PCD is used by EDK II firmware to authenticate a signed system firmware update image.
-* **`NewRoot.pub.pem`**: Trusted public certificate that is passed in the `--trusted-public-cert` flag of the EDK II `Pkcs7Sign` utility.
-* **`NewSub.pub.pem`**: Other public certificate that is passed in the `--other-public-cert` flag of the EDK II `Pkcs7Sign` utility.
-* **`NewCert.pem`**: Signer private certificate that is passed in the `--signer-private-cert` flag of the EDK II `Pkcs7Sign` utility.
+* **`NewRoot.cer`**: Public key that is used to configure the `gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer` PCD
+  value. This PCD is used by EDK II firmware to authenticate a signed system firmware update image.
+* **`NewRoot.pub.pem`**: Trusted public certificate that is passed in the `--trusted-public-cert` flag of the EDK II
+  `Pkcs7Sign` utility.
+* **`NewSub.pub.pem`**: Other public certificate that is passed in the `--other-public-cert` flag of the EDK II
+  `Pkcs7Sign` utility.
+* **`NewCert.pem`**: Signer private certificate that is passed in the `--signer-private-cert` flag of the EDK II
+  `Pkcs7Sign` utility.
 
 Back to [Capsule Based System Firmware Update](Capsule-Based-System-Firmware-Update)

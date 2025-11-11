@@ -1,10 +1,14 @@
 # Xcode
 
-This page provides step-by-step instructions for setting up a [EDK II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II) build environment on macOS systems using the Xcode development tools.  These steps have been verified with macOS Big Sur 11.3.1
+This page provides step-by-step instructions for setting up a [EDK
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II) build environment on macOS systems using the Xcode
+development tools. These steps have been verified with macOS Big Sur 11.3.1
 
 # macOS Xcode
 
-Download the latest version of [Xcode](https://developer.apple.com/xcode) (12.5 as of 2021-05-09) from the Mac App Store.  After installing Xcode, you will additionally need to install the extra command-line tools.  To do this, at a Terminal prompt, enter:
+Download the latest version of [Xcode](https://developer.apple.com/xcode) (12.5 as of 2021-05-09) from the Mac App
+Store. After installing Xcode, you will additionally need to install the extra command-line tools. To do this, at a
+Terminal prompt, enter:
 
 ```
 xcode-select --install
@@ -12,11 +16,14 @@ xcode-select --install
 
 ## Additional Development Tools
 
-While Xcode provides a full development environment as well as a suite of different utilities, it does not provide all tools required for TianoCore development.  These tools can be provided in a number of ways, but the most popular way comes from [Brew](https://brew.sh).  Installation information is provided at the previous link.
+While Xcode provides a full development environment as well as a suite of different utilities, it does not provide all
+tools required for TianoCore development. These tools can be provided in a number of ways, but the most popular way
+comes from [Brew](https://brew.sh). Installation information is provided at the previous link.
 
 ## Install mtoc
 
-The mtoc utility is required to convert from the macOS Mach-O image format to the PE/COFF format as required by the UEFI specification.
+The mtoc utility is required to convert from the macOS Mach-O image format to the PE/COFF format as required by the UEFI
+specification.
 
 ### Brew Instructions
 
@@ -26,7 +33,8 @@ brew install mtoc
 
 # Install NASM
 
-The assembler used for EDK II builds is Netwide Assembler (NASM). The latest version of NASM is available from [https://nasm.us/](https://nasm.us/).
+The assembler used for EDK II builds is Netwide Assembler (NASM). The latest version of NASM is available from
+[https://nasm.us/](https://nasm.us/).
 
 ## Brew Instructions
 
@@ -37,7 +45,9 @@ brew upgrade nasm
 
 # Install ACPI Compiler
 
-In order to support EDK II firmware builds, the latest version of the ASL compiler from [https://acpica.org](https://acpica.org) must be installed.  The ASL compiler is required to build ACPI Source Language code.
+In order to support EDK II firmware builds, the latest version of the ASL compiler from
+[https://acpica.org](https://acpica.org) must be installed. The ASL compiler is required to build ACPI Source Language
+code.
 
 ## Brew Install
 
@@ -48,11 +58,13 @@ brew upgrade acpica
 
 # Install XQuartz
 
-The EmulatorPkg requires headers from X11, which are provided by the XQuartz project. Install it from [https://www.xquartz.org/](https://www.xquartz.org/).
+The EmulatorPkg requires headers from X11, which are provided by the XQuartz project. Install it from
+[https://www.xquartz.org/](https://www.xquartz.org/).
 
 # Install QEMU Emulator
 
-On order to support running the OVMF platforms from the OvmfPkg, the QEMU emulator from [https://www.qemu.org/](https://www.qemu.org/) must be installed.
+On order to support running the OVMF platforms from the OvmfPkg, the QEMU emulator from
+[https://www.qemu.org/](https://www.qemu.org/) must be installed.
 
 ## Brew Install
 
@@ -63,7 +75,8 @@ brew upgrade qemu
 
 ## Update PATH environment variable
 
-Tools installed using the `brew` command are placed in `/usr/local/bin`.  The `PATH` environment variable must be updated so the newly installed tools are used instead of older pre-installed tools.
+Tools installed using the `brew` command are placed in `/usr/local/bin`. The `PATH` environment variable must be updated
+so the newly installed tools are used instead of older pre-installed tools.
 
 ```
 export PATH=/usr/local/bin:$PATH
@@ -128,7 +141,8 @@ EDK II UNIX Host Emulation Environment from http://www.tianocore.org/edk2/
 ...
 ```
 
-Type `process interrupt` at the lldb prompt (don't forget to hit carriage return) to pause execution. Ctrl-c in the terminal window will quit lldb. `bt` is the stack backtrace command:
+Type `process interrupt` at the lldb prompt (don't forget to hit carriage return) to pause execution. Ctrl-c in the
+terminal window will quit lldb. `bt` is the stack backtrace command:
 
 ```
 Process 12420 stopped
@@ -168,9 +182,13 @@ Target 0: (Host) stopped.
 
 # Build and Debug from Xcode
 
-To build from the Xcode GUI open ~/work/edk2/EmulatorPkg/Unix/Xcode/xcode_project64/xcode_project.xcodeproj. You can build, clean, and source level debug from the Xcode GUI. You can hit the Build and Debug button to start the build process. You need to need to hit command-shift-B to show the output of the build. Click Pause to break into the debugger.
+To build from the Xcode GUI open ~/work/edk2/EmulatorPkg/Unix/Xcode/xcode_project64/xcode_project.xcodeproj. You can
+build, clean, and source level debug from the Xcode GUI. You can hit the Build and Debug button to start the build
+process. You need to need to hit command-shift-B to show the output of the build. Click Pause to break into the
+debugger.
 
-The stack trace contains items that show as ?? since the default shell is checked in as a binary. `nanosleep$UNIX2003` and `__semwait_signal` are POSIX library calls and you do not get C source debug with these symbols.
+The stack trace contains items that show as ?? since the default shell is checked in as a binary. `nanosleep$UNIX2003`
+and `__semwait_signal` are POSIX library calls and you do not get C source debug with these symbols.
 
 *Note* The Xcode project is currently (as of 2021-05-09) broken.
 
@@ -178,4 +196,5 @@ The stack trace contains items that show as ?? since the default shell is checke
 
 # Continue with common instructions
 
-The [remaining instructions](https://github.com/tianocore/tianocore.github.io/wiki/Common-instructions-for-Unix) are common for most UNIX-like systems.
+The [remaining instructions](https://github.com/tianocore/tianocore.github.io/wiki/Common-instructions-for-Unix) are
+common for most UNIX-like systems.

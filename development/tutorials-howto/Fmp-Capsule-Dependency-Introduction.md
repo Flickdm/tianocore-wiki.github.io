@@ -2,15 +2,21 @@
 
 ## Introduction
 
-There are situations where a platform may have separately updatable firmware components (e.g. motherboard, BMC, EC, etc.) and in some cases, there may be dependencies among them. For instance, FWx requires FWy to be at least version 2.0 to install. Today, we don’t have a way to express that in our infrastructure. Fmp capsule dependency attempts to add that capability through minor changes in the FMP capsule as well as a minor enhancement to FmpDxe driver and FmpDeviceLib.
-Capsule Dependency is an incremental change of FMP capsule (Signed Capsule) to evaluate the capsule’s version dependency requirement is satisfied or not before applying the update.
+There are situations where a platform may have separately updatable firmware components (e.g. motherboard, BMC, EC,
+etc.) and in some cases, there may be dependencies among them. For instance, FWx requires FWy to be at least version 2.0
+to install. Today, we don’t have a way to express that in our infrastructure. Fmp capsule dependency attempts to add
+that capability through minor changes in the FMP capsule as well as a minor enhancement to FmpDxe driver and
+FmpDeviceLib.
+Capsule Dependency is an incremental change of FMP capsule (Signed Capsule) to evaluate the capsule’s version dependency
+requirement is satisfied or not before applying the update.
 Full feature is defined in UEFI Spec 2.8.
 
 ## Implementation Details
 
 ### Updated Capsule Update Work Flow
 
-![Figure 1](https://github.com/tianocore/tianocore.github.io/wiki/images/Fmp-Capsule-Dependency-Capsule-Update-Workflow.JPG)
+![Figure
+1](https://github.com/tianocore/tianocore.github.io/wiki/images/Fmp-Capsule-Dependency-Capsule-Update-Workflow.JPG)
 
 #### Last Attempt Status Extension
 
@@ -19,26 +25,35 @@ Extend ESRT status information to express if a capsule could not applied because
 
 #### Dependency Evaluation
 
-Dependency evaluation process is a cross check between the capsule data and all existing FMP protocal instances in system.
+Dependency evaluation process is a cross check between the capsule data and all existing FMP protocal instances in
+system.
 
 - Check 1 : Validate platform exsiting Fmp Images' version to satisfy the dependency expression in capsule image.
 - Check 2 : Validate the capsule image version to satify all the platform existing Fmp images' dependency expression.
 
 #### FmpDeviceLib Extension
 
-To support the Dependency Evaluation Check 2, Fmp device must have the capability to save its own dependency expression and provide the dependency expression to Fmp DXE driver.
-The parameter `Image` of `FmpDeviceSetImage` and `FmpDeviceGetImage` function is extended to contain the dependency expression op-codes.
-![Figure 2](https://github.com/tianocore/tianocore.github.io/wiki/images/Fmp-Capsule-Dependency-FmpDeviceLib-Extension.jpg)
+To support the Dependency Evaluation Check 2, Fmp device must have the capability to save its own dependency expression
+and provide the dependency expression to Fmp DXE driver.
+The parameter `Image` of `FmpDeviceSetImage` and `FmpDeviceGetImage` function is extended to contain the dependency
+expression op-codes.
+![Figure
+2](https://github.com/tianocore/tianocore.github.io/wiki/images/Fmp-Capsule-Dependency-FmpDeviceLib-Extension.jpg)
 
-1. `FmpDeviceSetImage` is responsible for retrieving the dependency from the parameter `Image` and saving it to a protected storage.
-2. `FmpDeviceGetImage` is responsible for retrieving the dependency from the storage where `FmpDeviceSetImage` saves dependency and combining it with the Fmp Payload Image into one buffer which is returned to the caller. This dependency will be populated into `EFI_FIRMWARE_IMAGE_DESCRIPTOR` and used for Dependency Evaluation Check 2.
-3. `FmpDeviceGetAttributes` must set the bit `IMAGE_ATTRIBUTE_DEPENDENCY` to indicate the Fmp device has dependency expression associcated with the Fmp image and supports Fmp Capsule Dependency feature.
+1. `FmpDeviceSetImage` is responsible for retrieving the dependency from the parameter `Image` and saving it to a
+protected storage.
+2. `FmpDeviceGetImage` is responsible for retrieving the dependency from the storage where `FmpDeviceSetImage` saves
+dependency and combining it with the Fmp Payload Image into one buffer which is returned to the caller. This dependency
+will be populated into `EFI_FIRMWARE_IMAGE_DESCRIPTOR` and used for Dependency Evaluation Check 2.
+3. `FmpDeviceGetAttributes` must set the bit `IMAGE_ATTRIBUTE_DEPENDENCY` to indicate the Fmp device has dependency
+expression associcated with the Fmp image and supports Fmp Capsule Dependency feature.
 
 ## Enable Fmp Capsule Dependency
 
 ### How to enable capsule dependency feature for an Fmp Device
 
-Please refer to the following sample code which uses EFI variable as the storage of Fmp dependency op-codes. Notice: The EFI variable must be locked before EndOfDxe.
+Please refer to the following sample code which uses EFI variable as the storage of Fmp dependency op-codes. Notice: The
+EFI variable must be locked before EndOfDxe.
 If no such implementation, only Dependency Evaluation Check 1 is supported.
 
 #### 1. FmpDeviceSetImage
@@ -238,7 +253,8 @@ For example:
 }
 ```
 
-The value of `“Dependencies”` field should be C style infix notation expression, the relations between firmware opcodes and expression operators/operands are listed below:
+The value of `“Dependencies”` field should be C style infix notation expression, the relations between firmware opcodes
+and expression operators/operands are listed below:
 
 | Fimware Opcode | Infix notation expression | Dependency Binary |
 | --- | --- | --- |
@@ -259,7 +275,8 @@ The value of `“Dependencies”` field should be C style infix notation express
 
 >Noted that Opcode 0x0D (END) will automatically added after dependency encoding.
 
-The precedence of infix notation expression operators is listed below from high to low, and it’s followed the C language operator precedence.
+The precedence of infix notation expression operators is listed below from high to low, and it’s followed the C language
+operator precedence.
 
 - () (brackets)
 - ~ (NOT)
@@ -268,7 +285,8 @@ The precedence of infix notation expression operators is listed below from high 
 - && (OR)
 - || (AND)
 
->DECLARE \"xxxx\" is acting like comments, wherever it inserted in the infix notation expression, it will be converted as {DECLARE_VERSION_STRING, xxxx}.
+>DECLARE \"xxxx\" is acting like comments, wherever it inserted in the infix notation expression, it will be converted
+as {DECLARE_VERSION_STRING, xxxx}.
 
 >All operators/operands in infix notation expression should split with spaces, except brackets.
 
@@ -335,7 +353,8 @@ For example, there are two Fmp devices in the system:
 | Sample Device A | 0x01 | 79179BFD-704D-4C90-9E02-0AB8D968C18A |
 | Sample Device B | 0x01 | 149DA854-7D19-4FAA-A91E-862EA1324BE6 |
 
-Now Device A has an update to version 0x02 that requires the version of Device B to be at least 0x02. However B's version is 0x01 in the system, so this update must fail.
+Now Device A has an update to version 0x02 that requires the version of Device B to be at least 0x02. However B's
+version is 0x01 in the system, so this update must fail.
 
 1. Create Device A's capsule with the dependency on Device B:
 
@@ -372,7 +391,8 @@ Example of A_v2.json:
 Shell> CapsuleApp.efi A_v2.cap
 ```
 
-3. After the update finishes, enter UEFI shell and check the update status. The expectation is that update fails with `UNSATISFIED_DEPENDENCIE` error status.
+3. After the update finishes, enter UEFI shell and check the update status. The expectation is that update fails with
+`UNSATISFIED_DEPENDENCIE` error status.
 
 ```shell
 Shell> CapsuleApp -E

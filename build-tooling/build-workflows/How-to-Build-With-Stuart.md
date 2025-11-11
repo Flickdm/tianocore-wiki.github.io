@@ -23,7 +23,6 @@ If you've already completed these steps you don't need to run them again.
 
   [Git Download Page](https://git-scm.com/downloads)
   
-  
   **Python**
 
   Python is a programming language that many of the edk2 build tools are written in.
@@ -38,7 +37,6 @@ If you've already completed these steps you don't need to run them again.
 
   [Python Download Page](https://www.python.org/downloads/)
   
-  
   **C Compiler**
 
   A C compiler is needed to compile the firmware code.
@@ -51,10 +49,11 @@ If you've already completed these steps you don't need to run them again.
   However, it is common to use:
   [GCC](https://gcc.gnu.org/) on Linux
     **Ubuntu GCC Installation Instructions**
-      `apt-get update && apt-get install -y build-essential git nasm wget m4 bison flex uuid-dev python unzip acpica-tools gcc-multilib`
+`apt-get update && apt-get install -y build-essential git nasm wget m4 bison flex uuid-dev python unzip acpica-tools
+gcc-multilib`
     [Visual Studio](https://visualstudio.microsoft.com/downloads/) on Windows
     **Visual Studio Installation Instructions (Windows)**
-        
+
       **Visual Studio 2022 Installation Instructions**
         ---
         
@@ -165,6 +164,7 @@ If you've already completed these steps you don't need to run them again.
     `apt-get install mono-complete`
   
   ---
+
 1. Clone the edk2 repo
    - Open a command-prompt in the directory where you would like to keep the edk2 repo
    - Clone the repo
@@ -177,11 +177,11 @@ If you've already completed these steps you don't need to run them again.
     - Note that the steps differ between Linux and Windows.
       - **Linux Instructions**
         `python3 -m venv .venv`
-          
+
         `source .venv/bin/activate`
         - **Windows Instructions**
         `py -m venv .venv`
-          
+
         `.venv\Scripts\activate.bat`
         4. Tell Git to ignore the Python virtual environment
 
@@ -255,7 +255,8 @@ The recommended steps to update dependencies are in this section.
 In Linux (Ubuntu) rebuilding BaseTools requires a one-time install of various
 dependencies, see the [BaseTools build example](#i-want-to-build-basetools).
 
-Once any required dependencies are installed, the command to rebuild BaseTools (you may need to specify a different toolchain with `-t`) is:
+Once any required dependencies are installed, the command to rebuild BaseTools (you may need to specify a different
+toolchain with `-t`) is:
 
 `python3 BaseTools/Edk2ToolsBuild.py -t GCC5`
 
@@ -332,7 +333,8 @@ The important parameter here is the `-t` parameter which specifies that only the
 OvmfPkg is considered a "platform firmware" for the [QEMU open-source emulator](https://www.qemu.org).
 
 - Therefore, it provides a platform build file (see [What is PlatformBuild.py](#what-is-platformbuildpy)?</a>)
-  - Located at [OvmfPkg/PlatformCI/PlatformBuild.py](https://github.com/tianocore/edk2/blob/master/OvmfPkg/PlatformCI/PlatformBuild.py)
+- Located at
+[OvmfPkg/PlatformCI/PlatformBuild.py](https://github.com/tianocore/edk2/blob/master/OvmfPkg/PlatformCI/PlatformBuild.py)
 - Because we are building a platform build file, the build command will be `stuart_build` instead of `stuart_ci_build`
   to compile the code
 
@@ -359,7 +361,8 @@ If you want to run CI checks such as CI plugins, you can use `stuart_ci_build` w
 OvmfPkg is considered a "platform firmware" for the [QEMU open-source emulator](https://www.qemu.org).
 
 - Therefore, it provides a platform build file (see [What is PlatformBuild.py?](#what-is-platformbuildpy)</a>)
-  - Located at [OvmfPkg/PlatformCI/PlatformBuild.py](https://github.com/tianocore/edk2/blob/master/OvmfPkg/PlatformCI/PlatformBuild.py)
+- Located at
+[OvmfPkg/PlatformCI/PlatformBuild.py](https://github.com/tianocore/edk2/blob/master/OvmfPkg/PlatformCI/PlatformBuild.py)
 - Because we are building a platform build file, the build command will be `stuart_build` instead of `stuart_ci_build`
 
 To see what parameters are supported by this platform build file (at the time this page was written), we can pass
@@ -534,9 +537,11 @@ Examples:
 - GenFW
 - GenRds
 
-Each tool has a user manual located in [BaseTools/UserManuals](https://github.com/tianocore/edk2/tree/master/BaseTools/UserManuals).
+Each tool has a user manual located in
+[BaseTools/UserManuals](https://github.com/tianocore/edk2/tree/master/BaseTools/UserManuals).
 
-A more complete list of BaseTools is located in the [EDK II Tools List](https://github.com/tianocore/edk2/tree/master/BaseTools/UserManuals).
+A more complete list of BaseTools is located in the [EDK II Tools
+List](https://github.com/tianocore/edk2/tree/master/BaseTools/UserManuals).
 
 ---
 
@@ -674,7 +679,7 @@ page.
 ---
 
 Start in the
-[edk2-pytool-extensions User Documentation](https://github.com/tianocore/edk2-pytool-extensions/blob/master/docs/user/index.md).
+[edk2-pytool-extensions User
+Documentation](https://github.com/tianocore/edk2-pytool-extensions/blob/master/docs/user/index.md).
 
 ---
-

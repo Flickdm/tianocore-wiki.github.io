@@ -4,16 +4,20 @@ This example shows how to enable source debugging in QEMU with OvmfPkg using Win
 
 ## Download the Required Applications
 
-These instructions were tested on a Windows 10 host (19042) with QEMU 4.2.0, WinDbg from the Windows 8.1 SDK (6.3.9600.17298),
+These instructions were tested on a Windows 10 host (19042) with QEMU 4.2.0, WinDbg from the Windows 8.1 SDK
+(6.3.9600.17298),
 and the Intel UDK Debugger Tool v1.5 for Windows.
 
 ### WinDbg
 
-* This version of the SDK can be downloaded from the [SDK archive](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/)
+* This version of the SDK can be downloaded from the [SDK
+  archive](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/)
   or via [this direct link](https://go.microsoft.com/fwlink/p/?LinkId=323507).
-  * For the purposes of source debugging, only the "Debugging Tools for Windows" needs to be selected during installation.
+  * For the purposes of source debugging, only the "Debugging Tools for Windows" needs to be selected during
+    installation.
 
-  ![Debugging Tools for Windows](images/ovmf-qemu-windbg/windows_sdk_debugging_tools_8_1_install.png "Debugging Tools for Windows")
+![Debugging Tools for Windows](images/ovmf-qemu-windbg/windows_sdk_debugging_tools_8_1_install.png "Debugging Tools for
+Windows")
 
   * These instructions will use the default installation location for WinDbg: \
     `C:\Program Files (x86)\Windows Kits\8.1\Debuggers\x86`
@@ -21,7 +25,8 @@ and the Intel UDK Debugger Tool v1.5 for Windows.
 
 ### Intel UDK Debugger Tool
 
-* Download the installer from [Intel Software](https://software.intel.com/content/www/us/en/develop/articles/unified-extensible-firmware-interface.html)
+* Download the installer from [Intel
+  Software](https://software.intel.com/content/www/us/en/develop/articles/unified-extensible-firmware-interface.html)
   or via [this direct link](https://software.intel.com/sites/default/files/managed/de/00/UDK_Debugger_Tool_v1_5_Win.zip)
 * Begin installation
   * The default installation location will be used for the remaining instructions: \
@@ -29,13 +34,16 @@ and the Intel UDK Debugger Tool v1.5 for Windows.
 
   * The installer will likely complain it cannot find a WinDbg installation as it looks in an older location.
 
-  ![Expected WinDbg Error Dialog](images/ovmf-qemu-windbg/unable_to_locate_windbg_error_dialog_box.png "Expected WinDbg Error")
+![Expected WinDbg Error Dialog](images/ovmf-qemu-windbg/unable_to_locate_windbg_error_dialog_box.png "Expected WinDbg
+Error")
 
   * Provide the WinDbg location used during its installation.
 
-  ![Intel UDK Debugger WinDbg Dialog](images/ovmf-qemu-windbg/intel_udk_installer_windbg_dialog.png "Intel UDK Debugger WinDbg Dialog")
+![Intel UDK Debugger WinDbg Dialog](images/ovmf-qemu-windbg/intel_udk_installer_windbg_dialog.png "Intel UDK Debugger
+WinDbg Dialog")
 
-  * The installer will ask how you plan to debug. You can change this later but we can provide the settings we will use now.
+* The installer will ask how you plan to debug. You can change this later but we can provide the settings we will use
+now.
     * **Debug Port Channel**: TCP
     * **Server**: localhost
     * **Port**: 20716 _(any available port can be used)_
@@ -88,7 +96,8 @@ and the Intel UDK Debugger Tool v1.5 for Windows.
 
 ### Building the Firmware
 
-The firmware should be built with the `SOURCE_DEBUG_ENABLE` option set to `TRUE` and `DEBUG_ON_SERIAL_PORT` defined. This
+The firmware should be built with the `SOURCE_DEBUG_ENABLE` option set to `TRUE` and `DEBUG_ON_SERIAL_PORT` defined.
+This
 example builds a 64-bit OVMF image with Visual Studio 2019.
 
 `build -p OvmfPkg/OvmfPkgX64.dsc -a X64 -t VS2019 -D SOURCE_DEBUG_ENABLE=TRUE -D DEBUG_ON_SERIAL_PORT`
@@ -145,15 +154,18 @@ This section briefly shows some samples of expected behavior when source level d
 Multiple panels can be used to view system registers, the call stack, disassembly, source code, and the debugger
 command panel:
 
-![Intel UDK Debugger WinDbg Dialog](images/ovmf-qemu-windbg/windbg-example-multiple-panels.png "Intel UDK Debugger WinDbg Dialog")
+![Intel UDK Debugger WinDbg Dialog](images/ovmf-qemu-windbg/windbg-example-multiple-panels.png "Intel UDK Debugger
+WinDbg Dialog")
 
 Locals can be viewed:
 
-![Intel UDK Debugger WinDbg Dialog](images/ovmf-qemu-windbg/windbg-example-locals.png "Intel UDK Debugger WinDbg Dialog")
+![Intel UDK Debugger WinDbg Dialog](images/ovmf-qemu-windbg/windbg-example-locals.png "Intel UDK Debugger WinDbg
+Dialog")
 
 Types of locals are generally handled well:
 
-![Intel UDK Debugger WinDbg Dialog](images/ovmf-qemu-windbg/windbg-example-locals2.png "Intel UDK Debugger WinDbg Dialog")
+![Intel UDK Debugger WinDbg Dialog](images/ovmf-qemu-windbg/windbg-example-locals2.png "Intel UDK Debugger WinDbg
+Dialog")
 
 ### More Information
 
@@ -166,4 +178,5 @@ starting points:
    dump the MTRR settings and perform firmware-specific operations such as dumping UEFI variables and the HOB list.
 
 2. [MSDN Debugger Resources](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-resources)
-3. [MSDN Debugging Using WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-using-windbg)
+3. [MSDN Debugging Using
+WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-using-windbg)

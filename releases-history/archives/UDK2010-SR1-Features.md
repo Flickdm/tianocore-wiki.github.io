@@ -1,7 +1,7 @@
 # Udk2010 Sr1 Features
 
 UDK2010
-SR1 Feature Details 
+SR1 Feature Details
 
 **Features Summary:**
 
@@ -14,8 +14,6 @@ SR1 Feature Details
 - EDK II Build tools and Updates to the
   [EDK II v1.22 specifications](../../reference/specs-standards/EDK-II-Specifications.md)
 
-
-
 <table width="500">
 
 <tr>
@@ -23,7 +21,7 @@ SR1 Feature Details
 <th colspan="2" style="background-color:#ff5c00">
 
 Feature
-Details 
+Details
 
 </th>
 
@@ -33,8 +31,7 @@ Details
 
 <th colspan="1" style="background-color:#95b3d7">
 
-
-Support Asynchronous Block Io 
+Support Asynchronous Block Io
 
 </th>
 
@@ -43,7 +40,6 @@ Support Asynchronous Block Io
 <tr>
 
 <th colspan="1" style="background-color:#dbe5f1">
-
 
 Secure Storage Protocol: enable
 [Opal](http://www.trustedcomputinggroup.org/developers/storage)/[eDrive](http://msdn.microsoft.com/en-us/library/windows/hardware/br259095.aspx)
@@ -59,14 +55,10 @@ specification)
 
 <th colspan="1" style="background-color:#95b3d7">
 
-
 Networking Improvements:
-
 
 - Erata related to Netboot6-DUID
 - Provide more DHCP4 & DHCP6 API support
-
- 
 
 </th>
 
@@ -75,14 +67,12 @@ Networking Improvements:
 <tr>
 
 <th colspan="1" style="background-color:#dbe5f1">
-
 
 TCG Physical Presence (PP). Based on the Physical Presence Interface
 Specification Version 1.20, Revision 1.0. More information at the
 [Trusted Computing Group
 website](http://www.trustedcomputinggroup.org/resources/tcg_physical_presence_interface_specification).
 
-
 </th>
 
 </tr>
@@ -90,12 +80,9 @@ website](http://www.trustedcomputinggroup.org/resources/tcg_physical_presence_in
 <tr>
 
 <th colspan="1" style="background-color:#95b3d7">
-
 
 USB 3.0 Controller Support (XHCI)
 
-
-
 </th>
 
 </tr>
@@ -104,9 +91,8 @@ USB 3.0 Controller Support (XHCI)
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-
 Update Internal Forms Representation (IFR) implementation to match UEFI
-2.3.1 Specification. 
+2.3.1 Specification.
 
 </th>
 
@@ -116,8 +102,7 @@ Update Internal Forms Representation (IFR) implementation to match UEFI
 
 <th colspan="1" style="background-color:#95b3d7">
 
-
-iSCSI (ip6) open source implementation for IPv6 
+iSCSI (ip6) open source implementation for IPv6
 
 </th>
 
@@ -127,11 +112,8 @@ iSCSI (ip6) open source implementation for IPv6
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-
 Security Package (SecurityPkg). Open source package including the
 following items:
-
-
 
 - TPM 1.2 Measured Boot
 - UEFI variable support for Secure Boot as defined by UEFI 2.3.1a
@@ -146,10 +128,6 @@ following items:
 - Updates for code to pass SecureTest package
 - Add enable/disable mechanism for Secure Boot
 
-
-
-
-
 </th>
 
 </tr>
@@ -158,8 +136,7 @@ following items:
 
 <th colspan="1" style="background-color:#95b3d7">
 
-
-User Identification (UID) Errata from UEFI 2.3.1 Specification 
+User Identification (UID) Errata from UEFI 2.3.1 Specification
 
 </th>
 
@@ -169,20 +146,14 @@ User Identification (UID) Errata from UEFI 2.3.1 Specification
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-
 Updates to the EDK II Build Process.
-
 
 - Support MACRO definitions in build tools.
 - Updates for [EDK II v1.22 specifications](EDK_II_Specifications)
   (Build, DEC, DSC, FDF, INF)
-
- 
 
 </th>
 
 </tr>
 
 </table>
-
-

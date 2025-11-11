@@ -1,7 +1,5 @@
 # EDK Member Documents
 
-
-
 <table>
 
 <tr>
@@ -61,5 +59,3 @@ Material from the 2009 training in Beijing.
 </tr>
 
 </table>
-
-

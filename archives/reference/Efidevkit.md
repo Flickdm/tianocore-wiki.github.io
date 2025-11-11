@@ -34,8 +34,6 @@ Explained](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Modul
 - Developer page: [http://sourceforge.net/projects/efidevkit/develop](http://sourceforge.net/projects/efidevkit/develop)
 - EDK Files page: [http://sourceforge.net/projects/efidevkit/files](http://sourceforge.net/projects/efidevkit/files)
 
-
-
 <table>
 
 <tr>
@@ -339,8 +337,6 @@ Fix to the Undi EDK Intel(R) PRO/1000 Network Driver
 </tr>
 
 </table>
-
-
 
 [Previous EDK and Shell
 Releases](Previous_EDK_and_Shell_Releases)

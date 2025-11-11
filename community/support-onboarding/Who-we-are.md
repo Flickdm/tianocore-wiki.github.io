@@ -63,7 +63,8 @@ A Contributor is anyone with interest in contributing to Tianocore.org
 
 1. Create a Github account: [https://github.com/](https://github.com/)
 
-2. Join the EDK II Project Mailing list: [Mailing List](https://github.com/tianocore/tianocore.github.io/wiki/Mailing-Lists)
+2. Join the EDK II Project Mailing list: [Mailing
+List](https://github.com/tianocore/tianocore.github.io/wiki/Mailing-Lists)
 
 3. Follow the guidelines for submitting a code contribution by the EDK
     II Project Code Contributions process:
@@ -258,7 +259,8 @@ A TianoCore Admin manages the access rights to TianoCore Community.
 
 ### Role
 
-- The TianoCore admin is responsible for monitoring role changes in the community such as managing access rights while adding/removing maintainers.
+- The TianoCore admin is responsible for monitoring role changes in the community such as managing access rights while
+  adding/removing maintainers.
 - Responsible for Approval and removal of access to TianoCore resources such as GitHub, Bugzilla, groups.io etc..
 
 ## Release Manager
@@ -271,7 +273,9 @@ A Release Manager manages the TianoCore releases to the Community.
 
 ### Role
 
-The Release Manager is responsible for driving the quarterly Stable Tags. The Release Manager will plan the features, schedule the release date, create the Stable Tag with the release notes and announce to the EDK II community on the release milestones: Soft feature freeze, hard feature freeze and the final release of the Stable Tag.
+The Release Manager is responsible for driving the quarterly Stable Tags. The Release Manager will plan the features,
+schedule the release date, create the Stable Tag with the release notes and announce to the EDK II community on the
+release milestones: Soft feature freeze, hard feature freeze and the final release of the Stable Tag.
 
 ## Community Manager
 

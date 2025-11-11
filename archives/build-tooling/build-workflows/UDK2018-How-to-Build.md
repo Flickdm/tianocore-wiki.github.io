@@ -23,7 +23,8 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
     [https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help](https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help)
     4) Download and install Python2.7.x  [https://www.python.org/](https://www.python.org/) for building the BaseTools
         Default install directory is: C:/Python27
-    5) Download the pre-compiled Openssl binary from [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries).  Search for a
+5) Download the pre-compiled Openssl binary from
+[https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries). Search for a
         Windows binary in the list of "_Third Party OpenSSL Related Binary Distributions_" table that will be
         Windows binary. Go to the third party site to download the latest version of Windows x64 86 or Win32 binary.
         Download and extract to C:\Openssl. Make sure C:\Openssl is added to system environment
@@ -31,8 +32,10 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
 
 2. Create the full Source Code directory for the UDK2018 release
     1) Create a working space directory in the build machine, for example, C:\MyWorkspace
-    2) Download the official UDK2018 release .zip file from the [UDK2018 Release Page](https://github.com/tianocore/edk2/releases/tag/vUDK2018)
-        1) Download - UDK2018 edk-vUDK2018 Workspace [Source code (zip file)](https://github.com/tianocore/edk2/archive/vUDK2018.zip)
+2) Download the official UDK2018 release .zip file from the [UDK2018 Release
+Page](https://github.com/tianocore/edk2/releases/tag/vUDK2018)
+1) Download - UDK2018 edk-vUDK2018 Workspace [Source code (zip
+file)](https://github.com/tianocore/edk2/archive/vUDK2018.zip)
         2) Extract files in [edk2-vUDK2018] to the working space directory C:\MyWorkspace.
     3) **OR**  Checkout the vUDK2018 Tag from GitHub with the following "git" command
         1) run  `git clone  https://github.com/tianocore/edk2.git vUDK2018`
@@ -67,7 +70,8 @@ edksetup.bat Rebuild
        `edksetup --nt32`
     3) Type following command to build Nt32 platform
         `build -t VS2015x86`
-    4) Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the C:\MyWorkspace\Build\NT32IA32\DEBUG_VS2015x86\IA32 directory
+4) Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`" in the
+C:\MyWorkspace\Build\NT32IA32\DEBUG_VS2015x86\IA32 directory
 
 ---
 
@@ -100,8 +104,10 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
 
 2. Create the full Source Code directory for the UDK2018 release
     1) Create a working space directory in the build machine, for example, ~/src/MyWorkspace
-    2) Download the official UDK2018 release .tar file from the [UDK2018 Release Page](https://github.com/tianocore/edk2/releases/tag/vUDK2018)
-        1) Download - UDK2018 edk-vUDK2018 Workspace [Source code (tar.gz file)](https://github.com/tianocore/edk2/archive/vUDK2018.tar.gz)
+2) Download the official UDK2018 release .tar file from the [UDK2018 Release
+Page](https://github.com/tianocore/edk2/releases/tag/vUDK2018)
+1) Download - UDK2018 edk-vUDK2018 Workspace [Source code (tar.gz
+file)](https://github.com/tianocore/edk2/archive/vUDK2018.tar.gz)
         2) Extract files in [edk2-vUDK2018] to the working space directory ~/src/MyWorkspace.
     3) **OR**  Checkout the vUDK2018 tag from GitHub with the following "git" command
         1) Run `"git clone https://github.com/tianocore/edk2.git vUDK2018"`
@@ -126,7 +132,8 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
         `". edksetup.sh"`.
     4) Type following command to build platforms using GCC v5.4.0
         `"build  -p MdeModulePkg/MdeModulePkg.dsc -t GCC5"`
-    5) Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the ~/src/MyWorkspace/Build/MdeModule/DEBUG_GCC5/IA32 directory
+5) Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`" in the
+~/src/MyWorkspace/Build/MdeModule/DEBUG_GCC5/IA32 directory
 
 ---
 

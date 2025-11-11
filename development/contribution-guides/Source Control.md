@@ -14,4 +14,6 @@ these mirrors are **not** officially supported.
 |----|----|----|----|----|
 | [EDK II](http://www.tianocore.org/edk2/) | [svn](https://svn.code.sf.net/p/edk2/code) | [git](https://github.com/tianocore/edk2) | [git](https://bitbucket.org/tianocore/edk2) | [git](https://sourceforge.net/p/tianocore/edk2) |
 | [EDK
-II Fat Driver](edk2-fat-driver) | [svn](https://svn.code.sf.net/p/edk2-fatdriver2/code) | [git](https://github.com/tianocore/edk2-FatPkg) | [git](https://bitbucket.org/tianocore/edk2-fatpkg) | [git](https://sourceforge.net/p/tianocore/edk2-FatPkg) |
+II Fat Driver](edk2-fat-driver) | [svn](https://svn.code.sf.net/p/edk2-fatdriver2/code) |
+[git](https://github.com/tianocore/edk2-FatPkg) | [git](https://bitbucket.org/tianocore/edk2-fatpkg) |
+[git](https://sourceforge.net/p/tianocore/edk2-FatPkg) |

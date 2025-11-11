@@ -118,7 +118,7 @@ a more Windows friendly location. All system drives are mapped under
 This allows you to substitute ~/src/edk2 for an alternate path such as
 /cygdrive/c/src/edk2 so files can be access at C:\src\edk2 as well.
 
- Continue with common instructions for Unix 
+ Continue with common instructions for Unix
 
 The [remaining instructions](Common_instructions_for_Unix) are common for
 most UNIX-like systems.
@@ -158,7 +158,7 @@ become the root user, for the 'make install' command.
     bash$ make install
     bash$ exit
 
- Continue with common instructions for Unix 
+ Continue with common instructions for Unix
 
 The [remaining instructions](Common_instructions_for_Unix) are common for
 most UNIX-like systems.
@@ -228,7 +228,7 @@ command at the shell prompt.
 
     bash$ sudo port install gmp mpfr
 
- Continue with common instructions for Unix 
+ Continue with common instructions for Unix
 
 The [remaining instructions](Common_instructions_for_Unix) are common for
 most UNIX-like systems.

@@ -249,7 +249,8 @@ In the Procedure:
 A found device is checked against the table, and if there is an Option
 Rom available, a pointer to the Rom image is provided for load.
 
-### Is there documentation or a guide on the IA32FamilyCpuPkg as far as what needs to be done for the different processor support?
+### Is there documentation or a guide on the IA32FamilyCpuPkg as far as what needs to be done for the different
+processor support?
 
 There is not a lot of document but the one to modify the most is the
 CpuMpDxe driver
@@ -300,7 +301,8 @@ There is no assumption from the build tools on where things are located
 but for design and consistency there is a coding style of putting them
 under the /Include directory.
 
-### Can a Package have multiple token spaces? And can they be shared across multiple packages? For instance is it possible to have 5 tokens in 1 package and 5 in another?
+### Can a Package have multiple token spaces? And can they be shared across multiple packages? For instance is it
+possible to have 5 tokens in 1 package and 5 in another?
 
 a\) Yes, packages can have multiple token spaces. b) Because token space
 is a GUID with a name, and also a token (32 bit ) associated with it. It
@@ -308,7 +310,8 @@ is assumed to only be part of one package. We would want to avoid
 splitting tokens across multiple packages because of coordination
 issues.
 
-### What are the different Packages in EDK II and what are their inner dependences. Can you give a brief description of the packages?
+### What are the different Packages in EDK II and what are their inner dependences. Can you give a brief description of
+the packages?
 
 There it is supposed to be DEC has file header that has a description
 about the package and what the package is. We do Doxygen for DEC which

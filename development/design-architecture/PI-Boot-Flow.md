@@ -1,6 +1,6 @@
 # Platform Initialization (PI) Boot Flow
 
-[&lt;img](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.JPG)src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases-tn.jpg&gt;</a>
+[&lt;img](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.JPG)src="<https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases-tn.jpg>&gt;</a>
 
 **Security (SEC) Phase**
 The Security ([SEC](SEC)) phase

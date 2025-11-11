@@ -12,16 +12,13 @@ list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2010.SR1%20Question) -
 To join the email list goto: [Join Edk2 Devel Mail
 list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
 
-
-
 <table width="100%" >
 
 <tr>
 
 <th colspan="3" style="background-color:#a9c6dd">
 
-
-**UDK2010 Releases** 
+**UDK2010 Releases**
 
 </th>
 
@@ -31,22 +28,19 @@ list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
 
 <th style="background-color:#fdbb13" width="110">
 
-
-Download 
+Download
 
 </th>
 
 <th style="background-color:#fdbb13" width="430">
 
-
-What 
+What
 
 </th>
 
 <th style="background-color:#fdbb13" width="200">
 
-
-Contents 
+Contents
 
 </th>
 
@@ -97,9 +91,11 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-[https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1](https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1): r14385
+[https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1](https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1):
+r14385
 
-[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/): r73
+[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/):
+r73
 
 **How to Build**
 
@@ -653,7 +649,8 @@ EDK II Application Development Kit
 Include these into standard "C" applications. See the AppPkg for "Hello
 World" example
 
-- Based on SVN [http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2)
+- Based on SVN
+  [http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2)
   r11577
 
 </td>
@@ -694,7 +691,8 @@ This release is the implmentation sources for the UEFI Shell
 Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
 specification
 
-See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/Shell FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
+See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/Shell
+FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
 
 </td>
 
@@ -708,8 +706,6 @@ Package
 </tr>
 
 </table>
-
-
 
 # UDK2010 More Info
 

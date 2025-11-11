@@ -1,12 +1,14 @@
 # EDK II
 
-EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and PI specifications. EDK II is open source, using a [[BSD+Patent|BSD Plus Patent License]].
+EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and PI specifications.
+EDK II is open source, using a [[BSD+Patent|BSD Plus Patent License]].
 
 ## Source Repositories
 
 EDK II Main Repository - [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 
-EDK II Staging (features in development) - [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)
+EDK II Staging (features in development) -
+[https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)
 
 ## Stable Tags
 
@@ -27,7 +29,8 @@ See [EDK II Documents](EDK-II-Documents.md)
 
 [Mailing Lists](../../community/communications/Mailing-Lists.md)
 
-TianoCore uses github issues for [Reporting Issues](../../community/support-onboarding/Reporting-Issues.md) and [Reporting Security Issues](../../security/processes/Reporting-Security-Issues.md).
+TianoCore uses github issues for [Reporting Issues](../../community/support-onboarding/Reporting-Issues.md) and
+[Reporting Security Issues](../../security/processes/Reporting-Security-Issues.md).
 
 Current list of [Tasks](../../governance/project-management/Tasks.md) identified by the EDK II community.
 
@@ -37,11 +40,16 @@ irc - #edk2 - use <www.oftc.net> as a web client
 
 ### UDK Releases
 
-UEFI Development Kit ([UDK](../../releases-history/archives/UDK.md)) releases pre-date the introduction of the stable tag, occur less frequently, and have a longer validation cycle. These are based on validation using various platforms. The year tag indicates the year of major specifications used for the release.
+UEFI Development Kit ([UDK](../../releases-history/archives/UDK.md)) releases pre-date the introduction of the stable
+tag, occur less frequently, and have a longer validation cycle. These are based on validation using various platforms.
+The year tag indicates the year of major specifications used for the release.
 
-[UDK2018](../../releases-history/archives/UDK2018.md) | [UDK2017](../../releases-history/archives/UDK2017.md) | [UDK2015](../../releases-history/archives/UDK2015.md) | [UDK2014](../../releases-history/archives/UDK2014.md) | [UDK2010](../../releases-history/archives/UDK2010.md)
+[UDK2018](../../releases-history/archives/UDK2018.md) | [UDK2017](../../releases-history/archives/UDK2017.md) |
+[UDK2015](../../releases-history/archives/UDK2015.md) | [UDK2014](../../releases-history/archives/UDK2014.md) | [UDK2010](../../releases-history/archives/UDK2010.md)
 
 ### Additional Repositories
 
-* Backup repositories: [bitbucket](https://bitbucket.org/tianocore/edk2) | [sourceforge](https://sourceforge.net/p/tianocore/edk2)
-* Deprecated Repositories: [sourceforge](https://svn.code.sf.net/p/edk2/code/trunk/edk2) | [github (svn mirror)](https://github.com/tianocore/edk2/trunk)
+* Backup repositories: [bitbucket](https://bitbucket.org/tianocore/edk2) |
+  [sourceforge](https://sourceforge.net/p/tianocore/edk2)
+* Deprecated Repositories: [sourceforge](https://svn.code.sf.net/p/edk2/code/trunk/edk2) | [github (svn
+  mirror)](https://github.com/tianocore/edk2/trunk)

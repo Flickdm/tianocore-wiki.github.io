@@ -1,7 +1,8 @@
 # Bsd Plus Patent License
 
 The preferred license for TianoCore contributions is [BSD+Patent](https://opensource.org/licenses/BSDplusPatent).
-The [Legalese](Legalese.md) page contains information on other accepted licenses, and how licenses should be documented in
+The [Legalese](Legalese.md) page contains information on other accepted licenses, and how licenses should be documented
+in
 TianoCore projects.
 
 # Example Language: BSD+Patent

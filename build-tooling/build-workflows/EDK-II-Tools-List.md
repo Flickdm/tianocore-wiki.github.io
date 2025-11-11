@@ -7,8 +7,6 @@ EDK II BaseTools](edk2-buildtools).
 To build these tools see
 [BuildTool Setup Guide](BuildTool_Setup_Guide).
 
-
-
 <table >
 
 <tr>
@@ -505,5 +503,3 @@ informational purposes.
 </tr>
 
 </table>
-
-

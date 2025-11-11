@@ -4,8 +4,6 @@ Current [UDK](UDK) Releases
 
 ### UDK2010 Releases
 
-
-
 <table>
 
 <tr>
@@ -58,10 +56,13 @@ Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1
 UEFI development Kit 2010 Specification Release \#1 (UDK2010.SR1.UP1.P1)
 (Complete zip of all packages and documentation where packages are
 expanded to MyWorkSpace Directory) Based on svn version:
-[https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1](https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1): r14385
-[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/): r73
+[https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1](https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1):
+r14385
+[https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/](https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/):
+r73
 
-**How to Build** [How to Build](../../archives/build-tooling/build-workflows/UDK2010.SR1.UP1 How-to-Build.md) UDK2010.SR1.UP1.P1 Release
+**How to Build** [How to Build](../../archives/build-tooling/build-workflows/UDK2010.SR1.UP1 How-to-Build.md)
+UDK2010.SR1.UP1.P1 Release
 **Features Summary:** See [Release Notes
 Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download)
 **Supported OS and Build Environments**
@@ -199,10 +200,6 @@ UDK2010.SR1.UP1.P1 documents
 </tr>
 
 </table>
-
-
-
-
 
 <table>
 
@@ -349,7 +346,8 @@ r11566
 This release is the implmentation sources for the UEFI Shell
 Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
 specification
-See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/Shell FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
+See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/Shell
+FAQ.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
 
 </td>
 
@@ -364,11 +362,7 @@ Package
 
 </table>
 
-
-
 ### Previous UDK2010 Releases
-
-
 
 <table>
 
@@ -428,7 +422,8 @@ r13452
 [https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg](https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg):
 r67
 
-**How to Build** [How to Build](../../archives/build-tooling/build-workflows/UDK2010.SR1.UP1 How-to-Build.md) UDK2010.SR1.UP1 Release
+**How to Build** [How to Build](../../archives/build-tooling/build-workflows/UDK2010.SR1.UP1 How-to-Build.md)
+UDK2010.SR1.UP1 Release
 **Features Summary:**
 
 - UDK2010.SR1.UP1 release will deliver the remaining UEFI 2.3.1 support
@@ -567,10 +562,6 @@ UDK2010.SR1.UP1 documents
 
 </table>
 
-
-
-
-
 <table>
 
 <tr>
@@ -630,7 +621,8 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2): r12898
+[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2):
+r12898
 
 [http://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg](http://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg):
 r67
@@ -804,10 +796,6 @@ documents
 
 </table>
 
-
-
-
-
 <table>
 
 <tr>
@@ -919,10 +907,6 @@ UDK2010 UP4 Help documents\]
 </tr>
 
 </table>
-
-
-
-
 
 <table>
 
@@ -1070,10 +1054,6 @@ Technical information
 
 </table>
 
-
-
-
-
 <table>
 
 <tr>
@@ -1219,5 +1199,3 @@ Technical information
 </tr>
 
 </table>
-
-

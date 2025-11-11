@@ -1,7 +1,5 @@
 # EDK II Libraries and Helper files
 
-
-
 <table>
 
 <tr>

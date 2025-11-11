@@ -60,7 +60,7 @@ Support for the FTDI device was worked on during
 [GSoC2012](GSoC2012). The
 latest code is currently available at:
 
-- [https://github.com/AshleyDeSimone/edk2/tree/ftdi-usb-serial](https://github.com/AshleyDeSimone/edk2/tree/ftdi-usb-serial)
+  [https://github.com/AshleyDeSimone/edk2/tree/ftdi-usb-serial](https://github.com/AshleyDeSimone/edk2/tree/ftdi-usb-serial)
 - Look for the driver code under OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe
 
 A quick start for building & testing this code on Linux would be:

@@ -1,14 +1,8 @@
 # Roadmap 2014 SP1
 
-
-
 ## UDK2014 SP1 Roadmap for Tianocore.org
 
-
-
 **Expected update end of October**
-
-
 
 <table width="100%">
 

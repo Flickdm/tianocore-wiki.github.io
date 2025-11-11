@@ -1,7 +1,5 @@
 # EDK II User Documentation
 
-
-
 <table>
 
 <tr>

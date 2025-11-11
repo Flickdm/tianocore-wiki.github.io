@@ -42,11 +42,17 @@ If the additional memory region has been correctly declared, you should
 see the EFI modules loaded in this region:
 
     (...)
-    add-symbol-file /tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll 0x8FFFAC800
+add-symbol-file
+/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll
+0x8FFFAC800
     Loading driver at 0x008FFFAC000 EntryPoint=0x008FFFAC850 ArmCpuDxe.efi
-    add-symbol-file /tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/MdeModulePkg/Core/RuntimeDxe/RuntimeDxe/DEBUG/RuntimeDxe.dll 0x8FFFC6260
+add-symbol-file
+/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/MdeModulePkg/Core/RuntimeDxe/RuntimeDxe/DEBUG/RuntimeDxe.dll
+0x8FFFC6260
     Loading driver at 0x008FFFC6000 EntryPoint=0x008FFFC62B0 RuntimeDxe.efi
-    add-symbol-file /tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe/DEBUG/SecurityStubDxe.dll 0x8FFFA5260
+add-symbol-file
+/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe/DEBUG/SecurityStubDxe.dll
+0x8FFFA5260
     Loading driver at 0x008FFFA5000 EntryPoint=0x008FFFA52B0 SecurityStubDxe.efi
     (...)
 
@@ -99,7 +105,8 @@ To debug these non-contiguous memory regions with ARM DS-5, you would
 need to add the new system memory region. Example for the ARM FVP Base
 model:
 
-    source "ArmPlatformPkg/Scripts/Ds5/cmd_load_symbols.py" -f (0x88000000,0x04000000) -m (0x80000000,0x80000000)  -m (0x880000000,0x80000000) -a -v
+source "ArmPlatformPkg/Scripts/Ds5/cmd_load_symbols.py" -f (0x88000000,0x04000000) -m (0x80000000,0x80000000) -m
+(0x880000000,0x80000000) -a -v
 
 ### Passing this non-contiguous memory region to Linux
 
@@ -117,7 +124,8 @@ itself the amount of memory exposed by UEFI. Example:
 
     EFI stub: Booting Linux Kernel...
     Initializing cgroup subsys cpu
-    Linux version 3.14.0-next-20140402+ (gcc version 4.8.3 20131111 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2013.11 - Linaro GCC 2013.10) ) #1 SMP PREEMPT Fri Apr 11 15:39:25 BST 2014
+Linux version 3.14.0-next-20140402+ (gcc version 4.8.3 20131111 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2013.11 -
+Linaro GCC 2013.10) ) #1 SMP PREEMPT Fri Apr 11 15:39:25 BST 2014
     CPU: AArch64 Processor [410fd0f0] revision 0
     bootconsole [earlycon0] enabled
     efi: Getting parameters from FDT:
@@ -179,9 +187,11 @@ itself the amount of memory exposed by UEFI. Example:
       0x00000c000000-0x00000ffeffff [Memory Mapped I/O]
       0x00001c170000-0x00001c170fff [Memory Mapped I/O]
     (...)
-    Kernel command line: dtb=fvp-base-gicv2-psci.dtb console=ttyAMA0 earlyprintk=pl011,0x1c090000 debug uefi_debug root=/dev/vda2 rw
+Kernel command line: dtb=fvp-base-gicv2-psci.dtb console=ttyAMA0 earlyprintk=pl011,0x1c090000 debug uefi_debug
+root=/dev/vda2 rw
     (...)
-    Memory: 3972540K/4128768K available (3912K kernel code, 269K rwdata, 1408K rodata, 199K init, 175K bss, 156228K reserved)
+Memory: 3972540K/4128768K available (3912K kernel code, 269K rwdata, 1408K rodata, 199K init, 175K bss, 156228K
+reserved)
     (...)
     Remapping and enabling EFI services.
       EFI remap 0x0008fafb3000 => ffffffc87afb3000

@@ -45,10 +45,10 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
     **"-a"**
      on the BUILD command line
     1. Both IA32 and X64 :
-        
+
         **TARGET_ARCH = IA32 X64**
     2. Just X64 :
-        
+
         **TARGET_ARCH = X64**
     3. On the commnad line overriding the target.txt:
          **BUILD
@@ -73,13 +73,13 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
     1. Edit the DuetPkg/DuetPkgX64.dsc and add your new application to
         the the  \[Components\]
          section and before the
-         \[BuildOptions\] 
-        section. (e.g. 
+         \[BuildOptions\]
+        section. (e.g.
         MyHelloWorld/MyHelloWorld.inf )
 2. Invoke the Build
     1. At the command prompt \>
         **Build -a X64 -p
-        DuetPkg/DuetPkgX64.dsc** 
+        DuetPkg/DuetPkgX64.dsc**
 3. Final Output .efi file will be in the directory
     ***WorkSpace*/Build/DuetPkg/DEBUG\_\$(*TOOL_CHAIN_TAG*)/X64**
 
@@ -88,17 +88,17 @@ Modify **TARGET_ARCH** and **TOOL_CHAIN_TAG** as required.
 1. Since this is the default as per the target.txt Update the
     Nt32Pkg/Nt32Pkg.dsc file.
     1. Edit the Nt32Pkg/Nt32Pkg.dsc and add your new application to the
-        the  \[Components\] 
-        section and before the 
+        the  \[Components\]
+        section and before the
         \[BuildOptions\]  section. (e.g.
-        
+
         MyHelloWorld/MyHelloWorld.inf )
 2. Invoke the Build
     1. At the command prompt \>
-        **Build** 
+        **Build**
 3. Final Output .efi file will be in the directory
     ***WorkSpace*/Build/NT32/DEBUG\_\$(*TOOL_CHAIN_TAG*)/IA32**
 4. Test with Windows NT 32 emulation: command prompt \>
-    **Build Run** 
+    **Build Run**
 
 [Getting Started](Getting_Started)

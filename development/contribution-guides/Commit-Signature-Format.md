@@ -1,8 +1,10 @@
 # Commit Signature Format
 
-The [[commit message|Commit Message Format]] should include signatures for those involved with creating and reviewing the code.
+The [[commit message|Commit Message Format]] should include signatures for those involved with creating and reviewing
+the code.
 
-This format is also documented in [Contributions.txt](https://github.com/tianocore/edk2/raw/master/Contributions.txt) which may be available in the source tree as well.
+This format is also documented in [Contributions.txt](https://github.com/tianocore/edk2/raw/master/Contributions.txt)
+which may be available in the source tree as well.
 
 # Name format
 
@@ -21,15 +23,18 @@ This format is also documented in [Contributions.txt](https://github.com/tianoco
 # Signed-off-by
 
 * Authors should use Signed-off-by (See example below)
-* If you've received the code from a trusted source, and are forwarding it along, please add a Signed-off-by line for yourself to indicate that you know this code to be usable by our community.
+* If you've received the code from a trusted source, and are forwarding it along, please add a Signed-off-by line for
+  yourself to indicate that you know this code to be usable by our community.
 
 # Reviewed-by
 
 * For code reviewers use Reviewed-by (See example below)
 * Reviewers should publicly indicate they have reviewed the code by replying to the code review email with:
   1. Review comments (optional if you have no suggested changes.)
-  2. Your Reviewed-by signature line, exactly as it should appear in the commit.  (The committer will add this before committing the change to source control.)
-  * You should omit your Reviewed-by signature if you want to re-review the change after your suggested changes are made.
+2. Your Reviewed-by signature line, exactly as it should appear in the commit. (The committer will add this before
+committing the change to source control.)
+  * You should omit your Reviewed-by signature if you want to re-review the change after your suggested changes are
+    made.
 
 # Format Strictness
 
@@ -40,8 +45,6 @@ data to be stripped by automated tools when required.
 
 This is a sample [[commit message|Commit Message Format]], including signatures:
 
-
-
 Package/Module: Short one line description of change
 
 Several lines of
@@ -51,10 +54,7 @@ change.
 Signed-off-by: Contributor Name <contributor@email.server>
 Reviewed-by: Reviewer Name <reviewer@reviewer-email.server>
 
-
-
-
 # See Also
 
 * [Code-Style](../coding-standards/Code-Style.md)
-* [SubmittingPatches](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches?id=f6f94e2ab1b33f0082ac22d71f66385a60d8157f#n297)
+  [SubmittingPatches](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches?id=f6f94e2ab1b33f0082ac22d71f66385a60d8157f#n297)

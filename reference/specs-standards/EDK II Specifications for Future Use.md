@@ -1,7 +1,5 @@
 # EDK II Specifications for Future Use
 
-
-
 <table width="600">
 
 <tr>

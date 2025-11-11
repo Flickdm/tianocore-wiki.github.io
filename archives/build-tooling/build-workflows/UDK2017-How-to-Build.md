@@ -26,13 +26,17 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
 
 2. Create the full Source Code directory for the UDK2017 release
     1) Create a working space directory in the build machine, for example, C:\MyWorkspace
-    2) Download the official UDK2017 release .zip file from the [UDK2017 Release Page](https://github.com/tianocore/edk2/releases/tag/vUDK2017)
-        1) Download - UDK2017 edk-vUDK2017 Workspace [Source code (zip file)](https://github.com/tianocore/edk2/archive/vUDK2017.zip)
+2) Download the official UDK2017 release .zip file from the [UDK2017 Release
+Page](https://github.com/tianocore/edk2/releases/tag/vUDK2017)
+1) Download - UDK2017 edk-vUDK2017 Workspace [Source code (zip
+file)](https://github.com/tianocore/edk2/archive/vUDK2017.zip)
         2) Extract files in [edk2-vUDK2017] to the working space directory C:\MyWorkspace.
     3) **OR**  Checkout the vUDK2017 Tag from GitHub with the following "git" command
         1) run  `git clone  https://github.com/tianocore/edk2.git vUDK2017`
         2) Move all files and folders under "vUDK2017" to "C:\MyWorkspace"
-    4) **Optional** (See _Compile the BaseTools_ below) Checkout BaseTools binaries and copy them to BaseTools binary folder.  Warning the Windows* Binary tools are only valid for the tip of the  [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2) repository.
+4) **Optional** (See _Compile the BaseTools_ below) Checkout BaseTools binaries and copy them to BaseTools binary
+folder. Warning the Windows* Binary tools are only valid for the tip of the
+[https://github.com/tianocore/edk2](https://github.com/tianocore/edk2) repository.
          1) `Cd C:\MyWorkspace`
          2) Run `git clone https://github.com/tianocore/edk2-BaseTools-win32.git`
          3) Enter folder edk2-BaseTools-win32
@@ -67,7 +71,8 @@ BaseTools\toolssetup.bat Rebuild
        `edksetup --nt32`
     3) Type following command to build Nt32 platform
         `build -t VS2015x86`
-    4) Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the C:\MyWorkspace\Build\MdeModule\DEBUG_VS2015x86\IA32 directory
+4) Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`" in the
+C:\MyWorkspace\Build\MdeModule\DEBUG_VS2015x86\IA32 directory
 
 ---
 
@@ -99,8 +104,10 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
 
 2. Create the full Source Code directory for the UDK2017 release
     1) Create a working space directory in the build machine, for example, ~/src/MyWorkspace
-    2) Download the official UDK2017 release .tar file from the [UDK2017 Release Page](https://github.com/tianocore/edk2/releases/tag/vUDK2017)
-        1) Download - UDK2017 edk-vUDK2017 Workspace [Source code (tar.gz file)](https://github.com/tianocore/edk2/archive/vUDK2017.tar.gz)
+2) Download the official UDK2017 release .tar file from the [UDK2017 Release
+Page](https://github.com/tianocore/edk2/releases/tag/vUDK2017)
+1) Download - UDK2017 edk-vUDK2017 Workspace [Source code (tar.gz
+file)](https://github.com/tianocore/edk2/archive/vUDK2017.tar.gz)
         2) Extract files in [edk2-vUDK2017] to the working space directory ~/src/MyWorkspace.
     3) **OR**  Checkout the vUDK2017 tag from GitHub with the following "git" command
         1) Run `"git clone https://github.com/tianocore/edk2.git vUDK2017"`
@@ -121,7 +128,8 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
         `". edksetup.sh"`.
     4) Type following command to build platforms using GCC v5.4.0
         `"build  -p MdeModulePkg/MdeModulePkg.dsc -t GCC5"`
-    5) Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the ~/src/MyWorkspace/Build/MdeModule/DEBUG_GCC5/IA32 directory
+5) Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`" in the
+~/src/MyWorkspace/Build/MdeModule/DEBUG_GCC5/IA32 directory
 
 ---
 

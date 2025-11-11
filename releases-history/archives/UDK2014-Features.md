@@ -1,9 +1,7 @@
 # Udk2014 Features
 
 UDK2014
-Feature Summary 
-
-
+Feature Summary
 
 <table width="500">
 
@@ -12,7 +10,7 @@ Feature Summary
 <th colspan="2" style="background-color:#ff5c00">
 
 Feature
-Details 
+Details
 
 </th>
 
@@ -22,8 +20,7 @@ Details
 
 <th colspan="1" style="background-color:#95b3d7">
 
-
-Support Unified Extensible Firmware(UEFI) specification 2.4. 
+Support Unified Extensible Firmware(UEFI) specification 2.4.
 
 </th>
 
@@ -33,8 +30,7 @@ Support Unified Extensible Firmware(UEFI) specification 2.4.
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-
-Support Platform Initialization(PI) specification 1.3. 
+Support Platform Initialization(PI) specification 1.3.
 
 </th>
 
@@ -44,8 +40,7 @@ Support Platform Initialization(PI) specification 1.3.
 
 <th colspan="1" style="background-color:#95b3d7">
 
-
-Support OpenSSL version 0.98w and whole X509v3 extension check 
+Support OpenSSL version 0.98w and whole X509v3 extension check
 
 </th>
 
@@ -55,8 +50,7 @@ Support OpenSSL version 0.98w and whole X509v3 extension check
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-
-Support TPM 2.0 
+Support TPM 2.0
 
 </th>
 
@@ -66,8 +60,7 @@ Support TPM 2.0
 
 <th colspan="1" style="background-color:#95b3d7">
 
-
-Support I2C. 
+Support I2C.
 
 </th>
 
@@ -77,8 +70,7 @@ Support I2C.
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-
-Support NVM Express. 
+Support NVM Express.
 
 </th>
 
@@ -88,8 +80,7 @@ Support NVM Express.
 
 <th colspan="1" style="background-color:#95b3d7">
 
-
-Update ACPI5.0 tables, PCI definitions and Atapi definitions. 
+Update ACPI5.0 tables, PCI definitions and Atapi definitions.
 
 </th>
 
@@ -99,8 +90,7 @@ Update ACPI5.0 tables, PCI definitions and Atapi definitions.
 
 <th colspan="1" style="background-color:#dbe5f1">
 
-
-Update BaseTools Python version to 2.7.3 
+Update BaseTools Python version to 2.7.3
 
 </th>
 
@@ -109,19 +99,14 @@ Update BaseTools Python version to 2.7.3
 <tr>
 
 <th colspan="1" style="background-color:#95b3d7">
-
 
 Please refer to the folder "Notes" and "Documents" links on the
 [UDK2014](UDK2014) link
 These contain detailed change text for each Package in this release and
 all related documentation for this release
 
-
-
 </th>
 
 </tr>
 
 </table>
-
-

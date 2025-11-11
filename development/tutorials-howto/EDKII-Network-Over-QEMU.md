@@ -2,13 +2,19 @@
 
 ## Overview
 
-In order to validate the [EDK II Network Stack](https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide) via [QEMU](https://wiki.qemu.org/), you should review information on how to run the [OVMF](https://github.com/tianocore/tianocore.github.io/wiki/ovmf) platform. OVMF can execute the EDK II network stack in a virtual platform. Please refer to the [QEMU Networking](https://wiki.qemu.org/Documentation/Networking) documentation for additional information.
+In order to validate the [EDK II Network
+Stack](https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide) via
+[QEMU](https://wiki.qemu.org/), you should review information on how to run the
+[OVMF](https://github.com/tianocore/tianocore.github.io/wiki/ovmf) platform. OVMF can execute the EDK II network stack
+in a virtual platform. Please refer to the [QEMU Networking](https://wiki.qemu.org/Documentation/Networking)
+documentation for additional information.
 
 ## Enable Networking
 
 #### Networking within OVMF
 
-The OVMF platform includes the EDK II network stack by default. For additional info, please refer to the network support section of the [OvmfPkg README](https://github.com/tianocore/edk2/tree/master/OvmfPkg).
+The OVMF platform includes the EDK II network stack by default. For additional info, please refer to the network support
+section of the [OvmfPkg README](https://github.com/tianocore/edk2/tree/master/OvmfPkg).
 Several build flags are required to enable the network stack in the binary firmware image (*OVMF.fd*):
 
 ```
@@ -21,10 +27,13 @@ build -p OvmfPkg\OvmfPkgX64.dsc -a X64 -t VS2013x86 -b RELEASE -D E1000_ENABLE -
 
 #### Networking within QEMU
 
-OVMF serves as the QEMU guest. From the introduction of networking within QEMU, you must select one virtual network device for the guest (e.g. **e1000**, **virtio-net-pci**, **i82557b (e100)**). Then, network backend is necessary to select for the packets interaction with the emulated NIC (e.g. **tap**).
+OVMF serves as the QEMU guest. From the introduction of networking within QEMU, you must select one virtual network
+device for the guest (e.g. **e1000**, **virtio-net-pci**, **i82557b (e100)**). Then, network backend is necessary to
+select for the packets interaction with the emulated NIC (e.g. **tap**).
 The tap network backend is recommended, since the guest needs to participate on the network for feature verification.
 
-The example below specifies the network backend and virtual network device. The *-netdev* flag specifies one type of network backend, and the *-device* flag creates a virtual network device:
+The example below specifies the network backend and virtual network device. The *-netdev* flag specifies one type of
+network backend, and the *-device* flag creates a virtual network device:
 
 ```
 qemu-system-x86_64 \
@@ -42,9 +51,14 @@ qemu-system-x86_64 \
 
 In order to verify EDKII network feature via QEMU, the following network topology can be leveraged.
 
-![QEMU and OVMF Network Topology](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/QEMU_OVMF_Network_Topology.png "QEMU and OVMF Network Topology")
+![QEMU and OVMF Network
+Topology](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/QEMU_OVMF_Network_Topology.png
+"QEMU and OVMF Network Topology")
 
-The topology in the diagram creates three OVMF guests on one host system, and bridges all guests to the physical interface. Different host system has the different way to create the virtual interface for the network backend and setup the bridge connection for the traffic between OVMF and with the outside world. On Linux-based system, *brctl* and *tunctl* are recommended to you for such configuration. The example below is based on Ubuntu 16.04 LTS:
+The topology in the diagram creates three OVMF guests on one host system, and bridges all guests to the physical
+interface. Different host system has the different way to create the virtual interface for the network backend and setup
+the bridge connection for the traffic between OVMF and with the outside world. On Linux-based system, *brctl* and
+*tunctl* are recommended to you for such configuration. The example below is based on Ubuntu 16.04 LTS:
 
 ```
 sudo apt-get install bridge-utils   /// Install brctl for the bridge creation.
@@ -61,15 +75,20 @@ sudo ifconfig tap0 up
 ...
 ```
 
-You can also refer to the [opensuse](https://en.opensuse.org/UEFI_HTTPBoot_with_OVMF) help page available at opensuse.org.
+You can also refer to the [opensuse](https://en.opensuse.org/UEFI_HTTPBoot_with_OVMF) help page available at
+opensuse.org.
 
 #### OVMF Debugging
 
-Serial through file, console or remote TCP port can be used to trace the issue. OVMF also supports source level debug using the [Intel® UEFI Development Kit Debugger Tool](https://software.intel.com/en-us/download/intel-uefi-development-kit-intel-udk-debugger-tool-r151-linux).
+Serial through file, console or remote TCP port can be used to trace the issue. OVMF also supports source level debug
+using the [Intel® UEFI Development Kit Debugger
+Tool](https://software.intel.com/en-us/download/intel-uefi-development-kit-intel-udk-debugger-tool-r151-linux).
 
 #### Verification Result
 
-For OVMF, each virtual network device (e.g. **e1000**, **virtio-net-pci**, **i82557b**) can utilize an included iPXE stack (ROMFILE) and UEFI networking. iPXE is enabled by default. You can use the "romfile=" to disable the iPXE support so OVMF only utilizes the EDK II network stack.
+For OVMF, each virtual network device (e.g. **e1000**, **virtio-net-pci**, **i82557b**) can utilize an included iPXE
+stack (ROMFILE) and UEFI networking. iPXE is enabled by default. You can use the "romfile=" to disable the iPXE support
+so OVMF only utilizes the EDK II network stack.
 
 ```
 qemu-system-x86_64 \
@@ -109,13 +128,18 @@ To run an *i82557b* native test, the UndiRuntimeDxe module must be included in t
 OptionRomPkg/UndiRuntimeDxe/UndiRuntimeDxe.inf
 ```
 
-During *i82557b* native verification, you may encounter issues. For information on known issues, please refer to [https://github.com/tianocore/edk2/issues/9587](https://github.com/tianocore/edk2/issues/9587).
+During *i82557b* native verification, you may encounter issues. For information on known issues, please refer to
+[https://github.com/tianocore/edk2/issues/9587](https://github.com/tianocore/edk2/issues/9587).
 
 ## EDKII Network Scalability
 
-The topology described above creates multiple OVMF guests to create a virtual cluster in one host. Another option creates multiple virtual network devices in one OVMF guest for verifying network scalability. The topology is shown as follows:
+The topology described above creates multiple OVMF guests to create a virtual cluster in one host. Another option
+creates multiple virtual network devices in one OVMF guest for verifying network scalability. The topology is shown as
+follows:
 
-![QEMU OVMF Network Scalability](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/QEMU_OVMF_Network_Scalability.png "QEMU OVMF Network Scalability")
+![QEMU OVMF Network
+Scalability](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/QEMU_OVMF_Network_Scalability.png
+"QEMU OVMF Network Scalability")
 
 The QEMU command to create multiple virtual network devices in one OVMF session is shown as follows:
 
@@ -136,9 +160,13 @@ qemu-system-x86_64 \
 
 #### NOTES
 
-Due to a limit on PCI bus slots, there is a limit of less than 32 virtual network devices. There is a solution documented here:  [https://github.com/qemu/qemu/blob/master/docs/pcie.txt](https://github.com/qemu/qemu/blob/master/docs/pcie.txt). PCI hierarchy is shown as follows:
+Due to a limit on PCI bus slots, there is a limit of less than 32 virtual network devices. There is a solution
+documented here:
+[https://github.com/qemu/qemu/blob/master/docs/pcie.txt](https://github.com/qemu/qemu/blob/master/docs/pcie.txt). PCI
+hierarchy is shown as follows:
 
-![PCI Hierarchy](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/PCI_Hierarchy.png "PCI Hierarchy")
+![PCI Hierarchy](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/PCI_Hierarchy.png "PCI
+Hierarchy")
 
 This layout is reflected in the corresponding QEMU commands:
 
@@ -174,7 +202,9 @@ qemu-system-x86_64 \
 ...
 ```
 
-The command above use Q35 for a larger IO space. In this PCI hierarchy, a DMI-PCI bridge is plugged into the root bridge, then PCI-PCI bridges are attached to the DMI-PCI bridge. The PCI-PCI bridges are used to attach all required PCI devices, so each PCI device has its own slot.
+The command above use Q35 for a larger IO space. In this PCI hierarchy, a DMI-PCI bridge is plugged into the root
+bridge, then PCI-PCI bridges are attached to the DMI-PCI bridge. The PCI-PCI bridges are used to attach all required PCI
+devices, so each PCI device has its own slot.
 
 ## References
 

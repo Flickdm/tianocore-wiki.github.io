@@ -1,6 +1,7 @@
 # Windows Systems Toolchain Matrix
 
-Change **TOOL_CHAIN_TAG** in the file Conf\Target.txt for Windows Visual Studio Versions according to the following Matrix
+Change **TOOL_CHAIN_TAG** in the file Conf\Target.txt for Windows Visual Studio Versions according to the following
+Matrix
 
 |Visual Studio | V. Version | WinXP / Win7 /IA32 | Win7 / Win8x / Win10 x64 |
 | ----------------- | ------------------ | -------------- | -------------- |

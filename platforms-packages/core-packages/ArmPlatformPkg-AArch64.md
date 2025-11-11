@@ -66,7 +66,8 @@ Build/ArmVExpress-FVP-AArch64/DEBUG_GCC5/FV/FVP_AARCH64_EFI.fd
 **Note 1:** To build the release build, add '-b RELEASE'. Here's an
 example with the Foundation FVP:
 
-    GCC5_AARCH64_PREFIX=aarch64-linux-gnu- build -a AARCH64 -p Platform/ARM/VExpressPkg/ArmVExpress-FVP-AArch64.dsc -t GCC5 -b RELEASE
+GCC5_AARCH64_PREFIX=aarch64-linux-gnu- build -a AARCH64 -p Platform/ARM/VExpressPkg/ArmVExpress-FVP-AArch64.dsc -t GCC5
+-b RELEASE
 
 ## Start Linux from UEFI on the FVPs
 
@@ -92,7 +93,8 @@ file-system uses Ext4.
 
 Build the kernel.
 
-    make -j4 ARCH=arm64 CROSS_COMPILE=<path-to-aarch64-gcc>/gcc-linaro-aarch64-linux-gnu-4.8-2013.06_linux/bin/aarch64-linux-gnu-
+make -j4 ARCH=arm64
+CROSS_COMPILE=<path-to-aarch64-gcc>/gcc-linaro-aarch64-linux-gnu-4.8-2013.06_linux/bin/aarch64-linux-gnu-
 
 You should get the binaries:
 
@@ -144,7 +146,10 @@ The file-system needs some minimal preparation:
 The following command line can be used to run UEFI in the following
 manner:
 
-    $AARCH64_FOUNDATION_MODEL_ROOT/Foundation_v8 --cores=2 --image=ArmPlatformPkg/ArmVExpressPkg/Scripts/uefi-aarch64-bootstrap/uefi-bootstrap-el3-foundation.axf --nsdata=Build/ArmVExpress-RTSM-AEMv8Ax4-foundation/DEBUG_GCC47/FV/RTSM_VE_FOUNDATIONV8_EFI.fd@0xA0000000 --block-device=<path/to>/vexpress64-openembedded_minimal-armv8_20130623-376.img
+$AARCH64_FOUNDATION_MODEL_ROOT/Foundation_v8 --cores=2
+--image=ArmPlatformPkg/ArmVExpressPkg/Scripts/uefi-aarch64-bootstrap/uefi-bootstrap-el3-foundation.axf
+--nsdata=Build/ArmVExpress-RTSM-AEMv8Ax4-foundation/DEBUG_GCC47/FV/RTSM_VE_FOUNDATIONV8_EFI.fd@0xA0000000
+--block-device=<path/to>/vexpress64-openembedded_minimal-armv8_20130623-376.img
 
 **Note:** Do not use a symbolic link to the file-system image. The
 model will not be able to read the image file.

@@ -60,7 +60,8 @@ held in draft pull requests within a TianoCore GitHub repository.
    - Apply the `type:code-first` label to the PR.
 5. Add a comment in the PR with a link to the GitHub issue created in *step 1*.
    - It is also recommended to link the pull request to the issue following the methods described in
-     [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
+[Linking a pull request to an
+issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
 6. Continue to develop the change in the "code first dev branch" until it is ready for review. Changes pushed to the
    branch will automatically update the PR.
 7. After all dependent specification changes have been approved and publicly published, the PR with code changes is

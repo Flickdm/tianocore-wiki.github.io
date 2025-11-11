@@ -188,7 +188,7 @@ To install the required packages, you must be root. Therefore we use
     bash$ pacman -S base-devel glibc iasl python2 subversion
     bash$ exit
 
- Continue with common instructions 
+ Continue with common instructions
 
 The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.
@@ -217,7 +217,7 @@ To install the required packages, you must be root. Therefore we use
     bash$ yum install iasl libuuid-devel
     bash$ exit
 
- Continue with common instructions 
+ Continue with common instructions
 
 The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.
@@ -245,7 +245,7 @@ To install the required packages, you must be root. Therefore we use
     bash$ urpmi task-c++-devel iasl libuuid-devel subversion
     bash$ exit
 
- Continue with common instructions 
+ Continue with common instructions
 
 The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.
@@ -270,7 +270,7 @@ to run this command.
 
     bash> sudo zypper in -t pattern devel_basis
 
- Continue with common instructions 
+ Continue with common instructions
 
 The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.

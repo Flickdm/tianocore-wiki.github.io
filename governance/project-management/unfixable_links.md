@@ -1,6 +1,7 @@
 # Unfixable Links Report
 
-This document lists all broken internal links that could not be automatically fixed. These require manual review and intervention.
+This document lists all broken internal links that could not be automatically fixed. These require manual review and
+intervention.
 
 ## Summary
 
@@ -69,7 +70,8 @@ These links have multiple potential targets and require manual disambiguation.
 
 ### Links with Hash Fragments
 
-These links include hash fragments (#section) that point to specific sections within documents. These require manual review to ensure the target sections exist.
+These links include hash fragments (#section) that point to specific sections within documents. These require manual
+review to ensure the target sections exist.
 
 | File | Link Text | Original URL | Reason |
 |------|-----------|--------------|---------|

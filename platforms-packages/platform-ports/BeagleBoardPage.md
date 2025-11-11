@@ -18,7 +18,8 @@ directory with the following commands:
 
     /cygdrive/c$ svn co https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2 edk2 --username guest
     /cygdrive/c$ cd edk2
-    /cygdrive/c/edk2$ svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
+/cygdrive/c/edk2$ svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg
+--username guest
 
 Build the Beagle Board Package
 Now you can run the build.sh script
@@ -112,7 +113,8 @@ of the SEC code. You can cut the load command and past it directly into
 the RVD Cmd window to source level debug the SEC.
 
     UART Enabled
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31CYGWIN\ARM\BeagleBoardPkg\Sec\Sec\DEBUG\BeagleBoardSec.dll &0x80008360
+load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31CYGWIN\ARM\BeagleBoardPkg\Sec\Sec\DEBUG\BeagleBoardSec.dll
+&0x80008360
 
 ## Put edk2 code in the Beagle Board NAND using U-Boot
 

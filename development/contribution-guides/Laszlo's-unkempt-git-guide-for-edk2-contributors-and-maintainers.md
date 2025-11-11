@@ -935,7 +935,8 @@ Maintainer workflow
      [maintainer step 14](#maint-14). If github accepted your pull request in
      this case, that may cause the *other* maintainer's pull request to fail.
 
-     Follow steps 7-9 from [The maintainer process for the EDK II project](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Development-Process#the-maintainer-process-for-the-edk-ii-project)
+Follow steps 7-9 from [The maintainer process for the EDK II
+project](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Development-Process#the-maintainer-process-for-the-edk-ii-project)
      substituting `<new-integration-branch>` with `REVIEW_implement_foo_for_bar_vN`.
 
 15. [&sect;](#maint-15)

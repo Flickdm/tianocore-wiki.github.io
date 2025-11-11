@@ -38,9 +38,11 @@ Build a MinPlatform board port for the Acer Aspire VN7-572G.
 - Status: Completed :heavy_check_mark: as
   [GSoC2021](GSoC2021)
   project by Benjamin Doron ([https://github.com/benjamindoron](https://github.com/benjamindoron)).
-- Available at: [https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/KabylakeOpenBoardPkg/AspireVn7Dash572G](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/KabylakeOpenBoardPkg/AspireVn7Dash572G)
+- Available at:
+  [https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/KabylakeOpenBoardPkg/AspireVn7Dash572G](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/KabylakeOpenBoardPkg/AspireVn7Dash572G)
 
-More information: [https://gist.github.com/benjamindoron/cf9ce28bba0b6356113918a40814af30](https://gist.github.com/benjamindoron/cf9ce28bba0b6356113918a40814af30)
+More information:
+[https://gist.github.com/benjamindoron/cf9ce28bba0b6356113918a40814af30](https://gist.github.com/benjamindoron/cf9ce28bba0b6356113918a40814af30)
 
 ### Formally Verified PE/COFF Loader
 
@@ -70,7 +72,8 @@ robustly. Microsoft Windows 10 should be the primary target.
 - Status: Completed :heavy_check_mark: as
   [GSoC2021](GSoC2021)
   project by Yuqi Chen ([https://github.com/alyssachne](https://github.com/alyssachne)).
-- Available at: [https://github.com/tianocore/edk2-staging/tree/2021-gsoc-llvm-gnumake](https://github.com/tianocore/edk2-staging/tree/2021-gsoc-llvm-gnumake)
+- Available at:
+  [https://github.com/tianocore/edk2-staging/tree/2021-gsoc-llvm-gnumake](https://github.com/tianocore/edk2-staging/tree/2021-gsoc-llvm-gnumake)
 
 ### Terminal driver improvements
 
@@ -87,7 +90,8 @@ page 437 for correct line drawing.)
 - Status: Completed :heavy_check_mark: as
   [GSoC2021](GSoC2021)
   project by Caden Kline ([https://github.com/Pokemod97](https://github.com/Pokemod97)).
-- Available at: [https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3](https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3)
+- Available at:
+  [https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3](https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3)
 
 More information:
 [Tasks-Terminal-driver-improvements](Tasks-Terminal-driver-improvements)

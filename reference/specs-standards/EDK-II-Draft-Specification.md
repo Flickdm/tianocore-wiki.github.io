@@ -160,10 +160,14 @@ deviations in written code. These standards, flow and tools to establish:
 [MOBI](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/edk2-MinimumPlatformSpecification-draft.mobi),
 [EPUB](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/edk2-MinimumPlatformSpecification-draft.epub),
 [GitHub](https://github.com/tianocore-docs/edk2-MinimumPlatformSpecification)
-\] The EDK II Minimum Platform Specification describes the required and optional elements for an EDK II based platform with the following objectives:
-  * Define a structure that enables developers to consistently navigate source code, execution flow, and the functional results of bootstrapping a system.
-  * Enable a minimal platform where minimal is defined as the minimal firmware implementation required to produce a basic solution that can be further extended to meet a multitude of computing segment needs.
-  * Establish definitions for common, silicon, platform, and board packages and guidelines for minimizing coupling between these packages.
+\] The EDK II Minimum Platform Specification describes the required and optional elements for an EDK II based platform
+with the following objectives:
+* Define a structure that enables developers to consistently navigate source code, execution flow, and the functional
+results of bootstrapping a system.
+* Enable a minimal platform where minimal is defined as the minimal firmware implementation required to produce a basic
+solution that can be further extended to meet a multitude of computing segment needs.
+* Establish definitions for common, silicon, platform, and board packages and guidelines for minimizing coupling between
+these packages.
   * Enable large granularity binary solutions.
 
 * **_EDK II Driver Writer's Guide for UEFI 2.3.1_** \[

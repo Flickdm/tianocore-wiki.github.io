@@ -1,14 +1,8 @@
 # Roadmap 2015
 
-
-
 ## UDK2015 Roadmap for Tianocore.org
 
-
-
 **Expected update Mid October**
-
-
 
 <table width="100%">
 

@@ -21,14 +21,14 @@ enhancements and extensions to these services.
      * [https://edk2.groups.io/g/rfc/message/93](https://edk2.groups.io/g/rfc/message/93)
      * [https://edk2.groups.io/g/devel/message/46607](https://edk2.groups.io/g/devel/message/46607)
 2) Enable the following pre-commit checks
-   * [PatchCheck](https://github.com/tianocore/edk2/blob/e92b155740cdbf10a85ed8f37f69da0991fc8275/BaseTools/Scripts/PatchCheck.py)
-   * [CharEncodingCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/CharEncodingCheck)
-   * [CompilerPlugin](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/CompilerPlugin)
-   * [DependencyCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/DependencyCheck)
-   * [DscCompleteCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/DscCompleteCheck)
-   * [GuidCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/GuidCheck)
-   * [LibraryClassCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/LibraryClassCheck)
-   * [SpellCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/SpellCheck)
+     [PatchCheck](https://github.com/tianocore/edk2/blob/e92b155740cdbf10a85ed8f37f69da0991fc8275/BaseTools/Scripts/PatchCheck.py)
+     [CharEncodingCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/CharEncodingCheck)
+     [CompilerPlugin](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/CompilerPlugin)
+     [DependencyCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/DependencyCheck)
+     [DscCompleteCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/DscCompleteCheck)
+     [GuidCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/GuidCheck)
+     [LibraryClassCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/LibraryClassCheck)
+     [SpellCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/SpellCheck)
 3) TianoCore EDK II Maintainers Team permissions reduced from 'Write" to "Triage"
 4) EDK II Maintainers must use GitHub pull request with 'push' label to request
    a branch to be strict rebase merged into `edk2/master`.  If all checks pass,
@@ -44,10 +44,13 @@ enhancements and extensions to these services.
    * [GitHub](https://github.com/)
    * [GitHub Labels](https://help.github.com/en/github/managing-your-work-on-github/about-labels)
    * [GitHub Protected Branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
-   * [GitHub Notifications](https://help.github.com/en/github/receiving-notifications-about-activity-on-github/about-notifications)
-   * [Watch a GitHub repository](https://help.github.com/en/github/receiving-notifications-about-activity-on-github/watching-and-unwatching-repositories)
+   * [GitHub
+     Notifications](https://help.github.com/en/github/receiving-notifications-about-activity-on-github/about-notifications)
+   * [Watch a GitHub
+     repository](https://help.github.com/en/github/receiving-notifications-about-activity-on-github/watching-and-unwatching-repositories)
    * [Create a GutHub fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-   * [Create a GitHub pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+   * [Create a GitHub pull
+     request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 7) GitHub Command line Utility (`gh`) to perform GitHub operations
    * [GitHub CLI Download](https://cli.github.com/)
    * [GitHub CLI Manual](https://cli.github.com/manual/gh)
@@ -124,7 +127,7 @@ enhancements and extensions to these services.
 * Run UEFI SCTs and collect results for platforms
 * Linaro LAVA CI
   * [https://validation.linaro.org/static/docs/v2](https://validation.linaro.org/static/docs/v2)
-  * [https://validation.linaro.org/static/docs/v2/lava_ci.html#continuous-integration](https://validation.linaro.org/static/docs/v2/lava_ci.html#continuous-integration)
+    [https://validation.linaro.org/static/docs/v2/lava_ci.html#continuous-integration](https://validation.linaro.org/static/docs/v2/lava_ci.html#continuous-integration)
   * [https://lkft.linaro.org](https://lkft.linaro.org)
 * Boot platforms to OS(s)
 * Integration/Regression tests that require full OS boots
@@ -156,7 +159,7 @@ enhancements and extensions to these services.
 * Background
   * [https://en.wikipedia.org/wiki/Continuous_integration](https://en.wikipedia.org/wiki/Continuous_integration)
 * GitHub Continuous Integration services
-  * [https://github.com/marketplace/category/continuous-integration](https://github.com/marketplace/category/continuous-integration)
+    [https://github.com/marketplace/category/continuous-integration](https://github.com/marketplace/category/continuous-integration)
 * Jenkins Evaluation
 * GitLab Evaluation
   * Contacts
@@ -167,11 +170,11 @@ enhancements and extensions to these services.
   * Contacts
     * Michael D Kinney <michael.d.kinney@intel.com>
   * [https://github.com/mdkinney/edk2-ci](https://github.com/mdkinney/edk2-ci)
-  * [https://dev.azure.com/mikekinney/edk2-ci/_build?definitionId=1](https://dev.azure.com/mikekinney/edk2-ci/_build?definitionId=1)
+    [https://dev.azure.com/mikekinney/edk2-ci/_build?definitionId=1](https://dev.azure.com/mikekinney/edk2-ci/_build?definitionId=1)
 * Azure Pipelines Evaluation with HBFA integration
   * Contacts
     * Sean Brogan <sean.brogan@microsoft.com>
-  * [https://github.com/spbrogan/edk2-staging/tree/edk2-stuart-ci-latest](https://github.com/spbrogan/edk2-staging/tree/edk2-stuart-ci-latest)
+    [https://github.com/spbrogan/edk2-staging/tree/edk2-stuart-ci-latest](https://github.com/spbrogan/edk2-staging/tree/edk2-stuart-ci-latest)
   * To work with this branch and run tests immediately, all you need to do is:
 
 ```
@@ -182,15 +185,15 @@ stuart_ci_build -c .\CISettings.py --Tool_Chain VS2017
 ```
 
 * Branch is monitored for CI and PR gating in the following Azure build pipeline.
-  * [https://dev.azure.com/tianocore/edk2-ci-play/_build?definitionId=12](https://dev.azure.com/tianocore/edk2-ci-play/_build?definitionId=12)
+    [https://dev.azure.com/tianocore/edk2-ci-play/_build?definitionId=12](https://dev.azure.com/tianocore/edk2-ci-play/_build?definitionId=12)
 * Results show that this CI process is running build CI and DSC checking and
     automatically running a host-based unit test and all of the results are
     visible in a single view.
-  * [https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=216&view=ms.vss-test-web.build-test-results-tab](https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=216&view=ms.vss-test-web.build-test-results-tab)
-  * [https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=215&view=ms.vss-test-web.build-test-results-tab](https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=215&view=ms.vss-test-web.build-test-results-tab)
+    [https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=216&view=ms.vss-test-web.build-test-results-tab](https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=216&view=ms.vss-test-web.build-test-results-tab)
+    [https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=215&view=ms.vss-test-web.build-test-results-tab](https://dev.azure.com/tianocore/edk2-ci-play/_build/results?buildId=215&view=ms.vss-test-web.build-test-results-tab)
 * Depends on pip installable tool from the following TianoCore repos
   * [https://github.com/tianocore/edk2-pytool-extensions](https://github.com/tianocore/edk2-pytool-extensions)
   * [https://github.com/tianocore/edk2-pytool-library](https://github.com/tianocore/edk2-pytool-library)
 * Documentation for edk2-pytools
-  * [https://github.com/tianocore/edk2-pytool-library/tree/master/docs](https://github.com/tianocore/edk2-pytool-library/tree/master/docs)
-  * [https://github.com/tianocore/edk2-pytool-extensions/tree/master/docs](https://github.com/tianocore/edk2-pytool-extensions/tree/master/docs)
+    [https://github.com/tianocore/edk2-pytool-library/tree/master/docs](https://github.com/tianocore/edk2-pytool-library/tree/master/docs)
+    [https://github.com/tianocore/edk2-pytool-extensions/tree/master/docs](https://github.com/tianocore/edk2-pytool-extensions/tree/master/docs)

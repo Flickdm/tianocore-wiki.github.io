@@ -44,10 +44,16 @@ debugger tool.
 'PC' is located. Example:
 
     Boot firmware (version  built at 17:48:18 on Aug 21 2012)
-    add-symbol-file /work/dev/uefi/edk2/Build/ArmVExpress-CTA9x4-Standalone/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll 0x44000180
+add-symbol-file
+/work/dev/uefi/edk2/Build/ArmVExpress-CTA9x4-Standalone/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll
+0x44000180
     Trust Zone Configuration is disabled
-    add-symbol-file /work/dev/uefi/edk2/Build/ArmVExpress-CTA9x4-Standalone/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/PrePeiCore/PrePeiCoreMPCore/DEBUG/ArmPlatformPrePeiCore.dll 0x45000180
-    add-symbol-file /work/dev/uefi/edk2/Build/ArmVExpress-CTA9x4-Standalone/DEBUG_RVCTLINUX/ARM/MdeModulePkg/Core/Pei/PeiMain/DEBUG/PeiCore.dll 0x450049CC
+add-symbol-file
+/work/dev/uefi/edk2/Build/ArmVExpress-CTA9x4-Standalone/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/PrePeiCore/PrePeiCoreMPCore/DEBUG/ArmPlatformPrePeiCore.dll
+0x45000180
+add-symbol-file
+/work/dev/uefi/edk2/Build/ArmVExpress-CTA9x4-Standalone/DEBUG_RVCTLINUX/ARM/MdeModulePkg/Core/Pei/PeiMain/DEBUG/PeiCore.dll
+0x450049CC
     (...)
 
 If your PC register is equal to 0x45000248 then your CPU is running code
@@ -56,7 +62,9 @@ from the 'PrePeiCore' module.
 4\. Load the symbols by copying and pasting the command line into your
 debugger.
 
-    add-symbol-file /work/dev/uefi/edk2/Build/ArmVExpress-CTA9x4-Standalone/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/PrePeiCore/PrePeiCoreMPCore/DEBUG/ArmPlatformPrePeiCore.dll 0x45000180
+add-symbol-file
+/work/dev/uefi/edk2/Build/ArmVExpress-CTA9x4-Standalone/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/PrePeiCore/PrePeiCoreMPCore/DEBUG/ArmPlatformPrePeiCore.dll
+0x45000180
 
 ### Debugging initial bring-up code (SEC phase)
 
@@ -77,13 +85,15 @@ the PrePi module, then the first function is \_ModuleEntryPoint of
 2\. Retrieve the base address of this symbol in the corresponding ELF
 file. Example:
 
-    $ fromelf -s Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll | grep _ModuleEntryPoint
+$ fromelf -s Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll | grep
+_ModuleEntryPoint
       1217  _ModuleEntryPoint          0x00000004   Gb    1  Code  De
     Or:
     
 
-$ arm-linux-gnueabi-objdump -t Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll | grep _ModuleEntryPoint
-    00000004 g     F ER_RO  000000c8 .hidden _ModuleEntryPoint
+$ arm-linux-gnueabi-objdump -t
+Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll | grep_ModuleEntryPoint
+    00000004 g     F ER_RO  000000c8 .hidden_ModuleEntryPoint
 
 3\. Get the address of \_ModuleEntryPoint in the UEFI Firmware file. The
 first 32bit double word of your firmware should be a 'BL' jump to this
@@ -103,4 +113,5 @@ Address of \_ModuleEntryPoint in the ELF file = 0x184 - 0x004 =
 
 5\. Load the symbols for this module:
 
-    add-symbol-file [EDK2_ROOT]/Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll 0x180
+add-symbol-file
+[EDK2_ROOT]/Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll 0x180

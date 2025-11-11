@@ -61,7 +61,8 @@ Some possible sub-goals for the driver
   - Tested with QEMU/OVMF on Linux
 - The StartCore project provides a sample program that uses the
   MpServices protocol
-  - [https://svn.code.sf.net/p/edk2-startcore/code/StartCorePkg](https://svn.code.sf.net/p/edk2-startcore/code/StartCorePkg) (svn)
+    [https://svn.code.sf.net/p/edk2-startcore/code/StartCorePkg](https://svn.code.sf.net/p/edk2-startcore/code/StartCorePkg)
+    (svn)
 - [EmulatorPkg](EmulatorPkg) already supports MpServices, so
   this may be used as a reference.
 

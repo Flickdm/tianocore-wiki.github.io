@@ -2,7 +2,8 @@
 
 ## Overview
 
-We will be holding community meetings on the first Thursday of the month. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.
+We will be holding community meetings on the first Thursday of the month. There will be two meetings attempting to cover
+all timezones. Please contact me with questions or comments.
 
 ## Minutes
 
@@ -22,4 +23,5 @@ Please subscribe to the Groups.io calendar:
 
 ## Contact
 
-Please email [the discuss list](mailto:discuss@edk2.groups.io) with subjects that you'd like to see discussed, questions, or comments.
+Please email [the discuss list](mailto:discuss@edk2.groups.io) with subjects that you'd like to see discussed,
+questions, or comments.

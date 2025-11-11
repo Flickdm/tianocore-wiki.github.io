@@ -25,13 +25,13 @@ Server
 
 # Links for more information
 
-- [https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md](https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md)
+  [https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md](https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md)
 - [http://nbd.sourceforge.net/](http://nbd.sourceforge.net/)
 - [http://wiki.wireshark.org/NBD](http://wiki.wireshark.org/NBD)
 - [http://www.vanheusden.com/java/JNbd/](http://www.vanheusden.com/java/JNbd/)
 - [http://www.vanheusden.com/windows/nbdsrvr/](http://www.vanheusden.com/windows/nbdsrvr/)
 - [https://github.com/yoe/nbd](https://github.com/yoe/nbd)
-- [http://code.activestate.com/recipes/577569-nbd-server-in-python/](http://code.activestate.com/recipes/577569-nbd-server-in-python/)
+  [http://code.activestate.com/recipes/577569-nbd-server-in-python/](http://code.activestate.com/recipes/577569-nbd-server-in-python/)
 
 # Development environment
 

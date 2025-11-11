@@ -96,11 +96,9 @@ href="[mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question]
 
  sbsigntool
 
-
 </td>
 
 <td>
-
 
 <git://kernel.ubuntu.com/jk/sbsigntool>
 
@@ -114,9 +112,7 @@ href="[mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question]
 
 <td width="141">
 
-
-
-pesign 
+pesign
 
 </td>
 
@@ -124,7 +120,7 @@ pesign
 
 ``
 
-[https://github.com/vathpela/pesign](https://github.com/vathpela/pesign) 
+[https://github.com/vathpela/pesign](https://github.com/vathpela/pesign)
 
 </td>
 

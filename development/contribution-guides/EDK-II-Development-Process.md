@@ -1,6 +1,7 @@
 # EDK II Development Process
 
-First check out [Getting Started with EDK II](../tutorials-howto/Getting-Started-with-EDK-II.md) for downloading the latest EDK II development project with your build
+First check out [Getting Started with EDK II](../tutorials-howto/Getting-Started-with-EDK-II.md) for downloading the
+latest EDK II development project with your build
 environment.
 
 Are you new to using git? If so, then the [[New to git]] page may be helpful.
@@ -110,7 +111,8 @@ The remainder of this page focuses on source management details and how to prepa
 10. Push changes to the developer's fork of the EDK II project repository.
 
     - How to create a [GitHub fork](https://help.github.com/github/getting-started-with-github/fork-a-repo)
-      - **NOTE:** A GitHub fork can also be created using the command line utility called [`gh`](https://cli.github.com/).
+      - **NOTE:** A GitHub fork can also be created using the command line utility called
+        [`gh`](https://cli.github.com/).
         - See [`gh repo fork`](https://cli.github.com/manual/gh_repo_fork).
 
     - Add remote to the developer's fork of the EDK II project.
@@ -123,14 +125,18 @@ The remainder of this page focuses on source management details and how to prepa
 
 11. Create a GitHub pull request from the developer's `<new-integration-branch>` to `edk2/master`.
 
-    - How to create a [GitHub pull request](https://help.github.com/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+- How to create a [GitHub pull
+request](https://help.github.com/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-      - **NOTE:** A GitHub pull request can also be created using the command line utility called [`gh`](https://cli.github.com/).
+- **NOTE:** A GitHub pull request can also be created using the command line utility called
+[`gh`](https://cli.github.com/).
         - See [`gh pr`](https://cli.github.com/manual/gh_pr).
 
     - If a pull request is only being created to run CI checks, create a [draft pull request](GitHub-PR-Tips.md).
 
-    - Pull request description needs to include Fixes issue url link, for example: Fixes [https://github.com/tianocore/edk2/issues/10626](https://github.com/tianocore/edk2/issues/10626), then PR will automatically be related to github issue.
+- Pull request description needs to include Fixes issue url link, for example: Fixes
+[https://github.com/tianocore/edk2/issues/10626](https://github.com/tianocore/edk2/issues/10626), then PR will
+automatically be related to github issue.
 
     - The relevant reviewers and maintainers need to be added to the pull request.
       - If you are a maintainer, you should add the appropriate PR reviewers yourself.
@@ -169,14 +175,16 @@ The remainder of this page focuses on source management details and how to prepa
 1. It is recommended to register for email notifications for pull requests, pushes, and check status results by
    setting up notifications for the EDK II repository ([tianocore/edk2](https://github.com/tianocore/edk2)).
 
-   - [Configuring notifications](https://docs.github.com/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications)
+   - [Configuring
+     notifications](https://docs.github.com/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications)
 
 2. Add the relevant reviewers and maintainers as reviewers to the pull request.
 
    - You can find the reiewers and maintainers for the code areas touched by the changes in
      [Maintainers.txt](https://github.com/tianocore/edk2/blob/master/Maintainers.txt).
 
-   - You can also use the [GetMaintainer.py](https://github.com/tianocore/edk2/blob/master/BaseTools/Scripts/GetMaintainer.py)
+- You can also use the
+[GetMaintainer.py](https://github.com/tianocore/edk2/blob/master/BaseTools/Scripts/GetMaintainer.py)
      script to find the list of reviewers to add.
 
 3. Verify that the Pull Request title and description succinctly describe the changes.
@@ -207,7 +215,8 @@ The remainder of this page focuses on source management details and how to prepa
      and simply reference the commit in the comment. For example, "this change should be in commit `<commit A title>`
      instead of commit `<commit B title>`".
 
-   - Ensure conversations in the PR follow the [PR Conversation Resolution Process](#pr-conversation-resolution-process).
+   - Ensure conversations in the PR follow the [PR Conversation Resolution
+     Process](#pr-conversation-resolution-process).
 
    - Note: An approval means you approve of all the changes applicable to you in the PR.
 

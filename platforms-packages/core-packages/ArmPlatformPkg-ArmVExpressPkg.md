@@ -231,7 +231,8 @@ Example of UEFI Device Path:
     #define LINUX_KERNEL    L"VenHw(621B6FA5-4DC1-476F-B9D8-52C557D81070)/HD(1,MBR,0x00000000,0xF9,0x3C8907)\\boot\\zImage.fdt"
 
     // Kernel from SATA HD - Partition 2
-    #define LINUX_KERNEL    L"Acpi(PNP0A03,0)/Pci(0|0)/Pci(0|0)/Pci(5|0)/Pci(0|0)/Sata(0,0,0)/HD(2,MBR,0x00076730,0x1F21BF,0x1F21BF)\\boot\\zImage.fdt"
+#define LINUX_KERNEL
+L"Acpi(PNP0A03,0)/Pci(0|0)/Pci(0|0)/Pci(5|0)/Pci(0|0)/Sata(0,0,0)/HD(2,MBR,0x00076730,0x1F21BF,0x1F21BF)\\boot\\zImage.fdt"
 
     // Kernel from NOR Flash
     #define LINUX_KERNEL            L"VenHw(02118005-9DA7-443a-92D5-781F022AEDBB)/MemoryMapped(0,0x46000000,0x462F0000)"
@@ -354,11 +355,13 @@ reset, the CPU always starts at 0x0.
 
 2\. Start the model with UEFI loaded in NOR Flash 0 (using Windows):
 
-    RTSM_VE_Cortex-A9_MPx4 -C motherboard.sp810_sysctrl.use_s8=1 -C motherboard.flashloader0.fname=Build\ArmVExpress-RTSM-CTA9x4\DEBUG_RVCT\FV\ARMVEXPRESS_EFI.fd
+RTSM_VE_Cortex-A9_MPx4 -C motherboard.sp810_sysctrl.use_s8=1 -C
+motherboard.flashloader0.fname=Build\ArmVExpress-RTSM-CTA9x4\DEBUG_RVCT\FV\ARMVEXPRESS_EFI.fd
 
 Or start UEFI from the model Shell (using Linux):
 
-    model_shell -m RTSM_VE_Cortex-A9.so -C motherboard.sp810_sysctrl.use_s8=1 -C motherboard.flashloader0.fname=Build/ArmVExpress-RTSM-CTA9x4/DEBUG_RVCTLINUX/FV/ARMVEXPRESS_EFI.fd
+model_shell -m RTSM_VE_Cortex-A9.so -C motherboard.sp810_sysctrl.use_s8=1 -C
+motherboard.flashloader0.fname=Build/ArmVExpress-RTSM-CTA9x4/DEBUG_RVCTLINUX/FV/ARMVEXPRESS_EFI.fd
 
 ### Example: Run UEFI SCT on the Model
 

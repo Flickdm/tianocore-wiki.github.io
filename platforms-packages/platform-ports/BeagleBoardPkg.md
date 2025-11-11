@@ -66,10 +66,12 @@ Omap35xxPkg.
 
 - Getting from Linaro website:
 
-    wget [http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
+wget
+[http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
     tar xzf linaro-image-tools-0.4.8.tar.gz
     cd $(WORKROOT)/linaro-image-tools-0.4.8/
-    sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted qemu-arm-static btrfs-tools command-not-found
+sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted
+qemu-arm-static btrfs-tools command-not-found
 
 Add linaro-media-create path to the PATH environment variable
 
@@ -84,7 +86,8 @@ Add linaro-media-create path to the PATH environment variable
     mkdir $(WORKROOT)/beagle_image && cd $(WORKROOT)/beagle_image
     wget http://releases.linaro.org/platform/linaro-m/hwpacks/final/hwpack_linaro-omap3_20101109-1_armel_supported.tar.gz
     wget http://releases.linaro.org/platform/linaro-m/headless/release-candidate/linaro-m-headless-tar-20101101-0.tar.gz
-    sudo linaro-media-create --image_file beagle_sd.img --dev beagle --binary linaro-m-headless-tar-20101101-0.tar.gz --hwpack hwpack_linaro-omap3_20101109-1_armel_supported.tar.gz
+sudo linaro-media-create --image_file beagle_sd.img --dev beagle --binary linaro-m-headless-tar-20101101-0.tar.gz
+--hwpack hwpack_linaro-omap3_20101109-1_armel_supported.tar.gz
     sudo chmod a+rw beagle_sd.img
 
 3\. Replacing u-boot by UEFI
@@ -126,7 +129,8 @@ sdcard:
     [1] Linux from SD
     Update entry: 1
     File path of the EFI Application or the kernel: zImage
-    Arguments to pass to the binary: console=ttyS2,115200n8 root=/dev/mmcblk0p2 rw earlyprintk fixrtc nocompcache vram=12M omapfb.mode=dvi:1280x720MR-16@60
+Arguments to pass to the binary: console=ttyS2,115200n8 root=/dev/mmcblk0p2 rw earlyprintk fixrtc nocompcache vram=12M
+omapfb.mode=dvi:1280x720MR-16@60
     Description for this new Entry: Linux from SD
     [1] Add Boot Device Entry
     [2] Update Boot Device Entry
@@ -144,7 +148,8 @@ sdcard:
     Uncompressing Linux... done, booting the kernel.
     [    0.000000] Initializing cgroup subsys cpuset
     [    0.000000] Initializing cgroup subsys cpu
-    [    0.000000] Linux version 2.6.35-1008-linaro-omap (buildd@hawthorn) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) ) #15-Ubuntu Fri Oct 22 11:56:29 UTC 2010 (Ubuntu 2.6.35-1008.15-linaro-omap 2.6.35.7)
+[ 0.000000] Linux version 2.6.35-1008-linaro-omap (buildd@hawthorn) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) )
+#15-Ubuntu Fri Oct 22 11:56:29 UTC 2010 (Ubuntu 2.6.35-1008.15-linaro-omap 2.6.35.7)
     [    0.000000] CPU: ARMv7 Processor [412fc083] revision 3 (ARMv7), cr=10c53c7f
     [    0.000000] CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
     [    0.000000] Machine: OMAP3 Beagle Board
@@ -172,7 +177,8 @@ more information.
 
     cd $(WORKROOT)/edk2/BeagleBoardPkg/
     ./build.sh RELEASE
-    qemu-system-arm -M beagle -serial stdio -sd beagle_sd.img -mtdblock $(WORKROOT)/edk2/Build/BeagleBoard/RELEASE_ARMGCC/FV/BeagleBoard_EFI_flashboot.fd
+qemu-system-arm -M beagle -serial stdio -sd beagle_sd.img -mtdblock
+$(WORKROOT)/edk2/Build/BeagleBoard/RELEASE_ARMGCC/FV/BeagleBoard_EFI_flashboot.fd
 
 - If UEFI fails to find the Linux kernel then you should expect to see
   this error message:
@@ -271,9 +277,13 @@ partition (the FAT partition) of your SD card.
     ## Starting application at 0x80008000 ...
     Magic delay to disable watchdog timers properly.
     UEFI firmware built at 12:34:19 on Nov 16 2011
-    add-symbol-file /home/olivier/tianocore-svn/Build/BeagleBoard/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll 0x87B88240
+add-symbol-file
+/home/olivier/tianocore-svn/Build/BeagleBoard/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+0x87B88240
     Loading DxeCore at 0x0087B88000 EntryPoint=0x0087B88241
-    add-symbol-file /home/olivier/tianocore-svn/Build/BeagleBoard/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll 0x87B88004
+add-symbol-file
+/home/olivier/tianocore-svn/Build/BeagleBoard/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+0x87B88004
     HOBLIST address in DXE = 0x87B70010
     Memory Allocation 0x00000004 0x87FEF000 - 0x87FEFFFF
     Memory Allocation 0x00000004 0x87FE7000 - 0x87FEEFFF
@@ -283,7 +293,8 @@ partition (the FAT partition) of your SD card.
     The default boot selection will start in  10 seconds
     [1] Linux from SD
         - VenHw(B615F1F5-5088-43CD-809C-A16E52487D00)/HD(1,MBR,0x00000000,0x3F,0x19FC0)/zImage
-        - Arguments: console=tty0 console=ttyS2,115200n8 root=UUID=a4af765b-c2b5-48f4-9564-7a4e9104c4f6 rootwait ro earlyprintk
+        - Arguments: console=tty0 console=ttyS2,115200n8 root=UUID=a4af765b-c2b5-48f4-9564-7a4e9104c4f6 rootwait ro
+          earlyprintk
         - LoaderType: 1
     [2] EBL
     [3] Boot Manager

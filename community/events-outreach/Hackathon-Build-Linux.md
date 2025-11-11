@@ -8,7 +8,8 @@ If you are running Ubuntu 16.04 then you are ready to build.
 
 ### Ubuntu 16.04 Prebuilt Container
 
-We have already built an Ubuntu 16.04 container specifically for the workshops at OSFC 2018. Once installed, you will need to add gcc-multilib to that image. The password is `password`:
+We have already built an Ubuntu 16.04 container specifically for the workshops at OSFC 2018. Once installed, you will
+need to add gcc-multilib to that image. The password is `password`:
 
 ```bash
 su root
@@ -17,7 +18,8 @@ apt install gcc-multilib
 
 ### Ubuntu 16.04 using Docker (lightweight option)
 
-If you are comfortable running your own docker build, follow these instructions to install Docker, based on your distribution. You can then run ```docker pull``` to get ```ubuntu:16.04```.
+If you are comfortable running your own docker build, follow these instructions to install Docker, based on your
+distribution. You can then run ```docker pull``` to get ```ubuntu:16.04```.
 
 * [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)
 * [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
@@ -27,7 +29,8 @@ If you are comfortable running your own docker build, follow these instructions 
 
 Once Docker is installed, follow the [post-install steps](https://docs.docker.com/install/linux/linux-postinstall/).
 
-Before starting a Docker container, confirm that your user has been added to the `docker` group. This step is **required**.
+Before starting a Docker container, confirm that your user has been added to the `docker` group. This step is
+**required**.
 
 ## Build Steps
 

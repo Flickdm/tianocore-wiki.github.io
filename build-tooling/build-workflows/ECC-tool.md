@@ -1,7 +1,8 @@
 # 1. What is ECC tool?
 
 ECC is a python tool which helps to detect coding style issues.  
-It reports errors for the codes which don't follow [EDK II C Coding Standards Specification](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/draft/).  
+It reports errors for the codes which don't follow [EDK II C Coding Standards
+Specification](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/draft/). 
 
 # 2. Where is the ECC tool?
 
@@ -24,7 +25,8 @@ Steps to run the ECC tool:
     ImportError: No module named antlr3
     ```
 
-    This error may be met when you run the ECC tool with Python 2.x, then ECC depends on antlr V3.0.1, you can download it from
+This error may be met when you run the ECC tool with Python 2.x, then ECC depends on antlr V3.0.1, you can download it
+from
     [http://www.antlr3.org/download/Python/](http://www.antlr3.org/download/Python/).
     After downloading and extracting it, you can enter the antlr tool directory and run:
 
@@ -39,7 +41,8 @@ Steps to run the ECC tool:
     ModuleNotFoundError: No module named 'antlr4'
     ```
 
-    This error may be met when you run the ECC tool with Python 3.x, then ECC depends on antlr4, you can install it through the following command.
+This error may be met when you run the ECC tool with Python 3.x, then ECC depends on antlr4, you can install it through
+the following command.
 
     `py -3 -m pip install antlr4-python3-runtime==4.7.1` (_on Windows_)
 
@@ -55,17 +58,22 @@ Steps to run the ECC tool:
   >
   > `config.ini` and `exception.xml` are in the `edk2/BaseTools/Source/Python/Ecc` directory.
   >
-  > `config.ini` is the configuration file of the ECC tool. If the config file is not specified when running ECC, it will use the one in the `Edk2/BaseTools/Source/Python/Ecc` directory by default.
+> `config.ini` is the configuration file of the ECC tool. If the config file is not specified when running ECC, it will
+use the one in the `Edk2/BaseTools/Source/Python/Ecc` directory by default.
   > `exception.xml` is used to skip some specific coding style issues.
 
   For example, to run ECC to check the coding style in MdePkg:
 
-  `Ecc –c  D:/AWORK/edk2/BaseTools/Source/Python/Ecc/config.ini -e D:/AWORK/edk2/BaseTools/Source/Python/Ecc/exception.xml -t D:/AWORK/edk2/MdePkg -r MdePkgECC.csv`
-  > Notes: When running ECC for a specific sub-dir, it may report some errors such as some library instances are not used, but when running ECC for the whole project, these errors are gone. We can ignore such kind of errors when running ECC for a specific sub-dir.
+`Ecc –c D:/AWORK/edk2/BaseTools/Source/Python/Ecc/config.ini -e D:/AWORK/edk2/BaseTools/Source/Python/Ecc/exception.xml
+-t D:/AWORK/edk2/MdePkg -r MdePkgECC.csv`
+> Notes: When running ECC for a specific sub-dir, it may report some errors such as some library instances are not used,
+but when running ECC for the whole project, these errors are gone. We can ignore such kind of errors when running ECC
+for a specific sub-dir.
 
 * 6). You may need to maintain the config.ini and exception.xml files by yourself for your project.
 
-  * a) If you want to skip to check some sub-dir or file, you can add them to the SkipDirList, SkipFileList part in the config.ini.
+* a) If you want to skip to check some sub-dir or file, you can add them to the SkipDirList, SkipFileList part in the
+config.ini.
   A list for skip dirs when scanning source code: `SkipDirList = BUILD, ..., TEST\TEST`
   A list for skip files when scanning source code: `SkipFileList = .gitignore,...`
 

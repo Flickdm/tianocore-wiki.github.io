@@ -1,7 +1,5 @@
 # EDK II Specifications Archived
 
-
-
 current [EDK II Specifications](EDK_II_Specifications)
 
 <table>

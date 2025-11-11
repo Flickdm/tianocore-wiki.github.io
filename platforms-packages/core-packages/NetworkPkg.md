@@ -7,16 +7,13 @@ and necessary shell applications for network configuration
 More information: [NetworkPkg Getting Started
 Guide](https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide)
 
-
-
 <table border="1" width="500">
 
 <tr>
 
 <th>
 
-
-Network Package Details 
+Network Package Details
 [Readme_NetworkPkg.txt](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/Readme_NetworkPkg.txt)
 
 </th>
@@ -134,8 +131,6 @@ EFI_AUTHENTICATION_INFO_PROTOCOL
 </tr>
 
 </table>
-
-
 
 Note: UNDI, SNP, DPC and MNP drivers are components shared by IPv4
 network stack and IPv6 network stack. These modules could be found in

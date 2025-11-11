@@ -33,22 +33,27 @@ repository to create a pull request. To fork the edk2 repository:
 2. Click on the "Fork" button in the upper-right corner of the repository page.
 3. Select your GitHub username where you want to fork the repository.
 
-- See [Fork a Repo](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) for more information.
+- See [Fork a
+  Repo](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) for more
+  information.
 
 Once your fork is setup, you can push a branch to the fork with your changes and then create a pull request into the
 tianocore/edk2 repo from the branch on the fork.
 
 When you fork a repository, you should understand how permissions and settings are transferred to protect your fork.
 
-- See [About permissions and visibility of forks](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/about-permissions-and-visibility-of-forks)
+- See [About permissions and visibility of
+  forks](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/about-permissions-and-visibility-of-forks)
 
 ### Setting Up Notifications for the edk2 Repository
 
 Notifications help you stay informed about certain activities in the repository. Review the following links to better
 understand the types of notifications available and how to set them up:
 
-- [About Notifications](https://docs.github.com/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications)
-- [Configuring Notifications](https://docs.github.com/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications)
+- [About
+  Notifications](https://docs.github.com/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications)
+- [Configuring
+  Notifications](https://docs.github.com/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications)
 
 GitHub also provides guidance for filtering emails in your email client. It is recommended to especially review the
 [Filtering email notifications](https://docs.github.com/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#filtering-email-notifications)
@@ -64,7 +69,9 @@ The quickest approach when using the GitHub Web UI is to push the branch to your
 [tianocore/edk2](https://github.com/tianocore/edk2) repo. The UI will conveniently display an option to create a pull
 request from the branch you just pushed to your fork.
 
-- See [Creating a Pull Request](https://docs.github.com//pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) for more information.
+- See [Creating a Pull
+  Request](https://docs.github.com//pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+  for more information.
 
 #### Create a Draft Pull request
 
@@ -91,8 +98,10 @@ be checked out locally to test the changes and make any modifications on top.
 
 Suggested reading:
 
-- [About PR reviews](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)
-- [Reivew proposed changes](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request)
+- [About PR
+  reviews](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)
+- [Reivew proposed
+  changes](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request)
 
 ### Leaving Feedback in a Pull Request
 
@@ -103,22 +112,26 @@ line of code or as a general file comment must be resolved.
 If you would like to simply leave a comment without requiring a resolution, you can leave a comment outside of a file
 such as in the comment box at the bottom of the pull request.
 
-- [Comment on a PR](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
+- [Comment on a
+  PR](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
 
 The above link also shows how you can leave a code suggestion for a section of code in a pull request. The following
 link shows how the author of a pull request can apply a code suggestion.
 
-- [Incorporate feedback](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request
+- [Incorporate
+  feedback](https://docs.github.com/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request
 )
 
 ### Viewing Open & Closed Pull Requests
 
-There are many ways to view pull requests. The most common view is to navigate to the ["Pull requests" tab](https://github.com/tianocore/edk2/pulls)
+There are many ways to view pull requests. The most common view is to navigate to the ["Pull requests"
+tab](https://github.com/tianocore/edk2/pulls)
 of the repository. There you can quickly filter by open/closed status, author, labels, review status, and more. In
 addition, the PR status check status is displayed next to each PR.
 
 You can find all of the pull requests and issues you've created and been asked to review across repos specific to your
-account by going to the dashboard by clicking the buttons described in [Viewing all of your issues and pull requests](https://docs.github.com/issues/tracking-your-work-with-issues/viewing-all-of-your-issues-and-pull-requests).
+account by going to the dashboard by clicking the buttons described in [Viewing all of your issues and pull
+requests](https://docs.github.com/issues/tracking-your-work-with-issues/viewing-all-of-your-issues-and-pull-requests).
 
 ### Finding a Commit
 
@@ -131,12 +144,14 @@ To locate a specific commit within the repository's history.
 > Note: If you have a commit hash, for example `4b6ee06a090d956f80b4a92fb9bf03098a372f39`, you can append it to the
 > repository URL to view the commit directly. For example, [https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39](https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39).
 
-- [About commits](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)
+- [About
+  commits](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)
 - [Searching commits](https://docs.github.com/search-github/searching-on-github/searching-commits)
 
 ### Finding a Pull Request for a Commit
 
-Once you have a commit hash/URL such as [https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39](https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39),
+Once you have a commit hash/URL such as
+[https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39](https://github.com/tianocore/edk2/commit/4b6ee06a090d956f80b4a92fb9bf03098a372f39),
 you can quickly find the associated pull request by looking for the pull request link next to the branch name. In the
 example below, clicking [`#5639`](https://github.com/tianocore/edk2/pull/5639) will take you to the pull request.
 
@@ -187,7 +202,8 @@ The VS Code GitHub Pull Requests and Issues extension allows seamless integratio
 directly within the VS Code editor. This provides a powerful interface for reviewing and managing pull requests without
 leaving your development environment.
 
-- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- [GitHub Pull Requests and
+  Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
 Review's the [extension's documentation](https://github.com/Microsoft/vscode-pull-request-github#readme) to learn how
 to use it effectively.

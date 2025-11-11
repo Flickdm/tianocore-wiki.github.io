@@ -8,7 +8,8 @@ recommend continuing to use ECP in current projects.
 
 ## ECP FAQ
 
-### Why does the EFI Compatibility package (ECP) have its starting point at EDK 1.01 since EDK 1.01 only supports UEFI 2.0 of the Spec.? Doesn’t that indicate that backwards compatibility was not considered?
+### Why does the EFI Compatibility package (ECP) have its starting point at EDK 1.01 since EDK 1.01 only supports UEFI
+2.0 of the Spec.? Doesn’t that indicate that backwards compatibility was not considered?
 
 The purpose of the ECP is to provide backwards compatibility for EDK I
 style source modules that assume UEFI 2.0/Framework 0.9. The ECP uses a

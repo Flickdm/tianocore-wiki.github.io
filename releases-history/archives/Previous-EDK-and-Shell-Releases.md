@@ -6,8 +6,6 @@ To learn more about the EDK codebase see the
 [EDK Module Structure
 Explained](Modules).
 
-
-
 <table>
 
 <tr>
@@ -1405,8 +1403,6 @@ To see the differences between snapshot versions
 </tr>
 
 </table>
-
-
 
 License information:
 [BSD](http://www.opensource.org/licenses/bsd-license.php)

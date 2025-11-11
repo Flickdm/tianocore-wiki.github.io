@@ -96,7 +96,8 @@ the build. But here is an example:
 The report generator can show protocols produced by modules. The Runtime
 DXE core will also report what is missing before handing off.
 
-## Why is the Buffer Security check flag (Build options) disabled for building EDK II UEFI applications and drivers but it is enabled for building tools
+## Why is the Buffer Security check flag (Build options) disabled for building EDK II UEFI applications and drivers but
+it is enabled for building tools
 
 UEFI applications and drivers are not executed in an Operating System
 environment. This is important, as the switches have very specific (and,

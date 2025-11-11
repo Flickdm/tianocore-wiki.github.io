@@ -22,7 +22,8 @@ Where:
 * Blank lines should be an empty line with no whitespace.
 * `Full-commit-message` is the full message describing the change. It may include test items that have been verified.
   * Line length should be less than 76 characters when possible.
-* Signatures is one or more lines with signatures. Please see the [Commit Signature Format](Commit-Signature-Format.md) page for more information.
+* Signatures is one or more lines with signatures. Please see the [Commit Signature Format](Commit-Signature-Format.md)
+  page for more information.
 * The entire log message should use only standard ASCII text characters
 
 An example would be:

@@ -1,7 +1,5 @@
 # EDK
 
-
-
 <table>
 
 <tr>
@@ -126,11 +124,14 @@ Mobile / Client Patches
 [`Client Framework Patch 8`](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_PatchV8.zip/download)
 ``
 
-[`Client Framework Patch 7`](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK117_Client_Framework_PatchV7.zip/download)``
+[`Client Framework Patch
+7`](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK117_Client_Framework_PatchV7.zip/download)``
 
-[`Client Framework Patch 6`](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_Dev_Patch_6.zip/download)``
+[`Client Framework Patch
+6`](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_Dev_Patch_6.zip/download)``
 
-[`Mobile Framework Dev Patch 4`](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Mobile_Framework_Dev_Patch_4.zip/download)``
+[`Mobile Framework Dev Patch
+4`](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Mobile_Framework_Dev_Patch_4.zip/download)``
 ``[`Mobile Framework Dev Patch 3`](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Mobile_Framework_Dev_Patch_3.zip/download)``
 ``[`Mobile Framework Dev Path 2`](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_MObile_framework_Dev_Patch_2.zip/download)``
 
@@ -309,5 +310,3 @@ Fix to the Undi EDK Intel(R) PRO/1000 Network
 </tr>
 
 </table>
-
-

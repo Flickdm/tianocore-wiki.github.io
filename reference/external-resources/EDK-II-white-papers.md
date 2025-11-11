@@ -5,8 +5,6 @@ chronological order
 Check [EDK II Security White Papers](EDK_II_Security_White_Papers)
 for documents on security
 
-
-
 <table>
 
 <tr>
@@ -275,7 +273,8 @@ susceptible to malicious behavior.
 <td>
 
 [A Tour Beyond BIOS Implementing Profiling in EDK
-II](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDK_II.pdf) -
+II](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDK_II.pdf)
+-
 contributed by Jiewen Yao, Vincent Zimmer, Star Zeng and Fan Jeff
 The Unified Extensible Firmware Interface (UEFI) and Platform
 Initialization (PI) specification defines rich execution environments
@@ -413,7 +412,8 @@ or
 <td>
 
 [EDK II Topology PCI
-Enumeration](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/Edk_II_Topology/EDK_II_Topology_-_PCI_Enumeration.pdf) -
+Enumeration](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/Edk_II_Topology/EDK_II_Topology_-_PCI_Enumeration.pdf)
+-
 White Paper contributed by Lee Hamel
 EDK II Topology - PCI Enumeration: Topology of how PCI Enumeration is
 set up and executed
@@ -435,7 +435,8 @@ set up and executed
 <td>
 
 [UDK Build Integration of Reset
-Vector](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/Edk_II_Topology/UDK_Build_Integration_of_Reset_Vector.pdf) -
+Vector](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/Edk_II_Topology/UDK_Build_Integration_of_Reset_Vector.pdf)
+-
 White Paper contributed by Lee Hamel
 How the Reset Vector is integrated into a UDK build
 

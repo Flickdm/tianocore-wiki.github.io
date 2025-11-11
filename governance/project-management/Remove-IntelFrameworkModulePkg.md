@@ -3,9 +3,6 @@
 Below is the directory tree of IntelFrameworkModulePkg.
 The link after the directory name is the GitHub issue link tracking the removal of it.
 
-
-
-
 IntelFrameworkModulePkg
  +---Bus
  |   +---Isa                [[7625]](https://github.com/tianocore/edk2/issues/7625)
@@ -54,6 +51,3 @@ IntelFrameworkModulePkg
          +---DatahubStatusCodeHandlerDxe
          +---Pei
         \---RuntimeDxe
-
-
-

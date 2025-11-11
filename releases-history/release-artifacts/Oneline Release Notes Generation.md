@@ -1,6 +1,7 @@
 # Oneline Release Notes Generation
 
-One benefit of our [Commit Message Format](../../development/contribution-guides/Commit-Message-Format.md) is to allow easy creation of brief (single-line) release notes
+One benefit of our [Commit Message Format](../../development/contribution-guides/Commit-Message-Format.md) is to allow
+easy creation of brief (single-line) release notes
 
 # Brief (oneline) Release Notes
 
@@ -11,24 +12,14 @@ Using `svn log` along with small scripts such as those shown below, brief releas
 
 Some examples:
 
-
-
 svn log -l 5 | awk -f svn-log-to-oneline.awk
-svn log -r 10972:10974 https://edk2.svn.sourceforge.net/svnroot/edk2/trunk | python svn-log-to-oneline.py
-
-
-
+svn log -r 10972:10974 <https://edk2.svn.sourceforge.net/svnroot/edk2/trunk> | python svn-log-to-oneline.py
 
 You get a result like:
-
-
 
 r10972 UefiCpuPkg CpuDxe: Fix bug with CPU Arch RegisterInterruptHandler
 r10973 DuetPkg: Add DXE APRIORI for 8259 driver
 r10974 DuetPkg: Use UefiCpuPkg/CpuDxe instead of DuetPkg/CpuDxe
-
-
-
 
 ## svn-log-to-oneline.awk
 

@@ -16,8 +16,6 @@ the Intel website. To learn more about the EDK codebase see the [EDK
 Module Structure
 Explained](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Modules).
 
-
-
 <table>
 
 <tr>
@@ -335,8 +333,6 @@ the EDK1117PatchV6_Details.txt file.
 </tr>
 
 </table>
-
-
 
 [Previous EDK and Shell
 Releases](Previous_EDK_and_Shell_Releases)

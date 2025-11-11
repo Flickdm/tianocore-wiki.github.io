@@ -39,7 +39,8 @@ is built upon the EDK II code base.
 ### What source code license does OVMF use?
 
 OVMF follows the EDK II project in using the open source [[BSD+Patent|BSD Plus Patent License]] license.
-Some OVMF content is convered by additional licenses detailed in [OvmfPkg/License.txt](https://github.com/tianocore/edk2/blob/master/OvmfPkg/License.txt).
+Some OVMF content is convered by additional licenses detailed in
+[OvmfPkg/License.txt](https://github.com/tianocore/edk2/blob/master/OvmfPkg/License.txt).
 
 ### What does OVMF provide?
 
@@ -157,4 +158,5 @@ Please refer to:
 
   1. [EDK II Source Level Debug](../../development/tutorials-howto/EDK-II-Source-Level-Debug.md)
   2. [How to debug OVMF with QEMU using GDB](../../development/tutorials-howto/How-to-debug-OVMF-with-QEMU-using-GDB.md)
-  3. [How to debug OVMF with QEMU using WinDbg](../../development/tutorials-howto/How-to-debug-OVMF-with-QEMU-using-WinDbg.md)
+3. [How to debug OVMF with QEMU using
+WinDbg](../../development/tutorials-howto/How-to-debug-OVMF-with-QEMU-using-WinDbg.md)

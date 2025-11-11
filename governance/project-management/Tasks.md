@@ -476,7 +476,8 @@ to/from a file in an easily-edited format.
 
 #### Python3 for UEFI Shell: Python modules for standard UEFI Services and Protocols
 
-Python3 in the edk2-libc [https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8](https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8)
+Python3 in the edk2-libc
+[https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8](https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8)
 can be used to implement UEFI firmware tests. In order to increase the
 scope of possible tests, it would be valuable to have python modules
 that wrap the UEFI Boot Services, UEFI Runtime Services, and the
@@ -519,7 +520,8 @@ demonstrate working remote shell session from the UEFI shell.
 
 #### Python3 for UEFI Shell: Add GCC & CLANG tool chain support
 
-Python3 in the edk2-libc [https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8](https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8)
+Python3 in the edk2-libc
+[https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8](https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8)
 supports Visual Studio builds. Update the sources and the build files to
 support the GCC and CLANG compilers.
 
@@ -531,7 +533,8 @@ support the GCC and CLANG compilers.
 
 #### Python3 for UEFI Shell: Add AARCH64 CPU Architecture
 
-Python3 in the edk2-libc [https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8](https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8)
+Python3 in the edk2-libc
+[https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8](https://github.com/tianocore/edk2-libc/tree/master/AppPkg/Applications/Python/Python-3.6.8)
 supports IA32/X64. Update the sources and the build files to support
 AARCH64.
 

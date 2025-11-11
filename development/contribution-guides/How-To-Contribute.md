@@ -31,7 +31,8 @@ If you are a developer, and would like to make
   page which documents coding styles and commit log styles
 - Review our [Inclusive Language Guidelines](Inclusive_Language_Guidelines)
   page which documents banned words and recommended substitutions
-- Review our [https://tianocore-docs.github.io/EDK_II_Secure_Code_Review_Guide/draft/](https://tianocore-docs.github.io/EDK_II_Secure_Code_Review_Guide/draft/)
+- Review our
+  [https://tianocore-docs.github.io/EDK_II_Secure_Code_Review_Guide/draft/](https://tianocore-docs.github.io/EDK_II_Secure_Code_Review_Guide/draft/)
   prior to submitting a patch, along with creating a unit test and
   performing some static analysis
 - Recommend following some of the practices at

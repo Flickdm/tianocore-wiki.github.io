@@ -56,10 +56,12 @@ package.
 
 - Getting from Linaro website:
 
-    wget [http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
+wget
+[http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
     tar xzf linaro-image-tools-0.4.8.tar.gz
     cd $(WORKROOT)/linaro-image-tools-0.4.8/
-    sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted qemu-arm-static btrfs-tools command-not-found
+sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted
+qemu-arm-static btrfs-tools command-not-found
 
 Add linaro-media-create path to the PATH environment variable
 
@@ -72,7 +74,8 @@ Add linaro-media-create path to the PATH environment variable
 7\. Create the SD card. Replace the '/dev/sdX' with the device node
 mapped to your MMC/SC card.
 
-    sudo linaro-media-create --mmc /dev/sdX --dev origen --binary linaro-o-nano-tar-20120123-1.tar.gz --hwpack hwpack_linaro-leb-origen_20120123-1_armel_supported.tar.gz
+sudo linaro-media-create --mmc /dev/sdX --dev origen --binary linaro-o-nano-tar-20120123-1.tar.gz --hwpack
+hwpack_linaro-leb-origen_20120123-1_armel_supported.tar.gz
 
 8\. Replace u-boot by the EDK2 firmware you created in step 4:
 
@@ -87,16 +90,22 @@ power up the platform.
     UEFI firmware built at 19:29:37 on Feb 20 2012
     Timer 2,3 Configured
     UEFI firmware built at 19:29:38 on Feb 20 2012
-    add-symbol-file /home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll 0x4FD39240
+add-symbol-file
+/home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+0x4FD39240
     Loading DxeCore at 0x004FD39000 EntryPoint=0x004FD39241
-    add-symbol-file /home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll 0x4FD39004
+add-symbol-file
+/home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+0x4FD39004
     HOBLIST address in DXE = 0x4FD21590
     Memory Allocation 0x00000004 0x4FF9C000 - 0x4FFEBFFF
     Memory Allocation 0x00000004 0x4FF94000 - 0x4FF9BFFF
     Memory Allocation 0x00000004 0x4FFEC000 - 0x4FFFFFFF
     Memory Allocation 0x00000004 0x4FF84000 - 0x4FF93FFF
     (...)
-    add-symbol-file /home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/DEBUG/EnglishDxe.dll 0x4F8B3240
+add-symbol-file
+/home/olivier/tianocore/Build/OrigenBoard-Exynos/DEBUG_ARMLINUXGCC/ARM/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/DEBUG/EnglishDxe.dll
+0x4F8B3240
     Loading driver at 0x0004F8B3000 EntryPoint=0x0004F8B3261 EnglishDxe.efi
     The default boot selection will start in   8 seconds
     [1] SD-MMC Booting

@@ -43,19 +43,11 @@ binaries.
 
 Example to start ARM Versatile Express Cortex A9x4 RTSM:
 
-
-
-
-
 RTSM_VE_Cortex-A9_MPx4 -C
 motherboard.flashloader0.fname=\$EDK2_ROOT/Build/ArmVExpress-RTSM-A9x4/DEBUG_ARMLINUXGCC/FV/RTSM_VE_CORTEX-A9_EFI.fd
 -C motherboard.mmc.p_mmc_file="/tmp/mmc.dat" -C
 motherboard.flashloader1.fname="flash.dat" -C
 motherboard.flashloader1.fnameWrite="flash.dat"
-
-
-
-
 
 **Note:** The arguments '-C
 motherboard.flashloader1.fname="flash.dat" -C
@@ -163,7 +155,9 @@ Delete the first entry to make the EDK Shell the first one:
               1 Dir(s)
 
     fs0:\> InstallSctArm.efi
-    add-symbol-file /home/olimar01/tianocore/Build/UefiSct/DEBUG_RVCTLINUX/ARM/SctPkg/Application/InstallSct/InstallSct/DEBUG/InstallSct.dll 0xBF5F7240
+add-symbol-file
+/home/olimar01/tianocore/Build/UefiSct/DEBUG_RVCTLINUX/ARM/SctPkg/Application/InstallSct/InstallSct/DEBUG/InstallSct.dll
+0xBF5F7240
     Loading driver at 0x000BF5F7000 EntryPoint=0x000BF5F8A45 InstallSct.efi
 
     Gather system information ...
@@ -247,7 +241,8 @@ Additional information might be found in the Log file defined within the
     $ cat /tmp/fs/SCT/Log/GenericTest/EFICompliantTest/RequiredElements_0_0_117C9ABC-489D-4504-ACDB-12AACE8F505B.log
 
     (...)
-    /home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:901:Status - Success, Expected - Success
+/home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:901:Status
+- Success, Expected - Success
 
       GetDevicePathSize         : 00000000B6E2F054
       DuplicateDevicePath       : 00000000BF6DB521
@@ -258,7 +253,8 @@ Additional information might be found in the Log file defined within the
 
     UEFI Compliant - Globally Defined Variables -- FAILURE
     F6334F9B-B930-4ADB-A53B-76FA7B4C2762
-    /home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:1322, Illegal Variable : PL031_TimeZone
+/home/olimar01/tianocore/SctPkg/TestCase/UEFI/EFI/Generic/EfiCompliant/BlackBoxTest/EfiCompliantBBTestRequired_uefi.c:1322,
+Illegal Variable : PL031_TimeZone
 
     Returned Status Code: Success
 

@@ -2,7 +2,8 @@
 
 ## Overview
 
-We will be holding our community bug triage every two weeks. There will be two meetings attempting to cover all timezones. Please contact the list with questions or comments.
+We will be holding our community bug triage every two weeks. There will be two meetings attempting to cover all
+timezones. Please contact the list with questions or comments.
 
 ## Issues Links
 
@@ -16,7 +17,8 @@ Please subcribe to the Groups.io calendar:
 
 ## Contact
 
-Please email [the list](mailto:discuss@edk2.groups.io) with bugs / features that you'd like to see discussed, questions, or comments.
+Please email [the list](mailto:discuss@edk2.groups.io) with bugs / features that you'd like to see discussed, questions,
+or comments.
 
 ## Meeting Details
 

@@ -1,7 +1,8 @@
 # UEFI UBUNTU
 
 [UEFI
-OS Support](../../reference/specs-standards/UEFI.md) \| [Linux Support for UEFI](../../reference/specs-standards/UEFI.md)
+OS Support](../../reference/specs-standards/UEFI.md) \| [Linux Support for
+UEFI](../../reference/specs-standards/UEFI.md)
 
 # Ubuntu Linux Support for UEFI
 

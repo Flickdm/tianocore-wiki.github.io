@@ -50,18 +50,21 @@ ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-A9x4.dsc
 
 ![](ArmDs5-tutorial-5.png)
 *ArmDs5-tutorial-5.png*
+
 - Change the default 'make' Build command to use the Tianocore Makefile:
 
     make -f ArmPlatformPkg/Scripts/Makefile
 
 ![](ArmDs5-tutorial-5-2.png)
 *ArmDs5-tutorial-5-2.png*
+
 - Add the Environment Variables:
 
 `- EDK2_DSC=ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-A9x4.dsc`
 
 ![](ArmDs5-tutorial-6.png)
 *ArmDs5-tutorial-6.png*
+
 - The supported environment variables are:
 
 `EDK2_ARCH=ARM|IA32|X64|... (default: ARM)`
@@ -97,7 +100,8 @@ the DS-5 Configuration Database:
 
 Add the model parameter to the entry :
 
-    -C motherboard.flashloader0.fname="[YOUR_WORKSPACE_FULLPATH]/edk2/Build/ArmVExpress-RTSM-A9x4/DEBUG_RVCTLINUX/FV/RTSM_VE_CORTEX-A9_EFI.fd"
+-C
+motherboard.flashloader0.fname="[YOUR_WORKSPACE_FULLPATH]/edk2/Build/ArmVExpress-RTSM-A9x4/DEBUG_RVCTLINUX/FV/RTSM_VE_CORTEX-A9_EFI.fd"
 
 From DS-5 v5.11, these parameters can be passed through the DS-5 User
 Interface. ![](ArmDs5-tutorial-10.png "ArmDs5-tutorial-10.png")
@@ -202,8 +206,10 @@ With this extension association the full callstack should be displayed.
 **Note 2:** It is expected to see the warning messages after
 executing the command 'cmd_load_symbols.py':
 
-    Warning: not possible to load symbols from /home/olimar01/edk2/Build/Fat/RELEASE_RVCTLINUX/ARM/FatPkg/EnhancedFatDxe/Fat/DEBUG/Fat.dll
-    Warning: not possible to load symbols from /home/olimar01/edk2/Build/Fat/RELEASE_RVCTLINUX/ARM/ShellPkg/Shell/DEBUG/Shell.dll
+Warning: not possible to load symbols from
+/home/olimar01/edk2/Build/Fat/RELEASE_RVCTLINUX/ARM/FatPkg/EnhancedFatDxe/Fat/DEBUG/Fat.dll
+Warning: not possible to load symbols from
+/home/olimar01/edk2/Build/Fat/RELEASE_RVCTLINUX/ARM/ShellPkg/Shell/DEBUG/Shell.dll
 
 Because the Fat and Shell binaries come as pre-built binaries.
 If you want to rebuild these binaries for your platform:

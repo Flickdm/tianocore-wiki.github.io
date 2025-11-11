@@ -193,7 +193,8 @@ is available, the cache can be evicted into the physical RAM space
 assigned for cache, thus providing a ‘seamless’ context change of CAR to
 RAM mode.
 
-### On Intel Itanium® Processor Family (IPF) Servers with Firmware interface table FIT – a table at an architected location pointing to pal & sal components is it similar?
+### On Intel Itanium® Processor Family (IPF) Servers with Firmware interface table FIT – a table at an architected
+location pointing to pal & sal components is it similar?
 
 FIT on IPF is architectural. It is described in the public SDM for IPF.
 Describes the location of PAL/SAL. It is not related to NEM.

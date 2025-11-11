@@ -20,6 +20,7 @@ There are actually two cases:
 
 ![](ARM-EDK2-Overview.png)
 *ARM-EDK2-Overview.png*
+
 #### Case 1: EDK2 from cold boot
 
 1\. Duplicate the ARM Platform reference DSC and FDF files
@@ -77,8 +78,6 @@ Interrupt Controller)
 
 7\. Implement SerialPortLib, TimerLib, EfiResetSystemLib,
 RealTimeClockLib for your platform
-
-
 
 #### Case 2: EDK2 as a 2nd stage Boot Loader
 

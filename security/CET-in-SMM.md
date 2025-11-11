@@ -14,7 +14,10 @@ For detail of CET, please refer to Control-flow Enforcement Technology whitepape
 
 # Introduction
 
-EDKII has enabled different technology for security, such as memory level protection [A Tour Beyound BIOS -  Memory Protection in UEFI BIOS](https://tianocore-docs.github.io/ATBB-Memory_Protection_in_UEFI_BIOS/draft/), or buffer overflow mitigation [A Tour Beyound BIOS - Mitigate Buffer Overflow in UEFI](https://tianocore-docs.github.io/ATBB-Mitigate_Buffer_Overflow_in_UEFI/draft/).
+EDKII has enabled different technology for security, such as memory level protection [A Tour Beyound BIOS - Memory
+Protection in UEFI BIOS](https://tianocore-docs.github.io/ATBB-Memory_Protection_in_UEFI_BIOS/draft/), or buffer
+overflow mitigation [A Tour Beyound BIOS - Mitigate Buffer Overflow in
+UEFI](https://tianocore-docs.github.io/ATBB-Mitigate_Buffer_Overflow_in_UEFI/draft/).
 
 Now EDKII can use CET to enforce the control-flow as well. The current status is that EDKII enabled ShadowStatck in SMM.
 
@@ -22,7 +25,9 @@ This wiki page focuses on how to enable CET in SMM.
 
 # PCD
 
-The PCD - PcdControlFlowEnforcementPropertyMask defined in MdePkg.dec([https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec](https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec)) to indicates the control flow enforcement enabling state.
+The PCD - PcdControlFlowEnforcementPropertyMask defined in
+MdePkg.dec([https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec](https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec))
+to indicates the control flow enforcement enabling state.
 
 ```
   ## Indicates the control flow enforcement enabling state.
@@ -35,14 +40,17 @@ The PCD - PcdControlFlowEnforcementPropertyMask defined in MdePkg.dec([https://g
 
 # How to enable
 
-1. A real platform may configure gEfiMdePkgTokenSpaceGuid.PcdControlFlowEnforcementPropertyMask in platform dsc to enable CET in SMM. A emulation platform might not be able to enable this PCD, because enabling CET required supervisor priviledge.
+1. A real platform may configure gEfiMdePkgTokenSpaceGuid.PcdControlFlowEnforcementPropertyMask in platform dsc to
+enable CET in SMM. A emulation platform might not be able to enable this PCD, because enabling CET required supervisor
+priviledge.
 
   ```
   [PcdsFixedAtBuild.common]
     gEfiMdePkgTokenSpaceGuid.PcdControlFlowEnforcementPropertyMask|0x1
   ```
 
-NOTE: If a platform wants to enable CET, it MUST enable memory protection such as ReadOnly Code Region to ReadOnly, NonExecutable Data Region.
+NOTE: If a platform wants to enable CET, it MUST enable memory protection such as ReadOnly Code Region to ReadOnly,
+NonExecutable Data Region.
 
 2. If a control flow violation is detected, the system will generate an exception.
 
@@ -65,5 +73,7 @@ NOTE: If a platform wants to enable CET, it MUST enable memory protection such a
   GDTR - 000000007FE12000 000000000000004F, LDTR - 0000000000000000
   IDTR - 000000007FE1C000 00000000000001FF,   TR - 0000000000000040
   FXSAVE_STATE - 000000007FE3E780
-  !!!! Find image based on IP(0x%x) c:\edk\Build\PlatformPkg\DEBUG_VS2015x86\X64\TestPkg\StackCookieTest\StackCookieTestSmm\DEBUG\StackCookieTestSmm.pdb (ImageBase=000000007FDCF000, EntryPoint=000000007FDD0310) !!!!
+!!!! Find image based on IP(0x%x)
+c:\edk\Build\PlatformPkg\DEBUG_VS2015x86\X64\TestPkg\StackCookieTest\StackCookieTestSmm\DEBUG\StackCookieTestSmm.pdb
+(ImageBase=000000007FDCF000, EntryPoint=000000007FDD0310) !!!!
   ```

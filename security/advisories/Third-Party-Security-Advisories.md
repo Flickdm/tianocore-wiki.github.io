@@ -4,7 +4,8 @@
 
 ## Recommendation
 
-Not a problem for EDK2. The OpenSSL HTTP implementation is not used by EDK2. EDK2 has its own HTTP implementation in NetworkPkg.
+Not a problem for EDK2. The OpenSSL HTTP implementation is not used by EDK2. EDK2 has its own HTTP implementation in
+NetworkPkg.
 
 # [CVE-2025-9231- OpenSSL](https://www.cve.org/CVERecord?id=CVE-2025-9231)
 
@@ -78,7 +79,8 @@ Not a problem for EDK2. EDK2 does not support DSA.
 
 ## Recommendation
 
-Not a problem for EDK2. This CVE only affects TLS servers supporting TLSv1.3. EDK2 does not support TLS server configurations. EDK2 does not support TLSv1.3.
+Not a problem for EDK2. This CVE only affects TLS servers supporting TLSv1.3. EDK2 does not support TLS server
+configurations. EDK2 does not support TLSv1.3.
 
 # [CVE-2024-0727 - OpenSSL](https://nvd.nist.gov/vuln/detail/CVE-2024-0727)
 
@@ -136,7 +138,8 @@ The OpenSSL POLY1305 implementation is disabled by default in the CryptoPkg conf
 ## Recommendation
 
 No impact.
-DH code is used in CryptDh.c and TlsLib. In CryptoDh.c, EDK2 does not use DH_check() related functions and existing functions will not call into DH_check(). The TlsLib implementation is not affected by this issue.
+DH code is used in CryptDh.c and TlsLib. In CryptoDh.c, EDK2 does not use DH_check() related functions and existing
+functions will not call into DH_check(). The TlsLib implementation is not affected by this issue.
 
 # [CVE-2023-3446 - OpenSSL](https://nvd.nist.gov/vuln/detail/CVE-2023-3446)
 
@@ -145,7 +148,8 @@ DH code is used in CryptDh.c and TlsLib. In CryptoDh.c, EDK2 does not use DH_che
 ## Recommendation
 
 No impact.
-The DH code of EDK2 does not call the DH_check() and related functions, or have the risk of using “p” parameters that are too large.
+The DH code of EDK2 does not call the DH_check() and related functions, or have the risk of using “p” parameters that
+are too large.
 
 # [CVE-2023-2975 - OpenSSL](https://nvd.nist.gov/vuln/detail/CVE-2023-2975)
 
@@ -184,7 +188,8 @@ No Impact
 
 According to the CVE description, ‘policy’ processing is disabled by default.
 
-For PKCS7, the X509 default parameter is used (NULL is passed in CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyCommon.c)
+For PKCS7, the X509 default parameter is used (NULL is passed in
+CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyCommon.c)
 
 In X509_STORE_CTX_init(), ‘default’ parameter is used (CryptoPkg\Library\OpensslLib\openssl\crypto\x509\x509_vfy.c)
 
@@ -200,7 +205,8 @@ No Impact
 
 According to the CVE description, ‘policy’ processing is disabled by default.
 
-For PKCS7, the X509 default parameter is used (NULL is passed in CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyCommon.c)
+For PKCS7, the X509 default parameter is used (NULL is passed in
+CryptoPkg\Library\BaseCryptLib\Pk\CryptPkcs7VerifyCommon.c)
 
 In X509_STORE_CTX_init(), ‘default’ parameter is used (CryptoPkg\Library\OpensslLib\openssl\crypto\x509\x509_vfy.c)
 

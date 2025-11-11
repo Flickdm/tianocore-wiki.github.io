@@ -30,8 +30,6 @@ style programs.
 Source repository:
 [https://svn.code.sf.net/p/efi-toolkit/code/trunk/efi-toolkit/](https://svn.code.sf.net/p/efi-toolkit/code/trunk/efi-toolkit/)
 
-
-
 <table>
 
 <tr>
@@ -202,14 +200,13 @@ Technical information
 
 </table>
 
-
-
 License information:
 [BSD](http://www.opensource.org/licenses/bsd-license.php)
 
 Project owner(s): hlhsiung, mwu7
 
-Developer page: [http://sourceforge.net/projects/efi-toolkit/develop](http://sourceforge.net/projects/efi-toolkit/develop)
+Developer page:
+[http://sourceforge.net/projects/efi-toolkit/develop](http://sourceforge.net/projects/efi-toolkit/develop)
 
 **Handy Links**
 

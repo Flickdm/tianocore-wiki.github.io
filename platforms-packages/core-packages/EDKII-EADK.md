@@ -3,8 +3,6 @@
 EDK II Application Development Kit for include the Standard C Libraries
 in UEFI Shell Applications
 
-
-
 <table>
 
 <tr>
@@ -161,7 +159,8 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/UDK20
 <td>
 
 - This release is based on SVN: (Same as UDK2010.SR1.UP1.P1)
-- [https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1/](https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1/) -r 14385
+- [https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1/](https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1/)
+  -r 14385
 
 </td>
 
@@ -181,7 +180,8 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 
 <td>
 
-- Based on SVN [http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2)
+- Based on SVN
+  [http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2)
   r11577
 
 </td>
@@ -189,5 +189,3 @@ Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_
 </tr>
 
 </table>
-
-

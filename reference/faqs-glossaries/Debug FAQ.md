@@ -2,7 +2,8 @@
 
 Debug frequently asked questions
 
-### Is there a way to get a list of or debug message of all the drivers that do not get dispatched? What is recommended for DSC file and PCD configuration (Debug error level flag) to get a debug output list of all the drivers that were not dispatched?
+### Is there a way to get a list of or debug message of all the drivers that do not get dispatched? What is recommended
+for DSC file and PCD configuration (Debug error level flag) to get a debug output list of all the drivers that were not dispatched?
 
 Debug feature added DEBUG_DISPATCH – this shows the operation of the DXE
 and PEI dispatcher as it evaluates every dependency expression of every
@@ -43,7 +44,8 @@ C\) A third concept for using source level debugging with WinDBG uses
 build option: “-D SOURCE_DEBUG_ENABLE” – builds debug agent into your
 firmware. Check example in LakeportX64Pkg.dsc “ifdef”
 
-### It seems the way that the SMM Driver gets dispatched in EDK II has been changed. How does the SMM Driver get dispatched? Is there any debug message to know which driver is loaded?
+### It seems the way that the SMM Driver gets dispatched in EDK II has been changed. How does the SMM Driver get
+dispatched? Is there any debug message to know which driver is loaded?
 
 a\) You need to select the debug lib in SMM core for report status code.
 It is SMM specific to go to serial port b) DEBUG_DISPATCH flag enable in

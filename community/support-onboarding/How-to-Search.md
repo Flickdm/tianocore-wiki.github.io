@@ -10,8 +10,10 @@ Most of the documentation, white papers and "How to"s are incorporated into the 
   * Click on the `Wikis` for all the wiki pages containing your search item.
 * **Search for a wiki page where the string is in the title**
   * On this wiki page, on the right side is a list of the most popular TianoCore wiki pages.
-  * To go  to a particular wiki page, click on the grey box with `>Pages nnn` (where `nnn` is the total number of TianoCore wiki pages)
-  * Type the a string from the desired page's title in the `find a page` box,  the wiki pages with the  string you entered will be displayed
+* To go to a particular wiki page, click on the grey box with `>Pages nnn` (where `nnn` is the total number of TianoCore
+wiki pages)
+* Type the a string from the desired page's title in the `find a page` box, the wiki pages with the string you entered
+will be displayed
   * Example:  Type "Nt32"  in the grey box  `find a page`  the result will be:
     * NT32
     * Nt32Pkg

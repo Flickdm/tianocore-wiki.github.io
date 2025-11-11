@@ -32,7 +32,8 @@ EfiRuntimeServicesData)
                       );
       ASSERT_EFI_ERROR (Status);
 
-      Status = gDS->SetMemorySpaceAttributes (mControllerRegionBase, mControllerRegionSize, EFI_MEMORY_UC | EFI_MEMORY_RUNTIME);
+Status = gDS->SetMemorySpaceAttributes (mControllerRegionBase, mControllerRegionSize, EFI_MEMORY_UC |
+EFI_MEMORY_RUNTIME);
       ASSERT_EFI_ERROR (Status);
 
 - Do not hardcode base addresses in code called after
@@ -142,7 +143,8 @@ information. Example:
 
     EFI stub: Booting Linux Kernel...
     Initializing cgroup subsys cpu
-    Linux version 3.14.0-next-20140402+ (gcc version 4.8.3 20131111 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2013.11 - Linaro GCC 2013.10) ) #1 SMP PREEMPT Fri Apr 11 15:39:25 BST 2014
+Linux version 3.14.0-next-20140402+ (gcc version 4.8.3 20131111 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2013.11 -
+Linaro GCC 2013.10) ) #1 SMP PREEMPT Fri Apr 11 15:39:25 BST 2014
     CPU: AArch64 Processor [410fd0f0] revision 0
     bootconsole [earlycon0] enabled
     efi: Getting parameters from FDT:
@@ -204,7 +206,8 @@ information. Example:
       0x00000c000000-0x00000ffeffff [Memory Mapped I/O]
       0x00001c170000-0x00001c170fff [Memory Mapped I/O]
     (...)
-    Kernel command line: dtb=fvp-base-gicv2-psci.dtb console=ttyAMA0 earlyprintk=pl011,0x1c090000 debug uefi_debug root=/dev/vda2 rw
+Kernel command line: dtb=fvp-base-gicv2-psci.dtb console=ttyAMA0 earlyprintk=pl011,0x1c090000 debug uefi_debug
+root=/dev/vda2 rw
     (...)
     Remapping and enabling EFI services.
       EFI remap 0x0008fafb3000 => ffffffc87afb3000
@@ -328,16 +331,22 @@ To identify which part of the driver is accessing the hardware register,
 we load the symbols into the Linux Memory map.
 In UEFI Memory map:
 
-    Add symbols of /home/olimar01/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/ArmPlatformPkg/Drivers/NorFlashDxe/NorFlashDxe/DEBUG/ArmVeNorFlashDxe.dll at 0x831d4260
+Add symbols of
+/home/olimar01/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/ArmPlatformPkg/Drivers/NorFlashDxe/NorFlashDxe/DEBUG/ArmVeNorFlashDxe.dll
+at 0x831d4260
 
 After converting the UEFI address into the Linux Memory Map (and force
 the symbols to be loaded in EL1 Non-Secure world):
 
-    add-symbol-file /home/olimar01/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/ArmPlatformPkg/Drivers/NorFlashDxe/NorFlashDxe/DEBUG/ArmVeNorFlashDxe.dll EL1N:0xFFFFFFC0031D4260
+add-symbol-file
+/home/olimar01/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/ArmPlatformPkg/Drivers/NorFlashDxe/NorFlashDxe/DEBUG/ArmVeNorFlashDxe.dll
+EL1N:0xFFFFFFC0031D4260
 
 2\. Restart the environment. Load the symbols and add the breakpoint:
 
-    add-symbol-file /home/olimar01/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/ArmPlatformPkg/Drivers/NorFlashDxe/NorFlashDxe/DEBUG/ArmVeNorFlashDxe.dll EL1N:0xFFFFFFC0031D4260
+add-symbol-file
+/home/olimar01/tianocore/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC48/AARCH64/ArmPlatformPkg/Drivers/NorFlashDxe/NorFlashDxe/DEBUG/ArmVeNorFlashDxe.dll
+EL1N:0xFFFFFFC0031D4260
     hbreak -p EL1N:0xffffffc0031d8e14
 
 ![](RuntimeUseCase-7.PNG)

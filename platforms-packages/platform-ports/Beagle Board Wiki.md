@@ -19,7 +19,8 @@ directory with the following commands:
 
     /cygdrive/c$ svn co https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2 edk2 --username guest
     /cygdrive/c$ cd edk2
-    /cygdrive/c/edk2$ svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
+/cygdrive/c/edk2$ svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg
+--username guest
 
 Build the Beagle Board Package
 Now you can run the build.sh script
@@ -164,7 +165,8 @@ of the SEC code. You can cut the load command and past it directly into
 the RVD Cmd window to source level debug the SEC.
 
     UART Enabled
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31CYGWIN\ARM\BeagleBoardPkg\Sec\Sec\DEBUG\BeagleBoardSec.dll &0x80008360
+load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31CYGWIN\ARM\BeagleBoardPkg\Sec\Sec\DEBUG\BeagleBoardSec.dll
+&0x80008360
 
 ## Put edk2 code in the Beagle Board NAND using U-Boot
 
@@ -566,35 +568,76 @@ with a debugger. The default for sym is to dump out RealView Debugger
 symbol load commands. The following is an example from a Beagle Board.
 
     BeagleEdk2>sym
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll & 0x87F2F240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe\DEBUG\RuntimeDxe.dll & 0x87EDA240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe\DEBUG\SecurityStubDxe.dll & 0x87EB3240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Variable\EmuRuntimeDxe\EmuVariableRuntimeDxe\DEBUG\EmuVariableRuntimeDxe.dll & 0x87ED5240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\EmbeddedMonotonicCounter\EmbeddedMonotonicCounter\DEBUG\EmbeddedMonotonicCounter.dll & 0x87ED3240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\SimpleTextInOutSerial\SimpleTextInOutSerial\DEBUG\SimpleTextInOutSerial.dll & 0x87EB0240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\ResetRuntimeDxe\ResetRuntimeDxe\DEBUG\Reset.dll & 0x87EAD240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\RealTimeClockRuntimeDxe\RealTimeClockRuntimeDxe\DEBUG\RealTimeClock.dll & 0x87EAB240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\MetronomeDxe\MetronomeDxe\DEBUG\MetronomeDxe.dll & 0x87EA9240
+load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll &
+0x87F2F240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe\DEBUG\RuntimeDxe.dll &
+0x87EDA240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe\DEBUG\SecurityStubDxe.dll
+& 0x87EB3240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Variable\EmuRuntimeDxe\EmuVariableRuntimeDxe\DEBUG\EmuVariableRuntimeDxe.dll
+& 0x87ED5240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\EmbeddedMonotonicCounter\EmbeddedMonotonicCounter\DEBUG\EmbeddedMonotonicCounter.dll
+& 0x87ED3240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\SimpleTextInOutSerial\SimpleTextInOutSerial\DEBUG\SimpleTextInOutSerial.dll
+& 0x87EB0240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\ResetRuntimeDxe\ResetRuntimeDxe\DEBUG\Reset.dll & 0x87EAD240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\RealTimeClockRuntimeDxe\RealTimeClockRuntimeDxe\DEBUG\RealTimeClock.dll
+& 0x87EAB240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\MetronomeDxe\MetronomeDxe\DEBUG\MetronomeDxe.dll &
+0x87EA9240
     load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\Flash\Flash\DEBUG\NandFlash.dll & 0x87EA6240
     load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\SmbusDxe\Smbus\DEBUG\Smbus.dll & 0x87EA3240
     load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\Gpio\Gpio\DEBUG\Gpio.dll & 0x87EA1240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\InterruptDxe\InterruptDxe\DEBUG\BeagleBoardInterruptDxe.dll & 0x87E9E240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\BeagleBoardPkg\Bds\Bds\DEBUG\BeagleBoardBds.dll & 0x87E9A240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Drivers\CpuDxe\CpuDxe\DEBUG\ArmCpuDxe.dll & 0x87E92240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\CapsuleRuntimeDxe\CapsuleRuntimeDxe\DEBUG\CapsuleRuntimeDxe.dll & 0x87ED0240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TimerDxe\TimerDxe\DEBUG\BeagleBoardTimerDxe.dll & 0x87E8F240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TPS65950Dxe\TPS65950\DEBUG\TPS65950.dll & 0x87E8C240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer\DEBUG\WatchdogTimer.dll & 0x87E89240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\InterruptDxe\InterruptDxe\DEBUG\BeagleBoardInterruptDxe.dll
+& 0x87E9E240
+load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\BeagleBoardPkg\Bds\Bds\DEBUG\BeagleBoardBds.dll &
+0x87E9A240
+load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Drivers\CpuDxe\CpuDxe\DEBUG\ArmCpuDxe.dll &
+0x87E92240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\CapsuleRuntimeDxe\CapsuleRuntimeDxe\DEBUG\CapsuleRuntimeDxe.dll
+& 0x87ED0240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TimerDxe\TimerDxe\DEBUG\BeagleBoardTimerDxe.dll & 0x87E8F240
+load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TPS65950Dxe\TPS65950\DEBUG\TPS65950.dll &
+0x87E8C240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer\DEBUG\WatchdogTimer.dll
+& 0x87E89240
     load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\MMCHSDxe\MMCHS\DEBUG\MMCHS.dll & 0x87E85240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\PciEmulation\PciEmulation\DEBUG\BeagleBoardPciEmulation.dll & 0x87E81240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Filesystem\SemihostFs\SemihostFs\DEBUG\SemihostFs.dll & 0x87E7D240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\DiskIoDxe\DiskIoDxe\DEBUG\DiskIoDxe.dll & 0x87E7A240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\PartitionDxe\PartitionDxe\DEBUG\PartitionDxe.dll & 0x87E75240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\PciEmulation\PciEmulation\DEBUG\BeagleBoardPciEmulation.dll
+& 0x87E81240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Filesystem\SemihostFs\SemihostFs\DEBUG\SemihostFs.dll &
+0x87E7D240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\DiskIoDxe\DiskIoDxe\DEBUG\DiskIoDxe.dll &
+0x87E7A240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\PartitionDxe\PartitionDxe\DEBUG\PartitionDxe.dll
+& 0x87E75240
     load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll & 0x87E6C240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\UnicodeCollation\EnglishDxe\EnglishDxe\DEBUG\EnglishDxe.dll & 0x87E69240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Pci\EhciDxe\EhciDxe\DEBUG\EhciDxe.dll & 0x87E61240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbBusDxe\UsbBusDxe\DEBUG\UsbBusDxe.dll & 0x87E58240
-    load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbMassStorageDxe\UsbMassStorageDxe\DEBUG\UsbMassStorageDxe.dll & 0x87E52240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\UnicodeCollation\EnglishDxe\EnglishDxe\DEBUG\EnglishDxe.dll
+& 0x87E69240
+load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Pci\EhciDxe\EhciDxe\DEBUG\EhciDxe.dll &
+0x87E61240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbBusDxe\UsbBusDxe\DEBUG\UsbBusDxe.dll &
+0x87E58240
+load /a /ni /np
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbMassStorageDxe\UsbMassStorageDxe\DEBUG\UsbMassStorageDxe.dll
+& 0x87E52240
     load /a /ni /np c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\Ebl\Ebl\DEBUG\Ebl.dll & 0x87160240
 
 The 1st argument to sym is optional and it can be used to change the
@@ -607,35 +650,72 @@ POSIX printf. %a is for an ASCII string, %s is for Unicode, and %x is
 for a hex number with no leading 0x.
 
     BeagleEdk2>sym "add-symbol-file %a 0x%x"
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll 0x87F2F240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe\DEBUG\RuntimeDxe.dll 0x87EDA240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe\DEBUG\SecurityStubDxe.dll 0x87EB3240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Variable\EmuRuntimeDxe\EmuVariableRuntimeDxe\DEBUG\EmuVariableRuntimeDxe.dll 0x87ED5240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\EmbeddedMonotonicCounter\EmbeddedMonotonicCounter\DEBUG\EmbeddedMonotonicCounter.dll 0x87ED3240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\SimpleTextInOutSerial\SimpleTextInOutSerial\DEBUG\SimpleTextInOutSerial.dll 0x87EB0240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\ResetRuntimeDxe\ResetRuntimeDxe\DEBUG\Reset.dll 0x87EAD240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\RealTimeClockRuntimeDxe\RealTimeClockRuntimeDxe\DEBUG\RealTimeClock.dll 0x87EAB240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\MetronomeDxe\MetronomeDxe\DEBUG\MetronomeDxe.dll 0x87EA9240
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll
+0x87F2F240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe\DEBUG\RuntimeDxe.dll 0x87EDA240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe\DEBUG\SecurityStubDxe.dll
+0x87EB3240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Variable\EmuRuntimeDxe\EmuVariableRuntimeDxe\DEBUG\EmuVariableRuntimeDxe.dll
+0x87ED5240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\EmbeddedMonotonicCounter\EmbeddedMonotonicCounter\DEBUG\EmbeddedMonotonicCounter.dll
+0x87ED3240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\SimpleTextInOutSerial\SimpleTextInOutSerial\DEBUG\SimpleTextInOutSerial.dll
+0x87EB0240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\ResetRuntimeDxe\ResetRuntimeDxe\DEBUG\Reset.dll 0x87EAD240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\RealTimeClockRuntimeDxe\RealTimeClockRuntimeDxe\DEBUG\RealTimeClock.dll
+0x87EAB240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\MetronomeDxe\MetronomeDxe\DEBUG\MetronomeDxe.dll 0x87EA9240
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\Flash\Flash\DEBUG\NandFlash.dll 0x87EA6240
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\SmbusDxe\Smbus\DEBUG\Smbus.dll 0x87EA3240
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\Gpio\Gpio\DEBUG\Gpio.dll 0x87EA1240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\InterruptDxe\InterruptDxe\DEBUG\BeagleBoardInterruptDxe.dll 0x87E9E240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\BeagleBoardPkg\Bds\Bds\DEBUG\BeagleBoardBds.dll 0x87E9A240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Drivers\CpuDxe\CpuDxe\DEBUG\ArmCpuDxe.dll 0x87E92240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\CapsuleRuntimeDxe\CapsuleRuntimeDxe\DEBUG\CapsuleRuntimeDxe.dll 0x87ED0240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TimerDxe\TimerDxe\DEBUG\BeagleBoardTimerDxe.dll 0x87E8F240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TPS65950Dxe\TPS65950\DEBUG\TPS65950.dll 0x87E8C240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer\DEBUG\WatchdogTimer.dll 0x87E89240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\InterruptDxe\InterruptDxe\DEBUG\BeagleBoardInterruptDxe.dll
+0x87E9E240
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\BeagleBoardPkg\Bds\Bds\DEBUG\BeagleBoardBds.dll
+0x87E9A240
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Drivers\CpuDxe\CpuDxe\DEBUG\ArmCpuDxe.dll
+0x87E92240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\CapsuleRuntimeDxe\CapsuleRuntimeDxe\DEBUG\CapsuleRuntimeDxe.dll
+0x87ED0240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TimerDxe\TimerDxe\DEBUG\BeagleBoardTimerDxe.dll 0x87E8F240
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TPS65950Dxe\TPS65950\DEBUG\TPS65950.dll
+0x87E8C240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer\DEBUG\WatchdogTimer.dll
+0x87E89240
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\MMCHSDxe\MMCHS\DEBUG\MMCHS.dll 0x87E85240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\PciEmulation\PciEmulation\DEBUG\BeagleBoardPciEmulation.dll 0x87E81240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Filesystem\SemihostFs\SemihostFs\DEBUG\SemihostFs.dll 0x87E7D240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\DiskIoDxe\DiskIoDxe\DEBUG\DiskIoDxe.dll 0x87E7A240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\PartitionDxe\PartitionDxe\DEBUG\PartitionDxe.dll 0x87E75240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\PciEmulation\PciEmulation\DEBUG\BeagleBoardPciEmulation.dll
+0x87E81240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Filesystem\SemihostFs\SemihostFs\DEBUG\SemihostFs.dll 0x87E7D240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\DiskIoDxe\DiskIoDxe\DEBUG\DiskIoDxe.dll
+0x87E7A240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\PartitionDxe\PartitionDxe\DEBUG\PartitionDxe.dll
+0x87E75240
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll 0x87E6C240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\UnicodeCollation\EnglishDxe\EnglishDxe\DEBUG\EnglishDxe.dll 0x87E69240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Pci\EhciDxe\EhciDxe\DEBUG\EhciDxe.dll 0x87E61240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbBusDxe\UsbBusDxe\DEBUG\UsbBusDxe.dll 0x87E58240
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbMassStorageDxe\UsbMassStorageDxe\DEBUG\UsbMassStorageDxe.dll 0x87E52240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\UnicodeCollation\EnglishDxe\EnglishDxe\DEBUG\EnglishDxe.dll
+0x87E69240
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Pci\EhciDxe\EhciDxe\DEBUG\EhciDxe.dll
+0x87E61240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbBusDxe\UsbBusDxe\DEBUG\UsbBusDxe.dll 0x87E58240
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbMassStorageDxe\UsbMassStorageDxe\DEBUG\UsbMassStorageDxe.dll
+0x87E52240
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\Ebl\Ebl\DEBUG\Ebl.dll 0x87160240
 
 The 2nd argument to sym is optional and it defines the image type
@@ -660,35 +740,72 @@ of the PE/COFF image. As you can see in these two examples the size of
 the PE/COFF header is 0x240.
 
     BeagleEdk2>sym "add-symbol-file %a 0x%x" PECOFF
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll 0x87F2F000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe\DEBUG\RuntimeDxe.dll 0x87EDA000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe\DEBUG\SecurityStubDxe.dll 0x87EB3000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Variable\EmuRuntimeDxe\EmuVariableRuntimeDxe\DEBUG\EmuVariableRuntimeDxe.dll 0x87ED5000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\EmbeddedMonotonicCounter\EmbeddedMonotonicCounter\DEBUG\EmbeddedMonotonicCounter.dll 0x87ED3000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\SimpleTextInOutSerial\SimpleTextInOutSerial\DEBUG\SimpleTextInOutSerial.dll 0x87EB0000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\ResetRuntimeDxe\ResetRuntimeDxe\DEBUG\Reset.dll 0x87EAD000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\RealTimeClockRuntimeDxe\RealTimeClockRuntimeDxe\DEBUG\RealTimeClock.dll 0x87EAB000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\MetronomeDxe\MetronomeDxe\DEBUG\MetronomeDxe.dll 0x87EA9000
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.dll
+0x87F2F000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe\DEBUG\RuntimeDxe.dll 0x87EDA000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe\DEBUG\SecurityStubDxe.dll
+0x87EB3000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Variable\EmuRuntimeDxe\EmuVariableRuntimeDxe\DEBUG\EmuVariableRuntimeDxe.dll
+0x87ED5000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\EmbeddedMonotonicCounter\EmbeddedMonotonicCounter\DEBUG\EmbeddedMonotonicCounter.dll
+0x87ED3000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\SimpleTextInOutSerial\SimpleTextInOutSerial\DEBUG\SimpleTextInOutSerial.dll
+0x87EB0000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\ResetRuntimeDxe\ResetRuntimeDxe\DEBUG\Reset.dll 0x87EAD000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\RealTimeClockRuntimeDxe\RealTimeClockRuntimeDxe\DEBUG\RealTimeClock.dll
+0x87EAB000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\MetronomeDxe\MetronomeDxe\DEBUG\MetronomeDxe.dll 0x87EA9000
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\Flash\Flash\DEBUG\NandFlash.dll 0x87EA6000
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\SmbusDxe\Smbus\DEBUG\Smbus.dll 0x87EA3000
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\Gpio\Gpio\DEBUG\Gpio.dll 0x87EA1000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\InterruptDxe\InterruptDxe\DEBUG\BeagleBoardInterruptDxe.dll 0x87E9E000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\BeagleBoardPkg\Bds\Bds\DEBUG\BeagleBoardBds.dll 0x87E9A000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Drivers\CpuDxe\CpuDxe\DEBUG\ArmCpuDxe.dll 0x87E92000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\CapsuleRuntimeDxe\CapsuleRuntimeDxe\DEBUG\CapsuleRuntimeDxe.dll 0x87ED0000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TimerDxe\TimerDxe\DEBUG\BeagleBoardTimerDxe.dll 0x87E8F000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TPS65950Dxe\TPS65950\DEBUG\TPS65950.dll 0x87E8C000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer\DEBUG\WatchdogTimer.dll 0x87E89000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\InterruptDxe\InterruptDxe\DEBUG\BeagleBoardInterruptDxe.dll
+0x87E9E000
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\BeagleBoardPkg\Bds\Bds\DEBUG\BeagleBoardBds.dll
+0x87E9A000
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Drivers\CpuDxe\CpuDxe\DEBUG\ArmCpuDxe.dll
+0x87E92000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\CapsuleRuntimeDxe\CapsuleRuntimeDxe\DEBUG\CapsuleRuntimeDxe.dll
+0x87ED0000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TimerDxe\TimerDxe\DEBUG\BeagleBoardTimerDxe.dll 0x87E8F000
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\TPS65950Dxe\TPS65950\DEBUG\TPS65950.dll
+0x87E8C000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer\DEBUG\WatchdogTimer.dll
+0x87E89000
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\MMCHSDxe\MMCHS\DEBUG\MMCHS.dll 0x87E85000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\PciEmulation\PciEmulation\DEBUG\BeagleBoardPciEmulation.dll 0x87E81000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Filesystem\SemihostFs\SemihostFs\DEBUG\SemihostFs.dll 0x87E7D000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\DiskIoDxe\DiskIoDxe\DEBUG\DiskIoDxe.dll 0x87E7A000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\PartitionDxe\PartitionDxe\DEBUG\PartitionDxe.dll 0x87E75000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\Omap35xxPkg\PciEmulation\PciEmulation\DEBUG\BeagleBoardPciEmulation.dll
+0x87E81000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\ArmPkg\Filesystem\SemihostFs\SemihostFs\DEBUG\SemihostFs.dll 0x87E7D000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\DiskIoDxe\DiskIoDxe\DEBUG\DiskIoDxe.dll
+0x87E7A000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\PartitionDxe\PartitionDxe\DEBUG\PartitionDxe.dll
+0x87E75000
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.dll 0x87E6C000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\UnicodeCollation\EnglishDxe\EnglishDxe\DEBUG\EnglishDxe.dll 0x87E69000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Pci\EhciDxe\EhciDxe\DEBUG\EhciDxe.dll 0x87E61000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbBusDxe\UsbBusDxe\DEBUG\UsbBusDxe.dll 0x87E58000
-    add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbMassStorageDxe\UsbMassStorageDxe\DEBUG\UsbMassStorageDxe.dll 0x87E52000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Universal\Disk\UnicodeCollation\EnglishDxe\EnglishDxe\DEBUG\EnglishDxe.dll
+0x87E69000
+add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Pci\EhciDxe\EhciDxe\DEBUG\EhciDxe.dll
+0x87E61000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbBusDxe\UsbBusDxe\DEBUG\UsbBusDxe.dll 0x87E58000
+add-symbol-file
+c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\MdeModulePkg\Bus\Usb\UsbMassStorageDxe\UsbMassStorageDxe\DEBUG\UsbMassStorageDxe.dll
+0x87E52000
     add-symbol-file c:\work\edk2\Build\BeagleBoard\DEBUG_RVCT31\ARM\EmbeddedPkg\Ebl\Ebl\DEBUG\Ebl.dll 0x87160000
 
 Please note the three sym examples are from the same system that was

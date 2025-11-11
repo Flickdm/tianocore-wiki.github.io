@@ -78,8 +78,6 @@ UDK2015 :
 
 Below Table are Releases for Archive purposes only
 
-
-
 <table>
 
 <tr>
@@ -289,8 +287,6 @@ Technical information
 </tr>
 
 </table>
-
-
 
 ## Notes
 
