@@ -28,7 +28,7 @@ firmware or UEFI, our mentors will help you learn those details. Having
 some experience finding your way around a large codebase is helpful but
 not required.
 
-# Project Ideas
+## Project Ideas
 
 ## New Languages and Compilers
 
@@ -608,11 +608,11 @@ Simplify EDK II development:
 - Mentor: [https://github.com/ashedesimone](https://github.com/ashedesimone),
   [https://github.com/mdkinney](https://github.com/mdkinney)
 
-# Partially Complete Projects
+## Partially Complete Projects
 
 None at the moment.
 
-# See Also
+## See Also
 
 - [Previously Complete Projects](Complete-Tasks)
 - [Obsolete Projects](Obsolete-Tasks)

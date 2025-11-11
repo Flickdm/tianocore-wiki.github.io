@@ -12,7 +12,7 @@ in a protected internal network and not exposed on the public internet.
 The examples below will use Fedora, for both host and (one) guest operating
 system; feel free to use any other Linux distribution that you like.
 
-# Hardware requirements
+## Hardware requirements
 
 Please use an x86_64 machine with at least 4 logical processors (quad core with
 HT disabled, or dual core with HT enabled). The machine should have at least
@@ -35,7 +35,7 @@ assumes an Intel host only because such seem to be more widely available.)
 Regarding disk space, a few hundred GB should be plenty. An SSD is strongly
 recommended.
 
-# Install the host operating system
+## Install the host operating system
 
 Obtain the [Live installation
 image](https://getfedora.org/en/workstation/download/) for Fedora 26
@@ -120,7 +120,7 @@ dnf install xorg-x11-xauth
 These are the last actions that, in the optimal case, should be performed with
 direct physical access to the virtualization host.
 
-# Install QEMU and libvirt
+## Install QEMU and libvirt
 
 In this step no low-level system components are installed, therefore it's
 enough to log in to the virtualization host via SSH. Run the following
@@ -169,7 +169,7 @@ Verify the setting -- the following command should print `Y`:
 cat /sys/module/kvm_intel/parameters/nested
 ```
 
-# Install OVMF from source
+## Install OVMF from source
 
 * Install build dependencies:
 
@@ -272,7 +272,7 @@ cat /sys/module/kvm_intel/parameters/nested
     usable for end-users, it's just that the target audience of this article is
     people interested in edk2 development and analysis.)
 
-# Create disk images for the virtual machines
+## Create disk images for the virtual machines
 
 In this section, we create two disk images (one for a Fedora 26 guest, another
 for a Windows 10 guest). We also place a number of ISO images in the right
@@ -325,7 +325,7 @@ place, so that we can install the guests from zero.
   The ISO image with the drivers becomes available through the
   `/usr/share/virtio-win/virtio-win.iso` symlink.
 
-# Install the Fedora 26 guest
+## Install the Fedora 26 guest
 
 ## Libvirt domain definition (Fedora 26 guest)
 
@@ -438,7 +438,7 @@ virtualization](#enable-nested-virtualization).
 * After a good number of iterations, abort the test, and repeat the
   [UEFI variable access test](#uefi-variable-access-test).
 
-# Install the Windows 10 guest
+## Install the Windows 10 guest
 
 ## Libvirt domain definition (Windows 10 guest)
 

@@ -11,7 +11,7 @@ before using product specific signing keys.
 this sequence does not match expectations, then debug and resolve the integration issue
 before proceeding to the next step.
 
-# OpenSSL Patch for `CryptoPkg`
+## OpenSSL Patch for `CryptoPkg`
 
 This build process uses EDK II `CryptoPkg`, which requires a patch to be applied from OpenSSL. Please verify this
 process has been completed before proceeding to the next step, otherwise the build will fail.
@@ -21,7 +21,7 @@ process has been completed before proceeding to the next step, otherwise the bui
 * Patch Instructions:
   [https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt](https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt)
 
-# Build and Boot Firmware Image
+## Build and Boot Firmware Image
 
 * Build firmware image setting the `-D CAPSULE_ENABLE` flag
 
@@ -52,7 +52,7 @@ is displayed in that log.
 
 * Boot target to UEFI Shell
 
-# Verify Capsule Structures
+## Verify Capsule Structures
 
 * Copy `CapsuleApp.efi` to a USB drive
 * Attach USB drive with`CapsuleApp.efi`
@@ -92,7 +92,7 @@ In this example, the `ImageTypeId` GUID value is `553B20F9-9154-46CE-8142-80E2AD
 
 ```
 ###### ######
-# FMP DATA #
+## FMP DATA #
 ############
 FMP (0) ImageInfo:
   DescriptorVersion  - 0x3
@@ -137,7 +137,7 @@ the `FwVersion` value is `0x3`.
 
 ```
 ##############
-# ESRT TABLE #
+## ESRT TABLE #
 ##############
 EFI_SYSTEM_RESOURCE_TABLE:
 FwResourceCount    - 0x1
@@ -156,7 +156,7 @@ EFI_SYSTEM_RESOURCE_ENTRY (0):
   LastAttemptStatus        - 0x0 (Success)
 ```
 
-# Build System Firmware Update Capsule
+## Build System Firmware Update Capsule
 
 * Update System Firmware Descriptor PEIM .aslc file to a higher version by updating the
 `CURRENT_FIRMWARE_VERSION` and `CURRENT_FIRMWARE_VERSION_STRING` defines.  This file is described
@@ -165,7 +165,7 @@ EFI_SYSTEM_RESOURCE_ENTRY (0):
 
 `build -a IA32 -t VS2015x86 -p QuarkPlatformPkg/Quark.dsc -D CAPSULE_ENABLE`
 
-# Verify System Firmware Update Capsule
+## Verify System Firmware Update Capsule
 
 * Copy System Firmware Update Capsule Image with higher version to a USB drive
 * Run `CapsuleApp.efi -D <CapsuleImage>` to dump capsule image header information.  The
@@ -202,7 +202,7 @@ should match the updated version information in the System Firmware Descriptor P
 
 ```
 ############
-# FMP DATA #
+## FMP DATA #
 ############
 FMP (0) ImageInfo:
   DescriptorVersion  - 0x3
@@ -244,7 +244,7 @@ version information in the System Firmware Descriptor PEIM .aslc file.
 
 ```
 ##############
-# ESRT TABLE #
+## ESRT TABLE #
 ##############
 EFI_SYSTEM_RESOURCE_TABLE:
 FwResourceCount    - 0x1

@@ -10,7 +10,7 @@ filesystem driver. (read-only support would be useful as a first step)
   and [https://github.com/corthon](https://github.com/corthon)
 - Suggested by: rsun3
 
-# Status
+## Status
 
 - Completed :heavy_check_mark:.
 - Instead of implementing an ext2 driver as originally proposed, a much
@@ -20,7 +20,7 @@ filesystem driver. (read-only support would be useful as a first step)
   as a [GSoC2021](GSoC2021)
   Student.
 
-# Older Work
+## Older Work
 
 - Before GSoC 2021, some progress was made during
   [GSOC2011](GSOC2011) by
@@ -31,7 +31,7 @@ filesystem driver. (read-only support would be useful as a first step)
   licensed under the GPL.
   - [https://github.com/pbatard/efifs/tree/master/](https://github.com/pbatard/efifs/tree/master/)
 
-# Details
+## Details
 
 Filesystems in UEFI can be accessed through the SimpleFileSystem
 protocol. This protocol is the defined within
@@ -47,7 +47,7 @@ It may be possible to leverage BSD compatible code from a reputable open
 source project, but using 3rd-party code does add some extra complexity
 (see [Code Contributions](Code_Contributions)).
 
-# Development environment
+## Development environment
 
 Building: This project can be completed on any edk2 supported OS or
 toolchain.
@@ -58,12 +58,12 @@ probably provide the easiest environment for testing your project. You
 should be able to build your driver into OVMF and then run OVMF with a
 hard disk image that contains an ext2 file-system.
 
-# Further Discussion
+## Further Discussion
 
 This project would be for an edk2 based driver, so please discuss the
 project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
-# See Also
+## See Also
 
 - [Tasks](Tasks)
 - [GSOC2011#Read-only ext2

@@ -359,7 +359,7 @@ version is 0x01 in the system, so this update must fail.
 1. Create Device A's capsule with the dependency on Device B:
 
 ```shell
-# GenerateCapsule.py -e -j Av2.json -o Av2.cap
+## GenerateCapsule.py -e -j Av2.json -o Av2.cap
 ```
 
 Example of A_v2.json:
@@ -397,7 +397,7 @@ Shell> CapsuleApp.efi A_v2.cap
 ```shell
 Shell> CapsuleApp -E
 ###### ########
-# ESRT TABLE #
+## ESRT TABLE #
 ###### ########
 EFI_SYSTEM_RESOURCE_TABLE:
 FwResourceCount    - 0x2

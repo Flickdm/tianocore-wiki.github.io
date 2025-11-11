@@ -29,52 +29,52 @@ to control the behaviors of memory profile feature.
 
 ```
 ## The mask is used to control memory profile behavior.    
-#  BIT0 - Enable UEFI memory profile.  
-#  BIT1 - Enable SMRAM profile.  
-#  BIT7 - Disable recording at the start.  
-# @Prompt Memory Profile Property.
-# @Expression  0x80000002 | (gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfilePropertyMask & 0x7C) == 0
+##  BIT0 - Enable UEFI memory profile.  
+##  BIT1 - Enable SMRAM profile.  
+##  BIT7 - Disable recording at the start.  
+## @Prompt Memory Profile Property.
+## @Expression  0x80000002 | (gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfilePropertyMask & 0x7C) == 0
 gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfilePropertyMask|0x0|UINT8|0x30001041
 
 ## This flag is to control which memory types of alloc info will be recorded by DxeCore & SmmCore.    
-# For SmmCore, only EfiRuntimeServicesCode and EfiRuntimeServicesData are valid.  
+## For SmmCore, only EfiRuntimeServicesCode and EfiRuntimeServicesData are valid.  
 #
-# Below is bit mask for this PCD: (Order is same as UEFI spec)
-# EfiReservedMemoryType 0x0001
-# EfiLoaderCode 0x0002
-# EfiLoaderData 0x0004
-# EfiBootServicesCode 0x0008
-# EfiBootServicesData 0x0010
-# EfiRuntimeServicesCode 0x0020
-# EfiRuntimeServicesData 0x0040
-# EfiConventionalMemory 0x0080
-# EfiUnusableMemory 0x0100
-# EfiACPIReclaimMemory 0x0200
-# EfiACPIMemoryNVS 0x0400
-# EfiMemoryMappedIO 0x0800
-# EfiMemoryMappedIOPortSpace 0x1000
-# EfiPalCode 0x2000
-# EfiPersistentMemory 0x4000
-# OEM Reserved 0x4000000000000000
-# OS Reserved 0x8000000000000000
+## Below is bit mask for this PCD: (Order is same as UEFI spec)
+## EfiReservedMemoryType 0x0001
+## EfiLoaderCode 0x0002
+## EfiLoaderData 0x0004
+## EfiBootServicesCode 0x0008
+## EfiBootServicesData 0x0010
+## EfiRuntimeServicesCode 0x0020
+## EfiRuntimeServicesData 0x0040
+## EfiConventionalMemory 0x0080
+## EfiUnusableMemory 0x0100
+## EfiACPIReclaimMemory 0x0200
+## EfiACPIMemoryNVS 0x0400
+## EfiMemoryMappedIO 0x0800
+## EfiMemoryMappedIOPortSpace 0x1000
+## EfiPalCode 0x2000
+## EfiPersistentMemory 0x4000
+## OEM Reserved 0x4000000000000000
+## OS Reserved 0x8000000000000000
 #
-# e.g. Reserved+ACPINvs+ACPIReclaim+RuntimeCode+RuntimeData are needed, 0x661 should be used.  
+## e.g. Reserved+ACPINvs+ACPIReclaim+RuntimeCode+RuntimeData are needed, 0x661 should be used.  
 #
-# @Prompt Memory profile memory type.
+## @Prompt Memory profile memory type.
 gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfileMemoryType|0x0|UINT64|0x30001042
 
 ## This PCD is to control which drivers need memory profile data.    
-# For example:  
-# One image only (Shell):  
-#     Header                    GUID  
-#     {0x04, 0x06, 0x14, 0x00,  0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1,  
-#      0x7F, 0xFF, 0x04, 0x00}  
-# Two or more images (Shell + WinNtSimpleFileSystem):  
-#     {0x04, 0x06, 0x14, 0x00,  0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1,  
-#      0x7F, 0x01, 0x04, 0x00,  
-#      0x04, 0x06, 0x14, 0x00,  0x8B, 0xE1, 0x25, 0x9C, 0xBA, 0x76, 0xDA, 0x43, 0xA1, 0x32, 0xDB, 0xB0, 0x99, 0x7C, 0xEF, 0xEF,  
-#      0x7F, 0xFF, 0x04, 0x00}  
-# @Prompt Memory profile driver path.
+## For example:  
+## One image only (Shell):  
+##     Header                    GUID  
+##     {0x04, 0x06, 0x14, 0x00,  0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1,  
+##      0x7F, 0xFF, 0x04, 0x00}  
+## Two or more images (Shell + WinNtSimpleFileSystem):  
+##     {0x04, 0x06, 0x14, 0x00,  0x83, 0xA5, 0x04, 0x7C, 0x3E, 0x9E, 0x1C, 0x4F, 0xAD, 0x65, 0xE0, 0x52, 0x68, 0xD0, 0xB4, 0xD1,  
+##      0x7F, 0x01, 0x04, 0x00,  
+##      0x04, 0x06, 0x14, 0x00,  0x8B, 0xE1, 0x25, 0x9C, 0xBA, 0x76, 0xDA, 0x43, 0xA1, 0x32, 0xDB, 0xB0, 0x99, 0x7C, 0xEF, 0xEF,  
+##      0x7F, 0xFF, 0x04, 0x00}  
+## @Prompt Memory profile driver path.
 gEfiMdeModulePkgTokenSpaceGuid.PcdMemoryProfileDriverPath|{0x0}|VOID*|0x00001043
 ```
 

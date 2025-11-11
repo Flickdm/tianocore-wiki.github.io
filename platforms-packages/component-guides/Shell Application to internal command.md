@@ -10,7 +10,7 @@ ShellCommandLib and most only function when linked within the shell
 binary image. **Your command must be linked within the shell binary to
 the ShellCommandLib**
 
-# Extra capabilities of internal commands
+## Extra capabilities of internal commands
 
 Internal commands have a few extra capabilities. These should be used
 very judiciously since these are things that cannot always be reversed
@@ -88,7 +88,7 @@ You pass into this command:
 - the HII handle that your help text is registered with
 - The String Id within HII that your text is retrievable with
 
-# Example: integrate PerformancePkg/Dp_App into ShellPkg
+## Example: integrate PerformancePkg/Dp_App into ShellPkg
 
 These steps should handle most of the required changes. Other cleanup
 can be done, such as replacing PrintToken() with ShellPrintHiiEx().

@@ -8,7 +8,7 @@ Develop a USB driver for a common USB Serial Adapter.
 - Mentor: [https://github.com/ErikBjorge](https://github.com/ErikBjorge)
 - Suggested by: [https://github.com/jljusten](https://github.com/jljusten)
 
-# Status
+## Status
 
 - Completed :heavy_check_mark: (For FTDI).
 - Work done by [https://github.com/ashedesimone](https://github.com/ashedesimone)
@@ -17,7 +17,7 @@ Develop a USB driver for a common USB Serial Adapter.
 - Available at
   [https://github.com/tianocore/edk2-platforms/tree/master/Drivers/OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe](https://github.com/tianocore/edk2-platforms/tree/master/Drivers/OptionRomPkg/Bus/Usb/FtdiUsbSerialDxe).
 
-# Details
+## Details
 
 Today there are many inexpensive USB Serial adapters available, and most
 systems are built with USB ports available. But at the same time, the
@@ -44,12 +44,12 @@ The
 (USB Keyboard) driver may provide a useful starting point for your
 project.
 
-# Development environment
+## Development environment
 
 Building: This project can be completed on any edk2 supported OS or
 toolchain.
 
-# Test environment
+## Test environment
 
 ## OVMF with FTDI emulated device
 
@@ -85,7 +85,7 @@ OVMF to attach to the USB device would be a useful 'extra' side-project.
 You could also test your driver on another UEFI system by using the EFI
 shell 'load' command.
 
-# Sub-goals
+## Sub-goals
 
 Some possible sub-goals for the driver
 
@@ -99,7 +99,7 @@ Some possible sub-goals for the driver
   messages
 - connect to SerialIo to enable a full terminal console
 
-# Example Products
+## Example Products
 
 There are many USB Serial adapters available. Some examples are listed
 here, but no specific adapter is required or recommended for this
@@ -117,11 +117,11 @@ project.
 - [IOGEAR USB to Serial RS-232
   Adapter](http://www.iogear.com/product/GUC232A/)
 
-# Further Discussion
+## Further Discussion
 
 This project would be for an edk2 based driver, so please discuss the
 project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
-# See Also
+## See Also
 
 - [Tasks#USB-to-serial driver](Tasks.md)

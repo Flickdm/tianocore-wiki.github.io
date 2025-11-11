@@ -305,7 +305,7 @@ to run this command.
 The [remaining instructions](Common_instructions) are common for
 most UNIX-like systems.
 
-# See Also
+## See Also
 
 - [Unix-like systems](Unix-like-systems.md) - Instructions which
   walk through building the Mingw GCC cross-compiler

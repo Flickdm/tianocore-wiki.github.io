@@ -40,7 +40,7 @@ TianoCore Community Manager
 
 ***
 
-# October 2018
+## October 2018
 
 ## Overview
 

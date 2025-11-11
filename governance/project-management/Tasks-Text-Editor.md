@@ -11,7 +11,7 @@ text editor
   [https://github.com/ErikBjorge](https://github.com/ErikBjorge),
   [https://github.com/jcarsey](https://github.com/jcarsey)
 
-# Status
+## Status
 
 - Completed :heavy_check_mark:
 - Work done by Suyu Yang for
@@ -32,7 +32,7 @@ Nice to have:
 Location of editor code:
 [ShellPkg/Library/UefiShellDebug1CommandsLib/Edit](https://github.com/tianocore/edk2/tree/master/ShellPkg/Library/UefiShellDebug1CommandsLib/Edit)
 
-# Development environment
+## Development environment
 
 Building
 
@@ -46,7 +46,7 @@ Testing
   [UnixPkg](UnixPkg) could
   each provide friendly test environments.
 
-# Current State
+## Current State
 
 Here is the current look of the UEFI Editor:
 
@@ -76,7 +76,7 @@ Here is the current look of the UEFI Editor:
      F4  Search          F5  Search/Replace  F6  Cut Line
      F7  Paste Line      F8  Open File       F9  File Type
 
-# Suggested New Layout
+## Suggested New Layout
 
 ## Main window
 
@@ -225,7 +225,7 @@ search, then the replace text.
 
      Replace with: UserEntersReplacementTextHere
 
-# See Also
+## See Also
 
 - [Tasks](Tasks)
 - [GSOC2011#Shell editor

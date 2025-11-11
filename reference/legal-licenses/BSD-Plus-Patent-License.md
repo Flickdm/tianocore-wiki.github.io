@@ -5,7 +5,7 @@ The [Legalese](Legalese.md) page contains information on other accepted licenses
 in
 TianoCore projects.
 
-# Example Language: BSD+Patent
+## Example Language: BSD+Patent
 
 The preferred method to specify a license for TianoCore contributions is to use
 [SPDX](https://spdx.org/licenses/) identifiers.  The SPDX identifier for the

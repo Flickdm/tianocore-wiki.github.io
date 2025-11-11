@@ -4,7 +4,7 @@
 
 ***
 
-# UEFI Firmware Project for Intel Atom® Processor E3900 Series Processor Platforms (Leaf Hill, Up Squared & MinnowBoard
+## UEFI Firmware Project for Intel Atom® Processor E3900 Series Processor Platforms (Leaf Hill, Up Squared & MinnowBoard
 3 Module)
 
 This project is open source UEFI firmware, based on the TianoCore EDK II codebase, for the following platforms based on

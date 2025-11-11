@@ -30,7 +30,7 @@ commands. See
 [Shell Application to
 internal command](Shell.md).
 
-# ShellPkg Other Libraries
+## ShellPkg Other Libraries
 
 There are a couple of other libraries that are less commonly used.
 
@@ -50,7 +50,7 @@ provides quick file path manipulation operations.
 - remove ".", "..", and "/" from file paths.
 - eliminate the last item in a path.
 
-# ShellPkg Command Libraries
+## ShellPkg Command Libraries
 
 These are all libraries of shell commands and are only intended to be
 linked directly into the shell. They are NULL-named libraries.

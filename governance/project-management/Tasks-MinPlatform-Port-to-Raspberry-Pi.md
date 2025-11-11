@@ -8,7 +8,7 @@ Build a MinPlatform board port for the Raspberry Pi.
 * Mentor:
 * Suggested by: [@nate-desimone](https://github.com/nate-desimone)
 
-# Background
+## Background
 
 UEFI system firmware is often referred to as the "BIOS" though the correctness of calling UEFI firmware a "BIOS" has
 been a subject of debate. [MinPlatform](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/) is a
@@ -24,7 +24,7 @@ system firmware for platforms other than Qemu. The goal of
 [MinPlatformPkg](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg) is increase the
 amount of generic code available for motherboard firmware developers to reuse.
 
-# Details
+## Details
 
 This project is to add support for the Raspberry Pi to MinPlatform. The Raspberry Pi is already well supported by EDK II
 and is an active project within the community, however the [current
@@ -33,21 +33,21 @@ platform firmware design. Building a Raspberry Pi board port that follows the [M
 Architecture](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/) would serve as an example of
 MinPlatform on the ARM architecture.
 
-# Development Environment
+## Development Environment
 
 Building: As the existing Raspberry Pi UEFI firmware is built using a GCC AARCH64 cross compiler, it is recommended to
 use that toolchain.
 
-# Links for More Information
+## Links for More Information
 
   [https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/)
   [https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg)
   [https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi](https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi)
 
-# Further Discussion
+## Further Discussion
 
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
-# See Also
+## See Also
 
 [Tasks](Tasks.md)

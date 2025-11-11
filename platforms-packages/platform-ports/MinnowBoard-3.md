@@ -4,14 +4,14 @@
 
 ***
 
-# Migration to [[devel-IntelAtomProcessorE3900|IntelAtomProcessorE3900]]
+## Migration to [[devel-IntelAtomProcessorE3900|IntelAtomProcessorE3900]]
 
 Note to developers: Release 0.70 updates the codebase to use [UDK2018](../../releases-history/archives/UDK2018.md), and
 moves to a new branch of edk2-platforms on github ([[devel-IntelAtomProcessorE3900|IntelAtomProcessorE3900]]). Releases
 prior to 0.69, based on the devel-MinnowBoard3-UDK2017 & devel-MinnowBoard3 branches, are described below for historical
 purposes.
 
-# MinnowBoard 3 in edk2-platforms
+## MinnowBoard 3 in edk2-platforms
 
 This codebase is designed for the MinnowBoard 3 platform and Leaf Hill Customer Reference Board (CRB), using the [Intel
 Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html)

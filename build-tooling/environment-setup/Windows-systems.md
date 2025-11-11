@@ -202,6 +202,6 @@ platform which is included in the main edk2 source tree. Since
 system firmware image this may be of interest to UEFI system firmware
 developers.
 
-# See Also
+## See Also
 
 - [Getting-Started-Writing-Simple-Application](Getting-Started-Writing-Simple-Application)

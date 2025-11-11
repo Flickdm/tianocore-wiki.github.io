@@ -9,7 +9,7 @@ Analysis](https://software.intel.com/sites/default/files/managed/2d/04/intel-uef
 whitepaper for an overfoew fo the UEFI PXE boot process, and tips for optimizing boot time on Microsoft Windows and
 Linux platforms.
 
-# Linux
+## Linux
 
 ## Fedora
 
@@ -43,7 +43,7 @@ Linux platforms.
 
 [SecureBoot-compatible UEFI netboot over IPv4 and IPv6](https://wiki.ubuntu.com/UEFI/SecureBoot-PXE-IPv6)
 
-# Microsoft Windows
+## Microsoft Windows
 
 [Windows 10 deployment scenarios](https://docs.microsoft.com/en-us/windows/deployment/windows-10-deployment-scenarios)
 
@@ -53,7 +53,7 @@ Linux platforms.
 
 [Configure a PXE server to load Windows PE](https://docs.microsoft.com/en-us/windows/deployment/configure-a-pxe-server-to-load-windows-pe)
 
-# iPXE
+## iPXE
 
 [iPXE](http://ipxe.org/start) is an open source network boot firmware implementation. iPXE does not rely on the EDK II
 Network Stack, but offers many similar functions.

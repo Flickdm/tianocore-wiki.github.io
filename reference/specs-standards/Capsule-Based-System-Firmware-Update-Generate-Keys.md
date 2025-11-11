@@ -2,7 +2,7 @@
 
 Back to [Capsule Based System Firmware Update](Capsule-Based-System-Firmware-Update)
 
-# How to Generate Signing Keys using OpenSSL Command Line Utilities
+## How to Generate Signing Keys using OpenSSL Command Line Utilities
 
 These instructions generate a new self-signed X.509 Certificate Chain for signing UEFI Capsules, using
 [OpenSSL](https://www.openssl.org) command line utilities as an example.
@@ -15,7 +15,7 @@ The OpenSSL configuration and OpenSSL commands on this page were verified using 
 Windows binaries, Version 1.0.2j Light](https://slproweb.com/products/Win32OpenSSL.html). Other versions of OpenSSL may
 require different command flags or configuration settings.
 
-# Setup OpenSSL Command Line Environment
+## Setup OpenSSL Command Line Environment
 
 > NOTE: The steps below are based on Microsoft Windows. Linux packages for OpenSSL will typically setup the environment correctly.
 
@@ -39,7 +39,7 @@ type NUL > .\demoCA\index.txt
 echo 01 > .\demoCA\serial
 ```
 
-# Generate a new Self-signed X.509 Certificate Chain
+## Generate a new Self-signed X.509 Certificate Chain
 
 The following steps demonstrate how to generate a three layer certificate chain (RootCA -> IntermediateCA ->
 SigningCert) using OpenSSL. A prefix should be used for all files referenced by OpenSSL commands. The prefix used in
@@ -158,7 +158,7 @@ openssl smime -sign -binary -signer NewCert.pem -outform DER -md sha256 -certfil
 openssl smime -verify -inform DER -in test.bin.p7 -content test.bin -CAfile NewRoot.pub.pem -out test.org.bin
 ```
 
-# X.509 Certificate Chain Files
+## X.509 Certificate Chain Files
 
 Once all the steps above have been completed successfully, the following generated files are used to sign and
 authenticate capsule based system firmware update images.

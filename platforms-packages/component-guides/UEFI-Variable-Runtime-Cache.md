@@ -32,7 +32,7 @@ The feature is enabled and disabled by the following FeaturePCD in MdeModulePkg:
 The default PCD value is TRUE meaning the feature is enabled by default. The feature can be disabled by simply setting
 the PCD value to "FALSE" in a platform DSC file.
 
-# Problem Statement
+## Problem Statement
 
 The UEFI Runtime Service GetVariable () is called very often throughout the boot including OS runtime. Each Runtime
 Service GetVariable () call triggers an SMI which negatively impacts system performance.
@@ -103,7 +103,7 @@ Runtime Cache feature enabled, the total GetVariable () time for an existing UEF
 Therefore, analysis showed that eliminating SMIs on Runtime Service GetVariable () and GetNextVariableName () calls is
 possible and can lead to the greatest potential improvement in terms of SMM reduction across the UEFI variable services.
 
-# Summary of Changes
+## Summary of Changes
 
 The UEFI Variable Runtime Cache feature reduces overall system SMM usage when using VariableSmmRuntimeDxe with
 VariableSmm for SMM UEFI variables. It does so by eliminating SMM usage for the Runtime Service GetVariable () and
@@ -125,7 +125,7 @@ At any given time, the two caches should be coherent. On a variable write, the r
 validation in SMM and, in the case of a non-volatile UEFI variable, the variable must also be successfully written
 to non-volatile storage.
 
-# Design Details
+## Design Details
 
 This section covers various design related details to help provide context and background for this feature.
 

@@ -15,6 +15,6 @@ Current EDK II supports following kinds of address sanitizer features:
 5. Local stack overflow detection (BaseStackCheckLib)
     * -fstack-protector-all (MdePkg\Library\BaseStackCheckLib\BaseStackCheckLib.inf)
 
-# Heap Guard
+## Heap Guard
 
 to-be-done

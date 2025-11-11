@@ -23,7 +23,7 @@ GitHub
 - Content that is not released under an accepted open source license can
   be found at [https://github.com/tianocore/edk2-non-osi](https://github.com/tianocore/edk2-non-osi).
 
-# Getting the extra tools
+## Getting the extra tools
 
 ## Compiler
 
@@ -64,7 +64,7 @@ more information.
 - BuildTools [User
   Manuals](https://github.com/tianocore/buildtools-BaseTools/tree/master/UserManuals)
 
-# How to Setup the EDK II Tree
+## How to Setup the EDK II Tree
 
 See [Getting Started with EDK II](../../development/tutorials-howto/Getting-Started-with-EDK-II.md)
 
@@ -74,7 +74,7 @@ After setting up your build environment see
 [EDK II Development Process](EDK_II_Development_Process) for
 making contributions to the EDK II Project.
 
-# Further Help
+## Further Help
 
 If you have questions about the code or run into obstacles getting
 things to work for you, please join our

@@ -9,7 +9,7 @@ Build a C compiler that is able to generate EBC (EFI Byte Code)
 * Mentor:
 * Suggested by: [@nate-desimone](https://github.com/nate-desimone)
 
-# Background
+## Background
 
 **EBC is no longer required by the UEFI spec, which has caused its use for cross-architecture OpROMs to asymptotically
 approach zero.**
@@ -36,7 +36,7 @@ example, the `sizeof(void *)` as well as any other pointer type can vary at runt
 `sizeof(void *)==4`. On 64-bit systems like X64 or AARCH64, `sizeof(void *)==8`. The UEFI specific integer data type,
 `UINTN` uses the same variable sizes as pointers in EBC.
 
-# Existing Work
+## Existing Work
 
 The original EBC compiler is the Intel C Compiler for EFI Byte Code. This compiler is very expensive ($955) which has
 likely been the largest component in EBC's limited popularity. The usefulness of this compiler has waned since the
@@ -55,7 +55,7 @@ promise, it has not been completed yet. One of the roadblocks at the time was th
 Since LLVM 9.0, the LLVM linker now supports PE/COFF output, making a version of clang that can output EBC more
 attainable. Rebasing his work up to the latest LLVM 11 is the recommended starting point for any future work.
 
-# Development Environment
+## Development Environment
 
 Building: This project should ideally support all edk2 supported OSes when it is finished. Though Linux would likely be
 the easiest starting point since the existing LLVM work was done on Linux. Getting the compiler stable on Linux should
@@ -65,7 +65,7 @@ like Qemu. [@retrage](https://github.com/retrage) has also created his own users
 [ebcvm](https://github.com/yabits/ebcvm), however we would recommend EmulatorPkg over it since EmulatorPkg runs the
 exact EBC interpreter that will be used on real systems.
 
-# Links for More Information
+## Links for More Information
 
 * [https://github.com/yabits/llvm/tree/retrage/ebc](https://github.com/yabits/llvm/tree/retrage/ebc)
   [https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html](https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html)
@@ -76,10 +76,10 @@ exact EBC interpreter that will be used on real systems.
 * [https://github.com/pbatard/fasmg-ebc](https://github.com/pbatard/fasmg-ebc)
 * [https://github.com/retrage/elvm/tree/retrage/ebc-v2](https://github.com/retrage/elvm/tree/retrage/ebc-v2)
 
-# Further Discussion
+## Further Discussion
 
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
-# See Also
+## See Also
 
 [Tasks](Tasks.md)

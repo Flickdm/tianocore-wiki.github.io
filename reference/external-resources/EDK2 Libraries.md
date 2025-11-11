@@ -3,7 +3,7 @@
 This page gives an overview of [EDK II](http://www.tianocore.org/edk2/)
 libraries.
 
-# Classes vs. Implementation
+## Classes vs. Implementation
 
 Libraries in edk2 are defined in two distinct ways. Each library has a
 'class' and one or more 'implementations'.
@@ -20,7 +20,7 @@ library class interface. The details of which library implementation are
 used can be decided at a later point, and even altered easily within the
 build process.
 
-# Classes
+## Classes
 
 ## Using a library class
 
@@ -77,7 +77,7 @@ Now, when a .inf file uses MdePkg/MdePkg.dec:
 The MdePkg/Include path will be added to the include paths for building
 that module.
 
-# Implementations
+## Implementations
 
 ## Using a library implementation
 
@@ -96,7 +96,7 @@ specify the library mappings itself, and the
 MdeModulePkg/MdeModulePkg.dsc will have no impact on the mapping when
 the other .dsc file is built.
 
-# Library Constructors
+## Library Constructors
 
 If a library requires some initialization code to run, then it can
 define a constructor function. For example, in

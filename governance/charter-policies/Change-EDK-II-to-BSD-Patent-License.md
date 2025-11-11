@@ -14,11 +14,11 @@ RFCs with detailed process for the license change:
 * V1:
   [https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html](https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html)
 
-# GitHub Issue
+## GitHub Issue
 
 [https://github.com/tianocore/edk2/issues/7666](https://github.com/tianocore/edk2/issues/7666)
 
-# Patch Reviews
+## Patch Reviews
 
 The patch series for review has been posted on the following branch using
 7ed72121b7 as the base for the patch series.
@@ -106,7 +106,7 @@ and the Reviewed-by status.
 | [edk2: Change License.txt from 2-Clause BSD to BSD+Patent](https://github.com/mdkinney/edk2/commit/8ee83c5dcd798caf0b2e9e0bfb33601de5c6ab79)                | Andrew Fish <afish@apple.com>  Laszlo Ersek <lersek@redhat.com>  Leif Lindholm <leif.lindholm@linaro.org>                      | DONE |
 | [edk2: Add License-History.txt](https://github.com/mdkinney/edk2/commit/17a33094a9a2fd0f5db89c89e60a58a2f195dbdf)                                           | Andrew Fish <afish@apple.com>  Laszlo Ersek <lersek@redhat.com>  Leif Lindholm <leif.lindholm@linaro.org>                      | DONE |
 
-# RFC V3
+## RFC V3
 
  This RFC follows up on the proposal from Mark Doran to change the
 EDK II Project to a BSD+Patent License.
@@ -282,7 +282,7 @@ branches in the edk2 repository.
 Once the conversion of the edk2 repository is complete, work will begin
 on the other repositories in the TianoCore project.
 
-# License-History.txt
+## License-History.txt
 
  ```
                                License-History.txt

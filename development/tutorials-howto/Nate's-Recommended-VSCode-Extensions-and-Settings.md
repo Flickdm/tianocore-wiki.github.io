@@ -3,7 +3,7 @@
 Visual Studio Code is currently my preferred text editor for working on EDK II code. However, making it a good
 environment for EDK II development work requires several extensions to be installed. My recommendations are below:
 
-# Recommended Extensions
+## Recommended Extensions
 
 * [C/C++ Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 * [x86 and x86_64 Assembly Syntax
@@ -19,7 +19,7 @@ environment for EDK II development work requires several extensions to be instal
 * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 * [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-# Recommended Settings
+## Recommended Settings
 
 I recommend you place these settings into your VSCode settings.json file:
 

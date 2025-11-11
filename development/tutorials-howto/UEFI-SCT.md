@@ -5,7 +5,7 @@
 [Testing
 EDK II](Testing_EDK_II)
 
-# UEFI Self-Certification Tests (SCT)
+## UEFI Self-Certification Tests (SCT)
 
 ## UEFI SCT
 

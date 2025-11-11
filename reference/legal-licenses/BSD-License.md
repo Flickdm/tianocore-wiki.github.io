@@ -4,7 +4,7 @@ The preferred license for TianoCore contributions is [[BSD+Patent|BSD Plus Paten
 page contains information on other licenses accepted under the contributors agreement, and how licenses should be
 documented in TianoCore projects.
 
-# Example Language: BSD-2-Clause
+## Example Language: BSD-2-Clause
 
 ```
 
@@ -29,7 +29,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
 
-# Example Language: BSD-3-Clause
+## Example Language: BSD-3-Clause
 
 ```
 

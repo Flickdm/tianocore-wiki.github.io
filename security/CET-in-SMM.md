@@ -1,4 +1,4 @@
-# Background
+# CET in SMM
 
 Return-oriented Programming (ROP), and similarly call/jmp-oriented programming (COP/JOP), have been
 the prevalent attack methodology for stealth exploit writers targeting vulnerabilities in programs.
@@ -12,7 +12,7 @@ style control-flow subversion attacks:
 For detail of CET, please refer to Control-flow Enforcement Technology whitepaper
 ([https://software.intel.com/sites/default/files/managed/4d/2a/control-flow-enforcement-technology-preview.pdf](https://software.intel.com/sites/default/files/managed/4d/2a/control-flow-enforcement-technology-preview.pdf))
 
-# Introduction
+## Introduction
 
 EDKII has enabled different technology for security, such as memory level protection [A Tour Beyound BIOS - Memory
 Protection in UEFI BIOS](https://tianocore-docs.github.io/ATBB-Memory_Protection_in_UEFI_BIOS/draft/), or buffer
@@ -23,7 +23,7 @@ Now EDKII can use CET to enforce the control-flow as well. The current status is
 
 This wiki page focuses on how to enable CET in SMM.
 
-# PCD
+## PCD
 
 The PCD - PcdControlFlowEnforcementPropertyMask defined in
 MdePkg.dec([https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec](https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec))
@@ -31,14 +31,14 @@ to indicates the control flow enforcement enabling state.
 
 ```
   ## Indicates the control flow enforcement enabling state.
-  #  If enabled, it uses control flow enforcement technology to prevent ROP or JOP.    
-  #   BIT0 - SMM CET Shadow Stack is enabled.  
+  #  If enabled, it uses control flow enforcement technology to prevent ROP or JOP.
+  #   BIT0 - SMM CET Shadow Stack is enabled.
   #   Other - reserved
   # @Prompt Enable control flow enforcement.
   gEfiMdePkgTokenSpaceGuid.PcdControlFlowEnforcementPropertyMask|0x0|UINT32|0x30001017
 ```
 
-# How to enable
+## How to enable
 
 1. A real platform may configure gEfiMdePkgTokenSpaceGuid.PcdControlFlowEnforcementPropertyMask in platform dsc to
 enable CET in SMM. A emulation platform might not be able to enable this PCD, because enabling CET required supervisor

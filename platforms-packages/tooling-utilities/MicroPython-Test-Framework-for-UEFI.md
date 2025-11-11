@@ -19,7 +19,7 @@ edk2-staging: (`MicroPythonPkg`).
 This project was publicly announced in March 2018 and added to the
 [edk2-staging](https://github.com/tianocore/edk2-staging) branch in August 2018.
 
-# Code Structure
+## Code Structure
 
 Commits are based on latest UDK2018, and include three packages:
 
@@ -40,7 +40,7 @@ git submodule update --init –recursive
 
 _Note: The last command will sync all submodule sources_
 
-# References
+## References
 
 MicroPython Project Website: [https://micropython.org/](https://micropython.org/)
 

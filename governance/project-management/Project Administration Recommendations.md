@@ -3,7 +3,7 @@
 This page evaluates the features offered to projects on SourceForge, and
 recommends how to setup and administrate UEFI/tianocore projects.
 
-# Project Features
+## Project Features
 
 Project features can be easily added and removed by:
 

@@ -10,30 +10,30 @@ Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
 - Mentor:
 - Suggested by: [https://github.com/jljusten](https://github.com/jljusten)
 
-# Details
+## Details
 
-# Documentation
+## Documentation
 
 Intel® 64 and IA-32 Architectures Software Developer's Manual Volume 3A:
 System Programming Guide, Part 1
 
 [http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html](http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html)
 
-# Development environment
+## Development environment
 
 Building: This project can be completed on any edk2 supported OS or
 toolchain.
 
 Any assembly code should be ported to all assembly formats.
 
-# Test environments
+## Test environments
 
 - OVMF: With QEMU you can use the -smp parameter to enable multiple
   processors
 - DUET: With DUET you can run on a system with multiple
   threads/cores/processors
 
-# Sub-goals
+## Sub-goals
 
 Some possible sub-goals for the driver
 
@@ -52,7 +52,7 @@ Some possible sub-goals for the driver
 - Refer to "Software Developer's Manual" to research further
   initialization requirements.
 
-# Getting Started
+## Getting Started
 
 - Code to start from:
   [https://github.com/jljusten/edk2/tree/ap-startup-example](https://github.com/jljusten/edk2/tree/ap-startup-example)
@@ -66,13 +66,13 @@ Some possible sub-goals for the driver
 - [EmulatorPkg](EmulatorPkg) already supports MpServices, so
   this may be used as a reference.
 
-# Further Discussion
+## Further Discussion
 
 This project would be for an edk2 based driver, so please discuss the
 project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 For IRC, \#edk2 on [irc.oftc.net](http://www.oftc.net).
 
-# See Also
+## See Also
 
 - [Tasks#Multiprocessor
   support in UefiCpuPkg/CpuDxe](Tasks-UefiCpuPkg-CpuDxe-MP-support.md)

@@ -4,7 +4,7 @@
 
 ***
 
-# Project Olympus (Purley MinPlatform)
+## Project Olympus (Purley MinPlatform)
 
 **NOTE:** The Purley MinPlatform code has been removed since maintenance could not be sustained. You may reference the
 last commit prior to removal (98c7561279) to retrieve the code.

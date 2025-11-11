@@ -2,7 +2,7 @@
 
 ![](images/TianoCoreLogo.png)
 
-# TianoCore Open Source Community
+## TianoCore Open Source Community
 
 **Rev 1.0**
 

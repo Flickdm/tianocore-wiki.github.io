@@ -7,9 +7,9 @@ Add [Network Block Device](http://nbd.sourceforge.net/) support
 - Mentor:
 - Suggested by: bjjohnson, andreiwarkentin
 
-# Details
+## Details
 
-# Test environment
+## Test environment
 
 Client
 
@@ -23,7 +23,7 @@ Server
 - Windows (for example, try
   [http://www.vanheusden.com/windows/nbdsrvr/](http://www.vanheusden.com/windows/nbdsrvr/))
 
-# Links for more information
+## Links for more information
 
   [https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md](https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md)
 - [http://nbd.sourceforge.net/](http://nbd.sourceforge.net/)
@@ -33,12 +33,12 @@ Server
 - [https://github.com/yoe/nbd](https://github.com/yoe/nbd)
   [http://code.activestate.com/recipes/577569-nbd-server-in-python/](http://code.activestate.com/recipes/577569-nbd-server-in-python/)
 
-# Development environment
+## Development environment
 
 Building: This project can be completed on any edk2 supported OS or
 toolchain.
 
-# Sub-goals
+## Sub-goals
 
 Sub-goals:
 
@@ -72,12 +72,12 @@ Sub-goals:
     server/port? (assumed you hardcoded it for now).
   - \[EXTRA\] Write simple tool to manage NBD driver.
 
-# Further Discussion
+## Further Discussion
 
 This project would be for an edk2 based driver, so please discuss the
 project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
-# See Also
+## See Also
 
 - [Tasks#Network Block
   Device (NBD) client](Tasks.md)_client)

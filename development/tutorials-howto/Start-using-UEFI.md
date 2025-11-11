@@ -13,21 +13,21 @@ firmware to OS interface from a code developer standpoint, and you may
 not notice much difference as a user once the operating system has
 started.
 
-# Warning
+## Warning
 
 This page discusses methods to potentially install a UEFI compatible
 operating system on your computer. This can potentially lead to the loss
 of the data on your computer's hard drive. Please only proceed if you do
 not have valuable data on your computer's hard drive.
 
-# Tech Support Note
+## Tech Support Note
 
 Our community is generally developer focused. We don't provide general
 technical support for usage of UEFI products. If you need official
 support for your UEFI product, then you should seek technical support
 from the product manufacturer.
 
-# UEFI compatible firmware
+## UEFI compatible firmware
 
 The first thing you will need in order to use UEFI is a compatible
 firmware.
@@ -59,7 +59,7 @@ VirtualBox ([http://www.virtualbox.org](http://www.virtualbox.org)) is a virtual
 The more recent versions of VirtualBox can enable UEFI support in the VM
 settings under 'System' =\> 'Extended Features' =\> 'EFI support'.
 
-# UEFI compatible operating systems
+## UEFI compatible operating systems
 
 Our community does not produce a UEFI compatible operating system.
 However, here we will list some operating systems which have some level

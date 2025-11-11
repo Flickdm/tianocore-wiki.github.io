@@ -4,7 +4,7 @@
   sub-projects. The more features that are enabled, the more
   cluttered/confusing the 'Develop' page is for for contributors.
 
-# Mail Lists
+## Mail Lists
 
 - Most sub-projects probably do not require separate mailing lists. Most
   likely the edk or edk2 mailing lists will be sufficient for the
@@ -15,7 +15,7 @@
 
 - Set-up: **Neet to document**
 
-# Open Discussions
+## Open Discussions
 
 - : We should not enable the 'forum' feature of sourceforge. The mail
   lists feature seems to better match our project communication method

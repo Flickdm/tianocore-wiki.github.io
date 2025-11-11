@@ -14,13 +14,13 @@ between EDK and EDK II](../reference/faqs-glossaries/Differences-between-EDK-and
   [Download](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_PatchV9.zip/download)
   Latest EDK Client Patch 9 -20130117 Ref 518096
 
-# [[EFI Shell|efishell]] Project
+## [[EFI Shell|efishell]] Project
 
 Please Note: this is the older EFI shell; Pre-[ShellPkg](../platforms-packages/core-packages/ShellPkg.md)
 
 * [[EDK EFI Shell|Efi-shell]] - Matched to [[EDK Releases]]
 
-# Other Projects
+## Other Projects
 
 * [PI SCT](http://sourceforge.net/projects/pi-sct/files/) Platform Initializiation Self-certification test projtect
   (Separate SF Project pi-sct)
@@ -29,7 +29,7 @@ Please Note: this is the older EFI shell; Pre-[ShellPkg](../platforms-packages/c
 * [efi-sct](../archives/reference/Efi-sct.md) UEFI SCT has been moved to the UEFI Forum at
   [http://www.uefi.org](http://www.uefi.org) members page.
 
-# Older, unmaintained projects
+## Older, unmaintained projects
 
 * [EFI Toolkit](../archives/reference/EFI-Toolkit.md) is a set of tools that support rapid porting and development of
   EFI applications, and promote a uniform pre-boot environment on 32 and 64 bit based platforms.

@@ -16,7 +16,7 @@ our
 [Mailing
 Lists](Mailing_Lists) to discuss UEFI related topics.
 
-# Developers
+## Developers
 
 If you are a developer, and would like to make
 [Code Contributions](Code_Contributions) to our community:

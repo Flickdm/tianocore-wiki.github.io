@@ -7,7 +7,7 @@
 
 New instructions: [Build Instructions](../../build-tooling/build-workflows/Build-Instructions.md)
 
-# Downloading and Compiling Code
+## Downloading and Compiling Code
 
 This page shows the steps for downloading
 [EDK II](EDK_II) from GitHub

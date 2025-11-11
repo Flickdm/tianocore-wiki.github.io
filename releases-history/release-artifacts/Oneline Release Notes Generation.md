@@ -3,7 +3,7 @@
 One benefit of our [Commit Message Format](../../development/contribution-guides/Commit-Message-Format.md) is to allow
 easy creation of brief (single-line) release notes
 
-# Brief (oneline) Release Notes
+## Brief (oneline) Release Notes
 
 If you use git, then the builtin support for oneline release notes can be used:
 `git log --oneline`
@@ -24,17 +24,17 @@ r10974 DuetPkg: Use UefiCpuPkg/CpuDxe instead of DuetPkg/CpuDxe
 ## svn-log-to-oneline.awk
 
 ```awk
-# Convert svn log output to a single line per commit
+## Convert svn log output to a single line per commit
 
 BEGIN { s=0 }
 
-# Line of dashes
+## Line of dashes
 s==0 && /^[-]+$/ { s++; next }
 
-# Find revision number
+## Find revision number
 s==1 && $2=="|" && $1 ~ /^r[0-9]+$/ { r=$1; s++; next }
 
-# Find summary line and print result
+## Find summary line and print result
 s==2 && /.+/ { print r, $0; s=0 }
 ```
 

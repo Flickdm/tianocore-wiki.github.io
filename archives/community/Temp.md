@@ -707,7 +707,7 @@ Package
 
 </table>
 
-# UDK2010 More Info
+## UDK2010 More Info
 
 EDK II More info: [Getting Started for
 Developers](../../development/tutorials-howto/Getting-Started-with-EDK-II.md),

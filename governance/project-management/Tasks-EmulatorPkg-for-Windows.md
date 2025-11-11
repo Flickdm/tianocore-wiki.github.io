@@ -9,12 +9,12 @@ Create a Windows based host environment for
 - Mentor:
 - Suggested by: [https://github.com/ajfish](https://github.com/ajfish)
 
-# Status
+## Status
 
 Completed :heavy_check_mark: by [https://github.com/niruiyu](https://github.com/niruiyu)
 in 2018.
 
-# Details
+## Details
 
 EmulatorPkg is very similar in many respects to the
 [Nt32Pkg](Nt32Pkg), but it
@@ -26,7 +26,7 @@ This task would be to enable a Windows host environment for EmulatorPkg
 so we can consider deprecating Nt32Pkg and UnixPkg in favor of using
 EmulatorPkg.
 
-# Development environment
+## Development environment
 
 Building: This project most likely would be completed on Windows with
 Visual Studio C++.
@@ -38,7 +38,7 @@ Linux.
 
 Testing: Run the emulator on Windows or with Wine.
 
-# Sub-goals
+## Sub-goals
 
 Some possible sub-goals for the driver
 
@@ -48,11 +48,11 @@ Some possible sub-goals for the driver
 - Enable multi-threading support
 - Enable networking support
 
-# Further Discussion
+## Further Discussion
 
 Please discuss the project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
-# See Also
+## See Also
 
 - [Tasks](Tasks)
 - [GSoC2012#Port EmulatorPkg

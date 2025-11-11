@@ -8,7 +8,7 @@ PI 1.2 FFS in the system to appear as a UEFI file system.
 - Mentor:
 - Suggested by: [https://github.com/mdkinney](https://github.com/mdkinney)
 
-# Status
+## Status
 
 - Completed :heavy_check_mark:
 - Work done by Colin Drake as a
@@ -16,7 +16,7 @@ PI 1.2 FFS in the system to appear as a UEFI file system.
   student.
   - Source: [https://github.com/cfdrake/FileSystemPkg](https://github.com/cfdrake/FileSystemPkg)
 
-# Details
+## Details
 
 The PI 1.2 Firmware File System (FFS) allows firmware elements to be
 packed efficiently into flash memory.
@@ -37,7 +37,7 @@ Each FFS file which contains a PE/COFF section should have a .efi file
 available in the system. An example uses of this would be to allow UEFI
 applications stored in the FFS to be run from the UEFI shell.
 
-# Development environment
+## Development environment
 
 Building: This project can be completed on any edk2 supported OS or
 toolchain.
@@ -49,12 +49,12 @@ loading the driver into flash, it can be loaded by using the EFI shell
 [UnixPkg](UnixPkg) could
 each provide friendly test environments.
 
-# Further Discussion
+## Further Discussion
 
 This project would be for an edk2 based driver, so please discuss the
 project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
 
-# See Also
+## See Also
 
 - [Tasks](Tasks)
 - [GSOC2011#Read-only FFS

@@ -4,11 +4,11 @@ ECC is a python tool which helps to detect coding style issues.
 It reports errors for the codes which don't follow [EDK II C Coding Standards
 Specification](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/draft/). 
 
-# 2. Where is the ECC tool?
+## 2. Where is the ECC tool?
 
 ECC tool is located in edk2/BaseTools/Source/Python/Ecc.
 
-# 3. How to run ECC tool?
+## 3. How to run ECC tool?
 
 Steps to run the ECC tool:  
 

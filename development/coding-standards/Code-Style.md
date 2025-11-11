@@ -16,6 +16,6 @@ Control](Source_Control):
 - [Commit Partitioning](Commit_Partitioning)
 - [Signatures](Commit_Signature_Format)
 
-# See Also
+## See Also
 
 - [How To Contribute](How_To_Contribute)

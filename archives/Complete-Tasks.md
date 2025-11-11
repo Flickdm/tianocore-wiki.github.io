@@ -3,7 +3,7 @@
 These tasks have already been completed and are examples of successful
 projects from prior years.
 
-# Previously Complete Projects
+## Previously Complete Projects
 
 ## GSoC 2021
 
@@ -239,6 +239,6 @@ for Linux based builds.
   [https://github.com/jljusten](https://github.com/jljusten)
 - Status: Available in GCC5 & CLANG38 toolchains
 
-# See Also
+## See Also
 
 - [How To Contribute](How_To_Contribute)

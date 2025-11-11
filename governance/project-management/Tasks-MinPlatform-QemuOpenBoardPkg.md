@@ -8,7 +8,7 @@ Build a MinPlatform Board Port for Qemu.
 * Mentor:
 * Suggested by: [@nate-desimone](https://github.com/nate-desimone)
 
-# Background
+## Background
 
 UEFI system firmware is often referred to as the "BIOS" though the correctness of calling UEFI firmware a "BIOS" has
 been a subject of debate. [MinPlatform](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/) is a
@@ -24,7 +24,7 @@ system firmware for platforms other than Qemu. The goal of
 [MinPlatformPkg](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg) is increase the
 amount of generic code available for motherboard firmware developers to reuse.
 
-# Details
+## Details
 
 While MinPlatform itself is vendor agnostic, its primary usage thus far has been for UEFI system firmware for real
 motherboards. And thus far, the only motherboards supported use Intel Processors. This makes it difficult for new
@@ -49,12 +49,12 @@ this project could integrate the FSP and upgrade it to FSP 2.3. QemuOpenBoardPkg
 fully open source example of FSP including both API mode and Dispatch mode. QemuOpenBoardPkg could also be used as a
 sandbox for exploring future FSP architectural upgrades like 64-bit FSP for example.
 
-# Development Environment
+## Development Environment
 
 Building: This project can be completed on any edk2 supported OS or toolchain. Ideally, QemuOpenBoardPkg should be
 compiler agnostic and be able to build with either Clang, GCC, or Visual C++ though that is not a strict requirement.
 
-# Links for More Information
+## Links for More Information
 
   [https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/)
   [https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/MinPlatformPkg)
@@ -62,10 +62,10 @@ compiler agnostic and be able to build with either Clang, GCC, or Visual C++ tho
   [https://github.com/universalpayload/fspsdk/tree/qemu_fsp_x64](https://github.com/universalpayload/fspsdk/tree/qemu_fsp_x64)
 * [https://www.qemu.org/](https://www.qemu.org/)
 
-# Further Discussion
+## Further Discussion
 
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
-# See Also
+## See Also
 
 [Tasks](Tasks.md)

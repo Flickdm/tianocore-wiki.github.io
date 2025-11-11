@@ -12,7 +12,7 @@ the respective component who is named in the subdirectory - you can find a list 
 
 Also, it is encouraged to attach a patch that mitigates the issues with the bug report, if possible.
 
-# How Security Issues are Evaluated
+## How Security Issues are Evaluated
 
 When a Tianocore Security Issue is entered, the issue is evaluated by the **Infosec** group to determine if the issue is
 a security issue or not. If it is not deemed to be a security issue, then the issue is converted to a standard issue and
@@ -46,7 +46,7 @@ grading.
 The Tianocore Infosec team uses the following flow to evaluate items
 ![](https://github.com/jwang36/tianocore.github.io/raw/master/security/flowchart.svg?sanitize=true)
 
-# Security Advisories
+## Security Advisories
 
 List of current EDK II Security Advisories can be found at this Gitbook :
 **[Security Advisory Log](https://tianocore-docs.github.io/SecurityAdvisory/draft/)**

@@ -45,9 +45,8 @@ details. In the example below,
 * **`LOWEST_SUPPORTED_FIRMWARE_VERSION`** is in the field called `LowestSupportedImageVersion` with a value of `0xA`.
 
 ```
-############
-# FMP DATA #
-############
+### FMP DATA
+
 FMP (0) ImageInfo:
   DescriptorVersion  - 0x3
   DescriptorCount    - 0x1

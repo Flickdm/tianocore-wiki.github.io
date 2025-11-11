@@ -5,7 +5,7 @@ The following tools are required for building
 EDK II BaseTools](edk2-buildtools) and instructions are provided in the
 [BuildTool Setup Guide](BuildTool_Setup_Guide).
 
-# Resources
+## Resources
 
 - [Windows\*
   URL](http://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/DevelopmentTools/PythonPkgs/Win32)
@@ -14,7 +14,7 @@ EDK II BaseTools](edk2-buildtools) and instructions are provided in the
 - [OS/X
   URL](http://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/DevelopmentTools/PythonPkgs/Mac_OS_X)
 
-# Version Info
+## Version Info
 
 All of the Python tools located in the BaseTools sub-project are built
 and tested using:

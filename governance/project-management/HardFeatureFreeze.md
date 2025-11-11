@@ -7,7 +7,7 @@ tag](EDK-II#stable-tags).
 (This definition is modeled after QEMU's [hard feature
 freeze](https://wiki.qemu.org/Planning/HardFeatureFreeze)).
 
-# Announcing the hard feature freeze
+## Announcing the hard feature freeze
 
 The proposed schedule for the active development cycle is shown in the [EDK II
 Release Planning](EDK-II-Release-Planning) article. Shortly before the hard

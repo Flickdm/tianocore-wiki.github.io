@@ -31,7 +31,7 @@ file naming used [here](Capsule-Based-System-Firmware-Update-Generate-Keys#x509-
 
 ```
 ##################
-# Pkcs7Sign tool definitions
+## Pkcs7Sign tool definitions
 ##################
 *_*_*_PKCS7SIGN_PATH       = Pkcs7Sign
 *_*_*_PKCS7SIGN_GUID       = 4AAFD29D-68DF-49EE-8AA9-347D375665A7

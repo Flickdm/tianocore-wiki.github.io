@@ -9,7 +9,7 @@ line-drawing characters (currently one must set their terminal emulator to use c
 * Mentor:
 * Suggested by: bjjohnson, [@nate-desimone](https://github.com/nate-desimone)
 
-# Status
+## Status
 
 * Completed :heavy_check_mark:.
 * Work done by Caden Kline ([@Pokemod97](https://github.com/Pokemod97)) as a
@@ -17,7 +17,7 @@ line-drawing characters (currently one must set their terminal emulator to use c
 * Available at:
   [https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3](https://github.com/Pokemod97/edk2/tree/terminal-driver-characters-v3)
 
-# Background
+## Background
 
 The Terminal driver is located at
 [https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe](https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe)
@@ -26,7 +26,7 @@ The most prevalent use case for the terminal driver is to display the BIOS setup
 PC style serial port connected to a laptop via null modem. This allows administrators to adjust BIOS settings on rack
 mounted systems without needing to connect a monitor and keyboard.
 
-# Details
+## Details
 
 Historically, the BIOS setup menu would be rendered using the IBM PC VGA text mode, which encoded text using code page
 437 (CP437). This was important for box-drawing characters, such as ┌ , ─ , and ┐ , which VGA text mode encodes as 0xDA,
@@ -177,11 +177,11 @@ setting. This isn’t a bug in the terminal driver really, it’s a bug in OVMF'
 create the appearance of a problem in the terminal driver and should be fixed as part of this GSoC project. This should
 be fixed in both he OVMF implementation and the MinPlatform implementation.
 
-# Development Environment
+## Development Environment
 
 Building: This project should support all edk2 supported OSes and toolchains.
 
-# Links for More Information
+## Links for More Information
 
   [https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe](https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Console/TerminalDxe)
 * [https://github.com/tianocore/edk2/tree/master/OvmfPkg](https://github.com/tianocore/edk2/tree/master/OvmfPkg)
@@ -193,10 +193,10 @@ Building: This project should support all edk2 supported OSes and toolchains.
 * [https://en.wikipedia.org/wiki/VT100](https://en.wikipedia.org/wiki/VT100)
 * [https://www.putty.org](https://www.putty.org)
 
-# Further Discussion
+## Further Discussion
 
 Interested parties are welcome to discuss this project on [edk2-devel](https://edk2.groups.io/g/devel).
 
-# See Also
+## See Also
 
 [Tasks](Tasks.md)

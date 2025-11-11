@@ -13,7 +13,7 @@ addition or enablement patches posted **or** reviewed after the soft feature
 freeze will be delayed until after the upcoming [stable
 tag](EDK-II#stable-tags).
 
-# What should I do by the soft feature freeze?
+## What should I do by the soft feature freeze?
 
 As a maintainer, for any feature that you're targeting to the next [stable
 tag](EDK-II#stable-tags), you should make sure that you've reviewed and
@@ -38,7 +38,7 @@ communicate with the maintainer about their intentions. It also helps if you:
 (This definition is modeled after QEMU's [soft feature
 freeze](https://wiki.qemu.org/Planning/SoftFeatureFreeze).)
 
-# Announcing the soft feature freeze
+## Announcing the soft feature freeze
 
 The proposed schedule for the active development cycle is shown in the [EDK II
 Release Planning](EDK-II-Release-Planning) article. Shortly before the soft

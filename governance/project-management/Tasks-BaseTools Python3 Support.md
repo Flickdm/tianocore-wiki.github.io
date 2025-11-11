@@ -3,11 +3,11 @@
 This task updating the existing Python-base BaseTools to run under
 both Python 2.7 and Python 3.0.
 
-# Current Status
+## Current Status
 
 Not started.
 
-# Directory list
+## Directory list
 
 * [ ] AutoGen
 * [ ] Common
@@ -23,7 +23,7 @@ Not started.
 * [ ] Trim
 * [ ] UPT
 
-# Task Overview
+## Task Overview
 
 * Difficulty: Complex
 * Language: Python

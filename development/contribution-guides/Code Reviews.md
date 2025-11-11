@@ -4,12 +4,12 @@ Code reviews are a critical part of producing high quality code. This
 page documents how to use code reviews within our projects, and how to
 be a code reviewer.
 
-# Submit Code
+## Submit Code
 
 [Submit your patch](Code-Contributions.md) to GitHub as a pull
 request.
 
-# Review Code
+## Review Code
 
 As a member of the community, please take the time to review pull
 requests.
@@ -30,11 +30,11 @@ Please consider
 [Code Style](Code_Style)
 issues as part of your code review.
 
-# Resubmit Code
+## Resubmit Code
 
 If a review detects a major issue in your code, then make the changes
 and force push to your fork branch to update the pull request.
 
-# See Also
+## See Also
 
 - [Code Style](Code_Style)

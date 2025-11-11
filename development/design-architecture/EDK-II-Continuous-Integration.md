@@ -77,29 +77,29 @@ enhancements and extensions to these services.
 * Verify modified modules/libs build
 * Run available Host Based tests against modified modules/libs
 
-# Post Commit Checks
+## Post Commit Checks
 
 * Build all modules/libs/platforms that consume modified content
 
-# Daily Builds
+## Daily Builds
 
 * Build critical packages
 * Build critical platforms
 * Verify that Doxygen Documentation can be generated
 
-# Weekly Builds
+## Weekly Builds
 
 * Build all packages
 * Build all platforms
 * Publish Doxygen Documentation to a web site
 
-# Release Builds
+## Release Builds
 
 * Same as weekly builds
 * Full regression testing
 * Publishes binary files to release pages
 
-# Possible Continuous Integration Actions
+## Possible Continuous Integration Actions
 
 * PatchCheck.py
 * Verify no non-ASCII characters in modified source files
@@ -133,7 +133,7 @@ enhancements and extensions to these services.
 * Integration/Regression tests that require full OS boots
 * Build binary releases of components (e.g. UEFI Shell, OVMF)
 
-# Possible Platform Testing Actions
+## Possible Platform Testing Actions
 
 * OVMF
   * IA32 DXE boot tests
@@ -154,7 +154,7 @@ enhancements and extensions to these services.
     for packaging a pre-enrolled variable store template file.
     * [https://github.com/puiterwijk/qemu-ovmf-secureboot](https://github.com/puiterwijk/qemu-ovmf-secureboot)
 
-# Evaluations and Supporting Background Materials
+## Evaluations and Supporting Background Materials
 
 * Background
   * [https://en.wikipedia.org/wiki/Continuous_integration](https://en.wikipedia.org/wiki/Continuous_integration)
