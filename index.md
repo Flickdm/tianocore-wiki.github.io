@@ -27,4 +27,4 @@ code or fix issues, please see [How To Contribute](../../development/contributio
 with our [Inclusive Language Guidelines](../../governance/charter-policies/Inclusive-Language-Guidelines.md). The
 [Tasks](../../governance/project-management/Tasks.md) page has a list of priority work items.
 
-[![](https://github.com/tianocore/tianocore.github.io/blob/master/images/tianocore_logo_text_whitebkg.jpg)](http://www.tianocore.org)
+[![TianoCore Logo](https://github.com/tianocore/tianocore.github.io/blob/master/images/tianocore_logo_text_whitebkg.jpg)](http://www.tianocore.org)

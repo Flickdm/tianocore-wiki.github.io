@@ -1,31 +1,34 @@
-Overview
-==========
+# Overview
 
-[[Getting Started with EDK II]] - steps for downloading EDK II and compiling projects under various OS/compiler environments.
+[[Getting Started with EDK II]] - steps for downloading EDK II and compiling projects under various
+OS/compiler environments.
 
-For an explanation of the basic EDK II setup, and to see examples of how to use the specification files .DEC, .DSC, and .INF, see the wiki page [[Build Description Files]].
+For an explanation of the basic EDK II setup, and to see examples of how to use the specification
+files .DEC, .DSC, and .INF, see the wiki page [[Build Description Files]].
 
 See below for more information on the following topics:
 
-- `Specifications`_ 
-- `Training`_ 
-- `User Documentation`_ 
-- `Libraries and Helper files`_ 
-- `White Papers`_ 
-- `Security`_ 
-- `Driver Development`_ 
-- `Code Style`_ 
-- `Historical Documents`_ 
+- `Specifications`_
+- `Training`_
+- `User Documentation`_
+- `Libraries and Helper files`_
+- `White Papers`_
+- `Security`_
+- `Driver Development`_
+- `Code Style`_
+- `Historical Documents`_
 
-Specifications
-================
+## Specifications
 
-The following table contains released versions of EDK II Specifications, published using [Gitbook Action](https://github.com/marketplace/actions/gitbook-action):
+The following table contains released versions of EDK II Specifications, published using
+[Gitbook Action](https://github.com/marketplace/actions/gitbook-action):
 
- - The latest draft versions of the EDK II Specification can be found on the [[EDK II Draft Specification]] page.
- - Previous versions of the EDK II Specifications can be found on the [[EDK II Specifications Archived]] page
+- The latest draft versions of the EDK II Specification can be found on the
+  [[EDK II Draft Specification]] page.
+- Previous versions of the EDK II Specifications can be found on the
+  [[EDK II Specifications Archived]] page
 
-The `EDK II Specification Template`_ can be used to start a new specification document. 
+The `EDK II Specification Template`_ can be used to start a new specification document.
 
 .. csv-table::
    :delim: |
@@ -42,7 +45,7 @@ The `EDK II Specification Template`_ can be used to start a new specification do
    PCD | v0.56 | April 2017 | `HTML <https://tianocore-docs.github.io/edk2-PcdSpecification/release-0.56/>`_,  `PDF <https://tianocore-docs.github.io/edk2-PcdSpecification/release-0.56/edk2-PcdSpecification-release-0.56.pdf>`_,  `Mobi <https://tianocore-docs.github.io/edk2-PcdSpecification/release-0.56/edk2-PcdSpecification-release-0.56.mobi>`_,  `ePub <https://tianocore-docs.github.io/edk2-PcdSpecification/release-0.56/edk2-PcdSpecification-release-0.56.epub>`_,  `Github <https://github.com/tianocore-docs/edk2-PcdSpecification/tree/release/0.56>`_ | This document discusses the mechanisms and configuration entries required to make it easy to write portable silicon modules and to port the Framework from platform to platform.
    UNI | v1.4 | May 2017 | `HTML <https://tianocore-docs.github.io/edk2-UniSpecification/release-1.40/>`_,  `PDF <https://tianocore-docs.github.io/edk2-UniSpecification/release-1.40/edk2-UniSpecification-release-1.40.pdf>`_,  `Mobi <https://tianocore-docs.github.io/edk2-UniSpecification/release-1.40/edk2-UniSpecification-release-1.40.mobi>`_,  `ePub <https://tianocore-docs.github.io/edk2-UniSpecification/release-1.40/edk2-UniSpecification-release-1.40.epub>`_,  `Github <https://github.com/tianocore-docs/edk2-UniSpecification/tree/release/1.40>`_ | This document describes the Multi-String build information (UNI) file format . See details in the Revision History in the document for more details.
    VFR | v1.92 | April 2018 | `HTML <https://tianocore-docs.github.io/edk2-VfrSpecification/release-1.92/>`_,  `PDF <https://tianocore-docs.github.io/edk2-VfrSpecification/release-1.92/edk2-VfrSpecification-release-1.92.pdf>`_,  `Mobi <https://tianocore-docs.github.io/edk2-VfrSpecification/release-1.92/edk2-VfrSpecification-release-1.92.mobi>`_,  `ePub <https://tianocore-docs.github.io/edk2-VfrSpecification/release-1.92/edk2-VfrSpecification-release-1.92.epub>`_,  `Github <https://github.com/tianocore-docs/edk2-VfrSpecification/tree/release/1.92>`_ | To simplify the creation of Internal Forms Representation (IFR), a high-level Visual Forms Representation (VFR) language is described in this document. Using this language syntax, a compiler can be designed to take an ordinary text file containing VFR as an input, and output IFR for use in a user’s program. There are various methods to define the VFR language.
-   C Coding Standards | v 2.20 | June 2017 | `HTML <https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/>`_,  `PDF <https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/edk2-CCodingStandardsSpecification-release-2.20.pdf>`_,  `Mobi <https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/edk2-CCodingStandardsSpecification-release-2.20.mobi>`_,  `ePub <https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/edk2-CCodingStandardsSpecification-release-2.20.epub>`_,  `Github <https://github.com/tianocore-docs/edk2-CCodingStandardsSpecification/tree/release/2.20>`_ | The EDK II C Coding Standards Specification establishes a set of rules intended as an enabling philosophy which will: Establish uniformity of style, Set minimum information content requirements, Allow all programmers to easily understand the code, Facilitate support tasks by establishing uniform conventions, Ease documentation efforts by embedding the design documentation in the code, and Reduce customer and new employee learning curves by providing accurate code documentation and uniform style. These rules apply to all code deveoped for EDK II. 
+   C Coding Standards | v 2.20 | June 2017 | `HTML <https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/>`_,  `PDF <https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/edk2-CCodingStandardsSpecification-release-2.20.pdf>`_,  `Mobi <https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/edk2-CCodingStandardsSpecification-release-2.20.mobi>`_,  `ePub <https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/edk2-CCodingStandardsSpecification-release-2.20.epub>`_,  `Github <https://github.com/tianocore-docs/edk2-CCodingStandardsSpecification/tree/release/2.20>`_ | The EDK II C Coding Standards Specification establishes a set of rules intended as an enabling philosophy which will: Establish uniformity of style, Set minimum information content requirements, Allow all programmers to easily understand the code, Facilitate support tasks by establishing uniform conventions, Ease documentation efforts by embedding the design documentation in the code, and Reduce customer and new employee learning curves by providing accurate code documentation and uniform style. These rules apply to all code deveoped for EDK II.
    Min-Platform |v 0.7| May 2019 | `HTML <https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/>`_,  `PDF <https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/edk2-MinimumPlatformSpecification-draft.pdf>`_,  `Mobi <https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/edk2-MinimumPlatformSpecification-draft.mobi>`_,  `ePub <https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/edk2-MinimumPlatformSpecification-draft.epub>`_,  `Github <https://github.com/tianocore-docs/edk2-MinimumPlatformSpecification>`_ | This specification details the required and optional elements for an EDK II based platform design with the following objectives: 1. Define a structure that enables developers to consistently navigate source code, execution flow, and the functional results of bootstrapping a system; 2. Enable a minimal platform where minimal is defined as the minimal firmware implementation required to produce a basic solution that can be further extended to meet a multitude of client, server, and embedded market needs; 3. Minimize coupling between common, silicon, platform, and board packages; 4. Enable large granularity binary solutions.  A key aspect of these objectives is to improve the transparency and security quality across client, server, and embedded ecosystems.
 
 
@@ -56,7 +59,7 @@ see the information at https://github.com/tianocore-docs/edk2-TemplateSpecificat
 `PDF <https://tianocore-docs.github.io/edk2-TemplateSpecification/draft/edk2-TemplateSpecification-draft.pdf>`_,
 `MOBI <https://tianocore-docs.github.io/edk2-TemplateSpecification/draft/edk2-TemplateSpecification-draft.mobi>`_,
 `EPUB <https://tianocore-docs.github.io/edk2-TemplateSpecification/draft/edk2-TemplateSpecification-draft.epub>`_,
-`GitHub <https://github.com/tianocore-docs/edk2-TemplateSpecification>`_ 
+`GitHub <https://github.com/tianocore-docs/edk2-TemplateSpecification>`_
 
 Training
 ==========
@@ -86,17 +89,17 @@ User Documentation
    </tr>
    <tr>
       <td><a href="https://github.com/tianocore-docs/Docs/raw/master/User_Docs/UEFI-PackagingToolQuickStartGuideRev_1_2.pdf">UEFI Packaging Tool Quick Start Guide</a></td>
-      <td>UEFI Packaging Tool (UEFIPT) Quick Start 1.2. This document provides a definitive list of steps to follow which will result in the creation of a UEFI Distribution Package using the UEFI Packaging Tool (UEFIPT) within a Microsoft Windows* OS and Linux OS environments. August 2015. 
+      <td>UEFI Packaging Tool (UEFIPT) Quick Start 1.2. This document provides a definitive list of steps to follow which will result in the creation of a UEFI Distribution Package using the UEFI Packaging Tool (UEFIPT) within a Microsoft Windows* OS and Linux OS environments. August 2015.
       </td>
    </tr>
    <tr>
        <td>
       <a href = "https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf">Signing UEFI Images</a></td>
-      <td>This document describes how to sign UEFI images for the development and test of UEFI Secure Boot using the UDK2010.SR1 release: 
-      *	Provides an overview of UEFI Secure Boot 
-      *	Details the steps to sign an UEFI image 
-      *	Describes the UEFI Secure Boot policies 
-      *	Describes the steps required to set specific UEFI Secure Boot policies 
+      <td>This document describes how to sign UEFI images for the development and test of UEFI Secure Boot using the UDK2010.SR1 release:
+      *	Provides an overview of UEFI Secure Boot
+      *	Details the steps to sign an UEFI image
+      *	Describes the UEFI Secure Boot policies
+      *	Describes the steps required to set specific UEFI Secure Boot policies
       *	Describes the image authorization flow when UEFI Secure Boot is enabled
       *	Decribes how to use OVMF and NT32Pkg as UEFI Secure Boot reference platforms
       *	Demonstrates several UEFI Secure Boot scenarios using OVMF Updates and clarifications related to UEFI Spec conformance regarding KEK and DB usages
@@ -107,9 +110,9 @@ User Documentation
    </tr>
    <tr>
       <td>
-      <a href = "https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/"> UEFI Driver Writers' Guide: HTML</a>, 
-      <a href = "https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.pdf"> PDF</a>, 
-      <a href = "https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.mobi"> MOBI</a>, 
+      <a href = "https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/"> UEFI Driver Writers' Guide: HTML</a>,
+      <a href = "https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.pdf"> PDF</a>,
+      <a href = "https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.mobi"> MOBI</a>,
       <a href = "https://tianocore-docs.github.io/edk2-UefiDriverWritersGuide/draft/edk2-UefiDriverWritersGuide-draft.epub"> EPUB</a>
       </td>
       <td>
@@ -134,7 +137,7 @@ User Documentation
       <a href="https://github.com/tianocore-docs/Docs/raw/master/User_Docs/PerformanceOptimization_1_0.pdf">Performance Optimization</a>d
       </td>
       <td>
-      Technical documentation for Performance Optimization for EDK II. Feb 2010. 
+      Technical documentation for Performance Optimization for EDK II. Feb 2010.
       </td>
    </tr>
    <tr>
@@ -148,13 +151,13 @@ User Documentation
    </table>
 
 Libraries and Helper files
-=========================== 
+===========================
 
 White Papers
-============ 
+============
 
 Security
-========= 
+=========
 
 Driver Development
 ===================
