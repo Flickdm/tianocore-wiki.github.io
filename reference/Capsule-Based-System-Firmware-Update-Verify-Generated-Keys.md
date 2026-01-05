@@ -29,7 +29,7 @@ The example below adds these three flags and uses the environment variables call
 `KEYS_BASE_NAME` to specify the path and base name of generated private keys.  This follows the key
 file naming used [here](Capsule-Based-System-Firmware-Update-Generate-Keys#x509-certificate-chain-files).
 
-```
+```ini
 ##################
 ## Pkcs7Sign tool definitions
 ##################
@@ -55,7 +55,7 @@ A hex dump utility may be used to convert the binary file to the list of hex val
 example below shows the PCD setting for the test signing public key from the file
 `BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer`
 
-```
+```ini
 [PcdsDynamicExVpd]
 !if $(CAPSULE_ENABLE)
   #
@@ -71,7 +71,7 @@ example below shows the PCD setting for the test signing public key from the fil
 such as `gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer`.  This helper tool can be used to
 convert a binary file to the list of hex values.
 
-```
+```bash
 BinToPcd.py -i BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer
 ```
 
@@ -79,7 +79,7 @@ BinToPcd.py -i BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer
 generates a PCD statement for a VPD section and sets the size of the PCD to the size of the
 test signing public key input file `BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer`
 
-```
+```bash
 BinToPcd.py -p gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer -t VPD -i BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer
 ```
 
@@ -89,7 +89,7 @@ without updating to the platform DSC file.  Instead, the `BinToPcd.py` helper to
 a new public key input file.  The example below shows the generation of the output file
 `MyPublicKey.inc`.
 
-```
+```bash
 BinToPcd.py -p gEfiSecurityPkgTokenSpaceGuid.PcdPkcs7CertBuffer -t VPD -i BaseTools\Source\Python\Pkcs7Sign\TestRoot.cer -o MyPublicKey.inc
 ```
 
@@ -97,7 +97,7 @@ The following is the update to a platform DSC file to include the PCD statement 
 the `BinToPcd.py` helper tool above.  This example assumes `MyPublicKey.inc` is in the same
 directory as the platform DSC file.
 
-```
+```ini
 [PcdsDynamicExVpd]
 !if $(CAPSULE_ENABLE)
   #
@@ -117,14 +117,14 @@ Build and Boot Firmware Image
 The following example sets the environment variables for generated keys in a `Keys` directory
 in thew `QuarkPlaytformPkg` and a base name for the key set to `GalileoGen2`.
 
-```
+```batch
 set KEYS_PATH=%WORKSPACE%\edk2\QuarkPlatformPkg\Keys
 set KEYS_BASE_NAME=GalileoGen2
 ```
 
 These environment variable settings use the following generated private key files
 
-```
+```text
 QuarkPlatformPkg/Keys/GalileoGen2Root.pub.pem
 QuarkPlatformPkg/Keys/GalileoGen2Sub.pub.pem
 QuarkPlatformPkg/Keys/GelileiGen2Cert.pem

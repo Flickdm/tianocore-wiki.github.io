@@ -13,7 +13,7 @@ __**Table of Contents**__
 * [comments](#comments) - [\[Defines\]](#defines-) - [\[Packages\]](#packages) - [\[Sources\]](#sources) -
 [\[LibraryClasses\]](#libraryclasses) - [\[Protocols\]](#protocols) - [\[Guids\]](#guids) -
 [\[BuildOptions\]](#buildoptions)
-* [The .DEC File](#the-dec-file) Package Declaration file  
+* [The .DEC File](#the-dec-file) Package Declaration file
 * [comments](#comments-1) - [\[Defines\]](#defines) - [\[Includes\]](#includes) -
 [\[LibraryClasses\]](#libraryclasses-1) - [\[Guids\]](#guids-1) - [\[Pcds . . .\]](#pcds-----sections)
 * [The .DSC File](#the-dsc-file) Platform Description File
@@ -25,7 +25,7 @@ __**Table of Contents**__
 ## The .INF file
 
 For the Spec and Description see: [INF](EDK-II-Specifications#inf) on the [EDK II
-Specifications](../../reference/specs-standards/EDK-II-Specifications.md) page 
+Specifications](../../reference/specs-standards/EDK-II-Specifications.md) page
 This file describes how to build a module (i.e. a driver, library, application, etc…).
 
 ### Comments
@@ -40,60 +40,60 @@ block describe how the Protocol, PPIS or GUID is used in the C code.
 
 ### [Defines]
 
-```
+```ini
      INF_VERSION            = 1.25
 ```
 
 Defines the version of the EDK II INF specification the INF file supports.
 
-```
+```ini
     BASE_NAME             = NameOuputWithoutExtension
 ```
 
 Defines the base output name of the module (application, library, etc...) when built resulting in the final .efi or .lib
 binary.
 
-```
+```ini
     MODULE_UNI_FILE        = NameOuput.uni
 ```
 
 Optional entry used to locate an Unicode file which can be used for localization of the module's Abstract and
 Description from the header section. The .uni file must be relative to the directory the INF file .
 
-```
+```ini
      FILE_GUID             = 11111111-2222-3333-4444-555555555555
 ```
 
 A unique GUID for this module. See  [http://www.guidgen.com/](http://www.guidgen.com/)
 
-```
+```ini
      MODULE_TYPE           = USER_DEFINED
 ```
 
 The type of module being built. This includes things such as UEFI_DRIVER, UEFI_APPLICATION, DXE_DRIVER, etc… For
 libraries it can be BASE, USER_DEFINED, etc…
 
-```
+```ini
        VERSION_STRING      = 1.0
 ```
 
 The developer defined version of your module, Major "." Minor number.
 
-```
+```ini
        ENTRY_POINT         = MainFunctionName
 ```
 
 If your module is not a library, this variable defines the function to begin execution. This is similar to the main()
 function in C.
 
-```
+```ini
        LIBRARY_CLASS  = LibNameToReference | AllowedModuleType1 AllowedModuleType2 Etc . . .
 ```
 
 If your module is a library, this is the name the library is to be known as within the build system followed by a
 vertical bar and a list of space delimitated module types this library can be used with.
 
-```
+```ini
        CONSTRUCTOR         = LibInitializationFunction
 ```
 
@@ -106,7 +106,7 @@ List the various packages the module will use. This tells the build system where
 files for the library), PCDs, GUIDs, Protocols, and PPIs via the different packages .DEC files. The .DCS file from this
 package is not used. Typically minimum required package is the MdePkg.dec
 
-```
+```ini
       MdePkg/MdePkg.dec
 ```
 
@@ -114,7 +114,7 @@ package is not used. Typically minimum required package is the MdePkg.dec
 
 List the various source and header files used to build the module.
 
-```
+```ini
       MyFile.h
       MyFile.c
 ```
@@ -127,7 +127,7 @@ module used in its .INF file. For each entry in this section there needs to be a
 determine the library module to link with.
 For Example:
 
-```
+```ini
    LibNameToReference
 ```
 
@@ -137,7 +137,7 @@ List the various protocol GUIDs variable name needed/used by the sources. The va
 [Packages].DEC [Guids] section. Also listed are the Usage Block definitions for the protocol for this module
 For Example:
 
-```
+```ini
   gEfiDiskInfoProtocolGuid                      ## BY_START
 ```
 
@@ -149,7 +149,7 @@ List the various GUIDs variable name needed/used by the sources. The variable na
 [Packages].DEC [Guids] section.
 For Example:
 
-```
+```ini
     gEfiDiskInfoScsiInterfaceGuid                 ## SOMETIMES_PRODUCES ## UNDEFINED
 ```
 
@@ -165,7 +165,7 @@ Add compiler specific options needed to build the module.
 ## The .DEC file
 
 For the Spec and Description see: [DEC](EDK-II-Specifications#dec) on the [EDK II
-Specifications](../../reference/specs-standards/EDK-II-Specifications.md) page 
+Specifications](../../reference/specs-standards/EDK-II-Specifications.md) page
 This file is used to declare what is available in the package and tells the build system where to find things such as
 “Include” directories. It can also be used to replace the use of #define values or constant variables in .h files though
 a mechanism called the Platform Configuration Database(PCD). This file is used when a module includes this package in
@@ -181,16 +181,17 @@ characters appearing within a quoted string are permitted.
 
 A double `##` hash is used for comment block entries. This is a recommended format for comment information regarding the
 header files, module types an item supports and other information.
-The general format of these comment blocks in the [Guids], [Protocols] and [Ppis] sections is:  
 
-```
+The general format of these comment blocks in the [Guids], [Protocols] and [Ppis] sections is:
+
+```text
 ## Path/To/HeaderFile.h
   GUID_C_Name = <GUID> [## <ModuleTypeList>] [# <HelpText>]
 ```
 
 ### [Defines]
 
-```
+```ini
        DEC_SPECIFICATION   = 1.25
 ```
 
@@ -200,17 +201,18 @@ Defines the version of the EDK II DEC specification the DEC file supports.
       PACKAGE_GUID         = 11111111-2222-3333-4444-555555555555
       PACKAGE_VERSION      = 1.00
 
-The above example are similar to the example for the [.INF File](#the-inf-file)  above.  
+The above example are similar to the example for the [.INF File](#the-inf-file)  above.
 
 ### [Includes]
 
 This section lists the include directories for the package and modules that use the package (the search path for .h
 files). The [Incudes] section can also indicate directories by Architecture used by appending a period and architecture
 name to the Includes name. For example [Includes.IA32], [Includes.X64]. This is where your .C modules look for #include
-<header.h> files. 
+<header.h> files.
+
 For example:
 
-```
+```ini
   [Includes]
     TheIncludesDirectoryForThePackage
 ```
@@ -222,11 +224,11 @@ available are the modules that belong to the package which are libraries. The na
 the LIBRARY_CLASS names given in the various .INF files that belong to the package. This is used by the build system
 when your modules .INF [Packages] section includes this package and its [LibraryClasses] include a LibNameToReference.
 The build system then generates the #include to the header file in the autogen.h file so you don’t need to include it in
-your source modules. 
+your source modules.
 
 For example:
 
-```
+```ini
   ##  @libraryclass  Name description of library function.
   #   This library does something.
     LibNameToReference | relative/path/to/header.h
@@ -236,25 +238,25 @@ For example:
 
 Defines various GUIDS available / used by the package. It replaces #defines that would otherwise be in a .h file.
 However you still must define a .h file that includes an extern reference to the variable name.
-  
-For Example:  
+
+For Example:
 
 * note the `##`comment below is recommended for documentation but not required by the build system.
 
-```
+```ini
     ##location/of/extern/header.h
     gSomeVarGuid = {0x11111111, 0x2222, 0x3333, {0x44, 0x44, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55}}
 ```
 
 Now in a file /location/of/extern/header.h we add
 
-```
+```c
     extern EFI_GUID gSomeVarGuid;
 ```
 
 ### [Pcds . . .] -Sections
 
-```
+```ini
    [PcdsFeatureFlag]
    [PcdsFixedAtBuild]
    [PcdsFixedAtBuild,PcdsPatchableInModule]
@@ -267,10 +269,11 @@ discourage the use of #if define() type coding which could lead to difficulties 
 constants and "#define" variables within the source code.
 Instead it uses the compilers optimizations to strip the use of code not used by using PCDs. Also to make the code more
 portable, it is recommended to use of const variables over #defines where values may need to be patchable in binary
-form. 
+form.
+
 Example:
 
-```
+```ini
   [PcdsFixedAtBuild, PcdsPatchableInModule, PcdsDynamic, PcdsDynamicEx]
 
     . . .
@@ -286,7 +289,7 @@ Example:
 ## The .DSC file
 
 For the Spec and Description see: [DSC](EDK-II-Specifications#dsc) on the [EDK II
-Specifications](../../reference/specs-standards/EDK-II-Specifications.md) page 
+Specifications](../../reference/specs-standards/EDK-II-Specifications.md) page
 This file describes how to build a package; a package being a set of components to be provided together. Note the Build
 will need at least one .DSC file to be successful.
 
@@ -333,13 +336,14 @@ architecture specific sections by appending a period and architecture to the end
 This section can also be used for building a library referenced in the [Packages] section of an .INF file. This is used
 when you want to build a separate library and link to it in a traditional way or for debugging the library to ensure it
 builds properly.
-There must be at least one .inf file listed in the components section for the build to be successful
-For example:  
+There must be at least one .inf file listed in the components section for the build to be successful.
+
+For example:
 
 * Note: that the relative path is from the edk2 base directory and not the package directory (also referred to as the
   Work Space Directory)
 
-```
+```ini
   [Components]
      relative/path/to/module.inf
 ```

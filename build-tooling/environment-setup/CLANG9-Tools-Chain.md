@@ -69,7 +69,7 @@ please make sure to use the same version iasl compiler between different OS. E.g
 
 Linux:
 
-```
+```bash
 ~$ iasl -v
 Intel ACPI Component Architecture
 ASL+ Optimizing Compiler/Disassembler version 20180105
@@ -78,7 +78,7 @@ Copyright (c) 2000 - 2018 Intel Corporation
 
 Windows:
 
-```
+```batch
 >c:\ASL\iasl.exe -v
 Intel ACPI Component Architecture
 ASL+ Optimizing Compiler/Disassembler version 20180105
@@ -87,7 +87,7 @@ Copyright (c) 2000 - 2018 Intel Corporation
 
 ### The verbos build and run steps in Linux
 
-```
+```bash
 wget http://releases.llvm.org/9.0.0/clang+llvm-9.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
 tar -xvf clang+llvm-9.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
 sudo apt-get install build-essential git uuid-dev iasl nasm
@@ -102,7 +102,7 @@ qemu-system-x86_64 -m 5120 -smp 1 -bios ~/your/local/path/to/edk2/Build/Ovmf3264
 
 ### The verbos build and run steps in Windows
 
-```
+```batch
 Download the latest version Python from https://www.python.org/downloads/ and install it
 Download http://releases.llvm.org/9.0.0/LLVM-9.0.0-win64.exe and install it
 Download Visual Studio 2015 or 2017 or 2019 and install it, make sure nmake.exe, cl.exe, lib.exe and link.exe be ready.

@@ -56,7 +56,7 @@ file)](https://github.com/tianocore/edk2/archive/vUDK2018.zip)
         to enter the  workspace directory
     2) Compile the BaseTools C source tools
 
-```bat
+```batch
 set PYTHON_HOME=C:\Python27
 edksetup.bat Rebuild
 ```

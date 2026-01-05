@@ -23,7 +23,7 @@ r10974 DuetPkg: Use UefiCpuPkg/CpuDxe instead of DuetPkg/CpuDxe
 
 ## svn-log-to-oneline.awk
 
-```awk
+```text
 ## Convert svn log output to a single line per commit
 
 BEGIN { s=0 }

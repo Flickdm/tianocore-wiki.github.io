@@ -19,7 +19,7 @@ in *MdeModulePkg/Include/Protocol/Dpc.h*.
 
 The DPC protocol only has 2 interfaces: `QueueDpc()` and `DispatchDpc()`.
 
-```
+```c
 typedef
 EFI_STATUS
 (EFIAPI *EFI_DPC_QUEUE_DPC)(
@@ -40,7 +40,7 @@ The DPC driver does not take the responsibility to invoke the queued DPCs. Inste
 calls `QueueDpc()` is responsible for calling `DispatchDpc()` to dispatch them from lower TPL levels at an appropriate
 time.
 
-```
+```c
 typedef
 EFI_STATUS
 (EFIAPI *EFI_DPC_DISPATCH_DPC)(
@@ -137,7 +137,7 @@ Edk2 also provides a library interface DpcLib, which is a simple encapsulation o
 the 2 interfaces and accepts same parameters except the "*This*" pointer as the protocol interface. The library
 interface is more user-friendly since it reduces a *LocateProtocol()* call from the user.
 
-```
+```ini
 [LibraryClasses]
   # MdeModulePkg/Include/Library/DpcLib.h
   DpcLib|MdeModulePkg/Library/DxeDpcLib/DxeDpcLib.inf
@@ -145,7 +145,7 @@ interface is more user-friendly since it reduces a *LocateProtocol()* call from 
 
 The following code fragment shows a simple example of using the DpcLib.
 
-```
+```c
 #include <Library/DpcLib.h>
 
 /**
@@ -230,7 +230,7 @@ The writer of the DPC Procedure must realize that the function may be interrupte
 interface, or any other interfaces which eventually lead to a *DispatchDpc()*, such as to transmit a network packet,
 which finally calls *Mnp->Transmit()* with a *DispatchDpc()* in it.
 
-```
+```c
 /*
   Consider we have queued 3 DPC Procedures with same TPL level as below.
   DPC Queue: DpcFun_A -> DpcFun_B -> DpcFun_C
@@ -303,7 +303,7 @@ delivered to the upper layer driver, which may finally run into the original DPC
 complexities to the upper layer driver, like a serial of nested DPC call, or an infinite recursion of
 receive-poll-receive...
 
-```
+```c
 MnpPoll()
 {
   ...
@@ -345,7 +345,7 @@ upper layer drivers will malfunction. For example, a particular implementation o
 multiple packets in the MnpPoll(). So it calls gBS->SignalEvent() for every received packet, then uses a single
 DispatchDpc() to dispatch them as below.
 
-```
+```c
 // Bad example
 MnpPoll()
 {
@@ -366,7 +366,7 @@ The above implementation will result in nested DPC calls as we discussed before,
 The correct practice is to dispatch the DPC procedure inside the while loop, so these DPC procedures will be dispatched
 separately.
 
-```
+```c
 // Good example
 MnpPoll()
 {

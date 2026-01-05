@@ -227,8 +227,8 @@ VS Marketplace Link:
    >
    >```json
    >"uncrustify.configPath.windows": "D:/src/edk2/.pytool/Plugin/UncrustifyCheck/uncrustify.cfg",
->"uncrustify.executablePath.windows":
-"D:/src/edk2/.pytool/Plugin/UncrustifyCheck/mu-uncrustify-release_extdep/Windows-x86/uncrustify.exe"
+   >"uncrustify.executablePath.windows":
+   >"D:/src/edk2/.pytool/Plugin/UncrustifyCheck/mu-uncrustify-release_extdep/Windows-x86/uncrustify.exe"
    >```
 
 3. Open a C source code file, _`Ctrl+Shift+P` -> Format Document With... -> Configure Default Formatter -> Uncrustify_
@@ -321,11 +321,11 @@ Example to run against all .c and .h files in `MdePkg` executed from the root of
 
    Windows:
 
-   ```shell
-.\.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c
-.\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -f .\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableSmm.c -o
-output.c -l C -p uncrustify_debug.txt -L A 2>verbose_debug.txt
-   ```
+  ```shell
+  .\.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c
+  .\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -f .\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableSmm.c -o
+  output.c -l C -p uncrustify_debug.txt -L A 2>verbose_debug.txt
+  ```
 
 Uncrustify will update the source files in-place (with the commands given). This allows you to diff the results with
 git. From here, you can iteratively tweak the configuration file and check the results until you are satisfied with the

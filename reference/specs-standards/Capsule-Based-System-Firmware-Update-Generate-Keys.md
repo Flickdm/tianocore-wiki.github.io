@@ -19,19 +19,21 @@ require different command flags or configuration settings.
 
 > NOTE: The steps below are based on Microsoft Windows. Linux packages for OpenSSL will typically setup the environment correctly.
 
-```
+```batch
 set OPENSSL_HOME=c:\OpenSSL-Win32\bin
 set OPENSSL_CONF=%OPENSSL_HOME%\openssl.cfg
 ```
 
 The `openssl.cfg` file must be reviewed to find the current CA path setting.
 
-    [ CA_default ]
-        dir = ./demoCA              # Where everything is kept
+```ini
+[ CA_default ]
+    dir = ./demoCA              # Where everything is kept
+```
 
 The `demoCA` directory may need to be initialized before our command sequence will work properly:
 
-```
+```batch
 rmdir /s/q .\demoCA
 mkdir .\demoCA
 mkdir .\demoCA\newcerts
@@ -56,21 +58,21 @@ The `openssl req -new` command prompts the user for several pieces of informatio
 
 ### Generate a Root Key
 
-```
+```bash
 openssl genrsa -aes256 -out NewRoot.key 2048
 ```
 
 ### Generate a self-signed Root Certificate
 
-```
+```bash
 openssl req -new -x509 -days 3650 -key NewRoot.key -out NewRoot.crt
 ```
 
-```
+```bash
 openssl x509 -in NewRoot.crt -out NewRoot.cer -outform DER
 ```
 
-```
+```bash
 openssl x509 -inform DER -in NewRoot.cer -outform PEM -out NewRoot.pub.pem
 ```
 
@@ -78,25 +80,25 @@ openssl x509 -inform DER -in NewRoot.cer -outform PEM -out NewRoot.pub.pem
 
 ### Generate the Intermediate Key
 
-```
+```bash
 openssl genrsa -aes256 -out NewSub.key 2048
 ```
 
 ### Generate the Intermediate Certificate
 
-```
+```bash
 openssl req -new -days 3650 -key NewSub.key -out NewSub.csr
 ```
 
-```
+```bash
 openssl ca -extensions v3_ca -in NewSub.csr -days 3650 -out NewSub.crt -cert NewRoot.crt -keyfile NewRoot.key
 ```
 
-```
+```bash
 openssl x509 -in NewSub.crt -out NewSub.cer -outform DER
 ```
 
-```
+```bash
 openssl x509 -inform DER -in NewSub.cer -outform PEM -out NewSub.pub.pem
 ```
 
@@ -104,25 +106,25 @@ openssl x509 -inform DER -in NewSub.cer -outform PEM -out NewSub.pub.pem
 
 ### Generate User Key
 
-```
+```bash
 openssl genrsa -aes256 -out NewCert.key 2048
 ```
 
 ### Generate User Certificate
 
-```
+```bash
 openssl req -new -days 3650 -key NewCert.key -out NewCert.csr
 ```
 
-```
+```bash
 openssl ca -in NewCert.csr -days 3650 -out NewCert.crt -cert NewSub.crt -keyfile NewSub.key
 ```
 
-```
+```bash
 openssl x509 -in NewCert.crt -out NewCert.cer -outform DER
 ```
 
-```
+```bash
 openssl x509 -inform DER -in NewCert.cer -outform PEM -out NewCert.pub.pem
 ```
 
@@ -130,11 +132,11 @@ Convert the Key and Certificate for signing. The password is removed with `-node
 demonstration. If the `-nodes` flag is removed, the EDK II build will prompt for a password every time a capsule is
 signed.
 
-```
+```bash
 openssl pkcs12 -export -out NewCert.pfx -inkey NewCert.key -in NewCert.crt
 ```
 
-```
+```bash
 openssl pkcs12 -in NewCert.pfx -nodes -out NewCert.pem
 ```
 
@@ -142,19 +144,19 @@ openssl pkcs12 -in NewCert.pfx -nodes -out NewCert.pem
 
 ### Create a Test File
 
-```
+```bash
 echo Hello World > test.bin
 ```
 
 ### Generate Detached PKCS7 Signature from Signed Test File
 
-```
+```bash
 openssl smime -sign -binary -signer NewCert.pem -outform DER -md sha256 -certfile NewSub.pub.pem -out test.bin.p7 -in test.bin
 ```
 
 ### Verify PKCS7 Signature of Signed Test File
 
-```
+```bash
 openssl smime -verify -inform DER -in test.bin.p7 -content test.bin -CAfile NewRoot.pub.pem -out test.org.bin
 ```
 

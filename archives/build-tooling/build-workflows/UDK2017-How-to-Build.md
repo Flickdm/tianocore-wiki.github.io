@@ -56,7 +56,7 @@ folder. Warning the Windows* Binary tools are only valid for the tip of the
         to enter the  workspace directory
     2) Compile the BaseTools C source tools
 
-```bat
+```batch
 set PYTHON_HOME=C:\Python27
 set EDK_TOOLS_PATH=%CD%\BaseTools
 BaseTools\toolssetup.bat Rebuild

@@ -12,7 +12,7 @@ In order for a signed capsule to update the non-volatile storage device that tha
 that may be updated, an instance of the `PlatformFlashAccessLib` must be implemented. This library class provides a
 single API to update a portion of the non-volatile storage device.
 
-```
+```c
 EFI_STATUS
 EFIAPI
 PerformFlashWrite (
@@ -63,7 +63,7 @@ Platform DSC file described [here](Capsule-Based-System-Firmware-Update-DSC-FDF#
 
 The following `#defines` from `SystemFirmwareDescriptor.aslc` need to be updated for your platform:
 
-```
+```c
 #define PACKAGE_VERSION                     0xFFFFFFFF
 #define PACKAGE_VERSION_STRING              L"<Package Version String>"
 
@@ -88,7 +88,7 @@ The INI file is ASCII text. The first section is `[Head]`. The value of `NumHead
 components in the inventory. There must be an `UpdateX` statement assigned to a unique name for each component in the
 inventory. The example below shows a `[Head]` section that describes a single component.
 
-```
+```ini
 [Head]
 NumOfUpdate = 1
 Update0 = MyPlatformFvMain
@@ -101,7 +101,7 @@ FFS file to read, and the address range of the system's non-volatile storage dev
 using `PlatformFlashAccessLib` implemented above.  The example below shows the
 `[MyPlatformFvMain]` section from the `[Head]` example above.
 
-```
+```ini
 [MyPlatformFvMain]
 FirmwareType = 0            # SystemFirmware
 AddressType  = 0             # 0 - relative address, 1 - absolute address.

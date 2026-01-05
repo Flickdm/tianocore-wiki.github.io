@@ -6,14 +6,14 @@ Back to [Capsule Based System Firmware Update](Capsule-Based-System-Firmware-Upd
 * Generate a new GUID value.
 * Change `IMAGE_TYPE_ID_GUID` in `SystemFirmwareDescriptor.aslc` to new GUID Value.
 
-```
+```c
 #define IMAGE_TYPE_ID_GUID    { 0xdd3b39b6, 0xd919, 0x46b5, { 0x89, 0x62, 0x4b, 0xb6, 0xd2, 0x27, 0x9a, 0xf7 } }
 ```
 
 * Set PCD `gEfiMdeModulePkgTokenSpaceGuid.PcdSystemFmpCapsuleImageTypeIdGuid` in Platform DSC
 to the same new GUID value used for `IMAGE_TYPE_ID_GUID`.
 
-```
+```ini
 [PcdsDynamicExDefault.common.DEFAULT]
 !if $(CAPSULE_ENABLE)
   gEfiMdeModulePkgTokenSpaceGuid.PcdSystemFmpCapsuleImageTypeIdGuid|{0xb6, 0x39, 0x3b, 0xdd, 0x19, 0xd9, 0xb5, 0x46, 0x89, 0x62, 0x4b, 0xb6, 0xd2, 0x27, 0x9a, 0xf7}

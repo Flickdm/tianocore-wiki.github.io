@@ -19,7 +19,7 @@ Example:
 
 for Windows 10 64 bit OS and Visual Studio 2015 modify the following in Target.txt
 
-```
+```ini
 From:
 TOOL_CHAIN_TAG = MYTOOLS
 to:

@@ -10,7 +10,7 @@ Download the latest version of [Xcode](https://developer.apple.com/xcode) (12.5 
 Store. After installing Xcode, you will additionally need to install the extra command-line tools. To do this, at a
 Terminal prompt, enter:
 
-```
+```bash
 xcode-select --install
 ```
 
@@ -27,7 +27,7 @@ specification.
 
 ### Brew Instructions
 
-```
+```bash
 brew install mtoc
 ```
 
@@ -38,7 +38,7 @@ The assembler used for EDK II builds is Netwide Assembler (NASM). The latest ver
 
 ## Brew Instructions
 
-```
+```bash
 brew install nasm
 brew upgrade nasm
 ```
@@ -51,7 +51,7 @@ code.
 
 ## Brew Install
 
-```
+```bash
 brew install acpica
 brew upgrade acpica
 ```
@@ -68,7 +68,7 @@ On order to support running the OVMF platforms from the OvmfPkg, the QEMU emulat
 
 ## Brew Install
 
-```
+```bash
 brew install qemu
 brew upgrade qemu
 ```
@@ -78,7 +78,7 @@ brew upgrade qemu
 Tools installed using the `brew` command are placed in `/usr/local/bin`. The `PATH` environment variable must be updated
 so the newly installed tools are used instead of older pre-installed tools.
 
-```
+```bash
 export PATH=/usr/local/bin:$PATH
 ```
 
@@ -86,7 +86,7 @@ export PATH=/usr/local/bin:$PATH
 
 Run the following commands to verify the versions of the tools that have been installed.
 
-```
+```bash
 nasm –v
 iasl –v
 qemu-system-x86_64 --version
@@ -97,7 +97,7 @@ mtoc
 
 Pick the location you want to down load the files to and `cd` to that directory:
 
-```
+```bash
 cd ~/work
 git clone https://github.com/tianocore/edk2.git
 cd edk2
@@ -108,14 +108,14 @@ git submodule update --init
 
 Build the EmulatorPkg:
 
-```
+```bash
 cd ~/work/edk2/EmulatorPkg
 ./build.sh
 ```
 
 Debug the EmulatorPkg
 
-```
+```bash
 ./build.sh run
 
 Initializing workspace
@@ -144,7 +144,7 @@ EDK II UNIX Host Emulation Environment from http://www.tianocore.org/edk2/
 Type `process interrupt` at the lldb prompt (don't forget to hit carriage return) to pause execution. Ctrl-c in the
 terminal window will quit lldb. `bt` is the stack backtrace command:
 
-```
+```bash
 Process 12420 stopped
 * thread #1, queue = 'com.apple.main-thread', stop reason = signal SIGSTOP
     frame #0: 0x00007fff2033cc22 libsystem_kernel.dylib:__semwait_signal() + 10

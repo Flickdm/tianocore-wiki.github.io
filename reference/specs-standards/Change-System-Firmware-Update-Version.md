@@ -15,7 +15,7 @@ Change Version Value and Version String
 The following is a portion of the `SystemFirmwareDescriptor.aslc` that contains the version
 values and strings.
 
-```
+```c
 #define CURRENT_FIRMWARE_VERSION            0x00000010
 #define CURRENT_FIRMWARE_VERSION_STRING     L"Version 0.0.0.16"
 #define LOWEST_SUPPORTED_FIRMWARE_VERSION   0x0000000A
@@ -44,7 +44,7 @@ details. In the example below,
 * **`CURRENT_FIRMWARE_VERSION_STRING`** is in the field called `VersionName` with a value of `"Version 0.0.0.16"`.
 * **`LOWEST_SUPPORTED_FIRMWARE_VERSION`** is in the field called `LowestSupportedImageVersion` with a value of `0xA`.
 
-```
+```text
 ### FMP DATA
 
 FMP (0) ImageInfo:
