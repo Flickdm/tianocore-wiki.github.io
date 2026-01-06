@@ -1,0 +1,11 @@
+.git/
+.github/
+.vscode/
+.venv/
+book/
+build_error.txt
+markdownlint-output.json
+readme.md
+LICENSE
+.gitignore
+.markdownlint.json

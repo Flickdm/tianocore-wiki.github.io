@@ -26,7 +26,7 @@ Features](https://github.com/tianocore/tianocore.github.io/wiki/RoadMap2014)
 ## [July 28, 2013](http://www.tianocore.org/news/2013/07/28/news.html)
 
 Announcing the latest UDK2010 Release UDK2010.SR1.UP1.P1. Goto
-[Download](https://github.com/tianocore/tianocore.github.io/wiki/UDK2010) the release and documentation.
+[Download](../../releases-history/archives/udk2010.md) the release and documentation.
 UDK2010.SR1.UP1.P1 release will deliver the remaining UEFI 2.3.1 support. Specific details of what is new is contained
 in the [Release
 Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-ReleaseNotes-MyWorkSpace.txt/download).

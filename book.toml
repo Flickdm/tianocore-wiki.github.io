@@ -3,16 +3,17 @@ title = "TianoCore EDK II Documentation"
 authors = ["TianoCore Community"]
 description = "Documentation for EDK II, the open source UEFI firmware development environment"
 language = "en"
-multilingual = false
 src = "."
 
 [build]
 build-dir = "book"
 create-missing = false
+extra-watch-dirs = []
 
 [preprocessor]
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
+
 [preprocessor.admonish]
 command = "mdbook-admonish"
 assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
@@ -21,11 +22,9 @@ assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
 default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/tianocore/tianocore.github.io"
-git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/tianocore/tianocore.github.io/edit/main/{path}"
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
-additional-css = ["theme/mdbook-admonish.css","theme/footer.css"]
-additional-html = "theme/footer.html"
+additional-css = ["theme/mdbook-admonish.css"]
 
 [output.html.search]
 enable = true

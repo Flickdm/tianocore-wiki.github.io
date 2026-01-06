@@ -93,8 +93,10 @@ file-system uses Ext4.
 
 Build the kernel.
 
+```
 make -j4 ARCH=arm64
 CROSS_COMPILE=<path-to-aarch64-gcc>/gcc-linaro-aarch64-linux-gnu-4.8-2013.06_linux/bin/aarch64-linux-gnu-
+```
 
 You should get the binaries:
 
@@ -116,9 +118,11 @@ image. To workaround this limitation, we use the
 
 To build the 'uefi-aarch64-bootstrap':
 
+```
     pushd ArmPlatformPkg/ArmVExpressPkg/Scripts/uefi-aarch64-bootstrap/
     CROSS_COMPILE=<path-to-aarch64-gcc>/gcc-linaro-aarch64-linux-gnu-4.8-2013.06_linux/bin/aarch64-linux-gnu- make
     popd
+```
 
 3\) The Foundation FVP takes an option for an ELF file to be loaded as
 well as an option to load a binary data blob into RAM.

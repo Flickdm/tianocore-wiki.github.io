@@ -8,7 +8,6 @@
 - [Build Instructions](build-tooling/build-workflows/build_instructions.md)
 - [EDK II Platforms](platforms-packages/platform-ports/edk_ii_platforms.md)
 - [EDK II Documents](reference/external-resources/edk_ii_documents.md)
-- [EDK II Release Planning](releases-history/planning-roadmaps/edk_ii_release_planning.md)
 - [Reporting Issues](community/support-onboarding/reporting_issues.md)
 - [Reporting Security Issues](security/processes/reporting_security_issues.md)
 - [Community Information](community/support-onboarding/community_information.md)
@@ -16,8 +15,6 @@
 - [Training](community/support-onboarding/training.md)
 - [Community Support](community/support-onboarding/community_support.md)
 - [Community Virtual Meetings](governance/meetings-minutes/community_virtual_meetings.md)
-- [GHSA GitHub Security Advisories Process (Draft)](security/processes/ghsa_github_security_advisories_process_draft.md)
-- [Infosec GHSA Process Proposal (Draft)](security/processes/infosec_ghsa_process_proposal_draft.md)
 
 ---
 
@@ -26,7 +23,6 @@
 - [Build Workflows](build-tooling/build-workflows/basetools_support_python2_python3.md)
   - [Basetools](build-tooling/build-workflows/base_tools.md)
   - [Build Description Files](build-tooling/build-workflows/build_description_files.md)
-  - [Build Instructions](build-tooling/build-workflows/build_instructions.md)
   - [Build](build-tooling/build-workflows/build.md)
   - [Common Instructions for Unix](build-tooling/build-workflows/common_instructions_for_unix.md)
   - [Common Instructions](build-tooling/build-workflows/common_instructions.md)
@@ -72,17 +68,13 @@
   - [OSFC 2018](community/events-outreach/osfc_2018.md)
   - [YVR 2018](community/events-outreach/yvr_2018.md)
 
-- [Support & Onboarding](community/support-onboarding/about_the_community.md))
-  - [Community Information](community/support-onboarding/community_information.md)
-  - [Community Support](community/support-onboarding/community_support.md)
+- [Support & Onboarding](community/support-onboarding/about_the_community.md)
   - [How to Become a Contributor](community/support-onboarding/how_to_become_a_contributor.md)
   - [Member FAQ](community/support-onboarding/member_faq.md)
-  - [Reporting Issues](community/support-onboarding/reporting_issues.md)
   - [Site Changes under Construction](community/support-onboarding/site_changes_under_construction.md)
   - [Tianocore the Site](community/support-onboarding/tianocore_the_site.md)
   - [Tianocore User Help](community/support-onboarding/tianocore_user_help.md)
   - [Tianocore Who We Are](community/support-onboarding/tianocore_who_we_are.md)
-  - [Training](community/support-onboarding/training.md)
   - [Welcome](community/support-onboarding/welcome.md)
   - [Who We Are](community/support-onboarding/who_we_are.md)
 
@@ -107,7 +99,7 @@
   - [GitHub Access and Usage](development/contribution-guides/github_access_and_usage.md)
   - [GitHub PR Tips](development/contribution-guides/github_pr_tips.md)
   - [How to Contribute](development/contribution-guides/how_to_contribute.md)
-  - [Laszlo's Unkempt Git Guide for EDK II Contributors and Maintainers](development/contribution-guides/laszlo's_unkempt_git_guide_for_edk2_contributors_and_maintainers.md)
+  - [Laszlo's Unkempt Git Guide for EDK II Contributors and Maintainers](development/contribution-guides/laszlos_unkempt_git_guide_for_edk2_contributors_and_maintainers.md)
   - [Source Control](development/contribution-guides/source_control.md)
   - [Sourceforge to GitHub Quick Start](development/contribution-guides/sourceforge_to_github_quick_start.md)
 
@@ -134,7 +126,6 @@
   - [EDK II Network over QEMU](development/tutorials-howto/edkii_network_over_qemu.md)
   - [Enable UEFI PXE Boot in EDK II](development/tutorials-howto/enable_uefi_pxe_boot_in_edk_ii.md)
   - [FMP Capsule Dependency Introduction](development/tutorials-howto/fmp_capsule_dependency_introduction.md)
-  - [Getting Started with EDK II](development/tutorials-howto/getting_started_with_edk_ii.md)
   - [Getting Started Writing Myhelloworld.c](development/tutorials-howto/getting_started_writing_myhelloworld_c.md)
   - [Getting Started Writing Myhelloworld.inf](development/tutorials-howto/getting_started_writing_myhelloworld_inf.md)
   - [Getting Started Writing Simple Application](development/tutorials-howto/getting_started_writing_simple_application.md)
@@ -147,7 +138,7 @@
   - [How to Run OVMF](development/tutorials-howto/how_to_run_ovmf.md)
   - [Memory Leak Detection with Memory Profile Feature](development/tutorials-howto/memory_leak_detection_with_memory_profile_feature.md)
   - [Micropython](development/tutorials-howto/micropython.md)
-  - [Nate's Recommended Vscode Extensions and Settings](development/tutorials-howto/nate's_recommended_vscode_extensions_and_settings.md)
+  - [Nate's Recommended Vscode Extensions and Settings](development/tutorials-howto/nates_recommended_vscode_extensions_and_settings.md)
   - [New to Git](development/tutorials-howto/new_to_git.md)
   - [Obb Verification](development/tutorials-howto/obb_verification.md)
   - [Porting an Edk Shell Extension](development/tutorials-howto/porting_an_edk_shell_extension.md)
@@ -157,11 +148,12 @@
   - [Testing Smm with QEMU, Kvm and Libvirt](development/tutorials-howto/testing_smm_with_qemu,_kvm_and_libvirt.md)
   - [UEFI Application](development/tutorials-howto/uefi_application.md)
   - [UEFI Capsule on Disk Introducation](development/tutorials-howto/uefi_capsule_on_disk_introducation.md)
-  - [UEFI Driver Writer's Guide](development/tutorials-howto/uefi_driver_writer's_guide.md)
+  - [UEFI Driver Writer's Guide](development/tutorials-howto/uefi_driver_writers_guide.md)
   - [UEFI Drivers](development/tutorials-howto/uefi_drivers.md)
   - [UEFI EDK II Learning Dev](development/tutorials-howto/uefi_edkii_learning_dev.md)
   - [UEFI SCT](development/tutorials-howto/uefi_sct.md)
   - [UEFI Ubuntu](development/tutorials-howto/uefi_ubuntu.md)
+
 
 ---
 
@@ -173,7 +165,6 @@
 
 - [Meetings Minutes](governance/meetings-minutes/community_meeting_minutes.md)
   - [Community Virtual Meetings Archive](governance/meetings-minutes/community_virtual_meetings_archive.md)
-  - [Community Virtual Meetings](governance/meetings-minutes/community_virtual_meetings.md)
   - [Design Meeting](governance/meetings-minutes/design_meeting.md)
   - [Monthly Meeting](governance/meetings-minutes/monthly_meeting.md)
 
@@ -202,9 +193,7 @@
   - [Tasks Text Editor](governance/project-management/tasks_text_editor.md)
   - [Tasks UefiCpuPkg CpuDxe MP Support](governance/project-management/tasks_ueficpupkg_cpudxe_mp_support.md)
   - [Tasks USB Serial Adapter Driver](governance/project-management/tasks_usb_serial_adapter_driver.md)
-  - [Tasks](governance/project-management/tasks.md)
   - [Transition to GitHub](governance/project-management/transition_to_github.md)
-  - [Unfixable Links](governance/project-management/unfixable_links.md)
 
 ---
 
@@ -275,7 +264,6 @@
   - [Beagleboardpage](platforms-packages/platform-ports/beagle_board_page.md)
   - [BeagleboardPkg](platforms-packages/platform-ports/beagle_board_pkg.md)
   - [Coreboot UEFI Payload](platforms-packages/platform-ports/coreboot_uefi_payload.md)
-  - [EDK II Platforms](platforms-packages/platform-ports/edk_ii_platforms.md)
   - [EmulatorPkg](platforms-packages/platform-ports/emulator_pkg.md)
   - [Galileo](platforms-packages/platform-ports/galileo.md)
   - [Intel Atom Processor E3900](platforms-packages/platform-ports/intel_atom_processor_e3900.md)
@@ -300,8 +288,7 @@
 
 # Projects
 
-- [Additional Projects Other](projects/additional_projects_other.md)
-- [Additional Projects](projects/additional_projects.md)
+- [Additional Projects Other](Projects/additional_projects_other.md)
 
 ---
 
@@ -312,7 +299,6 @@
 
 - [External Resources](reference/external-resources/documents.md)
   - [ECP](reference/external-resources/ecp.md)
-  - [EDK II Documents](reference/external-resources/edk_ii_documents.md)
   - [EDK II Information](reference/external-resources/edk_ii_information.md)
   - [EDK II Libraries and Helper Files](reference/external-resources/edk_ii_libraries_and_helper_files.md)
   - [EDK II Overview](reference/external-resources/edk_ii_overview.md)
@@ -398,7 +384,6 @@
 
 - [Processes](security/processes/ghsa_github_security_advisories_process_draft.md)
   - [Infosec GHSA Process Proposal (draft)](security/processes/infosec_ghsa_process_proposal_draft.md)
-  - [Reporting Security Issues](security/processes/reporting_security_issues.md)
   - [Security Advisory Process](security/processes/security_advisory_process.md)
 
 - [EDK II Security White Papers](security/tools-practices/edk_ii_security_white_papers.md)
