@@ -3,14 +3,14 @@
 Security Advisory Process
 
 Now using Security reporting through the following:
-[Reporting Security Issues](Reporting_Security_Issues)
+[Reporting Security Issues](reporting_security_issues.md)
 
 Below for archive reference only
 
 ------------------------------------------------------------------------
 
 - **IMPORTANT:** All mail sent via this reflector are TianoCore
-  [Code Contributions](Code_Contributions)
+  [Code Contributions](development/contribution-guides/code_contributions.md)
 
 - **IMPORTANT:** Please consider encrypting your message. We support
   S/MIME. If you do not have encryption available, describe the issue in

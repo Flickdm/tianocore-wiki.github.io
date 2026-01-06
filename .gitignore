@@ -1,0 +1,16 @@
+# mdBook build output
+book/
+*.swp
+*.swo
+*~
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Markdownlint output
+markdownlint-output.json

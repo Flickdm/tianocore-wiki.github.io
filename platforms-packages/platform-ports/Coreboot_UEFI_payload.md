@@ -1,8 +1,6 @@
 # Coreboot Uefi Payload
 
-\_\_NOTOC\_\_
-
-### Outdated
+## Outdated
 
 Please see the updated page [UefiPayloadpkg](UefiPayloadpkg) that replaces the
 CorebootModulePkg and CorebootPayloadPkg

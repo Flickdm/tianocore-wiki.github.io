@@ -1,7 +1,7 @@
 # Xcode
 
 This page provides step-by-step instructions for setting up a [EDK
-II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II) build environment on macOS systems using the Xcode
+II](../../reference/external-resources/edk_ii.md) build environment on macOS systems using the Xcode
 development tools. These steps have been verified with macOS Big Sur 11.3.1
 
 ## macOS Xcode
@@ -196,5 +196,5 @@ and `__semwait_signal` are POSIX library calls and you do not get C source debug
 
 ## Continue with common instructions
 
-The [remaining instructions](https://github.com/tianocore/tianocore.github.io/wiki/Common-instructions-for-Unix) are
+The [remaining instructions](../build-workflows/common_instructions_for_unix.md) are
 common for most UNIX-like systems.

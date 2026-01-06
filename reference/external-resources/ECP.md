@@ -8,8 +8,7 @@ recommend continuing to use ECP in current projects.
 
 ## ECP FAQ
 
-### Why does the EFI Compatibility package (ECP) have its starting point at EDK 1.01 since EDK 1.01 only supports UEFI
-2.0 of the Spec.? Doesn’t that indicate that backwards compatibility was not considered?
+### Why does ECP start at EDK 1.01 when it only supports UEFI 2.0?
 
 The purpose of the ECP is to provide backwards compatibility for EDK I
 style source modules that assume UEFI 2.0/Framework 0.9. The ECP uses a
@@ -35,9 +34,9 @@ phase.
 
 There is currently not any Documented ECP guide but the help (.chm and
 .html) files for the package are on tianocore.org: Latest release will
-be on [UDK2010](UDK2010)
+be on [UDK2010](../../releases-history/archives/udk2010_releases.md)
 under the Documents Section of the latest release for the
-[EdkCompatibilityPkg](EdkCompatibilityPkg)
+[EdkCompatibilityPkg](../../archives/platforms-packages/edk_compatibility_pkg.md)
 
 ### What are Native and ECP? And what is different about the EDK II libraries?
 

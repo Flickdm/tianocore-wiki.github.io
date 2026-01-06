@@ -5,8 +5,8 @@ of a running OS. EDK II has PXE Boot specification compliant implementation for 
 to as "PXE boot".
 
 This page describes the operation of PXE. There are separate pages describing how to [Enable UEFI PXE Boot in EDK
-II](../../development/tutorials-howto/Enable-UEFI-PXE-Boot-in-EDK-II.md) and [Configuring PXE Boot Servers for
-UEFI](../../development/tutorials-howto/Configuring-PXE-Boot-Servers-for-UEFI.md).
+II](../../development/tutorials-howto/enable_uefi_pxe_boot_in_edk_ii.md) and [Configuring PXE Boot Servers for
+UEFI](../../development/tutorials-howto/configuring_pxe_boot_servers_for_uefi.md).
 
 ## History & Related Specifications
 
@@ -86,7 +86,7 @@ then select most preferred offer among all the received offers.
 
 This section will briefly introduce the PXE boot process, please refer the section 2.2 of PXE v2.1 specification for a
 detailed step-by-step synopsis of the PXE protocol.
-![PXE Boot](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/PXE_Boot.png "PXE BOOT (PXE
+![PXE Boot](../../Projects/NetworkPkg/images/PXE_Boot.png "PXE BOOT (PXE
 Spec V2.1 Figure 2-1)")
 The picture shows a typical IPv4 PXE boot flow (it's from PXE Spec V2.1 Figure 2-1).
 
@@ -142,4 +142,4 @@ Operating systems used to verify EDK II PXE Boot functionality:
 4. UEFI PXE Boot Performance Analysis:
 [https://software.intel.com/sites/default/files/managed/2d/04/intel-uefi-pxe-boot-performance-analysis.pdf](https://software.intel.com/sites/default/files/managed/2d/04/intel-uefi-pxe-boot-performance-analysis.pdf)
 5. NetworkPkg Getting Started Guide:
-[https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide](https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide)
+[NetworkPkg Getting Started Guide](../core-packages/networkpkg_getting_started_guide.md)

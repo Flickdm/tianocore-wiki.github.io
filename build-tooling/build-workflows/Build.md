@@ -1,10 +1,12 @@
 # Frequently asked EDK II build questions
 
-`Note: This page is retained for reference. Most of the content as of 2022 is still relevant but it is recommended to`
-`view the new set of build instructions that describe how to develop using containers and build with the Stuart`
-`application.`
+New instructions: [Build Instructions](build_instructions.md)
 
-New instructions: [Build Instructions](Build-Instructions.md)
+```admonish note title="Updated Page"
+This page is retained for reference. Most of the content as of 2022 is still relevant, but it is recommended to
+view the new set of build instructions that describe how to develop using containers and build with the Stuart
+application.
+```
 
 ## Regarding the Build for EDK II, how do you specify a different compiler tool chain on the command line?
 
@@ -14,7 +16,7 @@ Visual Studio 2019 tool chain ...
 `build –t VS2019`
 
 For using other tools see
-[Getting Started with EDK II](../../development/tutorials-howto/Getting-Started-with-EDK-II.md).
+[Getting Started with EDK II](../../development/tutorials-howto/getting_started_with_edk_ii.md).
 This provides some detailed instructions for setting up some different
 tool chains? The file Conf/tools_def.txt contains a list of targets.
 
@@ -30,8 +32,8 @@ options.
 For EDK II, yes, the build tools will need to be recompiled for GCC.
 Link for how to Build for GCC:
 
-- [Using EDK II with Native GCC](../environment-setup/Using-EDK-II-with-Native-GCC.md)
-- [Unix-like systems](../environment-setup/Unix-like-systems.md) (For older Linux
+- [Using EDK II with Native GCC](../environment-setup/using_edk_ii_with_native_gcc.md)
+- [Unix-like systems](build-tooling/environment-setup/unix_like_systems.md) (For older Linux
   distributions, or when using Cygwin or Mac OS X)
 
 ## What does the parsing tool do?
@@ -74,7 +76,7 @@ Linux, Unix, and OS/X systems, these sources are used to build the
 binaries for that OS, or in the case of Python, the Python sources are
 executed directly.
 
-The [BaseTools](BaseTools)
+The [BaseTools](build-tooling/build-workflows/base_tools.md)
 Source Project is where advanced development is done on the EDK II
 tools. Tool developers work in this separate project until a new feature
 is stable, and only once it is stable is a feature added to the
@@ -96,8 +98,7 @@ the build. But here is an example:
 The report generator can show protocols produced by modules. The Runtime
 DXE core will also report what is missing before handing off.
 
-## Why is the Buffer Security check flag (Build options) disabled for building EDK II UEFI applications and drivers but
-it is enabled for building tools
+## Buffer Security Check Flag Behavior
 
 UEFI applications and drivers are not executed in an Operating System
 environment. This is important, as the switches have very specific (and,

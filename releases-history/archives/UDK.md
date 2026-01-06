@@ -1,25 +1,25 @@
 # UEFI Development Kit (UDK)
 
 The UEFI Development Kit (UDK) is a stable release of portions of [EDK
-II](../../reference/external-resources/EDK-II.md). UDK releases are tested against Intel architecture platforms, and
+II](../../reference/external-resources/edk_ii.md). UDK releases are tested against Intel architecture platforms, and
 omits components that cannot be validated on those configurations.
 
 ## Transition to Stable Tags
 
-_**Note: EDK II has moved to a '[stable tag](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II#stable-tags)'
+_**Note: EDK II has moved to a '[stable tag](../../reference/external-resources/edk_ii.md#stable-tags)'
 release format, which occurs every three months. Info on UDK is presented for historical purposes.**_
 
-## Past Releases: [UDK2018](UDK2018.md) / [UDK2017](UDK2017.md) / [UDK2015](UDK2015.md) / [UDK2014](UDK2014.md) / [UDK2010](UDK2010.md) / [UDK2008](https://github.com/tianocore/edk2/tree/UDK2008)
+## Past Releases: [UDK2018](udk2018.md) / [UDK2017](udk2017.md) / [UDK2015](udk2015.md) / [UDK2014](udk2014.md) / [UDK2010](udk2010.md) / [UDK2008](https://github.com/tianocore/edk2/tree/UDK2008)
 
 ## Differences Between UDK and EDK II
 
-[EDK II](../../reference/external-resources/EDK-II.md) is the open source project for which volunteers participate in
+[EDK II](../../reference/external-resources/edk_ii.md) is the open source project for which volunteers participate in
 development. The tip of this project is constantly updated for fixes and enhancements.
 
-[UDK](UDK.md) releases represent a fully validated implementation of a specific revision of [EDK
-II](../../reference/external-resources/EDK-II.md) source, tested against Intel Architecture platforms. A UDK release is
+[UDK](udk.md) releases represent a fully validated implementation of a specific revision of [EDK
+II](../../reference/external-resources/edk_ii.md) source, tested against Intel Architecture platforms. A UDK release is
 a subset of available EDK II packages, since not all packages can be validated on Intel platforms. Each UDK release
 lists the corresponding EDK II version in the release notes. Each release is available as a ZIP file, and is mapped to a
 branch of the EDK II github project (example:
 [https://github.com/tianocore/edk2/tree/UDK2017](https://github.com/tianocore/edk2/tree/UDK2017) for
-[UDK2017](UDK2017.md)).
+[UDK2017](udk2017.md)).

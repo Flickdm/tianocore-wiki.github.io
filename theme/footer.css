@@ -1,0 +1,19 @@
+/* Footer navigation styling */
+.footer-nav {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-top: 2px solid var(--sidebar-bg);
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer-nav a {
+    margin: 0 0.8rem;
+    white-space: nowrap;
+}
+
+.footer-nav .separator {
+    margin: 0 0.3rem;
+    color: var(--sidebar-non-existant);
+}

@@ -1,6 +1,6 @@
 # Galileo
 
-[EDK II Platforms](EDK-II-Platforms.md) | [Intel® Processor Platforms](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Platforms#intel-processor-platforms)
+[EDK II Platforms](edk_ii_platforms.md) | [Intel® Processor Platforms](edk_ii_platforms.md#intel-processor-platforms)
 
 ***
 

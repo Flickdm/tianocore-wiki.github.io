@@ -5,9 +5,9 @@ member contributions are listed here.
 
 ## EDK
 
-II Documents</a>
+II Documents
 
 ## EDK Documents
 
-- [EDK User Documentation](../../archives/reference/EDK.md)
-- [EDK Member Documents](EDK_Member_Documents)
+- [EDK User Documentation](../../archives/reference/edk.md)
+- [EDK Member Documents](../../archives/reference/edk_member_documents.md)
